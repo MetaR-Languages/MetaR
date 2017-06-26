@@ -2,8 +2,9 @@
 .mps/vcs.xml
 */*/source_gen/**/*
 */*/source_gen.caches/**/*
-*/*/classes_gen/**/*.class
-*/*/classes_gen/**/trace.info
+#*/*/classes_gen/**/*.class
+#*/*/classes_gen/**/trace.info
+*/*/classes_gen/**/*
 *.class
 trace.info
 dependencies
