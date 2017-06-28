@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:118787e5-0898-4946-a77b-76f2ee11ab73(org.campagnelab.metar.scRNA.analysis.generator.template.main@generator)">
+<model ref="r:118787e5-0898-4946-a77b-76f2ee11ab73(org.campagnelab.metar.seurat.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="6562d9c6-fb82-4150-9d7f-5e4f50d7bba1" name="org.campagnelab.metar.scRNA.analysis" version="-1" />
