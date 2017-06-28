@@ -224,7 +224,7 @@
         <property role="2Ym5z5" value="80" />
         <property role="2Ym5Gb" value="100" />
         <property role="2QJ4vL" value="10" />
-        <property role="EtNkl" value="2" />
+        <property role="EtNkl" value="20" />
         <node concept="3VlkzF" id="6TmyYlI_irI" role="2Ym92R">
           <ref role="3Vkrsu" node="6TmyYlI_irH" resolve="CovariateForSimulateDataset_MWJEDDKJYN" />
         </node>
@@ -3074,7 +3074,7 @@
         <property role="3_4oQY" value="1000" />
         <property role="3_4RVp" value="122332" />
         <property role="3_4oQV" value="true" />
-        <property role="0NFRX" value="2" />
+        <property role="0NFRX" value="3" />
         <property role="27rfVz" value="10" />
         <node concept="3MlLWZ" id="2561NaN_7KZ" role="2iMLWB">
           <property role="TrG5h" value="Results" />
