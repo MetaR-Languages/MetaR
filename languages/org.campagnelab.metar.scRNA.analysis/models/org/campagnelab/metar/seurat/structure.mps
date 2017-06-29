@@ -128,7 +128,7 @@
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksL">
     <property role="EcuMT" value="4315879884705580849" />
-    <property role="TrG5h" value="IFilterSeurat" />
+    <property role="TrG5h" value="ICleanupSeurat" />
     <property role="3GE5qa" value="CleanUpOp" />
     <node concept="PrWs8" id="3J_5udX8lD1" role="PrDN$">
       <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
@@ -138,13 +138,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="strategies" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+      <ref role="20lvS9" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksM">
     <property role="EcuMT" value="4315879884705580850" />
-    <property role="TrG5h" value="IAddSeurat" />
-    <property role="3GE5qa" value="AddOp" />
+    <property role="TrG5h" value="IAddInfoSeurat" />
+    <property role="3GE5qa" value="AddInfoOp" />
     <node concept="PrWs8" id="3J_5udX8lD3" role="PrDN$">
       <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
     </node>
@@ -152,7 +152,7 @@
       <property role="IQ2ns" value="4315879884705586857" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="condition" />
-      <ref role="20lvS9" node="3J_5udX8s65" resolve="SeuratCondition" />
+      <ref role="20lvS9" node="3J_5udX8s65" resolve="SeuratCleanupCondition" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksN">
@@ -193,13 +193,13 @@
   <node concept="PlHQZ" id="3J_5udX8lD5">
     <property role="EcuMT" value="4315879884705585733" />
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
-    <property role="TrG5h" value="IFilterStrategy" />
+    <property role="TrG5h" value="ICleanupStrategy" />
     <node concept="1TJgyj" id="3J_5udX8lUB" role="1TKVEi">
       <property role="IQ2ns" value="4315879884705586855" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="conditions" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="3J_5udX8s65" resolve="SeuratCondition" />
+      <ref role="20lvS9" node="3J_5udX8s65" resolve="SeuratCleanupCondition" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8lDl">
@@ -223,12 +223,13 @@
     <property role="R4oN_" value="Cleanup function for the seurat data" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="3J_5udX8p0r" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udX8ksL" resolve="IFilterSeurat" />
+      <ref role="PrY4T" node="3J_5udX8ksL" resolve="ICleanupSeurat" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX8s65">
     <property role="EcuMT" value="4315879884705612165" />
-    <property role="TrG5h" value="SeuratCondition" />
+    <property role="TrG5h" value="SeuratCleanupCondition" />
+    <property role="3GE5qa" value="CleanUpOp" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3J_5udX8s66" role="1TKVEi">
       <property role="IQ2ns" value="4315879884705612166" />
@@ -275,7 +276,7 @@
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="PrWs8" id="3J_5udX8QXG" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX8VC3">
@@ -285,7 +286,7 @@
     <property role="34LRSv" value="by rejecting cell" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udX8VC4" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX8VC6">
@@ -295,7 +296,7 @@
     <property role="34LRSv" value="by regressing out" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udX8VC7" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
     </node>
     <node concept="1TJgyj" id="3J_5udXaeJB" role="1TKVEi">
       <property role="IQ2ns" value="4315879884706081767" />
@@ -311,7 +312,7 @@
     <property role="TrG5h" value="EmptyStrategy" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udX9gRo" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXaa01">
@@ -341,7 +342,7 @@
       <ref role="20lvS9" node="3J_5udXaU7w" resolve="IVarMean" />
     </node>
     <node concept="PrWs8" id="3J_5udXaYJv" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udXaU7w">
@@ -402,6 +403,84 @@
     <property role="TrG5h" value="EmptyVarMean" />
     <node concept="PrWs8" id="3J_5udXb2ri" role="PzmwI">
       <ref role="PrY4T" node="3J_5udXaU7w" resolve="IVarMean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXbhkz">
+    <property role="EcuMT" value="4315879884706354467" />
+    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="TrG5h" value="AddInfoSeurat" />
+    <property role="R4oN_" value="Add extra information to seurat data" />
+    <property role="34LRSv" value="add info" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="3J_5udXbhlN" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706354547" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="info" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udXbhlM" resolve="IAdditionalInfo" />
+    </node>
+    <node concept="PrWs8" id="3J_5udXbhm7" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8ksM" resolve="IAddInfoSeurat" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udXbhlM">
+    <property role="EcuMT" value="4315879884706354546" />
+    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="TrG5h" value="IAdditionalInfo" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXbriB">
+    <property role="EcuMT" value="4315879884706395303" />
+    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="TrG5h" value="PCInformation" />
+    <property role="34LRSv" value="principal components" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3J_5udXbriC" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IAdditionalInfo" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXbwk0">
+    <property role="EcuMT" value="4315879884706415872" />
+    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="TrG5h" value="ClustersInformation" />
+    <property role="34LRSv" value="clusters" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3J_5udXbwk1" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IAdditionalInfo" />
+    </node>
+    <node concept="1TJgyi" id="3J_5udXbwk3" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706415875" />
+      <property role="TrG5h" value="rangeLow" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3J_5udXbwk5" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706415877" />
+      <property role="TrG5h" value="rangeHigh" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3J_5udXbwk8" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706415880" />
+      <property role="TrG5h" value="resolution" />
+      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXbEhJ">
+    <property role="EcuMT" value="4315879884706456687" />
+    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="TrG5h" value="MarkersInformation" />
+    <property role="34LRSv" value="markers" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3J_5udXbEhK" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IAdditionalInfo" />
+    </node>
+    <node concept="1TJgyi" id="3J_5udXbEhL" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706456689" />
+      <property role="TrG5h" value="xFold" />
+      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+    </node>
+    <node concept="1TJgyi" id="3J_5udXbEhP" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706456693" />
+      <property role="TrG5h" value="fraction" />
+      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
     </node>
   </node>
 </model>
