@@ -14,11 +14,15 @@
       </concept>
     </language>
     <language id="6562d9c6-fb82-4150-9d7f-5e4f50d7bba1" name="org.campagnelab.metar.seurat">
-      <concept id="4315879884704146260" name="org.campagnelab.metar.seurat.structure.ReadData" flags="ng" index="16VBqR">
-        <child id="4315879884704148801" name="inputFile" index="16VByy" />
+      <concept id="4315879884704146260" name="org.campagnelab.metar.seurat.structure.ImportSeurat" flags="ng" index="16VBqR">
+        <reference id="4315879884704924065" name="seurat" index="16W_h2" />
       </concept>
-      <concept id="4315879884704157065" name="org.campagnelab.metar.seurat.structure.Directory" flags="ng" index="16VDxE">
-        <property id="4315879884704174221" name="path" index="16VGlI" />
+      <concept id="4315879884704853578" name="org.campagnelab.metar.seurat.structure.Seurat" flags="ng" index="16WNID">
+        <property id="4315879884704857537" name="clusters" index="16WMwy" />
+        <property id="4315879884704857541" name="markers" index="16WMwA" />
+        <property id="4315879884704857532" name="pca" index="16WMxv" />
+        <property id="4315879884704885758" name="tsne" index="16WVSt" />
+        <property id="4315879884704894741" name="pathToResolve" index="16WXFQ" />
       </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
@@ -44,16 +48,22 @@
   </node>
   <node concept="S1EQb" id="3J_5udX5xqY">
     <property role="2BDq$p" value="false" />
-    <property role="TrG5h" value="collapsedTubules" />
+    <property role="TrG5h" value="collapsedTubulesAnalysis" />
     <node concept="ZXjPh" id="3J_5udX5xqZ" role="S1EQ8">
       <property role="1MXi1$" value="PNEDGAWNOO" />
-      <node concept="16VBqR" id="3J_5udX5xr0" role="ZXjPg">
-        <property role="1MXi1$" value="OXUKGQPVQI" />
-        <node concept="16VDxE" id="3J_5udX5xr1" role="16VByy">
-          <property role="16VGlI" value="/Users/farcasia/Documents/Data/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
-        </node>
+      <node concept="16VBqR" id="3J_5udX5Q3i" role="ZXjPg">
+        <property role="1MXi1$" value="LSQJNWNYAF" />
+        <ref role="16W_h2" node="3J_5udX5TEt" resolve="collapsedTubules" />
       </node>
     </node>
+  </node>
+  <node concept="16WNID" id="3J_5udX5TEt">
+    <property role="16WVSt" value="false" />
+    <property role="16WMxv" value="false" />
+    <property role="16WMwy" value="false" />
+    <property role="16WMwA" value="false" />
+    <property role="TrG5h" value="collapsedTubules" />
+    <property role="16WXFQ" value="/Users/farcasia/Documents/Data/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
   </node>
 </model>
 
