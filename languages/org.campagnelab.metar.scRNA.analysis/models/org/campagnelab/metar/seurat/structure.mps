@@ -8,6 +8,7 @@
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -17,6 +18,9 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -39,6 +43,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -111,6 +118,105 @@
     <node concept="PrWs8" id="3J_5udX8eUl" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udX8ksL">
+    <property role="EcuMT" value="4315879884705580849" />
+    <property role="TrG5h" value="IFilterSeurat" />
+    <property role="3GE5qa" value="FilterOp" />
+    <node concept="PrWs8" id="3J_5udX8lD1" role="PrDN$">
+      <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
+    </node>
+    <node concept="1TJgyj" id="3J_5udX8lD6" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884705585734" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="strategies" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udX8ksM">
+    <property role="EcuMT" value="4315879884705580850" />
+    <property role="TrG5h" value="IAddSeurat" />
+    <property role="3GE5qa" value="AddOp" />
+    <node concept="PrWs8" id="3J_5udX8lD3" role="PrDN$">
+      <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
+    </node>
+    <node concept="1TJgyj" id="3J_5udX8lUD" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884705586857" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="conditions" />
+      <ref role="20lvS9" node="3J_5udX8lUw" resolve="ISeuratCondition" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udX8ksN">
+    <property role="EcuMT" value="4315879884705580851" />
+    <property role="TrG5h" value="IPlotSeurat" />
+    <property role="3GE5qa" value="PlotOp" />
+  </node>
+  <node concept="PlHQZ" id="3J_5udX8ksP">
+    <property role="EcuMT" value="4315879884705580853" />
+    <property role="TrG5h" value="IModifySeurat" />
+    <node concept="1TJgyj" id="3J_5udX8lCW" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884705585724" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="destination" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
+    </node>
+    <node concept="1TJgyj" id="3J_5udX8lCY" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884705585726" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX8l22" resolve="SeuratRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udX8l22">
+    <property role="EcuMT" value="4315879884705583234" />
+    <property role="TrG5h" value="SeuratRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3J_5udX8l23" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884705583235" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udX8lD5">
+    <property role="EcuMT" value="4315879884705585733" />
+    <property role="3GE5qa" value="FilterOp" />
+    <property role="TrG5h" value="IFilterStrategy" />
+    <node concept="1TJgyj" id="3J_5udX8lUB" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884705586855" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="conditions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3J_5udX8lUw" resolve="ISeuratCondition" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udX8lDl">
+    <property role="EcuMT" value="4315879884705585749" />
+    <property role="TrG5h" value="ISeuratVariable" />
+    <node concept="PrWs8" id="3J_5udX8md$" role="PrDN$">
+      <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udX8lUw">
+    <property role="EcuMT" value="4315879884705586848" />
+    <property role="TrG5h" value="ISeuratCondition" />
+    <node concept="1TJgyj" id="3J_5udX8lUx" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884705586849" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udX8mdN">
+    <property role="EcuMT" value="4315879884705588083" />
+    <property role="TrG5h" value="ICreateTableSeurat" />
+    <property role="3GE5qa" value="TableOp" />
   </node>
 </model>
 
