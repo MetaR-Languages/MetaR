@@ -15,6 +15,8 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -54,7 +56,7 @@
   <node concept="1TIwiD" id="3J_5udX2Qdk">
     <property role="EcuMT" value="4315879884704146260" />
     <property role="TrG5h" value="ImportSeurat" />
-    <property role="34LRSv" value="import scRNA-seq data" />
+    <property role="34LRSv" value="import seurat" />
     <property role="R4oN_" value="Import results provided by 10X " />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="3J_5udX5O6x" role="1TKVEi">
@@ -94,6 +96,11 @@
       <property role="TrG5h" value="markers" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="3J_5udXaoMt" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706122909" />
+      <property role="TrG5h" value="varGenes" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="3J_5udX5GWl" role="1TKVEl">
       <property role="IQ2nx" value="4315879884704894741" />
       <property role="TrG5h" value="pathToResolve" />
@@ -122,7 +129,7 @@
   <node concept="PlHQZ" id="3J_5udX8ksL">
     <property role="EcuMT" value="4315879884705580849" />
     <property role="TrG5h" value="IFilterSeurat" />
-    <property role="3GE5qa" value="FilterOp" />
+    <property role="3GE5qa" value="CleanUpOp" />
     <node concept="PrWs8" id="3J_5udX8lD1" role="PrDN$">
       <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
     </node>
@@ -144,8 +151,8 @@
     <node concept="1TJgyj" id="3J_5udX8lUD" role="1TKVEi">
       <property role="IQ2ns" value="4315879884705586857" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="conditions" />
-      <ref role="20lvS9" node="3J_5udX8lUw" resolve="ISeuratCondition" />
+      <property role="20kJfa" value="condition" />
+      <ref role="20lvS9" node="3J_5udX8s65" resolve="SeuratCondition" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksN">
@@ -185,38 +192,217 @@
   </node>
   <node concept="PlHQZ" id="3J_5udX8lD5">
     <property role="EcuMT" value="4315879884705585733" />
-    <property role="3GE5qa" value="FilterOp" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <property role="TrG5h" value="IFilterStrategy" />
     <node concept="1TJgyj" id="3J_5udX8lUB" role="1TKVEi">
       <property role="IQ2ns" value="4315879884705586855" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="conditions" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3J_5udX8lUw" resolve="ISeuratCondition" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="3J_5udX8s65" resolve="SeuratCondition" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8lDl">
     <property role="EcuMT" value="4315879884705585749" />
     <property role="TrG5h" value="ISeuratVariable" />
+    <property role="3GE5qa" value="SeuratVariables" />
     <node concept="PrWs8" id="3J_5udX8md$" role="PrDN$">
       <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3J_5udX8lUw">
-    <property role="EcuMT" value="4315879884705586848" />
-    <property role="TrG5h" value="ISeuratCondition" />
-    <node concept="1TJgyj" id="3J_5udX8lUx" role="1TKVEi">
-      <property role="IQ2ns" value="4315879884705586849" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8mdN">
     <property role="EcuMT" value="4315879884705588083" />
     <property role="TrG5h" value="ICreateTableSeurat" />
     <property role="3GE5qa" value="TableOp" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udX8o_k">
+    <property role="EcuMT" value="4315879884705597780" />
+    <property role="3GE5qa" value="CleanUpOp" />
+    <property role="TrG5h" value="CleanupDataSeurat" />
+    <property role="34LRSv" value="cleanup seurat" />
+    <property role="R4oN_" value="Cleanup function for the seurat data" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="3J_5udX8p0r" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8ksL" resolve="IFilterSeurat" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udX8s65">
+    <property role="EcuMT" value="4315879884705612165" />
+    <property role="TrG5h" value="SeuratCondition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3J_5udX8s66" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884705612166" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:i2kUDXX" resolve="BinaryCompareOperation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udX8s92">
+    <property role="EcuMT" value="4315879884705612354" />
+    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="TrG5h" value="GeneCountInCell" />
+    <property role="34LRSv" value="number of genes in cell" />
+    <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udX8BnC">
+    <property role="EcuMT" value="4315879884705658344" />
+    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="TrG5h" value="CellsGeneExpressed" />
+    <property role="34LRSv" value="number of cells where gene is expressed in" />
+    <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udX8BnD">
+    <property role="EcuMT" value="4315879884705658345" />
+    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="TrG5h" value="AbstractSeuratVariable" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="3J_5udX8BnE" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8lDl" resolve="ISeuratVariable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udX8QXF">
+    <property role="EcuMT" value="4315879884705722219" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="ScalingCellStrategy" />
+    <property role="34LRSv" value="by scaling cell" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3J_5udXaECg" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706195984" />
+      <property role="TrG5h" value="noOfMolecules" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="3J_5udX8QXG" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udX8VC3">
+    <property role="EcuMT" value="4315879884705741315" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="RejectCellStrategy" />
+    <property role="34LRSv" value="by rejecting cell" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3J_5udX8VC4" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udX8VC6">
+    <property role="EcuMT" value="4315879884705741318" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="RegressOutStrategy" />
+    <property role="34LRSv" value="by regressing out" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3J_5udX8VC7" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+    </node>
+    <node concept="1TJgyj" id="3J_5udXaeJB" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706081767" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="vars" />
+      <ref role="20lvS9" node="3J_5udX8lDl" resolve="ISeuratVariable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udX9gRn">
+    <property role="EcuMT" value="4315879884705828311" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="EmptyStrategy" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3J_5udX9gRo" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXaa01">
+    <property role="EcuMT" value="4315879884706062337" />
+    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="TrG5h" value="PercentageMitochondrialGenes" />
+    <property role="34LRSv" value="percentage of mitochondrial genes in cell" />
+    <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXakyK">
+    <property role="EcuMT" value="4315879884706105520" />
+    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="TrG5h" value="nUMICountInCell" />
+    <property role="34LRSv" value="number of UMIs in cell" />
+    <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXaudg">
+    <property role="EcuMT" value="4315879884706145104" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="AcceptHighVarGenesStrategy" />
+    <property role="34LRSv" value="by accepting highly variable genes" />
+    <node concept="1TJgyj" id="3J_5udXaU7D" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706259433" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="varMeanPars" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3J_5udXaU7w" resolve="IVarMean" />
+    </node>
+    <node concept="PrWs8" id="3J_5udXaYJv" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="IFilterStrategy" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udXaU7w">
+    <property role="EcuMT" value="4315879884706259424" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="IVarMean" />
+    <node concept="1TJgyi" id="3J_5udXaU8a" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706259466" />
+      <property role="TrG5h" value="threshold" />
+      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+    </node>
+    <node concept="PrWs8" id="3J_5udXaU9f" role="PrDN$">
+      <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXaCVC">
+    <property role="EcuMT" value="4315879884706189032" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="XHighCutOff" />
+    <property role="34LRSv" value="x high cutoff" />
+    <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXavON">
+    <property role="EcuMT" value="4315879884706151731" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="XLowCutOff" />
+    <property role="34LRSv" value="x low cutoff" />
+    <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXaCVD">
+    <property role="EcuMT" value="4315879884706189033" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="YHighCutOff" />
+    <property role="34LRSv" value="y high cutoff" />
+    <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXaCVE">
+    <property role="EcuMT" value="4315879884706189034" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="YLowCutOff" />
+    <property role="34LRSv" value="y low cutoff" />
+    <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXaU9l">
+    <property role="EcuMT" value="4315879884706259541" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="AbstractVarMean" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="3J_5udXaU9m" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udXaU7w" resolve="IVarMean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXb2r4">
+    <property role="EcuMT" value="4315879884706293444" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="EmptyVarMean" />
+    <node concept="PrWs8" id="3J_5udXb2ri" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udXaU7w" resolve="IVarMean" />
+    </node>
   </node>
 </model>
 
