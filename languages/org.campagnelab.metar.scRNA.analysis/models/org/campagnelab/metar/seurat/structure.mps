@@ -159,6 +159,12 @@
       <property role="20kJfa" value="plot" />
       <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
     </node>
+    <node concept="1TJgyj" id="3J_5udXfTJJ" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884707568623" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="table" />
+      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+    </node>
     <node concept="PrWs8" id="3J_5udX8lD3" role="PrDN$">
       <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
     </node>
@@ -173,6 +179,11 @@
     <node concept="1TJgyi" id="3J_5udXezf$" role="1TKVEl">
       <property role="IQ2nx" value="4315879884707214308" />
       <property role="TrG5h" value="producesPlot" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3J_5udXfTJF" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884707568619" />
+      <property role="TrG5h" value="producesTable" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
@@ -263,6 +274,12 @@
     <property role="EcuMT" value="4315879884705588083" />
     <property role="TrG5h" value="ICreateTableSeurat" />
     <property role="3GE5qa" value="TableOp" />
+    <node concept="1TJgyj" id="3J_5udXfTz7" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884707567815" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="table" />
+      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX8o_k">
     <property role="EcuMT" value="4315879884705597780" />
