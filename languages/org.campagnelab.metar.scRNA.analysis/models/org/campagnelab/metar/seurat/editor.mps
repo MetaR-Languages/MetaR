@@ -82,6 +82,7 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <child id="1142887637401" name="renderingCondition" index="pqm2j" />
         <child id="1164826688380" name="menuDescriptor" index="P5bDN" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -151,6 +152,9 @@
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -478,40 +482,60 @@
   <node concept="24kQdi" id="3J_5udX8pjd">
     <property role="3GE5qa" value="CleanUpOp" />
     <ref role="1XX52x" to="lznn:3J_5udX8o_k" resolve="CleanupDataSeurat" />
-    <node concept="3EZMnI" id="3J_5udX8pji" role="2wV5jI">
-      <node concept="3EZMnI" id="3J_5udX8pjp" role="3EZMnx">
-        <node concept="2iRfu4" id="3J_5udX8pjq" role="2iSdaV" />
-        <node concept="PMmxH" id="3J_5udXaOdT" role="3EZMnx">
-          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    <node concept="3EZMnI" id="3J_5udXc6Dv" role="2wV5jI">
+      <node concept="2iRfu4" id="3J_5udXc6Dw" role="2iSdaV" />
+      <node concept="3EZMnI" id="3J_5udX8pji" role="3EZMnx">
+        <node concept="3EZMnI" id="3J_5udX8pjp" role="3EZMnx">
+          <node concept="2iRfu4" id="3J_5udX8pjq" role="2iSdaV" />
+          <node concept="PMmxH" id="3J_5udXaOdT" role="3EZMnx">
+            <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+          </node>
+          <node concept="3F1sOY" id="3J_5udX8pjA" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:3J_5udX8lCY" resolve="seurat" />
+          </node>
         </node>
-        <node concept="3F1sOY" id="3J_5udX8pjA" role="3EZMnx">
-          <ref role="1NtTu8" to="lznn:3J_5udX8lCY" resolve="seurat" />
-        </node>
-        <node concept="3F2HdR" id="3J_5udX8s8R" role="3EZMnx">
-          <ref role="1NtTu8" to="lznn:3J_5udX8lD6" resolve="strategies" />
-          <node concept="2iRkQZ" id="3J_5udX8s8U" role="2czzBx" />
-          <node concept="4$FPG" id="3J_5udX9ntM" role="4_6I_">
-            <node concept="3clFbS" id="3J_5udX9ntN" role="2VODD2">
-              <node concept="3cpWs6" id="3J_5udX9nx7" role="3cqZAp">
-                <node concept="2ShNRf" id="3J_5udX9nxl" role="3cqZAk">
-                  <node concept="3zrR0B" id="3J_5udX9nLd" role="2ShVmc">
-                    <node concept="3Tqbb2" id="3J_5udX9nLf" role="3zrR0E">
-                      <ref role="ehGHo" to="lznn:3J_5udX9gRn" resolve="EmptyStrategy" />
+        <node concept="3EZMnI" id="3J_5udXbVyL" role="3EZMnx">
+          <node concept="l2Vlx" id="3J_5udXbVyM" role="2iSdaV" />
+          <node concept="3F2HdR" id="3J_5udX8s8R" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:3J_5udX8lD6" resolve="strategies" />
+            <node concept="2iRkQZ" id="3J_5udX8s8U" role="2czzBx" />
+            <node concept="4$FPG" id="3J_5udX9ntM" role="4_6I_">
+              <node concept="3clFbS" id="3J_5udX9ntN" role="2VODD2">
+                <node concept="3cpWs6" id="3J_5udX9nx7" role="3cqZAp">
+                  <node concept="2ShNRf" id="3J_5udX9nxl" role="3cqZAk">
+                    <node concept="3zrR0B" id="3J_5udX9nLd" role="2ShVmc">
+                      <node concept="3Tqbb2" id="3J_5udX9nLf" role="3zrR0E">
+                        <ref role="ehGHo" to="lznn:3J_5udX9gRn" resolve="EmptyStrategy" />
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="lj46D" id="3J_5udXbVB1" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="ljvvj" id="3J_5udXbVB3" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
           </node>
         </node>
-        <node concept="3F0ifn" id="3J_5udX8pjV" role="3EZMnx">
+        <node concept="2iRkQZ" id="3J_5udX8pjl" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="3J_5udXcamP" role="3EZMnx" />
+      <node concept="3F0ifn" id="3J_5udXcang" role="3EZMnx" />
+      <node concept="3EZMnI" id="3J_5udXbVB9" role="3EZMnx">
+        <node concept="VPM3Z" id="3J_5udXbVBb" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="3J_5udXbVBd" role="3EZMnx">
           <property role="3F0ifm" value="-&gt;" />
         </node>
         <node concept="3F1sOY" id="3J_5udX8pkC" role="3EZMnx">
           <ref role="1NtTu8" to="lznn:3J_5udX8lCW" resolve="destination" />
         </node>
+        <node concept="2iRfu4" id="3J_5udXbVBe" role="2iSdaV" />
       </node>
-      <node concept="2iRkQZ" id="3J_5udX8pjl" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="3J_5udX8rXl">
@@ -548,20 +572,21 @@
   </node>
   <node concept="24kQdi" id="3J_5udX96HB">
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
-    <ref role="1XX52x" to="lznn:3J_5udX8QXF" resolve="ScalingCellStrategy" />
+    <ref role="1XX52x" to="lznn:3J_5udX8QXF" resolve="LogNormalizationStrategy" />
     <node concept="3EZMnI" id="3J_5udX96HD" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udX96HE" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="3F0ifn" id="3J_5udX96HF" role="3EZMnx">
-        <property role="3F0ifm" value="to a total of" />
+        <property role="3F0ifm" value="with" />
+      </node>
+      <node concept="3F0ifn" id="3J_5udXcTQ7" role="3EZMnx">
+        <property role="3F0ifm" value="a scale factor of" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
       </node>
       <node concept="3F0A7n" id="3J_5udXaECo" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3J_5udXaECg" resolve="noOfMolecules" />
         <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
-      </node>
-      <node concept="3F0ifn" id="3J_5udXaLw3" role="3EZMnx">
-        <property role="3F0ifm" value="molecules" />
       </node>
       <node concept="2iRfu4" id="3J_5udX96HI" role="2iSdaV" />
     </node>
@@ -676,6 +701,12 @@
       </node>
       <node concept="3F1sOY" id="3J_5udXbwjN" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3J_5udXbhlN" resolve="info" />
+        <node concept="lj46D" id="3J_5udXcqPa" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="3J_5udXcuvq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="3J_5udXbwjO" role="3EZMnx">
         <property role="3F0ifm" value="to" />
@@ -711,6 +742,7 @@
           </node>
           <node concept="3F0ifn" id="3J_5udXbwn3" role="3EZMnx">
             <property role="3F0ifm" value="to" />
+            <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
           </node>
           <node concept="3F0A7n" id="3J_5udXbwnj" role="3EZMnx">
             <ref role="1NtTu8" to="lznn:3J_5udXbwk5" resolve="rangeHigh" />
@@ -743,49 +775,151 @@
     <property role="3GE5qa" value="AddInfoOp" />
     <ref role="1XX52x" to="lznn:3J_5udXbEhJ" resolve="MarkersInformation" />
     <node concept="3EZMnI" id="3J_5udXbEi2" role="2wV5jI">
-      <node concept="3F0ifn" id="3J_5udXbEi3" role="3EZMnx">
-        <property role="3F0ifm" value="markers with" />
+      <node concept="3EZMnI" id="3J_5udXcKMl" role="3EZMnx">
+        <node concept="2iRfu4" id="3J_5udXcKMm" role="2iSdaV" />
+        <node concept="3F0ifn" id="3J_5udXbEi3" role="3EZMnx">
+          <property role="3F0ifm" value="markers" />
+        </node>
+        <node concept="3F0ifn" id="3J_5udXc_LC" role="3EZMnx">
+          <property role="3F0ifm" value="with" />
+        </node>
+        <node concept="3EZMnI" id="3J_5udXbEi4" role="3EZMnx">
+          <node concept="3EZMnI" id="3J_5udXbEi5" role="3EZMnx">
+            <node concept="2iRfu4" id="3J_5udXbEi6" role="2iSdaV" />
+            <node concept="3F0ifn" id="3J_5udXbEi9" role="3EZMnx">
+              <property role="3F0ifm" value="at least" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+            </node>
+            <node concept="3F0A7n" id="3J_5udXbEiO" role="3EZMnx">
+              <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
+              <ref role="1NtTu8" to="lznn:3J_5udXbEhL" resolve="xFold" />
+            </node>
+            <node concept="3F0ifn" id="3J_5udXbEiW" role="3EZMnx">
+              <property role="3F0ifm" value="difference (logs-scale) between the two groups of cells" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+            </node>
+          </node>
+          <node concept="3EZMnI" id="3J_5udXbEib" role="3EZMnx">
+            <node concept="VPM3Z" id="3J_5udXbEic" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="3F0ifn" id="3J_5udXbEid" role="3EZMnx">
+              <property role="3F0ifm" value="genes detected in a minimum of" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+            </node>
+            <node concept="3F0A7n" id="3J_5udXbEj4" role="3EZMnx">
+              <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
+              <ref role="1NtTu8" to="lznn:3J_5udXbEhP" resolve="fraction" />
+            </node>
+            <node concept="3F0ifn" id="3J_5udXbEjc" role="3EZMnx">
+              <property role="3F0ifm" value="cells in either of the two compared populations" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+            </node>
+            <node concept="2iRfu4" id="3J_5udXbEif" role="2iSdaV" />
+          </node>
+          <node concept="2iRkQZ" id="3J_5udXbEig" role="2iSdaV" />
+          <node concept="3vyZuw" id="3J_5udXbEih" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
       </node>
-      <node concept="3EZMnI" id="3J_5udXbEi4" role="3EZMnx">
-        <node concept="3EZMnI" id="3J_5udXbEi5" role="3EZMnx">
-          <node concept="2iRfu4" id="3J_5udXbEi6" role="2iSdaV" />
-          <node concept="3F0ifn" id="3J_5udXbEi9" role="3EZMnx">
-            <property role="3F0ifm" value="at least" />
-            <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
-          </node>
-          <node concept="3F0A7n" id="3J_5udXbEiO" role="3EZMnx">
-            <ref role="1NtTu8" to="lznn:3J_5udXbEhL" resolve="xFold" />
-            <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
-          </node>
-          <node concept="3F0ifn" id="3J_5udXbEiW" role="3EZMnx">
-            <property role="3F0ifm" value="difference (logs-scale) between the two groups of cells" />
-            <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
-          </node>
+      <node concept="2iRkQZ" id="3J_5udXcH5s" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3J_5udXcXuo">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="1XX52x" to="lznn:3J_5udX8ksN" resolve="IPlotSeurat" />
+    <node concept="3EZMnI" id="3J_5udXcXuq" role="2wV5jI">
+      <node concept="3EZMnI" id="3J_5udXcXvG" role="3EZMnx">
+        <node concept="2iRkQZ" id="3J_5udXcXvH" role="2iSdaV" />
+        <node concept="PMmxH" id="3J_5udXcXux" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         </node>
-        <node concept="3EZMnI" id="3J_5udXbEib" role="3EZMnx">
-          <node concept="VPM3Z" id="3J_5udXbEic" role="3F10Kt">
-            <property role="VOm3f" value="false" />
+        <node concept="3EZMnI" id="3J_5udXdoaQ" role="3EZMnx">
+          <node concept="2iRfu4" id="3J_5udXdoaR" role="2iSdaV" />
+          <node concept="3EZMnI" id="3J_5udXcXzP" role="3EZMnx">
+            <node concept="l2Vlx" id="3J_5udXcXzQ" role="2iSdaV" />
+            <node concept="3F1sOY" id="3J_5udXcXzL" role="3EZMnx">
+              <ref role="1NtTu8" to="lznn:3J_5udXcXua" resolve="param" />
+              <node concept="lj46D" id="3J_5udXcX$2" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="pj6Ft" id="3J_5udXcXzZ" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
           </node>
-          <node concept="3F0ifn" id="3J_5udXbEid" role="3EZMnx">
-            <property role="3F0ifm" value="genes detected in a minimum of" />
-            <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+          <node concept="pkWqt" id="3J_5udXdotE" role="pqm2j">
+            <node concept="3clFbS" id="3J_5udXdotF" role="2VODD2">
+              <node concept="3clFbF" id="3J_5udXdoB3" role="3cqZAp">
+                <node concept="2OqwBi" id="3J_5udXdoN7" role="3clFbG">
+                  <node concept="pncrf" id="3J_5udXdoB2" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3J_5udXdp78" role="2OqNvi">
+                    <ref role="3TsBF5" to="lznn:3J_5udXcXue" resolve="has_param" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
-          <node concept="3F0A7n" id="3J_5udXbEj4" role="3EZMnx">
-            <ref role="1NtTu8" to="lznn:3J_5udXbEhP" resolve="fraction" />
-            <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
-          </node>
-          <node concept="3F0ifn" id="3J_5udXbEjc" role="3EZMnx">
-            <property role="3F0ifm" value="cells in either of the two compared populations" />
-            <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
-          </node>
-          <node concept="2iRfu4" id="3J_5udXbEif" role="2iSdaV" />
+          <node concept="3F0ifn" id="3J_5udXdpA9" role="3EZMnx" />
+          <node concept="3F0ifn" id="3J_5udXdpSn" role="3EZMnx" />
         </node>
-        <node concept="2iRkQZ" id="3J_5udXbEig" role="2iSdaV" />
-        <node concept="3vyZuw" id="3J_5udXbEih" role="3F10Kt">
+      </node>
+      <node concept="3F0ifn" id="3J_5udXcXuA" role="3EZMnx">
+        <property role="3F0ifm" value="for" />
+      </node>
+      <node concept="3F1sOY" id="3J_5udXcXvf" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXcXv7" resolve="seurat" />
+      </node>
+      <node concept="3F0ifn" id="3J_5udXcXvp" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F1sOY" id="3J_5udXcXv_" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXcXu6" resolve="plot" />
+      </node>
+      <node concept="2iRfu4" id="3J_5udXcXut" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3J_5udXdfR9">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="1XX52x" to="lznn:3J_5udXdfQQ" resolve="RangeOfDimensions" />
+    <node concept="3EZMnI" id="3J_5udXdfRb" role="2wV5jI">
+      <node concept="3F0ifn" id="3J_5udXdfRi" role="3EZMnx">
+        <property role="3F0ifm" value="with" />
+      </node>
+      <node concept="3F0ifn" id="3J_5udXdfRo" role="3EZMnx">
+        <property role="3F0ifm" value="range of dimensions" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+      </node>
+      <node concept="3F0A7n" id="3J_5udXdfR$" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXdfQW" resolve="low" />
+      </node>
+      <node concept="3F0ifn" id="3J_5udXdfRI" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+      </node>
+      <node concept="3F0A7n" id="3J_5udXdfS1" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXdfQY" resolve="high" />
+      </node>
+      <node concept="2iRfu4" id="3J_5udXdfRe" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3J_5udXduar">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="1XX52x" to="lznn:3J_5udXduaa" resolve="ListOfFeatures" />
+    <node concept="3EZMnI" id="3J_5udXduat" role="2wV5jI">
+      <node concept="3F0ifn" id="3J_5udXdua$" role="3EZMnx">
+        <property role="3F0ifm" value="for" />
+      </node>
+      <node concept="3F2HdR" id="3J_5udXduaG" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="lznn:3J_5udXduaE" resolve="features" />
+        <node concept="2iRfu4" id="3J_5udXduaI" role="2czzBx" />
+        <node concept="3vyZuw" id="3J_5udXducs" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="2iRfu4" id="3J_5udXbEii" role="2iSdaV" />
+      <node concept="2iRfu4" id="3J_5udXduaw" role="2iSdaV" />
     </node>
   </node>
 </model>

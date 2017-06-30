@@ -255,5 +255,68 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="3J_5udXcYrj">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="13h7C2" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
+    <node concept="13hLZK" id="3J_5udXcYrk" role="13h7CW">
+      <node concept="3clFbS" id="3J_5udXcYrl" role="2VODD2">
+        <node concept="3clFbF" id="3J_5udXcYrz" role="3cqZAp">
+          <node concept="37vLTI" id="3J_5udXcZBv" role="3clFbG">
+            <node concept="3clFbT" id="3J_5udXcZBT" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="2OqwBi" id="3J_5udXcYz3" role="37vLTJ">
+              <node concept="13iPFW" id="3J_5udXcYry" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3J_5udXcYRI" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udXcXue" resolve="has_param" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3J_5udXde1p">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="13h7C2" to="lznn:3J_5udXde1o" resolve="TSNEPlot" />
+    <node concept="13hLZK" id="3J_5udXde1q" role="13h7CW">
+      <node concept="3clFbS" id="3J_5udXde1r" role="2VODD2">
+        <node concept="3clFbF" id="3J_5udXde1D" role="3cqZAp">
+          <node concept="37vLTI" id="3J_5udXdfG$" role="3clFbG">
+            <node concept="3clFbT" id="3J_5udXdfGY" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="3J_5udXdecx" role="37vLTJ">
+              <node concept="13iPFW" id="3J_5udXde1C" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3J_5udXdeKS" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udXcXue" resolve="has_param" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3J_5udXdzM9">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="13h7C2" to="lznn:3J_5udXdua9" resolve="FeaturePlot" />
+    <node concept="13hLZK" id="3J_5udXdzMa" role="13h7CW">
+      <node concept="3clFbS" id="3J_5udXdzMb" role="2VODD2">
+        <node concept="3clFbF" id="3J_5udXdzMp" role="3cqZAp">
+          <node concept="37vLTI" id="3J_5udXd_L_" role="3clFbG">
+            <node concept="3clFbT" id="3J_5udXd_Py" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="3J_5udXdzXh" role="37vLTJ">
+              <node concept="13iPFW" id="3J_5udXdzMo" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3J_5udXd$Tj" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udXcXue" resolve="has_param" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

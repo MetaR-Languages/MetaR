@@ -41,6 +41,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -145,20 +146,46 @@
     <property role="EcuMT" value="4315879884705580850" />
     <property role="TrG5h" value="IAddInfoSeurat" />
     <property role="3GE5qa" value="AddInfoOp" />
+    <node concept="1TJgyj" id="3J_5udXbhlN" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706354547" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="info" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udXbhlM" resolve="IParameterAdd" />
+    </node>
     <node concept="PrWs8" id="3J_5udX8lD3" role="PrDN$">
       <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
-    </node>
-    <node concept="1TJgyj" id="3J_5udX8lUD" role="1TKVEi">
-      <property role="IQ2ns" value="4315879884705586857" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="condition" />
-      <ref role="20lvS9" node="3J_5udX8s65" resolve="SeuratCleanupCondition" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksN">
     <property role="EcuMT" value="4315879884705580851" />
     <property role="TrG5h" value="IPlotSeurat" />
     <property role="3GE5qa" value="PlotOp" />
+    <node concept="1TJgyj" id="3J_5udXcXu6" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706797446" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plot" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+    </node>
+    <node concept="1TJgyj" id="3J_5udXcXua" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706797450" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="param" />
+      <ref role="20lvS9" node="3J_5udXcXu9" resolve="IParameterPlot" />
+    </node>
+    <node concept="1TJgyj" id="3J_5udXcXv7" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706797511" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX8l22" resolve="SeuratRef" />
+    </node>
+    <node concept="1TJgyi" id="3J_5udXcXue" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706797454" />
+      <property role="TrG5h" value="has_param" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksP">
     <property role="EcuMT" value="4315879884705580853" />
@@ -267,8 +294,8 @@
   <node concept="1TIwiD" id="3J_5udX8QXF">
     <property role="EcuMT" value="4315879884705722219" />
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
-    <property role="TrG5h" value="ScalingCellStrategy" />
-    <property role="34LRSv" value="by scaling cell" />
+    <property role="TrG5h" value="LogNormalizationStrategy" />
+    <property role="34LRSv" value="by log-normalization" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3J_5udXaECg" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706195984" />
@@ -412,13 +439,6 @@
     <property role="R4oN_" value="Add extra information to seurat data" />
     <property role="34LRSv" value="add info" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-    <node concept="1TJgyj" id="3J_5udXbhlN" role="1TKVEi">
-      <property role="IQ2ns" value="4315879884706354547" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="info" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3J_5udXbhlM" resolve="IAdditionalInfo" />
-    </node>
     <node concept="PrWs8" id="3J_5udXbhm7" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksM" resolve="IAddInfoSeurat" />
     </node>
@@ -426,7 +446,7 @@
   <node concept="PlHQZ" id="3J_5udXbhlM">
     <property role="EcuMT" value="4315879884706354546" />
     <property role="3GE5qa" value="AddInfoOp" />
-    <property role="TrG5h" value="IAdditionalInfo" />
+    <property role="TrG5h" value="IParameterAdd" />
   </node>
   <node concept="1TIwiD" id="3J_5udXbriB">
     <property role="EcuMT" value="4315879884706395303" />
@@ -435,7 +455,7 @@
     <property role="34LRSv" value="principal components" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udXbriC" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IAdditionalInfo" />
+      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IParameterAdd" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXbwk0">
@@ -445,7 +465,7 @@
     <property role="34LRSv" value="clusters" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udXbwk1" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IAdditionalInfo" />
+      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IParameterAdd" />
     </node>
     <node concept="1TJgyi" id="3J_5udXbwk3" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706415875" />
@@ -470,7 +490,7 @@
     <property role="34LRSv" value="markers" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udXbEhK" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IAdditionalInfo" />
+      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IParameterAdd" />
     </node>
     <node concept="1TJgyi" id="3J_5udXbEhL" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706456689" />
@@ -481,6 +501,96 @@
       <property role="IQ2nx" value="4315879884706456693" />
       <property role="TrG5h" value="fraction" />
       <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3J_5udXcXu9">
+    <property role="EcuMT" value="4315879884706797449" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="IParameterPlot" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXcYrg">
+    <property role="EcuMT" value="4315879884706801360" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="DiagnosticPlot" />
+    <property role="34LRSv" value="Diagnostic plot" />
+    <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXd5_8">
+    <property role="EcuMT" value="4315879884706830664" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="AbstractPlot" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="3J_5udXd5_9" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8ksN" resolve="IPlotSeurat" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXd7Nr">
+    <property role="EcuMT" value="4315879884706839771" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="StandardDeviationPlot" />
+    <property role="34LRSv" value="Standard deviation plot" />
+    <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
+  </node>
+  <node concept="1TIwiD" id="3J_5udXde1o">
+    <property role="EcuMT" value="4315879884706865240" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="TSNEPlot" />
+    <property role="34LRSv" value="TSNE plot" />
+    <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
+    <node concept="1TJgyj" id="3J_5udXdfQO" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706872756" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="param" />
+      <ref role="20lvS9" node="3J_5udXdfQQ" resolve="RangeOfDimensions" />
+      <ref role="20ksaX" node="3J_5udXcXua" resolve="param" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXdfQQ">
+    <property role="EcuMT" value="4315879884706872758" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="RangeOfDimensions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3J_5udXdfQW" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706872764" />
+      <property role="TrG5h" value="low" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3J_5udXdfQY" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706872766" />
+      <property role="TrG5h" value="high" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="3J_5udXdfQT" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udXcXu9" resolve="IParameterPlot" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXdua9">
+    <property role="EcuMT" value="4315879884706931337" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="FeaturePlot" />
+    <property role="34LRSv" value="Feature plot" />
+    <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
+    <node concept="1TJgyj" id="3J_5udXduaf" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706931343" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="param" />
+      <ref role="20lvS9" node="3J_5udXduaa" resolve="ListOfFeatures" />
+      <ref role="20ksaX" node="3J_5udXcXua" resolve="param" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXduaa">
+    <property role="EcuMT" value="4315879884706931338" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="ListOfFeatures" />
+    <node concept="1TJgyj" id="3J_5udXduaE" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884706931370" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="features" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+    <node concept="PrWs8" id="3J_5udXduab" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udXcXu9" resolve="IParameterPlot" />
     </node>
   </node>
 </model>
