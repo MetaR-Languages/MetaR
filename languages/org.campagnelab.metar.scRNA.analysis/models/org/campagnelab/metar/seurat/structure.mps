@@ -551,6 +551,8 @@
     <property role="EcuMT" value="4315879884706830664" />
     <property role="3GE5qa" value="PlotOp" />
     <property role="TrG5h" value="AbstractPlot" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="3J_5udXd5_9" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksN" resolve="IPlotSeurat" />
@@ -589,6 +591,8 @@
     <property role="EcuMT" value="4315879884706995923" />
     <property role="3GE5qa" value="AddInfoOp" />
     <property role="TrG5h" value="AbstractAddInfo" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="3J_5udXdHVk" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksM" resolve="IAddInfoSeurat" />
