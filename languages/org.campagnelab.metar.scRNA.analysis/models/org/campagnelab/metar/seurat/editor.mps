@@ -742,21 +742,8 @@
           <node concept="VPM3Z" id="3J_5udXe_lm" role="3F10Kt">
             <property role="VOm3f" value="false" />
           </node>
-          <node concept="3F0ifn" id="3J_5udXe_v1" role="3EZMnx">
-            <property role="3F0ifm" value="plot:" />
-          </node>
-          <node concept="3F1sOY" id="3J_5udXe_v7" role="3EZMnx">
-            <ref role="1NtTu8" to="lznn:3J_5udXezfx" resolve="plot" />
-          </node>
-          <node concept="1iCGBv" id="3J_5udXeNZG" role="3EZMnx">
-            <ref role="1NtTu8" to="onla:32mm9410GdM" resolve="useStyle" />
-            <node concept="1sVBvm" id="3J_5udXeNZI" role="1sWHZn">
-              <node concept="3F0A7n" id="3J_5udXeO9j" role="2wV5jI">
-                <property role="1Intyy" value="true" />
-                <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-                <ref role="1k5W1q" to="h23j:3edJYE6DDKe" resolve="StyleName" />
-              </node>
-            </node>
+          <node concept="3F1sOY" id="3J_5udXh51X" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:3J_5udXezfx" resolve="plotWrapper" />
           </node>
           <node concept="2iRfu4" id="3J_5udXe_lp" role="2iSdaV" />
           <node concept="pkWqt" id="3J_5udXe_vb" role="pqm2j">
@@ -774,11 +761,8 @@
         </node>
         <node concept="3EZMnI" id="3J_5udXfXqt" role="3EZMnx">
           <node concept="2iRfu4" id="3J_5udXfXqu" role="2iSdaV" />
-          <node concept="3F0ifn" id="3J_5udXfYp2" role="3EZMnx">
-            <property role="3F0ifm" value="table:" />
-          </node>
-          <node concept="3F1sOY" id="3J_5udXfVPk" role="3EZMnx">
-            <ref role="1NtTu8" to="lznn:3J_5udXfTJJ" resolve="table" />
+          <node concept="3F1sOY" id="3J_5udXhhPK" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:3J_5udXfTJJ" resolve="tableWrapper" />
           </node>
           <node concept="pkWqt" id="3J_5udXfXRH" role="pqm2j">
             <node concept="3clFbS" id="3J_5udXfXRI" role="2VODD2">
@@ -968,6 +952,58 @@
         </node>
       </node>
       <node concept="2iRfu4" id="3J_5udXduaw" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3J_5udXh4Ff">
+    <property role="3GE5qa" value="AddInfoOp" />
+    <ref role="1XX52x" to="lznn:3J_5udXh4F4" resolve="PlotWrapper" />
+    <node concept="3EZMnI" id="3J_5udXh4Fh" role="2wV5jI">
+      <node concept="PMmxH" id="3J_5udXh4Fo" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="3J_5udXh4Ft" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="3J_5udXh4F_" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXh4F5" resolve="plot" />
+      </node>
+      <node concept="1iCGBv" id="3J_5udXh4GH" role="3EZMnx">
+        <ref role="1NtTu8" to="onla:32mm9410GdM" resolve="useStyle" />
+        <node concept="1sVBvm" id="3J_5udXh4GJ" role="1sWHZn">
+          <node concept="3F0A7n" id="3J_5udXh4GW" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="h23j:3edJYE6DDKe" resolve="StyleName" />
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="3J_5udXh4Fk" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3J_5udXhhDS">
+    <property role="3GE5qa" value="AddInfoOp" />
+    <ref role="1XX52x" to="lznn:3J_5udXhhDH" resolve="FutureTableWrapper" />
+    <node concept="3EZMnI" id="3J_5udXhhDU" role="2wV5jI">
+      <node concept="PMmxH" id="3J_5udXhhDV" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="3J_5udXhhDW" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="3J_5udXhhDX" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXhhDI" resolve="table" />
+      </node>
+      <node concept="1iCGBv" id="3J_5udXhhDY" role="3EZMnx">
+        <ref role="1NtTu8" to="onla:32mm9410GdM" resolve="useStyle" />
+        <node concept="1sVBvm" id="3J_5udXhhDZ" role="1sWHZn">
+          <node concept="3F0A7n" id="3J_5udXhhE0" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="h23j:3edJYE6DDKe" resolve="StyleName" />
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="3J_5udXhhE1" role="2iSdaV" />
     </node>
   </node>
 </model>
