@@ -428,28 +428,28 @@
     <property role="EcuMT" value="4315879884706189032" />
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <property role="TrG5h" value="XHighCutOff" />
-    <property role="34LRSv" value="x high cutoff" />
+    <property role="34LRSv" value="top cutoff on average expression axis" />
     <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
   </node>
   <node concept="1TIwiD" id="3J_5udXavON">
     <property role="EcuMT" value="4315879884706151731" />
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <property role="TrG5h" value="XLowCutOff" />
-    <property role="34LRSv" value="x low cutoff" />
+    <property role="34LRSv" value="bottom cutoff on average expression axis" />
     <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
   </node>
   <node concept="1TIwiD" id="3J_5udXaCVD">
     <property role="EcuMT" value="4315879884706189033" />
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <property role="TrG5h" value="YHighCutOff" />
-    <property role="34LRSv" value="y high cutoff" />
+    <property role="34LRSv" value="top cutoff on dispersion axis" />
     <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
   </node>
   <node concept="1TIwiD" id="3J_5udXaCVE">
     <property role="EcuMT" value="4315879884706189034" />
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <property role="TrG5h" value="YLowCutOff" />
-    <property role="34LRSv" value="y low cutoff" />
+    <property role="34LRSv" value="bottom cutoff on dispersion axis" />
     <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
   </node>
   <node concept="1TIwiD" id="3J_5udXaU9l">

@@ -269,34 +269,14 @@
           <node concept="16N5Pj" id="3J_5udXanV3" role="16NvS4" />
           <node concept="16Ldux" id="3J_5udXakxK" role="16NvS4" />
         </node>
-      </node>
-      <node concept="S1EQe" id="3J_5udXaoLa" role="ZXjPg">
-        <property role="1MXi1$" value="UKKUTTLOBL" />
-      </node>
-      <node concept="16L9MR" id="3J_5udXaucn" role="ZXjPg">
-        <property role="1MXi1$" value="VHLXUSXLRW" />
-        <node concept="16LvHN" id="3J_5udXauco" role="16L4Zv">
-          <property role="TrG5h" value="highlyVariableGenes" />
-          <node concept="16WNID" id="3J_5udXaucp" role="16LvHK">
-            <property role="16WVSt" value="false" />
-            <property role="16WMxv" value="false" />
-            <property role="16WMwy" value="false" />
-            <property role="16WMwA" value="false" />
-            <property role="16N9_Y" value="false" />
-            <property role="TrG5h" value="highlyVariableGenes" />
-          </node>
-        </node>
-        <node concept="16L4lx" id="3J_5udXaudb" role="16L4Zt">
-          <ref role="16L4lw" node="3J_5udXa9od" resolve="moreQC" />
-        </node>
-        <node concept="16NfqN" id="3J_5udXb2qE" role="16L4Y_">
-          <node concept="16NTG9" id="3J_5udXbbe0" role="16NFga">
+        <node concept="16NfqN" id="3J_5udXglkV" role="16L4Y_">
+          <node concept="16NTG9" id="3J_5udXglkW" role="16NFga">
             <property role="16NFvD" value="0.5f" />
           </node>
-          <node concept="16Nezg" id="3J_5udXbbd_" role="16NFga">
+          <node concept="16Nezg" id="3J_5udXglkX" role="16NFga">
             <property role="16NFvD" value="0.0125f" />
           </node>
-          <node concept="16NTGb" id="3J_5udXb2qM" role="16NFga">
+          <node concept="16NTGb" id="3J_5udXglkY" role="16NFga">
             <property role="16NFvD" value="3.f" />
           </node>
         </node>
@@ -321,8 +301,8 @@
           </node>
         </node>
         <node concept="16M02h" id="3J_5udXeNf1" role="16M02g" />
-        <node concept="16L4lx" id="3J_5udXeNgq" role="16L4Zt">
-          <ref role="16L4lw" node="3J_5udXaucp" resolve="highlyVariableGenes" />
+        <node concept="16L4lx" id="3J_5udXglnD" role="16L4Zt">
+          <ref role="16L4lw" node="3J_5udXa9od" resolve="moreQC" />
         </node>
         <node concept="1FHg$p" id="3J_5udXeNCV" role="16RMo2">
           <property role="ZHjxa" value="200" />
