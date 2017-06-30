@@ -142,6 +142,9 @@
       </concept>
     </language>
     <language id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles">
+      <concept id="5397636476160524896" name="org.campagnelab.styles.structure.UseStyle" flags="ng" index="2YPgeA">
+        <reference id="3501083140137599858" name="useStyle" index="L_9Jz" />
+      </concept>
       <concept id="5397636476160560846" name="org.campagnelab.styles.structure.StyleContainer" flags="ng" index="2YPoW8" />
     </language>
   </registry>
@@ -201,6 +204,7 @@
       <node concept="16PJcN" id="3J_5udXd7Hv" role="ZXjPg">
         <property role="1MXi1$" value="EDFGLBCAYN" />
         <property role="16PG9H" value="false" />
+        <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
         <node concept="1FHg$p" id="3J_5udXd7Hx" role="16PG9_">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
@@ -311,6 +315,7 @@
       </node>
       <node concept="16Om$S" id="3J_5udXddXY" role="ZXjPg">
         <property role="1MXi1$" value="JPEYLIGTFP" />
+        <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
         <node concept="1FHg$p" id="3J_5udXddY0" role="16PG9_">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
@@ -353,6 +358,7 @@
       <node concept="16OvmV" id="3J_5udXdmaA" role="ZXjPg">
         <property role="1MXi1$" value="LVKJENGXNQ" />
         <property role="16PG9H" value="true" />
+        <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
         <node concept="1FHg$p" id="3J_5udXdmaC" role="16PG9_">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />

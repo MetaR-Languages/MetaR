@@ -18,6 +18,8 @@
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
+    <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
+    <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -879,6 +881,16 @@
       <node concept="3F1sOY" id="3J_5udXcXv_" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3J_5udXcXu6" resolve="plot" />
       </node>
+      <node concept="1iCGBv" id="3J_5udXep4L" role="3EZMnx">
+        <ref role="1NtTu8" to="onla:32mm9410GdM" resolve="useStyle" />
+        <node concept="1sVBvm" id="3J_5udXep4N" role="1sWHZn">
+          <node concept="3F0A7n" id="3J_5udXepeo" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="h23j:3edJYE6DDKe" resolve="StyleName" />
+          </node>
+        </node>
+      </node>
       <node concept="2iRfu4" id="3J_5udXcXut" role="2iSdaV" />
     </node>
   </node>
@@ -895,6 +907,7 @@
       </node>
       <node concept="3F0A7n" id="3J_5udXdfR$" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3J_5udXdfQW" resolve="low" />
+        <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
       </node>
       <node concept="3F0ifn" id="3J_5udXdfRI" role="3EZMnx">
         <property role="3F0ifm" value="to" />
@@ -902,6 +915,7 @@
       </node>
       <node concept="3F0A7n" id="3J_5udXdfS1" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3J_5udXdfQY" resolve="high" />
+        <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
       </node>
       <node concept="2iRfu4" id="3J_5udXdfRe" role="2iSdaV" />
     </node>
