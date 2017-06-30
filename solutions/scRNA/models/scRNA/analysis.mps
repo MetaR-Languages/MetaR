@@ -42,14 +42,16 @@
         <child id="4315879884705586855" name="conditions" index="16L4H4" />
       </concept>
       <concept id="4315879884705580851" name="org.campagnelab.metar.seurat.structure.IPlotSeurat" flags="ng" index="16L5bg">
-        <property id="4315879884706797454" name="has_param" index="16PG9H" />
+        <property id="4315879884706797454" name="hasParam" index="16PG9H" />
         <child id="4315879884706797511" name="seurat" index="16PG8$" />
         <child id="4315879884706797446" name="plot" index="16PG9_" />
         <child id="4315879884706797450" name="param" index="16PG9D" />
       </concept>
       <concept id="4315879884705580850" name="org.campagnelab.metar.seurat.structure.IAddInfoSeurat" flags="ng" index="16L5bh">
-        <property id="4315879884706992528" name="has_param" index="16OWhN" />
+        <property id="4315879884706992528" name="hasParam" index="16OWhN" />
+        <property id="4315879884707214308" name="producesPlot" index="16RMo7" />
         <child id="4315879884706354547" name="param" index="16M02g" />
+        <child id="4315879884707214305" name="plot" index="16RMo2" />
       </concept>
       <concept id="4315879884705580849" name="org.campagnelab.metar.seurat.structure.ICleanupSeurat" flags="ng" index="16L5bi">
         <child id="4315879884705585734" name="strategies" index="16L4Y_" />
@@ -100,12 +102,6 @@
         <child id="4315879884706931370" name="features" index="16Oft9" />
       </concept>
       <concept id="4315879884706931337" name="org.campagnelab.metar.seurat.structure.FeaturePlot" flags="ng" index="16OftE" />
-      <concept id="4315879884706839771" name="org.campagnelab.metar.seurat.structure.StandardDeviationPlot" flags="ng" index="16Om$S" />
-      <concept id="4315879884706872758" name="org.campagnelab.metar.seurat.structure.RangeOfDimensions" flags="ng" index="16Ouxl">
-        <property id="4315879884706872766" name="high" index="16Ouxt" />
-        <property id="4315879884706872764" name="low" index="16Ouxv" />
-      </concept>
-      <concept id="4315879884706865240" name="org.campagnelab.metar.seurat.structure.TSNEPlot" flags="ng" index="16OvmV" />
       <concept id="4315879884707040330" name="org.campagnelab.metar.seurat.structure.MarkersInfoSeurat" flags="ng" index="16ODAD" />
       <concept id="4315879884707049387" name="org.campagnelab.metar.seurat.structure.PCInfoSeurat" flags="ng" index="16OFD8" />
       <concept id="4315879884706801360" name="org.campagnelab.metar.seurat.structure.DiagnosticPlot" flags="ng" index="16PJcN" />
@@ -185,13 +181,13 @@
           <property role="16NVZN" value="10000" />
         </node>
         <node concept="16LvHN" id="3J_5udX9EXZ" role="16L4Zv">
-          <property role="TrG5h" value="qcCollapsedTubules" />
+          <property role="TrG5h" value="initialQC" />
           <node concept="16WNID" id="3J_5udX9EY0" role="16LvHK">
             <property role="16WVSt" value="false" />
             <property role="16WMxv" value="false" />
             <property role="16WMwy" value="false" />
             <property role="16WMwA" value="false" />
-            <property role="TrG5h" value="qcCollapsedTubules" />
+            <property role="TrG5h" value="initialQC" />
           </node>
         </node>
         <node concept="16L4lx" id="3J_5udX9EYf" role="16L4Zt">
@@ -212,7 +208,7 @@
           <property role="TrG5h" value="violinAndGenePlots" />
         </node>
         <node concept="16L4lx" id="3J_5udXd7Iz" role="16PG8$">
-          <ref role="16L4lw" node="3J_5udX9EY0" resolve="qcCollapsedTubules" />
+          <ref role="16L4lw" node="3J_5udX9EY0" resolve="initialQC" />
         </node>
       </node>
       <node concept="S1EQe" id="3J_5udXa9ns" role="ZXjPg">
@@ -221,17 +217,17 @@
       <node concept="16L9MR" id="3J_5udXa9ob" role="ZXjPg">
         <property role="1MXi1$" value="WYSPHQBEUB" />
         <node concept="16LvHN" id="3J_5udXa9oc" role="16L4Zv">
-          <property role="TrG5h" value="furtherQCCollapsedTubules" />
+          <property role="TrG5h" value="moreQC" />
           <node concept="16WNID" id="3J_5udXa9od" role="16LvHK">
             <property role="16WVSt" value="false" />
             <property role="16WMxv" value="false" />
             <property role="16WMwy" value="false" />
             <property role="16WMwA" value="false" />
-            <property role="TrG5h" value="furtherQCCollapsedTubules" />
+            <property role="TrG5h" value="moreQC" />
           </node>
         </node>
         <node concept="16L4lx" id="3J_5udXa9oQ" role="16L4Zt">
-          <ref role="16L4lw" node="3J_5udX9EY0" resolve="qcCollapsedTubules" />
+          <ref role="16L4lw" node="3J_5udX9EY0" resolve="initialQC" />
         </node>
         <node concept="16LEZw" id="3J_5udXa9oT" role="16L4Y_">
           <node concept="16LdhA" id="3J_5udXa9oU" role="16L4H4">
@@ -260,18 +256,18 @@
       <node concept="16L9MR" id="3J_5udXaucn" role="ZXjPg">
         <property role="1MXi1$" value="VHLXUSXLRW" />
         <node concept="16LvHN" id="3J_5udXauco" role="16L4Zv">
-          <property role="TrG5h" value="withHighlyVariableGenes" />
+          <property role="TrG5h" value="highlyVariableGenes" />
           <node concept="16WNID" id="3J_5udXaucp" role="16LvHK">
             <property role="16WVSt" value="false" />
             <property role="16WMxv" value="false" />
             <property role="16WMwy" value="false" />
             <property role="16WMwA" value="false" />
             <property role="16N9_Y" value="false" />
-            <property role="TrG5h" value="withHighlyVariableGenes" />
+            <property role="TrG5h" value="highlyVariableGenes" />
           </node>
         </node>
         <node concept="16L4lx" id="3J_5udXaudb" role="16L4Zt">
-          <ref role="16L4lw" node="3J_5udXa9od" resolve="furtherQCCollapsedTubules" />
+          <ref role="16L4lw" node="3J_5udXa9od" resolve="moreQC" />
         </node>
         <node concept="16NfqN" id="3J_5udXb2qE" role="16L4Y_">
           <node concept="16NTG9" id="3J_5udXbbe0" role="16NFga">
@@ -288,15 +284,14 @@
       <node concept="S1EQe" id="3J_5udXbmlJ" role="ZXjPg">
         <property role="1MXi1$" value="UNWDGOJDBJ" />
       </node>
-      <node concept="S1EQe" id="3J_5udXb$BM" role="ZXjPg">
-        <property role="1MXi1$" value="JCHKJRGCUL" />
-      </node>
-      <node concept="16OFD8" id="3J_5udXe3gm" role="ZXjPg">
-        <property role="1MXi1$" value="SJWXQIFSYI" />
+      <node concept="16OFD8" id="3J_5udXeNeX" role="ZXjPg">
+        <property role="1MXi1$" value="MQWADWNWIR" />
         <property role="16OWhN" value="false" />
-        <node concept="16LvHN" id="3J_5udXe3gn" role="16L4Zv">
+        <property role="16RMo7" value="true" />
+        <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
+        <node concept="16LvHN" id="3J_5udXeNeY" role="16L4Zv">
           <property role="TrG5h" value="withPCInfo" />
-          <node concept="16WNID" id="3J_5udXe3go" role="16LvHK">
+          <node concept="16WNID" id="3J_5udXeNeZ" role="16LvHK">
             <property role="16WVSt" value="false" />
             <property role="16WMxv" value="false" />
             <property role="16WMwy" value="false" />
@@ -305,36 +300,28 @@
             <property role="TrG5h" value="withPCInfo" />
           </node>
         </node>
-        <node concept="16M02h" id="3J_5udXe3gq" role="16M02g" />
-        <node concept="16L4lx" id="3J_5udXe3hN" role="16L4Zt">
-          <ref role="16L4lw" node="3J_5udXaucp" resolve="withHighlyVariableGenes" />
+        <node concept="16M02h" id="3J_5udXeNf1" role="16M02g" />
+        <node concept="16L4lx" id="3J_5udXeNgq" role="16L4Zt">
+          <ref role="16L4lw" node="3J_5udXaucp" resolve="highlyVariableGenes" />
         </node>
-      </node>
-      <node concept="S1EQe" id="3J_5udXe3f3" role="ZXjPg">
-        <property role="1MXi1$" value="VQOIHMYSST" />
-      </node>
-      <node concept="16Om$S" id="3J_5udXddXY" role="ZXjPg">
-        <property role="1MXi1$" value="JPEYLIGTFP" />
-        <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
-        <node concept="1FHg$p" id="3J_5udXddY0" role="16PG9_">
+        <node concept="1FHg$p" id="3J_5udXeNCV" role="16RMo2">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="13" />
-          <property role="TrG5h" value="standardDevPlot" />
-        </node>
-        <node concept="16L4lx" id="3J_5udXe3ja" role="16PG8$">
-          <ref role="16L4lw" node="3J_5udXe3go" resolve="withPCInfo" />
+          <property role="3ZMXzF" value="10" />
+          <property role="TrG5h" value="standardDeviationPlot" />
         </node>
       </node>
       <node concept="S1EQe" id="3J_5udXddPH" role="ZXjPg">
         <property role="1MXi1$" value="IJJBXNEBRO" />
       </node>
-      <node concept="16M030" id="3J_5udXe3lB" role="ZXjPg">
-        <property role="1MXi1$" value="FIKFSHMACU" />
+      <node concept="16M030" id="3J_5udXf819" role="ZXjPg">
+        <property role="1MXi1$" value="QFIDGMPCNG" />
         <property role="16OWhN" value="true" />
-        <node concept="16LvHN" id="3J_5udXe3lC" role="16L4Zv">
+        <property role="16RMo7" value="true" />
+        <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
+        <node concept="16LvHN" id="3J_5udXf81a" role="16L4Zv">
           <property role="TrG5h" value="withClusterInfo" />
-          <node concept="16WNID" id="3J_5udXe3lD" role="16LvHK">
+          <node concept="16WNID" id="3J_5udXf81b" role="16LvHK">
             <property role="16WVSt" value="false" />
             <property role="16WMxv" value="false" />
             <property role="16WMwy" value="false" />
@@ -343,34 +330,19 @@
             <property role="TrG5h" value="withClusterInfo" />
           </node>
         </node>
-        <node concept="16ML3z" id="3J_5udXe3n8" role="16M02g">
+        <node concept="16ML3z" id="3J_5udXf82t" role="16M02g">
           <property role="16ML3w" value="1" />
           <property role="16ML3A" value="17" />
           <property role="16ML3F" value="0.2f" />
         </node>
-        <node concept="16L4lx" id="3J_5udXe3n5" role="16L4Zt">
-          <ref role="16L4lw" node="3J_5udXe3go" resolve="withPCInfo" />
+        <node concept="16L4lx" id="3J_5udXf82w" role="16L4Zt">
+          <ref role="16L4lw" node="3J_5udXeNeZ" resolve="withPCInfo" />
         </node>
-      </node>
-      <node concept="S1EQe" id="3J_5udXddZb" role="ZXjPg">
-        <property role="1MXi1$" value="GDBWDCOLGH" />
-      </node>
-      <node concept="16OvmV" id="3J_5udXdmaA" role="ZXjPg">
-        <property role="1MXi1$" value="LVKJENGXNQ" />
-        <property role="16PG9H" value="true" />
-        <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
-        <node concept="1FHg$p" id="3J_5udXdmaC" role="16PG9_">
+        <node concept="1FHg$p" id="3J_5udXf82z" role="16RMo2">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="17" />
-          <property role="TrG5h" value="TSNEPlot" />
-        </node>
-        <node concept="16L4lx" id="3J_5udXe3mZ" role="16PG8$">
-          <ref role="16L4lw" node="3J_5udXe3lD" resolve="withClusterInfo" />
-        </node>
-        <node concept="16Ouxl" id="3J_5udXdoaI" role="16PG9D">
-          <property role="16Ouxv" value="1" />
-          <property role="16Ouxt" value="17" />
+          <property role="3ZMXzF" value="13" />
+          <property role="TrG5h" value="tsnePlot" />
         </node>
       </node>
       <node concept="S1EQe" id="3J_5udXcqEW" role="ZXjPg">
@@ -394,8 +366,8 @@
           <property role="16MV6i" value="0.25f" />
           <property role="16MV6m" value="0.25f" />
         </node>
-        <node concept="16L4lx" id="3J_5udXe5_O" role="16L4Zt">
-          <ref role="16L4lw" node="3J_5udXe3lD" resolve="withClusterInfo" />
+        <node concept="16L4lx" id="3J_5udXf83I" role="16L4Zt">
+          <ref role="16L4lw" node="3J_5udXf81b" resolve="withClusterInfo" />
         </node>
       </node>
       <node concept="S1EQe" id="3J_5udXdzGc" role="ZXjPg">
@@ -404,6 +376,7 @@
       <node concept="16OftE" id="3J_5udXdCT8" role="ZXjPg">
         <property role="1MXi1$" value="VYDJIYCIAH" />
         <property role="16PG9H" value="true" />
+        <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
         <node concept="1FHg$p" id="3J_5udXdCTa" role="16PG9_">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
