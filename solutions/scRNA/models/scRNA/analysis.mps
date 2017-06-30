@@ -13,9 +13,6 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
         <property id="1113006610751" name="value" index="$nhwW" />
       </concept>
@@ -138,6 +135,9 @@
         <child id="4166618652720259019" name="myOwnTable" index="3WeD9t" />
       </concept>
       <concept id="3402264987258987827" name="org.campagnelab.metar.tables.structure.Table" flags="ng" index="3Mpm39" />
+      <concept id="4166618652716485500" name="org.campagnelab.metar.tables.structure.ID" flags="ng" index="3Wv0rE">
+        <property id="4166618652716485501" name="id" index="3Wv0rF" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -382,31 +382,31 @@
       <node concept="S1EQe" id="3J_5udXdzGc" role="ZXjPg">
         <property role="1MXi1$" value="MAJTUKKCGV" />
       </node>
-      <node concept="16OftE" id="3J_5udXdCT8" role="ZXjPg">
-        <property role="1MXi1$" value="VYDJIYCIAH" />
+      <node concept="16OftE" id="3J_5udXgrjY" role="ZXjPg">
+        <property role="1MXi1$" value="QOHUWGJMSP" />
         <property role="16PG9H" value="true" />
         <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
-        <node concept="1FHg$p" id="3J_5udXdCTa" role="16PG9_">
+        <node concept="1FHg$p" id="3J_5udXgrk0" role="16PG9_">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="21" />
-          <property role="TrG5h" value="featurePlot" />
+          <property role="3ZMXzF" value="1" />
+          <property role="TrG5h" value="featuerPlot" />
         </node>
-        <node concept="16L4lx" id="3J_5udXgi_P" role="16PG8$">
+        <node concept="16L4lx" id="3J_5udXgrlT" role="16PG8$">
           <ref role="16L4lw" node="3J_5udXgizb" resolve="withMarkerInfo" />
         </node>
-        <node concept="16OftD" id="3J_5udXdCUt" role="16PG9D">
-          <node concept="Xl_RD" id="3J_5udXdCUv" role="16Oft9">
-            <property role="Xl_RC" value="RGS5" />
+        <node concept="16OftD" id="3J_5udXgrlg" role="16PG9D">
+          <node concept="3Wv0rE" id="3J_5udXgxf$" role="16Oft9">
+            <property role="3Wv0rF" value="RGS5" />
           </node>
-          <node concept="Xl_RD" id="3J_5udXdCU$" role="16Oft9">
-            <property role="Xl_RC" value="SPARC" />
+          <node concept="3Wv0rE" id="3J_5udXgxfA" role="16Oft9">
+            <property role="3Wv0rF" value="SPARC" />
           </node>
-          <node concept="Xl_RD" id="3J_5udXdCUE" role="16Oft9">
-            <property role="Xl_RC" value="HIGD1B" />
+          <node concept="3Wv0rE" id="3J_5udXgxfD" role="16Oft9">
+            <property role="3Wv0rF" value="HIGD1B" />
           </node>
-          <node concept="Xl_RD" id="3J_5udXdCUL" role="16Oft9">
-            <property role="Xl_RC" value="NDUFA4L2" />
+          <node concept="3Wv0rE" id="3J_5udXgxfH" role="16Oft9">
+            <property role="3Wv0rF" value="NDUFA4L2" />
           </node>
         </node>
       </node>

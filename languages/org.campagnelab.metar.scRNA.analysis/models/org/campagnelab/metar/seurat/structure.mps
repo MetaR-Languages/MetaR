@@ -579,7 +579,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20lbJX" value="0..n" />
       <property role="20kJfa" value="features" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+      <ref role="20lvS9" to="jrxw:3BiNpr5FGHW" resolve="ID" />
     </node>
     <node concept="PrWs8" id="3J_5udXduab" role="PzmwI">
       <ref role="PrY4T" node="3J_5udXcXu9" resolve="IParameterPlot" />
