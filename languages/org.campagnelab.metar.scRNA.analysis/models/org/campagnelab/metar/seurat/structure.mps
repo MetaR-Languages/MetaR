@@ -149,12 +149,17 @@
     <node concept="1TJgyj" id="3J_5udXbhlN" role="1TKVEi">
       <property role="IQ2ns" value="4315879884706354547" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="info" />
+      <property role="20kJfa" value="param" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3J_5udXbhlM" resolve="IParameterAdd" />
+      <ref role="20lvS9" node="3J_5udXbhlM" resolve="IParamAddInfo" />
     </node>
     <node concept="PrWs8" id="3J_5udX8lD3" role="PrDN$">
       <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
+    </node>
+    <node concept="1TJgyi" id="3J_5udXdH6g" role="1TKVEl">
+      <property role="IQ2nx" value="4315879884706992528" />
+      <property role="TrG5h" value="has_param" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksN">
@@ -435,37 +440,30 @@
   <node concept="1TIwiD" id="3J_5udXbhkz">
     <property role="EcuMT" value="4315879884706354467" />
     <property role="3GE5qa" value="AddInfoOp" />
-    <property role="TrG5h" value="AddInfoSeurat" />
-    <property role="R4oN_" value="Add extra information to seurat data" />
-    <property role="34LRSv" value="add info" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-    <node concept="PrWs8" id="3J_5udXbhm7" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udX8ksM" resolve="IAddInfoSeurat" />
+    <property role="TrG5h" value="ClustersInfoSeurat" />
+    <property role="34LRSv" value="add info clusters" />
+    <ref role="1TJDcQ" node="3J_5udXdHVj" resolve="AbstractAddInfo" />
+    <node concept="1TJgyj" id="3J_5udXdLUy" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884707012258" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="param" />
+      <ref role="20lvS9" node="3J_5udXbwk0" resolve="RangeResolution" />
+      <ref role="20ksaX" node="3J_5udXbhlN" resolve="param" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udXbhlM">
     <property role="EcuMT" value="4315879884706354546" />
     <property role="3GE5qa" value="AddInfoOp" />
-    <property role="TrG5h" value="IParameterAdd" />
-  </node>
-  <node concept="1TIwiD" id="3J_5udXbriB">
-    <property role="EcuMT" value="4315879884706395303" />
-    <property role="3GE5qa" value="AddInfoOp" />
-    <property role="TrG5h" value="PCInformation" />
-    <property role="34LRSv" value="principal components" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3J_5udXbriC" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IParameterAdd" />
-    </node>
+    <property role="TrG5h" value="IParamAddInfo" />
   </node>
   <node concept="1TIwiD" id="3J_5udXbwk0">
     <property role="EcuMT" value="4315879884706415872" />
     <property role="3GE5qa" value="AddInfoOp" />
-    <property role="TrG5h" value="ClustersInformation" />
-    <property role="34LRSv" value="clusters" />
+    <property role="TrG5h" value="RangeResolution" />
+    <property role="34LRSv" value="range and resolution" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udXbwk1" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IParameterAdd" />
+      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IParamAddInfo" />
     </node>
     <node concept="1TJgyi" id="3J_5udXbwk3" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706415875" />
@@ -486,11 +484,11 @@
   <node concept="1TIwiD" id="3J_5udXbEhJ">
     <property role="EcuMT" value="4315879884706456687" />
     <property role="3GE5qa" value="AddInfoOp" />
-    <property role="TrG5h" value="MarkersInformation" />
-    <property role="34LRSv" value="markers" />
+    <property role="TrG5h" value="XFoldAndFraction" />
+    <property role="34LRSv" value="x-fold and fraction" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udXbEhK" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IParameterAdd" />
+      <ref role="PrY4T" node="3J_5udXbhlM" resolve="IParamAddInfo" />
     </node>
     <node concept="1TJgyi" id="3J_5udXbEhL" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706456689" />
@@ -592,6 +590,36 @@
     <node concept="PrWs8" id="3J_5udXduab" role="PzmwI">
       <ref role="PrY4T" node="3J_5udXcXu9" resolve="IParameterPlot" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXdHVj">
+    <property role="EcuMT" value="4315879884706995923" />
+    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="TrG5h" value="AbstractAddInfo" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="3J_5udXdHVk" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8ksM" resolve="IAddInfoSeurat" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXdSLa">
+    <property role="EcuMT" value="4315879884707040330" />
+    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="TrG5h" value="MarkersInfoSeurat" />
+    <property role="34LRSv" value="add info markers" />
+    <ref role="1TJDcQ" node="3J_5udXdHVj" resolve="AbstractAddInfo" />
+    <node concept="1TJgyj" id="3J_5udXdSLb" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884707040331" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="param" />
+      <ref role="20ksaX" node="3J_5udXbhlN" resolve="param" />
+      <ref role="20lvS9" node="3J_5udXbEhJ" resolve="XFoldAndFraction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3J_5udXdUYF">
+    <property role="EcuMT" value="4315879884707049387" />
+    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="TrG5h" value="PCInfoSeurat" />
+    <property role="34LRSv" value="add info principal components" />
+    <ref role="1TJDcQ" node="3J_5udXdHVj" resolve="AbstractAddInfo" />
   </node>
 </model>
 
