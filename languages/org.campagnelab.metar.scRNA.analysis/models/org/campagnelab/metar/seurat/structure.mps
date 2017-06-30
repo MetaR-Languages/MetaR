@@ -29,7 +29,6 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -60,10 +59,11 @@
     <property role="TrG5h" value="ImportSeurat" />
     <property role="34LRSv" value="import seurat" />
     <property role="R4oN_" value="Import results provided by 10X " />
+    <property role="3GE5qa" value="ImportOp" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-    <node concept="1TJgyj" id="3J_5udX5O6x" role="1TKVEi">
-      <property role="IQ2ns" value="4315879884704924065" />
-      <property role="20lmBu" value="reference" />
+    <node concept="1TJgyj" id="3J_5udXfdFL" role="1TKVEi">
+      <property role="IQ2ns" value="4315879884707388145" />
+      <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="seurat" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
@@ -72,8 +72,7 @@
   <node concept="1TIwiD" id="3J_5udX5yTa">
     <property role="EcuMT" value="4315879884704853578" />
     <property role="TrG5h" value="Seurat" />
-    <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Seurat" />
+    <property role="34LRSv" value="seurat" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3J_5udX5EJY" role="1TKVEl">
       <property role="IQ2nx" value="4315879884704885758" />
@@ -105,7 +104,7 @@
     </node>
     <node concept="1TJgyi" id="3J_5udX5GWl" role="1TKVEl">
       <property role="IQ2nx" value="4315879884704894741" />
-      <property role="TrG5h" value="pathToResolve" />
+      <property role="TrG5h" value="path" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

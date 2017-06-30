@@ -14,8 +14,8 @@
     <import index="eeic" ref="r:4252ca74-fdbc-41f3-8f2b-7326a4f21355(org.campagnelab.ui.editor)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
@@ -40,7 +40,6 @@
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
-      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -169,25 +168,19 @@
     </language>
   </registry>
   <node concept="24kQdi" id="3J_5udX2QwD">
+    <property role="3GE5qa" value="ImportOp" />
     <ref role="1XX52x" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
     <node concept="3EZMnI" id="3J_5udX2QwF" role="2wV5jI">
       <node concept="3F0ifn" id="3J_5udX5O6$" role="3EZMnx">
         <property role="3F0ifm" value="import seurat" />
       </node>
-      <node concept="1iCGBv" id="3J_5udX5O6E" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3J_5udX5O6x" resolve="seurat" />
-        <node concept="1sVBvm" id="3J_5udX5O6G" role="1sWHZn">
-          <node concept="3F0A7n" id="3J_5udX5O6R" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <ref role="1k5W1q" node="3J_5udX5W59" resolve="Seurat" />
-          </node>
-        </node>
+      <node concept="3F1sOY" id="3J_5udXfdFW" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXfdFL" resolve="seurat" />
       </node>
       <node concept="2iRfu4" id="3J_5udX2QwI" role="2iSdaV" />
     </node>
     <node concept="1iCGBv" id="3J_5udX8ll2" role="6VMZX">
-      <ref role="1NtTu8" to="lznn:3J_5udX5O6x" resolve="seurat" />
+      <ref role="1NtTu8" to="lznn:3J_5udXfdFL" resolve="seurat" />
       <node concept="1sVBvm" id="3J_5udX8ll3" role="1sWHZn">
         <node concept="PMmxH" id="3J_5udX8llb" role="2wV5jI">
           <ref role="PMmxG" node="3J_5udX8lkP" resolve="SeuratInspectorComponent" />
@@ -307,14 +300,13 @@
     <node concept="3EZMnI" id="3J_5udX5GV6" role="2wV5jI">
       <node concept="2iRkQZ" id="3J_5udX5GV7" role="2iSdaV" />
       <node concept="3EZMnI" id="3J_5udX5Crc" role="3EZMnx">
-        <node concept="3F0ifn" id="3J_5udX5Crj" role="3EZMnx">
-          <property role="3F0ifm" value="Seurat" />
-          <ref role="1k5W1q" to="8gqa:7gaqNttS$ME" resolve="Title" />
-        </node>
-        <node concept="3F0A7n" id="3J_5udX5Crt" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="PMmxH" id="3J_5udXfjgh" role="3EZMnx">
+          <ref role="PMmxG" node="3J_5udX8l2d" resolve="SeuratNameEditor" />
         </node>
         <node concept="2iRfu4" id="3J_5udX5Crf" role="2iSdaV" />
+        <node concept="3F0A7n" id="3J_5udXfuqG" role="3EZMnx">
+          <ref role="1NtTu8" to="lznn:3J_5udX5GWl" resolve="pathToResolve" />
+        </node>
         <node concept="3MhZvs" id="3J_5udX5GWv" role="3EZMnx">
           <ref role="3MDaGm" to="lznn:3J_5udX5GWl" resolve="pathToResolve" />
           <node concept="3wdnjv" id="3J_5udX5GWw" role="3MhPxl">
@@ -329,55 +321,21 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="3J_5udX5GVs" role="3EZMnx">
-        <property role="3F0ifm" value="File Path" />
-        <ref role="1k5W1q" to="8gqa:7gaqNttNRGc" resolve="Heading" />
-      </node>
-      <node concept="3EZMnI" id="3J_5udX5GXK" role="3EZMnx">
-        <node concept="l2Vlx" id="3J_5udX5GXL" role="2iSdaV" />
-        <node concept="3F0A7n" id="3J_5udX5GXz" role="3EZMnx">
-          <ref role="1NtTu8" to="lznn:3J_5udX5GWl" resolve="pathToResolve" />
-          <node concept="lj46D" id="3J_5udX5GY0" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="pVoyu" id="3J_5udX5GYx" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="3J_5udX5GYA" role="3EZMnx">
-        <property role="3F0ifm" value="Properties" />
-        <ref role="1k5W1q" to="8gqa:7gaqNttNRGc" resolve="Heading" />
-      </node>
-      <node concept="3EZMnI" id="3J_5udX5Hx1" role="3EZMnx">
-        <node concept="l2Vlx" id="3J_5udX5Hx2" role="2iSdaV" />
-        <node concept="PMmxH" id="3J_5udX5HwJ" role="3EZMnx">
-          <ref role="PMmxG" node="3J_5udX5zbV" resolve="SeuratComponent" />
-          <node concept="pVoyu" id="3J_5udX5Hxn" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="3J_5udX5Hxq" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-      </node>
     </node>
-    <node concept="3EZMnI" id="4ssfE$bGQSK" role="6VMZX">
-      <node concept="3F0ifn" id="1o6_6Kptmd1" role="3EZMnx">
-        <property role="3F0ifm" value="name:" />
-      </node>
-      <node concept="3F0A7n" id="1o6_6Kptmd9" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="1o6_6Kptmdj" role="3EZMnx">
-        <property role="3F0ifm" value="path to resolve:" />
-        <node concept="pVoyu" id="1o6_6Kptmdp" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+    <node concept="3EZMnI" id="3J_5udXf8i4" role="6VMZX">
+      <node concept="3EZMnI" id="3J_5udXf8iv" role="3EZMnx">
+        <node concept="2iRfu4" id="3J_5udXf8iw" role="2iSdaV" />
+        <node concept="3F0ifn" id="3J_5udXf8im" role="3EZMnx">
+          <property role="3F0ifm" value="path:" />
+        </node>
+        <node concept="3F0A7n" id="3J_5udXf8iD" role="3EZMnx">
+          <ref role="1NtTu8" to="lznn:3J_5udX5GWl" resolve="pathToResolve" />
         </node>
       </node>
-      <node concept="l2Vlx" id="4ssfE$bGQSL" role="2iSdaV" />
-      <node concept="3F0A7n" id="4ssfE$bGRkT" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3J_5udX5GWl" resolve="pathToResolve" />
+      <node concept="3F0ifn" id="3J_5udXf8iH" role="3EZMnx" />
+      <node concept="2iRkQZ" id="3J_5udXf8i5" role="2iSdaV" />
+      <node concept="PMmxH" id="3J_5udXf8ho" role="3EZMnx">
+        <ref role="PMmxG" node="3J_5udX8lkP" resolve="SeuratInspectorComponent" />
       </node>
     </node>
   </node>
@@ -469,6 +427,14 @@
       <node concept="1sVBvm" id="3J_5udX8lmd" role="1sWHZn">
         <node concept="PMmxH" id="3J_5udX8lmk" role="2wV5jI">
           <ref role="PMmxG" node="3J_5udX8l2d" resolve="SeuratNameEditor" />
+        </node>
+      </node>
+    </node>
+    <node concept="1iCGBv" id="3J_5udXf83L" role="6VMZX">
+      <ref role="1NtTu8" to="lznn:3J_5udX8l23" resolve="seurat" />
+      <node concept="1sVBvm" id="3J_5udXf83M" role="1sWHZn">
+        <node concept="PMmxH" id="3J_5udXf83U" role="2wV5jI">
+          <ref role="PMmxG" node="3J_5udX8lkP" resolve="SeuratInspectorComponent" />
         </node>
       </node>
     </node>

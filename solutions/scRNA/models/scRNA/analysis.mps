@@ -106,7 +106,7 @@
       <concept id="4315879884707049387" name="org.campagnelab.metar.seurat.structure.PCInfoSeurat" flags="ng" index="16OFD8" />
       <concept id="4315879884706801360" name="org.campagnelab.metar.seurat.structure.DiagnosticPlot" flags="ng" index="16PJcN" />
       <concept id="4315879884704146260" name="org.campagnelab.metar.seurat.structure.ImportSeurat" flags="ng" index="16VBqR">
-        <reference id="4315879884704924065" name="seurat" index="16W_h2" />
+        <child id="4315879884707388145" name="seurat" index="16QsWi" />
       </concept>
       <concept id="4315879884704853578" name="org.campagnelab.metar.seurat.structure.Seurat" flags="ng" index="16WNID">
         <property id="4315879884706122909" name="varGenes" index="16N9_Y" />
@@ -114,7 +114,7 @@
         <property id="4315879884704857541" name="markers" index="16WMwA" />
         <property id="4315879884704857532" name="pca" index="16WMxv" />
         <property id="4315879884704885758" name="tsne" index="16WVSt" />
-        <property id="4315879884704894741" name="pathToResolve" index="16WXFQ" />
+        <property id="4315879884704894741" name="path" index="16WXFQ" />
       </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
@@ -152,12 +152,20 @@
     <property role="TrG5h" value="collapsedTubulesAnalysis" />
     <node concept="ZXjPh" id="3J_5udX5xqZ" role="S1EQ8">
       <property role="1MXi1$" value="PNEDGAWNOO" />
-      <node concept="16VBqR" id="3J_5udX5Q3i" role="ZXjPg">
-        <property role="1MXi1$" value="LSQJNWNYAF" />
-        <ref role="16W_h2" node="3J_5udX5TEt" resolve="collapsedTubules" />
+      <node concept="16VBqR" id="3J_5udXfAvd" role="ZXjPg">
+        <property role="1MXi1$" value="XGACNWGORS" />
+        <node concept="16WNID" id="3J_5udXfAvf" role="16QsWi">
+          <property role="16WVSt" value="false" />
+          <property role="16WMxv" value="false" />
+          <property role="16WMwy" value="false" />
+          <property role="16WMwA" value="false" />
+          <property role="16N9_Y" value="false" />
+          <property role="16WXFQ" value="/Users/farcasia/Documents/Data/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
+          <property role="TrG5h" value="collapsedTubules" />
+        </node>
       </node>
-      <node concept="S1EQe" id="3J_5udX8rWv" role="ZXjPg">
-        <property role="1MXi1$" value="QMITEMBJWY" />
+      <node concept="S1EQe" id="3J_5udXfAu3" role="ZXjPg">
+        <property role="1MXi1$" value="NHSGDEQCQB" />
       </node>
       <node concept="16L9MR" id="3J_5udX9EXY" role="ZXjPg">
         <property role="1MXi1$" value="OMRCFANMQC" />
@@ -190,8 +198,8 @@
             <property role="TrG5h" value="initialQC" />
           </node>
         </node>
-        <node concept="16L4lx" id="3J_5udX9EYf" role="16L4Zt">
-          <ref role="16L4lw" node="3J_5udX5TEt" resolve="collapsedTubules" />
+        <node concept="16L4lx" id="3J_5udXfHmB" role="16L4Zt">
+          <ref role="16L4lw" node="3J_5udXfAvf" resolve="collapsedTubules" />
         </node>
       </node>
       <node concept="S1EQe" id="3J_5udXd7Jx" role="ZXjPg">
@@ -402,14 +410,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="16WNID" id="3J_5udX5TEt">
-    <property role="16WVSt" value="false" />
-    <property role="16WMxv" value="false" />
-    <property role="16WMwy" value="false" />
-    <property role="16WMwA" value="false" />
-    <property role="TrG5h" value="collapsedTubules" />
-    <property role="16WXFQ" value="/Users/farcasia/Documents/Data/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
   </node>
 </model>
 
