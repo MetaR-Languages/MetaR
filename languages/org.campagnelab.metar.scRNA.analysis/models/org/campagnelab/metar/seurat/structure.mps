@@ -458,7 +458,7 @@
     <property role="EcuMT" value="4315879884706354467" />
     <property role="3GE5qa" value="AddInfoOp" />
     <property role="TrG5h" value="ClustersInfoSeurat" />
-    <property role="34LRSv" value="add info clusters" />
+    <property role="34LRSv" value="add clusters" />
     <ref role="1TJDcQ" node="3J_5udXdHVj" resolve="AbstractAddInfo" />
     <node concept="1TJgyj" id="3J_5udXdLUy" role="1TKVEi">
       <property role="IQ2ns" value="4315879884707012258" />
@@ -581,7 +581,7 @@
     <property role="EcuMT" value="4315879884707040330" />
     <property role="3GE5qa" value="AddInfoOp" />
     <property role="TrG5h" value="MarkersInfoSeurat" />
-    <property role="34LRSv" value="add info markers" />
+    <property role="34LRSv" value="add markers" />
     <ref role="1TJDcQ" node="3J_5udXdHVj" resolve="AbstractAddInfo" />
     <node concept="1TJgyj" id="3J_5udXdSLb" role="1TKVEi">
       <property role="IQ2ns" value="4315879884707040331" />
@@ -595,7 +595,7 @@
     <property role="EcuMT" value="4315879884707049387" />
     <property role="3GE5qa" value="AddInfoOp" />
     <property role="TrG5h" value="PCInfoSeurat" />
-    <property role="34LRSv" value="add info principal components" />
+    <property role="34LRSv" value="add principal components" />
     <ref role="1TJDcQ" node="3J_5udXdHVj" resolve="AbstractAddInfo" />
   </node>
 </model>
