@@ -459,6 +459,7 @@
     <property role="3GE5qa" value="AddInfoOp" />
     <property role="TrG5h" value="ClustersInfoSeurat" />
     <property role="34LRSv" value="add clusters" />
+    <property role="R4oN_" value="Cluster cells based on PCA scores" />
     <ref role="1TJDcQ" node="3J_5udXdHVj" resolve="AbstractAddInfo" />
     <node concept="1TJgyj" id="3J_5udXdLUy" role="1TKVEi">
       <property role="IQ2ns" value="4315879884707012258" />
@@ -535,6 +536,7 @@
     <property role="3GE5qa" value="PlotOp" />
     <property role="TrG5h" value="DiagnosticPlot" />
     <property role="34LRSv" value="Diagnostic plot" />
+    <property role="R4oN_" value="Visualize counts and relationships between them" />
     <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
   </node>
   <node concept="1TIwiD" id="3J_5udXd5_8">
@@ -553,6 +555,7 @@
     <property role="3GE5qa" value="PlotOp" />
     <property role="TrG5h" value="FeaturePlot" />
     <property role="34LRSv" value="Feature plot" />
+    <property role="R4oN_" value="Visualize expression of gene in the context of all cells" />
     <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
     <node concept="1TJgyj" id="3J_5udXduaf" role="1TKVEi">
       <property role="IQ2ns" value="4315879884706931343" />
@@ -593,6 +596,7 @@
     <property role="3GE5qa" value="AddInfoOp" />
     <property role="TrG5h" value="MarkersInfoSeurat" />
     <property role="34LRSv" value="add markers" />
+    <property role="R4oN_" value="Markers that define clusters" />
     <ref role="1TJDcQ" node="3J_5udXdHVj" resolve="AbstractAddInfo" />
     <node concept="1TJgyj" id="3J_5udXdSLb" role="1TKVEi">
       <property role="IQ2ns" value="4315879884707040331" />
@@ -614,6 +618,7 @@
     <property role="3GE5qa" value="AddInfoOp" />
     <property role="TrG5h" value="PCInfoSeurat" />
     <property role="34LRSv" value="add principal components" />
+    <property role="R4oN_" value="Principal component analysis" />
     <ref role="1TJDcQ" node="3J_5udXdHVj" resolve="AbstractAddInfo" />
     <node concept="1TJgyj" id="3J_5udXh5zi" role="1TKVEi">
       <property role="IQ2ns" value="4315879884707879122" />
