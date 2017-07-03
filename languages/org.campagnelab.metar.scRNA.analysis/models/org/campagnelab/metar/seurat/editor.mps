@@ -410,7 +410,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3J_5udX8mdI">
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <ref role="1XX52x" to="lznn:3J_5udX8lDl" resolve="ISeuratVariable" />
     <node concept="PMmxH" id="3J_5udX8zIO" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -584,7 +584,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3J_5udXaU8A">
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <ref role="1XX52x" to="lznn:3J_5udXaU7w" resolve="IVarMean" />
     <node concept="3EZMnI" id="3J_5udXaU8C" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udXaU8J" role="3EZMnx">
@@ -603,7 +603,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3J_5udXb2rd">
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <ref role="1XX52x" to="lznn:3J_5udXb2r4" resolve="EmptyVarMean" />
     <node concept="3F0ifn" id="3J_5udXb2rf" role="2wV5jI">
       <node concept="OXEIz" id="3J_5udXb2rk" role="P5bDN">
@@ -941,7 +941,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3J_5udXh4Ff">
-    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="3GE5qa" value="AddInfoOp.PlotWrapper" />
     <ref role="1XX52x" to="lznn:3J_5udXh4F4" resolve="PlotWrapper" />
     <node concept="3EZMnI" id="3J_5udXh4Fh" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udXh4Fo" role="3EZMnx">
@@ -967,7 +967,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3J_5udXhhDS">
-    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="3GE5qa" value="AddInfoOp.FutureTableWrapper" />
     <ref role="1XX52x" to="lznn:3J_5udXhhDH" resolve="FutureTableWrapper" />
     <node concept="3EZMnI" id="3J_5udXhhDU" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udXhhDV" role="3EZMnx">

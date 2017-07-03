@@ -59,7 +59,7 @@
   </registry>
   <node concept="1YbPZF" id="3J_5udX8xXz">
     <property role="TrG5h" value="typeof_GeneCountInCell" />
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <node concept="3clFbS" id="3J_5udX8xX$" role="18ibNy">
       <node concept="1Z5TYs" id="3J_5udX8ylW" role="3cqZAp">
         <node concept="mw_s8" id="3J_5udX8ymg" role="1ZfhKB">
@@ -83,7 +83,7 @@
   </node>
   <node concept="1YbPZF" id="3J_5udX8BnM">
     <property role="TrG5h" value="typeof_CellsGeneExpressed" />
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <node concept="3clFbS" id="3J_5udX8BnN" role="18ibNy">
       <node concept="1Z5TYs" id="3J_5udX8BnT" role="3cqZAp">
         <node concept="mw_s8" id="3J_5udX8BnU" role="1ZfhKB">
@@ -107,7 +107,7 @@
   </node>
   <node concept="1YbPZF" id="3J_5udXaa08">
     <property role="TrG5h" value="typeof_PercentageMitochondrialGenes" />
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <node concept="3clFbS" id="3J_5udXaa09" role="18ibNy">
       <node concept="1Z5TYs" id="3J_5udXaaw9" role="3cqZAp">
         <node concept="mw_s8" id="3J_5udXaawt" role="1ZfhKB">
@@ -131,7 +131,7 @@
   </node>
   <node concept="1YbPZF" id="3J_5udXbfTL">
     <property role="TrG5h" value="typeof_AbstractVarMean" />
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <node concept="3clFbS" id="3J_5udXbfTM" role="18ibNy">
       <node concept="1Z5TYs" id="3J_5udXbggE" role="3cqZAp">
         <node concept="mw_s8" id="3J_5udXbggY" role="1ZfhKB">

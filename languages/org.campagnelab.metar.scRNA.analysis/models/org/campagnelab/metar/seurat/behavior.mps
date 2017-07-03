@@ -847,7 +847,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7lSaFvFizPJ">
-    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="3GE5qa" value="AddInfoOp.PlotWrapper" />
     <ref role="13h7C2" to="lznn:3J_5udXh4F4" resolve="PlotWrapper" />
     <node concept="13hLZK" id="7lSaFvFizPK" role="13h7CW">
       <node concept="3clFbS" id="7lSaFvFizPL" role="2VODD2">
@@ -872,7 +872,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7lSaFvFiCgu">
-    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="3GE5qa" value="AddInfoOp.FutureTableWrapper" />
     <ref role="13h7C2" to="lznn:3J_5udXhhDH" resolve="FutureTableWrapper" />
     <node concept="13hLZK" id="7lSaFvFiCgv" role="13h7CW">
       <node concept="3clFbS" id="7lSaFvFiCgw" role="2VODD2">

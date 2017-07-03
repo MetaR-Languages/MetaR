@@ -248,7 +248,7 @@
   <node concept="PlHQZ" id="3J_5udX8lDl">
     <property role="EcuMT" value="4315879884705585749" />
     <property role="TrG5h" value="ISeuratVariable" />
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <node concept="PrWs8" id="3J_5udX8md$" role="PrDN$">
       <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
     </node>
@@ -290,21 +290,21 @@
   </node>
   <node concept="1TIwiD" id="3J_5udX8s92">
     <property role="EcuMT" value="4315879884705612354" />
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <property role="TrG5h" value="GeneCountInCell" />
     <property role="34LRSv" value="number of genes in cell" />
     <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
   </node>
   <node concept="1TIwiD" id="3J_5udX8BnC">
     <property role="EcuMT" value="4315879884705658344" />
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <property role="TrG5h" value="CellsGeneExpressed" />
     <property role="34LRSv" value="number of cells where gene is expressed in" />
     <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
   </node>
   <node concept="1TIwiD" id="3J_5udX8BnD">
     <property role="EcuMT" value="4315879884705658345" />
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <property role="TrG5h" value="AbstractSeuratVariable" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -366,14 +366,14 @@
   </node>
   <node concept="1TIwiD" id="3J_5udXaa01">
     <property role="EcuMT" value="4315879884706062337" />
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <property role="TrG5h" value="PercentageMitochondrialGenes" />
     <property role="34LRSv" value="percentage of mitochondrial genes in cell" />
     <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
   </node>
   <node concept="1TIwiD" id="3J_5udXakyK">
     <property role="EcuMT" value="4315879884706105520" />
-    <property role="3GE5qa" value="SeuratVariables" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <property role="TrG5h" value="nUMICountInCell" />
     <property role="34LRSv" value="number of UMIs in cell" />
     <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
@@ -396,7 +396,7 @@
   </node>
   <node concept="PlHQZ" id="3J_5udXaU7w">
     <property role="EcuMT" value="4315879884706259424" />
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <property role="TrG5h" value="IVarMean" />
     <node concept="1TJgyi" id="3J_5udXaU8a" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706259466" />
@@ -409,35 +409,35 @@
   </node>
   <node concept="1TIwiD" id="3J_5udXaCVC">
     <property role="EcuMT" value="4315879884706189032" />
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <property role="TrG5h" value="XHighCutOff" />
     <property role="34LRSv" value="top cutoff on average expression axis" />
     <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
   </node>
   <node concept="1TIwiD" id="3J_5udXavON">
     <property role="EcuMT" value="4315879884706151731" />
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <property role="TrG5h" value="XLowCutOff" />
     <property role="34LRSv" value="bottom cutoff on average expression axis" />
     <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
   </node>
   <node concept="1TIwiD" id="3J_5udXaCVD">
     <property role="EcuMT" value="4315879884706189033" />
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <property role="TrG5h" value="YHighCutOff" />
     <property role="34LRSv" value="top cutoff on dispersion axis" />
     <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
   </node>
   <node concept="1TIwiD" id="3J_5udXaCVE">
     <property role="EcuMT" value="4315879884706189034" />
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <property role="TrG5h" value="YLowCutOff" />
     <property role="34LRSv" value="bottom cutoff on dispersion axis" />
     <ref role="1TJDcQ" node="3J_5udXaU9l" resolve="AbstractVarMean" />
   </node>
   <node concept="1TIwiD" id="3J_5udXaU9l">
     <property role="EcuMT" value="4315879884706259541" />
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <property role="TrG5h" value="AbstractVarMean" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -448,7 +448,7 @@
   </node>
   <node concept="1TIwiD" id="3J_5udXb2r4">
     <property role="EcuMT" value="4315879884706293444" />
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
     <property role="TrG5h" value="EmptyVarMean" />
     <node concept="PrWs8" id="3J_5udXb2ri" role="PzmwI">
       <ref role="PrY4T" node="3J_5udXaU7w" resolve="IVarMean" />
@@ -630,7 +630,7 @@
   </node>
   <node concept="1TIwiD" id="3J_5udXh4F4">
     <property role="EcuMT" value="4315879884707875524" />
-    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="3GE5qa" value="AddInfoOp.PlotWrapper" />
     <property role="TrG5h" value="PlotWrapper" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -648,7 +648,7 @@
   </node>
   <node concept="1TIwiD" id="3J_5udXh5mV">
     <property role="EcuMT" value="4315879884707878331" />
-    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="3GE5qa" value="AddInfoOp.PlotWrapper" />
     <property role="TrG5h" value="TSNEPlotWrapper" />
     <property role="34LRSv" value="tsne plot" />
     <ref role="1TJDcQ" node="3J_5udXh4F4" resolve="PlotWrapper" />
@@ -662,7 +662,7 @@
   </node>
   <node concept="1TIwiD" id="3J_5udXhhDH">
     <property role="EcuMT" value="4315879884707928685" />
-    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="3GE5qa" value="AddInfoOp.FutureTableWrapper" />
     <property role="TrG5h" value="FutureTableWrapper" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -680,7 +680,7 @@
   </node>
   <node concept="1TIwiD" id="3J_5udXhhEa">
     <property role="EcuMT" value="4315879884707928714" />
-    <property role="3GE5qa" value="AddInfoOp" />
+    <property role="3GE5qa" value="AddInfoOp.FutureTableWrapper" />
     <property role="TrG5h" value="MarkersPerClusterTableWrapper" />
     <property role="34LRSv" value="markers per cluster table" />
     <ref role="1TJDcQ" node="3J_5udXhhDH" resolve="FutureTableWrapper" />
