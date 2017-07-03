@@ -16,7 +16,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
-    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
     <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" implicit="true" />
@@ -490,30 +489,6 @@
           <ref role="PMmxG" node="7lSaFvFhSaI" resolve="RefSeuratInspectorComponent" />
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="3J_5udX8rXl">
-    <property role="3GE5qa" value="CleanUpOp.Strategies" />
-    <ref role="1XX52x" to="lznn:3J_5udX8lD5" resolve="ICleanupStrategy" />
-    <node concept="3EZMnI" id="3J_5udX8rXn" role="2wV5jI">
-      <node concept="PMmxH" id="3J_5udX8IJm" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="OXEIz" id="3J_5udX9gOJ" role="P5bDN">
-          <node concept="UkePV" id="3J_5udX9gOL" role="OY2wv">
-            <ref role="Ul1FP" to="jrxw:7LvyiX4miix" resolve="EmptyLine" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="3J_5udX8XbH" role="3EZMnx">
-        <property role="3F0ifm" value="when" />
-      </node>
-      <node concept="3F1sOY" id="3J_5udX8s6v" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3J_5udX8lUB" resolve="conditions" />
-        <node concept="3vyZuw" id="3J_5udX8s7u" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="2iRfu4" id="3J_5udX8rXq" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="3J_5udX8s6g">
@@ -1053,6 +1028,25 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7lSaFvFi8WY">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="1XX52x" to="lznn:3J_5udX8VC3" resolve="RejectCellStrategy" />
+    <node concept="3EZMnI" id="3J_5udX8rXn" role="2wV5jI">
+      <node concept="PMmxH" id="3J_5udX8IJm" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="3J_5udX8XbH" role="3EZMnx">
+        <property role="3F0ifm" value="when" />
+      </node>
+      <node concept="3F1sOY" id="3J_5udX8s6v" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udX8lUB" resolve="conditions" />
+        <node concept="3vyZuw" id="3J_5udX8s7u" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="3J_5udX8rXq" role="2iSdaV" />
     </node>
   </node>
 </model>

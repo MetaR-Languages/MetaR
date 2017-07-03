@@ -192,8 +192,8 @@
           <property role="16WXFQ" value="/Users/farcasia/Documents/Data/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
         </node>
       </node>
-      <node concept="S1EQe" id="7lSaFvFhXFg" role="ZXjPg">
-        <property role="1MXi1$" value="XPFSMHLNPK" />
+      <node concept="S1EQe" id="7lSaFvFiiz_" role="ZXjPg">
+        <property role="1MXi1$" value="IJEPNTSSKW" />
       </node>
       <node concept="16L9MR" id="7lSaFvFi2Hy" role="ZXjPg">
         <property role="1MXi1$" value="FRGNESVQAT" />
@@ -228,11 +228,8 @@
           <property role="16NVZN" value="10000" />
         </node>
       </node>
-      <node concept="S1EQe" id="7lSaFvFi2_4" role="ZXjPg">
-        <property role="1MXi1$" value="TBAFBSYFJM" />
-      </node>
-      <node concept="S1EQe" id="3J_5udXd7Jx" role="ZXjPg">
-        <property role="1MXi1$" value="OGSOTYOJEI" />
+      <node concept="S1EQe" id="7lSaFvFiiVq" role="ZXjPg">
+        <property role="1MXi1$" value="DKDEKMHFDF" />
       </node>
       <node concept="16PJcN" id="7lSaFvFhuDg" role="ZXjPg">
         <property role="1MXi1$" value="CIKQLVHGBL" />
@@ -242,7 +239,7 @@
         <node concept="1FHg$p" id="7lSaFvFhzoS" role="16PG9_">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="4" />
+          <property role="3ZMXzF" value="5" />
           <property role="TrG5h" value="violingAndGenePlots" />
         </node>
       </node>
@@ -323,8 +320,8 @@
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="7lSaFvFh$oN" role="ZXjPg">
-        <property role="1MXi1$" value="VKDTUBDDRG" />
+      <node concept="S1EQe" id="7lSaFvFiBUP" role="ZXjPg">
+        <property role="1MXi1$" value="MIXSHANVVW" />
       </node>
       <node concept="16M030" id="7lSaFvFi3Go" role="ZXjPg">
         <property role="1MXi1$" value="RFIGICLNHI" />
@@ -351,13 +348,13 @@
           <node concept="1FHg$p" id="7lSaFvFi3L4" role="16ClWA">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
-            <property role="3ZMXzF" value="1" />
+            <property role="3ZMXzF" value="11" />
             <property role="TrG5h" value="tsnePlot" />
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="7lSaFvFi4c5" role="ZXjPg">
-        <property role="1MXi1$" value="YVFDFMODAH" />
+      <node concept="S1EQe" id="7lSaFvFiGAC" role="ZXjPg">
+        <property role="1MXi1$" value="TODSNMEGQB" />
       </node>
       <node concept="16ODAD" id="7lSaFvFi42X" role="ZXjPg">
         <property role="1MXi1$" value="NFISNRJHTI" />
