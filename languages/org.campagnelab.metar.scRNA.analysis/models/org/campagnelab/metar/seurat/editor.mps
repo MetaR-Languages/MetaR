@@ -430,8 +430,9 @@
     <node concept="1iCGBv" id="3J_5udX8lmb" role="2wV5jI">
       <ref role="1NtTu8" to="lznn:3J_5udX8l23" resolve="seurat" />
       <node concept="1sVBvm" id="3J_5udX8lmd" role="1sWHZn">
-        <node concept="PMmxH" id="3J_5udX8lmk" role="2wV5jI">
-          <ref role="PMmxG" node="3J_5udX8l2d" resolve="SeuratNameEditor" />
+        <node concept="3F0A7n" id="1taGkn8OME$" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>
@@ -762,7 +763,7 @@
         <node concept="3EZMnI" id="3J_5udXfXqt" role="3EZMnx">
           <node concept="2iRfu4" id="3J_5udXfXqu" role="2iSdaV" />
           <node concept="3F1sOY" id="3J_5udXhhPK" role="3EZMnx">
-            <ref role="1NtTu8" to="lznn:3J_5udXfTJJ" resolve="tableWrapper" />
+            <ref role="1NtTu8" to="lznn:3J_5udXfTJJ" resolve="futureTableWrapper" />
           </node>
           <node concept="pkWqt" id="3J_5udXfXRH" role="pqm2j">
             <node concept="3clFbS" id="3J_5udXfXRI" role="2VODD2">
