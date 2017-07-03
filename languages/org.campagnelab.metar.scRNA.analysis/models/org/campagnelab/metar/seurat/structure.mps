@@ -652,7 +652,7 @@
     <property role="EcuMT" value="4315879884707879121" />
     <property role="3GE5qa" value="AddInfoOp" />
     <property role="TrG5h" value="StandardDeviationPlot" />
-    <property role="34LRSv" value="standard deviation plot" />
+    <property role="34LRSv" value="standard deviation of PCs plot" />
     <ref role="1TJDcQ" node="3J_5udXh4F4" resolve="PlotWrapper" />
   </node>
   <node concept="1TIwiD" id="3J_5udXhhDH">
