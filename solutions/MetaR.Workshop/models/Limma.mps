@@ -1850,8 +1850,8 @@
         <property role="31lnkE" value="true" />
         <property role="1MXi1$" value="DRBRWPDAOE" />
         <node concept="1FHg$p" id="6gze2t0OYro" role="319mBM">
-          <property role="ZHjxa" value="400" />
-          <property role="ZHjG8" value="400" />
+          <property role="ZHjxa" value="1000" />
+          <property role="ZHjG8" value="1000" />
           <property role="TrG5h" value="PreviewHeatmap" />
           <property role="3ZMXzF" value="12" />
         </node>
