@@ -187,9 +187,7 @@
       <concept id="2202909375770430354" name="org.campagnelab.mps.XChart.structure.DelimitedFile" flags="ng" index="31JGnP">
         <property id="2202909375770898234" name="delimitor" index="31Cu5t" />
       </concept>
-      <concept id="2202909375770434159" name="org.campagnelab.mps.XChart.structure.Column" flags="ng" index="31JHg8">
-        <reference id="3328299660867197501" name="type" index="1YeEjl" />
-      </concept>
+      <concept id="2202909375770434159" name="org.campagnelab.mps.XChart.structure.Column" flags="ng" index="31JHg8" />
     </language>
     <language id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles">
       <concept id="2742007948273068321" name="org.campagnelab.styles.structure.BooleanStyleClass" flags="ng" index="2A4byi">
@@ -453,14 +451,14 @@
       <node concept="S1EQe" id="370e$WiIwca" role="ZXjPg">
         <property role="1MXi1$" value="PIGWOPMADH" />
       </node>
-      <node concept="16ODAD" id="6cuwE$idqEP" role="ZXjPg">
+      <node concept="16ODAD" id="6cuwE$idIqy" role="ZXjPg">
         <property role="1LbDqV" value="false" />
-        <property role="1MXi1$" value="OEVGFGKVAU" />
+        <property role="1MXi1$" value="INIRVYDSPT" />
         <property role="16OWhN" value="true" />
         <property role="16QCS8" value="true" />
-        <node concept="16LvHN" id="6cuwE$idqEQ" role="16L4Zv">
+        <node concept="16LvHN" id="6cuwE$idIqz" role="16L4Zv">
           <property role="TrG5h" value="withMarkersInfo" />
-          <node concept="16WNID" id="6cuwE$idqER" role="16LvHK">
+          <node concept="16WNID" id="6cuwE$idIq$" role="16LvHK">
             <property role="16WVSt" value="true" />
             <property role="16WMxv" value="true" />
             <property role="16WMwy" value="true" />
@@ -468,26 +466,24 @@
             <property role="TrG5h" value="withMarkersInfo" />
           </node>
         </node>
-        <node concept="16C0XD" id="6cuwE$idqET" role="16QCSc">
-          <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
-          <node concept="3MlLWZ" id="6cuwE$idqEU" role="16C0Yd">
+        <node concept="16C0XD" id="6cuwE$idIqA" role="16QCSc">
+          <node concept="3MlLWZ" id="6cuwE$idIqB" role="16C0Yd">
             <property role="TrG5h" value="default" />
-            <ref role="3MlLW5" node="6cuwE$idqEV" resolve="default" />
-            <node concept="3Mpm39" id="6cuwE$idqEV" role="3WeD9t">
+            <ref role="3MlLW5" node="6cuwE$idIqC" resolve="default" />
+            <node concept="3Mpm39" id="6cuwE$idIqC" role="3WeD9t">
               <property role="31Cu5t" value="&#9;" />
               <property role="TrG5h" value="default" />
-              <node concept="31JHg8" id="6cuwE$idqEW" role="31JHgj">
+              <node concept="31JHg8" id="6cuwE$idIqD" role="31JHgj">
                 <property role="TrG5h" value="default" />
-                <ref role="1YeEjl" to=":6cuwE$idqEX" resolve="String" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="16MV6c" id="6cuwE$idqEY" role="16M02g">
+        <node concept="16MV6c" id="6cuwE$idIqE" role="16M02g">
           <property role="16MV6i" value="0.25f" />
           <property role="16MV6m" value="0.25f" />
         </node>
-        <node concept="1LcaPl" id="6cuwE$idDyc" role="1LcbbV">
+        <node concept="1LcaPl" id="6cuwE$idIwF" role="1LcbbV">
           <ref role="1LcaPk" node="6cuwE$idmhG" resolve="withClustersAndTSNEInfo" />
         </node>
       </node>
@@ -496,8 +492,8 @@
         <property role="34gX7q" value="false" />
         <property role="34tvW_" value="1" />
         <property role="34tvWB" value="1" />
-        <node concept="afgQW" id="6cuwE$idqQl" role="34tvVl">
-          <ref role="afgo8" node="6cuwE$idqEV" resolve="default" />
+        <node concept="afgQW" id="6cuwE$idIAf" role="34tvVl">
+          <ref role="afgo8" node="6cuwE$idIqC" resolve="default" />
         </node>
       </node>
       <node concept="S1EQe" id="7lSaFvFjmbj" role="ZXjPg">
@@ -513,8 +509,8 @@
           <property role="3ZMXzF" value="18" />
           <property role="TrG5h" value="featurePlot" />
         </node>
-        <node concept="1LcaPl" id="6cuwE$idr7b" role="1Lc1gn">
-          <ref role="1LcaPk" node="6cuwE$idqER" resolve="withMarkersInfo" />
+        <node concept="1LcaPl" id="6cuwE$idIA9" role="1Lc1gn">
+          <ref role="1LcaPk" node="6cuwE$idIq$" resolve="withMarkersInfo" />
         </node>
         <node concept="16OftD" id="6cuwE$idr1q" role="16PG9D">
           <node concept="3Wv0rE" id="6cuwE$idr1r" role="16Oft9">
