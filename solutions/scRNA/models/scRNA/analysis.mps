@@ -6,18 +6,10 @@
     <use id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles" version="0" />
     <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />
-    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
-    <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="0" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
   </languages>
   <imports>
-    <import index="r8sq" ref="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" />
-    <import index="711x" ref="r:f8afdbad-6ef4-4231-b44c-0ecacaf32d43(org.campagnelab.mps.XChart.types.behavior)" />
-    <import index="2jdi" ref="r:95d007f7-7060-4082-a1e5-739de519e87e(org.campagnelab.mps.XChart.types.editor)" />
-    <import index="dhvm" ref="r:ef30a3cc-40a1-43b0-a9b0-84adb17a6113(org.campagnelab.mps.XChart.types.typesystem)" />
+    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -232,8 +224,8 @@
           <property role="16WXFQ" value="/Users/farcasia/Documents/Data/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
         </node>
       </node>
-      <node concept="S1EQe" id="7lSaFvFiiz_" role="ZXjPg">
-        <property role="1MXi1$" value="IJEPNTSSKW" />
+      <node concept="S1EQe" id="6cuwE$ib18M" role="ZXjPg">
+        <property role="1MXi1$" value="MGCLTSBVCF" />
       </node>
       <node concept="16L9MR" id="7lSaFvFi2Hy" role="ZXjPg">
         <property role="1MXi1$" value="FRGNESVQAT" />
@@ -371,7 +363,7 @@
           <node concept="1FHg$p" id="7lSaFvFi3zP" role="16ClWA">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
-            <property role="3ZMXzF" value="9" />
+            <property role="3ZMXzF" value="10" />
             <property role="TrG5h" value="standardDeviationPCPlot" />
           </node>
         </node>
@@ -380,11 +372,11 @@
         <property role="1MXi1$" value="NQMEQADIEY" />
         <property role="313rra" value="1" />
         <property role="313rrk" value="1" />
-        <property role="31lnkE" value="true" />
+        <property role="31lnkE" value="false" />
         <node concept="1FHg$p" id="7lSaFvFjlXn" role="319mBM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="10" />
+          <property role="3ZMXzF" value="11" />
           <property role="TrG5h" value="standardDev" />
         </node>
         <node concept="31becx" id="7lSaFvFjm1Q" role="312phR">
@@ -420,7 +412,7 @@
           <node concept="1FHg$p" id="7lSaFvFi3L4" role="16ClWA">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
-            <property role="3ZMXzF" value="11" />
+            <property role="3ZMXzF" value="13" />
             <property role="TrG5h" value="tsnePlot" />
           </node>
         </node>
@@ -433,7 +425,7 @@
         <node concept="1FHg$p" id="7lSaFvFjm6y" role="319mBM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="1" />
+          <property role="3ZMXzF" value="14" />
           <property role="TrG5h" value="tsne" />
         </node>
         <node concept="31becx" id="7lSaFvFjmbd" role="312phR">
@@ -441,8 +433,8 @@
           <ref role="312p7B" node="7lSaFvFi3L4" resolve="tsnePlot" />
         </node>
       </node>
-      <node concept="S1EQe" id="7lSaFvFl2_C" role="ZXjPg">
-        <property role="1MXi1$" value="LSFNLPISLR" />
+      <node concept="S1EQe" id="370e$WiIwca" role="ZXjPg">
+        <property role="1MXi1$" value="PIGWOPMADH" />
       </node>
       <node concept="16ODAD" id="7lSaFvFkV8I" role="ZXjPg">
         <property role="1MXi1$" value="USEPFHJAUQ" />
@@ -469,7 +461,7 @@
               <property role="TrG5h" value="default" />
               <node concept="31JHg8" id="7lSaFvFkV8P" role="31JHgj">
                 <property role="TrG5h" value="default" />
-                <ref role="1YeEjl" to=":7lSaFvFkV8Q" resolve="String" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
               </node>
             </node>
           </node>
@@ -481,7 +473,7 @@
       </node>
       <node concept="34tvTV" id="7lSaFvFjmg4" role="ZXjPg">
         <property role="1MXi1$" value="JBOHKFMLUD" />
-        <property role="34gX7q" value="true" />
+        <property role="34gX7q" value="false" />
         <property role="34tvW_" value="1" />
         <property role="34tvWB" value="1" />
         <node concept="afgQW" id="7lSaFvFkVjj" role="34tvVl">
@@ -499,7 +491,7 @@
         <node concept="1FHg$p" id="7lSaFvFh_vK" role="16PG9_">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="14" />
+          <property role="3ZMXzF" value="19" />
           <property role="TrG5h" value="featurePlot" />
         </node>
         <node concept="16OftD" id="7lSaFvFh_$b" role="16PG9D">

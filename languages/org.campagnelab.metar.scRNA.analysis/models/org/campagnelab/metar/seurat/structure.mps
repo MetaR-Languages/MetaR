@@ -199,6 +199,13 @@
       <property role="20kJfa" value="param" />
       <ref role="20lvS9" node="3J_5udXcXu9" resolve="IParameterPlot" />
     </node>
+    <node concept="1TJgyj" id="6cuwE$ibDqY" role="1TKVEi">
+      <property role="IQ2ns" value="7142289721722312382" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
     <node concept="1TJgyi" id="3J_5udXcXue" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706797454" />
       <property role="TrG5h" value="hasParam" />
@@ -206,13 +213,6 @@
     </node>
     <node concept="PrWs8" id="3J_5udXeoLL" role="PrDN$">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
-    </node>
-    <node concept="1TJgyj" id="7lSaFvFgYN2" role="1TKVEi">
-      <property role="IQ2ns" value="8464562469057326274" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="seurat" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksP">
@@ -225,12 +225,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
     </node>
-    <node concept="1TJgyj" id="1taGkn8Q38q" role="1TKVEi">
-      <property role="IQ2ns" value="1678348724429402650" />
-      <property role="20lmBu" value="reference" />
+    <node concept="1TJgyj" id="6cuwE$ibz1i" role="1TKVEi">
+      <property role="IQ2ns" value="7142289721722286162" />
+      <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="seurat" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8lD5">
@@ -684,6 +684,18 @@
     <property role="TrG5h" value="MarkersPerClusterTableWrapper" />
     <property role="34LRSv" value="markers per cluster table" />
     <ref role="1TJDcQ" node="3J_5udXhhDH" resolve="FutureTableWrapper" />
+  </node>
+  <node concept="1TIwiD" id="6cuwE$ibyZW">
+    <property role="EcuMT" value="7142289721722286076" />
+    <property role="TrG5h" value="SeuratRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6cuwE$ibyZX" role="1TKVEi">
+      <property role="IQ2ns" value="7142289721722286077" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
+    </node>
   </node>
 </model>
 
