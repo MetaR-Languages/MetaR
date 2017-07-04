@@ -615,6 +615,9 @@
       <ref role="20lvS9" node="3J_5udXhhEa" resolve="MarkersPerClusterTableWrapper" />
       <ref role="20ksaX" node="3J_5udXfTJJ" resolve="futureTableWrapper" />
     </node>
+    <node concept="PrWs8" id="6cuwE$idKzZ" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXdUYF">
     <property role="EcuMT" value="4315879884707049387" />

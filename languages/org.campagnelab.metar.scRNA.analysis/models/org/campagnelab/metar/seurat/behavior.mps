@@ -59,6 +59,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -150,6 +151,9 @@
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
     </language>
@@ -863,6 +867,78 @@
         </node>
       </node>
       <node concept="3cqZAl" id="6cuwE$idwTH" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="6cuwE$idK$4" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getFutureTables" />
+      <ref role="13i0hy" to="v8sa:5iYlRBKzOrR" resolve="getFutureTables" />
+      <node concept="3Tm1VV" id="6cuwE$idK$6" role="1B3o_S" />
+      <node concept="3clFbS" id="6cuwE$idK$8" role="3clF47">
+        <node concept="3cpWs6" id="6cuwE$idL_2" role="3cqZAp">
+          <node concept="BsUDl" id="6cuwE$idLTq" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:4ssfE$aHz58" resolve="nlistForSingleton" />
+            <node concept="2OqwBi" id="6cuwE$idNds" role="37wK5m">
+              <node concept="2OqwBi" id="6cuwE$idMbw" role="2Oq$k0">
+                <node concept="13iPFW" id="6cuwE$idLTT" role="2Oq$k0" />
+                <node concept="3TrEf2" id="6cuwE$idM_X" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:3J_5udXhhEb" resolve="futureTableWrapper" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="6cuwE$idNvu" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:3J_5udXhhDI" resolve="table" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="6cuwE$idK$9" role="3clF45">
+        <ref role="2I9WkF" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="6cuwE$idKQJ" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getFutureColumns" />
+      <ref role="13i0hy" to="v8sa:7S2MvlQNicH" resolve="getFutureColumns" />
+      <node concept="3Tm1VV" id="6cuwE$idKQM" role="1B3o_S" />
+      <node concept="3clFbS" id="6cuwE$idKQQ" role="3clF47">
+        <node concept="3SKdUt" id="6cuwE$idL$q" role="3cqZAp">
+          <node concept="3SKdUq" id="6cuwE$idL$s" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: after generation" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6cuwE$idLzS" role="3cqZAp" />
+        <node concept="3clFbF" id="6cuwE$idLz2" role="3cqZAp">
+          <node concept="10Nm6u" id="6cuwE$idLz1" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6cuwE$idKQR" role="3clF46">
+        <property role="TrG5h" value="table" />
+        <node concept="3Tqbb2" id="6cuwE$idKQS" role="1tU5fm">
+          <ref role="ehGHo" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="6cuwE$idKQT" role="3clF45">
+        <node concept="3Tqbb2" id="6cuwE$idKQU" role="_ZDj9">
+          <ref role="ehGHo" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6cuwE$idL96" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="isCreatorReady" />
+      <ref role="13i0hy" to="v8sa:16gDanGzbM3" resolve="isCreatorReady" />
+      <node concept="3Tm1VV" id="6cuwE$idL97" role="1B3o_S" />
+      <node concept="3clFbS" id="6cuwE$idL9a" role="3clF47">
+        <node concept="3clFbF" id="6cuwE$idL9d" role="3cqZAp">
+          <node concept="3clFbT" id="6cuwE$idL9c" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="6cuwE$idL9b" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="3J_5udXdUYH">
