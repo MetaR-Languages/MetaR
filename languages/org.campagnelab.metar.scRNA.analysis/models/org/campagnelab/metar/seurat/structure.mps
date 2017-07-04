@@ -232,6 +232,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
     </node>
+    <node concept="PrWs8" id="6cuwE$ic7jT" role="PrDN$">
+      <ref role="PrY4T" node="6cuwE$ic1gh" resolve="FutureSeuratCreator" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8lD5">
     <property role="EcuMT" value="4315879884705585733" />
@@ -695,6 +698,15 @@
       <property role="20kJfa" value="seurat" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6cuwE$ic1gh">
+    <property role="EcuMT" value="7142289721722410001" />
+    <property role="TrG5h" value="FutureSeuratCreator" />
+    <node concept="1TJgyi" id="6cuwE$ic1gi" role="1TKVEl">
+      <property role="IQ2nx" value="7142289721722410002" />
+      <property role="TrG5h" value="inputChanged" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>
