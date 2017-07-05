@@ -612,6 +612,9 @@
     <node concept="PrWs8" id="7lAbM$uP4Q5" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="7lSaFvFzNv_" role="PzmwI">
+      <ref role="PrY4T" node="7lSaFvFzLlm" resolve="IHandleScope" />
+    </node>
     <node concept="1QGGSu" id="m2dhZuGNhl" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/plot.png" />
     </node>
@@ -6637,6 +6640,10 @@
     <node concept="PrWs8" id="2xF4TVcGGmV" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="7lSaFvFzLlm">
+    <property role="EcuMT" value="8464562469062251862" />
+    <property role="TrG5h" value="IHandleScope" />
   </node>
 </model>
 
