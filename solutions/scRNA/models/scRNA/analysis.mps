@@ -467,6 +467,7 @@
           </node>
         </node>
         <node concept="16C0XD" id="6cuwE$idIqA" role="16QCSc">
+          <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
           <node concept="3MlLWZ" id="6cuwE$idIqB" role="16C0Yd">
             <property role="TrG5h" value="default" />
             <ref role="3MlLW5" node="6cuwE$idIqC" resolve="default" />
@@ -492,6 +493,7 @@
         <property role="34gX7q" value="false" />
         <property role="34tvW_" value="1" />
         <property role="34tvWB" value="1" />
+        <ref role="L_9Jz" node="5lDNWrJNeMM" resolve="TableStyle" />
         <node concept="afgQW" id="6cuwE$idIAf" role="34tvVl">
           <ref role="afgo8" node="6cuwE$idIqC" resolve="default" />
         </node>

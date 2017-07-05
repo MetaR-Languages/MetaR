@@ -12,13 +12,12 @@
   <imports>
     <import index="hut6" ref="r:2b3ce235-653e-4507-849e-e62b0f7e1023(org.campagnelab.ui.structure)" />
     <import index="eeic" ref="r:4252ca74-fdbc-41f3-8f2b-7326a4f21355(org.campagnelab.ui.editor)" />
+    <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
-    <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
-    <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -864,15 +863,8 @@
       <node concept="3F1sOY" id="3J_5udXcXv_" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3J_5udXcXu6" resolve="plot" />
       </node>
-      <node concept="1iCGBv" id="3J_5udXep4L" role="3EZMnx">
-        <ref role="1NtTu8" to="onla:32mm9410GdM" resolve="useStyle" />
-        <node concept="1sVBvm" id="3J_5udXep4N" role="1sWHZn">
-          <node concept="3F0A7n" id="3J_5udXepeo" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <ref role="1k5W1q" to="h23j:3edJYE6DDKe" resolve="StyleName" />
-          </node>
-        </node>
+      <node concept="PMmxH" id="7lSaFvHCEpF" role="3EZMnx">
+        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
       </node>
       <node concept="2iRfu4" id="3J_5udXcXut" role="2iSdaV" />
     </node>
@@ -908,15 +900,8 @@
       <node concept="3F1sOY" id="3J_5udXh4F_" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3J_5udXh4F5" resolve="plot" />
       </node>
-      <node concept="1iCGBv" id="3J_5udXh4GH" role="3EZMnx">
-        <ref role="1NtTu8" to="onla:32mm9410GdM" resolve="useStyle" />
-        <node concept="1sVBvm" id="3J_5udXh4GJ" role="1sWHZn">
-          <node concept="3F0A7n" id="3J_5udXh4GW" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <ref role="1k5W1q" to="h23j:3edJYE6DDKe" resolve="StyleName" />
-          </node>
-        </node>
+      <node concept="PMmxH" id="7lSaFvHCEpf" role="3EZMnx">
+        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
       </node>
       <node concept="2iRfu4" id="3J_5udXh4Fk" role="2iSdaV" />
     </node>
@@ -934,15 +919,8 @@
       <node concept="3F1sOY" id="3J_5udXhhDX" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3J_5udXhhDI" resolve="table" />
       </node>
-      <node concept="1iCGBv" id="3J_5udXhhDY" role="3EZMnx">
-        <ref role="1NtTu8" to="onla:32mm9410GdM" resolve="useStyle" />
-        <node concept="1sVBvm" id="3J_5udXhhDZ" role="1sWHZn">
-          <node concept="3F0A7n" id="3J_5udXhhE0" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <ref role="1k5W1q" to="h23j:3edJYE6DDKe" resolve="StyleName" />
-          </node>
-        </node>
+      <node concept="PMmxH" id="5lDNWrJJAiw" role="3EZMnx">
+        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
       </node>
       <node concept="2iRfu4" id="3J_5udXhhE1" role="2iSdaV" />
     </node>
