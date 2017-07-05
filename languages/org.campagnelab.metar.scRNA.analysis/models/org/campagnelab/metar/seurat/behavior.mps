@@ -194,7 +194,15 @@
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
+      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
+        <child id="1151689745422" name="elementType" index="A3Ik2" />
+      </concept>
+      <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
+        <child id="1237721435808" name="initValue" index="HW$Y0" />
+        <child id="1237721435807" name="elementType" index="HW$YZ" />
+      </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
@@ -1689,6 +1697,81 @@
         </node>
       </node>
       <node concept="17QB3L" id="7lSaFvFloi1" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7lSaFvHCZE9">
+    <property role="3GE5qa" value="ImportOp" />
+    <ref role="13h7C2" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
+    <node concept="13hLZK" id="7lSaFvHCZEa" role="13h7CW">
+      <node concept="3clFbS" id="7lSaFvHCZEb" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7lSaFvHCZEk" role="13h7CS">
+      <property role="TrG5h" value="dependencies" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
+      <node concept="3Tm1VV" id="7lSaFvHCZEl" role="1B3o_S" />
+      <node concept="3clFbS" id="7lSaFvHCZEt" role="3clF47">
+        <node concept="3cpWs6" id="7lSaFvHD1SB" role="3cqZAp">
+          <node concept="2ShNRf" id="7lSaFvHD1T1" role="3cqZAk">
+            <node concept="Tc6Ow" id="7lSaFvHD2gR" role="2ShVmc">
+              <node concept="17QB3L" id="7lSaFvHD2DU" role="HW$YZ" />
+              <node concept="Xl_RD" id="7lSaFvHD2P4" role="HW$Y0">
+                <property role="Xl_RC" value="dplyr" />
+              </node>
+              <node concept="Xl_RD" id="7lSaFvHD35u" role="HW$Y0">
+                <property role="Xl_RC" value="Matrix" />
+              </node>
+              <node concept="Xl_RD" id="7lSaFvHD38M" role="HW$Y0">
+                <property role="Xl_RC" value="methods" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="7lSaFvHCZEu" role="3clF45">
+        <node concept="17QB3L" id="7lSaFvHCZEv" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="7lSaFvHD3e2" role="13h7CS">
+      <property role="TrG5h" value="devtoolsInstructions" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:1vkgFx9C2w" resolve="devtoolsInstructions" />
+      <node concept="3Tm1VV" id="7lSaFvHD3e3" role="1B3o_S" />
+      <node concept="3clFbS" id="7lSaFvHD3er" role="3clF47">
+        <node concept="3cpWs6" id="1vkgFx9ZU0" role="3cqZAp">
+          <node concept="BsUDl" id="1vkgFxa9We" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="1vkgFxa9WV" role="37wK5m">
+              <property role="Xl_RC" value="install_github(\&quot;satijalab/seurat\&quot;)" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="7lSaFvHD3es" role="3clF45">
+        <node concept="17QB3L" id="7lSaFvHD3et" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="7lSaFvHD$7H" role="13h7CS">
+      <property role="TrG5h" value="devtoolsPackageNames" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:2m5kVGMYQAC" resolve="devtoolsPackageNames" />
+      <node concept="3Tm1VV" id="7lSaFvHD$7I" role="1B3o_S" />
+      <node concept="3clFbS" id="7lSaFvHD$7Q" role="3clF47">
+        <node concept="3cpWs6" id="7lSaFvHD$c$" role="3cqZAp">
+          <node concept="BsUDl" id="7lSaFvHD$sq" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="7lSaFvHD$tf" role="37wK5m">
+              <property role="Xl_RC" value="Seurat" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="7lSaFvHD$7R" role="3clF45">
+        <node concept="17QB3L" id="7lSaFvHD$7S" role="A3Ik2" />
+      </node>
     </node>
   </node>
 </model>
