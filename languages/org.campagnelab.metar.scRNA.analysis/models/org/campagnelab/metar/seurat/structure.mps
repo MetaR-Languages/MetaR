@@ -407,7 +407,7 @@
     <node concept="1TJgyi" id="3J_5udXaU8a" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706259466" />
       <property role="TrG5h" value="threshold" />
-      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
     <node concept="PrWs8" id="3J_5udXaU9f" role="PrDN$">
       <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
@@ -509,7 +509,7 @@
     <node concept="1TJgyi" id="3J_5udXbwk8" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706415880" />
       <property role="TrG5h" value="resolution" />
-      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXbEhJ">
@@ -524,12 +524,12 @@
     <node concept="1TJgyi" id="3J_5udXbEhL" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706456689" />
       <property role="TrG5h" value="xFold" />
-      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
     <node concept="1TJgyi" id="3J_5udXbEhP" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706456693" />
       <property role="TrG5h" value="fraction" />
-      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udXcXu9">

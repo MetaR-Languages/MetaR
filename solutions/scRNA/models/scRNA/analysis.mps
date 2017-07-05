@@ -336,13 +336,13 @@
         </node>
         <node concept="16NfqN" id="7lSaFvFi359" role="16L4Y_">
           <node concept="16NTG9" id="7lSaFvFi35a" role="16NFga">
-            <property role="16NFvD" value="0.5f" />
+            <property role="16NFvD" value="0.5" />
           </node>
           <node concept="16Nezg" id="7lSaFvFi35b" role="16NFga">
-            <property role="16NFvD" value="0.0125f" />
+            <property role="16NFvD" value="0.0125" />
           </node>
           <node concept="16NTGb" id="7lSaFvFi35c" role="16NFga">
-            <property role="16NFvD" value="3.f" />
+            <property role="16NFvD" value="3." />
           </node>
         </node>
         <node concept="1LcaPl" id="6cuwE$idlHc" role="1LcbbV">
@@ -426,7 +426,7 @@
         <node concept="16ML3z" id="6cuwE$idmhJ" role="16M02g">
           <property role="16ML3w" value="1" />
           <property role="16ML3A" value="17" />
-          <property role="16ML3F" value="0.2f" />
+          <property role="16ML3F" value="0.2" />
         </node>
         <node concept="1LcaPl" id="6cuwE$idmnr" role="1LcbbV">
           <ref role="1LcaPk" node="6cuwE$idm1l" resolve="withPCInfo" />
@@ -480,8 +480,8 @@
           </node>
         </node>
         <node concept="16MV6c" id="6cuwE$idIqE" role="16M02g">
-          <property role="16MV6i" value="0.25f" />
-          <property role="16MV6m" value="0.25f" />
+          <property role="16MV6i" value="0.25" />
+          <property role="16MV6m" value="0.25" />
         </node>
         <node concept="1LcaPl" id="6cuwE$idIwF" role="1LcbbV">
           <ref role="1LcaPk" node="6cuwE$idmhG" resolve="withClustersAndTSNEInfo" />
