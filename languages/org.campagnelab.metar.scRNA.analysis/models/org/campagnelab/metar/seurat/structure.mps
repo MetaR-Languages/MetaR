@@ -211,6 +211,9 @@
       <property role="TrG5h" value="hasParam" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="PrWs8" id="7lSaFvFloh_" role="PrDN$">
+      <ref role="PrY4T" to="jrxw:bPLB43fxe2" resolve="PlotBuilderStatementI" />
+    </node>
     <node concept="PrWs8" id="3J_5udXeoLL" role="PrDN$">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
     </node>
@@ -630,7 +633,7 @@
       <property role="IQ2ns" value="4315879884707879122" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="plotWrapper" />
-      <ref role="20lvS9" node="3J_5udXh5zh" resolve="StandardDeviationPlot" />
+      <ref role="20lvS9" node="3J_5udXh5zh" resolve="StandardDeviationPlotWrapper" />
       <ref role="20ksaX" node="3J_5udXezfx" resolve="plotWrapper" />
     </node>
   </node>
@@ -651,6 +654,9 @@
     <node concept="PrWs8" id="3J_5udXh4Gw" role="PzmwI">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
     </node>
+    <node concept="PrWs8" id="7lSaFvFlz8d" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:bPLB43fxe2" resolve="PlotBuilderStatementI" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXh5mV">
     <property role="EcuMT" value="4315879884707878331" />
@@ -661,8 +667,8 @@
   </node>
   <node concept="1TIwiD" id="3J_5udXh5zh">
     <property role="EcuMT" value="4315879884707879121" />
-    <property role="3GE5qa" value="AddInfoOp" />
-    <property role="TrG5h" value="StandardDeviationPlot" />
+    <property role="3GE5qa" value="AddInfoOp.PlotWrapper" />
+    <property role="TrG5h" value="StandardDeviationPlotWrapper" />
     <property role="34LRSv" value="standard deviation of PCs plot" />
     <ref role="1TJDcQ" node="3J_5udXh4F4" resolve="PlotWrapper" />
   </node>

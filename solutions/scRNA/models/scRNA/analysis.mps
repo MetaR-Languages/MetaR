@@ -36,7 +36,7 @@
         <child id="4315879884707928686" name="table" index="16C0Yd" />
       </concept>
       <concept id="4315879884707878331" name="org.campagnelab.metar.seurat.structure.TSNEPlotWrapper" flags="ng" index="16Ck1o" />
-      <concept id="4315879884707879121" name="org.campagnelab.metar.seurat.structure.StandardDeviationPlot" flags="ng" index="16CkOM" />
+      <concept id="4315879884707879121" name="org.campagnelab.metar.seurat.structure.StandardDeviationPlotWrapper" flags="ng" index="16CkOM" />
       <concept id="4315879884707875524" name="org.campagnelab.metar.seurat.structure.PlotWrapper" flags="ng" index="16ClWB">
         <child id="4315879884707875525" name="plot" index="16ClWA" />
       </concept>
@@ -276,7 +276,7 @@
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="3ZMXzF" value="4" />
-          <property role="TrG5h" value="violingAndGenePlots" />
+          <property role="TrG5h" value="violinAndGenePlots" />
         </node>
         <node concept="1LcaPl" id="6cuwE$idltq" role="1Lc1gn">
           <ref role="1LcaPk" node="6cuwE$idl1E" resolve="initialQC" />
@@ -295,7 +295,7 @@
         </node>
         <node concept="31becx" id="7lSaFvFjlB3" role="312phR">
           <property role="1MXi1$" value="CUEQYNSCEN" />
-          <ref role="312p7B" node="6cuwE$idlo6" resolve="violingAndGenePlots" />
+          <ref role="312p7B" node="6cuwE$idlo6" resolve="violinAndGenePlots" />
         </node>
       </node>
       <node concept="S1EQe" id="3J_5udXa9ns" role="ZXjPg">

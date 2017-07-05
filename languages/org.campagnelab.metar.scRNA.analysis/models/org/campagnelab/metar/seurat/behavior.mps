@@ -69,6 +69,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -1073,6 +1074,26 @@
   <node concept="13h7C7" id="7lSaFvFizPJ">
     <property role="3GE5qa" value="AddInfoOp.PlotWrapper" />
     <ref role="13h7C2" to="lznn:3J_5udXh4F4" resolve="PlotWrapper" />
+    <node concept="13i0hz" id="7lSaFvFlt_s" role="13h7CS">
+      <property role="TrG5h" value="getTableName" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7tPuoi0J8Kg" resolve="getTableName" />
+      <node concept="3Tm1VV" id="7lSaFvFlt_t" role="1B3o_S" />
+      <node concept="3clFbS" id="7lSaFvFlt_u" role="3clF47">
+        <node concept="3SKdUt" id="7lSaFvFlt_v" role="3cqZAp">
+          <node concept="3SKdUq" id="7lSaFvFlt_w" role="3SKWNk">
+            <property role="3SKdUp" value="We do not necessarily have a table as the starting point of the plot." />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7lSaFvFlt_x" role="3cqZAp">
+          <node concept="Xl_RD" id="7lSaFvFlt_y" role="3cqZAk">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="7lSaFvFlt_z" role="3clF45" />
+    </node>
     <node concept="13hLZK" id="7lSaFvFizPK" role="13h7CW">
       <node concept="3clFbS" id="7lSaFvFizPL" role="2VODD2">
         <node concept="3clFbF" id="7lSaFvFizPZ" role="3cqZAp">
@@ -1464,6 +1485,33 @@
       <node concept="3Tqbb2" id="6cuwE$icZaS" role="3clF45">
         <ref role="ehGHo" to="lznn:3J_5udX5yTa" resolve="Seurat" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7lSaFvFlohJ">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="13h7C2" to="lznn:3J_5udX8ksN" resolve="IPlotSeurat" />
+    <node concept="13hLZK" id="7lSaFvFlohK" role="13h7CW">
+      <node concept="3clFbS" id="7lSaFvFlohL" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7lSaFvFlohU" role="13h7CS">
+      <property role="TrG5h" value="getTableName" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7tPuoi0J8Kg" resolve="getTableName" />
+      <node concept="3Tm1VV" id="7lSaFvFlohV" role="1B3o_S" />
+      <node concept="3clFbS" id="7lSaFvFloi0" role="3clF47">
+        <node concept="3SKdUt" id="7lSaFvFloiu" role="3cqZAp">
+          <node concept="3SKdUq" id="7lSaFvFloiv" role="3SKWNk">
+            <property role="3SKdUp" value="We do not necessarily have a table as the starting point of the plot." />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7lSaFvFloj1" role="3cqZAp">
+          <node concept="Xl_RD" id="7lSaFvFlojH" role="3cqZAk">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="7lSaFvFloi1" role="3clF45" />
     </node>
   </node>
 </model>
