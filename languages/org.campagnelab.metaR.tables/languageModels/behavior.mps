@@ -10098,7 +10098,7 @@
         <node concept="3clFbH" id="7lSaFvF$cgZ" role="3cqZAp" />
         <node concept="3SKdUt" id="3XyNzZW9JbG" role="3cqZAp">
           <node concept="3SKdUq" id="3XyNzZW9JbH" role="3SKWNk">
-            <property role="3SKdUp" value="if child is a statement or included in a statement, we limit the visible concpets up to that statement" />
+            <property role="3SKdUp" value="if child is a statement or included in a statement, we limit the visible concepts up to that statement" />
           </node>
         </node>
         <node concept="3cpWs8" id="3XyNzZW9JbI" role="3cqZAp">
@@ -10155,7 +10155,7 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="7lSaFvGSQFq" role="3cqZAp" />
+            <node concept="3clFbH" id="7lSaFvHkwW6" role="3cqZAp" />
             <node concept="3cpWs6" id="7lSaFvGZGt7" role="3cqZAp">
               <node concept="2OqwBi" id="7lSaFvGSUxG" role="3cqZAk">
                 <node concept="37vLTw" id="7lSaFvGSTzB" role="2Oq$k0">
