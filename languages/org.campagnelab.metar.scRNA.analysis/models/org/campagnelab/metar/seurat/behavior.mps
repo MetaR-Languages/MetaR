@@ -37,11 +37,15 @@
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -81,11 +85,13 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -400,6 +406,65 @@
       </node>
       <node concept="3uibUv" id="7lSaFvHCmvL" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="w5znaeJk_2" role="13h7CS">
+      <property role="TrG5h" value="resolvePath" />
+      <node concept="3Tm1VV" id="w5znaeJqFB" role="1B3o_S" />
+      <node concept="17QB3L" id="w5znaeJubq" role="3clF45" />
+      <node concept="3clFbS" id="w5znaeJqFD" role="3clF47">
+        <node concept="3clFbJ" id="w5znaeMa92" role="3cqZAp">
+          <node concept="3clFbS" id="w5znaeMa95" role="3clFbx">
+            <node concept="3cpWs6" id="w5znaeMb1T" role="3cqZAp">
+              <node concept="10Nm6u" id="w5znaeMb3h" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="3clFbC" id="w5znaeMaVT" role="3clFbw">
+            <node concept="10Nm6u" id="w5znaeMaYu" role="3uHU7w" />
+            <node concept="2OqwBi" id="w5znaeMafj" role="3uHU7B">
+              <node concept="13iPFW" id="w5znaeMa9j" role="2Oq$k0" />
+              <node concept="3TrcHB" id="w5znaeMav_" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udX5GWl" resolve="path" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="w5znaeMb7Y" role="9aQIa">
+            <node concept="3clFbS" id="w5znaeMb7Z" role="9aQI4">
+              <node concept="3cpWs6" id="w5znaeMbcG" role="3cqZAp">
+                <node concept="2OqwBi" id="274AKIgZJY2" role="3cqZAk">
+                  <node concept="2YIFZM" id="274AKIgZJqr" role="2Oq$k0">
+                    <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                    <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                  </node>
+                  <node concept="liA8E" id="274AKIgZKKP" role="2OqNvi">
+                    <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                    <node concept="2OqwBi" id="w5znaeJ$mG" role="37wK5m">
+                      <node concept="13iPFW" id="w5znaeJ$hj" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="7lSaFvHEvQY" role="2OqNvi">
+                        <ref role="3TsBF5" to="lznn:3J_5udX5GWl" resolve="path" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="7lSaFvHDXN5" role="13h7CS">
+      <property role="TrG5h" value="getPath" />
+      <node concept="3Tm1VV" id="7lSaFvHDXN6" role="1B3o_S" />
+      <node concept="17QB3L" id="7lSaFvHDXN7" role="3clF45" />
+      <node concept="3clFbS" id="7lSaFvHDXN8" role="3clF47">
+        <node concept="3cpWs6" id="7lSaFvHDYDA" role="3cqZAp">
+          <node concept="2OqwBi" id="7lSaFvHDYOx" role="3cqZAk">
+            <node concept="13iPFW" id="7lSaFvHDYEl" role="2Oq$k0" />
+            <node concept="2qgKlT" id="7lSaFvHDZuh" role="2OqNvi">
+              <ref role="37wK5l" node="w5znaeJk_2" resolve="resolvePath" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
