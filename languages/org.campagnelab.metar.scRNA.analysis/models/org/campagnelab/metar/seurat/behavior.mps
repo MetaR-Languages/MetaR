@@ -1747,33 +1747,6 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="7lSaFvFlohJ">
-    <property role="3GE5qa" value="PlotOp" />
-    <ref role="13h7C2" to="lznn:3J_5udX8ksN" resolve="IPlotSeurat" />
-    <node concept="13hLZK" id="7lSaFvFlohK" role="13h7CW">
-      <node concept="3clFbS" id="7lSaFvFlohL" role="2VODD2" />
-    </node>
-    <node concept="13i0hz" id="7lSaFvFlohU" role="13h7CS">
-      <property role="TrG5h" value="getTableName" />
-      <property role="13i0it" value="false" />
-      <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="v8sa:7tPuoi0J8Kg" resolve="getTableName" />
-      <node concept="3Tm1VV" id="7lSaFvFlohV" role="1B3o_S" />
-      <node concept="3clFbS" id="7lSaFvFloi0" role="3clF47">
-        <node concept="3SKdUt" id="7lSaFvFloiu" role="3cqZAp">
-          <node concept="3SKdUq" id="7lSaFvFloiv" role="3SKWNk">
-            <property role="3SKdUp" value="We do not necessarily have a table as the starting point of the plot." />
-          </node>
-        </node>
-        <node concept="3cpWs6" id="7lSaFvFloj1" role="3cqZAp">
-          <node concept="Xl_RD" id="7lSaFvFlojH" role="3cqZAk">
-            <property role="Xl_RC" value="" />
-          </node>
-        </node>
-      </node>
-      <node concept="17QB3L" id="7lSaFvFloi1" role="3clF45" />
-    </node>
-  </node>
   <node concept="13h7C7" id="7lSaFvHCZE9">
     <property role="3GE5qa" value="ImportOp" />
     <ref role="13h7C2" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
@@ -2083,6 +2056,51 @@
       </node>
       <node concept="A3Dl8" id="7lSaFvHD$7R" role="3clF45">
         <node concept="17QB3L" id="7lSaFvHD$7S" role="A3Ik2" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7lSaFvHJwYn">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="13h7C2" to="lznn:7lSaFvHJwYb" resolve="IPlotStyleWrapper" />
+    <node concept="13i0hz" id="7lSaFvFlohU" role="13h7CS">
+      <property role="TrG5h" value="getTableName" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7tPuoi0J8Kg" resolve="getTableName" />
+      <node concept="3Tm1VV" id="7lSaFvFlohV" role="1B3o_S" />
+      <node concept="3clFbS" id="7lSaFvFloi0" role="3clF47">
+        <node concept="3SKdUt" id="7lSaFvFloiu" role="3cqZAp">
+          <node concept="3SKdUq" id="7lSaFvFloiv" role="3SKWNk">
+            <property role="3SKdUp" value="We do not necessarily have a table as the starting point of the plot." />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7lSaFvFloj1" role="3cqZAp">
+          <node concept="Xl_RD" id="7lSaFvFlojH" role="3cqZAk">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="7lSaFvFloi1" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="7lSaFvHJwYo" role="13h7CW">
+      <node concept="3clFbS" id="7lSaFvHJwYp" role="2VODD2">
+        <node concept="3clFbF" id="7lSaFvHJK1K" role="3cqZAp">
+          <node concept="37vLTI" id="7lSaFvHJL73" role="3clFbG">
+            <node concept="2ShNRf" id="7lSaFvHJL9J" role="37vLTx">
+              <node concept="3zrR0B" id="7lSaFvHJLsl" role="2ShVmc">
+                <node concept="3Tqbb2" id="7lSaFvHJLsn" role="3zrR0E">
+                  <ref role="ehGHo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7lSaFvHJKa3" role="37vLTJ">
+              <node concept="13iPFW" id="7lSaFvHJK1J" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7lSaFvHJKBs" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

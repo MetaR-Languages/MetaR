@@ -201,14 +201,14 @@
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksN">
     <property role="EcuMT" value="4315879884705580851" />
-    <property role="TrG5h" value="IPlotSeurat" />
+    <property role="TrG5h" value="IPlotsSeurat" />
     <property role="3GE5qa" value="PlotOp" />
     <node concept="1TJgyj" id="3J_5udXcXu6" role="1TKVEi">
       <property role="IQ2ns" value="4315879884706797446" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="plot" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+      <property role="20kJfa" value="plots" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7lSaFvHJwYb" resolve="IPlotStyleWrapper" />
     </node>
     <node concept="1TJgyj" id="3J_5udXcXua" role="1TKVEi">
       <property role="IQ2ns" value="4315879884706797450" />
@@ -227,9 +227,6 @@
       <property role="IQ2nx" value="4315879884706797454" />
       <property role="TrG5h" value="hasParam" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="PrWs8" id="7lSaFvFloh_" role="PrDN$">
-      <ref role="PrY4T" to="jrxw:bPLB43fxe2" resolve="PlotBuilderStatementI" />
     </node>
     <node concept="PrWs8" id="3J_5udXeoLL" role="PrDN$">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
@@ -570,7 +567,7 @@
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="3J_5udXd5_9" role="PzmwI">
-      <ref role="PrY4T" node="3J_5udX8ksN" resolve="IPlotSeurat" />
+      <ref role="PrY4T" node="3J_5udX8ksN" resolve="IPlotsSeurat" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXdua9">
@@ -733,6 +730,24 @@
       <property role="IQ2nx" value="7142289721722410002" />
       <property role="TrG5h" value="inputChanged" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7lSaFvHJwYb">
+    <property role="EcuMT" value="8464562469098885003" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="IPlotStyleWrapper" />
+    <node concept="PrWs8" id="7lSaFvHJwYc" role="PrDN$">
+      <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
+    </node>
+    <node concept="PrWs8" id="7lSaFvHJwYh" role="PrDN$">
+      <ref role="PrY4T" to="jrxw:bPLB43fxe2" resolve="PlotBuilderStatementI" />
+    </node>
+    <node concept="1TJgyj" id="7lSaFvHJwYl" role="1TKVEi">
+      <property role="IQ2ns" value="8464562469098885013" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plot" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
     </node>
   </node>
 </model>

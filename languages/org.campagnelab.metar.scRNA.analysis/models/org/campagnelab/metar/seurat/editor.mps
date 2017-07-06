@@ -877,7 +877,7 @@
   </node>
   <node concept="24kQdi" id="3J_5udXcXuo">
     <property role="3GE5qa" value="PlotOp" />
-    <ref role="1XX52x" to="lznn:3J_5udX8ksN" resolve="IPlotSeurat" />
+    <ref role="1XX52x" to="lznn:3J_5udX8ksN" resolve="IPlotsSeurat" />
     <node concept="3EZMnI" id="3J_5udXcXuq" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udXcXux" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -912,11 +912,18 @@
       <node concept="3F0ifn" id="3J_5udXcXvp" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
-      <node concept="3F1sOY" id="3J_5udXcXv_" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3J_5udXcXu6" resolve="plot" />
-      </node>
-      <node concept="PMmxH" id="7lSaFvHCEpF" role="3EZMnx">
-        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
+      <node concept="3EZMnI" id="7lSaFvHJtYS" role="3EZMnx">
+        <node concept="VPM3Z" id="7lSaFvHJtYU" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3EZMnI" id="7lSaFvHJuaP" role="3EZMnx">
+          <node concept="3F2HdR" id="7lSaFvHJuaZ" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:3J_5udXcXu6" resolve="plots" />
+            <node concept="2iRkQZ" id="7lSaFvHJub1" role="2czzBx" />
+          </node>
+          <node concept="2iRkQZ" id="7lSaFvHJuaS" role="2iSdaV" />
+        </node>
+        <node concept="2iRfu4" id="7lSaFvHJtYX" role="2iSdaV" />
       </node>
       <node concept="2iRfu4" id="3J_5udXcXut" role="2iSdaV" />
     </node>
@@ -1053,6 +1060,19 @@
           <ref role="PMmxG" node="3J_5udX8lkP" resolve="SeuratInspectorComponent" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7lSaFvHJx8j">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="1XX52x" to="lznn:7lSaFvHJwYb" resolve="IPlotStyleWrapper" />
+    <node concept="3EZMnI" id="7lSaFvHJxhu" role="2wV5jI">
+      <node concept="3F1sOY" id="7lSaFvHJxhC" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:7lSaFvHJwYl" resolve="plot" />
+      </node>
+      <node concept="PMmxH" id="7lSaFvHJxhM" role="3EZMnx">
+        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
+      </node>
+      <node concept="2iRfu4" id="7lSaFvHJxhx" role="2iSdaV" />
     </node>
   </node>
 </model>
