@@ -803,5 +803,17 @@
       <ref role="PrY4T" node="7lSaFvHJwYb" resolve="IPlotStyleWrapper" />
     </node>
   </node>
+  <node concept="AxPO7" id="7lSaFvHO9qK">
+    <property role="TrG5h" value="ConstantsSeurat" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="M4N5e" id="7lSaFvHO9qL" role="M5hS2">
+      <property role="1uS6qo" value="MAX_STATEMENTS" />
+      <property role="1uS6qv" value="1000" />
+    </node>
+    <node concept="M4N5e" id="7lSaFvHO9z9" role="M5hS2">
+      <property role="1uS6qo" value="MAX_PLOTS" />
+      <property role="1uS6qv" value="5" />
+    </node>
+  </node>
 </model>
 
