@@ -280,6 +280,22 @@
             <property role="TrG5h" value="violinMito" />
           </node>
         </node>
+        <node concept="2oLykW" id="7lSaFvHKkNA" role="16PG9_">
+          <node concept="1FHg$p" id="7lSaFvHKkNJ" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
+            <property role="3ZMXzF" value="2" />
+            <property role="TrG5h" value="scatterNUMINGene" />
+          </node>
+        </node>
+        <node concept="2oLykW" id="7lSaFvHKkNL" role="16PG9_">
+          <node concept="1FHg$p" id="7lSaFvHKkNW" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
+            <property role="3ZMXzF" value="1" />
+            <property role="TrG5h" value="scatterNUMIMito" />
+          </node>
+        </node>
         <node concept="1LcaPl" id="7lSaFvHJK18" role="1Lc1gn">
           <ref role="1LcaPk" node="7lSaFvHHK7Y" resolve="collapsedTubules" />
         </node>
@@ -289,7 +305,7 @@
       </node>
       <node concept="313sG1" id="7lSaFvFjlyJ" role="ZXjPg">
         <property role="1MXi1$" value="DBVEQYHAMU" />
-        <property role="313rra" value="3" />
+        <property role="313rra" value="5" />
         <property role="313rrk" value="1" />
         <property role="31lnkE" value="true" />
         <node concept="1FHg$p" id="7lSaFvFjlyK" role="319mBM">
@@ -309,6 +325,14 @@
         <node concept="31becx" id="7lSaFvHJTPZ" role="312phR">
           <property role="1MXi1$" value="YFEAWHOUPC" />
           <ref role="312p7B" node="7lSaFvHJT3J" resolve="violinMito" />
+        </node>
+        <node concept="31becx" id="7lSaFvHKkNY" role="312phR">
+          <property role="1MXi1$" value="LAKCABXIGD" />
+          <ref role="312p7B" node="7lSaFvHKkNJ" resolve="scatterNUMINGene" />
+        </node>
+        <node concept="31becx" id="7lSaFvHKkNZ" role="312phR">
+          <property role="1MXi1$" value="PHABDVBRBT" />
+          <ref role="312p7B" node="7lSaFvHKkNJ" resolve="scatterNUMINGene" />
         </node>
       </node>
       <node concept="S1EQe" id="3J_5udXa9ns" role="ZXjPg">
@@ -535,7 +559,7 @@
           <node concept="1FHg$p" id="7lSaFvHK9r8" role="2oLyky">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
-            <property role="3ZMXzF" value="1" />
+            <property role="3ZMXzF" value="17" />
             <property role="TrG5h" value="featurePlot" />
           </node>
         </node>

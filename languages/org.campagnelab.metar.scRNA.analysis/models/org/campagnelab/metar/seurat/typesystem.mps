@@ -44,6 +44,10 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -56,6 +60,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
         <child id="1144226360166" name="iterable" index="1DdaDG" />
       </concept>
@@ -137,6 +142,9 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -145,6 +153,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
     </language>
   </registry>
   <node concept="1YbPZF" id="3J_5udX8xXz">
@@ -506,6 +517,48 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="7lSaFvHK9An">
+    <property role="TrG5h" value="PlotsInDiagnosticPlots" />
+    <node concept="3clFbS" id="7lSaFvHK9Ao" role="18ibNy">
+      <node concept="3clFbJ" id="7lSaFvHK9Az" role="3cqZAp">
+        <node concept="3y3z36" id="7lSaFvHKhFi" role="3clFbw">
+          <node concept="3cmrfG" id="7lSaFvHKhJf" role="3uHU7w">
+            <property role="3cmrfH" value="5" />
+          </node>
+          <node concept="2OqwBi" id="7lSaFvHKcfI" role="3uHU7B">
+            <node concept="2OqwBi" id="7lSaFvHK9OK" role="2Oq$k0">
+              <node concept="1YBJjd" id="7lSaFvHK9AJ" role="2Oq$k0">
+                <ref role="1YBMHb" node="7lSaFvHK9Aq" resolve="diagnosticPlot" />
+              </node>
+              <node concept="3Tsc0h" id="7lSaFvHKa8B" role="2OqNvi">
+                <ref role="3TtcxE" to="lznn:3J_5udXcXu6" resolve="plots" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="7lSaFvHKg3t" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="7lSaFvHK9A_" role="3clFbx">
+          <node concept="2MkqsV" id="7lSaFvHKhMU" role="3cqZAp">
+            <node concept="3cpWs3" id="7lSaFvHKiJO" role="2MkJ7o">
+              <node concept="Xl_RD" id="7lSaFvHKiK6" role="3uHU7w">
+                <property role="Xl_RC" value=" scatter plot for nUMI versus nGene, and scatter plot for nUMI versus Mito" />
+              </node>
+              <node concept="Xl_RD" id="7lSaFvHKhN6" role="3uHU7B">
+                <property role="Xl_RC" value="Diagnostic plot needs 5 resulting plots: violin plot for nGene, violin plot for nUMI, violin plot for Mito," />
+              </node>
+            </node>
+            <node concept="1YBJjd" id="7lSaFvHKiWV" role="2OEOjV">
+              <ref role="1YBMHb" node="7lSaFvHK9Aq" resolve="diagnosticPlot" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7lSaFvHK9Aq" role="1YuTPh">
+      <property role="TrG5h" value="diagnosticPlot" />
+      <ref role="1YaFvo" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
     </node>
   </node>
 </model>
