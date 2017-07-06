@@ -10,9 +10,18 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -558,6 +567,13 @@
     <property role="34LRSv" value="Diagnostic plot" />
     <property role="R4oN_" value="Visualize counts and relationships between them" />
     <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
+    <node concept="1TJgyj" id="7lSaFvHLICd" role="1TKVEi">
+      <property role="IQ2ns" value="8464562469099465229" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plots" />
+      <ref role="20ksaX" node="3J_5udXcXu6" resolve="plots" />
+      <ref role="20lvS9" node="7lSaFvHLICa" resolve="PlotStyleWrapper" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXd5_8">
     <property role="EcuMT" value="4315879884706830664" />
@@ -742,12 +758,49 @@
     <node concept="PrWs8" id="7lSaFvHJwYh" role="PrDN$">
       <ref role="PrY4T" to="jrxw:bPLB43fxe2" resolve="PlotBuilderStatementI" />
     </node>
+    <node concept="PrWs8" id="7lSaFvHKpvz" role="PrDN$">
+      <ref role="PrY4T" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+    </node>
     <node concept="1TJgyj" id="7lSaFvHJwYl" role="1TKVEi">
       <property role="IQ2ns" value="8464562469098885013" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="plot" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="7lSaFvHKsuN">
+    <property role="TrG5h" value="DiagnosticPlotsEnum" />
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="M4N5e" id="7lSaFvHKsuO" role="M5hS2">
+      <property role="1uS6qv" value="0" />
+      <property role="1uS6qo" value="nGene" />
+    </node>
+    <node concept="M4N5e" id="7lSaFvHKsuP" role="M5hS2">
+      <property role="1uS6qv" value="1" />
+      <property role="1uS6qo" value="nUMI" />
+    </node>
+    <node concept="M4N5e" id="7lSaFvHKsuS" role="M5hS2">
+      <property role="1uS6qo" value="percent.mito" />
+      <property role="1uS6qv" value="2" />
+    </node>
+    <node concept="M4N5e" id="7lSaFvHKsuW" role="M5hS2">
+      <property role="1uS6qv" value="3" />
+      <property role="1uS6qo" value="nUMI_nGene" />
+    </node>
+    <node concept="M4N5e" id="7lSaFvHKsv1" role="M5hS2">
+      <property role="1uS6qo" value="nUMI_percent.mito" />
+      <property role="1uS6qv" value="4" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7lSaFvHLICa">
+    <property role="EcuMT" value="8464562469099465226" />
+    <property role="TrG5h" value="PlotStyleWrapper" />
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7lSaFvHLICb" role="PzmwI">
+      <ref role="PrY4T" node="7lSaFvHJwYb" resolve="IPlotStyleWrapper" />
     </node>
   </node>
 </model>

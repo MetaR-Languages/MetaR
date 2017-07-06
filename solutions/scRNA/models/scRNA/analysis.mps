@@ -31,6 +31,7 @@
       </concept>
     </language>
     <language id="6562d9c6-fb82-4150-9d7f-5e4f50d7bba1" name="org.campagnelab.metar.seurat">
+      <concept id="8464562469099465226" name="org.campagnelab.metar.seurat.structure.PlotStyleWrapper" flags="ng" index="2oJG2X" />
       <concept id="8464562469098885003" name="org.campagnelab.metar.seurat.structure.IPlotStyleWrapper" flags="ng" index="2oLykW">
         <child id="8464562469098885013" name="plot" index="2oLyky" />
       </concept>
@@ -253,55 +254,57 @@
       <node concept="S1EQe" id="7lSaFvFiiVq" role="ZXjPg">
         <property role="1MXi1$" value="DKDEKMHFDF" />
       </node>
-      <node concept="16PJcN" id="7lSaFvHJJZH" role="ZXjPg">
-        <property role="1MXi1$" value="VINWNPTBCI" />
+      <node concept="16PJcN" id="7lSaFvHMNAW" role="ZXjPg">
+        <property role="1MXi1$" value="YSGHIKYUME" />
         <property role="16PG9H" value="false" />
-        <node concept="2oLykW" id="7lSaFvHJJZJ" role="16PG9_">
-          <node concept="1FHg$p" id="7lSaFvHJK1e" role="2oLyky">
-            <property role="ZHjxa" value="200" />
-            <property role="ZHjG8" value="200" />
-            <property role="3ZMXzF" value="2" />
-            <property role="TrG5h" value="violiNUMI" />
-          </node>
-        </node>
-        <node concept="2oLykW" id="7lSaFvHJK1o" role="16PG9_">
-          <node concept="1FHg$p" id="7lSaFvHJK1v" role="2oLyky">
+        <node concept="2oJG2X" id="7lSaFvHMNAX" role="16PG9_">
+          <property role="1MXi1$" value="MBTJOACOXN" />
+          <node concept="1FHg$p" id="7lSaFvHMNAY" role="2oLyky">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
             <property role="3ZMXzF" value="2" />
             <property role="TrG5h" value="violinNGene" />
           </node>
         </node>
-        <node concept="2oLykW" id="7lSaFvHJLxk" role="16PG9_">
-          <node concept="1FHg$p" id="7lSaFvHJT3J" role="2oLyky">
+        <node concept="2oJG2X" id="7lSaFvHMNAZ" role="16PG9_">
+          <property role="1MXi1$" value="VTCRYYATJT" />
+          <node concept="1FHg$p" id="7lSaFvHMNB0" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
+            <property role="3ZMXzF" value="2" />
+            <property role="TrG5h" value="violinNUMI" />
+          </node>
+        </node>
+        <node concept="2oJG2X" id="7lSaFvHMNB1" role="16PG9_">
+          <property role="1MXi1$" value="HGOGFUTOCE" />
+          <node concept="1FHg$p" id="7lSaFvHMNB2" role="2oLyky">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
             <property role="3ZMXzF" value="2" />
             <property role="TrG5h" value="violinMito" />
           </node>
         </node>
-        <node concept="2oLykW" id="7lSaFvHKkNA" role="16PG9_">
-          <node concept="1FHg$p" id="7lSaFvHKkNJ" role="2oLyky">
+        <node concept="2oJG2X" id="7lSaFvHMNB3" role="16PG9_">
+          <property role="1MXi1$" value="TMNOCCJAXO" />
+          <node concept="1FHg$p" id="7lSaFvHMNB4" role="2oLyky">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
             <property role="3ZMXzF" value="2" />
             <property role="TrG5h" value="scatterNUMINGene" />
           </node>
         </node>
-        <node concept="2oLykW" id="7lSaFvHKkNL" role="16PG9_">
-          <node concept="1FHg$p" id="7lSaFvHKkNW" role="2oLyky">
+        <node concept="2oJG2X" id="7lSaFvHMNB5" role="16PG9_">
+          <property role="1MXi1$" value="KRBMSFYBQJ" />
+          <node concept="1FHg$p" id="7lSaFvHMNB6" role="2oLyky">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
-            <property role="3ZMXzF" value="1" />
+            <property role="3ZMXzF" value="2" />
             <property role="TrG5h" value="scatterNUMIMito" />
           </node>
         </node>
-        <node concept="1LcaPl" id="7lSaFvHJK18" role="1Lc1gn">
+        <node concept="1LcaPl" id="7lSaFvHMNCP" role="1Lc1gn">
           <ref role="1LcaPk" node="7lSaFvHHK7Y" resolve="collapsedTubules" />
         </node>
-      </node>
-      <node concept="S1EQe" id="7lSaFvHJJX8" role="ZXjPg">
-        <property role="1MXi1$" value="JSIYFMJAAU" />
       </node>
       <node concept="313sG1" id="7lSaFvFjlyJ" role="ZXjPg">
         <property role="1MXi1$" value="DBVEQYHAMU" />
@@ -316,23 +319,23 @@
         </node>
         <node concept="31becx" id="7lSaFvFjlB3" role="312phR">
           <property role="1MXi1$" value="CUEQYNSCEN" />
-          <ref role="312p7B" node="7lSaFvHJK1e" resolve="violiNUMI" />
+          <ref role="312p7B" node="7lSaFvHMNAY" resolve="violinNGene" />
         </node>
         <node concept="31becx" id="7lSaFvHJTPY" role="312phR">
           <property role="1MXi1$" value="DGJDXBOABV" />
-          <ref role="312p7B" node="7lSaFvHJK1v" resolve="violinNGene" />
+          <ref role="312p7B" node="7lSaFvHMNB0" resolve="violinNUMI" />
         </node>
         <node concept="31becx" id="7lSaFvHJTPZ" role="312phR">
           <property role="1MXi1$" value="YFEAWHOUPC" />
-          <ref role="312p7B" node="7lSaFvHJT3J" resolve="violinMito" />
+          <ref role="312p7B" node="7lSaFvHMNB2" resolve="violinMito" />
         </node>
         <node concept="31becx" id="7lSaFvHKkNY" role="312phR">
           <property role="1MXi1$" value="LAKCABXIGD" />
-          <ref role="312p7B" node="7lSaFvHKkNJ" resolve="scatterNUMINGene" />
+          <ref role="312p7B" node="7lSaFvHMNB4" resolve="scatterNUMINGene" />
         </node>
-        <node concept="31becx" id="7lSaFvHKkNZ" role="312phR">
-          <property role="1MXi1$" value="PHABDVBRBT" />
-          <ref role="312p7B" node="7lSaFvHKkNJ" resolve="scatterNUMINGene" />
+        <node concept="31becx" id="7lSaFvHLbmW" role="312phR">
+          <property role="1MXi1$" value="WFXJGCWGNK" />
+          <ref role="312p7B" node="7lSaFvHMNB6" resolve="scatterNUMIMito" />
         </node>
       </node>
       <node concept="S1EQe" id="3J_5udXa9ns" role="ZXjPg">

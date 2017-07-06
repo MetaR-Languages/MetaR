@@ -16,6 +16,9 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false" scope="design">f8960ca5-9f20-4fc0-b9f7-20a20893f26d(org.campagnelab.metar.tables#3402264987258972825)</dependency>
+        <dependency reexport="false">5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</dependency>
+        <dependency reexport="false">e6c108c3-0009-4034-b684-c506814ba197(org.campagnelab.metar.plots)</dependency>
+        <dependency reexport="false">c901f7a1-ed4f-4b52-8d35-10d1a33974f0(org.campagnelab.metar.code)</dependency>
       </dependencies>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -42,6 +45,7 @@
         <language slang="l:95951e17-c0d6-47b9-b1b5-42a4ca186fc6:org.campagnelab.instantrefresh" version="1" />
         <language slang="l:3b58810c-8431-4bbb-99ea-b4671e02dd13:org.campagnelab.metar.R" version="1" />
         <language slang="l:837afec3-cff0-45b1-a221-6b811148f87e:org.campagnelab.metar.R.gen" version="0" />
+        <language slang="l:544eb3a5-f68f-41ed-98e0-db6291e897fb:org.campagnelab.metar.R.inspect" version="0" />
         <language slang="l:32f503e8-061b-451e-bcb0-fef56aa05eb9:org.campagnelab.metar.inspect" version="0" />
         <language slang="l:6562d9c6-fb82-4150-9d7f-5e4f50d7bba1:org.campagnelab.metar.scRNA.analysis" version="-1" />
         <language slang="l:5d6bde84-4ce4-4eb5-a37e-25a5edd55129:org.campagnelab.metar.tables" version="3" />
@@ -64,8 +68,16 @@
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
         <module reference="95951e17-c0d6-47b9-b1b5-42a4ca186fc6(org.campagnelab.instantrefresh)" version="0" />
+        <module reference="3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)" version="1" />
+        <module reference="7eba6a28-4cc2-47b9-a392-284573f2054a(org.campagnelab.metar.R.access)" version="0" />
         <module reference="837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)" version="0" />
+        <module reference="e633fc48-0aaf-45b5-9894-247b67cf0890(org.campagnelab.metar.biomart)" version="0" />
+        <module reference="13ba3d61-2e25-42c5-9cb9-f67b16cd444e(org.campagnelab.metar.biomart.web)" version="0" />
+        <module reference="040d3459-0033-45bb-b823-4cfd22657c15(org.campagnelab.metar.biomartToR)" version="1" />
+        <module reference="c901f7a1-ed4f-4b52-8d35-10d1a33974f0(org.campagnelab.metar.code)" version="0" />
         <module reference="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" version="0" />
+        <module reference="e6c108c3-0009-4034-b684-c506814ba197(org.campagnelab.metar.plots)" version="0" />
+        <module reference="9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)" version="0" />
         <module reference="6562d9c6-fb82-4150-9d7f-5e4f50d7bba1(org.campagnelab.metar.seurat)" version="0" />
         <module reference="da272d75-dba9-4568-8d20-b6a6bdca2ad6(org.campagnelab.metar.seurat#4315879884696795586)" version="0" />
         <module reference="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" version="0" />

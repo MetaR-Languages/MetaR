@@ -18,6 +18,7 @@
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -917,11 +918,24 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3EZMnI" id="7lSaFvHJuaP" role="3EZMnx">
-          <node concept="3F2HdR" id="7lSaFvHJuaZ" role="3EZMnx">
-            <ref role="1NtTu8" to="lznn:3J_5udXcXu6" resolve="plots" />
-            <node concept="2iRkQZ" id="7lSaFvHJub1" role="2czzBx" />
-          </node>
           <node concept="2iRkQZ" id="7lSaFvHJuaS" role="2iSdaV" />
+          <node concept="3F2HdR" id="7lSaFvHLIC0" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:3J_5udXcXu6" resolve="plots" />
+            <node concept="2iRkQZ" id="7lSaFvHLIC1" role="2czzBx" />
+            <node concept="4$FPG" id="7lSaFvHMemJ" role="4_6I_">
+              <node concept="3clFbS" id="7lSaFvHMemK" role="2VODD2">
+                <node concept="3clFbF" id="7lSaFvHMfjW" role="3cqZAp">
+                  <node concept="2ShNRf" id="7lSaFvHMfjU" role="3clFbG">
+                    <node concept="3zrR0B" id="7lSaFvHMfCZ" role="2ShVmc">
+                      <node concept="3Tqbb2" id="7lSaFvHMfD1" role="3zrR0E">
+                        <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotStyleWrapper" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="2iRfu4" id="7lSaFvHJtYX" role="2iSdaV" />
       </node>
@@ -1073,6 +1087,15 @@
         <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
       </node>
       <node concept="2iRfu4" id="7lSaFvHJxhx" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="7lSaFvHLALI" role="6VMZX">
+      <node concept="3F0ifn" id="7lSaFvHLALP" role="3EZMnx">
+        <property role="3F0ifm" value="atomicId:" />
+      </node>
+      <node concept="3F0A7n" id="7lSaFvHLALV" role="3EZMnx">
+        <ref role="1NtTu8" to="sg20:cisdhLTP2K" resolve="ID" />
+      </node>
+      <node concept="2iRfu4" id="7lSaFvHLALL" role="2iSdaV" />
     </node>
   </node>
 </model>
