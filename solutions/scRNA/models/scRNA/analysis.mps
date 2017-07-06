@@ -110,6 +110,8 @@
       <concept id="4315879884707049387" name="org.campagnelab.metar.seurat.structure.PCInfoSeurat" flags="ng" index="16OFD8" />
       <concept id="4315879884706801360" name="org.campagnelab.metar.seurat.structure.DiagnosticPlot" flags="ng" index="16PJcN" />
       <concept id="4315879884704146260" name="org.campagnelab.metar.seurat.structure.ImportSeurat" flags="ng" index="16VBqR">
+        <child id="8464562469097696296" name="logNormalization" index="2oOWqv" />
+        <child id="8464562469097697999" name="rejectedCells" index="2oOXxS" />
         <child id="4315879884707388145" name="seurat" index="16QsWi" />
       </concept>
       <concept id="4315879884704853578" name="org.campagnelab.metar.seurat.structure.Seurat" flags="ng" index="16WNID">
@@ -215,54 +217,34 @@
     <property role="TrG5h" value="collapsedTubulesAnalysis" />
     <node concept="ZXjPh" id="3J_5udX5xqZ" role="S1EQ8">
       <property role="1MXi1$" value="PNEDGAWNOO" />
-      <node concept="16VBqR" id="7lSaFvFi2sC" role="ZXjPg">
-        <property role="1MXi1$" value="FQEOSJVMNF" />
-        <node concept="16WNID" id="7lSaFvFi2sE" role="16QsWi">
+      <node concept="16VBqR" id="7lSaFvHHK7N" role="ZXjPg">
+        <property role="1MXi1$" value="UFKKVFPQJV" />
+        <node concept="16LEZw" id="7lSaFvHHK7O" role="2oOXxS">
+          <node concept="16LdhA" id="7lSaFvHHK7P" role="16L4H4">
+            <node concept="3eOVzh" id="7lSaFvHHK7Q" role="16Ldh_">
+              <node concept="16LQ0b" id="7lSaFvHHK7R" role="3uHU7B" />
+              <node concept="3cmrfG" id="7lSaFvHHK7S" role="3uHU7w">
+                <property role="3cmrfH" value="3" />
+              </node>
+            </node>
+            <node concept="3eOVzh" id="7lSaFvHHK7T" role="16Ldh_">
+              <node concept="16Ldux" id="7lSaFvHHK7U" role="3uHU7B" />
+              <node concept="3cmrfG" id="7lSaFvHHK7V" role="3uHU7w">
+                <property role="3cmrfH" value="1000" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="16LBE8" id="7lSaFvHHK7W" role="2oOWqv">
+          <property role="16NVZN" value="10000" />
+        </node>
+        <node concept="16WNID" id="7lSaFvHHK7Y" role="16QsWi">
           <property role="16WVSt" value="false" />
           <property role="16WMxv" value="false" />
           <property role="16WMwy" value="false" />
           <property role="16WMwA" value="false" />
           <property role="TrG5h" value="collapsedTubules" />
           <property role="16WXFQ" value="/Users/farcasia/Documents/Data/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
-        </node>
-      </node>
-      <node concept="S1EQe" id="6cuwE$ib18M" role="ZXjPg">
-        <property role="1MXi1$" value="MGCLTSBVCF" />
-      </node>
-      <node concept="16L9MR" id="6cuwE$idl1C" role="ZXjPg">
-        <property role="1LbDqV" value="false" />
-        <property role="1MXi1$" value="BIXIBUUJKT" />
-        <node concept="16LvHN" id="6cuwE$idl1D" role="16L4Zv">
-          <property role="TrG5h" value="initialQC" />
-          <node concept="16WNID" id="6cuwE$idl1E" role="16LvHK">
-            <property role="16WVSt" value="false" />
-            <property role="16WMxv" value="false" />
-            <property role="16WMwy" value="false" />
-            <property role="16WMwA" value="false" />
-            <property role="TrG5h" value="initialQC" />
-          </node>
-        </node>
-        <node concept="16LEZw" id="6cuwE$idl75" role="16L4Y_">
-          <node concept="16LdhA" id="6cuwE$idl76" role="16L4H4">
-            <node concept="3eOVzh" id="6cuwE$idl77" role="16Ldh_">
-              <node concept="16LQ0b" id="6cuwE$idl78" role="3uHU7B" />
-              <node concept="3cmrfG" id="6cuwE$idl79" role="3uHU7w">
-                <property role="3cmrfH" value="3" />
-              </node>
-            </node>
-            <node concept="3eOVzh" id="6cuwE$idl7a" role="16Ldh_">
-              <node concept="16Ldux" id="6cuwE$idl7b" role="3uHU7B" />
-              <node concept="3cmrfG" id="6cuwE$idl7c" role="3uHU7w">
-                <property role="3cmrfH" value="200" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="16LBE8" id="6cuwE$idl7d" role="16L4Y_">
-          <property role="16NVZN" value="10000" />
-        </node>
-        <node concept="1LcaPl" id="6cuwE$idl6Z" role="1LcbbV">
-          <ref role="1LcaPk" node="7lSaFvFi2sE" resolve="collapsedTubules" />
         </node>
       </node>
       <node concept="S1EQe" id="7lSaFvFiiVq" role="ZXjPg">
@@ -278,8 +260,8 @@
           <property role="3ZMXzF" value="4" />
           <property role="TrG5h" value="violinAndGenePlots" />
         </node>
-        <node concept="1LcaPl" id="6cuwE$idltq" role="1Lc1gn">
-          <ref role="1LcaPk" node="6cuwE$idl1E" resolve="initialQC" />
+        <node concept="1LcaPl" id="7lSaFvHHKhQ" role="1Lc1gn">
+          <ref role="1LcaPk" node="7lSaFvHHK7Y" resolve="collapsedTubules" />
         </node>
       </node>
       <node concept="313sG1" id="7lSaFvFjlyJ" role="ZXjPg">
@@ -305,13 +287,13 @@
         <property role="1LbDqV" value="false" />
         <property role="1MXi1$" value="XJQSLIJMCL" />
         <node concept="16LvHN" id="6cuwE$idlBI" role="16L4Zv">
-          <property role="TrG5h" value="moreQC" />
+          <property role="TrG5h" value="qC" />
           <node concept="16WNID" id="6cuwE$idlBJ" role="16LvHK">
             <property role="16WVSt" value="false" />
             <property role="16WMxv" value="false" />
             <property role="16WMwy" value="false" />
             <property role="16WMwA" value="false" />
-            <property role="TrG5h" value="moreQC" />
+            <property role="TrG5h" value="qC" />
           </node>
         </node>
         <node concept="16LEZw" id="7lSaFvFi34Y" role="16L4Y_">
@@ -345,8 +327,8 @@
             <property role="16NFvD" value="3." />
           </node>
         </node>
-        <node concept="1LcaPl" id="6cuwE$idlHc" role="1LcbbV">
-          <ref role="1LcaPk" node="6cuwE$idl1E" resolve="initialQC" />
+        <node concept="1LcaPl" id="7lSaFvHHKi0" role="1LcbbV">
+          <ref role="1LcaPk" node="7lSaFvHHK7Y" resolve="collapsedTubules" />
         </node>
       </node>
       <node concept="S1EQe" id="3J_5udXjpQw" role="ZXjPg">
@@ -378,7 +360,7 @@
         </node>
         <node concept="16M02h" id="6cuwE$idm1p" role="16M02g" />
         <node concept="1LcaPl" id="6cuwE$idm70" role="1LcbbV">
-          <ref role="1LcaPk" node="6cuwE$idlBJ" resolve="moreQC" />
+          <ref role="1LcaPk" node="6cuwE$idlBJ" resolve="qC" />
         </node>
       </node>
       <node concept="313sG1" id="7lSaFvFjlXm" role="ZXjPg">

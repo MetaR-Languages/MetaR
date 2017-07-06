@@ -68,6 +68,20 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
     </node>
+    <node concept="1TJgyj" id="7lSaFvHEYKC" role="1TKVEi">
+      <property role="IQ2ns" value="8464562469097696296" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="logNormalization" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX8QXF" resolve="LogNormalizationStrategy" />
+    </node>
+    <node concept="1TJgyj" id="7lSaFvHEZbf" role="1TKVEi">
+      <property role="IQ2ns" value="8464562469097697999" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rejectedCells" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX8VC3" resolve="RejectCellStrategy" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX5yTa">
     <property role="EcuMT" value="4315879884704853578" />

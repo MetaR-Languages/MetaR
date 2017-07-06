@@ -38,6 +38,7 @@
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -173,14 +174,65 @@
   <node concept="24kQdi" id="3J_5udX2QwD">
     <property role="3GE5qa" value="ImportOp" />
     <ref role="1XX52x" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
-    <node concept="3EZMnI" id="3J_5udX2QwF" role="2wV5jI">
-      <node concept="3F0ifn" id="3J_5udX5O6$" role="3EZMnx">
-        <property role="3F0ifm" value="import seurat" />
+    <node concept="3EZMnI" id="7lSaFvHEZbj" role="2wV5jI">
+      <node concept="2iRkQZ" id="7lSaFvHEZbk" role="2iSdaV" />
+      <node concept="3EZMnI" id="3J_5udX2QwF" role="3EZMnx">
+        <node concept="3F0ifn" id="3J_5udX5O6$" role="3EZMnx">
+          <property role="3F0ifm" value="import seurat" />
+        </node>
+        <node concept="3F1sOY" id="3J_5udXfdFW" role="3EZMnx">
+          <ref role="1NtTu8" to="lznn:3J_5udXfdFL" resolve="seurat" />
+        </node>
+        <node concept="2iRfu4" id="3J_5udX2QwI" role="2iSdaV" />
       </node>
-      <node concept="3F1sOY" id="3J_5udXfdFW" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3J_5udXfdFL" resolve="seurat" />
+      <node concept="3EZMnI" id="7lSaFvHEZd2" role="3EZMnx">
+        <node concept="3F0ifn" id="7lSaFvHEZbB" role="3EZMnx">
+          <property role="3F0ifm" value="Initial cleanup:" />
+          <node concept="lj46D" id="7lSaFvHEZcG" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pVoyu" id="7lSaFvHEZcI" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="ljvvj" id="7lSaFvHGZ$i" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="7lSaFvHH9kP" role="3EZMnx">
+          <node concept="lj46D" id="7lSaFvHH9l9" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F1sOY" id="7lSaFvHEZdh" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:7lSaFvHEZbf" resolve="rejectedCells" />
+            <node concept="ljvvj" id="7lSaFvHGZ$j" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="lj46D" id="7lSaFvHH3Gy" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="ljvvj" id="7lSaFvHH9lB" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F1sOY" id="7lSaFvHEZdt" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:7lSaFvHEYKC" resolve="logNormalization" />
+            <node concept="ljvvj" id="7lSaFvHGZ$k" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="lj46D" id="7lSaFvHH4rh" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="ljvvj" id="7lSaFvHH9lC" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="l2Vlx" id="7lSaFvHH9lE" role="2iSdaV" />
+        </node>
+        <node concept="l2Vlx" id="7lSaFvHGZ$l" role="2iSdaV" />
+        <node concept="pj6Ft" id="7lSaFvHGZ$D" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
-      <node concept="2iRfu4" id="3J_5udX2QwI" role="2iSdaV" />
     </node>
     <node concept="1iCGBv" id="3J_5udX8ll2" role="6VMZX">
       <ref role="1NtTu8" to="lznn:3J_5udXfdFL" resolve="seurat" />
