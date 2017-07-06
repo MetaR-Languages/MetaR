@@ -281,6 +281,9 @@
     <node concept="PrWs8" id="3J_5udX8md$" role="PrDN$">
       <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
     </node>
+    <node concept="PrWs8" id="7lSaFvHWUEB" role="PrDN$">
+      <ref role="PrY4T" node="7lSaFvHWUEz" resolve="INameInR" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8mdN">
     <property role="EcuMT" value="4315879884705588083" />
@@ -312,7 +315,7 @@
     <node concept="1TJgyj" id="3J_5udX8s66" role="1TKVEi">
       <property role="IQ2ns" value="4315879884705612166" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expression" />
+      <property role="20kJfa" value="expressions" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="tpee:i2kUDXX" resolve="BinaryCompareOperation" />
     </node>
@@ -434,6 +437,9 @@
     </node>
     <node concept="PrWs8" id="3J_5udXaU9f" role="PrDN$">
       <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
+    </node>
+    <node concept="PrWs8" id="7lSaFvHWUFd" role="PrDN$">
+      <ref role="PrY4T" node="7lSaFvHWUEz" resolve="INameInR" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXaCVC">
@@ -814,6 +820,10 @@
       <property role="1uS6qo" value="MAX_PLOTS" />
       <property role="1uS6qv" value="5" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="7lSaFvHWUEz">
+    <property role="EcuMT" value="8464562469102398115" />
+    <property role="TrG5h" value="INameInR" />
   </node>
 </model>
 

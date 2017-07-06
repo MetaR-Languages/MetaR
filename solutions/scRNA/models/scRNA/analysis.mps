@@ -70,7 +70,7 @@
       </concept>
       <concept id="4315879884705597780" name="org.campagnelab.metar.seurat.structure.CleanupDataSeurat" flags="ng" index="16L9MR" />
       <concept id="4315879884705612165" name="org.campagnelab.metar.seurat.structure.SeuratCleanupCondition" flags="ng" index="16LdhA">
-        <child id="4315879884705612166" name="expression" index="16Ldh_" />
+        <child id="4315879884705612166" name="expressions" index="16Ldh_" />
       </concept>
       <concept id="4315879884705612354" name="org.campagnelab.metar.seurat.structure.GeneCountInCell" flags="ng" index="16Ldux" />
       <concept id="4315879884705558160" name="org.campagnelab.metar.seurat.structure.FutureSeurat" flags="ng" index="16LvHN">
@@ -313,7 +313,7 @@
         <property role="1MXi1$" value="DBVEQYHAMU" />
         <property role="313rra" value="5" />
         <property role="313rrk" value="1" />
-        <property role="31lnkE" value="false" />
+        <property role="31lnkE" value="true" />
         <node concept="1FHg$p" id="7lSaFvFjlyK" role="319mBM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />

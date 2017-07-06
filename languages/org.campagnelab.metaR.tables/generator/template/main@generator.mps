@@ -1167,7 +1167,10 @@
         <property role="3_3kQV" value="" />
       </node>
       <node concept="1gZcZf" id="2WRhvFtQr$l" role="2G3XIn">
-        <property role="1gZaPE" value="some text" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="7lSaFvHPdwL" role="3_3kQL">
+          <property role="3_3kQV" value="some text" />
+        </node>
         <node concept="raruj" id="2WRhvFtQr$n" role="lGtFl" />
         <node concept="2b32R4" id="2WRhvFtQr$p" role="lGtFl">
           <node concept="3JmXsc" id="2WRhvFtQr$s" role="2P8S$">
