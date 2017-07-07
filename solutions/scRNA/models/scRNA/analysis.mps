@@ -389,6 +389,9 @@
           <ref role="1LcaPk" node="7lSaFvHHK7Y" resolve="collapsedTubules" />
         </node>
       </node>
+      <node concept="S1EQe" id="7lSaFvI0bET" role="ZXjPg">
+        <property role="1MXi1$" value="LWKPIPTTNN" />
+      </node>
       <node concept="16OFD8" id="7lSaFvI06aY" role="ZXjPg">
         <property role="1LbDqV" value="false" />
         <property role="1MXi1$" value="MQQWYDNMTF" />
