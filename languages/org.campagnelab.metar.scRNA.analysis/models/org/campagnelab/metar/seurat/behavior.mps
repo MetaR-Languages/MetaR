@@ -1623,6 +1623,56 @@
       </node>
       <node concept="3cqZAl" id="6cuwE$idxKm" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="7lSaFvHZqCP" role="13h7CS">
+      <property role="TrG5h" value="destSeuratName" />
+      <node concept="3Tm1VV" id="7lSaFvHZqCQ" role="1B3o_S" />
+      <node concept="17QB3L" id="7lSaFvHZqEP" role="3clF45" />
+      <node concept="3clFbS" id="7lSaFvHZqCS" role="3clF47">
+        <node concept="3clFbF" id="7lSaFvHZqMp" role="3cqZAp">
+          <node concept="2OqwBi" id="7lSaFvHZt73" role="3clFbG">
+            <node concept="2OqwBi" id="7lSaFvHZsib" role="2Oq$k0">
+              <node concept="2OqwBi" id="7lSaFvHZr1Z" role="2Oq$k0">
+                <node concept="13iPFW" id="7lSaFvHZqMo" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7lSaFvHZrJk" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:3J_5udX8lCW" resolve="destination" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="7lSaFvHZsEl" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:3J_5udX8eUj" resolve="myOwnSeurat" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="7lSaFvHZtl9" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="7lSaFvHZtsc" role="13h7CS">
+      <property role="TrG5h" value="sourceSeuratName" />
+      <node concept="3Tm1VV" id="7lSaFvHZtsd" role="1B3o_S" />
+      <node concept="17QB3L" id="7lSaFvHZtu6" role="3clF45" />
+      <node concept="3clFbS" id="7lSaFvHZtsf" role="3clF47">
+        <node concept="3clFbF" id="7lSaFvHZt_R" role="3cqZAp">
+          <node concept="2OqwBi" id="7lSaFvHZvaC" role="3clFbG">
+            <node concept="2OqwBi" id="7lSaFvHZuFo" role="2Oq$k0">
+              <node concept="2OqwBi" id="7lSaFvHZtPt" role="2Oq$k0">
+                <node concept="13iPFW" id="7lSaFvHZt_Q" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7lSaFvHZucg" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:6cuwE$ibz1i" resolve="seurat" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="7lSaFvHZuQ9" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:6cuwE$ibyZX" resolve="seurat" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="7lSaFvHZvoK" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="7lSaFvFizPJ">
     <property role="3GE5qa" value="AddInfoOp.PlotWrapper" />
@@ -1660,8 +1710,8 @@
             </node>
             <node concept="2OqwBi" id="7lSaFvFizXF" role="37vLTJ">
               <node concept="13iPFW" id="7lSaFvFizPY" role="2Oq$k0" />
-              <node concept="3TrEf2" id="7lSaFvFi$oH" role="2OqNvi">
-                <ref role="3Tt5mk" to="lznn:3J_5udXh4F5" resolve="plot" />
+              <node concept="3TrEf2" id="7lSaFvHZ8B7" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
               </node>
             </node>
           </node>
@@ -2583,6 +2633,7 @@
   </node>
   <node concept="312cEu" id="7lSaFvHVJG1">
     <property role="TrG5h" value="ICleanupSeuratGenHelpers" />
+    <property role="3GE5qa" value="CleanUpOp" />
     <node concept="2YIFZL" id="7lSaFvHVJHE" role="jymVt">
       <property role="TrG5h" value="nameOfDest" />
       <property role="od$2w" value="false" />

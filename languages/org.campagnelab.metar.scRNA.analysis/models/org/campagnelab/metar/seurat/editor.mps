@@ -532,7 +532,7 @@
     <property role="3GE5qa" value="CleanUpOp" />
     <ref role="1XX52x" to="lznn:3J_5udX8s65" resolve="SeuratCleanupCondition" />
     <node concept="3F2HdR" id="3J_5udXbbff" role="2wV5jI">
-      <ref role="1NtTu8" to="lznn:3J_5udX8s66" resolve="expression" />
+      <ref role="1NtTu8" to="lznn:3J_5udX8s66" resolve="expressions" />
       <node concept="2iRkQZ" id="3J_5udXbbfh" role="2czzBx" />
     </node>
   </node>
@@ -971,7 +971,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="3F1sOY" id="3J_5udXh4F_" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3J_5udXh4F5" resolve="plot" />
+        <ref role="1NtTu8" to="lznn:7lSaFvHJwYl" resolve="plot" />
       </node>
       <node concept="PMmxH" id="7lSaFvHCEpf" role="3EZMnx">
         <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />

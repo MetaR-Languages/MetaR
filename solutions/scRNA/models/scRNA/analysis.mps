@@ -41,9 +41,6 @@
       </concept>
       <concept id="4315879884707878331" name="org.campagnelab.metar.seurat.structure.TSNEPlotWrapper" flags="ng" index="16Ck1o" />
       <concept id="4315879884707879121" name="org.campagnelab.metar.seurat.structure.StandardDeviationPlotWrapper" flags="ng" index="16CkOM" />
-      <concept id="4315879884707875524" name="org.campagnelab.metar.seurat.structure.PlotWrapper" flags="ng" index="16ClWB">
-        <child id="4315879884707875525" name="plot" index="16ClWA" />
-      </concept>
       <concept id="4315879884705585733" name="org.campagnelab.metar.seurat.structure.ICleanupStrategy" flags="ng" index="16L4YA">
         <child id="4315879884705586855" name="conditions" index="16L4H4" />
       </concept>
@@ -392,17 +389,14 @@
           <ref role="1LcaPk" node="7lSaFvHHK7Y" resolve="collapsedTubules" />
         </node>
       </node>
-      <node concept="S1EQe" id="3J_5udXjpQw" role="ZXjPg">
-        <property role="1MXi1$" value="TAJYTKLCVM" />
-      </node>
-      <node concept="16OFD8" id="6cuwE$idm1j" role="ZXjPg">
+      <node concept="16OFD8" id="7lSaFvI06aY" role="ZXjPg">
         <property role="1LbDqV" value="false" />
-        <property role="1MXi1$" value="CGIDRICWPQ" />
+        <property role="1MXi1$" value="MQQWYDNMTF" />
         <property role="16OWhN" value="false" />
         <property role="16RMo7" value="true" />
-        <node concept="16LvHN" id="6cuwE$idm1k" role="16L4Zv">
+        <node concept="16LvHN" id="7lSaFvI06aZ" role="16L4Zv">
           <property role="TrG5h" value="withPCInfo" />
-          <node concept="16WNID" id="6cuwE$idm1l" role="16LvHK">
+          <node concept="16WNID" id="7lSaFvI06b0" role="16LvHK">
             <property role="16WVSt" value="false" />
             <property role="16WMxv" value="true" />
             <property role="16WMwy" value="false" />
@@ -410,17 +404,17 @@
             <property role="TrG5h" value="withPCInfo" />
           </node>
         </node>
-        <node concept="16CkOM" id="6cuwE$idm1m" role="16RMo2">
-          <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
-          <node concept="1FHg$p" id="6cuwE$idm1n" role="16ClWA">
+        <node concept="16CkOM" id="7lSaFvI06b1" role="16RMo2">
+          <property role="1MXi1$" value="YISIXKBIVK" />
+          <node concept="1FHg$p" id="7lSaFvI06b3" role="2oLyky">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
-            <property role="3ZMXzF" value="9" />
+            <property role="3ZMXzF" value="7" />
             <property role="TrG5h" value="sdPlot" />
           </node>
         </node>
-        <node concept="16M02h" id="6cuwE$idm1p" role="16M02g" />
-        <node concept="1LcaPl" id="6cuwE$idm70" role="1LcbbV">
+        <node concept="16M02h" id="7lSaFvI06b5" role="16M02g" />
+        <node concept="1LcaPl" id="7lSaFvI06cK" role="1LcbbV">
           <ref role="1LcaPk" node="6cuwE$idlBJ" resolve="qC" />
         </node>
       </node>
@@ -437,20 +431,20 @@
         </node>
         <node concept="31becx" id="6cuwE$idmcj" role="312phR">
           <property role="1MXi1$" value="LHTSVYSBUS" />
-          <ref role="312p7B" node="6cuwE$idm1n" resolve="sdPlot" />
+          <ref role="312p7B" node="7lSaFvI06b3" resolve="sdPlot" />
         </node>
       </node>
       <node concept="S1EQe" id="7lSaFvFjeg6" role="ZXjPg">
         <property role="1MXi1$" value="ACNNNFEVLY" />
       </node>
-      <node concept="16M030" id="6cuwE$idmhE" role="ZXjPg">
+      <node concept="16M030" id="7lSaFvI06fX" role="ZXjPg">
         <property role="1LbDqV" value="false" />
-        <property role="1MXi1$" value="FKKNFEIQDP" />
+        <property role="1MXi1$" value="ABLVXEVSOX" />
         <property role="16OWhN" value="true" />
         <property role="16RMo7" value="true" />
-        <node concept="16LvHN" id="6cuwE$idmhF" role="16L4Zv">
+        <node concept="16LvHN" id="7lSaFvI06fY" role="16L4Zv">
           <property role="TrG5h" value="withClustersAndTSNEInfo" />
-          <node concept="16WNID" id="6cuwE$idmhG" role="16LvHK">
+          <node concept="16WNID" id="7lSaFvI06fZ" role="16LvHK">
             <property role="16WVSt" value="true" />
             <property role="16WMxv" value="true" />
             <property role="16WMwy" value="true" />
@@ -458,21 +452,22 @@
             <property role="TrG5h" value="withClustersAndTSNEInfo" />
           </node>
         </node>
-        <node concept="16Ck1o" id="6cuwE$idmhH" role="16RMo2">
-          <node concept="1FHg$p" id="6cuwE$idmhI" role="16ClWA">
+        <node concept="16Ck1o" id="7lSaFvI06g0" role="16RMo2">
+          <property role="1MXi1$" value="HEXPKAVWGL" />
+          <node concept="1FHg$p" id="7lSaFvI06g2" role="2oLyky">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
-            <property role="3ZMXzF" value="12" />
+            <property role="3ZMXzF" value="10" />
             <property role="TrG5h" value="tsnePlot" />
           </node>
         </node>
-        <node concept="16ML3z" id="6cuwE$idmhJ" role="16M02g">
+        <node concept="16ML3z" id="7lSaFvI06g3" role="16M02g">
           <property role="16ML3w" value="1" />
           <property role="16ML3A" value="17" />
           <property role="16ML3F" value="0.2" />
         </node>
-        <node concept="1LcaPl" id="6cuwE$idmnr" role="1LcbbV">
-          <ref role="1LcaPk" node="6cuwE$idm1l" resolve="withPCInfo" />
+        <node concept="1LcaPl" id="7lSaFvI06hK" role="1LcbbV">
+          <ref role="1LcaPk" node="7lSaFvI06b0" resolve="withPCInfo" />
         </node>
       </node>
       <node concept="313sG1" id="7lSaFvFjm6x" role="ZXjPg">
@@ -488,7 +483,7 @@
         </node>
         <node concept="31becx" id="7lSaFvFjmbd" role="312phR">
           <property role="1MXi1$" value="PDBAJEPHOG" />
-          <ref role="312p7B" node="6cuwE$idmhI" resolve="tsnePlot" />
+          <ref role="312p7B" node="7lSaFvI06g2" resolve="tsnePlot" />
         </node>
       </node>
       <node concept="S1EQe" id="370e$WiIwca" role="ZXjPg">
@@ -527,8 +522,8 @@
           <property role="16MV6i" value="0.25" />
           <property role="16MV6m" value="0.25" />
         </node>
-        <node concept="1LcaPl" id="6cuwE$idIwF" role="1LcbbV">
-          <ref role="1LcaPk" node="6cuwE$idmhG" resolve="withClustersAndTSNEInfo" />
+        <node concept="1LcaPl" id="7lSaFvI06jn" role="1LcbbV">
+          <ref role="1LcaPk" node="7lSaFvI06fZ" resolve="withClustersAndTSNEInfo" />
         </node>
       </node>
       <node concept="34tvTV" id="7lSaFvFjmg4" role="ZXjPg">
