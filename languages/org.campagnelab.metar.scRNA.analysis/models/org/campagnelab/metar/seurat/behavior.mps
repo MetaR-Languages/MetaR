@@ -2552,7 +2552,7 @@
       <node concept="3clFbS" id="7lSaFvHPGGf" role="3clF47">
         <node concept="3clFbF" id="7lSaFvHPGGy" role="3cqZAp">
           <node concept="Xl_RD" id="7lSaFvHPGGx" role="3clFbG">
-            <property role="Xl_RC" value="mito.percent" />
+            <property role="Xl_RC" value="percent.mito" />
           </node>
         </node>
       </node>
