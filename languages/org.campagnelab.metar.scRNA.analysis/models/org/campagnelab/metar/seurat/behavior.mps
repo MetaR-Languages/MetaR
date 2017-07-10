@@ -1204,6 +1204,25 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7lSaFvIat_O" role="3cqZAp">
+          <node concept="2OqwBi" id="7lSaFvIaxgV" role="3clFbG">
+            <node concept="2OqwBi" id="7lSaFvIau0f" role="2Oq$k0">
+              <node concept="13iPFW" id="7lSaFvIat_M" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="7lSaFvIauBw" role="2OqNvi">
+                <ref role="3TtcxE" to="lznn:7lSaFvIaq2l" resolve="plots" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="7lSaFvIaDwF" role="2OqNvi">
+              <node concept="2ShNRf" id="7lSaFvIaDDq" role="25WWJ7">
+                <node concept="3zrR0B" id="7lSaFvIaE4P" role="2ShVmc">
+                  <node concept="3Tqbb2" id="7lSaFvIaE4R" role="3zrR0E">
+                    <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotStyleWrapper" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

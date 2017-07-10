@@ -606,6 +606,13 @@
       <ref role="20lvS9" node="3J_5udXduaa" resolve="ListOfFeatures" />
       <ref role="20ksaX" node="3J_5udXcXua" resolve="param" />
     </node>
+    <node concept="1TJgyj" id="7lSaFvIaq2l" role="1TKVEi">
+      <property role="IQ2ns" value="8464562469105934485" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plots" />
+      <ref role="20ksaX" node="3J_5udXcXu6" resolve="plots" />
+      <ref role="20lvS9" node="7lSaFvHLICa" resolve="PlotStyleWrapper" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXduaa">
     <property role="EcuMT" value="4315879884706931338" />
