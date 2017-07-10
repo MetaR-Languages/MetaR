@@ -765,7 +765,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="plot" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+      <ref role="20lvS9" node="7lSaFvIhTjz" resolve="PlotSeurat" />
     </node>
   </node>
   <node concept="AxPO7" id="7lSaFvHKsuN">
@@ -817,6 +817,12 @@
   <node concept="PlHQZ" id="7lSaFvHWUEz">
     <property role="EcuMT" value="8464562469102398115" />
     <property role="TrG5h" value="INameInR" />
+  </node>
+  <node concept="1TIwiD" id="7lSaFvIhTjz">
+    <property role="EcuMT" value="8464562469107897571" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="PlotSeurat" />
+    <ref role="1TJDcQ" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
   </node>
 </model>
 
