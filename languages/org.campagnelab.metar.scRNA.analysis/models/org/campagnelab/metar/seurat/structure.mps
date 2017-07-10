@@ -718,9 +718,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
     </node>
-    <node concept="PrWs8" id="3J_5udXhhDJ" role="PzmwI">
-      <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXhhEa">
     <property role="EcuMT" value="4315879884707928714" />

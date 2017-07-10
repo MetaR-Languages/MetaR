@@ -1003,9 +1003,6 @@
       <node concept="3F1sOY" id="3J_5udXhhDX" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3J_5udXhhDI" resolve="table" />
       </node>
-      <node concept="PMmxH" id="5lDNWrJJAiw" role="3EZMnx">
-        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
-      </node>
       <node concept="2iRfu4" id="3J_5udXhhE1" role="2iSdaV" />
     </node>
   </node>
