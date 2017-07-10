@@ -67,6 +67,15 @@
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
+      <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
+        <reference id="1139535219968" name="applicableConcept" index="1h_SK9" />
+        <child id="1139535219969" name="item" index="1h_SK8" />
+      </concept>
+      <concept id="1139535280617" name="jetbrains.mps.lang.editor.structure.CellActionMapItem" flags="lg" index="1hA7zw">
+        <property id="1139535298778" name="actionId" index="1hAc7j" />
+        <child id="1139535280620" name="executeFunction" index="1hA7z_" />
+      </concept>
+      <concept id="1139535439104" name="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" flags="in" index="1hAIg9" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -83,6 +92,7 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <reference id="1139959269582" name="actionMap" index="1ERwB7" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
         <child id="1164826688380" name="menuDescriptor" index="P5bDN" />
       </concept>
@@ -98,7 +108,9 @@
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
-      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR">
+        <reference id="1173177718857" name="elementActionMap" index="APP_o" />
+      </concept>
       <concept id="1088612959204" name="jetbrains.mps.lang.editor.structure.CellModel_Alternation" flags="sg" stub="8104358048506729361" index="1QoScp">
         <property id="1088613081987" name="vertical" index="1QpmdY" />
         <child id="1145918517974" name="alternationCondition" index="3e4ffs" />
@@ -921,6 +933,8 @@
           <node concept="2iRkQZ" id="7lSaFvHJuaS" role="2iSdaV" />
           <node concept="3F2HdR" id="7lSaFvHLIC0" role="3EZMnx">
             <ref role="1NtTu8" to="lznn:3J_5udXcXu6" resolve="plots" />
+            <ref role="APP_o" node="5ziAKRO4leE" resolve="DisablePlotEditing" />
+            <ref role="1ERwB7" node="5ziAKRO4leE" resolve="DisablePlotEditing" />
             <node concept="2iRkQZ" id="7lSaFvHLIC1" role="2czzBx" />
             <node concept="4$FPG" id="7lSaFvHMemJ" role="4_6I_">
               <node concept="3clFbS" id="7lSaFvHMemK" role="2VODD2">
@@ -928,7 +942,7 @@
                   <node concept="2ShNRf" id="7lSaFvHMfjU" role="3clFbG">
                     <node concept="3zrR0B" id="7lSaFvHMfCZ" role="2ShVmc">
                       <node concept="3Tqbb2" id="7lSaFvHMfD1" role="3zrR0E">
-                        <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotStyleWrapper" />
+                        <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
                       </node>
                     </node>
                   </node>
@@ -1075,7 +1089,7 @@
   </node>
   <node concept="24kQdi" id="7lSaFvHJx8j">
     <property role="3GE5qa" value="PlotOp" />
-    <ref role="1XX52x" to="lznn:7lSaFvHJwYb" resolve="IPlotStyleWrapper" />
+    <ref role="1XX52x" to="lznn:7lSaFvHJwYb" resolve="IPlotInStatementWrapper" />
     <node concept="3EZMnI" id="7lSaFvHJxhu" role="2wV5jI">
       <node concept="3F1sOY" id="7lSaFvHJxhC" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:7lSaFvHJwYl" resolve="plot" />
@@ -1090,6 +1104,64 @@
         <ref role="1NtTu8" to="sg20:cisdhLTP2K" resolve="ID" />
       </node>
       <node concept="2iRfu4" id="7lSaFvHLALL" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="1h_SRR" id="5ziAKRO4leE">
+    <property role="TrG5h" value="DisablePlotEditing" />
+    <ref role="1h_SK9" to="lznn:7lSaFvHJwYb" resolve="IPlotInStatementWrapper" />
+    <node concept="1hA7zw" id="3l0yXcVu1UD" role="1h_SK8">
+      <property role="1hAc7j" value="delete_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1UE" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1UF" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1UL" role="1h_SK8">
+      <property role="1hAc7j" value="insert_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1UM" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1UN" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1UU" role="1h_SK8">
+      <property role="1hAc7j" value="insert_before_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1UV" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1UW" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1V6" role="1h_SK8">
+      <property role="1hAc7j" value="cut_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1V7" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1V8" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1Vl" role="1h_SK8">
+      <property role="1hAc7j" value="paste_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1Vm" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1Vn" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1VB" role="1h_SK8">
+      <property role="1hAc7j" value="paste_after_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1VC" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1VD" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1VW" role="1h_SK8">
+      <property role="1hAc7j" value="paste_before_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1VX" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1VY" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVCU$X" role="1h_SK8">
+      <property role="1hAc7j" value="delete_to_word_end_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVCU$Y" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVCU$Z" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVGzY8" role="1h_SK8">
+      <property role="1hAc7j" value="backspace_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVGzY9" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVGzYa" role="2VODD2" />
+      </node>
     </node>
   </node>
 </model>
