@@ -591,9 +591,9 @@
       </node>
       <node concept="34tvTV" id="7lSaFvFjmg4" role="ZXjPg">
         <property role="1MXi1$" value="JBOHKFMLUD" />
-        <property role="34gX7q" value="true" />
-        <property role="34tvW_" value="1" />
-        <property role="34tvWB" value="1" />
+        <property role="34gX7q" value="false" />
+        <property role="34tvW_" value="2" />
+        <property role="34tvWB" value="2" />
         <ref role="L_9Jz" node="5lDNWrJNeMM" resolve="TableStyle" />
         <node concept="afgQW" id="7lSaFvI7kV7" role="34tvVl">
           <ref role="afgo8" node="7lSaFvI7kRo" resolve="markersPerCluster" />
