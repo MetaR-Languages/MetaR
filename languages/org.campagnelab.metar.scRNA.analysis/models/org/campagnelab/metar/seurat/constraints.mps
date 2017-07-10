@@ -117,10 +117,19 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
+        <child id="1144104376918" name="parameter" index="1xVPHs" />
+      </concept>
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
+      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
+      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
+        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -298,6 +307,84 @@
         <node concept="3clFbH" id="7lSaFvIhZL0" role="3cqZAp" />
         <node concept="3cpWs6" id="7lSaFvIhZSF" role="3cqZAp">
           <node concept="3clFbT" id="7lSaFvIi00g" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5ziAKRO4c6o">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="1M2myG" to="lznn:3J_5udX8QXF" resolve="LogNormalizationStrategy" />
+    <node concept="nKS2y" id="5ziAKRO4c6p" role="1MLUbF">
+      <node concept="3clFbS" id="5ziAKRO4c6q" role="2VODD2">
+        <node concept="3SKdUt" id="5ziAKRO4iuF" role="3cqZAp">
+          <node concept="3SKdUq" id="5ziAKRO4iuH" role="3SKWNk">
+            <property role="3SKdUp" value="This strategy is only for the initial cleanup!" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5ziAKRO4cWk" role="3cqZAp">
+          <node concept="3fqX7Q" id="5ziAKRO4d3I" role="3clFbw">
+            <node concept="2OqwBi" id="5ziAKRO4dmC" role="3fr31v">
+              <node concept="nLn13" id="5ziAKRO4db9" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="5ziAKRO4dU9" role="2OqNvi">
+                <node concept="chp4Y" id="5ziAKRO4dYc" role="cj9EA">
+                  <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="5ziAKRO4cWm" role="3clFbx">
+            <node concept="3cpWs6" id="5ziAKRO4e9K" role="3cqZAp">
+              <node concept="3clFbT" id="5ziAKRO4eoa" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5ziAKRO4eRJ" role="3cqZAp" />
+        <node concept="3cpWs6" id="5ziAKRO4eTb" role="3cqZAp">
+          <node concept="3clFbT" id="5ziAKRO4eU6" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5ziAKRO4f1P">
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
+    <ref role="1M2myG" to="lznn:3J_5udX8BnC" resolve="CellsGeneExpressed" />
+    <node concept="nKS2y" id="5ziAKRO4f1Q" role="1MLUbF">
+      <node concept="3clFbS" id="5ziAKRO4f1R" role="2VODD2">
+        <node concept="3SKdUt" id="5ziAKRO4iai" role="3cqZAp">
+          <node concept="3SKdUq" id="5ziAKRO4iak" role="3SKWNk">
+            <property role="3SKdUp" value="This strategy is only for the initial cleanup!" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5ziAKRO4f95" role="3cqZAp">
+          <node concept="2OqwBi" id="5ziAKRO4gAt" role="3clFbw">
+            <node concept="2OqwBi" id="5ziAKRO4frS" role="2Oq$k0">
+              <node concept="nLn13" id="5ziAKRO4fgv" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="5ziAKRO4fZj" role="2OqNvi">
+                <node concept="1xMEDy" id="5ziAKRO4fZl" role="1xVPHs">
+                  <node concept="chp4Y" id="5ziAKRO4gjj" role="ri$Ld">
+                    <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="5ziAKRO4gai" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="5ziAKRO4hd6" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="5ziAKRO4f97" role="3clFbx">
+            <node concept="3cpWs6" id="5ziAKRO4hmE" role="3cqZAp">
+              <node concept="3clFbT" id="5ziAKRO4h_4" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5ziAKRO4hGq" role="3cqZAp" />
+        <node concept="3cpWs6" id="5ziAKRO4hPs" role="3cqZAp">
+          <node concept="3clFbT" id="5ziAKRO4hUm" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
