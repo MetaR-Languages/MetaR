@@ -677,6 +677,7 @@
             <node concept="l2Vlx" id="3J_5udXdH6r" role="2iSdaV" />
             <node concept="3F1sOY" id="3J_5udXdH6s" role="3EZMnx">
               <ref role="1NtTu8" to="lznn:3J_5udXbhlN" resolve="param" />
+              <ref role="1ERwB7" node="5ziAKROdrJl" resolve="DisableDeleteIParamAddInfo" />
               <node concept="lj46D" id="3J_5udXdH6t" role="3F10Kt">
                 <property role="VOm3f" value="true" />
               </node>
@@ -749,6 +750,7 @@
           </node>
           <node concept="3F1sOY" id="3J_5udXh51X" role="3EZMnx">
             <ref role="1NtTu8" to="lznn:3J_5udXezfx" resolve="plotWrapper" />
+            <ref role="1ERwB7" node="5ziAKROdQAQ" resolve="DisableDeletePlotWrapper" />
           </node>
           <node concept="2iRfu4" id="3J_5udXe_lp" role="2iSdaV" />
           <node concept="pkWqt" id="3J_5udXe_vb" role="pqm2j">
@@ -768,6 +770,7 @@
           <node concept="2iRfu4" id="3J_5udXfXqu" role="2iSdaV" />
           <node concept="3F1sOY" id="3J_5udXhhPK" role="3EZMnx">
             <ref role="1NtTu8" to="lznn:3J_5udXfTJJ" resolve="futureTableWrapper" />
+            <ref role="1ERwB7" node="5ziAKROe721" resolve="DisableFutureTableWrapper" />
           </node>
           <node concept="pkWqt" id="3J_5udXfXRH" role="pqm2j">
             <node concept="3clFbS" id="3J_5udXfXRI" role="2VODD2">
@@ -1004,6 +1007,7 @@
     <property role="3GE5qa" value="AddInfoOp.PlotWrapper" />
     <ref role="1XX52x" to="lznn:3J_5udXh4F4" resolve="PlotWrapper" />
     <node concept="3EZMnI" id="3J_5udXh4Fh" role="2wV5jI">
+      <ref role="1ERwB7" node="5ziAKROdQAQ" resolve="DisableDeletePlotWrapper" />
       <node concept="PMmxH" id="3J_5udXh4Fo" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
@@ -1184,6 +1188,54 @@
       <property role="1hAc7j" value="backspace_action_id" />
       <node concept="1hAIg9" id="3l0yXcVGzY9" role="1hA7z_">
         <node concept="3clFbS" id="3l0yXcVGzYa" role="2VODD2" />
+      </node>
+    </node>
+  </node>
+  <node concept="1h_SRR" id="5ziAKROdrJl">
+    <property role="TrG5h" value="DisableDeleteIParamAddInfo" />
+    <ref role="1h_SK9" to="lznn:3J_5udXbhlM" resolve="IParamAddInfo" />
+    <node concept="1hA7zw" id="5ziAKROdrKu" role="1h_SK8">
+      <property role="1hAc7j" value="delete_action_id" />
+      <node concept="1hAIg9" id="5ziAKROdrKv" role="1hA7z_">
+        <node concept="3clFbS" id="5ziAKROdrKw" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="5ziAKROdrLg" role="1h_SK8">
+      <property role="1hAc7j" value="cut_action_id" />
+      <node concept="1hAIg9" id="5ziAKROdrLh" role="1hA7z_">
+        <node concept="3clFbS" id="5ziAKROdrLi" role="2VODD2" />
+      </node>
+    </node>
+  </node>
+  <node concept="1h_SRR" id="5ziAKROdQAQ">
+    <property role="TrG5h" value="DisableDeletePlotWrapper" />
+    <ref role="1h_SK9" to="lznn:3J_5udXh4F4" resolve="PlotWrapper" />
+    <node concept="1hA7zw" id="5ziAKROdQAR" role="1h_SK8">
+      <property role="1hAc7j" value="delete_action_id" />
+      <node concept="1hAIg9" id="5ziAKROdQAS" role="1hA7z_">
+        <node concept="3clFbS" id="5ziAKROdQAT" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="5ziAKROdQAU" role="1h_SK8">
+      <property role="1hAc7j" value="cut_action_id" />
+      <node concept="1hAIg9" id="5ziAKROdQAV" role="1hA7z_">
+        <node concept="3clFbS" id="5ziAKROdQAW" role="2VODD2" />
+      </node>
+    </node>
+  </node>
+  <node concept="1h_SRR" id="5ziAKROe721">
+    <property role="TrG5h" value="DisableFutureTableWrapper" />
+    <ref role="1h_SK9" to="lznn:3J_5udXhhDH" resolve="FutureTableWrapper" />
+    <node concept="1hA7zw" id="5ziAKROe722" role="1h_SK8">
+      <property role="1hAc7j" value="delete_action_id" />
+      <node concept="1hAIg9" id="5ziAKROe723" role="1hA7z_">
+        <node concept="3clFbS" id="5ziAKROe724" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="5ziAKROe725" role="1h_SK8">
+      <property role="1hAc7j" value="cut_action_id" />
+      <node concept="1hAIg9" id="5ziAKROe726" role="1hA7z_">
+        <node concept="3clFbS" id="5ziAKROe727" role="2VODD2" />
       </node>
     </node>
   </node>
