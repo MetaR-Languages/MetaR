@@ -973,9 +973,6 @@
       <node concept="3F1sOY" id="3J_5udXh4F_" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:7lSaFvHJwYl" resolve="plot" />
       </node>
-      <node concept="PMmxH" id="7lSaFvHCEpf" role="3EZMnx">
-        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
-      </node>
       <node concept="2iRfu4" id="3J_5udXh4Fk" role="2iSdaV" />
     </node>
   </node>
@@ -1082,9 +1079,6 @@
     <node concept="3EZMnI" id="7lSaFvHJxhu" role="2wV5jI">
       <node concept="3F1sOY" id="7lSaFvHJxhC" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:7lSaFvHJwYl" resolve="plot" />
-      </node>
-      <node concept="PMmxH" id="7lSaFvHJxhM" role="3EZMnx">
-        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
       </node>
       <node concept="2iRfu4" id="7lSaFvHJxhx" role="2iSdaV" />
     </node>
