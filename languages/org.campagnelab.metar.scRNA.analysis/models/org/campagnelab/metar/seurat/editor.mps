@@ -857,8 +857,21 @@
               <ref role="1NtTu8" to="lznn:3J_5udXbEhL" resolve="xFold" />
             </node>
             <node concept="3F0ifn" id="3J_5udXbEiW" role="3EZMnx">
-              <property role="3F0ifm" value="difference (logs-scale) between the two groups of cells" />
+              <property role="3F0ifm" value="difference (logs-scale)" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+            </node>
+          </node>
+          <node concept="3EZMnI" id="5ziAKRO4VtF" role="3EZMnx">
+            <node concept="pj6Ft" id="5ziAKRO50$x" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="l2Vlx" id="5ziAKRO4VtG" role="2iSdaV" />
+            <node concept="3F0ifn" id="5ziAKRO4Vr7" role="3EZMnx">
+              <property role="3F0ifm" value="between the two groups of cells" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              <node concept="lj46D" id="5ziAKRO55BO" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
           </node>
           <node concept="3EZMnI" id="3J_5udXbEib" role="3EZMnx">
@@ -874,10 +887,23 @@
               <ref role="1NtTu8" to="lznn:3J_5udXbEhP" resolve="fraction" />
             </node>
             <node concept="3F0ifn" id="3J_5udXbEjc" role="3EZMnx">
-              <property role="3F0ifm" value="cells in either of the two compared populations" />
+              <property role="3F0ifm" value="cells " />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
             </node>
             <node concept="2iRfu4" id="3J_5udXbEif" role="2iSdaV" />
+          </node>
+          <node concept="3EZMnI" id="5ziAKRO4Vww" role="3EZMnx">
+            <node concept="pj6Ft" id="5ziAKRO50$B" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="l2Vlx" id="5ziAKRO4Vwx" role="2iSdaV" />
+            <node concept="3F0ifn" id="5ziAKRO4Vvz" role="3EZMnx">
+              <property role="3F0ifm" value="in either of the two compared populations" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              <node concept="lj46D" id="5ziAKRO55CK" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
           </node>
           <node concept="2iRkQZ" id="3J_5udXbEig" role="2iSdaV" />
           <node concept="3vyZuw" id="3J_5udXbEih" role="3F10Kt">

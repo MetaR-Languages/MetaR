@@ -513,15 +513,15 @@
       <node concept="S1EQe" id="370e$WiIwca" role="ZXjPg">
         <property role="1MXi1$" value="PIGWOPMADH" />
       </node>
-      <node concept="16ODAD" id="7lSaFvI7kRi" role="ZXjPg">
+      <node concept="16ODAD" id="5ziAKRO4Ujo" role="ZXjPg">
         <property role="8NYsT" value="false" />
         <property role="1LbDqV" value="false" />
-        <property role="1MXi1$" value="ERDGIXUKYE" />
+        <property role="1MXi1$" value="SFSVLALQWB" />
         <property role="16OWhN" value="true" />
         <property role="16QCS8" value="true" />
-        <node concept="16LvHN" id="7lSaFvI7kRj" role="16L4Zv">
+        <node concept="16LvHN" id="5ziAKRO4Ujp" role="16L4Zv">
           <property role="TrG5h" value="withMarkersInfo" />
-          <node concept="16WNID" id="7lSaFvI7kRk" role="16LvHK">
+          <node concept="16WNID" id="5ziAKRO4Ujq" role="16LvHK">
             <property role="16WVSt" value="true" />
             <property role="16WMxv" value="true" />
             <property role="16WMwy" value="true" />
@@ -529,67 +529,67 @@
             <property role="TrG5h" value="withMarkersInfo" />
           </node>
         </node>
-        <node concept="16C0XD" id="7lSaFvI7kRm" role="16QCSc">
-          <node concept="3MlLWZ" id="7lSaFvI7kRn" role="16C0Yd">
+        <node concept="16C0XD" id="5ziAKRO4Ujs" role="16QCSc">
+          <node concept="3MlLWZ" id="5ziAKRO4Ujt" role="16C0Yd">
             <property role="TrG5h" value="markersPerCluster" />
-            <ref role="3MlLW5" node="7lSaFvI7kRo" resolve="markersPerCluster" />
-            <node concept="3Mpm39" id="7lSaFvI7kRo" role="3WeD9t">
+            <ref role="3MlLW5" node="5ziAKRO4Uju" resolve="markersPerCluster" />
+            <node concept="3Mpm39" id="5ziAKRO4Uju" role="3WeD9t">
               <property role="31Cu5t" value="&#9;" />
               <property role="TrG5h" value="markersPerCluster" />
               <property role="31JHgl" value="/Users/farcasia/MetaRProjects/temp/metaR_results/scRNA.analysis/table_markersPerCluster_0.tsv" />
-              <node concept="31JHg8" id="7lSaFvI7mhb" role="31JHgj">
+              <node concept="31JHg8" id="5ziAKRO4Vpg" role="31JHgj">
                 <property role="TrG5h" value="p_val" />
                 <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               </node>
-              <node concept="31JHg8" id="7lSaFvI7mhc" role="31JHgj">
+              <node concept="31JHg8" id="5ziAKRO4Vph" role="31JHgj">
                 <property role="TrG5h" value="avg_diff" />
                 <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               </node>
-              <node concept="31JHg8" id="7lSaFvI7mhd" role="31JHgj">
+              <node concept="31JHg8" id="5ziAKRO4Vpi" role="31JHgj">
                 <property role="TrG5h" value="pct.1" />
                 <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               </node>
-              <node concept="31JHg8" id="7lSaFvI7mhe" role="31JHgj">
+              <node concept="31JHg8" id="5ziAKRO4Vpj" role="31JHgj">
                 <property role="TrG5h" value="pct.2" />
                 <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               </node>
-              <node concept="31JHg8" id="7lSaFvI7mhf" role="31JHgj">
+              <node concept="31JHg8" id="5ziAKRO4Vpk" role="31JHgj">
                 <property role="TrG5h" value="cluster" />
-                <ref role="1YeEjl" node="7lSaFvI7mhg" resolve="Categories from cluster" />
-                <node concept="aYgxc" id="7lSaFvI7mhg" role="1YfERI">
+                <ref role="1YeEjl" node="5ziAKRO4Vpl" resolve="Categories from cluster" />
+                <node concept="aYgxc" id="5ziAKRO4Vpl" role="1YfERI">
                   <property role="TrG5h" value="Categories from cluster" />
-                  <node concept="3Osf58" id="7lSaFvI7mhh" role="3Osf6V">
+                  <node concept="3Osf58" id="5ziAKRO4Vpm" role="3Osf6V">
                     <property role="TrG5h" value="&quot;4&quot;" />
                   </node>
-                  <node concept="3Osf58" id="7lSaFvI7mhi" role="3Osf6V">
+                  <node concept="3Osf58" id="5ziAKRO4Vpn" role="3Osf6V">
                     <property role="TrG5h" value="&quot;3&quot;" />
                   </node>
-                  <node concept="3Osf58" id="7lSaFvI7mhj" role="3Osf6V">
+                  <node concept="3Osf58" id="5ziAKRO4Vpo" role="3Osf6V">
                     <property role="TrG5h" value="&quot;2&quot;" />
                   </node>
-                  <node concept="3Osf58" id="7lSaFvI7mhk" role="3Osf6V">
+                  <node concept="3Osf58" id="5ziAKRO4Vpp" role="3Osf6V">
                     <property role="TrG5h" value="&quot;1&quot;" />
                   </node>
-                  <node concept="3Osf58" id="7lSaFvI7mhl" role="3Osf6V">
+                  <node concept="3Osf58" id="5ziAKRO4Vpq" role="3Osf6V">
                     <property role="TrG5h" value="&quot;0&quot;" />
                   </node>
-                  <node concept="3Osf58" id="7lSaFvI7mhm" role="3Osf6V">
+                  <node concept="3Osf58" id="5ziAKRO4Vpr" role="3Osf6V">
                     <property role="TrG5h" value="&quot;5&quot;" />
                   </node>
                 </node>
               </node>
-              <node concept="31JHg8" id="7lSaFvI7mhn" role="31JHgj">
+              <node concept="31JHg8" id="5ziAKRO4Vps" role="31JHgj">
                 <property role="TrG5h" value="gene" />
                 <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="16MV6c" id="7lSaFvI7kRq" role="16M02g">
+        <node concept="16MV6c" id="5ziAKRO4Ujw" role="16M02g">
           <property role="16MV6i" value="0.25" />
           <property role="16MV6m" value="0.25" />
         </node>
-        <node concept="1LcaPl" id="7lSaFvIiDJR" role="1LcbbV">
+        <node concept="1LcaPl" id="5ziAKRO4Ura" role="1LcbbV">
           <ref role="1LcaPk" node="7lSaFvIiDFZ" resolve="withClustersAndTSNEInfo" />
         </node>
       </node>
@@ -599,8 +599,8 @@
         <property role="34tvW_" value="6" />
         <property role="34tvWB" value="2" />
         <ref role="L_9Jz" node="5lDNWrJNeMM" resolve="TableStyle" />
-        <node concept="afgQW" id="7lSaFvI7kV7" role="34tvVl">
-          <ref role="afgo8" node="7lSaFvI7kRo" resolve="markersPerCluster" />
+        <node concept="afgQW" id="5ziAKRO4UxK" role="34tvVl">
+          <ref role="afgo8" node="5ziAKRO4Uju" resolve="markersPerCluster" />
         </node>
       </node>
       <node concept="S1EQe" id="7lSaFvFjmbj" role="ZXjPg">
@@ -632,15 +632,15 @@
             <property role="TrG5h" value="featurePlot" />
           </node>
         </node>
-        <node concept="1LcaPl" id="7lSaFvIiDNI" role="1Lc1gn">
-          <ref role="1LcaPk" node="7lSaFvI7kRk" resolve="withMarkersInfo" />
+        <node concept="1LcaPl" id="5ziAKRO4Ux_" role="1Lc1gn">
+          <ref role="1LcaPk" node="5ziAKRO4Ujq" resolve="withMarkersInfo" />
         </node>
       </node>
       <node concept="313sG1" id="7lSaFvIaOX9" role="ZXjPg">
         <property role="1MXi1$" value="FLQKXPTNLW" />
         <property role="313rra" value="1" />
         <property role="313rrk" value="1" />
-        <property role="31lnkE" value="false" />
+        <property role="31lnkE" value="true" />
         <node concept="1FHg$p" id="7lSaFvIaOXa" role="319mBM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
