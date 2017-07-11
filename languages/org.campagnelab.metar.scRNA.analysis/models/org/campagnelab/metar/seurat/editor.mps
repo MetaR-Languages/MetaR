@@ -43,6 +43,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="795210086017940429" name="jetbrains.mps.lang.editor.structure.ReadOnlyStyleClassItem" flags="lg" index="xShMh" />
       <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz">
         <child id="1164824815888" name="cellMenuPart" index="OY2wv" />
       </concept>
@@ -1118,6 +1119,25 @@
     <property role="3GE5qa" value="PlotOp" />
     <ref role="1XX52x" to="lznn:7lSaFvHJwYb" resolve="IPlotInStatementWrapper" />
     <node concept="3EZMnI" id="7lSaFvHJxhu" role="2wV5jI">
+      <node concept="3F0A7n" id="1GombsEyLEz" role="3EZMnx">
+        <property role="1Intyy" value="true" />
+        <ref role="1NtTu8" to="lznn:1GombsEyLDx" resolve="description" />
+        <node concept="pkWqt" id="1GombsEyLEH" role="pqm2j">
+          <node concept="3clFbS" id="1GombsEyLEI" role="2VODD2">
+            <node concept="3clFbF" id="1GombsEyLLX" role="3cqZAp">
+              <node concept="2OqwBi" id="1GombsEyLZ_" role="3clFbG">
+                <node concept="pncrf" id="1GombsEyLLW" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1GombsEyMym" role="2OqNvi">
+                  <ref role="3TsBF5" to="lznn:1GombsEyLDA" resolve="withDescription" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="xShMh" id="1GombsE$opa" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F1sOY" id="7lSaFvHJxhC" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:7lSaFvHJwYl" resolve="plot" />
       </node>

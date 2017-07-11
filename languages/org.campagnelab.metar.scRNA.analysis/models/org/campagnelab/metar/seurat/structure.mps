@@ -756,6 +756,16 @@
     <property role="EcuMT" value="8464562469098885003" />
     <property role="3GE5qa" value="PlotOp" />
     <property role="TrG5h" value="IPlotInStatementWrapper" />
+    <node concept="1TJgyi" id="1GombsEyLDx" role="1TKVEl">
+      <property role="IQ2nx" value="1952407982181128801" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1GombsEyLDA" role="1TKVEl">
+      <property role="IQ2nx" value="1952407982181128806" />
+      <property role="TrG5h" value="withDescription" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="7lSaFvHJwYh" role="PrDN$">
       <ref role="PrY4T" to="jrxw:bPLB43fxe2" resolve="PlotBuilderStatementI" />
     </node>

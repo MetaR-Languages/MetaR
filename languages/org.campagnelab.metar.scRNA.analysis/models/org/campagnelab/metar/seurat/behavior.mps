@@ -903,6 +903,101 @@
   <node concept="13h7C7" id="3J_5udXcYrj">
     <property role="3GE5qa" value="PlotOp" />
     <ref role="13h7C2" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
+    <node concept="13i0hz" id="1GombsEyWgP" role="13h7CS">
+      <property role="TrG5h" value="addPlotToTheOutput" />
+      <node concept="3Tm1VV" id="1GombsEyWgQ" role="1B3o_S" />
+      <node concept="3cqZAl" id="1GombsEz6iT" role="3clF45" />
+      <node concept="3clFbS" id="1GombsEyWgS" role="3clF47">
+        <node concept="3cpWs8" id="1GombsEyXdQ" role="3cqZAp">
+          <node concept="3cpWsn" id="1GombsEyXdR" role="3cpWs9">
+            <property role="TrG5h" value="plot" />
+            <node concept="3Tqbb2" id="1GombsEyXdS" role="1tU5fm">
+              <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
+            </node>
+            <node concept="2ShNRf" id="1GombsEyXdT" role="33vP2m">
+              <node concept="3zrR0B" id="1GombsEyXdU" role="2ShVmc">
+                <node concept="3Tqbb2" id="1GombsEyXdV" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1GombsEyXdW" role="3cqZAp">
+          <node concept="37vLTI" id="1GombsEyXdX" role="3clFbG">
+            <node concept="3clFbT" id="1GombsEyXdY" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="1GombsEyXdZ" role="37vLTJ">
+              <node concept="37vLTw" id="1GombsEyXe0" role="2Oq$k0">
+                <ref role="3cqZAo" node="1GombsEyXdR" resolve="plot" />
+              </node>
+              <node concept="3TrcHB" id="1GombsEyXe1" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:1GombsEyLDA" resolve="withDescription" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1GombsEyXe2" role="3cqZAp">
+          <node concept="37vLTI" id="1GombsEyXe3" role="3clFbG">
+            <node concept="37vLTw" id="1GombsEyY06" role="37vLTx">
+              <ref role="3cqZAo" node="1GombsEyXd2" resolve="description" />
+            </node>
+            <node concept="2OqwBi" id="1GombsEyXe5" role="37vLTJ">
+              <node concept="37vLTw" id="1GombsEyXe6" role="2Oq$k0">
+                <ref role="3cqZAo" node="1GombsEyXdR" resolve="plot" />
+              </node>
+              <node concept="3TrcHB" id="1GombsEyXe7" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:1GombsEyLDx" resolve="description" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1GombsEyXe8" role="3cqZAp">
+          <node concept="37vLTI" id="1GombsEyXe9" role="3clFbG">
+            <node concept="37vLTw" id="1GombsEyYbl" role="37vLTx">
+              <ref role="3cqZAo" node="1GombsEyXdg" resolve="plotName" />
+            </node>
+            <node concept="2OqwBi" id="1GombsEyXeb" role="37vLTJ">
+              <node concept="2OqwBi" id="1GombsEyXec" role="2Oq$k0">
+                <node concept="37vLTw" id="1GombsEyXed" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1GombsEyXdR" resolve="plot" />
+                </node>
+                <node concept="3TrEf2" id="1GombsEyXee" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="1GombsEyXef" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1GombsEyXeg" role="3cqZAp">
+          <node concept="2OqwBi" id="1GombsEyXeh" role="3clFbG">
+            <node concept="2OqwBi" id="1GombsEyXei" role="2Oq$k0">
+              <node concept="13iPFW" id="1GombsEyXej" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1GombsEyXek" role="2OqNvi">
+                <ref role="3TtcxE" to="lznn:7lSaFvHLICd" resolve="plots" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="1GombsEyXel" role="2OqNvi">
+              <node concept="37vLTw" id="1GombsEyXem" role="25WWJ7">
+                <ref role="3cqZAo" node="1GombsEyXdR" resolve="plot" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1GombsEyXd2" role="3clF46">
+        <property role="TrG5h" value="description" />
+        <node concept="17QB3L" id="1GombsEyXd1" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1GombsEyXdg" role="3clF46">
+        <property role="TrG5h" value="plotName" />
+        <node concept="17QB3L" id="1GombsEyXdE" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="13hLZK" id="3J_5udXcYrk" role="13h7CW">
       <node concept="3clFbS" id="3J_5udXcYrl" role="2VODD2">
         <node concept="3clFbF" id="3J_5udXcYrz" role="3cqZAp">
@@ -921,259 +1016,75 @@
         <node concept="3clFbH" id="7lSaFvHLPmN" role="3cqZAp" />
         <node concept="3SKdUt" id="7lSaFvHOS4G" role="3cqZAp">
           <node concept="3SKdUq" id="7lSaFvHOS4I" role="3SKWNk">
-            <property role="3SKdUp" value="Initialize the 5 plots with default names." />
+            <property role="3SKdUp" value="Initialize the 5 plots with the description and default names." />
           </node>
         </node>
-        <node concept="3cpWs8" id="7lSaFvHMs5G" role="3cqZAp">
-          <node concept="3cpWsn" id="7lSaFvHMs5J" role="3cpWs9">
-            <property role="TrG5h" value="violinNGene" />
-            <node concept="3Tqbb2" id="7lSaFvHMs5E" role="1tU5fm">
-              <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-            </node>
-            <node concept="2ShNRf" id="7lSaFvHM0Oh" role="33vP2m">
-              <node concept="3zrR0B" id="7lSaFvHM1fu" role="2ShVmc">
-                <node concept="3Tqbb2" id="7lSaFvHM1fw" role="3zrR0E">
-                  <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-                </node>
+        <node concept="3clFbF" id="1GombsEz6wB" role="3cqZAp">
+          <node concept="2OqwBi" id="1GombsEz7E2" role="3clFbG">
+            <node concept="13iPFW" id="1GombsEz6w_" role="2Oq$k0" />
+            <node concept="2qgKlT" id="1GombsEz8JV" role="2OqNvi">
+              <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
+              <node concept="Xl_RD" id="1GombsEz8Ru" role="37wK5m">
+                <property role="Xl_RC" value="gene counts per cell:" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHMtTp" role="3cqZAp">
-          <node concept="37vLTI" id="7lSaFvHMxC_" role="3clFbG">
-            <node concept="Xl_RD" id="7lSaFvHMxHL" role="37vLTx">
-              <property role="Xl_RC" value="violinNGene" />
-            </node>
-            <node concept="2OqwBi" id="7lSaFvHMwvu" role="37vLTJ">
-              <node concept="2OqwBi" id="7lSaFvHMuRe" role="2Oq$k0">
-                <node concept="37vLTw" id="7lSaFvHMtTn" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7lSaFvHMs5J" resolve="violinNGene" />
-                </node>
-                <node concept="3TrEf2" id="7lSaFvHMw5W" role="2OqNvi">
-                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7lSaFvHMwJG" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              <node concept="Xl_RD" id="1GombsEzaKk" role="37wK5m">
+                <property role="Xl_RC" value="violinNGene" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7lSaFvHLPt6" role="3cqZAp">
-          <node concept="2OqwBi" id="7lSaFvHLSrM" role="3clFbG">
-            <node concept="2OqwBi" id="7lSaFvHLPD0" role="2Oq$k0">
-              <node concept="13iPFW" id="7lSaFvHLPt4" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="7lSaFvHLPWN" role="2OqNvi">
-                <ref role="3TtcxE" to="lznn:7lSaFvHLICd" resolve="plots" />
+        <node concept="3clFbF" id="1GombsEzd2c" role="3cqZAp">
+          <node concept="2OqwBi" id="1GombsEzd2d" role="3clFbG">
+            <node concept="13iPFW" id="1GombsEzd2e" role="2Oq$k0" />
+            <node concept="2qgKlT" id="1GombsEzd2f" role="2OqNvi">
+              <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
+              <node concept="Xl_RD" id="1GombsEzd2g" role="37wK5m">
+                <property role="Xl_RC" value="molecule counts per cell:" />
               </node>
-            </node>
-            <node concept="TSZUe" id="7lSaFvHM0Fy" role="2OqNvi">
-              <node concept="37vLTw" id="7lSaFvHMxTf" role="25WWJ7">
-                <ref role="3cqZAo" node="7lSaFvHMs5J" resolve="violinNGene" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7lSaFvHMyjj" role="3cqZAp" />
-        <node concept="3cpWs8" id="7lSaFvHMywa" role="3cqZAp">
-          <node concept="3cpWsn" id="7lSaFvHMywb" role="3cpWs9">
-            <property role="TrG5h" value="violinNUMI" />
-            <node concept="3Tqbb2" id="7lSaFvHMywc" role="1tU5fm">
-              <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-            </node>
-            <node concept="2ShNRf" id="7lSaFvHMywd" role="33vP2m">
-              <node concept="3zrR0B" id="7lSaFvHMywe" role="2ShVmc">
-                <node concept="3Tqbb2" id="7lSaFvHMywf" role="3zrR0E">
-                  <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-                </node>
+              <node concept="Xl_RD" id="1GombsEzd2h" role="37wK5m">
+                <property role="Xl_RC" value="violinNUMI" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7lSaFvHMywg" role="3cqZAp">
-          <node concept="37vLTI" id="7lSaFvHMywh" role="3clFbG">
-            <node concept="Xl_RD" id="7lSaFvHMywi" role="37vLTx">
-              <property role="Xl_RC" value="violinNUMI" />
-            </node>
-            <node concept="2OqwBi" id="7lSaFvHMywj" role="37vLTJ">
-              <node concept="2OqwBi" id="7lSaFvHMywk" role="2Oq$k0">
-                <node concept="37vLTw" id="7lSaFvHMywl" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7lSaFvHMywb" resolve="violinNUMI" />
-                </node>
-                <node concept="3TrEf2" id="7lSaFvHMywm" role="2OqNvi">
-                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
-                </node>
+        <node concept="3clFbF" id="1GombsEzdWa" role="3cqZAp">
+          <node concept="2OqwBi" id="1GombsEzdWb" role="3clFbG">
+            <node concept="13iPFW" id="1GombsEzdWc" role="2Oq$k0" />
+            <node concept="2qgKlT" id="1GombsEzdWd" role="2OqNvi">
+              <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
+              <node concept="Xl_RD" id="1GombsEzdWe" role="37wK5m">
+                <property role="Xl_RC" value="percentage of mithocondrial genes per cell:" />
               </node>
-              <node concept="3TrcHB" id="7lSaFvHMywn" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              <node concept="Xl_RD" id="1GombsEzdWf" role="37wK5m">
+                <property role="Xl_RC" value="violinMito" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7lSaFvHMywo" role="3cqZAp">
-          <node concept="2OqwBi" id="7lSaFvHMywp" role="3clFbG">
-            <node concept="2OqwBi" id="7lSaFvHMywq" role="2Oq$k0">
-              <node concept="13iPFW" id="7lSaFvHMywr" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="7lSaFvHMyws" role="2OqNvi">
-                <ref role="3TtcxE" to="lznn:7lSaFvHLICd" resolve="plots" />
+        <node concept="3clFbF" id="1GombsEzeR7" role="3cqZAp">
+          <node concept="2OqwBi" id="1GombsEzeR8" role="3clFbG">
+            <node concept="13iPFW" id="1GombsEzeR9" role="2Oq$k0" />
+            <node concept="2qgKlT" id="1GombsEzeRa" role="2OqNvi">
+              <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
+              <node concept="Xl_RD" id="1GombsEzeRb" role="37wK5m">
+                <property role="Xl_RC" value="gene counts versus corresponding molecule counts per cell:" />
               </node>
-            </node>
-            <node concept="TSZUe" id="7lSaFvHMywt" role="2OqNvi">
-              <node concept="37vLTw" id="7lSaFvHMywu" role="25WWJ7">
-                <ref role="3cqZAo" node="7lSaFvHMywb" resolve="violinNUMI" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7lSaFvHMyjL" role="3cqZAp" />
-        <node concept="3cpWs8" id="7lSaFvHMzkd" role="3cqZAp">
-          <node concept="3cpWsn" id="7lSaFvHMzke" role="3cpWs9">
-            <property role="TrG5h" value="violinMito" />
-            <node concept="3Tqbb2" id="7lSaFvHMzkf" role="1tU5fm">
-              <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-            </node>
-            <node concept="2ShNRf" id="7lSaFvHMzkg" role="33vP2m">
-              <node concept="3zrR0B" id="7lSaFvHMzkh" role="2ShVmc">
-                <node concept="3Tqbb2" id="7lSaFvHMzki" role="3zrR0E">
-                  <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-                </node>
+              <node concept="Xl_RD" id="1GombsEzeRc" role="37wK5m">
+                <property role="Xl_RC" value="scatterNUMINGene" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7lSaFvHMzkj" role="3cqZAp">
-          <node concept="37vLTI" id="7lSaFvHMzkk" role="3clFbG">
-            <node concept="Xl_RD" id="7lSaFvHMzkl" role="37vLTx">
-              <property role="Xl_RC" value="violinMito" />
-            </node>
-            <node concept="2OqwBi" id="7lSaFvHMzkm" role="37vLTJ">
-              <node concept="2OqwBi" id="7lSaFvHMzkn" role="2Oq$k0">
-                <node concept="37vLTw" id="7lSaFvHMzko" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7lSaFvHMzke" resolve="violinMito" />
-                </node>
-                <node concept="3TrEf2" id="7lSaFvHMzkp" role="2OqNvi">
-                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
-                </node>
+        <node concept="3clFbF" id="1GombsEzfMN" role="3cqZAp">
+          <node concept="2OqwBi" id="1GombsEzfMO" role="3clFbG">
+            <node concept="13iPFW" id="1GombsEzfMP" role="2Oq$k0" />
+            <node concept="2qgKlT" id="1GombsEzfMQ" role="2OqNvi">
+              <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
+              <node concept="Xl_RD" id="1GombsEzfMR" role="37wK5m">
+                <property role="Xl_RC" value="percentage of mithocondrial genes versus corresponding molecule counts per cell:" />
               </node>
-              <node concept="3TrcHB" id="7lSaFvHMzkq" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHMzkr" role="3cqZAp">
-          <node concept="2OqwBi" id="7lSaFvHMzks" role="3clFbG">
-            <node concept="2OqwBi" id="7lSaFvHMzkt" role="2Oq$k0">
-              <node concept="13iPFW" id="7lSaFvHMzku" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="7lSaFvHMzkv" role="2OqNvi">
-                <ref role="3TtcxE" to="lznn:7lSaFvHLICd" resolve="plots" />
-              </node>
-            </node>
-            <node concept="TSZUe" id="7lSaFvHMzkw" role="2OqNvi">
-              <node concept="37vLTw" id="7lSaFvHMzkx" role="25WWJ7">
-                <ref role="3cqZAo" node="7lSaFvHMzke" resolve="violinMito" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7lSaFvHMzU4" role="3cqZAp" />
-        <node concept="3cpWs8" id="7lSaFvHM$VN" role="3cqZAp">
-          <node concept="3cpWsn" id="7lSaFvHM$VO" role="3cpWs9">
-            <property role="TrG5h" value="scatterNUMINGene" />
-            <node concept="3Tqbb2" id="7lSaFvHM$VP" role="1tU5fm">
-              <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-            </node>
-            <node concept="2ShNRf" id="7lSaFvHM$VQ" role="33vP2m">
-              <node concept="3zrR0B" id="7lSaFvHM$VR" role="2ShVmc">
-                <node concept="3Tqbb2" id="7lSaFvHM$VS" role="3zrR0E">
-                  <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHM$VT" role="3cqZAp">
-          <node concept="37vLTI" id="7lSaFvHM$VU" role="3clFbG">
-            <node concept="Xl_RD" id="7lSaFvHM$VV" role="37vLTx">
-              <property role="Xl_RC" value="scatterNUMINGene" />
-            </node>
-            <node concept="2OqwBi" id="7lSaFvHM$VW" role="37vLTJ">
-              <node concept="2OqwBi" id="7lSaFvHM$VX" role="2Oq$k0">
-                <node concept="37vLTw" id="7lSaFvHM$VY" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7lSaFvHM$VO" resolve="scatterNUMINGene" />
-                </node>
-                <node concept="3TrEf2" id="7lSaFvHM$VZ" role="2OqNvi">
-                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7lSaFvHM$W0" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHM$W1" role="3cqZAp">
-          <node concept="2OqwBi" id="7lSaFvHM$W2" role="3clFbG">
-            <node concept="2OqwBi" id="7lSaFvHM$W3" role="2Oq$k0">
-              <node concept="13iPFW" id="7lSaFvHM$W4" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="7lSaFvHM$W5" role="2OqNvi">
-                <ref role="3TtcxE" to="lznn:7lSaFvHLICd" resolve="plots" />
-              </node>
-            </node>
-            <node concept="TSZUe" id="7lSaFvHM$W6" role="2OqNvi">
-              <node concept="37vLTw" id="7lSaFvHM$W7" role="25WWJ7">
-                <ref role="3cqZAo" node="7lSaFvHM$VO" resolve="scatterNUMINGene" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7lSaFvHM$qV" role="3cqZAp" />
-        <node concept="3cpWs8" id="7lSaFvHM_EP" role="3cqZAp">
-          <node concept="3cpWsn" id="7lSaFvHM_EQ" role="3cpWs9">
-            <property role="TrG5h" value="scatterNUMIMito" />
-            <node concept="3Tqbb2" id="7lSaFvHM_ER" role="1tU5fm">
-              <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-            </node>
-            <node concept="2ShNRf" id="7lSaFvHM_ES" role="33vP2m">
-              <node concept="3zrR0B" id="7lSaFvHM_ET" role="2ShVmc">
-                <node concept="3Tqbb2" id="7lSaFvHM_EU" role="3zrR0E">
-                  <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHM_EV" role="3cqZAp">
-          <node concept="37vLTI" id="7lSaFvHM_EW" role="3clFbG">
-            <node concept="Xl_RD" id="7lSaFvHM_EX" role="37vLTx">
-              <property role="Xl_RC" value="scatterNUMIMito" />
-            </node>
-            <node concept="2OqwBi" id="7lSaFvHM_EY" role="37vLTJ">
-              <node concept="2OqwBi" id="7lSaFvHM_EZ" role="2Oq$k0">
-                <node concept="37vLTw" id="7lSaFvHM_F0" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7lSaFvHM_EQ" resolve="scatterNUMIMito" />
-                </node>
-                <node concept="3TrEf2" id="7lSaFvHM_F1" role="2OqNvi">
-                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7lSaFvHM_F2" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHM_F3" role="3cqZAp">
-          <node concept="2OqwBi" id="7lSaFvHM_F4" role="3clFbG">
-            <node concept="2OqwBi" id="7lSaFvHM_F5" role="2Oq$k0">
-              <node concept="13iPFW" id="7lSaFvHM_F6" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="7lSaFvHM_F7" role="2OqNvi">
-                <ref role="3TtcxE" to="lznn:7lSaFvHLICd" resolve="plots" />
-              </node>
-            </node>
-            <node concept="TSZUe" id="7lSaFvHM_F8" role="2OqNvi">
-              <node concept="37vLTw" id="7lSaFvHM_F9" role="25WWJ7">
-                <ref role="3cqZAo" node="7lSaFvHM_EQ" resolve="scatterNUMIMito" />
+              <node concept="Xl_RD" id="1GombsEzfMS" role="37wK5m">
+                <property role="Xl_RC" value="scatterNUMIMito" />
               </node>
             </node>
           </node>
