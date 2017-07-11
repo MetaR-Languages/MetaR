@@ -67,7 +67,7 @@
     <property role="EcuMT" value="4315879884704146260" />
     <property role="TrG5h" value="ImportSeurat" />
     <property role="34LRSv" value="import seurat" />
-    <property role="R4oN_" value="Import results provided by 10X " />
+    <property role="R4oN_" value="Import scRNA-seq dataset" />
     <property role="3GE5qa" value="ImportOp" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="3J_5udXfdFL" role="1TKVEi">
