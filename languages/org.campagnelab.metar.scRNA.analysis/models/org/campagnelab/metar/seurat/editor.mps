@@ -213,11 +213,23 @@
           </node>
         </node>
         <node concept="3EZMnI" id="7lSaFvHH9kP" role="3EZMnx">
+          <node concept="3F1sOY" id="1GombsEA9C_" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:7lSaFvHEZbf" resolve="rejectedCells" />
+            <node concept="ljvvj" id="1GombsEA9CA" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="lj46D" id="1GombsEA9CB" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="ljvvj" id="1GombsEA9CC" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
           <node concept="lj46D" id="7lSaFvHH9l9" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
           <node concept="3F1sOY" id="7lSaFvHEZdh" role="3EZMnx">
-            <ref role="1NtTu8" to="lznn:7lSaFvHEZbf" resolve="rejectedCells" />
+            <ref role="1NtTu8" to="lznn:1GombsE_$Dp" resolve="rejectedGenes" />
             <node concept="ljvvj" id="7lSaFvHGZ$j" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -1280,6 +1292,25 @@
         <ref role="1NtTu8" to="lznn:3J_5udXhhDI" resolve="table" />
       </node>
       <node concept="2iRfu4" id="1GombsEy0xH" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1GombsE_hvZ">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="1XX52x" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
+    <node concept="3EZMnI" id="1GombsE_hw1" role="2wV5jI">
+      <node concept="PMmxH" id="1GombsE_hw2" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="1GombsE_hw3" role="3EZMnx">
+        <property role="3F0ifm" value="when" />
+      </node>
+      <node concept="3F1sOY" id="1GombsE_hw4" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udX8lUB" resolve="conditions" />
+        <node concept="3vyZuw" id="1GombsE_hw5" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="1GombsE_hw6" role="2iSdaV" />
     </node>
   </node>
 </model>

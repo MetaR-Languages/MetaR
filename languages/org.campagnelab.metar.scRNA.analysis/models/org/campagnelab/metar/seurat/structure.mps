@@ -91,6 +91,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX8VC3" resolve="RejectCellStrategy" />
     </node>
+    <node concept="1TJgyj" id="1GombsE_$Dp" role="1TKVEi">
+      <property role="IQ2ns" value="1952407982181861977" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rejectedGenes" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1GombsE_hv_" resolve="RejectGeneStrategy" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX5yTa">
     <property role="EcuMT" value="4315879884704853578" />
@@ -324,7 +331,7 @@
     <property role="EcuMT" value="4315879884705612354" />
     <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <property role="TrG5h" value="GeneCountInCell" />
-    <property role="34LRSv" value="number of genes in cell" />
+    <property role="34LRSv" value="gene counts in cell" />
     <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
   </node>
   <node concept="1TIwiD" id="3J_5udX8BnC">
@@ -407,7 +414,7 @@
     <property role="EcuMT" value="4315879884706105520" />
     <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <property role="TrG5h" value="nUMICountInCell" />
-    <property role="34LRSv" value="number of UMIs in cell" />
+    <property role="34LRSv" value="molecule counts in cell" />
     <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
   </node>
   <node concept="1TIwiD" id="3J_5udXaudg">
@@ -835,6 +842,16 @@
     <property role="3GE5qa" value="PlotOp" />
     <property role="TrG5h" value="PlotSeurat" />
     <ref role="1TJDcQ" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+  </node>
+  <node concept="1TIwiD" id="1GombsE_hv_">
+    <property role="EcuMT" value="1952407982181783525" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="RejectGeneStrategy" />
+    <property role="34LRSv" value="by rejecting gene" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1GombsE_hvA" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
+    </node>
   </node>
 </model>
 

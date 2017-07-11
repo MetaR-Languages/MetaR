@@ -2263,7 +2263,13 @@
       <node concept="3clFbS" id="7lSaFvHCZEb" role="2VODD2">
         <node concept="3SKdUt" id="7lSaFvHHv2$" role="3cqZAp">
           <node concept="3SKdUq" id="7lSaFvHHv2A" role="3SKWNk">
-            <property role="3SKdUp" value=" We initialize the cleanup with default values." />
+            <property role="3SKdUp" value="We initialize the cleanup with default values." />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1GombsEAlcI" role="3cqZAp" />
+        <node concept="3SKdUt" id="1GombsE_Tjz" role="3cqZAp">
+          <node concept="3SKdUq" id="1GombsE_Tj_" role="3SKWNk">
+            <property role="3SKdUp" value="Rejected cells" />
           </node>
         </node>
         <node concept="3clFbF" id="7lSaFvHFSMp" role="3cqZAp">
@@ -2305,85 +2311,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7lSaFvHGxag" role="3cqZAp" />
-        <node concept="3cpWs8" id="7lSaFvHGyrs" role="3cqZAp">
-          <node concept="3cpWsn" id="7lSaFvHGyrv" role="3cpWs9">
-            <property role="TrG5h" value="minCells" />
-            <node concept="3Tqbb2" id="7lSaFvHGyrq" role="1tU5fm">
-              <ref role="ehGHo" to="tpee:i2kUDXX" resolve="BinaryCompareOperation" />
-            </node>
-            <node concept="2ShNRf" id="7lSaFvHGyHk" role="33vP2m">
-              <node concept="3zrR0B" id="7lSaFvHGzbc" role="2ShVmc">
-                <node concept="3Tqbb2" id="7lSaFvHGzbe" role="3zrR0E">
-                  <ref role="ehGHo" to="tpee:fJeOVwE" resolve="LessThanExpression" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHGzsr" role="3cqZAp">
-          <node concept="37vLTI" id="7lSaFvHG$XO" role="3clFbG">
-            <node concept="2ShNRf" id="7lSaFvHG$Yf" role="37vLTx">
-              <node concept="3zrR0B" id="7lSaFvHG_az" role="2ShVmc">
-                <node concept="3Tqbb2" id="7lSaFvHG_a_" role="3zrR0E">
-                  <ref role="ehGHo" to="lznn:3J_5udX8BnC" resolve="CellsGeneExpressed" />
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="7lSaFvHGzQu" role="37vLTJ">
-              <node concept="37vLTw" id="7lSaFvHGzsp" role="2Oq$k0">
-                <ref role="3cqZAo" node="7lSaFvHGyrv" resolve="minCells" />
-              </node>
-              <node concept="3TrEf2" id="7lSaFvHG$hI" role="2OqNvi">
-                <ref role="3Tt5mk" to="tpee:fJuHU4s" resolve="leftExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHHeN6" role="3cqZAp">
-          <node concept="37vLTI" id="7lSaFvHHgi4" role="3clFbG">
-            <node concept="2c44tf" id="7lSaFvHHgka" role="37vLTx">
-              <node concept="3cmrfG" id="7lSaFvHHg_f" role="2c44tc">
-                <property role="3cmrfH" value="3" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="7lSaFvHHf4E" role="37vLTJ">
-              <node concept="37vLTw" id="7lSaFvHHeN4" role="2Oq$k0">
-                <ref role="3cqZAo" node="7lSaFvHGyrv" resolve="minCells" />
-              </node>
-              <node concept="3TrEf2" id="7lSaFvHHfvM" role="2OqNvi">
-                <ref role="3Tt5mk" to="tpee:fJuHU4r" resolve="rightExpression" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7lSaFvHGBVk" role="3cqZAp" />
-        <node concept="3clFbF" id="7lSaFvHFYpK" role="3cqZAp">
-          <node concept="2OqwBi" id="7lSaFvHG3lv" role="3clFbG">
-            <node concept="2OqwBi" id="7lSaFvHG0$o" role="2Oq$k0">
-              <node concept="2OqwBi" id="7lSaFvHFZPa" role="2Oq$k0">
-                <node concept="2OqwBi" id="7lSaFvHFY_b" role="2Oq$k0">
-                  <node concept="13iPFW" id="7lSaFvHFYpI" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7lSaFvHFZsg" role="2OqNvi">
-                    <ref role="3Tt5mk" to="lznn:7lSaFvHEZbf" resolve="rejectedCells" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="7lSaFvHG0dm" role="2OqNvi">
-                  <ref role="3Tt5mk" to="lznn:3J_5udX8lUB" resolve="conditions" />
-                </node>
-              </node>
-              <node concept="3Tsc0h" id="7lSaFvHG185" role="2OqNvi">
-                <ref role="3TtcxE" to="lznn:3J_5udX8s66" resolve="expressions" />
-              </node>
-            </node>
-            <node concept="TSZUe" id="7lSaFvHG8cR" role="2OqNvi">
-              <node concept="37vLTw" id="7lSaFvHGCqR" role="25WWJ7">
-                <ref role="3cqZAo" node="7lSaFvHGyrv" resolve="minCells" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7lSaFvHGC0E" role="3cqZAp" />
         <node concept="3cpWs8" id="7lSaFvHHtPk" role="3cqZAp">
           <node concept="3cpWsn" id="7lSaFvHHtPl" role="3cpWs9">
             <property role="TrG5h" value="minGenes" />
@@ -2435,15 +2362,135 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7lSaFvHHvjA" role="3cqZAp" />
+        <node concept="3clFbF" id="7lSaFvHFYpK" role="3cqZAp">
+          <node concept="2OqwBi" id="7lSaFvHG3lv" role="3clFbG">
+            <node concept="2OqwBi" id="7lSaFvHG0$o" role="2Oq$k0">
+              <node concept="2OqwBi" id="7lSaFvHFZPa" role="2Oq$k0">
+                <node concept="2OqwBi" id="7lSaFvHFY_b" role="2Oq$k0">
+                  <node concept="13iPFW" id="7lSaFvHFYpI" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7lSaFvHFZsg" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:7lSaFvHEZbf" resolve="rejectedCells" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="7lSaFvHG0dm" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:3J_5udX8lUB" resolve="conditions" />
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="7lSaFvHG185" role="2OqNvi">
+                <ref role="3TtcxE" to="lznn:3J_5udX8s66" resolve="expressions" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="7lSaFvHG8cR" role="2OqNvi">
+              <node concept="37vLTw" id="1GombsEAjRz" role="25WWJ7">
+                <ref role="3cqZAo" node="7lSaFvHHtPl" resolve="minGenes" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7lSaFvHGC0E" role="3cqZAp" />
+        <node concept="3SKdUt" id="1GombsE_UyN" role="3cqZAp">
+          <node concept="3SKdUq" id="1GombsE_UyP" role="3SKWNk">
+            <property role="3SKdUp" value="Rejected genes" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1GombsE__ou" role="3cqZAp">
+          <node concept="37vLTI" id="1GombsE_B8W" role="3clFbG">
+            <node concept="2ShNRf" id="1GombsE_BbQ" role="37vLTx">
+              <node concept="3zrR0B" id="1GombsE_BbO" role="2ShVmc">
+                <node concept="3Tqbb2" id="1GombsE_BbP" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1GombsE_A6I" role="37vLTJ">
+              <node concept="13iPFW" id="1GombsE__os" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1GombsE_A_g" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:1GombsE_$Dp" resolve="rejectedGenes" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1GombsE_D2x" role="3cqZAp">
+          <node concept="37vLTI" id="1GombsE_FYh" role="3clFbG">
+            <node concept="2ShNRf" id="1GombsE_FZq" role="37vLTx">
+              <node concept="3zrR0B" id="1GombsE_SxS" role="2ShVmc">
+                <node concept="3Tqbb2" id="1GombsE_SxU" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:3J_5udX8s65" resolve="SeuratCleanupCondition" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1GombsE_ECT" role="37vLTJ">
+              <node concept="2OqwBi" id="1GombsE_DBY" role="2Oq$k0">
+                <node concept="13iPFW" id="1GombsE_D2v" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1GombsE_E6w" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:1GombsE_$Dp" resolve="rejectedGenes" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="1GombsE_Fsj" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:3J_5udX8lUB" resolve="conditions" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7lSaFvHGyrs" role="3cqZAp">
+          <node concept="3cpWsn" id="7lSaFvHGyrv" role="3cpWs9">
+            <property role="TrG5h" value="minCells" />
+            <node concept="3Tqbb2" id="7lSaFvHGyrq" role="1tU5fm">
+              <ref role="ehGHo" to="tpee:i2kUDXX" resolve="BinaryCompareOperation" />
+            </node>
+            <node concept="2ShNRf" id="7lSaFvHGyHk" role="33vP2m">
+              <node concept="3zrR0B" id="7lSaFvHGzbc" role="2ShVmc">
+                <node concept="3Tqbb2" id="7lSaFvHGzbe" role="3zrR0E">
+                  <ref role="ehGHo" to="tpee:fJeOVwE" resolve="LessThanExpression" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7lSaFvHGzsr" role="3cqZAp">
+          <node concept="37vLTI" id="7lSaFvHG$XO" role="3clFbG">
+            <node concept="2ShNRf" id="7lSaFvHG$Yf" role="37vLTx">
+              <node concept="3zrR0B" id="7lSaFvHG_az" role="2ShVmc">
+                <node concept="3Tqbb2" id="7lSaFvHG_a_" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:3J_5udX8BnC" resolve="CellsGeneExpressed" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7lSaFvHGzQu" role="37vLTJ">
+              <node concept="37vLTw" id="7lSaFvHGzsp" role="2Oq$k0">
+                <ref role="3cqZAo" node="7lSaFvHGyrv" resolve="minCells" />
+              </node>
+              <node concept="3TrEf2" id="7lSaFvHG$hI" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:fJuHU4s" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7lSaFvHHeN6" role="3cqZAp">
+          <node concept="37vLTI" id="7lSaFvHHgi4" role="3clFbG">
+            <node concept="2c44tf" id="7lSaFvHHgka" role="37vLTx">
+              <node concept="3cmrfG" id="7lSaFvHHg_f" role="2c44tc">
+                <property role="3cmrfH" value="3" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7lSaFvHHf4E" role="37vLTJ">
+              <node concept="37vLTw" id="7lSaFvHHeN4" role="2Oq$k0">
+                <ref role="3cqZAo" node="7lSaFvHGyrv" resolve="minCells" />
+              </node>
+              <node concept="3TrEf2" id="7lSaFvHHfvM" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:fJuHU4r" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7lSaFvHHvjB" role="3cqZAp">
           <node concept="2OqwBi" id="7lSaFvHHvjC" role="3clFbG">
             <node concept="2OqwBi" id="7lSaFvHHvjD" role="2Oq$k0">
               <node concept="2OqwBi" id="7lSaFvHHvjE" role="2Oq$k0">
                 <node concept="2OqwBi" id="7lSaFvHHvjF" role="2Oq$k0">
                   <node concept="13iPFW" id="7lSaFvHHvjG" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7lSaFvHHvjH" role="2OqNvi">
-                    <ref role="3Tt5mk" to="lznn:7lSaFvHEZbf" resolve="rejectedCells" />
+                  <node concept="3TrEf2" id="1GombsE_C55" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:1GombsE_$Dp" resolve="rejectedGenes" />
                   </node>
                 </node>
                 <node concept="3TrEf2" id="7lSaFvHHvjI" role="2OqNvi">
@@ -2455,13 +2502,18 @@
               </node>
             </node>
             <node concept="TSZUe" id="7lSaFvHHvjK" role="2OqNvi">
-              <node concept="37vLTw" id="7lSaFvHHvGE" role="25WWJ7">
-                <ref role="3cqZAo" node="7lSaFvHHtPl" resolve="minGenes" />
+              <node concept="37vLTw" id="1GombsEAkcO" role="25WWJ7">
+                <ref role="3cqZAo" node="7lSaFvHGyrv" resolve="minCells" />
               </node>
             </node>
           </node>
         </node>
         <node concept="3clFbH" id="7lSaFvHHtAz" role="3cqZAp" />
+        <node concept="3SKdUt" id="1GombsE_VAS" role="3cqZAp">
+          <node concept="3SKdUq" id="1GombsE_VAU" role="3SKWNk">
+            <property role="3SKdUp" value="Log normalization" />
+          </node>
+        </node>
         <node concept="3clFbF" id="7lSaFvHHwkG" role="3cqZAp">
           <node concept="37vLTI" id="7lSaFvHHxS_" role="3clFbG">
             <node concept="2ShNRf" id="7lSaFvHHxXk" role="37vLTx">

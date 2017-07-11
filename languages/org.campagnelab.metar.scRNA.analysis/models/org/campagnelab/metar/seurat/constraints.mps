@@ -356,7 +356,7 @@
       <node concept="3clFbS" id="5ziAKRO4f1R" role="2VODD2">
         <node concept="3SKdUt" id="5ziAKRO4iai" role="3cqZAp">
           <node concept="3SKdUq" id="5ziAKRO4iak" role="3SKWNk">
-            <property role="3SKdUp" value="This strategy is only for the initial cleanup!" />
+            <property role="3SKdUp" value="This variable is only for the initial cleanup!" />
           </node>
         </node>
         <node concept="3clFbJ" id="5ziAKRO4f95" role="3cqZAp">
@@ -385,6 +385,48 @@
         <node concept="3clFbH" id="5ziAKRO4hGq" role="3cqZAp" />
         <node concept="3cpWs6" id="5ziAKRO4hPs" role="3cqZAp">
           <node concept="3clFbT" id="5ziAKRO4hUm" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1GombsE_Wqm">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="1M2myG" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
+    <node concept="nKS2y" id="1GombsE_Wqn" role="1MLUbF">
+      <node concept="3clFbS" id="1GombsE_Wqo" role="2VODD2">
+        <node concept="3SKdUt" id="1GombsE_WxA" role="3cqZAp">
+          <node concept="3SKdUq" id="1GombsE_WxB" role="3SKWNk">
+            <property role="3SKdUp" value="This strategy is only for the initial cleanup!" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1GombsE_WxC" role="3cqZAp">
+          <node concept="2OqwBi" id="1GombsE_WxD" role="3clFbw">
+            <node concept="2OqwBi" id="1GombsE_WxE" role="2Oq$k0">
+              <node concept="nLn13" id="1GombsE_WxF" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1GombsE_WxG" role="2OqNvi">
+                <node concept="1xMEDy" id="1GombsE_WxH" role="1xVPHs">
+                  <node concept="chp4Y" id="1GombsE_WxI" role="ri$Ld">
+                    <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="1GombsE_WxJ" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="1GombsE_WxK" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="1GombsE_WxL" role="3clFbx">
+            <node concept="3cpWs6" id="1GombsE_WxM" role="3cqZAp">
+              <node concept="3clFbT" id="1GombsE_WxN" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1GombsE_WxO" role="3cqZAp" />
+        <node concept="3cpWs6" id="1GombsE_WxP" role="3cqZAp">
+          <node concept="3clFbT" id="1GombsE_WxQ" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
