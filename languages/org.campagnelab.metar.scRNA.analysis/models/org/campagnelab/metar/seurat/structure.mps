@@ -725,6 +725,11 @@
     <property role="TrG5h" value="MarkersPerClusterTableWrapper" />
     <property role="34LRSv" value="markers per cluster table" />
     <ref role="1TJDcQ" node="3J_5udXhhDH" resolve="FutureTableWrapper" />
+    <node concept="1TJgyi" id="1GombsEy0w_" role="1TKVEl">
+      <property role="IQ2nx" value="1952407982180927525" />
+      <property role="TrG5h" value="noOfMarkers" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6cuwE$ibyZW">
     <property role="EcuMT" value="7142289721722286076" />

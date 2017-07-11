@@ -1239,5 +1239,28 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="1GombsEy0xB">
+    <property role="3GE5qa" value="AddInfoOp.FutureTableWrapper" />
+    <ref role="1XX52x" to="lznn:3J_5udXhhEa" resolve="MarkersPerClusterTableWrapper" />
+    <node concept="3EZMnI" id="1GombsEy0xD" role="2wV5jI">
+      <node concept="3F0ifn" id="1GombsEynn1" role="3EZMnx">
+        <property role="3F0ifm" value="table with" />
+      </node>
+      <node concept="3F0A7n" id="1GombsEy0yj" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:1GombsEy0w_" resolve="noOfMarkers" />
+        <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
+      </node>
+      <node concept="3F0ifn" id="1GombsEynmq" role="3EZMnx">
+        <property role="3F0ifm" value="markers per cluster" />
+      </node>
+      <node concept="3F0ifn" id="1GombsEy0xF" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="1GombsEy0xG" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXhhDI" resolve="table" />
+      </node>
+      <node concept="2iRfu4" id="1GombsEy0xH" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

@@ -47,7 +47,9 @@
         <child id="8464562469098885013" name="plot" index="2oLyky" />
       </concept>
       <concept id="8464562469107897571" name="org.campagnelab.metar.seurat.structure.PlotSeurat" flags="ng" index="2rfVTk" />
-      <concept id="4315879884707928714" name="org.campagnelab.metar.seurat.structure.MarkersPerClusterTableWrapper" flags="ng" index="16C0XD" />
+      <concept id="4315879884707928714" name="org.campagnelab.metar.seurat.structure.MarkersPerClusterTableWrapper" flags="ng" index="16C0XD">
+        <property id="1952407982180927525" name="noOfMarkers" index="L$52i" />
+      </concept>
       <concept id="4315879884707928685" name="org.campagnelab.metar.seurat.structure.FutureTableWrapper" flags="ng" index="16C0Ye">
         <child id="4315879884707928686" name="table" index="16C0Yd" />
       </concept>
@@ -269,8 +271,8 @@
           <property role="16WXFQ" value="/Users/farcasia/Documents/Data/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
         </node>
       </node>
-      <node concept="S1EQe" id="7lSaFvFiiVq" role="ZXjPg">
-        <property role="1MXi1$" value="DKDEKMHFDF" />
+      <node concept="S1EQe" id="6bJwAiTffNo" role="ZXjPg">
+        <property role="1MXi1$" value="GMKLNPTXGO" />
       </node>
       <node concept="16PJcN" id="7lSaFvIiu0B" role="ZXjPg">
         <property role="1MXi1$" value="TTRTWDXHOW" />
@@ -533,6 +535,7 @@
           </node>
         </node>
         <node concept="16C0XD" id="5ziAKRO982x" role="16QCSc">
+          <property role="L$52i" value="5" />
           <node concept="3MlLWZ" id="5ziAKRO982y" role="16C0Yd">
             <property role="TrG5h" value="markersPerCluster" />
             <ref role="3MlLW5" node="5ziAKRO982z" resolve="markersPerCluster" />
@@ -600,7 +603,7 @@
         <property role="1MXi1$" value="JBOHKFMLUD" />
         <property role="34gX7q" value="true" />
         <property role="34tvW_" value="6" />
-        <property role="34tvWB" value="2" />
+        <property role="34tvWB" value="10" />
         <ref role="L_9Jz" node="5lDNWrJNeMM" resolve="TableStyle" />
         <node concept="afgQW" id="5ziAKRO6hZL" role="34tvVl">
           <ref role="afgo8" node="5ziAKRO982z" resolve="markersPerCluster" />
