@@ -309,7 +309,6 @@
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
       </concept>
-      <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
     </language>
   </registry>
@@ -596,8 +595,8 @@
                                   <node concept="2OqwBi" id="7lSaFvHI6kF" role="2Oq$k0">
                                     <node concept="2OqwBi" id="7lSaFvHI51r" role="2Oq$k0">
                                       <node concept="30H73N" id="7lSaFvHI4KQ" role="2Oq$k0" />
-                                      <node concept="3TrEf2" id="7lSaFvHI5FQ" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="lznn:7lSaFvHEZbf" resolve="rejectedCells" />
+                                      <node concept="3TrEf2" id="1GombsEB0KV" role="2OqNvi">
+                                        <ref role="3Tt5mk" to="lznn:1GombsE_$Dp" resolve="rejectedGenes" />
                                       </node>
                                     </node>
                                     <node concept="3TrEf2" id="7lSaFvHI6UD" role="2OqNvi">
@@ -629,8 +628,8 @@
                                   <node concept="2OqwBi" id="7lSaFvHJabE" role="2Oq$k0">
                                     <node concept="2OqwBi" id="7lSaFvHJabF" role="2Oq$k0">
                                       <node concept="30H73N" id="7lSaFvHJabG" role="2Oq$k0" />
-                                      <node concept="3TrEf2" id="7lSaFvHJabH" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="lznn:7lSaFvHEZbf" resolve="rejectedCells" />
+                                      <node concept="3TrEf2" id="1GombsEB1Pc" role="2OqNvi">
+                                        <ref role="3Tt5mk" to="lznn:1GombsE_$Dp" resolve="rejectedGenes" />
                                       </node>
                                     </node>
                                     <node concept="3TrEf2" id="7lSaFvHJabI" role="2OqNvi">
@@ -668,8 +667,8 @@
                                       <node concept="2OqwBi" id="7lSaFvHHOn8" role="2Oq$k0">
                                         <node concept="2OqwBi" id="7lSaFvHHNn4" role="2Oq$k0">
                                           <node concept="30H73N" id="7lSaFvHHN78" role="2Oq$k0" />
-                                          <node concept="3TrEf2" id="7lSaFvHHNEx" role="2OqNvi">
-                                            <ref role="3Tt5mk" to="lznn:7lSaFvHEZbf" resolve="rejectedCells" />
+                                          <node concept="3TrEf2" id="1GombsEB2Wk" role="2OqNvi">
+                                            <ref role="3Tt5mk" to="lznn:1GombsE_$Dp" resolve="rejectedGenes" />
                                           </node>
                                         </node>
                                         <node concept="3TrEf2" id="7lSaFvHHOE_" role="2OqNvi">
@@ -729,7 +728,7 @@
                                     <ref role="3TtcxE" to="lznn:3J_5udX8s66" resolve="expressions" />
                                   </node>
                                 </node>
-                                <node concept="1yVyf7" id="7lSaFvHInLu" role="2OqNvi" />
+                                <node concept="1uHKPH" id="1GombsEAXsq" role="2OqNvi" />
                               </node>
                               <node concept="3TrEf2" id="7lSaFvHIjBX" role="2OqNvi">
                                 <ref role="3Tt5mk" to="tpee:fJuHU4s" resolve="leftExpression" />
@@ -762,7 +761,7 @@
                                     <ref role="3TtcxE" to="lznn:3J_5udX8s66" resolve="expressions" />
                                   </node>
                                 </node>
-                                <node concept="1yVyf7" id="7lSaFvHJ5Y5" role="2OqNvi" />
+                                <node concept="1uHKPH" id="1GombsEAZzc" role="2OqNvi" />
                               </node>
                               <node concept="3TrEf2" id="7lSaFvHJ7eE" role="2OqNvi">
                                 <ref role="3Tt5mk" to="tpee:fJuHU4r" resolve="rightExpression" />
@@ -801,7 +800,7 @@
                                         <ref role="3TtcxE" to="lznn:3J_5udX8s66" resolve="expressions" />
                                       </node>
                                     </node>
-                                    <node concept="1yVyf7" id="7lSaFvHIUaM" role="2OqNvi" />
+                                    <node concept="1uHKPH" id="1GombsEB5sx" role="2OqNvi" />
                                   </node>
                                   <node concept="3TrEf2" id="7lSaFvHIPVR" role="2OqNvi">
                                     <ref role="3Tt5mk" to="tpee:fJuHU4r" resolve="rightExpression" />
