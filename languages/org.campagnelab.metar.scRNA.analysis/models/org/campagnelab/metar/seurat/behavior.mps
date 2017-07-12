@@ -702,6 +702,23 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6bALrFtZ2Mf" role="3cqZAp">
+          <node concept="37vLTI" id="6bALrFtZ4zE" role="3clFbG">
+            <node concept="2ShNRf" id="6bALrFtZ4Dx" role="37vLTx">
+              <node concept="3zrR0B" id="6bALrFtZ4Dv" role="2ShVmc">
+                <node concept="3Tqbb2" id="6bALrFtZ4Dw" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:6bALrFtYJym" resolve="AverageExpDispersionPlot" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6bALrFtZ3fr" role="37vLTJ">
+              <node concept="13iPFW" id="6bALrFtZ2Md" role="2Oq$k0" />
+              <node concept="3TrEf2" id="6bALrFtZ3QV" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:6bALrFtYJyn" resolve="plotWrapper" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="13i0hz" id="6cuwE$idtcv" role="13h7CS">
@@ -2621,6 +2638,64 @@
   <node concept="312cEu" id="7lSaFvHVJG1">
     <property role="TrG5h" value="ICleanupSeuratGenHelpers" />
     <property role="3GE5qa" value="CleanUpOp" />
+    <node concept="2YIFZL" id="6bALrFtZsw$" role="jymVt">
+      <property role="TrG5h" value="getPlotWraper" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="6bALrFtZswB" role="3clF47">
+        <node concept="3cpWs8" id="6bALrFtZsRG" role="3cqZAp">
+          <node concept="3cpWsn" id="6bALrFtZsRJ" role="3cpWs9">
+            <property role="TrG5h" value="cleanupSeurat" />
+            <node concept="3Tqbb2" id="6bALrFtZsRE" role="1tU5fm">
+              <ref role="ehGHo" to="lznn:3J_5udX8ksL" resolve="ICleanupSeurat" />
+            </node>
+            <node concept="2OqwBi" id="6bALrFtZsGn" role="33vP2m">
+              <node concept="37vLTw" id="6bALrFtZsKH" role="2Oq$k0">
+                <ref role="3cqZAo" node="6bALrFtZsEW" resolve="strategy" />
+              </node>
+              <node concept="2Xjw5R" id="6bALrFtZsGp" role="2OqNvi">
+                <node concept="1xMEDy" id="6bALrFtZsGq" role="1xVPHs">
+                  <node concept="chp4Y" id="6bALrFtZsGr" role="ri$Ld">
+                    <ref role="cht4Q" to="lznn:3J_5udX8ksL" resolve="ICleanupSeurat" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="6bALrFtZsGl" role="3cqZAp">
+          <node concept="2OqwBi" id="6bALrFtZsGm" role="1gVkn0">
+            <node concept="3x8VRR" id="6bALrFtZsGs" role="2OqNvi" />
+            <node concept="37vLTw" id="6bALrFtZsWA" role="2Oq$k0">
+              <ref role="3cqZAo" node="6bALrFtZsRJ" resolve="cleanupSeurat" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6bALrFtZsIX" role="3cqZAp" />
+        <node concept="3cpWs6" id="6bALrFtZsOo" role="3cqZAp">
+          <node concept="2OqwBi" id="6bALrFtZta6" role="3cqZAk">
+            <node concept="37vLTw" id="6bALrFtZsZl" role="2Oq$k0">
+              <ref role="3cqZAo" node="6bALrFtZsRJ" resolve="cleanupSeurat" />
+            </node>
+            <node concept="3TrEf2" id="6bALrFtZtm_" role="2OqNvi">
+              <ref role="3Tt5mk" to="lznn:6bALrFtY8gC" resolve="plotWrapper" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6bALrFtZsm5" role="1B3o_S" />
+      <node concept="3Tqbb2" id="6bALrFtZswf" role="3clF45">
+        <ref role="ehGHo" to="lznn:3J_5udXh4F4" resolve="PlotWrapper" />
+      </node>
+      <node concept="37vLTG" id="6bALrFtZsEW" role="3clF46">
+        <property role="TrG5h" value="strategy" />
+        <node concept="3Tqbb2" id="6bALrFtZsEV" role="1tU5fm">
+          <ref role="ehGHo" to="lznn:3J_5udX8lD5" resolve="ICleanupStrategy" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6bALrFtZsc9" role="jymVt" />
     <node concept="2YIFZL" id="7lSaFvHVJHE" role="jymVt">
       <property role="TrG5h" value="nameOfDest" />
       <property role="od$2w" value="false" />
@@ -2682,7 +2757,7 @@
         <node concept="3Tqbb2" id="7lSaFvHVJI8" role="1tU5fm" />
       </node>
     </node>
-    <node concept="2tJIrI" id="7lSaFvHVKor" role="jymVt" />
+    <node concept="2tJIrI" id="6bALrFtZqj2" role="jymVt" />
     <node concept="2YIFZL" id="7lSaFvHVKAV" role="jymVt">
       <property role="TrG5h" value="nameOfParamNested" />
       <property role="od$2w" value="false" />

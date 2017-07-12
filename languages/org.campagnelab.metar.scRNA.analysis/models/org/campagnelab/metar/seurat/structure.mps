@@ -169,6 +169,12 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
     </node>
+    <node concept="1TJgyj" id="6bALrFtY8gC" role="1TKVEi">
+      <property role="IQ2ns" value="7126600866739029032" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plotWrapper" />
+      <ref role="20lvS9" node="3J_5udXh4F4" resolve="PlotWrapper" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksM">
     <property role="EcuMT" value="4315879884705580850" />
@@ -312,6 +318,13 @@
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="3J_5udX8p0r" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksL" resolve="ICleanupSeurat" />
+    </node>
+    <node concept="1TJgyj" id="6bALrFtYJyn" role="1TKVEi">
+      <property role="IQ2ns" value="7126600866739189911" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plotWrapper" />
+      <ref role="20lvS9" node="6bALrFtYJym" resolve="AverageExpDispersionPlot" />
+      <ref role="20ksaX" node="6bALrFtY8gC" resolve="plotWrapper" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX8s65">
@@ -858,6 +871,13 @@
     <property role="3GE5qa" value="PlotOp" />
     <property role="TrG5h" value="PlotAndAlias" />
     <property role="34LRSv" value="plot" />
+    <ref role="1TJDcQ" node="3J_5udXh4F4" resolve="PlotWrapper" />
+  </node>
+  <node concept="1TIwiD" id="6bALrFtYJym">
+    <property role="EcuMT" value="7126600866739189910" />
+    <property role="3GE5qa" value="CleanUpOp" />
+    <property role="TrG5h" value="AverageExpDispersionPlot" />
+    <property role="34LRSv" value="dispersion and average expression plot" />
     <ref role="1TJDcQ" node="3J_5udXh4F4" resolve="PlotWrapper" />
   </node>
 </model>
