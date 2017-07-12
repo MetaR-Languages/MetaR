@@ -10,6 +10,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
   </imports>
   <registry>
@@ -453,7 +454,7 @@
     <node concept="1TJgyi" id="3J_5udXaU8a" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706259466" />
       <property role="TrG5h" value="threshold" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
     </node>
     <node concept="PrWs8" id="3J_5udXaU9f" role="PrDN$">
       <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
@@ -573,12 +574,12 @@
     <node concept="1TJgyi" id="3J_5udXbEhL" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706456689" />
       <property role="TrG5h" value="xFold" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
     </node>
     <node concept="1TJgyi" id="3J_5udXbEhP" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706456693" />
       <property role="TrG5h" value="percentage" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
     </node>
     <node concept="1TJgyi" id="1GombsEy0w_" role="1TKVEl">
       <property role="IQ2nx" value="1952407982180927525" />

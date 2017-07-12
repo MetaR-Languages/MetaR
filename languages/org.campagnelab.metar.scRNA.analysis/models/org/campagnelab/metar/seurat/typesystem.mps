@@ -8,9 +8,12 @@
   <imports>
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
     <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -23,6 +26,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
@@ -49,6 +55,8 @@
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -66,6 +74,12 @@
       </concept>
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
+      </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
@@ -407,7 +421,7 @@
             <ref role="1YBMHb" node="6cuwE$icH4N" resolve="futureSeuratCreator" />
           </node>
           <node concept="2qgKlT" id="6cuwE$icHvB" role="2OqNvi">
-            <ref role="37wK5l" to="9kby:6cuwE$icgMz" resolve="isInputChanged" />
+            <ref role="37wK5l" to="9kby:6cuwE$icgMz" resolve="isInputChangedSeurat" />
           </node>
         </node>
         <node concept="3clFbS" id="6cuwE$icH51" role="3clFbx">
@@ -497,7 +511,7 @@
               <ref role="QwW4h" node="6cuwE$icNdY" resolve="creator" />
             </node>
             <node concept="2qgKlT" id="6cuwE$icQ8A" role="2OqNvi">
-              <ref role="37wK5l" to="9kby:6cuwE$ichoN" resolve="resetInput" />
+              <ref role="37wK5l" to="9kby:6cuwE$ichoN" resolve="resetInputSeurat" />
             </node>
           </node>
         </node>
@@ -559,6 +573,267 @@
     <node concept="1YaCAy" id="7lSaFvHK9Aq" role="1YuTPh">
       <property role="TrG5h" value="diagnosticPlot" />
       <ref role="1YaFvo" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6bALrFu04ye">
+    <property role="TrG5h" value="CheckRangeResolution" />
+    <node concept="3clFbS" id="6bALrFu04yf" role="18ibNy">
+      <node concept="3SKdUt" id="6bALrFu08gO" role="3cqZAp">
+        <node concept="3SKdUq" id="6bALrFu08gQ" role="3SKWNk">
+          <property role="3SKdUp" value="This is the default value of PCs that Seurat stores. If this changes, or if you set this to a" />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="6bALrFu08is" role="3cqZAp">
+        <node concept="3SKdUq" id="6bALrFu08iu" role="3SKWNk">
+          <property role="3SKdUp" value="different value in the generator, the change needs to reflect in here as well." />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="6bALrFu04yt" role="3cqZAp">
+        <node concept="3eOSWO" id="6bALrFu085w" role="3clFbw">
+          <node concept="3cmrfG" id="6bALrFu086l" role="3uHU7w">
+            <property role="3cmrfH" value="40" />
+          </node>
+          <node concept="2OqwBi" id="6bALrFu04Ga" role="3uHU7B">
+            <node concept="1YBJjd" id="6bALrFu04yM" role="2Oq$k0">
+              <ref role="1YBMHb" node="6bALrFu04yh" resolve="rangeResolution" />
+            </node>
+            <node concept="3TrcHB" id="6bALrFu04Ra" role="2OqNvi">
+              <ref role="3TsBF5" to="lznn:3J_5udXbwk5" resolve="rangeHigh" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="6bALrFu04yv" role="3clFbx">
+          <node concept="2MkqsV" id="6bALrFu08eM" role="3cqZAp">
+            <node concept="Xl_RD" id="6bALrFu08jn" role="2MkJ7o">
+              <property role="Xl_RC" value="There are a maximum of 40 PCs." />
+            </node>
+            <node concept="1YBJjd" id="6bALrFu08f7" role="2OEOjV">
+              <ref role="1YBMHb" node="6bALrFu04yh" resolve="rangeResolution" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="6bALrFu08DN" role="3cqZAp">
+        <node concept="3clFbS" id="6bALrFu08DP" role="3clFbx">
+          <node concept="2MkqsV" id="6bALrFu0fL0" role="3cqZAp">
+            <node concept="Xl_RD" id="6bALrFu0fLo" role="2MkJ7o">
+              <property role="Xl_RC" value="Non-negative numbers are expected for rangeLow and rangeHigh." />
+            </node>
+            <node concept="1YBJjd" id="6bALrFu0fLA" role="2OEOjV">
+              <ref role="1YBMHb" node="6bALrFu04yh" resolve="rangeResolution" />
+            </node>
+          </node>
+        </node>
+        <node concept="22lmx$" id="6bALrFu0dG8" role="3clFbw">
+          <node concept="3eOVzh" id="6bALrFu0fAb" role="3uHU7w">
+            <node concept="3cmrfG" id="6bALrFu0fAe" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="6bALrFu0e6U" role="3uHU7B">
+              <node concept="1YBJjd" id="6bALrFu0dP2" role="2Oq$k0">
+                <ref role="1YBMHb" node="6bALrFu04yh" resolve="rangeResolution" />
+              </node>
+              <node concept="3TrcHB" id="6bALrFu0eA4" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udXbwk3" resolve="rangeLow" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eOVzh" id="6bALrFu0c5I" role="3uHU7B">
+            <node concept="2OqwBi" id="6bALrFu0a5b" role="3uHU7B">
+              <node concept="1YBJjd" id="6bALrFu09FT" role="2Oq$k0">
+                <ref role="1YBMHb" node="6bALrFu04yh" resolve="rangeResolution" />
+              </node>
+              <node concept="3TrcHB" id="6bALrFu0azR" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udXbwk5" resolve="rangeHigh" />
+              </node>
+            </node>
+            <node concept="3cmrfG" id="6bALrFu0cfT" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="6bALrFu0iD1" role="3cqZAp">
+        <node concept="3clFbS" id="6bALrFu0iD3" role="3clFbx">
+          <node concept="2MkqsV" id="6bALrFu0o$O" role="3cqZAp">
+            <node concept="Xl_RD" id="6bALrFu0o_c" role="2MkJ7o">
+              <property role="Xl_RC" value="Non-negative number expected for resolution." />
+            </node>
+            <node concept="1YBJjd" id="6bALrFu0oAI" role="2OEOjV">
+              <ref role="1YBMHb" node="6bALrFu04yh" resolve="rangeResolution" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="6bALrFu0nZS" role="3clFbw">
+          <node concept="2OqwBi" id="6bALrFu0n9p" role="2Oq$k0">
+            <node concept="1YBJjd" id="6bALrFu0mPG" role="2Oq$k0">
+              <ref role="1YBMHb" node="6bALrFu04yh" resolve="rangeResolution" />
+            </node>
+            <node concept="3TrcHB" id="6bALrFu0nuF" role="2OqNvi">
+              <ref role="3TsBF5" to="lznn:3J_5udXbwk8" resolve="resolution" />
+            </node>
+          </node>
+          <node concept="liA8E" id="6bALrFu0owy" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+            <node concept="Xl_RD" id="6bALrFu0oyp" role="37wK5m">
+              <property role="Xl_RC" value="-" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6bALrFu04yh" role="1YuTPh">
+      <property role="TrG5h" value="rangeResolution" />
+      <ref role="1YaFvo" to="lznn:3J_5udXbwk0" resolve="RangeResolution" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6bALrFu0qr9">
+    <property role="TrG5h" value="CheckXFoldPercentageNumberOfMarkers" />
+    <node concept="3clFbS" id="6bALrFu0qra" role="18ibNy">
+      <node concept="3clFbJ" id="6bALrFu0qrf" role="3cqZAp">
+        <node concept="3eOVzh" id="6bALrFu0rQJ" role="3clFbw">
+          <node concept="2OqwBi" id="6bALrFu0qri" role="3uHU7B">
+            <node concept="1YBJjd" id="6bALrFu0qrj" role="2Oq$k0">
+              <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
+            </node>
+            <node concept="3TrcHB" id="6bALrFu0rIh" role="2OqNvi">
+              <ref role="3TsBF5" to="lznn:1GombsEy0w_" resolve="noOfMarkers" />
+            </node>
+          </node>
+          <node concept="3cmrfG" id="6bALrFu0qrh" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="6bALrFu0qrl" role="3clFbx">
+          <node concept="2MkqsV" id="6bALrFu0qrm" role="3cqZAp">
+            <node concept="1YBJjd" id="6bALrFu0qro" role="2OEOjV">
+              <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
+            </node>
+            <node concept="Xl_RD" id="6bALrFu0AqU" role="2MkJ7o">
+              <property role="Xl_RC" value="Non-negative number expected for noOfMarkers" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="6bALrFu0qrp" role="3cqZAp">
+        <node concept="3clFbS" id="6bALrFu0qrq" role="3clFbx">
+          <node concept="2MkqsV" id="6bALrFu0qrr" role="3cqZAp">
+            <node concept="Xl_RD" id="6bALrFu0qrs" role="2MkJ7o">
+              <property role="Xl_RC" value="Non-negative number expected for xFold." />
+            </node>
+            <node concept="1YBJjd" id="6bALrFu0qrt" role="2OEOjV">
+              <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="6bALrFu0t6V" role="3clFbw">
+          <node concept="2OqwBi" id="6bALrFu0qr_" role="2Oq$k0">
+            <node concept="1YBJjd" id="6bALrFu0qrA" role="2Oq$k0">
+              <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
+            </node>
+            <node concept="3TrcHB" id="6bALrFu0six" role="2OqNvi">
+              <ref role="3TsBF5" to="lznn:3J_5udXbEhL" resolve="xFold" />
+            </node>
+          </node>
+          <node concept="liA8E" id="6bALrFu0u_X" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+            <node concept="Xl_RD" id="6bALrFu0uZN" role="37wK5m">
+              <property role="Xl_RC" value="-" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="6bALrFu0qrD" role="3cqZAp">
+        <node concept="3clFbS" id="6bALrFu0qrE" role="3clFbx">
+          <node concept="2MkqsV" id="6bALrFu0qrF" role="3cqZAp">
+            <node concept="Xl_RD" id="6bALrFu0qrG" role="2MkJ7o">
+              <property role="Xl_RC" value="Number between 0 and 100 expected for percentage" />
+            </node>
+            <node concept="1YBJjd" id="6bALrFu0qrH" role="2OEOjV">
+              <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
+            </node>
+          </node>
+        </node>
+        <node concept="22lmx$" id="6bALrFu0zR8" role="3clFbw">
+          <node concept="3eOSWO" id="6bALrFu0A9M" role="3uHU7w">
+            <node concept="3cmrfG" id="6bALrFu0Aal" role="3uHU7w">
+              <property role="3cmrfH" value="100" />
+            </node>
+            <node concept="2YIFZM" id="6bALrFu0HdK" role="3uHU7B">
+              <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+              <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
+              <node concept="2OqwBi" id="6bALrFu0HdL" role="37wK5m">
+                <node concept="1YBJjd" id="6bALrFu0HdM" role="2Oq$k0">
+                  <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
+                </node>
+                <node concept="3TrcHB" id="6bALrFu0HdN" role="2OqNvi">
+                  <ref role="3TsBF5" to="lznn:3J_5udXbEhP" resolve="percentage" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eOVzh" id="6bALrFu0y4u" role="3uHU7B">
+            <node concept="3cmrfG" id="6bALrFu0y4y" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2YIFZM" id="6bALrFu0G9n" role="3uHU7B">
+              <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+              <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
+              <node concept="2OqwBi" id="6bALrFu0G9o" role="37wK5m">
+                <node concept="1YBJjd" id="6bALrFu0G9p" role="2Oq$k0">
+                  <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
+                </node>
+                <node concept="3TrcHB" id="6bALrFu0G9q" role="2OqNvi">
+                  <ref role="3TsBF5" to="lznn:3J_5udXbEhP" resolve="percentage" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6bALrFu0qrO" role="1YuTPh">
+      <property role="TrG5h" value="xFoldPercentageNoOfMarkers" />
+      <ref role="1YaFvo" to="lznn:3J_5udXbEhJ" resolve="XFoldPercentageNoOfMarkers" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6bALrFu1frC">
+    <property role="TrG5h" value="checkNonNegativeIVarMean" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies.VarMeans" />
+    <node concept="3clFbS" id="6bALrFu1frD" role="18ibNy">
+      <node concept="3clFbJ" id="6bALrFu1frJ" role="3cqZAp">
+        <node concept="3eOVzh" id="6bALrFu1gtM" role="3clFbw">
+          <node concept="3cmrfG" id="6bALrFu1gw$" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2YIFZM" id="6bALrFu1gNX" role="3uHU7B">
+            <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+            <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
+            <node concept="2OqwBi" id="6bALrFu1hvL" role="37wK5m">
+              <node concept="1YBJjd" id="6bALrFu1h4S" role="2Oq$k0">
+                <ref role="1YBMHb" node="6bALrFu1frF" resolve="iVarMean" />
+              </node>
+              <node concept="3TrcHB" id="6bALrFu1i8u" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udXaU8a" resolve="threshold" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="6bALrFu1frL" role="3clFbx">
+          <node concept="2MkqsV" id="6bALrFu1irw" role="3cqZAp">
+            <node concept="Xl_RD" id="6bALrFu1irP" role="2MkJ7o">
+              <property role="Xl_RC" value="Non-negative number expected." />
+            </node>
+            <node concept="1YBJjd" id="6bALrFu1it_" role="2OEOjV">
+              <ref role="1YBMHb" node="6bALrFu1frF" resolve="iVarMean" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6bALrFu1frF" role="1YuTPh">
+      <property role="TrG5h" value="iVarMean" />
+      <ref role="1YaFvo" to="lznn:3J_5udXaU7w" resolve="IVarMean" />
     </node>
   </node>
 </model>

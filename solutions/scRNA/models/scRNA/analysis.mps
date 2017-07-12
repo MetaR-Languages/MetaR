@@ -436,7 +436,7 @@
             <property role="16NFvD" value="0.0125" />
           </node>
           <node concept="16NTGb" id="6bALrFtZeF6" role="16NFga">
-            <property role="16NFvD" value="3." />
+            <property role="16NFvD" value="3" />
           </node>
         </node>
         <node concept="1LcaPl" id="6bALrFtZeEQ" role="1LcbbV">
@@ -654,8 +654,8 @@
         <node concept="LJotB" id="1GombsEDOGk" role="16PG9_">
           <property role="1MXi1$" value="JVVVESJQBK" />
           <node concept="2rfVTk" id="1GombsEDOGm" role="2oLyky">
-            <property role="ZHjxa" value="200" />
-            <property role="ZHjG8" value="200" />
+            <property role="ZHjxa" value="350" />
+            <property role="ZHjG8" value="350" />
             <property role="3ZMXzF" value="1085" />
             <property role="TrG5h" value="featurePlot" />
           </node>
