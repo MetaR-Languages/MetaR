@@ -90,6 +90,7 @@
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -372,6 +373,7 @@
         </node>
         <node concept="2iRfu4" id="3J_5udX5Crf" role="2iSdaV" />
         <node concept="3F0A7n" id="3J_5udXfuqG" role="3EZMnx">
+          <property role="1$x2rV" value="introduce path to directory containing dataset" />
           <ref role="1NtTu8" to="lznn:3J_5udX5GWl" resolve="path" />
         </node>
         <node concept="3MhZvs" id="3J_5udX5GWv" role="3EZMnx">
@@ -421,6 +423,7 @@
   <node concept="24kQdi" id="3J_5udX8iCf">
     <ref role="1XX52x" to="lznn:3J_5udX8eUg" resolve="FutureSeurat" />
     <node concept="3F0A7n" id="3J_5udX8iCh" role="2wV5jI">
+      <property role="1$x2rV" value="introduce name" />
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       <ref role="1k5W1q" node="3J_5udX5W59" resolve="Seurat" />
     </node>
@@ -455,6 +458,7 @@
     <property role="TrG5h" value="SeuratNameEditor" />
     <ref role="1XX52x" to="lznn:3J_5udX5yTa" resolve="Seurat" />
     <node concept="3F0A7n" id="3J_5udX8llY" role="2wV5jI">
+      <property role="1$x2rV" value="introduce name" />
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       <ref role="1k5W1q" node="3J_5udX5W59" resolve="Seurat" />
     </node>
@@ -552,6 +556,9 @@
         </node>
         <node concept="3F0ifn" id="3J_5udXbVBd" role="3EZMnx">
           <property role="3F0ifm" value="-&gt;" />
+        </node>
+        <node concept="3F0ifn" id="1GombsED63c" role="3EZMnx">
+          <property role="3F0ifm" value="seurat:" />
         </node>
         <node concept="3F1sOY" id="3J_5udX8pkC" role="3EZMnx">
           <ref role="1NtTu8" to="lznn:3J_5udX8lCW" resolve="destination" />
@@ -1146,6 +1153,7 @@
   <node concept="24kQdi" id="6cuwE$ibz0a">
     <ref role="1XX52x" to="lznn:6cuwE$ibyZW" resolve="SeuratRef" />
     <node concept="1iCGBv" id="6cuwE$ibz0c" role="2wV5jI">
+      <property role="1$x2rV" value="introduce referenced seurat" />
       <ref role="1NtTu8" to="lznn:6cuwE$ibyZX" resolve="seurat" />
       <node concept="1sVBvm" id="6cuwE$ibz0e" role="1sWHZn">
         <node concept="3F0A7n" id="6cuwE$ibz0$" role="2wV5jI">

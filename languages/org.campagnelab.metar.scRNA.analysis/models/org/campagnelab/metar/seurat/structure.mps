@@ -577,7 +577,7 @@
     <property role="EcuMT" value="4315879884706801360" />
     <property role="3GE5qa" value="PlotOp" />
     <property role="TrG5h" value="DiagnosticPlot" />
-    <property role="34LRSv" value="Diagnostic plot" />
+    <property role="34LRSv" value="Diagnostic plots" />
     <property role="R4oN_" value="Visualize counts and relationships between them" />
     <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
     <node concept="1TJgyj" id="7lSaFvHLICd" role="1TKVEi">
@@ -618,7 +618,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="plots" />
       <ref role="20ksaX" node="3J_5udXcXu6" resolve="plots" />
-      <ref role="20lvS9" node="7lSaFvHLICa" resolve="PlotInStatementWrapper" />
+      <ref role="20lvS9" node="3J_5udXh4F4" resolve="PlotWrapper" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXduaa">
@@ -852,6 +852,13 @@
     <node concept="PrWs8" id="1GombsE_hvA" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1GombsEDtZg">
+    <property role="EcuMT" value="1952407982182883280" />
+    <property role="3GE5qa" value="PlotOp" />
+    <property role="TrG5h" value="PlotAndAlias" />
+    <property role="34LRSv" value="plot" />
+    <ref role="1TJDcQ" node="3J_5udXh4F4" resolve="PlotWrapper" />
   </node>
 </model>
 
