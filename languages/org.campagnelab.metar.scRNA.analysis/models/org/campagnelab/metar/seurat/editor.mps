@@ -14,9 +14,9 @@
     <import index="eeic" ref="r:4252ca74-fdbc-41f3-8f2b-7326a4f21355(org.campagnelab.ui.editor)" />
     <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
   </imports>
@@ -193,8 +193,12 @@
     <node concept="3EZMnI" id="7lSaFvHEZbj" role="2wV5jI">
       <node concept="2iRkQZ" id="7lSaFvHEZbk" role="2iSdaV" />
       <node concept="3EZMnI" id="3J_5udX2QwF" role="3EZMnx">
-        <node concept="3F0ifn" id="3J_5udX5O6$" role="3EZMnx">
-          <property role="3F0ifm" value="import seurat" />
+        <node concept="PMmxH" id="6bALrFtWlLP" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0ifn" id="6bALrFtWxa_" role="3EZMnx">
+          <property role="3F0ifm" value="from" />
+          <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
         </node>
         <node concept="3F1sOY" id="3J_5udXfdFW" role="3EZMnx">
           <ref role="1NtTu8" to="lznn:3J_5udXfdFL" resolve="seurat" />
@@ -203,7 +207,7 @@
       </node>
       <node concept="3EZMnI" id="7lSaFvHEZd2" role="3EZMnx">
         <node concept="3F0ifn" id="7lSaFvHEZbB" role="3EZMnx">
-          <property role="3F0ifm" value="Initial cleanup:" />
+          <property role="3F0ifm" value="initial cleanup:" />
           <node concept="lj46D" id="7lSaFvHEZcG" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -368,12 +372,9 @@
     <node concept="3EZMnI" id="3J_5udX5GV6" role="2wV5jI">
       <node concept="2iRkQZ" id="3J_5udX5GV7" role="2iSdaV" />
       <node concept="3EZMnI" id="3J_5udX5Crc" role="3EZMnx">
-        <node concept="PMmxH" id="3J_5udXfjgh" role="3EZMnx">
-          <ref role="PMmxG" node="3J_5udX8l2d" resolve="SeuratNameEditor" />
-        </node>
         <node concept="2iRfu4" id="3J_5udX5Crf" role="2iSdaV" />
         <node concept="3F0A7n" id="3J_5udXfuqG" role="3EZMnx">
-          <property role="1$x2rV" value="introduce path to directory containing dataset" />
+          <property role="1$x2rV" value="10X Genomics dataset directory that looks like this: outs/filtered_gene_bc_matrices/GRCh38" />
           <ref role="1NtTu8" to="lznn:3J_5udX5GWl" resolve="path" />
         </node>
         <node concept="3MhZvs" id="3J_5udX5GWv" role="3EZMnx">
@@ -388,6 +389,15 @@
               <node concept="3clFbS" id="3J_5udX5GW_" role="2VODD2" />
             </node>
           </node>
+        </node>
+        <node concept="3F0ifn" id="6bALrFtWdOk" role="3EZMnx">
+          <property role="3F0ifm" value="-&gt;" />
+        </node>
+        <node concept="3F0ifn" id="6bALrFtWdPj" role="3EZMnx">
+          <property role="3F0ifm" value="seurat:" />
+        </node>
+        <node concept="PMmxH" id="3J_5udXfjgh" role="3EZMnx">
+          <ref role="PMmxG" node="3J_5udX8l2d" resolve="SeuratNameEditor" />
         </node>
       </node>
     </node>
@@ -929,7 +939,7 @@
             </node>
             <node concept="3F0A7n" id="3J_5udXbEj4" role="3EZMnx">
               <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
-              <ref role="1NtTu8" to="lznn:3J_5udXbEhP" resolve="fraction" />
+              <ref role="1NtTu8" to="lznn:3J_5udXbEhP" resolve="percentage" />
             </node>
             <node concept="3F0ifn" id="6bALrFtUL_K" role="3EZMnx">
               <property role="3F0ifm" value="%" />
