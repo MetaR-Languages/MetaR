@@ -374,7 +374,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3J_5udXaECg" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706195984" />
-      <property role="TrG5h" value="noOfMolecules" />
+      <property role="TrG5h" value="scaleFactor" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="PrWs8" id="3J_5udX8QXG" role="PzmwI">

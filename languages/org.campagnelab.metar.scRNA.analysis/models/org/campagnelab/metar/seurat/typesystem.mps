@@ -836,5 +836,40 @@
       <ref role="1YaFvo" to="lznn:3J_5udXaU7w" resolve="IVarMean" />
     </node>
   </node>
+  <node concept="18kY7G" id="6bALrFu1lKj">
+    <property role="TrG5h" value="checkNonNegativeLogNormalizationStrategy" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <node concept="3clFbS" id="6bALrFu1lKk" role="18ibNy">
+      <node concept="3clFbJ" id="6bALrFu1lKq" role="3cqZAp">
+        <node concept="3eOVzh" id="6bALrFu1okD" role="3clFbw">
+          <node concept="3cmrfG" id="6bALrFu1onk" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="6bALrFu1lU7" role="3uHU7B">
+            <node concept="1YBJjd" id="6bALrFu1lKJ" role="2Oq$k0">
+              <ref role="1YBMHb" node="6bALrFu1lKm" resolve="logNormalizationStrategy" />
+            </node>
+            <node concept="3TrcHB" id="6bALrFu1m57" role="2OqNvi">
+              <ref role="3TsBF5" to="lznn:3J_5udXaECg" resolve="scaleFactor" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="6bALrFu1lKs" role="3clFbx">
+          <node concept="2MkqsV" id="6bALrFu1ow1" role="3cqZAp">
+            <node concept="Xl_RD" id="6bALrFu1oAX" role="2MkJ7o">
+              <property role="Xl_RC" value="Non-negative number expected for scale factor." />
+            </node>
+            <node concept="1YBJjd" id="6bALrFu1oE0" role="2OEOjV">
+              <ref role="1YBMHb" node="6bALrFu1lKm" resolve="logNormalizationStrategy" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6bALrFu1lKm" role="1YuTPh">
+      <property role="TrG5h" value="logNormalizationStrategy" />
+      <ref role="1YaFvo" to="lznn:3J_5udX8QXF" resolve="LogNormalizationStrategy" />
+    </node>
+  </node>
 </model>
 
