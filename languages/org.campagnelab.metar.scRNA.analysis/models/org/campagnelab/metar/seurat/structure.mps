@@ -551,7 +551,7 @@
   <node concept="1TIwiD" id="3J_5udXbEhJ">
     <property role="EcuMT" value="4315879884706456687" />
     <property role="3GE5qa" value="AddInfoOp" />
-    <property role="TrG5h" value="XFoldAndFraction" />
+    <property role="TrG5h" value="XFoldPercentageNoOfMarkers" />
     <property role="34LRSv" value="x-fold and fraction" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udXbEhK" role="PzmwI">
@@ -565,7 +565,12 @@
     <node concept="1TJgyi" id="3J_5udXbEhP" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706456693" />
       <property role="TrG5h" value="percentage" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1GombsEy0w_" role="1TKVEl">
+      <property role="IQ2nx" value="1952407982180927525" />
+      <property role="TrG5h" value="noOfMarkers" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udXcXu9">
@@ -659,7 +664,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="param" />
       <ref role="20ksaX" node="3J_5udXbhlN" resolve="param" />
-      <ref role="20lvS9" node="3J_5udXbEhJ" resolve="XFoldAndFraction" />
+      <ref role="20lvS9" node="3J_5udXbEhJ" resolve="XFoldPercentageNoOfMarkers" />
     </node>
     <node concept="1TJgyj" id="3J_5udXhhEb" role="1TKVEi">
       <property role="IQ2ns" value="4315879884707928715" />
@@ -732,11 +737,6 @@
     <property role="TrG5h" value="MarkersPerClusterTableWrapper" />
     <property role="34LRSv" value="markers per cluster table" />
     <ref role="1TJDcQ" node="3J_5udXhhDH" resolve="FutureTableWrapper" />
-    <node concept="1TJgyi" id="1GombsEy0w_" role="1TKVEl">
-      <property role="IQ2nx" value="1952407982180927525" />
-      <property role="TrG5h" value="noOfMarkers" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6cuwE$ibyZW">
     <property role="EcuMT" value="7142289721722286076" />

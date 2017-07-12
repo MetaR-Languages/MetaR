@@ -893,7 +893,7 @@
   </node>
   <node concept="24kQdi" id="3J_5udXbEi0">
     <property role="3GE5qa" value="AddInfoOp" />
-    <ref role="1XX52x" to="lznn:3J_5udXbEhJ" resolve="XFoldAndFraction" />
+    <ref role="1XX52x" to="lznn:3J_5udXbEhJ" resolve="XFoldPercentageNoOfMarkers" />
     <node concept="3EZMnI" id="3J_5udXbEi2" role="2wV5jI">
       <node concept="3EZMnI" id="3J_5udXcKMl" role="3EZMnx">
         <node concept="2iRfu4" id="3J_5udXcKMm" role="2iSdaV" />
@@ -901,6 +901,20 @@
           <property role="3F0ifm" value="with" />
         </node>
         <node concept="3EZMnI" id="3J_5udXbEi4" role="3EZMnx">
+          <node concept="3EZMnI" id="6bALrFtXxzR" role="3EZMnx">
+            <node concept="VPM3Z" id="6bALrFtXxzT" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="3F0A7n" id="6bALrFtXx_P" role="3EZMnx">
+              <ref role="1NtTu8" to="lznn:1GombsEy0w_" resolve="noOfMarkers" />
+              <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
+            </node>
+            <node concept="3F0ifn" id="6bALrFtXxA4" role="3EZMnx">
+              <property role="3F0ifm" value="markers per cluster" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+            </node>
+            <node concept="2iRfu4" id="6bALrFtXxzW" role="2iSdaV" />
+          </node>
           <node concept="3EZMnI" id="3J_5udXbEi5" role="3EZMnx">
             <node concept="2iRfu4" id="3J_5udXbEi6" role="2iSdaV" />
             <node concept="3F0ifn" id="3J_5udXbEi9" role="3EZMnx">
@@ -958,12 +972,16 @@
               <property role="VOm3f" value="true" />
             </node>
             <node concept="l2Vlx" id="5ziAKRO4Vwx" role="2iSdaV" />
-            <node concept="3F0ifn" id="5ziAKRO4Vvz" role="3EZMnx">
-              <property role="3F0ifm" value="in either of the two compared groups of cells" />
-              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
-              <node concept="lj46D" id="5ziAKRO55CK" role="3F10Kt">
-                <property role="VOm3f" value="true" />
+            <node concept="3EZMnI" id="6bALrFtXckP" role="3EZMnx">
+              <node concept="2iRfu4" id="6bALrFtXckQ" role="2iSdaV" />
+              <node concept="3F0ifn" id="5ziAKRO4Vvz" role="3EZMnx">
+                <property role="3F0ifm" value="in either of the two compared groups of cells" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+                <node concept="lj46D" id="5ziAKRO55CK" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
+                </node>
               </node>
+              <node concept="3F0ifn" id="6bALrFtXclJ" role="3EZMnx" />
             </node>
           </node>
           <node concept="2iRkQZ" id="3J_5udXbEig" role="2iSdaV" />
@@ -1334,14 +1352,7 @@
     <ref role="1XX52x" to="lznn:3J_5udXhhEa" resolve="MarkersPerClusterTableWrapper" />
     <node concept="3EZMnI" id="1GombsEy0xD" role="2wV5jI">
       <node concept="3F0ifn" id="1GombsEynn1" role="3EZMnx">
-        <property role="3F0ifm" value="table with" />
-      </node>
-      <node concept="3F0A7n" id="1GombsEy0yj" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:1GombsEy0w_" resolve="noOfMarkers" />
-        <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
-      </node>
-      <node concept="3F0ifn" id="1GombsEynmq" role="3EZMnx">
-        <property role="3F0ifm" value="markers per cluster" />
+        <property role="3F0ifm" value="table" />
       </node>
       <node concept="3F0ifn" id="1GombsEy0xF" role="3EZMnx">
         <property role="3F0ifm" value=":" />

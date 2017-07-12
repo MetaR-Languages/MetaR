@@ -1239,7 +1239,7 @@
             <node concept="2ShNRf" id="7lSaFvFiMu4" role="37vLTx">
               <node concept="3zrR0B" id="7lSaFvFiMVv" role="2ShVmc">
                 <node concept="3Tqbb2" id="7lSaFvFiMVx" role="3zrR0E">
-                  <ref role="ehGHo" to="lznn:3J_5udXbEhJ" resolve="XFoldAndFraction" />
+                  <ref role="ehGHo" to="lznn:3J_5udXbEhJ" resolve="XFoldPercentageNoOfMarkers" />
                 </node>
               </node>
             </node>
@@ -3334,6 +3334,13 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="6bALrFtXTm9">
+    <property role="3GE5qa" value="AddInfoOp" />
+    <ref role="13h7C2" to="lznn:3J_5udXbEhJ" resolve="XFoldPercentageNoOfMarkers" />
+    <node concept="13hLZK" id="6bALrFtXTma" role="13h7CW">
+      <node concept="3clFbS" id="6bALrFtXTmb" role="2VODD2" />
     </node>
   </node>
 </model>
