@@ -902,11 +902,8 @@
               <ref role="1NtTu8" to="lznn:3J_5udXbEhL" resolve="xFold" />
             </node>
             <node concept="3F0ifn" id="3J_5udXbEiW" role="3EZMnx">
-              <property role="3F0ifm" value="-fold difference (log-scale)" />
+              <property role="3F0ifm" value="log-fold difference " />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
-              <node concept="11L4FC" id="1GombsEBK2h" role="3F10Kt">
-                <property role="VOm3f" value="true" />
-              </node>
             </node>
           </node>
           <node concept="3EZMnI" id="5ziAKRO4VtF" role="3EZMnx">
@@ -915,7 +912,7 @@
             </node>
             <node concept="l2Vlx" id="5ziAKRO4VtG" role="2iSdaV" />
             <node concept="3F0ifn" id="5ziAKRO4Vr7" role="3EZMnx">
-              <property role="3F0ifm" value="between the two groups of cells" />
+              <property role="3F0ifm" value="between the two compared groups of cells" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               <node concept="lj46D" id="5ziAKRO55BO" role="3F10Kt">
                 <property role="VOm3f" value="true" />
@@ -927,12 +924,18 @@
               <property role="VOm3f" value="false" />
             </node>
             <node concept="3F0ifn" id="3J_5udXbEid" role="3EZMnx">
-              <property role="3F0ifm" value="genes detected in a minimum fraction of" />
+              <property role="3F0ifm" value="genes detected in a minimum of" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
             </node>
             <node concept="3F0A7n" id="3J_5udXbEj4" role="3EZMnx">
               <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
               <ref role="1NtTu8" to="lznn:3J_5udXbEhP" resolve="fraction" />
+            </node>
+            <node concept="3F0ifn" id="6bALrFtUL_K" role="3EZMnx">
+              <property role="3F0ifm" value="%" />
+              <node concept="11L4FC" id="6bALrFtUMmo" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
             <node concept="3F0ifn" id="3J_5udXbEjc" role="3EZMnx">
               <property role="3F0ifm" value="cells " />
@@ -946,7 +949,7 @@
             </node>
             <node concept="l2Vlx" id="5ziAKRO4Vwx" role="2iSdaV" />
             <node concept="3F0ifn" id="5ziAKRO4Vvz" role="3EZMnx">
-              <property role="3F0ifm" value="in either of the two compared populations" />
+              <property role="3F0ifm" value="in either of the two compared groups of cells" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               <node concept="lj46D" id="5ziAKRO55CK" role="3F10Kt">
                 <property role="VOm3f" value="true" />

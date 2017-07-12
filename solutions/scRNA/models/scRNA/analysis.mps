@@ -103,7 +103,7 @@
       </concept>
       <concept id="4315879884706456687" name="org.campagnelab.metar.seurat.structure.XFoldAndFraction" flags="ng" index="16MV6c">
         <property id="4315879884706456689" name="xFold" index="16MV6i" />
-        <property id="4315879884706456693" name="fraction" index="16MV6m" />
+        <property id="4315879884706456693" name="percentage" index="16MV6m" />
       </concept>
       <concept id="4315879884706105520" name="org.campagnelab.metar.seurat.structure.nUMICountInCell" flags="ng" index="16N5Pj" />
       <concept id="4315879884706151731" name="org.campagnelab.metar.seurat.structure.XLowCutOff" flags="ng" index="16Nezg" />
@@ -274,65 +274,65 @@
       <node concept="S1EQe" id="1GombsEDSDI" role="ZXjPg">
         <property role="1MXi1$" value="ARWHWYBMDU" />
       </node>
-      <node concept="16PJcN" id="1GombsE_hnZ" role="ZXjPg">
-        <property role="1MXi1$" value="EATLEHRJPO" />
+      <node concept="16PJcN" id="6bALrFtW8jk" role="ZXjPg">
+        <property role="1MXi1$" value="YEKQVLTBLE" />
         <property role="16PG9H" value="false" />
-        <node concept="2oJG2X" id="1GombsE_ho0" role="16PG9_">
-          <property role="1MXi1$" value="GFMSQOFQFI" />
+        <node concept="2oJG2X" id="6bALrFtW8jl" role="16PG9_">
+          <property role="1MXi1$" value="JWGQCRCIQO" />
           <property role="L$Obh" value="true" />
-          <property role="L$Obm" value="gene counts per cell:" />
-          <node concept="2rfVTk" id="1GombsE_ho1" role="2oLyky">
-            <property role="ZHjxa" value="300" />
-            <property role="ZHjG8" value="300" />
+          <property role="L$Obm" value="number of genes detected per cell violin plot:" />
+          <node concept="2rfVTk" id="6bALrFtW8jm" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
             <property role="3ZMXzF" value="1010" />
             <property role="TrG5h" value="violinNGene" />
           </node>
         </node>
-        <node concept="2oJG2X" id="1GombsE_ho2" role="16PG9_">
-          <property role="1MXi1$" value="FNNXOESLMY" />
+        <node concept="2oJG2X" id="6bALrFtW8jn" role="16PG9_">
+          <property role="1MXi1$" value="BOCOKYXWDN" />
           <property role="L$Obh" value="true" />
-          <property role="L$Obm" value="molecule counts per cell:" />
-          <node concept="2rfVTk" id="1GombsE_ho3" role="2oLyky">
-            <property role="ZHjxa" value="300" />
-            <property role="ZHjG8" value="300" />
+          <property role="L$Obm" value="number of UMIs per cell violin plot:" />
+          <node concept="2rfVTk" id="6bALrFtW8jo" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
             <property role="3ZMXzF" value="1009" />
             <property role="TrG5h" value="violinNUMI" />
           </node>
         </node>
-        <node concept="2oJG2X" id="1GombsE_ho4" role="16PG9_">
-          <property role="1MXi1$" value="MABNCVVTMD" />
+        <node concept="2oJG2X" id="6bALrFtW8jp" role="16PG9_">
+          <property role="1MXi1$" value="WJNYQHSHEI" />
           <property role="L$Obh" value="true" />
-          <property role="L$Obm" value="percentage of mithocondrial genes per cell:" />
-          <node concept="2rfVTk" id="1GombsE_ho5" role="2oLyky">
-            <property role="ZHjxa" value="300" />
-            <property role="ZHjG8" value="300" />
+          <property role="L$Obm" value="percentage of mithocondrial genes per cell violin plot:" />
+          <node concept="2rfVTk" id="6bALrFtW8jq" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
             <property role="3ZMXzF" value="1008" />
             <property role="TrG5h" value="violinMito" />
           </node>
         </node>
-        <node concept="2oJG2X" id="1GombsE_ho6" role="16PG9_">
-          <property role="1MXi1$" value="GIMANEPGNM" />
+        <node concept="2oJG2X" id="6bALrFtW8jr" role="16PG9_">
+          <property role="1MXi1$" value="IRNADWOJXK" />
           <property role="L$Obh" value="true" />
-          <property role="L$Obm" value="gene counts versus corresponding molecule counts per cell:" />
-          <node concept="2rfVTk" id="1GombsE_ho7" role="2oLyky">
-            <property role="ZHjxa" value="300" />
-            <property role="ZHjG8" value="300" />
+          <property role="L$Obm" value="nGene and nUMI scatter plot:" />
+          <node concept="2rfVTk" id="6bALrFtW8js" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
             <property role="3ZMXzF" value="1007" />
             <property role="TrG5h" value="scatterNUMINGene" />
           </node>
         </node>
-        <node concept="2oJG2X" id="1GombsE_ho8" role="16PG9_">
-          <property role="1MXi1$" value="REXWRPEUWK" />
+        <node concept="2oJG2X" id="6bALrFtW8jt" role="16PG9_">
+          <property role="1MXi1$" value="JWFWOKUJFB" />
           <property role="L$Obh" value="true" />
-          <property role="L$Obm" value="percentage of mithocondrial genes versus corresponding molecule counts per cell:" />
-          <node concept="2rfVTk" id="1GombsE_ho9" role="2oLyky">
-            <property role="ZHjxa" value="300" />
-            <property role="ZHjG8" value="300" />
+          <property role="L$Obm" value="nUMI and percent.mito scatter plot:" />
+          <node concept="2rfVTk" id="6bALrFtW8ju" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
             <property role="3ZMXzF" value="1006" />
             <property role="TrG5h" value="scatterNUMIMito" />
           </node>
         </node>
-        <node concept="1LcaPl" id="1GombsEAwCm" role="1Lc1gn">
+        <node concept="1LcaPl" id="6bALrFtW8qu" role="1Lc1gn">
           <ref role="1LcaPk" node="1GombsEAwqk" resolve="collapsedTubules" />
         </node>
       </node>
@@ -352,15 +352,15 @@
         </node>
         <node concept="31becx" id="1GombsED5t4" role="312phR">
           <property role="1MXi1$" value="IQPNJGUULV" />
-          <ref role="312p7B" node="1GombsE_ho1" resolve="violinNGene" />
+          <ref role="312p7B" node="6bALrFtW8jm" resolve="violinNGene" />
         </node>
         <node concept="31becx" id="1GombsED5t5" role="312phR">
           <property role="1MXi1$" value="DTBDMYHAFK" />
-          <ref role="312p7B" node="1GombsE_ho3" resolve="violinNUMI" />
+          <ref role="312p7B" node="6bALrFtW8jo" resolve="violinNUMI" />
         </node>
         <node concept="31becx" id="1GombsED5t6" role="312phR">
           <property role="1MXi1$" value="VRQJIIWOBG" />
-          <ref role="312p7B" node="1GombsE_ho5" resolve="violinMito" />
+          <ref role="312p7B" node="6bALrFtW8jq" resolve="violinMito" />
         </node>
       </node>
       <node concept="313sG1" id="1GombsEBQJd" role="ZXjPg">
@@ -376,11 +376,11 @@
         </node>
         <node concept="31becx" id="1GombsEBQPX" role="312phR">
           <property role="1MXi1$" value="DCSGTROMVS" />
-          <ref role="312p7B" node="1GombsE_ho7" resolve="scatterNUMINGene" />
+          <ref role="312p7B" node="6bALrFtW8js" resolve="scatterNUMINGene" />
         </node>
         <node concept="31becx" id="1GombsEBQPY" role="312phR">
           <property role="1MXi1$" value="FFMRNXSEJU" />
-          <ref role="312p7B" node="1GombsE_ho9" resolve="scatterNUMIMito" />
+          <ref role="312p7B" node="6bALrFtW8ju" resolve="scatterNUMIMito" />
         </node>
       </node>
       <node concept="S1EQe" id="1GombsEDTcU" role="ZXjPg">
@@ -603,6 +603,9 @@
         <node concept="afgQW" id="5ziAKRO6hZL" role="34tvVl">
           <ref role="afgo8" node="1GombsEBBe1" resolve="markersPerCluster" />
         </node>
+      </node>
+      <node concept="S1EQe" id="6bALrFtULuI" role="ZXjPg">
+        <property role="1MXi1$" value="RTFAVRQLSJ" />
       </node>
       <node concept="16OftE" id="1GombsEDOGi" role="ZXjPg">
         <property role="1MXi1$" value="IJPTRPCBVC" />

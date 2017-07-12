@@ -1018,7 +1018,7 @@
             <node concept="2qgKlT" id="1GombsEz8JV" role="2OqNvi">
               <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
               <node concept="Xl_RD" id="1GombsEz8Ru" role="37wK5m">
-                <property role="Xl_RC" value="gene counts per cell:" />
+                <property role="Xl_RC" value="number of genes detected per cell violin plot:" />
               </node>
               <node concept="Xl_RD" id="1GombsEzaKk" role="37wK5m">
                 <property role="Xl_RC" value="violinNGene" />
@@ -1032,7 +1032,7 @@
             <node concept="2qgKlT" id="1GombsEzd2f" role="2OqNvi">
               <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
               <node concept="Xl_RD" id="1GombsEzd2g" role="37wK5m">
-                <property role="Xl_RC" value="molecule counts per cell:" />
+                <property role="Xl_RC" value="number of UMIs per cell violin plot:" />
               </node>
               <node concept="Xl_RD" id="1GombsEzd2h" role="37wK5m">
                 <property role="Xl_RC" value="violinNUMI" />
@@ -1046,7 +1046,7 @@
             <node concept="2qgKlT" id="1GombsEzdWd" role="2OqNvi">
               <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
               <node concept="Xl_RD" id="1GombsEzdWe" role="37wK5m">
-                <property role="Xl_RC" value="percentage of mithocondrial genes per cell:" />
+                <property role="Xl_RC" value="percentage of mithocondrial genes per cell violin plot:" />
               </node>
               <node concept="Xl_RD" id="1GombsEzdWf" role="37wK5m">
                 <property role="Xl_RC" value="violinMito" />
@@ -1060,7 +1060,7 @@
             <node concept="2qgKlT" id="1GombsEzeRa" role="2OqNvi">
               <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
               <node concept="Xl_RD" id="1GombsEzeRb" role="37wK5m">
-                <property role="Xl_RC" value="gene counts versus corresponding molecule counts per cell:" />
+                <property role="Xl_RC" value="nGene and nUMI scatter plot:" />
               </node>
               <node concept="Xl_RD" id="1GombsEzeRc" role="37wK5m">
                 <property role="Xl_RC" value="scatterNUMINGene" />
@@ -1074,7 +1074,7 @@
             <node concept="2qgKlT" id="1GombsEzfMQ" role="2OqNvi">
               <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
               <node concept="Xl_RD" id="1GombsEzfMR" role="37wK5m">
-                <property role="Xl_RC" value="percentage of mithocondrial genes versus corresponding molecule counts per cell:" />
+                <property role="Xl_RC" value="nUMI and percent.mito scatter plot:" />
               </node>
               <node concept="Xl_RD" id="1GombsEzfMS" role="37wK5m">
                 <property role="Xl_RC" value="scatterNUMIMito" />

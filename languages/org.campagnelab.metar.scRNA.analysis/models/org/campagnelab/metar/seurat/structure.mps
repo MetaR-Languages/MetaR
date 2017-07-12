@@ -331,7 +331,7 @@
     <property role="EcuMT" value="4315879884705612354" />
     <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <property role="TrG5h" value="GeneCountInCell" />
-    <property role="34LRSv" value="gene counts in cell" />
+    <property role="34LRSv" value="number of genes in cell" />
     <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
   </node>
   <node concept="1TIwiD" id="3J_5udX8BnC">
@@ -414,7 +414,7 @@
     <property role="EcuMT" value="4315879884706105520" />
     <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <property role="TrG5h" value="nUMICountInCell" />
-    <property role="34LRSv" value="molecule counts in cell" />
+    <property role="34LRSv" value="number of UMIs in cell" />
     <ref role="1TJDcQ" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
   </node>
   <node concept="1TIwiD" id="3J_5udXaudg">
@@ -564,7 +564,7 @@
     </node>
     <node concept="1TJgyi" id="3J_5udXbEhP" role="1TKVEl">
       <property role="IQ2nx" value="4315879884706456693" />
-      <property role="TrG5h" value="fraction" />
+      <property role="TrG5h" value="percentage" />
       <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
