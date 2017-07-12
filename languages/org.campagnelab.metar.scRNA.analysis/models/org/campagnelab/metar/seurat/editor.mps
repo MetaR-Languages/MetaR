@@ -67,6 +67,7 @@
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
       <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
         <reference id="1139535219968" name="applicableConcept" index="1h_SK9" />
@@ -894,8 +895,11 @@
               <ref role="1NtTu8" to="lznn:3J_5udXbEhL" resolve="xFold" />
             </node>
             <node concept="3F0ifn" id="3J_5udXbEiW" role="3EZMnx">
-              <property role="3F0ifm" value="difference (logs-scale)" />
+              <property role="3F0ifm" value="-fold difference (log-scale)" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              <node concept="11L4FC" id="1GombsEBK2h" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
           </node>
           <node concept="3EZMnI" id="5ziAKRO4VtF" role="3EZMnx">
@@ -916,7 +920,7 @@
               <property role="VOm3f" value="false" />
             </node>
             <node concept="3F0ifn" id="3J_5udXbEid" role="3EZMnx">
-              <property role="3F0ifm" value="genes detected in a minimum of" />
+              <property role="3F0ifm" value="genes detected in a minimum fraction of" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
             </node>
             <node concept="3F0A7n" id="3J_5udXbEj4" role="3EZMnx">
