@@ -4851,18 +4851,10 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2YRQibU3F_8" role="3cqZAp">
-          <node concept="2YIFZM" id="2YRQibU3F3W" role="3clFbG">
+        <node concept="3cpWs6" id="56btAhgl9ZV" role="3cqZAp">
+          <node concept="2YIFZM" id="56btAhglcSk" role="3cqZAk">
+            <ref role="37wK5l" to="33ny:~Collections.emptyList():java.util.List" resolve="emptyList" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-            <ref role="37wK5l" to="33ny:~Collections.singleton(java.lang.Object):java.util.Set" resolve="singleton" />
-            <node concept="10QFUN" id="2YRQibU3FMp" role="37wK5m">
-              <node concept="3uibUv" id="2YRQibU3FWR" role="10QFUM">
-                <ref role="3uigEE" to="3ju5:~FileSystemListener" resolve="FileSystemListener" />
-              </node>
-              <node concept="37vLTw" id="2YRQibU3Foo" role="10QFUP">
-                <ref role="3cqZAo" node="2YRQibU3h60" resolve="module" />
-              </node>
-            </node>
           </node>
         </node>
       </node>
