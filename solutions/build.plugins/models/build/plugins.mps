@@ -181,32 +181,6 @@
     <node concept="3b7kt6" id="3gMg70bRmeR" role="10PD9s" />
     <node concept="398rNT" id="3gMg70bRmeS" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
-      <node concept="55IIr" id="7hkRrPzLJSG" role="398pKh">
-        <node concept="2Ry0Ak" id="7hkRrPzLK1S" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="7hkRrPzLK1Y" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="7hkRrPzLK6B" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="7hkRrPzLKfS" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="7hkRrPzLKAS" role="2Ry0An">
-                  <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="7hkRrPzLKK9" role="2Ry0An">
-                    <property role="2Ry0Am" value="Applications" />
-                    <node concept="2Ry0Ak" id="7hkRrPzLKXX" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 2017.1.app" />
-                      <node concept="2Ry0Ak" id="7hkRrPzLLbL" role="2Ry0An">
-                        <property role="2Ry0Am" value="Contents" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="2kB4xC" id="23SyNvytJsY" role="1l3spd">
       <property role="TrG5h" value="org.campagnelab.metaR" />
