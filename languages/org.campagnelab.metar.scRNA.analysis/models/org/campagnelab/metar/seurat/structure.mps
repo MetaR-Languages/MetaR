@@ -7,11 +7,11 @@
   </languages>
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
-    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -99,6 +99,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1GombsE_hv_" resolve="RejectGeneStrategy" />
     </node>
+    <node concept="PrWs8" id="2jGfOiyRCIB" role="PzmwI">
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX5yTa">
     <property role="EcuMT" value="4315879884704853578" />
@@ -163,6 +166,9 @@
     <node concept="PrWs8" id="3J_5udX8lD1" role="PrDN$">
       <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
     </node>
+    <node concept="PrWs8" id="2jGfOiyROqA" role="PrDN$">
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
+    </node>
     <node concept="1TJgyj" id="3J_5udX8lD6" role="1TKVEi">
       <property role="IQ2ns" value="4315879884705585734" />
       <property role="20lmBu" value="aggregation" />
@@ -202,6 +208,9 @@
     </node>
     <node concept="PrWs8" id="3J_5udX8lD3" role="PrDN$">
       <ref role="PrY4T" node="3J_5udX8ksP" resolve="IModifySeurat" />
+    </node>
+    <node concept="PrWs8" id="2jGfOiyRbVp" role="PrDN$">
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
     <node concept="PrWs8" id="3J_5udXeNFt" role="PrDN$">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
@@ -253,6 +262,9 @@
     </node>
     <node concept="PrWs8" id="3J_5udXeoLL" role="PrDN$">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
+    </node>
+    <node concept="PrWs8" id="2jGfOiyS6r5" role="PrDN$">
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
   </node>
   <node concept="PlHQZ" id="3J_5udX8ksP">

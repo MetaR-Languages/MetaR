@@ -144,6 +144,7 @@
       </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
+      <concept id="883407320546941631" name="org.campagnelab.metar.tables.structure.IsChangeAttribute" flags="ng" index="1r6jS" />
       <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
         <reference id="4451133196879830023" name="table" index="afgo8" />
       </concept>
@@ -196,6 +197,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -244,7 +248,7 @@
             <node concept="3eOVzh" id="6bALrFtWlrL" role="16Ldh_">
               <node concept="16Ldux" id="6bALrFtWlrM" role="3uHU7B" />
               <node concept="3cmrfG" id="6bALrFtWlrN" role="3uHU7w">
-                <property role="3cmrfH" value="1000" />
+                <property role="3cmrfH" value="1100" />
               </node>
             </node>
           </node>
@@ -663,6 +667,7 @@
         <node concept="1LcaPl" id="6bALrFtXTMR" role="1Lc1gn">
           <ref role="1LcaPk" node="6bALrFtXTmB" resolve="withMarkersInfo" />
         </node>
+        <node concept="1r6jS" id="2jGfOiyStl6" role="lGtFl" />
       </node>
       <node concept="313sG1" id="7lSaFvIaOX9" role="ZXjPg">
         <property role="1MXi1$" value="FLQKXPTNLW" />
@@ -679,6 +684,7 @@
           <property role="1MXi1$" value="SVAOQQIJYM" />
           <ref role="312p7B" node="1GombsEDOGm" resolve="featurePlot" />
         </node>
+        <node concept="1r6jS" id="2jGfOiyStl5" role="lGtFl" />
       </node>
     </node>
   </node>
