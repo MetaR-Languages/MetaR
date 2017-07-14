@@ -143,7 +143,7 @@
                     <ref role="3cqZAo" node="6cuwE$icF1O" resolve="creator" />
                   </node>
                   <node concept="2qgKlT" id="6cuwE$icGke" role="2OqNvi">
-                    <ref role="37wK5l" to="9kby:6cuwE$icd1b" resolve="setInputChanged" />
+                    <ref role="37wK5l" to="9kby:6cuwE$icd1b" resolve="setInputChangedSeurat" />
                   </node>
                 </node>
               </node>
@@ -156,6 +156,15 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3FK_9_" id="3eUkWazfLgv">
+    <property role="TrG5h" value="DefaultSubstituteMenuEmptySeuratVar" />
+    <node concept="3FOIzC" id="3eUkWazfLgw" role="3FOPby">
+      <ref role="3FOWKa" to="lznn:3eUkWazfsjH" resolve="EmptySeuratVar" />
+      <node concept="z64au" id="3eUkWazfLgx" role="tZc4B">
+        <ref role="z65TK" to="lznn:3eUkWazfsjH" resolve="EmptySeuratVar" />
       </node>
     </node>
   </node>

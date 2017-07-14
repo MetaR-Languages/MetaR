@@ -537,9 +537,6 @@
     <node concept="PMmxH" id="3J_5udX8zIO" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
-      <node concept="xShMh" id="1GombsEAwEk" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3J_5udX8pjd">
@@ -552,9 +549,6 @@
           <node concept="2iRfu4" id="3J_5udX8pjq" role="2iSdaV" />
           <node concept="PMmxH" id="3J_5udXaOdT" role="3EZMnx">
             <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-            <node concept="xShMh" id="1GombsEAHlv" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
           </node>
           <node concept="3F1sOY" id="6cuwE$ibz5w" role="3EZMnx">
             <ref role="1NtTu8" to="lznn:6cuwE$ibz1i" resolve="seurat" />
@@ -608,7 +602,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="6bALrFtY8$J" role="3EZMnx">
-            <ref role="1NtTu8" to="lznn:6bALrFtY8gC" resolve="plot" />
+            <ref role="1NtTu8" to="lznn:6bALrFtY8gC" resolve="plotWrapper" />
             <node concept="pkWqt" id="6bALrFtY8_5" role="pqm2j">
               <node concept="3clFbS" id="6bALrFtY8_6" role="2VODD2">
                 <node concept="3clFbF" id="6bALrFtY8Gl" role="3cqZAp">
@@ -669,9 +663,6 @@
     <node concept="3EZMnI" id="3J_5udX96HD" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udX96HE" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="xShMh" id="1GombsEAN7U" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="3F0ifn" id="3J_5udX96HF" role="3EZMnx">
         <property role="3F0ifm" value="with" />
@@ -681,7 +672,7 @@
         <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
       </node>
       <node concept="3F0A7n" id="3J_5udXaECo" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3J_5udXaECg" resolve="noOfMolecules" />
+        <ref role="1NtTu8" to="lznn:3J_5udXaECg" resolve="scaleFactor" />
         <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
       </node>
       <node concept="2iRfu4" id="3J_5udX96HI" role="2iSdaV" />
@@ -716,6 +707,19 @@
         <node concept="3vyZuw" id="3J_5udXahbV" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="4$FPG" id="3eUkWazfskJ" role="4_6I_">
+          <node concept="3clFbS" id="3eUkWazfskK" role="2VODD2">
+            <node concept="3clFbF" id="3eUkWazfso6" role="3cqZAp">
+              <node concept="2ShNRf" id="3eUkWazfso4" role="3clFbG">
+                <node concept="3zrR0B" id="3eUkWazftN5" role="2ShVmc">
+                  <node concept="3Tqbb2" id="3eUkWazftN7" role="3zrR0E">
+                    <ref role="ehGHo" to="lznn:3eUkWazfsjH" resolve="EmptySeuratVar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2iRfu4" id="3J_5udXah9Z" role="2iSdaV" />
     </node>
@@ -726,9 +730,6 @@
     <node concept="3EZMnI" id="3J_5udXaU7P" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udXaU7Z" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="xShMh" id="1GombsEAN6a" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="3F0ifn" id="3J_5udXaU84" role="3EZMnx">
         <property role="3F0ifm" value="when" />
@@ -797,9 +798,6 @@
         <node concept="2iRkQZ" id="3J_5udXdH6m" role="2iSdaV" />
         <node concept="PMmxH" id="3J_5udXdH6n" role="3EZMnx">
           <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-          <node concept="xShMh" id="1GombsEAB3v" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
         </node>
         <node concept="3EZMnI" id="3J_5udXdH6o" role="3EZMnx">
           <node concept="2iRfu4" id="3J_5udXdH6p" role="2iSdaV" />
@@ -1077,9 +1075,6 @@
     <node concept="3EZMnI" id="3J_5udXcXuq" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udXcXux" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="xShMh" id="1GombsEAN_r" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="3EZMnI" id="3J_5udXdoaQ" role="3EZMnx">
         <node concept="2iRfu4" id="3J_5udXdoaR" role="2iSdaV" />
@@ -1243,9 +1238,6 @@
     <node concept="3EZMnI" id="3J_5udX8rXn" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udX8IJm" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="xShMh" id="1GombsEAMZ9" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="3F0ifn" id="3J_5udX8XbH" role="3EZMnx">
         <property role="3F0ifm" value="when" />
@@ -1447,9 +1439,6 @@
     <node concept="3EZMnI" id="1GombsE_hw1" role="2wV5jI">
       <node concept="PMmxH" id="1GombsE_hw2" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="xShMh" id="1GombsEANbx" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="3F0ifn" id="1GombsE_hw3" role="3EZMnx">
         <property role="3F0ifm" value="when" />
@@ -1461,6 +1450,17 @@
         </node>
       </node>
       <node concept="2iRfu4" id="1GombsE_hw6" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3eUkWazfsjS">
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
+    <ref role="1XX52x" to="lznn:3eUkWazfsjH" resolve="EmptySeuratVar" />
+    <node concept="3F0ifn" id="3eUkWazfsjU" role="2wV5jI">
+      <node concept="OXEIz" id="3eUkWazfsjX" role="P5bDN">
+        <node concept="UkePV" id="3eUkWazfsjZ" role="OY2wv">
+          <ref role="Ul1FP" to="lznn:3J_5udX8lDl" resolve="ISeuratVariable" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

@@ -36,6 +36,7 @@
       </concept>
     </language>
     <language id="6562d9c6-fb82-4150-9d7f-5e4f50d7bba1" name="org.campagnelab.metar.seurat">
+      <concept id="3727383737030001901" name="org.campagnelab.metar.seurat.structure.EmptySeuratVar" flags="ng" index="2gxTsJ" />
       <concept id="8464562469099465226" name="org.campagnelab.metar.seurat.structure.PlotInStatementWrapper" flags="ng" index="2oJG2X" />
       <concept id="8464562469098885003" name="org.campagnelab.metar.seurat.structure.IPlotInStatementWrapper" flags="ng" index="2oLykW">
         <property id="1952407982181128806" name="withDescription" index="L$Obh" />
@@ -52,6 +53,7 @@
       </concept>
       <concept id="4315879884707878331" name="org.campagnelab.metar.seurat.structure.TSNEPlotWrapper" flags="ng" index="16Ck1o" />
       <concept id="4315879884707879121" name="org.campagnelab.metar.seurat.structure.StandardDeviationPlotWrapper" flags="ng" index="16CkOM" />
+      <concept id="4315879884705828311" name="org.campagnelab.metar.seurat.structure.EmptyStrategy" flags="ng" index="16K1wO" />
       <concept id="4315879884705585733" name="org.campagnelab.metar.seurat.structure.ICleanupStrategy" flags="ng" index="16L4YA">
         <child id="4315879884705586855" name="conditions" index="16L4H4" />
       </concept>
@@ -187,11 +189,18 @@
         <property id="8962032619586499111" name="height" index="ZHjG8" />
         <property id="4166618652723451261" name="plotId" index="3ZMXzF" />
       </concept>
+      <concept id="2417420436961839041" name="org.campagnelab.metar.tables.structure.SaveSession" flags="ng" index="1Kri3l" />
+      <concept id="2417420436961838574" name="org.campagnelab.metar.tables.structure.LoadSession" flags="ng" index="1KribU">
+        <child id="2417420437005954430" name="dependencies" index="1P3wDE" />
+      </concept>
       <concept id="3402264987259919045" name="org.campagnelab.metar.tables.structure.FutureTable" flags="ng" index="3MlLWZ">
         <reference id="3402264987259919103" name="table" index="3MlLW5" />
         <child id="4166618652720259019" name="myOwnTable" index="3WeD9t" />
       </concept>
       <concept id="3402264987258987827" name="org.campagnelab.metar.tables.structure.Table" flags="ng" index="3Mpm39" />
+      <concept id="2417420437005954427" name="org.campagnelab.metar.tables.structure.SessionDependency" flags="ng" index="1P3wDJ">
+        <property id="2417420437005954428" name="dependency" index="1P3wDC" />
+      </concept>
       <concept id="4166618652716485500" name="org.campagnelab.metar.tables.structure.ID" flags="ng" index="3Wv0rE">
         <property id="4166618652716485501" name="id" index="3Wv0rF" />
       </concept>
@@ -387,8 +396,8 @@
           <ref role="312p7B" node="6bALrFu1RVo" resolve="scatterNUMIMito" />
         </node>
       </node>
-      <node concept="S1EQe" id="1GombsEDTcU" role="ZXjPg">
-        <property role="1MXi1$" value="FUGORUYILL" />
+      <node concept="S1EQe" id="3eUkWazfVfw" role="ZXjPg">
+        <property role="1MXi1$" value="CJYNIUEQQD" />
       </node>
       <node concept="16L9MR" id="6bALrFtZezr" role="ZXjPg">
         <property role="1LbDqV" value="false" />
@@ -707,6 +716,88 @@
     </node>
     <node concept="1dcRRW" id="5lDNWrJXzdH" role="2YPqp2">
       <property role="2A4bwM" value="true" />
+    </node>
+  </node>
+  <node concept="S1EQb" id="3eUkWazfVlu">
+    <property role="2BDq$p" value="false" />
+    <property role="TrG5h" value="Instant refresh" />
+    <node concept="ZXjPh" id="3eUkWazfVlw" role="S1EQ8">
+      <property role="1MXi1$" value="ICEXAROLUI" />
+      <node concept="1KribU" id="3eUkWazgfp3" role="ZXjPg">
+        <property role="1MXi1$" value="ECGTQQBNYS" />
+        <property role="TrG5h" value="RRMSCFATXV" />
+        <node concept="1P3wDJ" id="3eUkWazgfp4" role="1P3wDE">
+          <property role="1P3wDC" value="Matrix" />
+        </node>
+        <node concept="1P3wDJ" id="3eUkWazgfp5" role="1P3wDE">
+          <property role="1P3wDC" value="methods" />
+        </node>
+        <node concept="1P3wDJ" id="3eUkWazgfp6" role="1P3wDE">
+          <property role="1P3wDC" value="data.table" />
+        </node>
+        <node concept="1P3wDJ" id="3eUkWazgfp7" role="1P3wDE">
+          <property role="1P3wDC" value="devtools" />
+        </node>
+        <node concept="1P3wDJ" id="3eUkWazgfp8" role="1P3wDE">
+          <property role="1P3wDC" value="ztable" />
+        </node>
+        <node concept="1P3wDJ" id="3eUkWazgfp9" role="1P3wDE">
+          <property role="1P3wDC" value="dplyr" />
+        </node>
+      </node>
+      <node concept="16L9MR" id="3eUkWazgfpa" role="ZXjPg">
+        <property role="1LbDqV" value="false" />
+        <property role="1MXi1$" value="OPTGDDSOTL" />
+        <node concept="16LvHN" id="3eUkWazgfpb" role="16L4Zv">
+          <property role="TrG5h" value="filtered" />
+          <node concept="16WNID" id="3eUkWazgfpc" role="16LvHK">
+            <property role="16WVSt" value="false" />
+            <property role="16WMxv" value="false" />
+            <property role="16WMwy" value="false" />
+            <property role="16WMwA" value="false" />
+            <property role="TrG5h" value="filtered" />
+          </node>
+        </node>
+        <node concept="2Z73OG" id="3eUkWazgfpd" role="2Z7$6i">
+          <property role="1MXi1$" value="PKCPSGAHYJ" />
+          <node concept="2rfVTk" id="3eUkWazgfpe" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
+            <property role="3ZMXzF" value="1000" />
+          </node>
+        </node>
+        <node concept="16LEZ_" id="3eUkWazgfpf" role="16L4Y_">
+          <node concept="16N5Pj" id="3eUkWazgfpg" role="16NvS4" />
+          <node concept="16Ldux" id="3eUkWazgfph" role="16NvS4" />
+          <node concept="2gxTsJ" id="3eUkWazgfpi" role="16NvS4" />
+        </node>
+        <node concept="16NfqN" id="3eUkWazgfpj" role="16L4Y_">
+          <node concept="16NTGb" id="3eUkWazgfpk" role="16NFga">
+            <property role="16NFvD" value="3" />
+          </node>
+          <node concept="16Nezg" id="3eUkWazgfpl" role="16NFga">
+            <property role="16NFvD" value="0.5" />
+          </node>
+        </node>
+        <node concept="16LEZw" id="3eUkWazgfpm" role="16L4Y_">
+          <node concept="16LdhA" id="3eUkWazgfpn" role="16L4H4">
+            <node concept="3eOSWO" id="3eUkWazgfpo" role="16Ldh_">
+              <node concept="3b6qkQ" id="3eUkWazgfpp" role="3uHU7w">
+                <property role="$nhwW" value="0.1" />
+              </node>
+              <node concept="16N5Pj" id="3eUkWazgfpq" role="3uHU7B" />
+            </node>
+          </node>
+        </node>
+        <node concept="16K1wO" id="3eUkWazgfpr" role="16L4Y_" />
+        <node concept="1LcaPl" id="3eUkWazgfps" role="1LcbbV">
+          <ref role="1LcaPk" node="6bALrFtWlrV" resolve="collapsedTubules" />
+        </node>
+      </node>
+      <node concept="1Kri3l" id="3eUkWazgfpt" role="ZXjPg">
+        <property role="1MXi1$" value="WKBWJXBXVC" />
+        <property role="TrG5h" value="OPTGDDSOTL" />
+      </node>
     </node>
   </node>
 </model>

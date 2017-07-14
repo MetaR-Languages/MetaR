@@ -893,5 +893,14 @@
     <property role="34LRSv" value="dispersion and average expression plot" />
     <ref role="1TJDcQ" node="3J_5udXh4F4" resolve="PlotWrapper" />
   </node>
+  <node concept="1TIwiD" id="3eUkWazfsjH">
+    <property role="EcuMT" value="3727383737030001901" />
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
+    <property role="TrG5h" value="EmptySeuratVar" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3eUkWazfskc" role="PzmwI">
+      <ref role="PrY4T" node="3J_5udX8lDl" resolve="ISeuratVariable" />
+    </node>
+  </node>
 </model>
 

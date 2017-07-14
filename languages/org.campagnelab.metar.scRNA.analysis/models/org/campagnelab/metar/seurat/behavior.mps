@@ -3793,5 +3793,27 @@
       <node concept="2I9FWS" id="2jGfOiyS6re" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="3eUkWazfsk1">
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
+    <ref role="13h7C2" to="lznn:3eUkWazfsjH" resolve="EmptySeuratVar" />
+    <node concept="13i0hz" id="3eUkWazfske" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="nameInR" />
+      <ref role="13i0hy" node="7lSaFvHPGCx" resolve="nameInR" />
+      <node concept="3Tm1VV" id="3eUkWazfskf" role="1B3o_S" />
+      <node concept="3clFbS" id="3eUkWazfskg" role="3clF47">
+        <node concept="3clFbF" id="3eUkWazfskh" role="3cqZAp">
+          <node concept="Xl_RD" id="3eUkWazfski" role="3clFbG">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="3eUkWazfskj" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="3eUkWazfsk2" role="13h7CW">
+      <node concept="3clFbS" id="3eUkWazfsk3" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
