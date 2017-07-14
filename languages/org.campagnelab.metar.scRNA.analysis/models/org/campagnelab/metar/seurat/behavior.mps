@@ -755,6 +755,74 @@
       </node>
       <node concept="3cqZAl" id="6cuwE$idtcC" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="5vXLLHdB0Aj" role="13h7CS">
+      <property role="TrG5h" value="devtoolsInstructions" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:1vkgFx9C2w" resolve="devtoolsInstructions" />
+      <node concept="3Tm1VV" id="5vXLLHdB0Ak" role="1B3o_S" />
+      <node concept="3clFbS" id="5vXLLHdB0Al" role="3clF47">
+        <node concept="3cpWs6" id="5vXLLHdB0Am" role="3cqZAp">
+          <node concept="BsUDl" id="5vXLLHdB0An" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="5vXLLHdB0Ao" role="37wK5m">
+              <property role="Xl_RC" value="install_github(\&quot;satijalab/seurat\&quot;)" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="5vXLLHdB0Ap" role="3clF45">
+        <node concept="17QB3L" id="5vXLLHdB0Aq" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="5vXLLHdB0Ar" role="13h7CS">
+      <property role="TrG5h" value="devtoolsPackageNames" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:2m5kVGMYQAC" resolve="devtoolsPackageNames" />
+      <node concept="3Tm1VV" id="5vXLLHdB0As" role="1B3o_S" />
+      <node concept="3clFbS" id="5vXLLHdB0At" role="3clF47">
+        <node concept="3cpWs6" id="5vXLLHdB0Au" role="3cqZAp">
+          <node concept="BsUDl" id="5vXLLHdB0Av" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="5vXLLHdB0Aw" role="37wK5m">
+              <property role="Xl_RC" value="Seurat" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="5vXLLHdB0Ax" role="3clF45">
+        <node concept="17QB3L" id="5vXLLHdB0Ay" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="5vXLLHdB0W8" role="13h7CS">
+      <property role="TrG5h" value="dependencies" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
+      <node concept="3Tm1VV" id="5vXLLHdB0W9" role="1B3o_S" />
+      <node concept="3clFbS" id="5vXLLHdB0Wa" role="3clF47">
+        <node concept="3cpWs6" id="5vXLLHdB0Wb" role="3cqZAp">
+          <node concept="2ShNRf" id="5vXLLHdB0Wc" role="3cqZAk">
+            <node concept="Tc6Ow" id="5vXLLHdB0Wd" role="2ShVmc">
+              <node concept="17QB3L" id="5vXLLHdB0We" role="HW$YZ" />
+              <node concept="Xl_RD" id="5vXLLHdB0Wf" role="HW$Y0">
+                <property role="Xl_RC" value="dplyr" />
+              </node>
+              <node concept="Xl_RD" id="5vXLLHdB0Wg" role="HW$Y0">
+                <property role="Xl_RC" value="Matrix" />
+              </node>
+              <node concept="Xl_RD" id="5vXLLHdB0Wh" role="HW$Y0">
+                <property role="Xl_RC" value="methods" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="5vXLLHdB0Wi" role="3clF45">
+        <node concept="17QB3L" id="5vXLLHdB0Wj" role="A3Ik2" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="3J_5udXbo6V">
     <property role="3GE5qa" value="AddInfoOp" />
@@ -1181,6 +1249,74 @@
   <node concept="13h7C7" id="3J_5udXdHVu">
     <property role="3GE5qa" value="AddInfoOp" />
     <ref role="13h7C2" to="lznn:3J_5udXdHVj" resolve="AbstractAddInfo" />
+    <node concept="13i0hz" id="5vXLLHdAkYS" role="13h7CS">
+      <property role="TrG5h" value="devtoolsInstructions" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:1vkgFx9C2w" resolve="devtoolsInstructions" />
+      <node concept="3Tm1VV" id="5vXLLHdAkYT" role="1B3o_S" />
+      <node concept="3clFbS" id="5vXLLHdAkYU" role="3clF47">
+        <node concept="3cpWs6" id="5vXLLHdAkYV" role="3cqZAp">
+          <node concept="BsUDl" id="5vXLLHdAkYW" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="5vXLLHdAkYX" role="37wK5m">
+              <property role="Xl_RC" value="install_github(\&quot;satijalab/seurat\&quot;)" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="5vXLLHdAkYY" role="3clF45">
+        <node concept="17QB3L" id="5vXLLHdAkYZ" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="5vXLLHdAkZ0" role="13h7CS">
+      <property role="TrG5h" value="devtoolsPackageNames" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:2m5kVGMYQAC" resolve="devtoolsPackageNames" />
+      <node concept="3Tm1VV" id="5vXLLHdAkZ1" role="1B3o_S" />
+      <node concept="3clFbS" id="5vXLLHdAkZ2" role="3clF47">
+        <node concept="3cpWs6" id="5vXLLHdAkZ3" role="3cqZAp">
+          <node concept="BsUDl" id="5vXLLHdAkZ4" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="5vXLLHdAkZ5" role="37wK5m">
+              <property role="Xl_RC" value="Seurat" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="5vXLLHdAkZ6" role="3clF45">
+        <node concept="17QB3L" id="5vXLLHdAkZ7" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="5vXLLHdB0M4" role="13h7CS">
+      <property role="TrG5h" value="dependencies" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
+      <node concept="3Tm1VV" id="5vXLLHdB0M5" role="1B3o_S" />
+      <node concept="3clFbS" id="5vXLLHdB0M6" role="3clF47">
+        <node concept="3cpWs6" id="5vXLLHdB0M7" role="3cqZAp">
+          <node concept="2ShNRf" id="5vXLLHdB0M8" role="3cqZAk">
+            <node concept="Tc6Ow" id="5vXLLHdB0M9" role="2ShVmc">
+              <node concept="17QB3L" id="5vXLLHdB0Ma" role="HW$YZ" />
+              <node concept="Xl_RD" id="5vXLLHdB0Mb" role="HW$Y0">
+                <property role="Xl_RC" value="dplyr" />
+              </node>
+              <node concept="Xl_RD" id="5vXLLHdB0Mc" role="HW$Y0">
+                <property role="Xl_RC" value="Matrix" />
+              </node>
+              <node concept="Xl_RD" id="5vXLLHdB0Md" role="HW$Y0">
+                <property role="Xl_RC" value="methods" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="5vXLLHdB0Me" role="3clF45">
+        <node concept="17QB3L" id="5vXLLHdB0Mf" role="A3Ik2" />
+      </node>
+    </node>
     <node concept="13hLZK" id="3J_5udXdHVv" role="13h7CW">
       <node concept="3clFbS" id="3J_5udXdHVw" role="2VODD2">
         <node concept="3clFbF" id="3J_5udXbo76" role="3cqZAp">
@@ -3849,6 +3985,81 @@
     </node>
     <node concept="13hLZK" id="3eUkWazfsk2" role="13h7CW">
       <node concept="3clFbS" id="3eUkWazfsk3" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5vXLLHdB0IZ">
+    <property role="3GE5qa" value="PlotOp" />
+    <ref role="13h7C2" to="lznn:3J_5udXd5_8" resolve="AbstractPlot" />
+    <node concept="13i0hz" id="5vXLLHdB0Ja" role="13h7CS">
+      <property role="TrG5h" value="devtoolsInstructions" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:1vkgFx9C2w" resolve="devtoolsInstructions" />
+      <node concept="3Tm1VV" id="5vXLLHdB0Jb" role="1B3o_S" />
+      <node concept="3clFbS" id="5vXLLHdB0Jc" role="3clF47">
+        <node concept="3cpWs6" id="5vXLLHdB0Jd" role="3cqZAp">
+          <node concept="BsUDl" id="5vXLLHdB0Je" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="5vXLLHdB0Jf" role="37wK5m">
+              <property role="Xl_RC" value="install_github(\&quot;satijalab/seurat\&quot;)" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="5vXLLHdB0Jg" role="3clF45">
+        <node concept="17QB3L" id="5vXLLHdB0Jh" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="5vXLLHdB0Ji" role="13h7CS">
+      <property role="TrG5h" value="devtoolsPackageNames" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:2m5kVGMYQAC" resolve="devtoolsPackageNames" />
+      <node concept="3Tm1VV" id="5vXLLHdB0Jj" role="1B3o_S" />
+      <node concept="3clFbS" id="5vXLLHdB0Jk" role="3clF47">
+        <node concept="3cpWs6" id="5vXLLHdB0Jl" role="3cqZAp">
+          <node concept="BsUDl" id="5vXLLHdB0Jm" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="5vXLLHdB0Jn" role="37wK5m">
+              <property role="Xl_RC" value="Seurat" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="5vXLLHdB0Jo" role="3clF45">
+        <node concept="17QB3L" id="5vXLLHdB0Jp" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="5vXLLHdB16C" role="13h7CS">
+      <property role="TrG5h" value="dependencies" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
+      <node concept="3Tm1VV" id="5vXLLHdB16D" role="1B3o_S" />
+      <node concept="3clFbS" id="5vXLLHdB16E" role="3clF47">
+        <node concept="3cpWs6" id="5vXLLHdB16F" role="3cqZAp">
+          <node concept="2ShNRf" id="5vXLLHdB16G" role="3cqZAk">
+            <node concept="Tc6Ow" id="5vXLLHdB16H" role="2ShVmc">
+              <node concept="17QB3L" id="5vXLLHdB16I" role="HW$YZ" />
+              <node concept="Xl_RD" id="5vXLLHdB16J" role="HW$Y0">
+                <property role="Xl_RC" value="dplyr" />
+              </node>
+              <node concept="Xl_RD" id="5vXLLHdB16K" role="HW$Y0">
+                <property role="Xl_RC" value="Matrix" />
+              </node>
+              <node concept="Xl_RD" id="5vXLLHdB16L" role="HW$Y0">
+                <property role="Xl_RC" value="methods" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="5vXLLHdB16M" role="3clF45">
+        <node concept="17QB3L" id="5vXLLHdB16N" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="5vXLLHdB0J0" role="13h7CW">
+      <node concept="3clFbS" id="5vXLLHdB0J1" role="2VODD2" />
     </node>
   </node>
 </model>
