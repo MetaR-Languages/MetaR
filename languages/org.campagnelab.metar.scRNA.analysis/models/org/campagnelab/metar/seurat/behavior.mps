@@ -134,6 +134,9 @@
       </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
         <child id="1160998896846" name="condition" index="1gVkn0" />
       </concept>
@@ -207,6 +210,9 @@
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
@@ -257,6 +263,7 @@
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
+      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -2915,13 +2922,42 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="2OqwBi" id="7lSaFvHURrx" role="3uHU7B">
-                <node concept="2OqwBi" id="7lSaFvHUP1V" role="2Oq$k0">
-                  <node concept="37vLTw" id="7lSaFvHUOvY" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7lSaFvHUJGZ" resolve="cleanupSeurat" />
+                <node concept="2OqwBi" id="3eUkWazLp47" role="2Oq$k0">
+                  <node concept="2OqwBi" id="3eUkWazLgKk" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7lSaFvHUP1V" role="2Oq$k0">
+                      <node concept="37vLTw" id="7lSaFvHUOvY" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7lSaFvHUJGZ" resolve="cleanupSeurat" />
+                      </node>
+                      <node concept="3Tsc0h" id="7lSaFvHUPE7" role="2OqNvi">
+                        <ref role="3TtcxE" to="lznn:3J_5udX8lD6" resolve="strategies" />
+                      </node>
+                    </node>
+                    <node concept="3zZkjj" id="3eUkWazLikC" role="2OqNvi">
+                      <node concept="1bVj0M" id="3eUkWazLikE" role="23t8la">
+                        <node concept="3clFbS" id="3eUkWazLikF" role="1bW5cS">
+                          <node concept="3clFbF" id="3eUkWazLiJR" role="3cqZAp">
+                            <node concept="3fqX7Q" id="3eUkWazLo$f" role="3clFbG">
+                              <node concept="2OqwBi" id="3eUkWazLo$h" role="3fr31v">
+                                <node concept="37vLTw" id="3eUkWazLo$i" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3eUkWazLikG" resolve="it" />
+                                </node>
+                                <node concept="1mIQ4w" id="3eUkWazLo$j" role="2OqNvi">
+                                  <node concept="chp4Y" id="3eUkWazLo$k" role="cj9EA">
+                                    <ref role="cht4Q" to="lznn:3J_5udX9gRn" resolve="EmptyStrategy" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="3eUkWazLikG" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="3eUkWazLikH" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
-                  <node concept="3Tsc0h" id="7lSaFvHUPE7" role="2OqNvi">
-                    <ref role="3TtcxE" to="lznn:3J_5udX8lD6" resolve="strategies" />
-                  </node>
+                  <node concept="ANE8D" id="3eUkWazLpPm" role="2OqNvi" />
                 </node>
                 <node concept="liA8E" id="7lSaFvHV2rq" role="2OqNvi">
                   <ref role="37wK5l" to="33ny:~List.indexOf(java.lang.Object):int" resolve="indexOf" />

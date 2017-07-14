@@ -172,6 +172,7 @@
       <concept id="489068675543418422" name="org.campagnelab.metar.R.structure.At" flags="ng" index="22gcdC" />
       <concept id="489068675546665908" name="org.campagnelab.metar.R.structure.Colon" flags="ng" index="22sPrE" />
       <concept id="489068675558241796" name="org.campagnelab.metar.R.structure.Division" flags="ng" index="23CJdq" />
+      <concept id="956380573594386900" name="org.campagnelab.metar.R.structure.EmptyExpr" flags="ng" index="2aq3V4" />
       <concept id="5491791729787566345" name="org.campagnelab.metar.R.structure.MagriteOperator" flags="ng" index="enbDM" />
       <concept id="5491791729787462786" name="org.campagnelab.metar.R.structure.ColonExpr" flags="ng" index="enyvT" />
       <concept id="5491791729787534769" name="org.campagnelab.metar.R.structure.UserOperator" flags="ng" index="enNVa">
@@ -344,6 +345,12 @@
       <ref role="30HIoZ" to="lznn:3J_5udX8VC6" resolve="RegressOutStrategy" />
       <node concept="j$656" id="7lSaFvHVH_p" role="1lVwrX">
         <ref role="v9R2y" node="7lSaFvHVH_n" resolve="reduce_RegressOutStrategy" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="3eUkWazL7hT" role="3acgRq">
+      <ref role="30HIoZ" to="lznn:3J_5udX9gRn" resolve="EmptyStrategy" />
+      <node concept="j$656" id="3eUkWazL7in" role="1lVwrX">
+        <ref role="v9R2y" node="3eUkWazL7il" resolve="reduce_EmptyStrategy" />
       </node>
     </node>
     <node concept="3aamgX" id="7lSaFvHVRL8" role="3acgRq">
@@ -853,7 +860,7 @@
                                   </node>
                                 </node>
                                 <node concept="3TrcHB" id="7lSaFvHIxOx" role="2OqNvi">
-                                  <ref role="3TsBF5" to="lznn:3J_5udXaECg" resolve="noOfMolecules" />
+                                  <ref role="3TsBF5" to="lznn:3J_5udXaECg" resolve="scaleFactor" />
                                 </node>
                               </node>
                             </node>
@@ -4480,6 +4487,14 @@
       <node concept="3cU4HJ" id="7lSaFvI1Uiz" role="13u1kV">
         <property role="1MXi1$" value="GMFTRQHUMA" />
       </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="3eUkWazL7il">
+    <property role="TrG5h" value="reduce_EmptyStrategy" />
+    <ref role="3gUMe" to="lznn:3J_5udX9gRn" resolve="EmptyStrategy" />
+    <node concept="2aq3V4" id="3eUkWazL7iq" role="13RCb5">
+      <property role="1MXi1$" value="MOUXTMRRXX" />
+      <node concept="raruj" id="3eUkWazL7is" role="lGtFl" />
     </node>
   </node>
 </model>

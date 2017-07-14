@@ -69,7 +69,7 @@
     <property role="TrG5h" value="ImportSeurat" />
     <property role="R4oN_" value="Load scRNA-seq dataset from 10X Genomics" />
     <property role="3GE5qa" value="ImportOp" />
-    <property role="34LRSv" value="load scRNA-seq dataset" />
+    <property role="34LRSv" value="load 10X dataset" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="3J_5udXfdFL" role="1TKVEi">
       <property role="IQ2ns" value="4315879884707388145" />

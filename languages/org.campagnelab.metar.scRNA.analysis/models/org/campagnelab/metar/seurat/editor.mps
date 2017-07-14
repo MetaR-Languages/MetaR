@@ -602,7 +602,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="6bALrFtY8$J" role="3EZMnx">
-            <ref role="1NtTu8" to="lznn:6bALrFtY8gC" resolve="plotWrapper" />
+            <ref role="1NtTu8" to="lznn:6bALrFtYJyn" resolve="plotWrapper" />
             <node concept="pkWqt" id="6bALrFtY8_5" role="pqm2j">
               <node concept="3clFbS" id="6bALrFtY8_6" role="2VODD2">
                 <node concept="3clFbF" id="6bALrFtY8Gl" role="3cqZAp">
@@ -696,9 +696,6 @@
     <node concept="3EZMnI" id="3J_5udXah9W" role="2wV5jI">
       <node concept="PMmxH" id="3J_5udXaha6" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="xShMh" id="1GombsEAN9F" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="3F2HdR" id="3J_5udXahab" role="3EZMnx">
         <property role="2czwfO" value="," />
