@@ -211,7 +211,7 @@
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
         <node concept="NbPM2" id="3gMg70bX6HM" role="aVJcq">
           <node concept="3Mxwew" id="3gMg70bX6HL" role="3MwsjC">
-            <property role="3MwjfP" value="2.1.2" />
+            <property role="3MwjfP" value="2.2" />
           </node>
         </node>
       </node>
@@ -3696,6 +3696,12 @@
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3eUkWazMaTa" role="3bR37C">
+          <node concept="3bR9La" id="3eUkWazMaTb" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="7lol28iFlnr" resolve="org.campagnelab.instantrefresh" />
           </node>
         </node>
       </node>
