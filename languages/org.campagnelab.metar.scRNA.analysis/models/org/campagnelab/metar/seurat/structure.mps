@@ -905,8 +905,8 @@
   <node concept="1TIwiD" id="5vXLLHdBrH2">
     <property role="EcuMT" value="6340442770487753538" />
     <property role="3GE5qa" value="PlotOp" />
-    <property role="TrG5h" value="TwoFeaturesPlot" />
-    <property role="34LRSv" value="Plot two features" />
+    <property role="TrG5h" value="FeaturesAndTotalPlot" />
+    <property role="34LRSv" value="Feature plot and total" />
     <ref role="1TJDcQ" node="3J_5udXdua9" resolve="FeaturePlot" />
   </node>
 </model>
