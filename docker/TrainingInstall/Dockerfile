@@ -1,5 +1,5 @@
 # Version: 1.0.0 
-FROM rocker/verse:3.3.1
+FROM rocker/verse:3.4.0
 #FROM r-base:latest
 MAINTAINER Fabien Campagne "fac2003@campagnelab.org"
 ## Refresh package list and upgrade
@@ -38,6 +38,9 @@ RUN mkdir -p /home/docker \
 ADD test.R test.R
 ADD install-metaR-packages.R /tmp/install-metaR-packages.R
 RUN Rscript --verbose /tmp/install-metaR-packages.R \
+&& rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+ADD install-metaR-packages-2.R /tmp/install-metaR-packages-2.R
+RUN Rscript --verbose /tmp/install-metaR-packages-2.R \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 RUN echo "Installed packages needed for MetaR training session"
