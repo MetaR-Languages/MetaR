@@ -219,6 +219,7 @@
       </concept>
       <concept id="6176023809880707746" name="org.campagnelab.metar.R.structure.MultiplicationExpr" flags="ng" index="2PZJpc" />
       <concept id="6176023809880707745" name="org.campagnelab.metar.R.structure.USER_OPExpr" flags="ng" index="2PZJpf" />
+      <concept id="6176023809880707773" name="org.campagnelab.metar.R.structure.NullExpr" flags="ng" index="2PZJpj" />
       <concept id="6176023809880707770" name="org.campagnelab.metar.R.structure.IntLiteralExpr" flags="ng" index="2PZJpk">
         <property id="1229604057012663654" name="value" index="pzxG6" />
       </concept>
@@ -409,6 +410,12 @@
       <ref role="30HIoZ" to="lznn:5vXLLHdBrH2" resolve="FeaturesAndTotalPlot" />
       <node concept="j$656" id="5vXLLHdBMUw" role="1lVwrX">
         <ref role="v9R2y" node="5vXLLHdBMUu" resolve="reduce_FeaturesAndTotalPlot" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="1RYr706LXuA" role="3acgRq">
+      <ref role="30HIoZ" to="lznn:1RYr706LXu8" resolve="DumpSeurat" />
+      <node concept="j$656" id="1RYr706LXv8" role="1lVwrX">
+        <ref role="v9R2y" node="1RYr706LXv6" resolve="reduce_DumpSeurat" />
       </node>
     </node>
   </node>
@@ -5346,6 +5353,51 @@
         </node>
       </node>
       <node concept="raruj" id="5vXLLHdBMWP" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="1RYr706LXv6">
+    <property role="TrG5h" value="reduce_DumpSeurat" />
+    <ref role="3gUMe" to="lznn:1RYr706LXu8" resolve="DumpSeurat" />
+    <node concept="13u1kU" id="1RYr706LXvo" role="13RCb5">
+      <property role="1MXi1$" value="YIYYIVYPAN" />
+      <node concept="2PZJp4" id="1RYr706LXvt" role="13u1kV">
+        <property role="1MXi1$" value="FAQEHLJYCI" />
+        <node concept="2PZJpp" id="1RYr706LXvy" role="2v3mow">
+          <property role="1MXi1$" value="RUNAGTRWTX" />
+          <property role="TrG5h" value="P1" />
+          <node concept="17Uvod" id="1RYr706LXvF" role="lGtFl">
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <property role="2qtEX9" value="name" />
+            <node concept="3zFVjK" id="1RYr706LXvG" role="3zH0cK">
+              <node concept="3clFbS" id="1RYr706LXvH" role="2VODD2">
+                <node concept="3clFbF" id="1RYr706LXCa" role="3cqZAp">
+                  <node concept="2OqwBi" id="1RYr706LZj5" role="3clFbG">
+                    <node concept="2OqwBi" id="1RYr706LYlU" role="2Oq$k0">
+                      <node concept="2OqwBi" id="1RYr706LXOX" role="2Oq$k0">
+                        <node concept="30H73N" id="1RYr706LXC9" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="1RYr706LY3m" role="2OqNvi">
+                          <ref role="3Tt5mk" to="lznn:1RYr706LXu9" resolve="seurat" />
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="1RYr706LYPL" role="2OqNvi">
+                        <ref role="3Tt5mk" to="lznn:6cuwE$ibyZX" resolve="seurat" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="1RYr706LZxC" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2PZJpj" id="1RYr706LXvz" role="2v3moI">
+          <property role="1MXi1$" value="QAPSJAVNTG" />
+        </node>
+        <node concept="22gccq" id="1RYr706LXv$" role="22hImy" />
+        <node concept="raruj" id="1RYr706LXvD" role="lGtFl" />
+      </node>
     </node>
   </node>
 </model>

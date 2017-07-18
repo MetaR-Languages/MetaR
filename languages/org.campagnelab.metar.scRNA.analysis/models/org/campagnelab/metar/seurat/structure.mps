@@ -951,5 +951,19 @@
       <ref role="PrY4T" node="1RYr706I6cj" resolve="IBinaryComparatorSeurat" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1RYr706LXu8">
+    <property role="EcuMT" value="2161284099590313864" />
+    <property role="TrG5h" value="DumpSeurat" />
+    <property role="3GE5qa" value="DumpOp" />
+    <property role="34LRSv" value="dump seurat" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="1RYr706LXu9" role="1TKVEi">
+      <property role="IQ2ns" value="2161284099590313865" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
+  </node>
 </model>
 
