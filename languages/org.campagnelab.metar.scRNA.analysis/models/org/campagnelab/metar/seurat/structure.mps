@@ -353,7 +353,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expressions" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="tpee:i2kUDXX" resolve="BinaryCompareOperation" />
+      <ref role="20lvS9" node="1RYr706I6cj" resolve="IBinaryComparatorSeurat" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX8s92">
@@ -911,6 +911,45 @@
     <property role="TrG5h" value="FeaturesAndTotalPlot" />
     <property role="34LRSv" value="Feature plot and total" />
     <ref role="1TJDcQ" node="3J_5udXdua9" resolve="FeaturePlot" />
+  </node>
+  <node concept="1TIwiD" id="1RYr706I6cb">
+    <property role="EcuMT" value="2161284099589301003" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="LessThanSeurat" />
+    <property role="34LRSv" value="&lt;" />
+    <ref role="1TJDcQ" to="tpee:fJeOVwE" resolve="LessThanExpression" />
+    <node concept="PrWs8" id="1RYr706I6ck" role="PzmwI">
+      <ref role="PrY4T" node="1RYr706I6cj" resolve="IBinaryComparatorSeurat" />
+    </node>
+    <node concept="1TJgyj" id="1RYr706I_y_" role="1TKVEi">
+      <property role="IQ2ns" value="2161284099589429413" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="leftExpression" />
+      <ref role="20ksaX" to="tpee:fJuHU4s" resolve="leftExpression" />
+      <ref role="20lvS9" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1RYr706I6cj">
+    <property role="EcuMT" value="2161284099589301011" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="IBinaryComparatorSeurat" />
+  </node>
+  <node concept="1TIwiD" id="1RYr706I6cn">
+    <property role="EcuMT" value="2161284099589301015" />
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <property role="TrG5h" value="GreaterThanSeurat" />
+    <property role="34LRSv" value="&gt;" />
+    <ref role="1TJDcQ" to="tpee:fJeOSZf" resolve="GreaterThanExpression" />
+    <node concept="1TJgyj" id="1RYr706IBRv" role="1TKVEi">
+      <property role="IQ2ns" value="2161284099589438943" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="leftExpression" />
+      <ref role="20lvS9" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
+      <ref role="20ksaX" to="tpee:fJuHU4s" resolve="leftExpression" />
+    </node>
+    <node concept="PrWs8" id="1RYr706I6co" role="PzmwI">
+      <ref role="PrY4T" node="1RYr706I6cj" resolve="IBinaryComparatorSeurat" />
+    </node>
   </node>
 </model>
 

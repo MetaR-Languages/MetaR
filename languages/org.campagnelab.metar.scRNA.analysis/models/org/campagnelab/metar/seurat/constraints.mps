@@ -382,6 +382,30 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1RYr706LQAg" role="3cqZAp" />
+        <node concept="3clFbJ" id="1RYr706LQTG" role="3cqZAp">
+          <node concept="3clFbS" id="1RYr706LQTI" role="3clFbx">
+            <node concept="3cpWs6" id="1RYr706LTzk" role="3cqZAp">
+              <node concept="3clFbT" id="1RYr706LTF9" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1RYr706LSVU" role="3clFbw">
+            <node concept="2OqwBi" id="1RYr706LRv0" role="2Oq$k0">
+              <node concept="nLn13" id="1RYr706LSF3" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1RYr706LS7E" role="2OqNvi">
+                <node concept="1xMEDy" id="1RYr706LS7G" role="1xVPHs">
+                  <node concept="chp4Y" id="1RYr706LSdu" role="ri$Ld">
+                    <ref role="cht4Q" to="lznn:3J_5udX8VC3" resolve="RejectCellStrategy" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="1RYr706LSxt" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="1RYr706LTpH" role="2OqNvi" />
+          </node>
+        </node>
         <node concept="3clFbH" id="5ziAKRO4hGq" role="3cqZAp" />
         <node concept="3cpWs6" id="5ziAKRO4hPs" role="3cqZAp">
           <node concept="3clFbT" id="5ziAKRO4hUm" role="3cqZAk">
@@ -427,6 +451,117 @@
         <node concept="3clFbH" id="1GombsE_WxO" role="3cqZAp" />
         <node concept="3cpWs6" id="1GombsE_WxP" role="3cqZAp">
           <node concept="3clFbT" id="1GombsE_WxQ" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1RYr706LUyN">
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
+    <ref role="1M2myG" to="lznn:3J_5udX8s92" resolve="GeneCountInCell" />
+    <node concept="nKS2y" id="1RYr706LUyO" role="1MLUbF">
+      <node concept="3clFbS" id="1RYr706LUyP" role="2VODD2">
+        <node concept="3clFbJ" id="1RYr706LUDX" role="3cqZAp">
+          <node concept="3clFbS" id="1RYr706LUDY" role="3clFbx">
+            <node concept="3cpWs6" id="1RYr706LUDZ" role="3cqZAp">
+              <node concept="3clFbT" id="1RYr706LUE0" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1RYr706LUE1" role="3clFbw">
+            <node concept="2OqwBi" id="1RYr706LUE2" role="2Oq$k0">
+              <node concept="nLn13" id="1RYr706LUE3" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1RYr706LUE4" role="2OqNvi">
+                <node concept="1xMEDy" id="1RYr706LUE5" role="1xVPHs">
+                  <node concept="chp4Y" id="1RYr706LVbF" role="ri$Ld">
+                    <ref role="cht4Q" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="1RYr706LUE7" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="1RYr706LUE8" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1RYr706LUOG" role="3cqZAp" />
+        <node concept="3cpWs6" id="1RYr706LUWt" role="3cqZAp">
+          <node concept="3clFbT" id="1RYr706LV4e" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1RYr706LVmp">
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
+    <ref role="1M2myG" to="lznn:3J_5udXaa01" resolve="PercentageMitochondrialGenes" />
+    <node concept="nKS2y" id="1RYr706LVmq" role="1MLUbF">
+      <node concept="3clFbS" id="1RYr706LVmr" role="2VODD2">
+        <node concept="3clFbJ" id="1RYr706LVtz" role="3cqZAp">
+          <node concept="3clFbS" id="1RYr706LVt$" role="3clFbx">
+            <node concept="3cpWs6" id="1RYr706LVt_" role="3cqZAp">
+              <node concept="3clFbT" id="1RYr706LVtA" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1RYr706LVtB" role="3clFbw">
+            <node concept="2OqwBi" id="1RYr706LVtC" role="2Oq$k0">
+              <node concept="nLn13" id="1RYr706LVtD" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1RYr706LVtE" role="2OqNvi">
+                <node concept="1xMEDy" id="1RYr706LVtF" role="1xVPHs">
+                  <node concept="chp4Y" id="1RYr706LVtG" role="ri$Ld">
+                    <ref role="cht4Q" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="1RYr706LVtH" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="1RYr706LVtI" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1RYr706LVtJ" role="3cqZAp" />
+        <node concept="3cpWs6" id="1RYr706LVtK" role="3cqZAp">
+          <node concept="3clFbT" id="1RYr706LVtL" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1RYr706LVCy">
+    <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
+    <ref role="1M2myG" to="lznn:3J_5udXakyK" resolve="nUMICountInCell" />
+    <node concept="nKS2y" id="1RYr706LVCz" role="1MLUbF">
+      <node concept="3clFbS" id="1RYr706LVC$" role="2VODD2">
+        <node concept="3clFbJ" id="1RYr706LVJG" role="3cqZAp">
+          <node concept="3clFbS" id="1RYr706LVJH" role="3clFbx">
+            <node concept="3cpWs6" id="1RYr706LVJI" role="3cqZAp">
+              <node concept="3clFbT" id="1RYr706LVJJ" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1RYr706LVJK" role="3clFbw">
+            <node concept="2OqwBi" id="1RYr706LVJL" role="2Oq$k0">
+              <node concept="nLn13" id="1RYr706LVJM" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1RYr706LVJN" role="2OqNvi">
+                <node concept="1xMEDy" id="1RYr706LVJO" role="1xVPHs">
+                  <node concept="chp4Y" id="1RYr706LVJP" role="ri$Ld">
+                    <ref role="cht4Q" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="1RYr706LVJQ" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="1RYr706LVJR" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1RYr706LVJS" role="3cqZAp" />
+        <node concept="3cpWs6" id="1RYr706LVJT" role="3cqZAp">
+          <node concept="3clFbT" id="1RYr706LVJU" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
