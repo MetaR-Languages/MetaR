@@ -7133,6 +7133,21 @@
         <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
       </node>
     </node>
+    <node concept="13i0hz" id="1RYr706_vEq" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getDockerPath" />
+      <ref role="13i0hy" node="1RYr706_uYB" resolve="getDockerPath" />
+      <node concept="3Tm1VV" id="1RYr706_vEr" role="1B3o_S" />
+      <node concept="3clFbS" id="1RYr706_vEu" role="3clF47">
+        <node concept="3cpWs6" id="1RYr706_vYF" role="3cqZAp">
+          <node concept="BsUDl" id="1RYr706_vZ3" role="3cqZAk">
+            <ref role="37wK5l" node="5RQTS2osRA4" resolve="getPath" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1RYr706_vEv" role="3clF45" />
+    </node>
     <node concept="13i0hz" id="5RQTS2ot0mD" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
@@ -22454,6 +22469,20 @@
           <ref role="ehGHo" to="jrxw:7LvyiX3EFhY" resolve="StatementList" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1RYr706_uYs">
+    <ref role="13h7C2" to="jrxw:1RYr706_uYr" resolve="IHaveDockerPath" />
+    <node concept="13i0hz" id="1RYr706_uYB" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getDockerPath" />
+      <node concept="3Tm1VV" id="1RYr706_uYC" role="1B3o_S" />
+      <node concept="17QB3L" id="1RYr706_uYV" role="3clF45" />
+      <node concept="3clFbS" id="1RYr706_uYE" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="1RYr706_uYt" role="13h7CW">
+      <node concept="3clFbS" id="1RYr706_uYu" role="2VODD2" />
     </node>
   </node>
 </model>

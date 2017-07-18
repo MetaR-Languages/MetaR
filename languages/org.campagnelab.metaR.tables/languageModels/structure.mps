@@ -396,6 +396,9 @@
     <node concept="PrWs8" id="7B51G8WfHbG" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
+    <node concept="PrWs8" id="1RYr706_uZE" role="PzmwI">
+      <ref role="PrY4T" node="1RYr706_uYr" resolve="IHaveDockerPath" />
+    </node>
     <node concept="1TJgyj" id="2WRhvFtuQGF" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="table" />
@@ -6650,6 +6653,10 @@
   <node concept="PlHQZ" id="7lSaFvFzLlm">
     <property role="EcuMT" value="8464562469062251862" />
     <property role="TrG5h" value="IHandleScope" />
+  </node>
+  <node concept="PlHQZ" id="1RYr706_uYr">
+    <property role="EcuMT" value="2161284099587043227" />
+    <property role="TrG5h" value="IHaveDockerPath" />
   </node>
 </model>
 

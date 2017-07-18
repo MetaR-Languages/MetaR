@@ -102,6 +102,9 @@
     <node concept="PrWs8" id="2jGfOiyRCIB" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
+    <node concept="PrWs8" id="1RYr706GGYc" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:1RYr706_uYr" resolve="IHaveDockerPath" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX5yTa">
     <property role="EcuMT" value="4315879884704853578" />

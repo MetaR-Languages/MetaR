@@ -2649,6 +2649,29 @@
         <node concept="17QB3L" id="7lSaFvHCZEv" role="A3Ik2" />
       </node>
     </node>
+    <node concept="13i0hz" id="1RYr706GIik" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getDockerPath" />
+      <ref role="13i0hy" to="v8sa:1RYr706_uYB" resolve="getDockerPath" />
+      <node concept="3Tm1VV" id="1RYr706GIil" role="1B3o_S" />
+      <node concept="3clFbS" id="1RYr706GIio" role="3clF47">
+        <node concept="3cpWs6" id="1RYr706GJqx" role="3cqZAp">
+          <node concept="2OqwBi" id="1RYr706GKFC" role="3cqZAk">
+            <node concept="2OqwBi" id="1RYr706GJCd" role="2Oq$k0">
+              <node concept="13iPFW" id="1RYr706GJqS" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1RYr706GKcz" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:3J_5udXfdFL" resolve="seurat" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="1RYr706GLzo" role="2OqNvi">
+              <ref role="37wK5l" node="7lSaFvHDXN5" resolve="getPath" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1RYr706GIip" role="3clF45" />
+    </node>
     <node concept="13i0hz" id="7lSaFvHD3e2" role="13h7CS">
       <property role="TrG5h" value="devtoolsInstructions" />
       <property role="13i0it" value="false" />
