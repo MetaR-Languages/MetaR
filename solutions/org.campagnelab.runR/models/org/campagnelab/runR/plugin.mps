@@ -78,7 +78,6 @@
     <import index="yo81" ref="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" />
-    <import index="ibim" ref="r:0be688be-8412-4309-820a-dd5e19382f27(JustLog.logging)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
@@ -9047,7 +9046,7 @@
         </node>
         <node concept="3cpWs8" id="3zqZiqBLTg$" role="3cqZAp">
           <node concept="3cpWsn" id="3zqZiqBLTg_" role="3cpWs9">
-            <property role="TrG5h" value="inputTablePaths" />
+            <property role="TrG5h" value="inputDockerPaths" />
             <node concept="_YKpA" id="3zqZiqBLTgA" role="1tU5fm">
               <node concept="17QB3L" id="3zqZiqBLTgB" role="_ZDj9" />
             </node>
@@ -9410,7 +9409,7 @@
                   <node concept="3clFbF" id="3zqZiqBLTfD" role="3cqZAp">
                     <node concept="2OqwBi" id="3zqZiqBLTfE" role="3clFbG">
                       <node concept="37vLTw" id="3zqZiqBLTfF" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3zqZiqBLTg_" resolve="inputTablePaths" />
+                        <ref role="3cqZAo" node="3zqZiqBLTg_" resolve="inputDockerPaths" />
                       </node>
                       <node concept="X8dFx" id="3zqZiqBLTfG" role="2OqNvi">
                         <node concept="2OqwBi" id="1RYr706GOlg" role="25WWJ7">
@@ -9764,7 +9763,7 @@
                       <node concept="2LYoGL" id="3zqZiqBLTcN" role="2LYoGw">
                         <ref role="2LYoGK" node="7jqSt7yAP2J" resolve="inputTablePaths" />
                         <node concept="37vLTw" id="3zqZiqBLTcO" role="2LYoGN">
-                          <ref role="3cqZAo" node="3zqZiqBLTg_" resolve="inputTablePaths" />
+                          <ref role="3cqZAo" node="3zqZiqBLTg_" resolve="inputDockerPaths" />
                         </node>
                       </node>
                       <node concept="2LYoGL" id="3zqZiqBLTcP" role="2LYoGw">
