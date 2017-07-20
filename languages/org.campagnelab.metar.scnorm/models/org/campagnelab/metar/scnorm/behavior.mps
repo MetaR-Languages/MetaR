@@ -301,24 +301,24 @@
         <node concept="17QB3L" id="1vkgFx9ZiY" role="A3Ik2" />
       </node>
     </node>
-    <node concept="13i0hz" id="1vkgFxlWje" role="13h7CS">
-      <property role="TrG5h" value="dependencies" />
+    <node concept="13i0hz" id="7lSaFvHD$7H" role="13h7CS">
+      <property role="TrG5h" value="devtoolsPackageNames" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
-      <node concept="3Tm1VV" id="1vkgFxlWjf" role="1B3o_S" />
-      <node concept="3clFbS" id="1vkgFxlWjn" role="3clF47">
-        <node concept="3cpWs6" id="1vkgFxlWLO" role="3cqZAp">
-          <node concept="BsUDl" id="1vkgFxlWXP" role="3cqZAk">
+      <ref role="13i0hy" to="v8sa:2m5kVGMYQAC" resolve="devtoolsPackageNames" />
+      <node concept="3Tm1VV" id="7lSaFvHD$7I" role="1B3o_S" />
+      <node concept="3clFbS" id="7lSaFvHD$7Q" role="3clF47">
+        <node concept="3cpWs6" id="7lSaFvHD$c$" role="3cqZAp">
+          <node concept="BsUDl" id="7lSaFvHD$sq" role="3cqZAk">
             <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
-            <node concept="Xl_RD" id="1vkgFxlWYE" role="37wK5m">
+            <node concept="Xl_RD" id="7lSaFvHD$tf" role="37wK5m">
               <property role="Xl_RC" value="SCnorm" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="A3Dl8" id="1vkgFxlWjo" role="3clF45">
-        <node concept="17QB3L" id="1vkgFxlWjp" role="A3Ik2" />
+      <node concept="A3Dl8" id="7lSaFvHD$7R" role="3clF45">
+        <node concept="17QB3L" id="7lSaFvHD$7S" role="A3Ik2" />
       </node>
     </node>
     <node concept="13i0hz" id="3XyNzZWiPdJ" role="13h7CS">
