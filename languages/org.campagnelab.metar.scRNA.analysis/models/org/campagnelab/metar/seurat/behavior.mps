@@ -2532,12 +2532,12 @@
           <node concept="3cpWsn" id="7lSaFvHHtPl" role="3cpWs9">
             <property role="TrG5h" value="minGenes" />
             <node concept="3Tqbb2" id="7lSaFvHHtPm" role="1tU5fm">
-              <ref role="ehGHo" to="tpee:i2kUDXX" resolve="BinaryCompareOperation" />
+              <ref role="ehGHo" to="lznn:1RYr706I6cb" resolve="LessThanSeurat" />
             </node>
             <node concept="2ShNRf" id="7lSaFvHHtPn" role="33vP2m">
               <node concept="3zrR0B" id="7lSaFvHHtPo" role="2ShVmc">
                 <node concept="3Tqbb2" id="7lSaFvHHtPp" role="3zrR0E">
-                  <ref role="ehGHo" to="tpee:fJeOVwE" resolve="LessThanExpression" />
+                  <ref role="ehGHo" to="lznn:1RYr706I6cb" resolve="LessThanSeurat" />
                 </node>
               </node>
             </node>
@@ -2557,7 +2557,7 @@
                 <ref role="3cqZAo" node="7lSaFvHHtPl" resolve="minGenes" />
               </node>
               <node concept="3TrEf2" id="7lSaFvHHtPx" role="2OqNvi">
-                <ref role="3Tt5mk" to="tpee:fJuHU4s" resolve="leftExpression" />
+                <ref role="3Tt5mk" to="lznn:1RYr706I_y_" resolve="leftExpression" />
               </node>
             </node>
           </node>
@@ -2653,12 +2653,12 @@
           <node concept="3cpWsn" id="7lSaFvHGyrv" role="3cpWs9">
             <property role="TrG5h" value="minCells" />
             <node concept="3Tqbb2" id="7lSaFvHGyrq" role="1tU5fm">
-              <ref role="ehGHo" to="tpee:i2kUDXX" resolve="BinaryCompareOperation" />
+              <ref role="ehGHo" to="lznn:1RYr706I6cb" resolve="LessThanSeurat" />
             </node>
             <node concept="2ShNRf" id="7lSaFvHGyHk" role="33vP2m">
               <node concept="3zrR0B" id="7lSaFvHGzbc" role="2ShVmc">
                 <node concept="3Tqbb2" id="7lSaFvHGzbe" role="3zrR0E">
-                  <ref role="ehGHo" to="tpee:fJeOVwE" resolve="LessThanExpression" />
+                  <ref role="ehGHo" to="lznn:1RYr706I6cb" resolve="LessThanSeurat" />
                 </node>
               </node>
             </node>
@@ -2678,7 +2678,7 @@
                 <ref role="3cqZAo" node="7lSaFvHGyrv" resolve="minCells" />
               </node>
               <node concept="3TrEf2" id="7lSaFvHG$hI" role="2OqNvi">
-                <ref role="3Tt5mk" to="tpee:fJuHU4s" resolve="leftExpression" />
+                <ref role="3Tt5mk" to="lznn:1RYr706I_y_" resolve="leftExpression" />
               </node>
             </node>
           </node>
