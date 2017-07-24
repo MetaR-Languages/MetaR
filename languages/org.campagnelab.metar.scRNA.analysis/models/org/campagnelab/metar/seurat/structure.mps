@@ -953,9 +953,9 @@
   </node>
   <node concept="1TIwiD" id="1RYr706LXu8">
     <property role="EcuMT" value="2161284099590313864" />
-    <property role="TrG5h" value="DumpSeurat" />
+    <property role="TrG5h" value="DeleteSeurat" />
     <property role="3GE5qa" value="DumpOp" />
-    <property role="34LRSv" value="dump seurat" />
+    <property role="34LRSv" value="delete seurat" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="1RYr706LXu9" role="1TKVEi">
       <property role="IQ2ns" value="2161284099590313865" />
