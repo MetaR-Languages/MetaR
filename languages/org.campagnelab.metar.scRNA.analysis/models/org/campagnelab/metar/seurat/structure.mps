@@ -194,7 +194,7 @@
       <property role="IQ2ns" value="4315879884706354547" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="param" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="3J_5udXbhlM" resolve="IParamAddInfo" />
     </node>
     <node concept="1TJgyj" id="3J_5udXezfx" role="1TKVEi">
