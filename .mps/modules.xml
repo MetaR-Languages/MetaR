@@ -69,7 +69,6 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DocModels/DocModels.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/FullR/FullR.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/JustLog/JustLog.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/MetaR.Workshop/MetaR.Workshop.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/MetarReportError/MetarReportError.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ReorderColumns/ReorderColumns.msd" folder="" />
