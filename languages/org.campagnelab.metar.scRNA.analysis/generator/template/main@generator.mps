@@ -285,8 +285,8 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
@@ -498,7 +498,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="1RYr706LXuA" role="3acgRq">
-      <ref role="30HIoZ" to="lznn:1RYr706LXu8" resolve="DumpSeurat" />
+      <ref role="30HIoZ" to="lznn:1RYr706LXu8" resolve="DeleteSeurat" />
       <node concept="j$656" id="1RYr706LXv8" role="1lVwrX">
         <ref role="v9R2y" node="1RYr706LXv6" resolve="reduce_DumpSeurat" />
       </node>
@@ -796,9 +796,11 @@
                             <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                             <node concept="2OqwBi" id="7lSaFvHIGi7" role="37wK5m">
                               <node concept="1PxgMI" id="7lSaFvHIFgr" role="2Oq$k0">
-                                <ref role="1m5ApE" to="tpee:fzcmrck" resolve="IntegerConstant" />
                                 <node concept="37vLTw" id="71JQJG2kaoc" role="1m5AlR">
                                   <ref role="3cqZAo" node="71JQJG2jLVv" resolve="rightHandExpression" />
+                                </node>
+                                <node concept="chp4Y" id="4tSF6VCKPim" role="3oSUPX">
+                                  <ref role="cht4Q" to="tpee:fzcmrck" resolve="IntegerConstant" />
                                 </node>
                               </node>
                               <node concept="3TrcHB" id="7lSaFvHILxG" role="2OqNvi">
@@ -917,9 +919,11 @@
                             <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
                             <node concept="2OqwBi" id="7lSaFvHIPVF" role="37wK5m">
                               <node concept="1PxgMI" id="7lSaFvHIPVG" role="2Oq$k0">
-                                <ref role="1m5ApE" to="tpee:fzcmrck" resolve="IntegerConstant" />
                                 <node concept="37vLTw" id="71JQJG2kHd3" role="1m5AlR">
                                   <ref role="3cqZAo" node="71JQJG2kA0E" resolve="rightHandExpression" />
+                                </node>
+                                <node concept="chp4Y" id="4tSF6VCKPip" role="3oSUPX">
+                                  <ref role="cht4Q" to="tpee:fzcmrck" resolve="IntegerConstant" />
                                 </node>
                               </node>
                               <node concept="3TrcHB" id="7lSaFvHIPVS" role="2OqNvi">
@@ -1495,10 +1499,12 @@
                                     <node concept="2OqwBi" id="7lSaFvHN$8w" role="2Oq$k0">
                                       <node concept="2OqwBi" id="7lSaFvHNzcG" role="2Oq$k0">
                                         <node concept="1PxgMI" id="7lSaFvHNyDT" role="2Oq$k0">
-                                          <ref role="1m5ApE" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
                                           <node concept="2OqwBi" id="7lSaFvHNx8F" role="1m5AlR">
                                             <node concept="30H73N" id="7lSaFvHNwSa" role="2Oq$k0" />
                                             <node concept="1mfA1w" id="7lSaFvHNxsH" role="2OqNvi" />
+                                          </node>
+                                          <node concept="chp4Y" id="4tSF6VCKPit" role="3oSUPX">
+                                            <ref role="cht4Q" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
                                           </node>
                                         </node>
                                         <node concept="3TrEf2" id="7lSaFvHNz_b" role="2OqNvi">
@@ -1610,10 +1616,12 @@
                                           <node concept="2OqwBi" id="7lSaFvHNAzA" role="2Oq$k0">
                                             <node concept="2OqwBi" id="7lSaFvHNAzB" role="2Oq$k0">
                                               <node concept="1PxgMI" id="7lSaFvHNAzC" role="2Oq$k0">
-                                                <ref role="1m5ApE" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
                                                 <node concept="2OqwBi" id="7lSaFvHNAzD" role="1m5AlR">
                                                   <node concept="30H73N" id="7lSaFvHNAzE" role="2Oq$k0" />
                                                   <node concept="1mfA1w" id="7lSaFvHNAzF" role="2OqNvi" />
+                                                </node>
+                                                <node concept="chp4Y" id="4tSF6VCKPir" role="3oSUPX">
+                                                  <ref role="cht4Q" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
                                                 </node>
                                               </node>
                                               <node concept="3TrEf2" id="7lSaFvHNAzG" role="2OqNvi">
@@ -1839,10 +1847,12 @@
                   <node concept="3clFbF" id="5hNeoNocCu" role="3cqZAp">
                     <node concept="2OqwBi" id="5hNeoNocCv" role="3clFbG">
                       <node concept="1PxgMI" id="5hNeoNocCw" role="2Oq$k0">
-                        <ref role="1m5ApE" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
                         <node concept="2OqwBi" id="7lSaFvHNJMg" role="1m5AlR">
                           <node concept="30H73N" id="5hNeoNocCx" role="2Oq$k0" />
                           <node concept="1mfA1w" id="7lSaFvHNK2f" role="2OqNvi" />
+                        </node>
+                        <node concept="chp4Y" id="4tSF6VCKPij" role="3oSUPX">
+                          <ref role="cht4Q" to="lznn:3J_5udXcYrg" resolve="DiagnosticPlot" />
                         </node>
                       </node>
                       <node concept="2qgKlT" id="7lSaFvHNK$A" role="2OqNvi">
@@ -1979,15 +1989,19 @@
                             <node concept="3cpWs6" id="71JQJG2j0OV" role="3cqZAp">
                               <node concept="2OqwBi" id="71JQJG2iX6M" role="3cqZAk">
                                 <node concept="1PxgMI" id="71JQJG2iVX8" role="2Oq$k0">
-                                  <ref role="1m5ApE" to="lznn:3J_5udX8BnD" resolve="AbstractSeuratVariable" />
                                   <node concept="2OqwBi" id="71JQJG2iSuk" role="1m5AlR">
                                     <node concept="1PxgMI" id="71JQJG2iRm$" role="2Oq$k0">
-                                      <ref role="1m5ApE" to="lznn:1RYr706I6cb" resolve="LessThanSeurat" />
                                       <node concept="30H73N" id="71JQJG2iQ4b" role="1m5AlR" />
+                                      <node concept="chp4Y" id="4tSF6VCKPin" role="3oSUPX">
+                                        <ref role="cht4Q" to="lznn:1RYr706I6cb" resolve="LessThanSeurat" />
+                                      </node>
                                     </node>
                                     <node concept="3TrEf2" id="71JQJG2iTap" role="2OqNvi">
                                       <ref role="3Tt5mk" to="lznn:1RYr706I_y_" resolve="leftExpression" />
                                     </node>
+                                  </node>
+                                  <node concept="chp4Y" id="4tSF6VCKPio" role="3oSUPX">
+                                    <ref role="cht4Q" to="lznn:3J_5udX8BnD" resolve="AbstractSeuratVariable" />
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="71JQJG2iXVX" role="2OqNvi">
@@ -2010,15 +2024,19 @@
                             <node concept="3cpWs6" id="71JQJG2j24g" role="3cqZAp">
                               <node concept="2OqwBi" id="71JQJG2j24h" role="3cqZAk">
                                 <node concept="1PxgMI" id="71JQJG2j24i" role="2Oq$k0">
-                                  <ref role="1m5ApE" to="lznn:3J_5udX8BnD" resolve="AbstractSeuratVariable" />
                                   <node concept="2OqwBi" id="71JQJG2j24j" role="1m5AlR">
                                     <node concept="1PxgMI" id="71JQJG2j24k" role="2Oq$k0">
-                                      <ref role="1m5ApE" to="lznn:1RYr706I6cn" resolve="GreaterThanSeurat" />
                                       <node concept="30H73N" id="71JQJG2j24l" role="1m5AlR" />
+                                      <node concept="chp4Y" id="4tSF6VCKPil" role="3oSUPX">
+                                        <ref role="cht4Q" to="lznn:1RYr706I6cn" resolve="GreaterThanSeurat" />
+                                      </node>
                                     </node>
                                     <node concept="3TrEf2" id="71JQJG2j24m" role="2OqNvi">
                                       <ref role="3Tt5mk" to="lznn:1RYr706IBRv" resolve="leftExpression" />
                                     </node>
+                                  </node>
+                                  <node concept="chp4Y" id="4tSF6VCKPis" role="3oSUPX">
+                                    <ref role="cht4Q" to="lznn:3J_5udX8BnD" resolve="AbstractSeuratVariable" />
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="71JQJG2j24n" role="2OqNvi">
@@ -2098,9 +2116,11 @@
                                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                 <node concept="2OqwBi" id="7lSaFvHYC9z" role="37wK5m">
                                   <node concept="1PxgMI" id="7lSaFvHYC9$" role="2Oq$k0">
-                                    <ref role="1m5ApE" to="tpee:fzcmrck" resolve="IntegerConstant" />
                                     <node concept="37vLTw" id="71JQJG2jD7R" role="1m5AlR">
                                       <ref role="3cqZAo" node="71JQJG2jfRR" resolve="rightHandExpression" />
+                                    </node>
+                                    <node concept="chp4Y" id="4tSF6VCKPik" role="3oSUPX">
+                                      <ref role="cht4Q" to="tpee:fzcmrck" resolve="IntegerConstant" />
                                     </node>
                                   </node>
                                   <node concept="3TrcHB" id="7lSaFvHYC9C" role="2OqNvi">
@@ -2126,9 +2146,11 @@
                             <node concept="3cpWs6" id="7lSaFvHYC9L" role="3cqZAp">
                               <node concept="2OqwBi" id="7lSaFvHYC9M" role="3cqZAk">
                                 <node concept="1PxgMI" id="7lSaFvHYC9N" role="2Oq$k0">
-                                  <ref role="1m5ApE" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
                                   <node concept="37vLTw" id="71JQJG2jC7y" role="1m5AlR">
                                     <ref role="3cqZAo" node="71JQJG2jfRR" resolve="rightHandExpression" />
+                                  </node>
+                                  <node concept="chp4Y" id="4tSF6VCKPiq" role="3oSUPX">
+                                    <ref role="cht4Q" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
                                   </node>
                                 </node>
                                 <node concept="3TrcHB" id="7lSaFvHYC9R" role="2OqNvi">
@@ -5546,7 +5568,7 @@
   </node>
   <node concept="13MO4I" id="1RYr706LXv6">
     <property role="TrG5h" value="reduce_DumpSeurat" />
-    <ref role="3gUMe" to="lznn:1RYr706LXu8" resolve="DumpSeurat" />
+    <ref role="3gUMe" to="lznn:1RYr706LXu8" resolve="DeleteSeurat" />
     <node concept="13u1kU" id="1RYr706LXvo" role="13RCb5">
       <property role="1MXi1$" value="YIYYIVYPAN" />
       <node concept="2PZJp4" id="1RYr706LXvt" role="13u1kV">

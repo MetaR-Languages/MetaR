@@ -2,7 +2,7 @@
 <model ref="r:4d599325-db5a-493d-a122-1e2dc5c6b005(org.campagnelab.metar.seurat.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="2" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -88,7 +88,7 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
-      <concept id="1202989531578" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="nKS2y" />
+      <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
@@ -103,9 +103,9 @@
       <concept id="1152959968041" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter" flags="in" index="1LLf8_" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
+        <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
         <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
-        <child id="1213106463729" name="canBeChild" index="1MLUbF" />
       </concept>
       <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
         <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
@@ -283,30 +283,30 @@
   <node concept="1M2fIO" id="7lSaFvIhYgi">
     <property role="3GE5qa" value="PlotOp" />
     <ref role="1M2myG" to="lznn:7lSaFvIhTjz" resolve="PlotSeurat" />
-    <node concept="nKS2y" id="7lSaFvIhYgj" role="1MLUbF">
-      <node concept="3clFbS" id="7lSaFvIhYgk" role="2VODD2">
-        <node concept="3clFbJ" id="7lSaFvIhYns" role="3cqZAp">
-          <node concept="3fqX7Q" id="7lSaFvIhZow" role="3clFbw">
-            <node concept="2OqwBi" id="7lSaFvIhZoy" role="3fr31v">
-              <node concept="nLn13" id="7lSaFvIhZoz" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="7lSaFvIhZo$" role="2OqNvi">
-                <node concept="chp4Y" id="7lSaFvIhZo_" role="cj9EA">
+    <node concept="9S07l" id="7lSaFvIhYgj" role="9Vyp8">
+      <node concept="3clFbS" id="4tSF6VCKJj8" role="2VODD2">
+        <node concept="3clFbJ" id="4tSF6VCKJj9" role="3cqZAp">
+          <node concept="3fqX7Q" id="4tSF6VCKJja" role="3clFbw">
+            <node concept="2OqwBi" id="4tSF6VCKJjb" role="3fr31v">
+              <node concept="nLn13" id="4tSF6VCKJjc" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="4tSF6VCKJjd" role="2OqNvi">
+                <node concept="chp4Y" id="4tSF6VCKJje" role="cj9EA">
                   <ref role="cht4Q" to="lznn:7lSaFvHJwYb" resolve="IPlotInStatementWrapper" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3clFbS" id="7lSaFvIhYnu" role="3clFbx">
-            <node concept="3cpWs6" id="7lSaFvIhZyr" role="3cqZAp">
-              <node concept="3clFbT" id="7lSaFvIhZDH" role="3cqZAk">
+          <node concept="3clFbS" id="4tSF6VCKJjf" role="3clFbx">
+            <node concept="3cpWs6" id="4tSF6VCKJjg" role="3cqZAp">
+              <node concept="3clFbT" id="4tSF6VCKJjh" role="3cqZAk">
                 <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7lSaFvIhZL0" role="3cqZAp" />
-        <node concept="3cpWs6" id="7lSaFvIhZSF" role="3cqZAp">
-          <node concept="3clFbT" id="7lSaFvIi00g" role="3cqZAk">
+        <node concept="3clFbH" id="4tSF6VCKJji" role="3cqZAp" />
+        <node concept="3cpWs6" id="4tSF6VCKJjj" role="3cqZAp">
+          <node concept="3clFbT" id="4tSF6VCKJjk" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
@@ -316,33 +316,33 @@
   <node concept="1M2fIO" id="5ziAKRO4c6o">
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <ref role="1M2myG" to="lznn:3J_5udX8QXF" resolve="LogNormalizationStrategy" />
-    <node concept="nKS2y" id="5ziAKRO4c6p" role="1MLUbF">
-      <node concept="3clFbS" id="5ziAKRO4c6q" role="2VODD2">
-        <node concept="3SKdUt" id="5ziAKRO4iuF" role="3cqZAp">
-          <node concept="3SKdUq" id="5ziAKRO4iuH" role="3SKWNk">
+    <node concept="9S07l" id="5ziAKRO4c6p" role="9Vyp8">
+      <node concept="3clFbS" id="4tSF6VCKJiS" role="2VODD2">
+        <node concept="3SKdUt" id="4tSF6VCKJiT" role="3cqZAp">
+          <node concept="3SKdUq" id="4tSF6VCKJiU" role="3SKWNk">
             <property role="3SKdUp" value="This strategy is only for the initial cleanup!" />
           </node>
         </node>
-        <node concept="3clFbJ" id="5ziAKRO4cWk" role="3cqZAp">
-          <node concept="3fqX7Q" id="5ziAKRO4d3I" role="3clFbw">
-            <node concept="2OqwBi" id="5ziAKRO4dmC" role="3fr31v">
-              <node concept="nLn13" id="5ziAKRO4db9" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="5ziAKRO4dU9" role="2OqNvi">
-                <node concept="chp4Y" id="5ziAKRO4dYc" role="cj9EA">
+        <node concept="3clFbJ" id="4tSF6VCKJiV" role="3cqZAp">
+          <node concept="3fqX7Q" id="4tSF6VCKJiW" role="3clFbw">
+            <node concept="2OqwBi" id="4tSF6VCKJiX" role="3fr31v">
+              <node concept="nLn13" id="4tSF6VCKJiY" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="4tSF6VCKJiZ" role="2OqNvi">
+                <node concept="chp4Y" id="4tSF6VCKJj0" role="cj9EA">
                   <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3clFbS" id="5ziAKRO4cWm" role="3clFbx">
-            <node concept="3cpWs6" id="5ziAKRO4e9K" role="3cqZAp">
-              <node concept="3clFbT" id="5ziAKRO4eoa" role="3cqZAk" />
+          <node concept="3clFbS" id="4tSF6VCKJj1" role="3clFbx">
+            <node concept="3cpWs6" id="4tSF6VCKJj2" role="3cqZAp">
+              <node concept="3clFbT" id="4tSF6VCKJj3" role="3cqZAk" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5ziAKRO4eRJ" role="3cqZAp" />
-        <node concept="3cpWs6" id="5ziAKRO4eTb" role="3cqZAp">
-          <node concept="3clFbT" id="5ziAKRO4eU6" role="3cqZAk">
+        <node concept="3clFbH" id="4tSF6VCKJj4" role="3cqZAp" />
+        <node concept="3cpWs6" id="4tSF6VCKJj5" role="3cqZAp">
+          <node concept="3clFbT" id="4tSF6VCKJj6" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
@@ -352,63 +352,63 @@
   <node concept="1M2fIO" id="5ziAKRO4f1P">
     <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <ref role="1M2myG" to="lznn:3J_5udX8BnC" resolve="CellsGeneExpressed" />
-    <node concept="nKS2y" id="5ziAKRO4f1Q" role="1MLUbF">
-      <node concept="3clFbS" id="5ziAKRO4f1R" role="2VODD2">
-        <node concept="3SKdUt" id="5ziAKRO4iai" role="3cqZAp">
-          <node concept="3SKdUq" id="5ziAKRO4iak" role="3SKWNk">
+    <node concept="9S07l" id="5ziAKRO4f1Q" role="9Vyp8">
+      <node concept="3clFbS" id="4tSF6VCKJi7" role="2VODD2">
+        <node concept="3SKdUt" id="4tSF6VCKJi8" role="3cqZAp">
+          <node concept="3SKdUq" id="4tSF6VCKJi9" role="3SKWNk">
             <property role="3SKdUp" value="This variable is only for the initial cleanup!" />
           </node>
         </node>
-        <node concept="3clFbJ" id="5ziAKRO4f95" role="3cqZAp">
-          <node concept="2OqwBi" id="5ziAKRO4gAt" role="3clFbw">
-            <node concept="2OqwBi" id="5ziAKRO4frS" role="2Oq$k0">
-              <node concept="nLn13" id="5ziAKRO4fgv" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="5ziAKRO4fZj" role="2OqNvi">
-                <node concept="1xMEDy" id="5ziAKRO4fZl" role="1xVPHs">
-                  <node concept="chp4Y" id="5ziAKRO4gjj" role="ri$Ld">
+        <node concept="3clFbJ" id="4tSF6VCKJia" role="3cqZAp">
+          <node concept="2OqwBi" id="4tSF6VCKJib" role="3clFbw">
+            <node concept="2OqwBi" id="4tSF6VCKJic" role="2Oq$k0">
+              <node concept="nLn13" id="4tSF6VCKJid" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4tSF6VCKJie" role="2OqNvi">
+                <node concept="1xMEDy" id="4tSF6VCKJif" role="1xVPHs">
+                  <node concept="chp4Y" id="4tSF6VCKJig" role="ri$Ld">
                     <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
                   </node>
                 </node>
-                <node concept="1xIGOp" id="5ziAKRO4gai" role="1xVPHs" />
+                <node concept="1xIGOp" id="4tSF6VCKJih" role="1xVPHs" />
               </node>
             </node>
-            <node concept="3w_OXm" id="5ziAKRO4hd6" role="2OqNvi" />
+            <node concept="3w_OXm" id="4tSF6VCKJii" role="2OqNvi" />
           </node>
-          <node concept="3clFbS" id="5ziAKRO4f97" role="3clFbx">
-            <node concept="3cpWs6" id="5ziAKRO4hmE" role="3cqZAp">
-              <node concept="3clFbT" id="5ziAKRO4h_4" role="3cqZAk">
+          <node concept="3clFbS" id="4tSF6VCKJij" role="3clFbx">
+            <node concept="3cpWs6" id="4tSF6VCKJik" role="3cqZAp">
+              <node concept="3clFbT" id="4tSF6VCKJil" role="3cqZAk">
                 <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1RYr706LQAg" role="3cqZAp" />
-        <node concept="3clFbJ" id="1RYr706LQTG" role="3cqZAp">
-          <node concept="3clFbS" id="1RYr706LQTI" role="3clFbx">
-            <node concept="3cpWs6" id="1RYr706LTzk" role="3cqZAp">
-              <node concept="3clFbT" id="1RYr706LTF9" role="3cqZAk">
+        <node concept="3clFbH" id="4tSF6VCKJim" role="3cqZAp" />
+        <node concept="3clFbJ" id="4tSF6VCKJin" role="3cqZAp">
+          <node concept="3clFbS" id="4tSF6VCKJio" role="3clFbx">
+            <node concept="3cpWs6" id="4tSF6VCKJip" role="3cqZAp">
+              <node concept="3clFbT" id="4tSF6VCKJiq" role="3cqZAk">
                 <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="1RYr706LSVU" role="3clFbw">
-            <node concept="2OqwBi" id="1RYr706LRv0" role="2Oq$k0">
-              <node concept="nLn13" id="1RYr706LSF3" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="1RYr706LS7E" role="2OqNvi">
-                <node concept="1xMEDy" id="1RYr706LS7G" role="1xVPHs">
-                  <node concept="chp4Y" id="1RYr706LSdu" role="ri$Ld">
+          <node concept="2OqwBi" id="4tSF6VCKJir" role="3clFbw">
+            <node concept="2OqwBi" id="4tSF6VCKJis" role="2Oq$k0">
+              <node concept="nLn13" id="4tSF6VCKJit" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4tSF6VCKJiu" role="2OqNvi">
+                <node concept="1xMEDy" id="4tSF6VCKJiv" role="1xVPHs">
+                  <node concept="chp4Y" id="4tSF6VCKJiw" role="ri$Ld">
                     <ref role="cht4Q" to="lznn:3J_5udX8VC3" resolve="RejectCellStrategy" />
                   </node>
                 </node>
-                <node concept="1xIGOp" id="1RYr706LSxt" role="1xVPHs" />
+                <node concept="1xIGOp" id="4tSF6VCKJix" role="1xVPHs" />
               </node>
             </node>
-            <node concept="3x8VRR" id="1RYr706LTpH" role="2OqNvi" />
+            <node concept="3x8VRR" id="4tSF6VCKJiy" role="2OqNvi" />
           </node>
         </node>
-        <node concept="3clFbH" id="5ziAKRO4hGq" role="3cqZAp" />
-        <node concept="3cpWs6" id="5ziAKRO4hPs" role="3cqZAp">
-          <node concept="3clFbT" id="5ziAKRO4hUm" role="3cqZAk">
+        <node concept="3clFbH" id="4tSF6VCKJiz" role="3cqZAp" />
+        <node concept="3cpWs6" id="4tSF6VCKJi$" role="3cqZAp">
+          <node concept="3clFbT" id="4tSF6VCKJi_" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
@@ -418,39 +418,39 @@
   <node concept="1M2fIO" id="1GombsE_Wqm">
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <ref role="1M2myG" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
-    <node concept="nKS2y" id="1GombsE_Wqn" role="1MLUbF">
-      <node concept="3clFbS" id="1GombsE_Wqo" role="2VODD2">
-        <node concept="3SKdUt" id="1GombsE_WxA" role="3cqZAp">
-          <node concept="3SKdUq" id="1GombsE_WxB" role="3SKWNk">
+    <node concept="9S07l" id="1GombsE_Wqn" role="9Vyp8">
+      <node concept="3clFbS" id="4tSF6VCKJjS" role="2VODD2">
+        <node concept="3SKdUt" id="4tSF6VCKJjT" role="3cqZAp">
+          <node concept="3SKdUq" id="4tSF6VCKJjU" role="3SKWNk">
             <property role="3SKdUp" value="This strategy is only for the initial cleanup!" />
           </node>
         </node>
-        <node concept="3clFbJ" id="1GombsE_WxC" role="3cqZAp">
-          <node concept="2OqwBi" id="1GombsE_WxD" role="3clFbw">
-            <node concept="2OqwBi" id="1GombsE_WxE" role="2Oq$k0">
-              <node concept="nLn13" id="1GombsE_WxF" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="1GombsE_WxG" role="2OqNvi">
-                <node concept="1xMEDy" id="1GombsE_WxH" role="1xVPHs">
-                  <node concept="chp4Y" id="1GombsE_WxI" role="ri$Ld">
+        <node concept="3clFbJ" id="4tSF6VCKJjV" role="3cqZAp">
+          <node concept="2OqwBi" id="4tSF6VCKJjW" role="3clFbw">
+            <node concept="2OqwBi" id="4tSF6VCKJjX" role="2Oq$k0">
+              <node concept="nLn13" id="4tSF6VCKJjY" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4tSF6VCKJjZ" role="2OqNvi">
+                <node concept="1xMEDy" id="4tSF6VCKJk0" role="1xVPHs">
+                  <node concept="chp4Y" id="4tSF6VCKJk1" role="ri$Ld">
                     <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
                   </node>
                 </node>
-                <node concept="1xIGOp" id="1GombsE_WxJ" role="1xVPHs" />
+                <node concept="1xIGOp" id="4tSF6VCKJk2" role="1xVPHs" />
               </node>
             </node>
-            <node concept="3w_OXm" id="1GombsE_WxK" role="2OqNvi" />
+            <node concept="3w_OXm" id="4tSF6VCKJk3" role="2OqNvi" />
           </node>
-          <node concept="3clFbS" id="1GombsE_WxL" role="3clFbx">
-            <node concept="3cpWs6" id="1GombsE_WxM" role="3cqZAp">
-              <node concept="3clFbT" id="1GombsE_WxN" role="3cqZAk">
+          <node concept="3clFbS" id="4tSF6VCKJk4" role="3clFbx">
+            <node concept="3cpWs6" id="4tSF6VCKJk5" role="3cqZAp">
+              <node concept="3clFbT" id="4tSF6VCKJk6" role="3cqZAk">
                 <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1GombsE_WxO" role="3cqZAp" />
-        <node concept="3cpWs6" id="1GombsE_WxP" role="3cqZAp">
-          <node concept="3clFbT" id="1GombsE_WxQ" role="3cqZAk">
+        <node concept="3clFbH" id="4tSF6VCKJk7" role="3cqZAp" />
+        <node concept="3cpWs6" id="4tSF6VCKJk8" role="3cqZAp">
+          <node concept="3clFbT" id="4tSF6VCKJk9" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
@@ -460,34 +460,34 @@
   <node concept="1M2fIO" id="1RYr706LUyN">
     <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <ref role="1M2myG" to="lznn:3J_5udX8s92" resolve="GeneCountInCell" />
-    <node concept="nKS2y" id="1RYr706LUyO" role="1MLUbF">
-      <node concept="3clFbS" id="1RYr706LUyP" role="2VODD2">
-        <node concept="3clFbJ" id="1RYr706LUDX" role="3cqZAp">
-          <node concept="3clFbS" id="1RYr706LUDY" role="3clFbx">
-            <node concept="3cpWs6" id="1RYr706LUDZ" role="3cqZAp">
-              <node concept="3clFbT" id="1RYr706LUE0" role="3cqZAk">
+    <node concept="9S07l" id="1RYr706LUyO" role="9Vyp8">
+      <node concept="3clFbS" id="4tSF6VCKJjm" role="2VODD2">
+        <node concept="3clFbJ" id="4tSF6VCKJjn" role="3cqZAp">
+          <node concept="3clFbS" id="4tSF6VCKJjo" role="3clFbx">
+            <node concept="3cpWs6" id="4tSF6VCKJjp" role="3cqZAp">
+              <node concept="3clFbT" id="4tSF6VCKJjq" role="3cqZAk">
                 <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="1RYr706LUE1" role="3clFbw">
-            <node concept="2OqwBi" id="1RYr706LUE2" role="2Oq$k0">
-              <node concept="nLn13" id="1RYr706LUE3" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="1RYr706LUE4" role="2OqNvi">
-                <node concept="1xMEDy" id="1RYr706LUE5" role="1xVPHs">
-                  <node concept="chp4Y" id="1RYr706LVbF" role="ri$Ld">
+          <node concept="2OqwBi" id="4tSF6VCKJjr" role="3clFbw">
+            <node concept="2OqwBi" id="4tSF6VCKJjs" role="2Oq$k0">
+              <node concept="nLn13" id="4tSF6VCKJjt" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4tSF6VCKJju" role="2OqNvi">
+                <node concept="1xMEDy" id="4tSF6VCKJjv" role="1xVPHs">
+                  <node concept="chp4Y" id="4tSF6VCKJjw" role="ri$Ld">
                     <ref role="cht4Q" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
                   </node>
                 </node>
-                <node concept="1xIGOp" id="1RYr706LUE7" role="1xVPHs" />
+                <node concept="1xIGOp" id="4tSF6VCKJjx" role="1xVPHs" />
               </node>
             </node>
-            <node concept="3x8VRR" id="1RYr706LUE8" role="2OqNvi" />
+            <node concept="3x8VRR" id="4tSF6VCKJjy" role="2OqNvi" />
           </node>
         </node>
-        <node concept="3clFbH" id="1RYr706LUOG" role="3cqZAp" />
-        <node concept="3cpWs6" id="1RYr706LUWt" role="3cqZAp">
-          <node concept="3clFbT" id="1RYr706LV4e" role="3cqZAk">
+        <node concept="3clFbH" id="4tSF6VCKJjz" role="3cqZAp" />
+        <node concept="3cpWs6" id="4tSF6VCKJj$" role="3cqZAp">
+          <node concept="3clFbT" id="4tSF6VCKJj_" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
@@ -497,34 +497,34 @@
   <node concept="1M2fIO" id="1RYr706LVmp">
     <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <ref role="1M2myG" to="lznn:3J_5udXaa01" resolve="PercentageMitochondrialGenes" />
-    <node concept="nKS2y" id="1RYr706LVmq" role="1MLUbF">
-      <node concept="3clFbS" id="1RYr706LVmr" role="2VODD2">
-        <node concept="3clFbJ" id="1RYr706LVtz" role="3cqZAp">
-          <node concept="3clFbS" id="1RYr706LVt$" role="3clFbx">
-            <node concept="3cpWs6" id="1RYr706LVt_" role="3cqZAp">
-              <node concept="3clFbT" id="1RYr706LVtA" role="3cqZAk">
+    <node concept="9S07l" id="1RYr706LVmq" role="9Vyp8">
+      <node concept="3clFbS" id="4tSF6VCKJiB" role="2VODD2">
+        <node concept="3clFbJ" id="4tSF6VCKJiC" role="3cqZAp">
+          <node concept="3clFbS" id="4tSF6VCKJiD" role="3clFbx">
+            <node concept="3cpWs6" id="4tSF6VCKJiE" role="3cqZAp">
+              <node concept="3clFbT" id="4tSF6VCKJiF" role="3cqZAk">
                 <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="1RYr706LVtB" role="3clFbw">
-            <node concept="2OqwBi" id="1RYr706LVtC" role="2Oq$k0">
-              <node concept="nLn13" id="1RYr706LVtD" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="1RYr706LVtE" role="2OqNvi">
-                <node concept="1xMEDy" id="1RYr706LVtF" role="1xVPHs">
-                  <node concept="chp4Y" id="1RYr706LVtG" role="ri$Ld">
+          <node concept="2OqwBi" id="4tSF6VCKJiG" role="3clFbw">
+            <node concept="2OqwBi" id="4tSF6VCKJiH" role="2Oq$k0">
+              <node concept="nLn13" id="4tSF6VCKJiI" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4tSF6VCKJiJ" role="2OqNvi">
+                <node concept="1xMEDy" id="4tSF6VCKJiK" role="1xVPHs">
+                  <node concept="chp4Y" id="4tSF6VCKJiL" role="ri$Ld">
                     <ref role="cht4Q" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
                   </node>
                 </node>
-                <node concept="1xIGOp" id="1RYr706LVtH" role="1xVPHs" />
+                <node concept="1xIGOp" id="4tSF6VCKJiM" role="1xVPHs" />
               </node>
             </node>
-            <node concept="3x8VRR" id="1RYr706LVtI" role="2OqNvi" />
+            <node concept="3x8VRR" id="4tSF6VCKJiN" role="2OqNvi" />
           </node>
         </node>
-        <node concept="3clFbH" id="1RYr706LVtJ" role="3cqZAp" />
-        <node concept="3cpWs6" id="1RYr706LVtK" role="3cqZAp">
-          <node concept="3clFbT" id="1RYr706LVtL" role="3cqZAk">
+        <node concept="3clFbH" id="4tSF6VCKJiO" role="3cqZAp" />
+        <node concept="3cpWs6" id="4tSF6VCKJiP" role="3cqZAp">
+          <node concept="3clFbT" id="4tSF6VCKJiQ" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
@@ -534,34 +534,34 @@
   <node concept="1M2fIO" id="1RYr706LVCy">
     <property role="3GE5qa" value="CleanUpOp.SeuratVariables" />
     <ref role="1M2myG" to="lznn:3J_5udXakyK" resolve="nUMICountInCell" />
-    <node concept="nKS2y" id="1RYr706LVCz" role="1MLUbF">
-      <node concept="3clFbS" id="1RYr706LVC$" role="2VODD2">
-        <node concept="3clFbJ" id="1RYr706LVJG" role="3cqZAp">
-          <node concept="3clFbS" id="1RYr706LVJH" role="3clFbx">
-            <node concept="3cpWs6" id="1RYr706LVJI" role="3cqZAp">
-              <node concept="3clFbT" id="1RYr706LVJJ" role="3cqZAk">
+    <node concept="9S07l" id="1RYr706LVCz" role="9Vyp8">
+      <node concept="3clFbS" id="4tSF6VCKJjB" role="2VODD2">
+        <node concept="3clFbJ" id="4tSF6VCKJjC" role="3cqZAp">
+          <node concept="3clFbS" id="4tSF6VCKJjD" role="3clFbx">
+            <node concept="3cpWs6" id="4tSF6VCKJjE" role="3cqZAp">
+              <node concept="3clFbT" id="4tSF6VCKJjF" role="3cqZAk">
                 <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="1RYr706LVJK" role="3clFbw">
-            <node concept="2OqwBi" id="1RYr706LVJL" role="2Oq$k0">
-              <node concept="nLn13" id="1RYr706LVJM" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="1RYr706LVJN" role="2OqNvi">
-                <node concept="1xMEDy" id="1RYr706LVJO" role="1xVPHs">
-                  <node concept="chp4Y" id="1RYr706LVJP" role="ri$Ld">
+          <node concept="2OqwBi" id="4tSF6VCKJjG" role="3clFbw">
+            <node concept="2OqwBi" id="4tSF6VCKJjH" role="2Oq$k0">
+              <node concept="nLn13" id="4tSF6VCKJjI" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4tSF6VCKJjJ" role="2OqNvi">
+                <node concept="1xMEDy" id="4tSF6VCKJjK" role="1xVPHs">
+                  <node concept="chp4Y" id="4tSF6VCKJjL" role="ri$Ld">
                     <ref role="cht4Q" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
                   </node>
                 </node>
-                <node concept="1xIGOp" id="1RYr706LVJQ" role="1xVPHs" />
+                <node concept="1xIGOp" id="4tSF6VCKJjM" role="1xVPHs" />
               </node>
             </node>
-            <node concept="3x8VRR" id="1RYr706LVJR" role="2OqNvi" />
+            <node concept="3x8VRR" id="4tSF6VCKJjN" role="2OqNvi" />
           </node>
         </node>
-        <node concept="3clFbH" id="1RYr706LVJS" role="3cqZAp" />
-        <node concept="3cpWs6" id="1RYr706LVJT" role="3cqZAp">
-          <node concept="3clFbT" id="1RYr706LVJU" role="3cqZAk">
+        <node concept="3clFbH" id="4tSF6VCKJjO" role="3cqZAp" />
+        <node concept="3cpWs6" id="4tSF6VCKJjP" role="3cqZAp">
+          <node concept="3clFbT" id="4tSF6VCKJjQ" role="3cqZAk">
             <property role="3clFbU" value="true" />
           </node>
         </node>
