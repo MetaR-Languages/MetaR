@@ -32,6 +32,10 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1224071154655" name="jetbrains.mps.baseLanguage.structure.AsExpression" flags="nn" index="0kSF2">
+        <child id="1224071154657" name="classifierType" index="0kSFW" />
+        <child id="1224071154656" name="expression" index="0kSFX" />
+      </concept>
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -344,8 +348,13 @@
                   </node>
                   <node concept="liA8E" id="4Nea5gqGRZK" role="2OqNvi">
                     <ref role="37wK5l" to="trp3:4Nea5gqG_UT" resolve="setCell" />
-                    <node concept="1rXfSq" id="4tSF6VCYdkt" role="37wK5m">
-                      <ref role="37wK5l" to="qvne:6OQfiPCHBdf" resolve="getEditorContext" />
+                    <node concept="0kSF2" id="4tSF6VDgMFm" role="37wK5m">
+                      <node concept="3uibUv" id="4tSF6VDgMFp" role="0kSFW">
+                        <ref role="3uigEE" to="trp3:2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage" />
+                      </node>
+                      <node concept="1rXfSq" id="4tSF6VCYdkt" role="0kSFX">
+                        <ref role="37wK5l" to="qvne:6OQfiPCHBdf" resolve="getEditorContext" />
+                      </node>
                     </node>
                     <node concept="2OqwBi" id="7Sk5deAFCGu" role="37wK5m">
                       <node concept="2JrnkZ" id="7Sk5deAFCEA" role="2Oq$k0">
