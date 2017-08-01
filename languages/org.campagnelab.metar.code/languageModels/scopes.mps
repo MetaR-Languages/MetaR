@@ -217,14 +217,14 @@
                   <node concept="22lmx$" id="4682YupMqZt" role="1eOMHV">
                     <node concept="22lmx$" id="4682YupMqCp" role="3uHU7B">
                       <node concept="iy1fb" id="4682YupMmf6" role="3uHU7B">
-                        <ref role="iy1sa" to="jrxw:2rPl_HNzcA_" />
+                        <ref role="iy1sa" to="jrxw:2rPl_HNzcA_" resolve="x" />
                       </node>
                       <node concept="iy1fb" id="4682YupMqG6" role="3uHU7w">
-                        <ref role="iy1sa" to="jrxw:2rPl_HNzcD3" />
+                        <ref role="iy1sa" to="jrxw:2rPl_HNzcD3" resolve="y" />
                       </node>
                     </node>
                     <node concept="iy1fb" id="4682YupMr6e" role="3uHU7w">
-                      <ref role="iy1sa" to="jrxw:2rPl_HNzcDi" />
+                      <ref role="iy1sa" to="jrxw:2rPl_HNzcDi" resolve="groupBy" />
                     </node>
                   </node>
                 </node>
@@ -310,11 +310,11 @@
                                               <ref role="3cqZAo" node="4682YupMmeq" resolve="thiz" />
                                             </node>
                                             <node concept="3TrEf2" id="3BG_BmpmWgK" role="2OqNvi">
-                                              <ref role="3Tt5mk" to="jrxw:3R5AwWRZRj7" />
+                                              <ref role="3Tt5mk" to="jrxw:3R5AwWRZRj7" resolve="table" />
                                             </node>
                                           </node>
                                           <node concept="3TrEf2" id="3BG_BmpmX0w" role="2OqNvi">
-                                            <ref role="3Tt5mk" to="jrxw:3R5AwWRY9K7" />
+                                            <ref role="3Tt5mk" to="jrxw:3R5AwWRY9K7" resolve="table" />
                                           </node>
                                         </node>
                                         <node concept="3TrcHB" id="3BG_BmpmXsI" role="2OqNvi">
