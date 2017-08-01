@@ -156,6 +156,7 @@
       <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="334628810661441841" name="jetbrains.mps.lang.smodel.structure.AsSConcept" flags="nn" index="1rGIog" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -271,8 +272,11 @@
                             <node concept="37vLTw" id="2BHiRxglMHK" role="37wK5m">
                               <ref role="3cqZAo" node="2OXSMi_q55B" resolve="node" />
                             </node>
-                            <node concept="37vLTw" id="2BHiRxglIaR" role="37wK5m">
-                              <ref role="3cqZAo" node="2OXSMi_q9L3" resolve="kind" />
+                            <node concept="2OqwBi" id="4tSF6VCYjaI" role="37wK5m">
+                              <node concept="37vLTw" id="2BHiRxglIaR" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2OXSMi_q9L3" resolve="kind" />
+                              </node>
+                              <node concept="1rGIog" id="4tSF6VCYjHo" role="2OqNvi" />
                             </node>
                           </node>
                         </node>
