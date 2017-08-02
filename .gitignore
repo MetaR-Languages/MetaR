@@ -7,6 +7,8 @@
 #*/*/classes_gen/**/trace.info
 */*/classes_gen/**/*
 *.class
+build/*
+.DS_Store
 trace.info
 dependencies
 generated
