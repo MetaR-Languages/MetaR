@@ -1494,10 +1494,41 @@
       <node concept="3F0ifn" id="3443J8RaJvq" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
+      <node concept="3F0ifn" id="3443J8Rcx_K" role="3EZMnx">
+        <property role="3F0ifm" value="seurat:" />
+      </node>
       <node concept="3F1sOY" id="3443J8RaJvA" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3443J8RaFWs" resolve="mergedSeurat" />
       </node>
       <node concept="l2Vlx" id="3443J8RaJuR" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3443J8Rcxyz">
+    <property role="3GE5qa" value="AdjustingOp" />
+    <ref role="1XX52x" to="lznn:3443J8RcxkG" resolve="NormalizeSeurat" />
+    <node concept="3EZMnI" id="3443J8RcxyG" role="2wV5jI">
+      <node concept="PMmxH" id="3443J8RcxyN" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="3443J8RcxyS" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3443J8RcxkJ" resolve="seurat" />
+      </node>
+      <node concept="3F0ifn" id="3443J8RcHgt" role="3EZMnx">
+        <property role="3F0ifm" value="with scale factor" />
+      </node>
+      <node concept="3F0A7n" id="3443J8RcHgJ" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3443J8RcHgH" resolve="scaleFactor" />
+      </node>
+      <node concept="3F0ifn" id="3443J8Rcxz0" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F0ifn" id="3443J8Rcx_y" role="3EZMnx">
+        <property role="3F0ifm" value="seurat:" />
+      </node>
+      <node concept="3F1sOY" id="3443J8Rcxza" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3443J8Rcxyo" resolve="normSeurat" />
+      </node>
+      <node concept="2iRfu4" id="3443J8RcxyJ" role="2iSdaV" />
     </node>
   </node>
 </model>

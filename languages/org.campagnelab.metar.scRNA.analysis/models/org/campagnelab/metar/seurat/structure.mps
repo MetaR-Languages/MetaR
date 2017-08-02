@@ -997,5 +997,34 @@
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3443J8RcxkG">
+    <property role="EcuMT" value="3531964441236215084" />
+    <property role="TrG5h" value="NormalizeSeurat" />
+    <property role="3GE5qa" value="AdjustingOp" />
+    <property role="34LRSv" value="normalize seurat" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="3443J8RcxkJ" role="1TKVEi">
+      <property role="IQ2ns" value="3531964441236215087" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
+    <node concept="1TJgyj" id="3443J8Rcxyo" role="1TKVEi">
+      <property role="IQ2ns" value="3531964441236215960" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="normSeurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
+    </node>
+    <node concept="PrWs8" id="3443J8RcxkH" role="PzmwI">
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
+    </node>
+    <node concept="1TJgyi" id="3443J8RcHgH" role="1TKVEl">
+      <property role="IQ2nx" value="3531964441236263981" />
+      <property role="TrG5h" value="scaleFactor" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
 </model>
 

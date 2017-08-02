@@ -4565,10 +4565,15 @@
               <ref role="3cqZAo" node="3443J8RaFbr" resolve="children" />
             </node>
             <node concept="TSZUe" id="3443J8RaFb$" role="2OqNvi">
-              <node concept="2OqwBi" id="3443J8RaFb_" role="25WWJ7">
-                <node concept="13iPFW" id="3443J8RaFbA" role="2Oq$k0" />
-                <node concept="3TrEf2" id="3443J8RaGkC" role="2OqNvi">
-                  <ref role="3Tt5mk" to="lznn:3443J8RaFWs" resolve="mergedSeurat" />
+              <node concept="2OqwBi" id="3443J8Rc$_o" role="25WWJ7">
+                <node concept="2OqwBi" id="3443J8RaFb_" role="2Oq$k0">
+                  <node concept="13iPFW" id="3443J8RaFbA" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="3443J8RaGkC" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:3443J8RaFWs" resolve="mergedSeurat" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3443J8Rc_1_" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:3J_5udX8eUj" resolve="myOwnSeurat" />
                 </node>
               </node>
             </node>
@@ -4621,6 +4626,129 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3443J8Rcx_S">
+    <property role="3GE5qa" value="AdjustingOp" />
+    <ref role="13h7C2" to="lznn:3443J8RcxkG" resolve="Normalize" />
+    <node concept="13i0hz" id="3443J8RcxA3" role="13h7CS">
+      <property role="TrG5h" value="dependencies" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
+      <node concept="3Tm1VV" id="3443J8RcxA4" role="1B3o_S" />
+      <node concept="3clFbS" id="3443J8RcxA5" role="3clF47">
+        <node concept="3cpWs6" id="3443J8RcxA6" role="3cqZAp">
+          <node concept="2ShNRf" id="3443J8RcxA7" role="3cqZAk">
+            <node concept="Tc6Ow" id="3443J8RcxA8" role="2ShVmc">
+              <node concept="17QB3L" id="3443J8RcxA9" role="HW$YZ" />
+              <node concept="Xl_RD" id="3443J8RcxAa" role="HW$Y0">
+                <property role="Xl_RC" value="dplyr" />
+              </node>
+              <node concept="Xl_RD" id="3443J8RcxAb" role="HW$Y0">
+                <property role="Xl_RC" value="Matrix" />
+              </node>
+              <node concept="Xl_RD" id="3443J8RcxAc" role="HW$Y0">
+                <property role="Xl_RC" value="methods" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="3443J8RcxAd" role="3clF45">
+        <node concept="17QB3L" id="3443J8RcxAe" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="3443J8RcxAp" role="13h7CS">
+      <property role="TrG5h" value="devtoolsInstructions" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:1vkgFx9C2w" resolve="devtoolsInstructions" />
+      <node concept="3Tm1VV" id="3443J8RcxAq" role="1B3o_S" />
+      <node concept="3clFbS" id="3443J8RcxAr" role="3clF47">
+        <node concept="3cpWs6" id="3443J8RcxAs" role="3cqZAp">
+          <node concept="BsUDl" id="3443J8RcxAt" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="3443J8RcxAu" role="37wK5m">
+              <property role="Xl_RC" value="install_github(\&quot;satijalab/seurat\&quot;)" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="3443J8RcxAv" role="3clF45">
+        <node concept="17QB3L" id="3443J8RcxAw" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="3443J8RcxAx" role="13h7CS">
+      <property role="TrG5h" value="devtoolsPackageNames" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:2m5kVGMYQAC" resolve="devtoolsPackageNames" />
+      <node concept="3Tm1VV" id="3443J8RcxAy" role="1B3o_S" />
+      <node concept="3clFbS" id="3443J8RcxAz" role="3clF47">
+        <node concept="3cpWs6" id="3443J8RcxA$" role="3cqZAp">
+          <node concept="BsUDl" id="3443J8RcxA_" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="3443J8RcxAA" role="37wK5m">
+              <property role="Xl_RC" value="Seurat" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="3443J8RcxAB" role="3clF45">
+        <node concept="17QB3L" id="3443J8RcxAC" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="3443J8RcxAD" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getReferenceableChildren" />
+      <ref role="13i0hy" to="k6y1:15COMTn5xlU" resolve="getReferenceableChildren" />
+      <node concept="3Tm1VV" id="3443J8RcxAE" role="1B3o_S" />
+      <node concept="3clFbS" id="3443J8RcxAF" role="3clF47">
+        <node concept="3cpWs8" id="3443J8RcxAG" role="3cqZAp">
+          <node concept="3cpWsn" id="3443J8RcxAH" role="3cpWs9">
+            <property role="TrG5h" value="children" />
+            <node concept="2I9FWS" id="3443J8RcxAI" role="1tU5fm" />
+            <node concept="2ShNRf" id="3443J8RcxAJ" role="33vP2m">
+              <node concept="2T8Vx0" id="3443J8RcxAK" role="2ShVmc">
+                <node concept="2I9FWS" id="3443J8RcxAL" role="2T96Bj" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3443J8RcxAM" role="3cqZAp" />
+        <node concept="3clFbF" id="3443J8RcxAN" role="3cqZAp">
+          <node concept="2OqwBi" id="3443J8RcxAO" role="3clFbG">
+            <node concept="37vLTw" id="3443J8RcxAP" role="2Oq$k0">
+              <ref role="3cqZAo" node="3443J8RcxAH" resolve="children" />
+            </node>
+            <node concept="TSZUe" id="3443J8RcxAQ" role="2OqNvi">
+              <node concept="2OqwBi" id="3443J8RczoJ" role="25WWJ7">
+                <node concept="2OqwBi" id="3443J8RcxAR" role="2Oq$k0">
+                  <node concept="13iPFW" id="3443J8RcxAS" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="3443J8Rcyzw" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:3443J8Rcxyo" resolve="normSeurat" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3443J8RczTl" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:3J_5udX8eUj" resolve="myOwnSeurat" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3443J8RcxAU" role="3cqZAp" />
+        <node concept="3clFbF" id="3443J8RcxAV" role="3cqZAp">
+          <node concept="37vLTw" id="3443J8RcxAW" role="3clFbG">
+            <ref role="3cqZAo" node="3443J8RcxAH" resolve="children" />
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="3443J8RcxAX" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="3443J8Rcx_T" role="13h7CW">
+      <node concept="3clFbS" id="3443J8Rcx_U" role="2VODD2" />
     </node>
   </node>
 </model>
