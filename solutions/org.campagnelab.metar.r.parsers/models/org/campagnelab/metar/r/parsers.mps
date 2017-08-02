@@ -331,11 +331,14 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
+        <child id="5721587534047265375" name="throwable" index="9lYJj" />
+      </concept>
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167228628751" name="hasException" index="34fQS0" />
         <property id="1167245565795" name="severity" index="35gtTG" />
         <child id="1167227463056" name="logExpression" index="34bqiv" />
-        <child id="1167227561449" name="exception" index="34bMjA" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -470,9 +473,9 @@
             <node concept="3cpWs6" id="4TtYrYGuXmW" role="3cqZAp" />
           </node>
         </node>
-        <node concept="34ab3g" id="v1yTSnrLL3" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="Xl_RD" id="v1yTSnrLL5" role="34bqiv">
+        <node concept="2xdQw9" id="6RzCzFzxRAy" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="Xl_RD" id="v1yTSnrLL5" role="9lYJi">
             <property role="Xl_RC" value="Pasting clipboard text as R code" />
           </node>
         </node>
@@ -959,9 +962,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="34ab3g" id="14grA09HZ_x" role="3cqZAp">
-                  <property role="35gtTG" value="info" />
-                  <node concept="3cpWs3" id="14grA09I5eH" role="34bqiv">
+                <node concept="2xdQw9" id="6RzCzFzxMX2" role="3cqZAp">
+                  <property role="2xdLsb" value="info" />
+                  <node concept="3cpWs3" id="14grA09I5eH" role="9lYJi">
                     <node concept="3cpWs3" id="14grA09I0aY" role="3uHU7B">
                       <node concept="Xl_RD" id="14grA09HZ_z" role="3uHU7B">
                         <property role="Xl_RC" value="ParsedProgram contains " />
@@ -1083,13 +1086,12 @@
               </node>
               <node concept="TDmWw" id="v1yTSnr0$8" role="TEbGg">
                 <node concept="3clFbS" id="v1yTSnr0$9" role="TDEfX">
-                  <node concept="34ab3g" id="v1yTSnr0$a" role="3cqZAp">
-                    <property role="35gtTG" value="error" />
-                    <property role="34fQS0" value="true" />
-                    <node concept="Xl_RD" id="v1yTSnr0$b" role="34bqiv">
+                  <node concept="2xdQw9" id="6RzCzFzxMNp" role="3cqZAp">
+                    <property role="2xdLsb" value="error" />
+                    <node concept="Xl_RD" id="v1yTSnr0$b" role="9lYJi">
                       <property role="Xl_RC" value="Exception when visiting parse tree." />
                     </node>
-                    <node concept="37vLTw" id="v1yTSnr0$c" role="34bMjA">
+                    <node concept="37vLTw" id="v1yTSnr0$c" role="9lYJj">
                       <ref role="3cqZAo" node="v1yTSnr0$d" resolve="e" />
                     </node>
                   </node>
@@ -1106,13 +1108,12 @@
           </node>
           <node concept="TDmWw" id="v1yTSnr0$J" role="TEbGg">
             <node concept="3clFbS" id="v1yTSnr0$K" role="TDEfX">
-              <node concept="34ab3g" id="v1yTSnr0$L" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="v1yTSnr0$M" role="34bqiv">
+              <node concept="2xdQw9" id="6RzCzFzy0pV" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="v1yTSnr0$M" role="9lYJi">
                   <property role="Xl_RC" value="Unable to paste " />
                 </node>
-                <node concept="37vLTw" id="v1yTSnr0$N" role="34bMjA">
+                <node concept="37vLTw" id="v1yTSnr0$N" role="9lYJj">
                   <ref role="3cqZAo" node="v1yTSnr0$O" resolve="ioException" />
                 </node>
               </node>
@@ -1397,9 +1398,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="34ab3g" id="1eB_Fuh_8kp" role="3cqZAp">
-                  <property role="35gtTG" value="info" />
-                  <node concept="3cpWs3" id="1eB_Fuh_8kq" role="34bqiv">
+                <node concept="2xdQw9" id="6RzCzFzxP7X" role="3cqZAp">
+                  <property role="2xdLsb" value="info" />
+                  <node concept="3cpWs3" id="1eB_Fuh_8kq" role="9lYJi">
                     <node concept="3cpWs3" id="1eB_Fuh_8kr" role="3uHU7B">
                       <node concept="Xl_RD" id="1eB_Fuh_8ks" role="3uHU7B">
                         <property role="Xl_RC" value="ParsedProgram contains " />
@@ -1521,13 +1522,12 @@
               </node>
               <node concept="TDmWw" id="1eB_Fuh_8ld" role="TEbGg">
                 <node concept="3clFbS" id="1eB_Fuh_8le" role="TDEfX">
-                  <node concept="34ab3g" id="1eB_Fuh_8lf" role="3cqZAp">
-                    <property role="35gtTG" value="error" />
-                    <property role="34fQS0" value="true" />
-                    <node concept="Xl_RD" id="1eB_Fuh_8lg" role="34bqiv">
+                  <node concept="2xdQw9" id="6RzCzFzxOOx" role="3cqZAp">
+                    <property role="2xdLsb" value="error" />
+                    <node concept="Xl_RD" id="1eB_Fuh_8lg" role="9lYJi">
                       <property role="Xl_RC" value="Exception when visiting parse tree." />
                     </node>
-                    <node concept="37vLTw" id="1eB_Fuh_8lh" role="34bMjA">
+                    <node concept="37vLTw" id="1eB_Fuh_8lh" role="9lYJj">
                       <ref role="3cqZAo" node="1eB_Fuh_8li" resolve="e" />
                     </node>
                   </node>
@@ -1544,13 +1544,12 @@
           </node>
           <node concept="TDmWw" id="1eB_Fuh_8ll" role="TEbGg">
             <node concept="3clFbS" id="1eB_Fuh_8lm" role="TDEfX">
-              <node concept="34ab3g" id="1eB_Fuh_8ln" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="1eB_Fuh_8lo" role="34bqiv">
+              <node concept="2xdQw9" id="6RzCzFzxOXU" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="1eB_Fuh_8lo" role="9lYJi">
                   <property role="Xl_RC" value="Unable to paste " />
                 </node>
-                <node concept="37vLTw" id="1eB_Fuh_8lp" role="34bMjA">
+                <node concept="37vLTw" id="1eB_Fuh_8lp" role="9lYJj">
                   <ref role="3cqZAo" node="1eB_Fuh_8lq" resolve="ioException" />
                 </node>
               </node>
@@ -2460,13 +2459,12 @@
               </node>
               <node concept="TDmWw" id="1eB_Fuh_kVT" role="TEbGg">
                 <node concept="3clFbS" id="1eB_Fuh_kVU" role="TDEfX">
-                  <node concept="34ab3g" id="1eB_Fuh_kVV" role="3cqZAp">
-                    <property role="35gtTG" value="error" />
-                    <property role="34fQS0" value="true" />
-                    <node concept="Xl_RD" id="1eB_Fuh_kVW" role="34bqiv">
+                  <node concept="2xdQw9" id="6RzCzFzxRPh" role="3cqZAp">
+                    <property role="2xdLsb" value="error" />
+                    <node concept="Xl_RD" id="1eB_Fuh_kVW" role="9lYJi">
                       <property role="Xl_RC" value="Exception when visiting parse tree." />
                     </node>
-                    <node concept="37vLTw" id="1eB_Fuh_kVX" role="34bMjA">
+                    <node concept="37vLTw" id="1eB_Fuh_kVX" role="9lYJj">
                       <ref role="3cqZAo" node="1eB_Fuh_kVY" resolve="e" />
                     </node>
                   </node>
@@ -2608,13 +2606,12 @@
           </node>
           <node concept="TDmWw" id="v1yTSns1y$" role="TEbGg">
             <node concept="3clFbS" id="v1yTSns1y_" role="TDEfX">
-              <node concept="34ab3g" id="v1yTSns1yA" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="v1yTSns1yB" role="34bqiv">
+              <node concept="2xdQw9" id="6RzCzFzxRKj" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="v1yTSns1yB" role="9lYJi">
                   <property role="Xl_RC" value="PrintException: " />
                 </node>
-                <node concept="37vLTw" id="v1yTSns1yC" role="34bMjA">
+                <node concept="37vLTw" id="v1yTSns1yC" role="9lYJj">
                   <ref role="3cqZAo" node="v1yTSns1yD" resolve="e" />
                 </node>
               </node>
@@ -6923,13 +6920,12 @@
           </node>
           <node concept="TDmWw" id="4OlXQqAlz9L" role="TEbGg">
             <node concept="3clFbS" id="4OlXQqAlz9N" role="TDEfX">
-              <node concept="34ab3g" id="4OlXQqApSfx" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="4OlXQqApSfy" role="34bqiv">
+              <node concept="2xdQw9" id="6RzCzFzxMBE" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="4OlXQqApSfy" role="9lYJi">
                   <property role="Xl_RC" value="Exception when visiting parse tree." />
                 </node>
-                <node concept="37vLTw" id="4OlXQqApSfz" role="34bMjA">
+                <node concept="37vLTw" id="4OlXQqApSfz" role="9lYJj">
                   <ref role="3cqZAo" node="4OlXQqAlz9P" resolve="e" />
                 </node>
               </node>
