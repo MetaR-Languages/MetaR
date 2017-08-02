@@ -966,7 +966,7 @@
                 <node concept="34ab3g" id="_4GlRlFIuN" role="3cqZAp">
                   <property role="35gtTG" value="debug" />
                   <node concept="Xl_RD" id="_4GlRlFIuO" role="34bqiv">
-                    <property role="Xl_RC" value="FutureTableRef is not part of a FutureTableCreator statement" />
+                    <property role="Xl_RC" value="TableRef is not part of a FutureTableCreator statement" />
                   </node>
                 </node>
               </node>

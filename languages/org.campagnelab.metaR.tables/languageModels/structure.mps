@@ -340,6 +340,9 @@
     <node concept="1QGGSu" id="m2dhZuGNhm" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/table.png" />
     </node>
+    <node concept="PrWs8" id="3443J8R5kSK" role="PzmwI">
+      <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFto5F5">
     <property role="TrG5h" value="FutureTable" />

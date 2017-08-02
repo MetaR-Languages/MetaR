@@ -4033,7 +4033,16 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5ziAKROat1G" role="3cqZAp" />
+        <node concept="3SKdUt" id="3amEmmQVd5n" role="3cqZAp">
+          <node concept="3SKdUq" id="3amEmmQVd5p" role="3SKWNk">
+            <property role="3SKdUp" value="The order is importantthe name of this.table.myOwnTable" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3amEmmQVdtu" role="3cqZAp">
+          <node concept="3SKdUq" id="3amEmmQVdtw" role="3SKWNk">
+            <property role="3SKdUp" value="is set by the name of this.table when this.table.myOwnTable exists." />
+          </node>
+        </node>
         <node concept="3clFbF" id="7lSaFvFjT9I" role="3cqZAp">
           <node concept="37vLTI" id="7lSaFvFjVhB" role="3clFbG">
             <node concept="2ShNRf" id="7lSaFvFjVpy" role="37vLTx">
@@ -4056,7 +4065,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5ziAKROatjP" role="3cqZAp" />
         <node concept="3clFbF" id="7lSaFvFjO2Z" role="3cqZAp">
           <node concept="37vLTI" id="7lSaFvFjPQQ" role="3clFbG">
             <node concept="Xl_RD" id="7lSaFvFjPRd" role="37vLTx">
