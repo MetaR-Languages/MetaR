@@ -71,6 +71,9 @@
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
+        <property id="1113006610751" name="value" index="$nhwW" />
+      </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -3786,25 +3789,44 @@
                         <property role="2qtEX9" value="value" />
                         <node concept="3zFVjK" id="7lSaFvI143d" role="3zH0cK">
                           <node concept="3clFbS" id="7lSaFvI143e" role="2VODD2">
+                            <node concept="34ab3g" id="3443J8RdwCD" role="3cqZAp">
+                              <property role="35gtTG" value="info" />
+                              <node concept="3cpWs3" id="3443J8RdxUx" role="34bqiv">
+                                <node concept="2OqwBi" id="3443J8Rd$$x" role="3uHU7w">
+                                  <node concept="2OqwBi" id="3443J8RdyYS" role="2Oq$k0">
+                                    <node concept="30H73N" id="3443J8RdyoY" role="2Oq$k0" />
+                                    <node concept="3TrEf2" id="3443J8RdzA_" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="lznn:3J_5udXdSLb" resolve="param" />
+                                    </node>
+                                  </node>
+                                  <node concept="3TrcHB" id="3443J8Rd_Di" role="2OqNvi">
+                                    <ref role="3TsBF5" to="lznn:3J_5udXbEhP" resolve="percentage" />
+                                  </node>
+                                </node>
+                                <node concept="Xl_RD" id="3443J8RdwCF" role="3uHU7B">
+                                  <property role="Xl_RC" value="Percentage: " />
+                                </node>
+                              </node>
+                            </node>
                             <node concept="3clFbF" id="7lSaFvI14ij" role="3cqZAp">
                               <node concept="2YIFZM" id="6bALrFtXttA" role="3clFbG">
                                 <ref role="37wK5l" to="wyt6:~Double.toString(double):java.lang.String" resolve="toString" />
                                 <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                                 <node concept="FJ1c_" id="6bALrFtXqIt" role="37wK5m">
-                                  <node concept="3cmrfG" id="6bALrFu18iN" role="3uHU7w">
-                                    <property role="3cmrfH" value="100" />
+                                  <node concept="3b6qkQ" id="3443J8RdmwH" role="3uHU7w">
+                                    <property role="$nhwW" value="100." />
                                   </node>
-                                  <node concept="2YIFZM" id="6bALrFu163s" role="3uHU7B">
-                                    <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
-                                    <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
-                                    <node concept="2OqwBi" id="7lSaFvI16oD" role="37wK5m">
-                                      <node concept="2OqwBi" id="7lSaFvI14BG" role="2Oq$k0">
-                                        <node concept="30H73N" id="7lSaFvI14ii" role="2Oq$k0" />
-                                        <node concept="3TrEf2" id="7lSaFvI15K4" role="2OqNvi">
+                                  <node concept="2YIFZM" id="3443J8Rdlzf" role="3uHU7B">
+                                    <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
+                                    <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                                    <node concept="2OqwBi" id="3443J8Rdlzg" role="37wK5m">
+                                      <node concept="2OqwBi" id="3443J8Rdlzh" role="2Oq$k0">
+                                        <node concept="30H73N" id="3443J8Rdlzi" role="2Oq$k0" />
+                                        <node concept="3TrEf2" id="3443J8Rdlzj" role="2OqNvi">
                                           <ref role="3Tt5mk" to="lznn:3J_5udXdSLb" resolve="param" />
                                         </node>
                                       </node>
-                                      <node concept="3TrcHB" id="6bALrFu0T_Z" role="2OqNvi">
+                                      <node concept="3TrcHB" id="3443J8Rdlzk" role="2OqNvi">
                                         <ref role="3TsBF5" to="lznn:3J_5udXbEhP" resolve="percentage" />
                                       </node>
                                     </node>
