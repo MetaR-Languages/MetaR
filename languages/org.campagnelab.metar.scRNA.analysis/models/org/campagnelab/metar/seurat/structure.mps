@@ -81,7 +81,7 @@
     <node concept="1TJgyj" id="7lSaFvHEYKC" role="1TKVEi">
       <property role="IQ2ns" value="8464562469097696296" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="logNormalization" />
+      <property role="20kJfa" value="normalization" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="3J_5udX8QXF" resolve="LogNormalizationStrategy" />
     </node>

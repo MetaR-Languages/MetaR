@@ -953,7 +953,7 @@
                             <node concept="2OqwBi" id="6YbMqzwmIHh" role="2Oq$k0">
                               <node concept="30H73N" id="6YbMqzwmIrQ" role="2Oq$k0" />
                               <node concept="3TrEf2" id="6YbMqzwmJg$" role="2OqNvi">
-                                <ref role="3Tt5mk" to="lznn:7lSaFvHEYKC" resolve="logNormalization" />
+                                <ref role="3Tt5mk" to="lznn:7lSaFvHEYKC" resolve="normalization" />
                               </node>
                             </node>
                             <node concept="3x8VRR" id="6YbMqzwmKcc" role="2OqNvi" />
@@ -1000,7 +1000,7 @@
                                     <node concept="2OqwBi" id="7lSaFvHIwAV" role="2Oq$k0">
                                       <node concept="30H73N" id="7lSaFvHIwmZ" role="2Oq$k0" />
                                       <node concept="3TrEf2" id="7lSaFvHIwUo" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="lznn:7lSaFvHEYKC" resolve="logNormalization" />
+                                        <ref role="3Tt5mk" to="lznn:7lSaFvHEYKC" resolve="normalization" />
                                       </node>
                                     </node>
                                     <node concept="3TrcHB" id="7lSaFvHIxOx" role="2OqNvi">
@@ -1014,7 +1014,7 @@
                               <node concept="2OqwBi" id="6YbMqzwmMCi" role="2Oq$k0">
                                 <node concept="30H73N" id="6YbMqzwmMlM" role="2Oq$k0" />
                                 <node concept="3TrEf2" id="6YbMqzwmNhp" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="lznn:7lSaFvHEYKC" resolve="logNormalization" />
+                                  <ref role="3Tt5mk" to="lznn:7lSaFvHEYKC" resolve="normalization" />
                                 </node>
                               </node>
                               <node concept="3x8VRR" id="6YbMqzwmOCv" role="2OqNvi" />
@@ -1244,7 +1244,7 @@
                             <property role="1MXi1$" value="APLGTAYPPS" />
                             <node concept="2PZJpp" id="3J_5udX2e8t" role="3fnAI_">
                               <property role="1MXi1$" value="WMTFRHHURL" />
-                              <property role="TrG5h" value="data" />
+                              <property role="TrG5h" value="raw.data" />
                             </node>
                             <node concept="gNbv0" id="3J_5udX2e8u" role="3fnAIB">
                               <property role="1MXi1$" value="XOVIKKAYFA" />

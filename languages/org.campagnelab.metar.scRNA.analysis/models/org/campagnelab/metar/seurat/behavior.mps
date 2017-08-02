@@ -2721,47 +2721,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7lSaFvHHtAz" role="3cqZAp" />
-        <node concept="3SKdUt" id="1GombsE_VAS" role="3cqZAp">
-          <node concept="3SKdUq" id="1GombsE_VAU" role="3SKWNk">
-            <property role="3SKdUp" value="Log normalization" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHHwkG" role="3cqZAp">
-          <node concept="37vLTI" id="7lSaFvHHxS_" role="3clFbG">
-            <node concept="2ShNRf" id="7lSaFvHHxXk" role="37vLTx">
-              <node concept="3zrR0B" id="7lSaFvHHxXi" role="2ShVmc">
-                <node concept="3Tqbb2" id="7lSaFvHHxXj" role="3zrR0E">
-                  <ref role="ehGHo" to="lznn:3J_5udX8QXF" resolve="LogNormalizationStrategy" />
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="7lSaFvHHwIP" role="37vLTJ">
-              <node concept="13iPFW" id="7lSaFvHHwkE" role="2Oq$k0" />
-              <node concept="3TrEf2" id="7lSaFvHHxkZ" role="2OqNvi">
-                <ref role="3Tt5mk" to="lznn:7lSaFvHEYKC" resolve="logNormalization" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7lSaFvHHyLP" role="3cqZAp">
-          <node concept="37vLTI" id="7lSaFvHHAtA" role="3clFbG">
-            <node concept="2OqwBi" id="7lSaFvHH$wd" role="37vLTJ">
-              <node concept="2OqwBi" id="7lSaFvHHzcw" role="2Oq$k0">
-                <node concept="13iPFW" id="7lSaFvHHyLN" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7lSaFvHH$7j" role="2OqNvi">
-                  <ref role="3Tt5mk" to="lznn:7lSaFvHEYKC" resolve="logNormalization" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7lSaFvHH$IT" role="2OqNvi">
-                <ref role="3TsBF5" to="lznn:3J_5udXaECg" resolve="scaleFactor" />
-              </node>
-            </node>
-            <node concept="3cmrfG" id="7lSaFvHHBo0" role="37vLTx">
-              <property role="3cmrfH" value="10000" />
-            </node>
-          </node>
-        </node>
       </node>
     </node>
     <node concept="13i0hz" id="7lSaFvHCZEk" role="13h7CS">
