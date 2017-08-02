@@ -68,7 +68,7 @@
     <property role="EcuMT" value="4315879884704146260" />
     <property role="TrG5h" value="ImportSeurat" />
     <property role="R4oN_" value="Load scRNA-seq dataset from 10X Genomics" />
-    <property role="3GE5qa" value="ImportOp" />
+    <property role="3GE5qa" value="LoadOp" />
     <property role="34LRSv" value="load 10X dataset" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="3J_5udXfdFL" role="1TKVEi">
@@ -963,6 +963,38 @@
       <property role="20kJfa" value="seurat" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3443J8RaFaw">
+    <property role="EcuMT" value="3531964441235731104" />
+    <property role="TrG5h" value="MergeSeurat" />
+    <property role="34LRSv" value="merge seurat objects" />
+    <property role="R4oN_" value="Merges the data of two seurat objects by genes" />
+    <property role="3GE5qa" value="LoadOp" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="3443J8RaFWk" role="1TKVEi">
+      <property role="IQ2ns" value="3531964441235734292" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat1" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
+    <node concept="1TJgyj" id="3443J8RaFWm" role="1TKVEi">
+      <property role="IQ2ns" value="3531964441235734294" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat2" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
+    <node concept="1TJgyj" id="3443J8RaFWs" role="1TKVEi">
+      <property role="IQ2ns" value="3531964441235734300" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="mergedSeurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
+    </node>
+    <node concept="PrWs8" id="3443J8RaFa$" role="PzmwI">
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
   </node>
 </model>
