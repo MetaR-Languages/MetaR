@@ -881,6 +881,52 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3IlsykPz14V" role="3cqZAp">
+          <node concept="37vLTI" id="3IlsykPz5T_" role="3clFbG">
+            <node concept="3cmrfG" id="3IlsykPz63m" role="37vLTx">
+              <property role="3cmrfH" value="600" />
+            </node>
+            <node concept="2OqwBi" id="3IlsykPz3Cc" role="37vLTJ">
+              <node concept="2OqwBi" id="3IlsykPz2z2" role="2Oq$k0">
+                <node concept="2OqwBi" id="3IlsykPz1im" role="2Oq$k0">
+                  <node concept="13iPFW" id="3IlsykPz14T" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="3IlsykPz1Zz" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:6bALrFtYJyn" resolve="plotWrapper" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3IlsykPz2QZ" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3IlsykPz4c0" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:7LvyiX3UF5_" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3IlsykPz6mb" role="3cqZAp">
+          <node concept="37vLTI" id="3IlsykPzbHS" role="3clFbG">
+            <node concept="3cmrfG" id="3IlsykPzbI$" role="37vLTx">
+              <property role="3cmrfH" value="400" />
+            </node>
+            <node concept="2OqwBi" id="3IlsykPz8Ul" role="37vLTJ">
+              <node concept="2OqwBi" id="3IlsykPz8aC" role="2Oq$k0">
+                <node concept="2OqwBi" id="3IlsykPz6YG" role="2Oq$k0">
+                  <node concept="13iPFW" id="3IlsykPz6m9" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="3IlsykPz7D7" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:6bALrFtYJyn" resolve="plotWrapper" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3IlsykPz8rD" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3IlsykPza0j" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:7LvyiX3UF8B" resolve="height" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="13i0hz" id="6cuwE$idtcv" role="13h7CS">
