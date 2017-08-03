@@ -81,8 +81,17 @@
       </concept>
       <concept id="4315879884705658344" name="org.campagnelab.metar.seurat.structure.CellsGeneExpressed" flags="ng" index="16LQ0b" />
       <concept id="4315879884706105520" name="org.campagnelab.metar.seurat.structure.nUMICountInCell" flags="ng" index="16N5Pj" />
-      <concept id="4315879884706145104" name="org.campagnelab.metar.seurat.structure.AcceptHighVarGenesStrategy" flags="ng" index="16NfqN" />
+      <concept id="4315879884706151731" name="org.campagnelab.metar.seurat.structure.XLowCutOff" flags="ng" index="16Nezg" />
+      <concept id="4315879884706145104" name="org.campagnelab.metar.seurat.structure.AcceptHighVarGenesStrategy" flags="ng" index="16NfqN">
+        <child id="4315879884706259433" name="varMeanPars" index="16NFga" />
+      </concept>
       <concept id="4315879884706062337" name="org.campagnelab.metar.seurat.structure.PercentageMitochondrialGenes" flags="ng" index="16Nrny" />
+      <concept id="4315879884706259424" name="org.campagnelab.metar.seurat.structure.IVarMean" flags="ng" index="16NFg3">
+        <property id="4315879884706259466" name="threshold" index="16NFvD" />
+      </concept>
+      <concept id="4315879884706189034" name="org.campagnelab.metar.seurat.structure.YLowCutOff" flags="ng" index="16NTG9" />
+      <concept id="4315879884706189033" name="org.campagnelab.metar.seurat.structure.YHighCutOff" flags="ng" index="16NTGa" />
+      <concept id="4315879884706189032" name="org.campagnelab.metar.seurat.structure.XHighCutOff" flags="ng" index="16NTGb" />
       <concept id="4315879884706801360" name="org.campagnelab.metar.seurat.structure.DiagnosticPlot" flags="ng" index="16PJcN" />
       <concept id="4315879884704146260" name="org.campagnelab.metar.seurat.structure.ImportSeurat" flags="ng" index="16VBqR">
         <child id="8464562469097697999" name="rejectedCells" index="2oOXxS" />
@@ -461,7 +470,20 @@
             <property role="TrG5h" value="P1dAvgExp" />
           </node>
         </node>
-        <node concept="16NfqN" id="3IlsykPx67j" role="16L4Y_" />
+        <node concept="16NfqN" id="3IlsykPx67j" role="16L4Y_">
+          <node concept="16Nezg" id="3IlsykPxDEm" role="16NFga">
+            <property role="16NFvD" value="0.2" />
+          </node>
+          <node concept="16NTGb" id="3IlsykPxDEv" role="16NFga">
+            <property role="16NFvD" value="3" />
+          </node>
+          <node concept="16NTG9" id="3IlsykPxDEE" role="16NFga">
+            <property role="16NFvD" value="0.1" />
+          </node>
+          <node concept="16NTGa" id="3IlsykPxDER" role="16NFga">
+            <property role="16NFvD" value="10" />
+          </node>
+        </node>
         <node concept="16LEZ_" id="3IlsykPx6ol" role="16L4Y_">
           <node concept="16Ldux" id="3IlsykPx6oq" role="16NvS4" />
           <node concept="16Nrny" id="3IlsykPx6oy" role="16NvS4" />
@@ -472,6 +494,24 @@
       </node>
       <node concept="S1EQe" id="3IlsykPx5T9" role="ZXjPg">
         <property role="1MXi1$" value="YETQFGUGGS" />
+      </node>
+      <node concept="313sG1" id="3IlsykPxDLy" role="ZXjPg">
+        <property role="1MXi1$" value="JDAQRYVVDN" />
+        <property role="313rra" value="1" />
+        <property role="313rrk" value="1" />
+        <node concept="1FHg$p" id="3IlsykPxDLz" role="319mBM">
+          <property role="ZHjxa" value="200" />
+          <property role="ZHjG8" value="200" />
+          <property role="3ZMXzF" value="1" />
+          <property role="TrG5h" value="DispersionMP" />
+        </node>
+        <node concept="31becx" id="3IlsykPxDOz" role="312phR">
+          <property role="1MXi1$" value="FKMRRIOAKY" />
+          <ref role="312p7B" node="3IlsykPx5Y_" resolve="P1dAvgExp" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="3IlsykPxDFD" role="ZXjPg">
+        <property role="1MXi1$" value="HTHGPEJKIO" />
       </node>
       <node concept="16VBqR" id="3443J8R8VTi" role="ZXjPg">
         <property role="1MXi1$" value="GJXHNGTDAA" />

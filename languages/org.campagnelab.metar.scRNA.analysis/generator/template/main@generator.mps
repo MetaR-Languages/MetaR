@@ -2448,7 +2448,7 @@
                     <property role="1MXi1$" value="FLKJIBFXXC" />
                     <node concept="2PZJpp" id="3J_5udX2gx2" role="134Gdo">
                       <property role="1MXi1$" value="MIHLCBOMPQ" />
-                      <property role="TrG5h" value="MeanVarPlot" />
+                      <property role="TrG5h" value="FindVariableGenes" />
                     </node>
                     <node concept="gNbv0" id="3J_5udX2gx3" role="134Gdu">
                       <property role="1MXi1$" value="FTOFMHWXGU" />
@@ -2476,18 +2476,18 @@
                       </node>
                       <node concept="V6WaX" id="3J_5udX2gx8" role="gNbrm">
                         <property role="1MXi1$" value="PICMIMDCRV" />
-                        <property role="gNbhX" value="fxn.x" />
+                        <property role="gNbhX" value="mean.function" />
                         <node concept="2PZJpp" id="3J_5udX2gxb" role="gNbhV">
                           <property role="1MXi1$" value="DOABONVICC" />
-                          <property role="TrG5h" value="expMean" />
+                          <property role="TrG5h" value="ExpMean" />
                         </node>
                       </node>
                       <node concept="V6WaX" id="3J_5udX2gxc" role="gNbrm">
                         <property role="1MXi1$" value="QDVNPFJLPC" />
-                        <property role="gNbhX" value="fxn.y" />
+                        <property role="gNbhX" value="dispersion.function" />
                         <node concept="2PZJpp" id="3J_5udX2gxf" role="gNbhV">
                           <property role="1MXi1$" value="LPTEJEXDRT" />
-                          <property role="TrG5h" value="logVarDivMean" />
+                          <property role="TrG5h" value="LogVMR" />
                         </node>
                       </node>
                       <node concept="V6WaX" id="3J_5udX2gxs" role="gNbrm">
