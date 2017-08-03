@@ -37,6 +37,10 @@
         <child id="3531964441236215960" name="normSeurat" index="6dxpE" />
         <child id="3531964441236215087" name="seurat" index="6dxJt" />
       </concept>
+      <concept id="4293463323905010804" name="org.campagnelab.metar.seurat.structure.ScaleSeurat" flags="ng" index="e4XTh">
+        <child id="4293463323905010807" name="seurat" index="e4XTi" />
+        <child id="4293463323905010809" name="scaledSeurat" index="e4XTs" />
+      </concept>
       <concept id="8464562469099465226" name="org.campagnelab.metar.seurat.structure.PlotInStatementWrapper" flags="ng" index="2oJG2X" />
       <concept id="8464562469098885003" name="org.campagnelab.metar.seurat.structure.IPlotInStatementWrapper" flags="ng" index="2oLykW">
         <property id="1952407982181128806" name="withDescription" index="L$Obh" />
@@ -513,6 +517,19 @@
       </node>
       <node concept="S1EQe" id="3IlsykPxDFD" role="ZXjPg">
         <property role="1MXi1$" value="HTHGPEJKIO" />
+      </node>
+      <node concept="e4XTh" id="3IlsykRmIjH" role="ZXjPg">
+        <property role="1MXi1$" value="RHLRYFGTES" />
+        <node concept="1LcaPl" id="3IlsykRmIjJ" role="e4XTi" />
+        <node concept="16WNID" id="3IlsykRmIjL" role="e4XTs">
+          <property role="16WVSt" value="false" />
+          <property role="16WMxv" value="false" />
+          <property role="16WMwy" value="false" />
+          <property role="16WMwA" value="false" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="3IlsykRmIdG" role="ZXjPg">
+        <property role="1MXi1$" value="FXRPEFNHHL" />
       </node>
       <node concept="16VBqR" id="3443J8R8VTi" role="ZXjPg">
         <property role="1MXi1$" value="GJXHNGTDAA" />

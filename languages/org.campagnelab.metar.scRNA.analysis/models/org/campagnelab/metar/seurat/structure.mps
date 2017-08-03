@@ -1047,7 +1047,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="scaledSeurat" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
+      <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
     </node>
   </node>
 </model>
