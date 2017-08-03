@@ -1531,5 +1531,27 @@
       <node concept="2iRfu4" id="3443J8RcxyJ" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="3IlsykPxEM4">
+    <property role="3GE5qa" value="AdjustingOp" />
+    <ref role="1XX52x" to="lznn:3IlsykPxELO" resolve="ScaleSeurat" />
+    <node concept="3EZMnI" id="3IlsykPxEM6" role="2wV5jI">
+      <node concept="PMmxH" id="3IlsykPxEMd" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="3IlsykPxEMi" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3IlsykPxELR" resolve="seurat" />
+      </node>
+      <node concept="3F0ifn" id="3IlsykPxEMq" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F0ifn" id="3IlsykPxFkY" role="3EZMnx">
+        <property role="3F0ifm" value="seurat:" />
+      </node>
+      <node concept="3F1sOY" id="3IlsykPxFla" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3IlsykPxELT" resolve="scaledSeurat" />
+      </node>
+      <node concept="2iRfu4" id="3IlsykPxEM9" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

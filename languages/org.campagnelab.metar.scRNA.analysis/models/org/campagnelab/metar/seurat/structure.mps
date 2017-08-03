@@ -1026,5 +1026,29 @@
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3IlsykPxELO">
+    <property role="EcuMT" value="4293463323905010804" />
+    <property role="3GE5qa" value="AdjustingOp" />
+    <property role="TrG5h" value="ScaleSeurat" />
+    <property role="34LRSv" value="scale seurat" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="3IlsykPxELP" role="PzmwI">
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
+    </node>
+    <node concept="1TJgyj" id="3IlsykPxELR" role="1TKVEi">
+      <property role="IQ2ns" value="4293463323905010807" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
+    <node concept="1TJgyj" id="3IlsykPxELT" role="1TKVEi">
+      <property role="IQ2ns" value="4293463323905010809" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="scaledSeurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
+    </node>
+  </node>
 </model>
 
