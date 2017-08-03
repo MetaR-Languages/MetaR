@@ -110,17 +110,23 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8464562469097656531(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d0b6354L, 0x3be515e37d3cdaf1L, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
+  public static Object propertyMacro_GetPropertyValue_4293463323935305410(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323935305426(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d33e6d0L, "org.campagnelab.metar.seurat.structure.DiagnosticPlot")), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  }
   public static Object propertyMacro_GetPropertyValue_8464562469099357043(final PropertyMacroContext _context) {
     return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_8464562469099932653(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d33e6d0L, "org.campagnelab.metar.seurat.structure.DiagnosticPlot")), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  public static Object propertyMacro_GetPropertyValue_4293463323935374519(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_8464562469099351528(final PropertyMacroContext _context) {
     return SEnumOperations.getEnumMemberName(SEnumOperations.enumMemberForValue(SEnumOperations.getEnum("r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)", "DiagnosticPlotsEnum"), "" + SNodeOperations.getIndexInParent(_context.getNode())));
   }
-  public static Object propertyMacro_GetPropertyValue_8464562469099955911(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d33e6d0L, "org.campagnelab.metar.seurat.structure.DiagnosticPlot")), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  public static Object propertyMacro_GetPropertyValue_4293463323935387460(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_8464562469099351557(final PropertyMacroContext _context) {
     return SEnumOperations.getEnumMemberName(SEnumOperations.enumMemberForValue(SEnumOperations.getEnum("r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)", "DiagnosticPlotsEnum"), "" + SNodeOperations.getIndexInParent(_context.getNode()))).split("_")[0];
@@ -198,14 +204,23 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8464562469102614466(final PropertyMacroContext _context) {
     return (String) INameInR__BehaviorDescriptor.nameInR_id7lSaFvHPGCx.invoke(_context.getNode());
   }
-  public static Object propertyMacro_GetPropertyValue_7126600866739337679(final PropertyMacroContext _context) {
-    return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ICleanupSeuratGenHelpers.getPlotWraper(_context.getNode()), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
-  }
   public static Object propertyMacro_GetPropertyValue_8464562469102491101(final PropertyMacroContext _context) {
     return ICleanupSeuratGenHelpers.nameOfDest(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_8464562469102497761(final PropertyMacroContext _context) {
     return ICleanupSeuratGenHelpers.nameOfParam(_context.getNode());
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323935464730(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ICleanupSeuratGenHelpers.getPlotWraper(_context.getNode()), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323935464742(final PropertyMacroContext _context) {
+    return ICleanupSeuratGenHelpers.nameOfDest(_context.getNode());
+  }
+  public static Object propertyMacro_GetPropertyValue_7126600866739337679(final PropertyMacroContext _context) {
+    return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ICleanupSeuratGenHelpers.getPlotWraper(_context.getNode()), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323935489247(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ICleanupSeuratGenHelpers.getPlotWraper(_context.getNode()), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_7126600866739362364(final PropertyMacroContext _context) {
     return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(ICleanupSeuratGenHelpers.getPlotWraper(_context.getNode()), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")))).toString();
@@ -351,11 +366,17 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8464562469103556044(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x95951e17c0d647b9L, 0xb1b542a4ca186fc6L, 0x1168d32e575dc596L, 0x31270d471e750b0L, "ID"));
   }
+  public static Object propertyMacro_GetPropertyValue_4293463323935286257(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).first(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323935270549(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  }
   public static Object propertyMacro_GetPropertyValue_8464562469103707306(final PropertyMacroContext _context) {
     return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).first(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_8464562469103950044(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  public static Object propertyMacro_GetPropertyValue_4293463323935394027(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).first(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_8464562469103978637(final PropertyMacroContext _context) {
     return IterableUtils.join(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d78aL, "param")), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d35e28aL, 0x3be515e37d35e2aaL, "features"))).select(new ISelector<SNode, String>() {
@@ -379,11 +400,17 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8464562469103707467(final PropertyMacroContext _context) {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
+  public static Object propertyMacro_GetPropertyValue_4293463323935540010(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).first(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323935540022(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  }
   public static Object propertyMacro_GetPropertyValue_6340442770487848616(final PropertyMacroContext _context) {
     return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).first(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_231164948924979660(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).first(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_231164948924983665(final PropertyMacroContext _context) {
     return IterableUtils.join(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d78aL, "param")), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d35e28aL, 0x3be515e37d35e2aaL, "features"))).select(new ISelector<SNode, String>() {
@@ -399,10 +426,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static Object propertyMacro_GetPropertyValue_231164948925045358(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).first(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_6340442770487872573(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x631e82a9122e96beL, "seurat")), MetaAdapterFactory.getReferenceLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x631e82a9122e2ffcL, 0x631e82a9122e2ffdL, "seurat")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).first(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_6340442770487848658(final PropertyMacroContext _context) {
     return IterableUtils.join(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d78aL, "param")), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d35e28aL, 0x3be515e37d35e2aaL, "features"))).select(new ISelector<SNode, String>() {
