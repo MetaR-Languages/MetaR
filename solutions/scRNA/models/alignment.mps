@@ -76,8 +76,12 @@
         <child id="4315879884705558163" name="myOwnSeurat" index="16LvHK" />
       </concept>
       <concept id="4315879884705741315" name="org.campagnelab.metar.seurat.structure.RejectCellStrategy" flags="ng" index="16LEZw" />
+      <concept id="4315879884705741318" name="org.campagnelab.metar.seurat.structure.RegressOutStrategy" flags="ng" index="16LEZ_">
+        <child id="4315879884706081767" name="vars" index="16NvS4" />
+      </concept>
       <concept id="4315879884705658344" name="org.campagnelab.metar.seurat.structure.CellsGeneExpressed" flags="ng" index="16LQ0b" />
       <concept id="4315879884706105520" name="org.campagnelab.metar.seurat.structure.nUMICountInCell" flags="ng" index="16N5Pj" />
+      <concept id="4315879884706145104" name="org.campagnelab.metar.seurat.structure.AcceptHighVarGenesStrategy" flags="ng" index="16NfqN" />
       <concept id="4315879884706062337" name="org.campagnelab.metar.seurat.structure.PercentageMitochondrialGenes" flags="ng" index="16Nrny" />
       <concept id="4315879884706801360" name="org.campagnelab.metar.seurat.structure.DiagnosticPlot" flags="ng" index="16PJcN" />
       <concept id="4315879884704146260" name="org.campagnelab.metar.seurat.structure.ImportSeurat" flags="ng" index="16VBqR">
@@ -426,8 +430,48 @@
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="3443J8RdifY" role="ZXjPg">
-        <property role="1MXi1$" value="FALCUHDTFO" />
+      <node concept="rerJS" id="3IlsykPx64l" role="ZXjPg">
+        <property role="1MXi1$" value="IFOTQTJARU" />
+        <node concept="1LcaPl" id="3IlsykPx67e" role="rerJT">
+          <ref role="1LcaPk" node="3443J8Rcvny" resolve="P1filtered" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="3IlsykPx61y" role="ZXjPg">
+        <property role="1MXi1$" value="DUEPPONEIX" />
+      </node>
+      <node concept="16L9MR" id="3IlsykPx5Yw" role="ZXjPg">
+        <property role="1LbDqV" value="false" />
+        <property role="1MXi1$" value="EGKRGOPYJE" />
+        <node concept="16LvHN" id="3IlsykPx5Yx" role="16L4Zv">
+          <property role="TrG5h" value="filtered" />
+          <node concept="16WNID" id="3IlsykPx5Yy" role="16LvHK">
+            <property role="16WVSt" value="false" />
+            <property role="16WMxv" value="false" />
+            <property role="16WMwy" value="false" />
+            <property role="16WMwA" value="false" />
+            <property role="TrG5h" value="filtered" />
+          </node>
+        </node>
+        <node concept="2Z73OG" id="3IlsykPx5Yz" role="2Z7$6i">
+          <property role="1MXi1$" value="ALRGJRJUCW" />
+          <node concept="2rfVTk" id="3IlsykPx5Y_" role="2oLyky">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
+            <property role="3ZMXzF" value="1000" />
+            <property role="TrG5h" value="P1dAvgExp" />
+          </node>
+        </node>
+        <node concept="16NfqN" id="3IlsykPx67j" role="16L4Y_" />
+        <node concept="16LEZ_" id="3IlsykPx6ol" role="16L4Y_">
+          <node concept="16Ldux" id="3IlsykPx6oq" role="16NvS4" />
+          <node concept="16Nrny" id="3IlsykPx6oy" role="16NvS4" />
+        </node>
+        <node concept="1LcaPl" id="3IlsykPx61t" role="1LcbbV">
+          <ref role="1LcaPk" node="3443J8Rdil6" resolve="P1norm" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="3IlsykPx5T9" role="ZXjPg">
+        <property role="1MXi1$" value="YETQFGUGGS" />
       </node>
       <node concept="16VBqR" id="3443J8R8VTi" role="ZXjPg">
         <property role="1MXi1$" value="GJXHNGTDAA" />

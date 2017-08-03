@@ -2224,7 +2224,7 @@
           <property role="1MXi1$" value="TJSUBVCIIW" />
           <node concept="2PZJpp" id="7lSaFvHVHA8" role="134Gdo">
             <property role="1MXi1$" value="YXCMAHVMMG" />
-            <property role="TrG5h" value="RegressOut" />
+            <property role="TrG5h" value="ScaleData" />
           </node>
           <node concept="gNbv0" id="7lSaFvHVHA9" role="134Gdu">
             <property role="1MXi1$" value="BLNIILMURH" />
@@ -2252,7 +2252,7 @@
             </node>
             <node concept="V6WaX" id="7lSaFvHVHAe" role="gNbrm">
               <property role="1MXi1$" value="AJOUERRPOT" />
-              <property role="gNbhX" value="latent.vars" />
+              <property role="gNbhX" value="vars.to.regress" />
               <node concept="2PZJp2" id="7lSaFvHVHAh" role="gNbhV">
                 <property role="1MXi1$" value="IQINRVEPTT" />
                 <node concept="2PZJpp" id="7lSaFvHVHAi" role="134Gdo">

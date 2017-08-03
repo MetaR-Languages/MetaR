@@ -410,7 +410,7 @@
     <property role="EcuMT" value="4315879884705741318" />
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <property role="TrG5h" value="RegressOutStrategy" />
-    <property role="34LRSv" value="by regressing out" />
+    <property role="34LRSv" value="by regressing out (and scaling)" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3J_5udX8VC7" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8lD5" resolve="ICleanupStrategy" />
