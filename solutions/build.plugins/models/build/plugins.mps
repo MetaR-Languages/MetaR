@@ -440,10 +440,10 @@
         <ref role="m$f5T" node="64xNxfklWYE" resolve="metaR.R" />
       </node>
       <node concept="m$f5U" id="4tSF6VDBGQC" role="m$_yh">
-        <ref role="m$f5T" node="4tSF6VDBDsz" resolve="metaR.R.devkit" />
+        <ref role="m$f5T" node="4tSF6VDBDsz" resolve="devkit.metaR.R" />
       </node>
       <node concept="m$f5U" id="4tSF6VDBH0a" role="m$_yh">
-        <ref role="m$f5T" node="4tSF6VDBGnI" resolve="metaR.devkit" />
+        <ref role="m$f5T" node="4tSF6VDBGnI" resolve="devkit.metaR" />
       </node>
       <node concept="m$_yC" id="3gMg70bRmf_" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
@@ -527,7 +527,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="4tSF6VDBDsz" role="3989C9">
-      <property role="TrG5h" value="metaR.R.devkit" />
+      <property role="TrG5h" value="devkit.metaR.R" />
       <node concept="3LEwk6" id="64xNxfkjVoN" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.R" />
@@ -1205,7 +1205,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="4tSF6VDBGnI" role="3989C9">
-      <property role="TrG5h" value="metaR.devkit" />
+      <property role="TrG5h" value="devkit.metaR" />
       <node concept="3LEwk6" id="3gMg70bRmfb" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.metaR" />
