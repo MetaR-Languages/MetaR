@@ -1553,5 +1553,64 @@
       <node concept="2iRfu4" id="3IlsykPxEM9" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="3IlsykRnvJ3">
+    <property role="3GE5qa" value="AlignmentOp" />
+    <ref role="1XX52x" to="lznn:3IlsykRnvI$" resolve="PreAlignment" />
+    <node concept="3EZMnI" id="3IlsykRnvJ5" role="2wV5jI">
+      <node concept="PMmxH" id="3IlsykRnvJ6" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="3IlsykRnvJi" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3IlsykRnvIJ" resolve="seurat1" />
+      </node>
+      <node concept="3F0ifn" id="3IlsykRnvYD" role="3EZMnx">
+        <property role="3F0ifm" value="and" />
+      </node>
+      <node concept="3F1sOY" id="3IlsykRnvZz" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3IlsykRnvIN" resolve="seurat2" />
+      </node>
+      <node concept="3F0ifn" id="3IlsykRnvJj" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3EZMnI" id="3IlsykRnvJk" role="3EZMnx">
+        <node concept="VPM3Z" id="3IlsykRnvJl" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3EZMnI" id="3IlsykRnvJm" role="3EZMnx">
+          <node concept="3EZMnI" id="3IlsykRnw8X" role="3EZMnx">
+            <node concept="2iRfu4" id="3IlsykRnw8Y" role="2iSdaV" />
+            <node concept="3F0ifn" id="3IlsykRnw8r" role="3EZMnx">
+              <property role="3F0ifm" value="seurat:" />
+            </node>
+            <node concept="3F1sOY" id="3IlsykRnw9i" role="3EZMnx">
+              <ref role="1NtTu8" to="lznn:3IlsykRnvIB" resolve="preAligned" />
+            </node>
+          </node>
+          <node concept="2iRkQZ" id="3IlsykRnvJn" role="2iSdaV" />
+          <node concept="3F2HdR" id="3IlsykRnvJo" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:3IlsykRnvID" resolve="plots" />
+            <ref role="1ERwB7" node="5ziAKRO4leE" resolve="DisablePlotEditing" />
+            <ref role="APP_o" node="5ziAKRO4leE" resolve="DisablePlotEditing" />
+            <node concept="2iRkQZ" id="3IlsykRnvJp" role="2czzBx" />
+            <node concept="4$FPG" id="3IlsykRnvJq" role="4_6I_">
+              <node concept="3clFbS" id="3IlsykRnvJr" role="2VODD2">
+                <node concept="3clFbF" id="3IlsykRnvJs" role="3cqZAp">
+                  <node concept="2ShNRf" id="3IlsykRnvJt" role="3clFbG">
+                    <node concept="3zrR0B" id="3IlsykRnvJu" role="2ShVmc">
+                      <node concept="3Tqbb2" id="3IlsykRnvJv" role="3zrR0E">
+                        <ref role="ehGHo" to="lznn:7lSaFvHLICa" resolve="PlotInStatementWrapper" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2iRfu4" id="3IlsykRnvJw" role="2iSdaV" />
+      </node>
+      <node concept="2iRfu4" id="3IlsykRnvJx" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

@@ -37,6 +37,10 @@
         <child id="3531964441236215960" name="normSeurat" index="6dxpE" />
         <child id="3531964441236215087" name="seurat" index="6dxJt" />
       </concept>
+      <concept id="4293463323935898532" name="org.campagnelab.metar.seurat.structure.PreAlignment" flags="ng" index="cM8A1">
+        <child id="4293463323935898535" name="preAligned" index="cM8A2" />
+        <child id="4293463323935898547" name="seurat2" index="cM8Am" />
+      </concept>
       <concept id="8464562469099465226" name="org.campagnelab.metar.seurat.structure.PlotInStatementWrapper" flags="ng" index="2oJG2X" />
       <concept id="8464562469098885003" name="org.campagnelab.metar.seurat.structure.IPlotInStatementWrapper" flags="ng" index="2oLykW">
         <property id="1952407982181128806" name="withDescription" index="L$Obh" />
@@ -452,13 +456,13 @@
         <property role="1LbDqV" value="false" />
         <property role="1MXi1$" value="NDPLFIPPUB" />
         <node concept="16LvHN" id="3IlsykRkSZr" role="16L4Zv">
-          <property role="TrG5h" value="P1VarGenesRegressOut" />
+          <property role="TrG5h" value="P1VarGeneReg" />
           <node concept="16WNID" id="3IlsykRkSZs" role="16LvHK">
             <property role="16WVSt" value="false" />
             <property role="16WMxv" value="false" />
             <property role="16WMwy" value="false" />
             <property role="16WMwA" value="false" />
-            <property role="TrG5h" value="P1VarGenesRegressOut" />
+            <property role="TrG5h" value="P1VarGeneReg" />
           </node>
         </node>
         <node concept="2Z73OG" id="3IlsykRkSZt" role="2Z7$6i">
@@ -840,7 +844,7 @@
           <node concept="2rfVTk" id="3IlsykRn2iB" role="2oLyky">
             <property role="ZHjxa" value="600" />
             <property role="ZHjG8" value="400" />
-            <property role="3ZMXzF" value="1000" />
+            <property role="3ZMXzF" value="1230" />
             <property role="TrG5h" value="P2avgExp" />
           </node>
         </node>
@@ -875,6 +879,7 @@
         <property role="1MXi1$" value="NEMILYPHOQ" />
         <property role="313rra" value="1" />
         <property role="313rrk" value="1" />
+        <property role="31lnkE" value="true" />
         <node concept="1FHg$p" id="3IlsykRn2Lx" role="319mBM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
@@ -884,6 +889,73 @@
         <node concept="31becx" id="3IlsykRn2OS" role="312phR">
           <property role="1MXi1$" value="DESFSUYLIO" />
           <ref role="312p7B" node="3IlsykRn2iB" resolve="P2avgExp" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="3IlsykRo27r" role="ZXjPg">
+        <property role="1MXi1$" value="IYWMQENUWP" />
+      </node>
+      <node concept="cM8A1" id="3IlsykRoqCS" role="ZXjPg">
+        <property role="1MXi1$" value="RUSBIDOSEG" />
+        <property role="16PG9H" value="false" />
+        <node concept="2oJG2X" id="3IlsykRoqCT" role="16PG9_">
+          <property role="1MXi1$" value="SHNPHGHJUK" />
+          <property role="L$Obh" value="true" />
+          <property role="L$Obm" value="CCA plot (CC1 versus CC2):" />
+          <node concept="2rfVTk" id="3IlsykRoqCU" role="2oLyky">
+            <property role="ZHjxa" value="300" />
+            <property role="ZHjG8" value="300" />
+            <property role="3ZMXzF" value="1255" />
+            <property role="TrG5h" value="preCCA" />
+          </node>
+        </node>
+        <node concept="2oJG2X" id="3IlsykRoqCV" role="16PG9_">
+          <property role="1MXi1$" value="XQRQAEKLHT" />
+          <property role="L$Obh" value="true" />
+          <property role="L$Obm" value="violin plot of CC1 for the two datasets:" />
+          <node concept="2rfVTk" id="3IlsykRoqCW" role="2oLyky">
+            <property role="ZHjxa" value="300" />
+            <property role="ZHjG8" value="300" />
+            <property role="3ZMXzF" value="1254" />
+            <property role="TrG5h" value="vlnCC1" />
+          </node>
+        </node>
+        <node concept="1LcaPl" id="3IlsykRoqGH" role="cM8Am">
+          <ref role="1LcaPk" node="3IlsykRn2i$" resolve="P2VarGenReg" />
+        </node>
+        <node concept="16LvHN" id="3IlsykRoqD0" role="cM8A2">
+          <property role="TrG5h" value="P1P2PreAligned" />
+          <node concept="16WNID" id="3IlsykRoqD1" role="16LvHK">
+            <property role="16WVSt" value="false" />
+            <property role="16WMxv" value="false" />
+            <property role="16WMwy" value="false" />
+            <property role="16WMwA" value="false" />
+            <property role="TrG5h" value="P1P2PreAligned" />
+          </node>
+        </node>
+        <node concept="1LcaPl" id="3IlsykRoqGB" role="1Lc1gn">
+          <ref role="1LcaPk" node="3IlsykRkSZs" resolve="P1VarGeneReg" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="3IlsykRq022" role="ZXjPg">
+        <property role="1MXi1$" value="XIXJWFWJKE" />
+      </node>
+      <node concept="313sG1" id="3IlsykRq095" role="ZXjPg">
+        <property role="1MXi1$" value="YDFFUEUCMG" />
+        <property role="313rra" value="2" />
+        <property role="313rrk" value="1" />
+        <node concept="1FHg$p" id="3IlsykRq096" role="319mBM">
+          <property role="ZHjxa" value="200" />
+          <property role="ZHjG8" value="200" />
+          <property role="3ZMXzF" value="1" />
+          <property role="TrG5h" value="fda" />
+        </node>
+        <node concept="31becx" id="3IlsykRq0cF" role="312phR">
+          <property role="1MXi1$" value="PEWVGPASRV" />
+          <ref role="312p7B" node="3IlsykRoqCU" resolve="preCCA" />
+        </node>
+        <node concept="31becx" id="3IlsykRq0cG" role="312phR">
+          <property role="1MXi1$" value="UYDGVBHHXO" />
+          <ref role="312p7B" node="3IlsykRoqCW" resolve="vlnCC1" />
         </node>
       </node>
     </node>

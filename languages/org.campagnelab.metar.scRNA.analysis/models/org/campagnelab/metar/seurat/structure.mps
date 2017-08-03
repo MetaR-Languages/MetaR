@@ -1050,5 +1050,42 @@
       <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3IlsykRnvI$">
+    <property role="EcuMT" value="4293463323935898532" />
+    <property role="TrG5h" value="PreAlignment" />
+    <property role="3GE5qa" value="AlignmentOp" />
+    <property role="34LRSv" value="prealign seurats" />
+    <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
+    <node concept="1TJgyj" id="3IlsykRnvIJ" role="1TKVEi">
+      <property role="IQ2ns" value="4293463323935898543" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat1" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+      <ref role="20ksaX" node="6cuwE$ibDqY" resolve="seurat" />
+    </node>
+    <node concept="1TJgyj" id="3IlsykRnvIN" role="1TKVEi">
+      <property role="IQ2ns" value="4293463323935898547" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat2" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
+    <node concept="1TJgyj" id="3IlsykRnvID" role="1TKVEi">
+      <property role="IQ2ns" value="4293463323935898537" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plots" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7lSaFvHLICa" resolve="PlotInStatementWrapper" />
+      <ref role="20ksaX" node="3J_5udXcXu6" resolve="plots" />
+    </node>
+    <node concept="1TJgyj" id="3IlsykRnvIB" role="1TKVEi">
+      <property role="IQ2ns" value="4293463323935898535" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="preAligned" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
+    </node>
+  </node>
 </model>
 
