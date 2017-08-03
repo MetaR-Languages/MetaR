@@ -102,6 +102,7 @@
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
       <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
         <property id="6503355885715353788" name="bootstrap" index="2igJW4" />
+        <property id="7981469545489178349" name="generationMaxHeapSizeInMb" index="3UIfUI" />
       </concept>
       <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
         <property id="7832771629084799702" name="name" index="2iUeEt" />
@@ -3702,6 +3703,7 @@
     </node>
     <node concept="2igEWh" id="5RQTS2oXhIU" role="1hWBAP">
       <property role="2igJW4" value="true" />
+      <property role="3UIfUI" value="1024" />
     </node>
   </node>
 </model>
