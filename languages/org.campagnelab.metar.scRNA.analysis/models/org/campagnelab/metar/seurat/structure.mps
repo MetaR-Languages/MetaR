@@ -1105,7 +1105,7 @@
     <property role="3GE5qa" value="AlignmentOp" />
     <property role="TrG5h" value="Alignment" />
     <property role="34LRSv" value="align seurat" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
     <node concept="1TJgyi" id="3IlsykRtcQ3" role="1TKVEl">
       <property role="IQ2nx" value="4293463323937394051" />
       <property role="TrG5h" value="dim1" />
@@ -1116,12 +1116,13 @@
       <property role="TrG5h" value="dim2" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyj" id="3IlsykRtcPY" role="1TKVEi">
-      <property role="IQ2ns" value="4293463323937394046" />
+    <node concept="1TJgyj" id="3IlsykRvMtG" role="1TKVEi">
+      <property role="IQ2ns" value="4293463323938072428" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="seurat" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+      <property role="20kJfa" value="plots" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7lSaFvHJwYb" resolve="IPlotInStatementWrapper" />
+      <ref role="20ksaX" node="3J_5udXcXu6" resolve="plots" />
     </node>
     <node concept="1TJgyj" id="3IlsykRtcQ0" role="1TKVEi">
       <property role="IQ2ns" value="4293463323937394048" />
@@ -1129,9 +1130,6 @@
       <property role="20kJfa" value="alignedSeurat" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
-    </node>
-    <node concept="PrWs8" id="3IlsykRtJqO" role="PzmwI">
-      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
   </node>
 </model>

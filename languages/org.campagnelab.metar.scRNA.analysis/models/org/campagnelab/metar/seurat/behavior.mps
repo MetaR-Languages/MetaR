@@ -5444,7 +5444,163 @@
       </node>
     </node>
     <node concept="13hLZK" id="3IlsykRtcVH" role="13h7CW">
-      <node concept="3clFbS" id="3IlsykRtcVI" role="2VODD2" />
+      <node concept="3clFbS" id="3IlsykRtcVI" role="2VODD2">
+        <node concept="3clFbF" id="3IlsykRw0_M" role="3cqZAp">
+          <node concept="37vLTI" id="3IlsykRw4jf" role="3clFbG">
+            <node concept="3clFbT" id="3IlsykRw4kh" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="2OqwBi" id="3IlsykRw0Qg" role="37vLTJ">
+              <node concept="13iPFW" id="3IlsykRw0_K" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3IlsykRw3qE" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udXcXue" resolve="hasParam" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3IlsykRw0nn" role="3cqZAp" />
+        <node concept="3clFbF" id="3IlsykRvMtM" role="3cqZAp">
+          <node concept="2OqwBi" id="3IlsykRvMtN" role="3clFbG">
+            <node concept="13iPFW" id="3IlsykRvMtO" role="2Oq$k0" />
+            <node concept="2qgKlT" id="3IlsykRvMtP" role="2OqNvi">
+              <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
+              <node concept="Xl_RD" id="3IlsykRvMtQ" role="37wK5m">
+                <property role="Xl_RC" value="tsne clusters with datasets:" />
+              </node>
+              <node concept="Xl_RD" id="3IlsykRvMtR" role="37wK5m">
+                <property role="Xl_RC" value="tsneClustersDatasets" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3IlsykRvWCD" role="3cqZAp">
+          <node concept="37vLTI" id="3IlsykRvWCE" role="3clFbG">
+            <node concept="3cmrfG" id="3IlsykRvWCF" role="37vLTx">
+              <property role="3cmrfH" value="400" />
+            </node>
+            <node concept="2OqwBi" id="3IlsykRvWCG" role="37vLTJ">
+              <node concept="2OqwBi" id="3IlsykRvWCH" role="2Oq$k0">
+                <node concept="1y4W85" id="3IlsykRvWCI" role="2Oq$k0">
+                  <node concept="3cmrfG" id="3IlsykRvWCJ" role="1y58nS">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="3IlsykRvWCK" role="1y566C">
+                    <node concept="13iPFW" id="3IlsykRvWCL" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="3IlsykRvWCM" role="2OqNvi">
+                      <ref role="3TtcxE" to="lznn:3IlsykRvMtG" resolve="plots" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3IlsykRvWCN" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3IlsykRvWCO" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:7LvyiX3UF5_" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3IlsykRvWCP" role="3cqZAp">
+          <node concept="37vLTI" id="3IlsykRvWCQ" role="3clFbG">
+            <node concept="3cmrfG" id="3IlsykRvWCR" role="37vLTx">
+              <property role="3cmrfH" value="400" />
+            </node>
+            <node concept="2OqwBi" id="3IlsykRvWCS" role="37vLTJ">
+              <node concept="2OqwBi" id="3IlsykRvWCT" role="2Oq$k0">
+                <node concept="1y4W85" id="3IlsykRvWCU" role="2Oq$k0">
+                  <node concept="3cmrfG" id="3IlsykRvWCV" role="1y58nS">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="3IlsykRvWCW" role="1y566C">
+                    <node concept="13iPFW" id="3IlsykRvWCX" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="3IlsykRvWCY" role="2OqNvi">
+                      <ref role="3TtcxE" to="lznn:3IlsykRvMtG" resolve="plots" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3IlsykRvWCZ" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3IlsykRvWD0" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:7LvyiX3UF8B" resolve="height" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3IlsykRvNHf" role="3cqZAp" />
+        <node concept="3clFbF" id="3IlsykRvMtS" role="3cqZAp">
+          <node concept="2OqwBi" id="3IlsykRvMtT" role="3clFbG">
+            <node concept="13iPFW" id="3IlsykRvMtU" role="2Oq$k0" />
+            <node concept="2qgKlT" id="3IlsykRvMtV" role="2OqNvi">
+              <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
+              <node concept="Xl_RD" id="3IlsykRvMtW" role="37wK5m">
+                <property role="Xl_RC" value="tsne clusters:" />
+              </node>
+              <node concept="Xl_RD" id="3IlsykRvMtX" role="37wK5m">
+                <property role="Xl_RC" value="tsneClusters" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3IlsykRvMu6" role="3cqZAp">
+          <node concept="37vLTI" id="3IlsykRvMu7" role="3clFbG">
+            <node concept="3cmrfG" id="3IlsykRvMu8" role="37vLTx">
+              <property role="3cmrfH" value="400" />
+            </node>
+            <node concept="2OqwBi" id="3IlsykRvMu9" role="37vLTJ">
+              <node concept="2OqwBi" id="3IlsykRvMua" role="2Oq$k0">
+                <node concept="1y4W85" id="3IlsykRvMub" role="2Oq$k0">
+                  <node concept="3cmrfG" id="3IlsykRvMuc" role="1y58nS">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="2OqwBi" id="3IlsykRvMud" role="1y566C">
+                    <node concept="13iPFW" id="3IlsykRvMue" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="3IlsykRvMuf" role="2OqNvi">
+                      <ref role="3TtcxE" to="lznn:3IlsykRvMtG" resolve="plots" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3IlsykRvMug" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3IlsykRvMuh" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:7LvyiX3UF5_" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3IlsykRvMui" role="3cqZAp">
+          <node concept="37vLTI" id="3IlsykRvMuj" role="3clFbG">
+            <node concept="3cmrfG" id="3IlsykRvMuk" role="37vLTx">
+              <property role="3cmrfH" value="400" />
+            </node>
+            <node concept="2OqwBi" id="3IlsykRvMul" role="37vLTJ">
+              <node concept="2OqwBi" id="3IlsykRvMum" role="2Oq$k0">
+                <node concept="1y4W85" id="3IlsykRvMun" role="2Oq$k0">
+                  <node concept="3cmrfG" id="3IlsykRvMuo" role="1y58nS">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="2OqwBi" id="3IlsykRvMup" role="1y566C">
+                    <node concept="13iPFW" id="3IlsykRvMuq" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="3IlsykRvMur" role="2OqNvi">
+                      <ref role="3TtcxE" to="lznn:3IlsykRvMtG" resolve="plots" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3IlsykRvMus" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3IlsykRvMut" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:7LvyiX3UF8B" resolve="height" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
