@@ -544,30 +544,63 @@ public class QueriesGenerated {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_4293463323936203551(final PropertyMacroContext _context) {
-    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).getElement(1), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_4293463323936309531(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3b957225375dfba4L, 0x3b957225375dfba7L, "preAligned")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static Object propertyMacro_GetPropertyValue_4293463323936289190(final PropertyMacroContext _context) {
-    return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+    return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).getElement(1), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_4293463323936346803(final PropertyMacroContext _context) {
-    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).getElement(1), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_4293463323936186926(final PropertyMacroContext _context) {
-    return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")))).toString();
+    return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).getElement(1), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")))).toString();
   }
   public static Object propertyMacro_GetPropertyValue_4293463323936186943(final PropertyMacroContext _context) {
-    return (String) Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+    return (String) Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).getElement(1), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_4293463323936186956(final PropertyMacroContext _context) {
-    return (int) Plot__BehaviorDescriptor.getWidth_id32mm940cTd2.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+    return (int) Plot__BehaviorDescriptor.getWidth_id32mm940cTd2.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).getElement(1), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_4293463323936186969(final PropertyMacroContext _context) {
-    return (int) Plot__BehaviorDescriptor.getHeight_id32mm940d1rP.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+    return (int) Plot__BehaviorDescriptor.getHeight_id32mm940d1rP.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).getElement(1), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
   }
   public static Object propertyMacro_GetPropertyValue_4293463323936186982(final PropertyMacroContext _context) {
+    return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323936986473(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323937028989(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3b957225375dfba4L, 0x3b957225375dfba7L, "preAligned")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323937042388(final PropertyMacroContext _context) {
+    return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323937084097(final PropertyMacroContext _context) {
+    return "seurat_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323937095068(final PropertyMacroContext _context) {
+    return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3b957225375dfba4L, 0x3b9572253768387dL, "dim1")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323937105202(final PropertyMacroContext _context) {
+    return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3b957225375dfba4L, 0x3b9572253768387fL, "dim2")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323936846245(final PropertyMacroContext _context) {
+    return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")))).toString();
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323936846262(final PropertyMacroContext _context) {
+    return (String) Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323936846275(final PropertyMacroContext _context) {
+    return (int) Plot__BehaviorDescriptor.getWidth_id32mm940cTd2.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323936846288(final PropertyMacroContext _context) {
+    return (int) Plot__BehaviorDescriptor.getHeight_id32mm940d1rP.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214733L, 0x3be515e37d33d786L, "plots"))).last(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x75782ab7edbe0f8bL, 0x75782ab7edbe0f95L, "plot")));
+  }
+  public static Object propertyMacro_GetPropertyValue_4293463323936846301(final PropertyMacroContext _context) {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
   public static boolean ifMacro_Condition_8464562469099351541(final IfMacroContext _context) {

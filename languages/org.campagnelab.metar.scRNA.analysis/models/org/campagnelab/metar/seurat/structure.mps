@@ -1086,6 +1086,22 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
     </node>
+    <node concept="1TJgyi" id="3IlsykRq3xX" role="1TKVEl">
+      <property role="IQ2nx" value="4293463323936569469" />
+      <property role="TrG5h" value="dim1" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3IlsykRq3xZ" role="1TKVEl">
+      <property role="IQ2nx" value="4293463323936569471" />
+      <property role="TrG5h" value="dim2" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3IlsykRq3xW">
+    <property role="EcuMT" value="4293463323936569468" />
+    <property role="3GE5qa" value="AlignmentOp" />
+    <property role="TrG5h" value="Alignment" />
+    <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
   </node>
 </model>
 

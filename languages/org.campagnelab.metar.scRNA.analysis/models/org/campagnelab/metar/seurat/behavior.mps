@@ -308,6 +308,10 @@
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
+      <concept id="1225711141656" name="jetbrains.mps.baseLanguage.collections.structure.ListElementAccessExpression" flags="nn" index="1y4W85">
+        <child id="1225711182005" name="list" index="1y566C" />
+        <child id="1225711191269" name="index" index="1y58nS" />
+      </concept>
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
     </language>
@@ -5126,6 +5130,81 @@
               </node>
               <node concept="Xl_RD" id="3IlsykRo6AB" role="37wK5m">
                 <property role="Xl_RC" value="vlnCC1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3IlsykRq4qF" role="3cqZAp">
+          <node concept="2OqwBi" id="3IlsykRq4qG" role="3clFbG">
+            <node concept="13iPFW" id="3IlsykRq4qH" role="2Oq$k0" />
+            <node concept="2qgKlT" id="3IlsykRq4qI" role="2OqNvi">
+              <ref role="37wK5l" node="1GombsEyWgP" resolve="addPlotToTheOutput" />
+              <node concept="Xl_RD" id="3IlsykRq4qJ" role="37wK5m">
+                <property role="Xl_RC" value="heatmaps for given dimensios:" />
+              </node>
+              <node concept="Xl_RD" id="3IlsykRq4qK" role="37wK5m">
+                <property role="Xl_RC" value="heatmapDims" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3IlsykRsT56" role="3cqZAp">
+          <node concept="3SKdUq" id="3IlsykRsT58" role="3SKWNk">
+            <property role="3SKdUp" value="Because there are usually a few heatmaps plotted, we set a larger width and height." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3IlsykRssUy" role="3cqZAp">
+          <node concept="37vLTI" id="3IlsykRsQyU" role="3clFbG">
+            <node concept="3cmrfG" id="3IlsykRsQO5" role="37vLTx">
+              <property role="3cmrfH" value="500" />
+            </node>
+            <node concept="2OqwBi" id="3IlsykRsOe5" role="37vLTJ">
+              <node concept="2OqwBi" id="3IlsykRsLtl" role="2Oq$k0">
+                <node concept="1y4W85" id="3IlsykRsKqy" role="2Oq$k0">
+                  <node concept="3cmrfG" id="3IlsykRsKqQ" role="1y58nS">
+                    <property role="3cmrfH" value="2" />
+                  </node>
+                  <node concept="2OqwBi" id="3IlsykRstdY" role="1y566C">
+                    <node concept="13iPFW" id="3IlsykRssUw" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="3IlsykRstTd" role="2OqNvi">
+                      <ref role="3TtcxE" to="lznn:3IlsykRnvID" resolve="plots" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3IlsykRsLUd" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3IlsykRsOIg" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:7LvyiX3UF5_" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3IlsykRsRzH" role="3cqZAp">
+          <node concept="37vLTI" id="3IlsykRsRzJ" role="3clFbG">
+            <node concept="3cmrfG" id="3IlsykRsRzK" role="37vLTx">
+              <property role="3cmrfH" value="500" />
+            </node>
+            <node concept="2OqwBi" id="3IlsykRsRzL" role="37vLTJ">
+              <node concept="2OqwBi" id="3IlsykRsRzM" role="2Oq$k0">
+                <node concept="1y4W85" id="3IlsykRsRzN" role="2Oq$k0">
+                  <node concept="3cmrfG" id="3IlsykRsRzO" role="1y58nS">
+                    <property role="3cmrfH" value="2" />
+                  </node>
+                  <node concept="2OqwBi" id="3IlsykRsRzP" role="1y566C">
+                    <node concept="13iPFW" id="3IlsykRsRzQ" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="3IlsykRsRzR" role="2OqNvi">
+                      <ref role="3TtcxE" to="lznn:3IlsykRnvID" resolve="plots" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3IlsykRsRzS" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:7lSaFvHJwYl" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3IlsykRsSBm" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:7LvyiX3UF8B" resolve="height" />
               </node>
             </node>
           </node>
