@@ -1667,5 +1667,88 @@
       <node concept="2iRfu4" id="3IlsykRnvJx" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="3IlsykRtcQm">
+    <property role="3GE5qa" value="AlignmentOp" />
+    <ref role="1XX52x" to="lznn:3IlsykRq3xW" resolve="Alignment" />
+    <node concept="3EZMnI" id="3IlsykRtcQo" role="2wV5jI">
+      <node concept="3EZMnI" id="3IlsykRtcQp" role="3EZMnx">
+        <node concept="2iRkQZ" id="3IlsykRtcQq" role="2iSdaV" />
+        <node concept="3EZMnI" id="3IlsykRtcQr" role="3EZMnx">
+          <node concept="2iRfu4" id="3IlsykRtcQs" role="2iSdaV" />
+          <node concept="PMmxH" id="3IlsykRtcQt" role="3EZMnx">
+            <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+          </node>
+          <node concept="3F1sOY" id="3IlsykRtcVC" role="3EZMnx">
+            <ref role="1NtTu8" to="lznn:3IlsykRtcPY" resolve="seurat" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="3IlsykRtcQx" role="3EZMnx">
+          <node concept="3EZMnI" id="3IlsykRtcQy" role="3EZMnx">
+            <node concept="2iRfu4" id="3IlsykRtcQz" role="2iSdaV" />
+            <node concept="3F0ifn" id="3IlsykRtcQ$" role="3EZMnx">
+              <property role="3F0ifm" value="cca from dimension:" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              <node concept="pVoyu" id="3IlsykRtcQ_" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3F0A7n" id="3IlsykRtcQA" role="3EZMnx">
+              <ref role="1NtTu8" to="lznn:3IlsykRtcQ3" resolve="dim1" />
+              <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
+              <node concept="ljvvj" id="3IlsykRtcQB" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="ljvvj" id="3IlsykRtcQC" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="lj46D" id="3IlsykRtcQD" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3EZMnI" id="3IlsykRtcQE" role="3EZMnx">
+            <node concept="2iRfu4" id="3IlsykRtcQF" role="2iSdaV" />
+            <node concept="3F0ifn" id="3IlsykRtcQG" role="3EZMnx">
+              <property role="3F0ifm" value="cca to dimension:" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              <node concept="pVoyu" id="3IlsykRtcQH" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3F0A7n" id="3IlsykRtcQI" role="3EZMnx">
+              <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
+              <ref role="1NtTu8" to="lznn:3IlsykRtcQ5" resolve="dim2" />
+              <node concept="ljvvj" id="3IlsykRtcQJ" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="lj46D" id="3IlsykRtcQK" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="l2Vlx" id="3IlsykRtcQL" role="2iSdaV" />
+          <node concept="pVoyu" id="3IlsykRtcQM" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3IlsykRtcQN" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3EZMnI" id="3IlsykRtcQO" role="3EZMnx">
+        <node concept="VPM3Z" id="3IlsykRtcQP" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="3IlsykRtcQT" role="3EZMnx">
+          <property role="3F0ifm" value="seurat:" />
+        </node>
+        <node concept="3F1sOY" id="3IlsykRtcQU" role="3EZMnx">
+          <ref role="1NtTu8" to="lznn:3IlsykRtcQ0" resolve="alignedSeurat" />
+        </node>
+        <node concept="2iRfu4" id="3IlsykRtcR4" role="2iSdaV" />
+      </node>
+      <node concept="2iRfu4" id="3IlsykRtcR5" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

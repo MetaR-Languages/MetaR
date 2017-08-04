@@ -1096,12 +1096,43 @@
       <property role="TrG5h" value="dim2" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="PrWs8" id="3IlsykRuYHo" role="PzmwI">
+      <ref role="PrY4T" node="6cuwE$ic1gh" resolve="FutureSeuratCreator" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3IlsykRq3xW">
     <property role="EcuMT" value="4293463323936569468" />
     <property role="3GE5qa" value="AlignmentOp" />
     <property role="TrG5h" value="Alignment" />
-    <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
+    <property role="34LRSv" value="align seurat" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyi" id="3IlsykRtcQ3" role="1TKVEl">
+      <property role="IQ2nx" value="4293463323937394051" />
+      <property role="TrG5h" value="dim1" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3IlsykRtcQ5" role="1TKVEl">
+      <property role="IQ2nx" value="4293463323937394053" />
+      <property role="TrG5h" value="dim2" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="3IlsykRtcPY" role="1TKVEi">
+      <property role="IQ2ns" value="4293463323937394046" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
+    <node concept="1TJgyj" id="3IlsykRtcQ0" role="1TKVEi">
+      <property role="IQ2ns" value="4293463323937394048" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="alignedSeurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
+    </node>
+    <node concept="PrWs8" id="3IlsykRtJqO" role="PzmwI">
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
+    </node>
   </node>
 </model>
 
