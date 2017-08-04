@@ -105,6 +105,9 @@
     <node concept="PrWs8" id="1RYr706GGYc" role="PzmwI">
       <ref role="PrY4T" to="jrxw:1RYr706_uYr" resolve="IHaveDockerPath" />
     </node>
+    <node concept="PrWs8" id="3IlsykRxHz2" role="PzmwI">
+      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX5yTa">
     <property role="EcuMT" value="4315879884704853578" />
@@ -334,6 +337,9 @@
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="3J_5udX8p0r" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksL" resolve="ICleanupSeurat" />
+    </node>
+    <node concept="PrWs8" id="3IlsykRxHnm" role="PzmwI">
+      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
     </node>
     <node concept="1TJgyj" id="6bALrFtYJyn" role="1TKVEi">
       <property role="IQ2ns" value="7126600866739189911" />
@@ -632,6 +638,9 @@
     <node concept="PrWs8" id="3J_5udXd5_9" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksN" resolve="IPlotsSeurat" />
     </node>
+    <node concept="PrWs8" id="3IlsykRxJ6F" role="PzmwI">
+      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXdua9">
     <property role="EcuMT" value="4315879884706931337" />
@@ -679,6 +688,9 @@
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="3J_5udXdHVk" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksM" resolve="IAddInfoSeurat" />
+    </node>
+    <node concept="PrWs8" id="3IlsykRxFVh" role="PzmwI">
+      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXdSLa">
@@ -996,6 +1008,9 @@
     <node concept="PrWs8" id="3443J8RaFa$" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
+    <node concept="PrWs8" id="3IlsykRxIT1" role="PzmwI">
+      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3443J8RcxkG">
     <property role="EcuMT" value="3531964441236215084" />
@@ -1020,6 +1035,9 @@
     <node concept="PrWs8" id="3443J8RcxkH" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
+    <node concept="PrWs8" id="3IlsykRxG18" role="PzmwI">
+      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
+    </node>
     <node concept="1TJgyi" id="3443J8RcHgH" role="1TKVEl">
       <property role="IQ2nx" value="3531964441236263981" />
       <property role="TrG5h" value="scaleFactor" />
@@ -1034,6 +1052,9 @@
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="3IlsykPxELP" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
+    </node>
+    <node concept="PrWs8" id="3IlsykRxGdw" role="PzmwI">
+      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
     </node>
     <node concept="1TJgyj" id="3IlsykPxELR" role="1TKVEi">
       <property role="IQ2ns" value="4293463323905010807" />
@@ -1099,6 +1120,9 @@
     <node concept="PrWs8" id="3IlsykRuYHo" role="PzmwI">
       <ref role="PrY4T" node="6cuwE$ic1gh" resolve="FutureSeuratCreator" />
     </node>
+    <node concept="PrWs8" id="3IlsykRxGMz" role="PzmwI">
+      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3IlsykRq3xW">
     <property role="EcuMT" value="4293463323936569468" />
@@ -1130,6 +1154,16 @@
       <property role="20kJfa" value="alignedSeurat" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
+    </node>
+    <node concept="PrWs8" id="3IlsykRxGq$" role="PzmwI">
+      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3IlsykRxFQa">
+    <property role="EcuMT" value="4293463323938569610" />
+    <property role="TrG5h" value="IStatementDependenciesSeurat" />
+    <node concept="PrWs8" id="3IlsykRxFQb" role="PrDN$">
+      <ref role="PrY4T" to="jrxw:7LvyiX4miiF" resolve="StatementDependencies" />
     </node>
   </node>
 </model>
