@@ -2,8 +2,7 @@
 <model ref="r:05ea9644-9079-42eb-bda0-3a8c54e8d732(org.campagnelab.metar.sleuth.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
     <import index="bx6g" ref="r:8a0d9f72-e54f-4583-b363-4d629814522b(org.campagnelab.metar.sleuth.structure)" implicit="true" />
@@ -85,7 +84,7 @@
                 <ref role="1YBMHb" node="1c1rOX4xf7y" resolve="sleuth" />
               </node>
               <node concept="3TrEf2" id="1c1rOX4xn0y" role="2OqNvi">
-                <ref role="3Tt5mk" to="bx6g:4ssfE$85c87" />
+                <ref role="3Tt5mk" to="bx6g:4ssfE$85c87" resolve="modelFormula" />
               </node>
             </node>
           </node>
@@ -97,7 +96,7 @@
                 <ref role="1YBMHb" node="1c1rOX4xf7y" resolve="sleuth" />
               </node>
               <node concept="3TrEf2" id="1c1rOX4xi$n" role="2OqNvi">
-                <ref role="3Tt5mk" to="bx6g:4ssfE$85c87" />
+                <ref role="3Tt5mk" to="bx6g:4ssfE$85c87" resolve="modelFormula" />
               </node>
             </node>
             <node concept="2Rf3mk" id="1c1rOX4xj3R" role="2OqNvi">

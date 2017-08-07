@@ -2,8 +2,7 @@
 <model ref="r:97eb3864-13b1-4937-941b-d41ef3ba28e2(org.campagnelab.metar.r.metar.textGen)">
   <persistence version="9" />
   <languages>
-    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
     <import index="jc6c" ref="r:36e999e2-c8d5-479b-804b-4abf653f40a2(org.campagnelab.metar.r.metar.structure)" implicit="true" />
@@ -50,7 +49,7 @@
             <node concept="2OqwBi" id="bPLB42SFZc" role="lb14g">
               <node concept="117lpO" id="bPLB42SFWN" role="2Oq$k0" />
               <node concept="3TrEf2" id="bPLB42SG4f" role="2OqNvi">
-                <ref role="3Tt5mk" to="jc6c:1C50QHDy3bJ" />
+                <ref role="3Tt5mk" to="jc6c:1C50QHDy3bJ" resolve="statement" />
               </node>
             </node>
           </node>

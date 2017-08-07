@@ -2,8 +2,7 @@
 <model ref="r:fe338532-48b4-4c5f-9804-7663a1d77712(org.campagnelab.metar.limma.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
@@ -137,11 +136,11 @@
                 <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
               </node>
               <node concept="3TrEf2" id="3Pa_fMtweEW" role="2OqNvi">
-                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" />
+                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" resolve="countsTable" />
               </node>
             </node>
             <node concept="2OE7Q9" id="w5znaeVlz0" role="2OEWyd">
-              <ref role="2OEe5H" to="jrxw:3R5AwWRY9K7" />
+              <ref role="2OEe5H" to="jrxw:3R5AwWRY9K7" resolve="table" />
             </node>
           </node>
         </node>
@@ -153,7 +152,7 @@
                 <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
               </node>
               <node concept="3TrEf2" id="4ssfE$bFWz9" role="2OqNvi">
-                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" />
+                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" resolve="countsTable" />
               </node>
             </node>
             <node concept="2qgKlT" id="w5znaeVugZ" role="2OqNvi">
@@ -176,11 +175,11 @@
                 <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
               </node>
               <node concept="3TrEf2" id="3Pa_fMtwe04" role="2OqNvi">
-                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" />
+                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" resolve="countsTable" />
               </node>
             </node>
             <node concept="2OE7Q9" id="3Pa_fMtuXxi" role="2OEWyd">
-              <ref role="2OEe5H" to="jrxw:3R5AwWRY9K7" />
+              <ref role="2OEe5H" to="jrxw:3R5AwWRY9K7" resolve="table" />
             </node>
           </node>
         </node>
@@ -192,7 +191,7 @@
                 <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
               </node>
               <node concept="3TrEf2" id="3Pa_fMtuXxo" role="2OqNvi">
-                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" />
+                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" resolve="countsTable" />
               </node>
             </node>
             <node concept="2qgKlT" id="3Pa_fMtuXxp" role="2OqNvi">
@@ -214,7 +213,7 @@
               <property role="Xl_RC" value="The model must contain at least one covariate not used in contrasts (comparing attribute) to export adjusted counts " />
             </node>
             <node concept="2OE7Q9" id="4bcN0BgrFEP" role="2OEWyd">
-              <ref role="2OEe5H" to="qrzj:4ssfE$85c87" />
+              <ref role="2OEe5H" to="qrzj:4ssfE$85c87" resolve="modelFormula" />
             </node>
           </node>
         </node>
@@ -230,7 +229,7 @@
                     <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
                   </node>
                   <node concept="3TrEf2" id="4bcN0BgrD7q" role="2OqNvi">
-                    <ref role="3Tt5mk" to="qrzj:4ssfE$85c87" />
+                    <ref role="3Tt5mk" to="qrzj:4ssfE$85c87" resolve="modelFormula" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="4bcN0BgrD_z" role="2OqNvi">
@@ -265,7 +264,7 @@
                       <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
                     </node>
                     <node concept="3TrEf2" id="4do6Q53vOM" role="2OqNvi">
-                      <ref role="3Tt5mk" to="qrzj:4ssfE$85cdC" />
+                      <ref role="3Tt5mk" to="qrzj:4ssfE$85cdC" resolve="contrasts" />
                     </node>
                   </node>
                   <node concept="2Rf3mk" id="4do6Q53vON" role="2OqNvi">
@@ -294,7 +293,7 @@
                     <ref role="3cqZAo" node="4do6Q53BaN" resolve="groupRef" />
                   </node>
                   <node concept="3TrEf2" id="4do6Q53F$E" role="2OqNvi">
-                    <ref role="3Tt5mk" to="qrzj:4ssfE$7TB66" />
+                    <ref role="3Tt5mk" to="qrzj:4ssfE$7TB66" resolve="group" />
                   </node>
                 </node>
                 <node concept="3TrcHB" id="4do6Q53ITS" role="2OqNvi">
@@ -307,7 +306,7 @@
                 <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
               </node>
               <node concept="3TrEf2" id="4do6Q53Kln" role="2OqNvi">
-                <ref role="3Tt5mk" to="qrzj:4ssfE$85cdC" />
+                <ref role="3Tt5mk" to="qrzj:4ssfE$85cdC" resolve="contrasts" />
               </node>
             </node>
           </node>
@@ -323,7 +322,7 @@
                   <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
                 </node>
                 <node concept="3TrEf2" id="4do6Q53ko4" role="2OqNvi">
-                  <ref role="3Tt5mk" to="qrzj:4ssfE$85cdC" />
+                  <ref role="3Tt5mk" to="qrzj:4ssfE$85cdC" resolve="contrasts" />
                 </node>
               </node>
               <node concept="2Rf3mk" id="4do6Q53lJp" role="2OqNvi">

@@ -2,9 +2,8 @@
 <model ref="r:f843cdaa-3c55-43ef-85cb-cccff622fb70(org.campagnelab.metar.functions.access.textGen)">
   <persistence version="9" />
   <languages>
-    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
@@ -106,7 +105,7 @@
                           <node concept="2OqwBi" id="55Sa2wh1hZC" role="2Oq$k0">
                             <node concept="117lpO" id="55Sa2wh1hZD" role="2Oq$k0" />
                             <node concept="3TrEf2" id="55Sa2wh1hZE" role="2OqNvi">
-                              <ref role="3Tt5mk" to="89bg:55Sa2wh1hYq" />
+                              <ref role="3Tt5mk" to="89bg:55Sa2wh1hYq" resolve="column" />
                             </node>
                           </node>
                           <node concept="2Xjw5R" id="55Sa2wh1hZF" role="2OqNvi">
@@ -130,7 +129,7 @@
                     <node concept="2OqwBi" id="55Sa2wh1hZL" role="2Oq$k0">
                       <node concept="117lpO" id="55Sa2wh1hZM" role="2Oq$k0" />
                       <node concept="3TrEf2" id="55Sa2wh1hZN" role="2OqNvi">
-                        <ref role="3Tt5mk" to="89bg:55Sa2wh1hYq" />
+                        <ref role="3Tt5mk" to="89bg:55Sa2wh1hYq" resolve="column" />
                       </node>
                     </node>
                     <node concept="3TrcHB" id="55Sa2wh1hZO" role="2OqNvi">

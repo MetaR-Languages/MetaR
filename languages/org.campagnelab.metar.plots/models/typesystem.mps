@@ -2,8 +2,7 @@
 <model ref="r:d02cf96d-dc00-47b4-99f1-7f3c429a9379(org.campagnelab.metar.plots.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
     <import index="tp35" ref="r:6c85f813-d079-415b-abe9-4d0021645709(org.campagnelab.metar.plots.behavior)" implicit="true" />
@@ -172,11 +171,11 @@
                           <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
                         </node>
                         <node concept="3TrEf2" id="3AJ457wCQFG" role="2OqNvi">
-                          <ref role="3Tt5mk" to="jugs:3AJ457wCC3D" />
+                          <ref role="3Tt5mk" to="jugs:3AJ457wCC3D" resolve="logFC" />
                         </node>
                       </node>
                       <node concept="3TrEf2" id="3AJ457wDjr_" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+                        <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" resolve="col" />
                       </node>
                     </node>
                     <node concept="3w_OXm" id="3AJ457wCQVv" role="2OqNvi" />
@@ -190,7 +189,7 @@
                       <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
                     </node>
                     <node concept="3TrEf2" id="3AJ457wCSnc" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" />
+                      <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" resolve="statsTable" />
                     </node>
                   </node>
                   <node concept="3x8VRR" id="3AJ457wCSQI" role="2OqNvi" />
@@ -215,11 +214,11 @@
                             <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
                           </node>
                           <node concept="3TrEf2" id="3AJ457wCQbL" role="2OqNvi">
-                            <ref role="3Tt5mk" to="jugs:3AJ457wCC3o" />
+                            <ref role="3Tt5mk" to="jugs:3AJ457wCC3o" resolve="meanExpression" />
                           </node>
                         </node>
                         <node concept="3TrEf2" id="3AJ457wDjbZ" role="2OqNvi">
-                          <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+                          <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" resolve="col" />
                         </node>
                       </node>
                       <node concept="3w_OXm" id="3AJ457wCQpV" role="2OqNvi" />
@@ -248,11 +247,11 @@
                         <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
                       </node>
                       <node concept="3TrEf2" id="3AJ457wCRiL" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jugs:3AJ457wCC3Y" />
+                        <ref role="3Tt5mk" to="jugs:3AJ457wCC3Y" resolve="significanceLevelFDR" />
                       </node>
                     </node>
                     <node concept="3TrEf2" id="3AJ457wDjCJ" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+                      <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" resolve="col" />
                     </node>
                   </node>
                   <node concept="3w_OXm" id="3AJ457wCRLN" role="2OqNvi" />
@@ -279,7 +278,7 @@
                     <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
                   </node>
                   <node concept="3TrEf2" id="3AJ457wDIfj" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                    <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" resolve="geneName" />
                   </node>
                 </node>
                 <node concept="3w_OXm" id="3AJ457wDIDQ" role="2OqNvi" />
@@ -302,11 +301,11 @@
                       <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
                     </node>
                     <node concept="3TrEf2" id="5hNeoNwCF$" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" />
+                      <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" resolve="statsTable" />
                     </node>
                   </node>
                   <node concept="3TrEf2" id="5hNeoNwCF_" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" />
+                    <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" resolve="table" />
                   </node>
                 </node>
                 <node concept="3TrcHB" id="5hNeoNwCSV" role="2OqNvi">
@@ -319,7 +318,7 @@
                 <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
               </node>
               <node concept="3TrEf2" id="5hNeoNwCZK" role="2OqNvi">
-                <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" resolve="geneName" />
               </node>
             </node>
           </node>
@@ -334,15 +333,15 @@
                       <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
                     </node>
                     <node concept="3TrEf2" id="5hNeoNw$Bg" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" />
+                      <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" resolve="statsTable" />
                     </node>
                   </node>
                   <node concept="3TrEf2" id="5hNeoNw_jE" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" />
+                    <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" resolve="table" />
                   </node>
                 </node>
                 <node concept="3TrEf2" id="5hNeoNwABQ" role="2OqNvi">
-                  <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
+                  <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" resolve="table" />
                 </node>
               </node>
               <node concept="2qgKlT" id="5hNeoNwB2B" role="2OqNvi">
@@ -353,7 +352,7 @@
                       <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
                     </node>
                     <node concept="3TrEf2" id="5hNeoNwBDm" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                      <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" resolve="geneName" />
                     </node>
                   </node>
                   <node concept="3TrcHB" id="5hNeoNwC28" role="2OqNvi">
@@ -370,7 +369,7 @@
                 <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
               </node>
               <node concept="3TrEf2" id="5hNeoNwzOf" role="2OqNvi">
-                <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" resolve="geneName" />
               </node>
             </node>
             <node concept="3x8VRR" id="5hNeoNw$an" role="2OqNvi" />
@@ -403,7 +402,7 @@
                     <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                   </node>
                   <node concept="3TrEf2" id="3AJ457wCTdr" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jugs:3AJ457wCC3o" />
+                    <ref role="3Tt5mk" to="jugs:3AJ457wCC3o" resolve="meanExpression" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="3AJ457wD7XQ" role="37vLTx">
@@ -427,11 +426,11 @@
                   <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                 </node>
                 <node concept="3TrEf2" id="3AJ457wDIOG" role="2OqNvi">
-                  <ref role="3Tt5mk" to="jugs:3AJ457wCC3o" />
+                  <ref role="3Tt5mk" to="jugs:3AJ457wCC3o" resolve="meanExpression" />
                 </node>
               </node>
               <node concept="3TrEf2" id="3AJ457wDJzc" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+                <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" resolve="col" />
               </node>
             </node>
             <node concept="3w_OXm" id="3AJ457wDJmq" role="2OqNvi" />
@@ -446,7 +445,7 @@
                     <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                   </node>
                   <node concept="3TrEf2" id="3AJ457wD8BI" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jugs:3AJ457wCC3D" />
+                    <ref role="3Tt5mk" to="jugs:3AJ457wCC3D" resolve="logFC" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="3AJ457wD8mu" role="37vLTx">
@@ -470,11 +469,11 @@
                   <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                 </node>
                 <node concept="3TrEf2" id="3AJ457wDKMp" role="2OqNvi">
-                  <ref role="3Tt5mk" to="jugs:3AJ457wCC3D" />
+                  <ref role="3Tt5mk" to="jugs:3AJ457wCC3D" resolve="logFC" />
                 </node>
               </node>
               <node concept="3TrEf2" id="3AJ457wDJJX" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+                <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" resolve="col" />
               </node>
             </node>
             <node concept="3w_OXm" id="3AJ457wDJJY" role="2OqNvi" />
@@ -489,7 +488,7 @@
                     <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                   </node>
                   <node concept="3TrEf2" id="3AJ457wD8Xv" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jugs:3AJ457wCC3Y" />
+                    <ref role="3Tt5mk" to="jugs:3AJ457wCC3Y" resolve="significanceLevelFDR" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="3AJ457wD9bI" role="37vLTx">
@@ -513,11 +512,11 @@
                   <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                 </node>
                 <node concept="3TrEf2" id="3AJ457wDLd1" role="2OqNvi">
-                  <ref role="3Tt5mk" to="jugs:3AJ457wCC3Y" />
+                  <ref role="3Tt5mk" to="jugs:3AJ457wCC3Y" resolve="significanceLevelFDR" />
                 </node>
               </node>
               <node concept="3TrEf2" id="3AJ457wDJTX" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+                <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" resolve="col" />
               </node>
             </node>
             <node concept="3w_OXm" id="3AJ457wDJTY" role="2OqNvi" />
@@ -540,15 +539,15 @@
                           <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                         </node>
                         <node concept="3TrEf2" id="3AJ457wEad2" role="2OqNvi">
-                          <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" />
+                          <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" resolve="statsTable" />
                         </node>
                       </node>
                       <node concept="3TrEf2" id="1c1rOX4JfEH" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" />
+                        <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" resolve="table" />
                       </node>
                     </node>
                     <node concept="3TrEf2" id="3AJ457wEad4" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
+                      <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" resolve="table" />
                     </node>
                   </node>
                   <node concept="2qgKlT" id="3AJ457wEad5" role="2OqNvi">
@@ -563,7 +562,7 @@
                     <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                   </node>
                   <node concept="3TrEf2" id="3AJ457wEad9" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                    <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" resolve="geneName" />
                   </node>
                 </node>
               </node>
@@ -585,15 +584,15 @@
                               <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                             </node>
                             <node concept="3TrEf2" id="3AJ457wDN4Q" role="2OqNvi">
-                              <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" />
+                              <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" resolve="statsTable" />
                             </node>
                           </node>
                           <node concept="3TrEf2" id="3AJ457wDNqs" role="2OqNvi">
-                            <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" />
+                            <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" resolve="table" />
                           </node>
                         </node>
                         <node concept="3TrEf2" id="3AJ457wDO50" role="2OqNvi">
-                          <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
+                          <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" resolve="table" />
                         </node>
                       </node>
                       <node concept="2qgKlT" id="3AJ457wE9Iu" role="2OqNvi">
@@ -608,7 +607,7 @@
                         <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                       </node>
                       <node concept="3TrEf2" id="3AJ457wDM$e" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                        <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" resolve="geneName" />
                       </node>
                     </node>
                   </node>
@@ -620,7 +619,7 @@
                     <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
                   </node>
                   <node concept="3TrEf2" id="3AJ457wEaBC" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                    <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" resolve="geneName" />
                   </node>
                 </node>
                 <node concept="3w_OXm" id="3AJ457wEaBD" role="2OqNvi" />
@@ -633,7 +632,7 @@
                 <ref role="QwW4h" node="3AJ457wCRPv" resolve="maPlot" />
               </node>
               <node concept="3TrEf2" id="3AJ457wDLyV" role="2OqNvi">
-                <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" resolve="geneName" />
               </node>
             </node>
             <node concept="3w_OXm" id="3AJ457wDM0_" role="2OqNvi" />

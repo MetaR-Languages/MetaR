@@ -2,9 +2,8 @@
 <model ref="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.metar.tables.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="2" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
@@ -22,6 +21,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -132,6 +132,12 @@
       <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
       <concept id="6702802731807420587" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="ig" index="9SLcT" />
       <concept id="6702802731807424858" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAnAncestor" flags="in" index="9SQb8" />
+      <concept id="6358186717179259582" name="jetbrains.mps.lang.constraints.structure.RefPresentationMigrated" flags="ng" index="2dbRIv">
+        <child id="5753863164744094836" name="problems" index="1F7K1$" />
+      </concept>
+      <concept id="6358186717179259587" name="jetbrains.mps.lang.constraints.structure.RefPresentationMigratedProblem" flags="ng" index="2dbRJy">
+        <reference id="6358186717179259588" name="editor" index="2dbRJ_" />
+      </concept>
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="1203001236505" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConceptNode" flags="nn" index="otxO1" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
@@ -145,9 +151,9 @@
       </concept>
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="6738154313879680265" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childNode" flags="nn" index="2H4GUG" />
-      <concept id="3481330710159180554" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Validator" flags="in" index="OSAzs" />
+      <concept id="3481330710159180554" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Validator" flags="ng" index="OSAzs" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
-      <concept id="7855321458717464197" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAnAncestor_Old" flags="in" index="Um2eU" />
+      <concept id="7855321458717464197" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAnAncestor_Old" flags="ng" index="Um2eU" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
         <reference id="8401916545537438643" name="kind" index="1dDu$A" />
@@ -783,6 +789,7 @@
             </node>
           </node>
         </node>
+        <node concept="2dbRIv" id="1xVV58hQwHT" role="lGtFl" />
       </node>
       <node concept="1dDu$B" id="3zqZiqBqyj3" role="1N6uqs">
         <ref role="1dDu$A" to="ztlb:1UijAvvb9DJ" resolve="Column" />
@@ -1895,6 +1902,7 @@
             </node>
           </node>
         </node>
+        <node concept="2dbRIv" id="1xVV58hQwHN" role="lGtFl" />
       </node>
       <node concept="1X3_iC" id="4tSF6VCKJCo" role="lGtFl">
         <property role="3V$3am" value="validator" />
@@ -2040,6 +2048,7 @@
             </node>
           </node>
         </node>
+        <node concept="2dbRIv" id="1xVV58hQwHS" role="lGtFl" />
       </node>
     </node>
   </node>
@@ -2119,6 +2128,7 @@
             </node>
           </node>
         </node>
+        <node concept="2dbRIv" id="1xVV58hQwHR" role="lGtFl" />
       </node>
       <node concept="3k9gUc" id="2MUPwqpvGxD" role="3kmjI7">
         <node concept="3clFbS" id="2MUPwqpvGxE" role="2VODD2">
@@ -2478,6 +2488,7 @@
             </node>
           </node>
         </node>
+        <node concept="2dbRIv" id="1xVV58hQwHO" role="lGtFl" />
       </node>
     </node>
     <node concept="1N5Pfh" id="2OXkbjPNWBP" role="1Mr941">
@@ -2516,6 +2527,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="2dbRIv" id="1xVV58hQwHP" role="lGtFl">
+          <node concept="2dbRJy" id="1xVV58hQwHQ" role="1F7K1$">
+            <ref role="2dbRJ_" to="8gqa:2WRhvFt_nEH" resolve="ColumnRef_Editor" />
           </node>
         </node>
       </node>

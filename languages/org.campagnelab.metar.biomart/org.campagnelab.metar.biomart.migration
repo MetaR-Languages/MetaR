@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:427b31ee-e4d0-477b-bd50-905e761feacc(migrationData)">
+  <persistence version="9" />
+  <languages />
+  <imports>
+    <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" implicit="true" />
+    <import index="llns" ref="r:638be9a7-9e21-4dc4-9119-d44fee84a7c4(org.campagnelab.metar.biomart.editor)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="3017733173184487099" name="jetbrains.mps.lang.editor.structure.SmartRefMigrationDataEntity" flags="ng" index="ZsZFI">
+        <reference id="3017733173184487105" name="generatedMenu" index="ZsZEk" />
+        <reference id="3017733173184487102" name="conceptNode" index="ZsZFF" />
+      </concept>
+      <concept id="3017733173184487098" name="jetbrains.mps.lang.editor.structure.SmartRefMigrationData" flags="ng" index="ZsZFJ">
+        <child id="3017733173184487121" name="entities" index="ZsZE4" />
+      </concept>
+    </language>
+    <language id="9882f4ad-1955-46fe-8269-94189e5dbbf2" name="jetbrains.mps.lang.migration.util">
+      <concept id="7417095922908669705" name="jetbrains.mps.lang.migration.util.structure.StepData" flags="ng" index="2z5JpS">
+        <property id="1973338949477451252" name="script" index="3qqn2_" />
+        <child id="7417095922908725798" name="data" index="2z5Xdn" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="2z5JpS" id="1xVV58hQv_1">
+    <property role="3qqn2_" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)/8" />
+    <node concept="ZsZFJ" id="1xVV58hQv$0" role="2z5Xdn">
+      <node concept="ZsZFI" id="1xVV58hQv$g" role="ZsZE4">
+        <ref role="ZsZFF" to="c07g:1JNk8OtCwRn" resolve="FilterRef" />
+        <ref role="ZsZEk" to="llns:1xVV58hQv$a" resolve="FilterRef_SmartReference" />
+      </node>
+      <node concept="ZsZFI" id="1xVV58hQv$w" role="ZsZE4">
+        <ref role="ZsZFF" to="c07g:72b49Az6N4y" resolve="FilterListValueRef" />
+        <ref role="ZsZEk" to="llns:1xVV58hQv$q" resolve="FilterListValueRef_SmartReference" />
+      </node>
+      <node concept="ZsZFI" id="1xVV58hQv$K" role="ZsZE4">
+        <ref role="ZsZFF" to="c07g:KwXu1WyoBC" resolve="AttributeRef" />
+        <ref role="ZsZEk" to="llns:1xVV58hQv$E" resolve="AttributeRef_SmartReference" />
+      </node>
+      <node concept="ZsZFI" id="1xVV58hQv_0" role="ZsZE4">
+        <ref role="ZsZFF" to="c07g:4bkMdJovqAd" resolve="ColumnGroupRef" />
+        <ref role="ZsZEk" to="llns:1xVV58hQv$U" resolve="ColumnGroupRef_SmartReference" />
+      </node>
+    </node>
+  </node>
+</model>
+

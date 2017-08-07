@@ -2,8 +2,7 @@
 <model ref="r:711b655d-da26-4e0d-b1b8-744ec03c2ad3(org.campagnelab.metar.biomart.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
@@ -164,7 +163,7 @@
               </node>
             </node>
             <node concept="3Tsc0h" id="2eITi4PGum1" role="2OqNvi">
-              <ref role="3TtcxE" to="c07g:6Om6Mbm3Tzy" />
+              <ref role="3TtcxE" to="c07g:6Om6Mbm3Tzy" resolve="databasesList" />
             </node>
           </node>
           <node concept="1v1jN8" id="2eITi4PGwAW" role="2OqNvi" />
@@ -186,7 +185,7 @@
                     <ref role="2Gs0qQ" node="1cI4GX2iQhC" resolve="filterWithIdsFromTables" />
                   </node>
                   <node concept="3TrEf2" id="1cI4GX2jqS4" role="2OqNvi">
-                    <ref role="3Tt5mk" to="c07g:1UH1ei4cw2o" />
+                    <ref role="3Tt5mk" to="c07g:1UH1ei4cw2o" resolve="tableRef" />
                   </node>
                 </node>
               </node>
@@ -198,7 +197,7 @@
                     <ref role="2Gs0qQ" node="1cI4GX2iQhC" resolve="filterWithIdsFromTables" />
                   </node>
                   <node concept="3TrEf2" id="1cI4GX2jUgm" role="2OqNvi">
-                    <ref role="3Tt5mk" to="c07g:1UH1ei4cw2o" />
+                    <ref role="3Tt5mk" to="c07g:1UH1ei4cw2o" resolve="tableRef" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="1cI4GX2jUgn" role="2OqNvi">
@@ -217,7 +216,7 @@
               <ref role="1YBMHb" node="2eITi4PFXpt" resolve="biomart" />
             </node>
             <node concept="3Tsc0h" id="1cI4GX2iQrH" role="2OqNvi">
-              <ref role="3TtcxE" to="c07g:1JNk8OtCx8S" />
+              <ref role="3TtcxE" to="c07g:1JNk8OtCx8S" resolve="martFilters" />
             </node>
           </node>
           <node concept="3goQfb" id="1cI4GX2jpwK" role="2OqNvi">
@@ -277,7 +276,7 @@
                 <ref role="1YBMHb" node="4bkMdJnDTCV" resolve="filterWithidsFromTable" />
               </node>
               <node concept="3TrEf2" id="4bkMdJnDUtp" role="2OqNvi">
-                <ref role="3Tt5mk" to="c07g:1UH1ei4cw2o" />
+                <ref role="3Tt5mk" to="c07g:1UH1ei4cw2o" resolve="tableRef" />
               </node>
             </node>
             <node concept="2qgKlT" id="4bkMdJnDUQ9" role="2OqNvi">
@@ -316,7 +315,7 @@
               <ref role="1YBMHb" node="4bkMdJpfoKZ" resolve="biomart" />
             </node>
             <node concept="3Tsc0h" id="4bkMdJpfp5H" role="2OqNvi">
-              <ref role="3TtcxE" to="c07g:KwXu1WA3K5" />
+              <ref role="3TtcxE" to="c07g:KwXu1WA3K5" resolve="martAttributes" />
             </node>
           </node>
           <node concept="1v1jN8" id="4bkMdJpfr37" role="2OqNvi" />
@@ -349,7 +348,7 @@
               <ref role="1YBMHb" node="4bkMdJphA1t" resolve="attributeRef" />
             </node>
             <node concept="3TrEf2" id="4bkMdJphAaH" role="2OqNvi">
-              <ref role="3Tt5mk" to="c07g:4bkMdJoajAo" />
+              <ref role="3Tt5mk" to="c07g:4bkMdJoajAo" resolve="types" />
             </node>
           </node>
           <node concept="3w_OXm" id="4bkMdJphArP" role="2OqNvi" />
