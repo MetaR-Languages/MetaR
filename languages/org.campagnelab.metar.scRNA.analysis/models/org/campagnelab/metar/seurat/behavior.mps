@@ -397,8 +397,8 @@
               <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
             </node>
             <node concept="2YIFZM" id="7lSaFvGfD6p" role="33vP2m">
-              <ref role="37wK5l" to="6xgk:4bwP1QYfA4B" resolve="lazyParentScope" />
               <ref role="1Pybhc" to="6xgk:2CkzzCfe8t5" resolve="ScopeUtils" />
+              <ref role="37wK5l" to="6xgk:EB2Sz2Td5_" resolve="lazyParentScope" />
               <node concept="37vLTw" id="7lSaFvGfD6q" role="37wK5m">
                 <ref role="3cqZAo" node="7lSaFvHCmvJ" resolve="statementList" />
               </node>

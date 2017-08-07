@@ -141,6 +141,7 @@
       <concept id="6918029743850308467" name="jetbrains.mps.lang.editor.structure.QueryFunction_RefPresentation" flags="ig" index="1NMggl" />
       <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
       <concept id="4307758654696938365" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_RefPresentation" flags="ig" index="1WAQ3h" />
+      <concept id="4307758654696952957" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_SubstituteMenu_ReferencedNode" flags="ng" index="1WAUZh" />
       <concept id="8428109087107030357" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_ReferenceScope" flags="ng" index="3XHNnq">
         <reference id="8428109087107339113" name="reference" index="3XGfJA" />
         <child id="4307758654694904293" name="matchingTextFunction" index="1WZ6D9" />
@@ -172,7 +173,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
@@ -819,9 +819,14 @@
       <node concept="1WAQ3h" id="1xVV58hQvzD" role="1WZ6D9">
         <node concept="3clFbS" id="1xVV58hQvzy" role="2VODD2">
           <node concept="3clFbF" id="1xVV58hQvzz" role="3cqZAp">
-            <node concept="2OqwBi" id="1xVV58hQvz$" role="3clFbG">
-              <node concept="10Nm6u" id="1xVV58hQvzB" role="2Oq$k0" />
-              <node concept="3TrcHB" id="1xVV58hQvzA" role="2OqNvi">
+            <node concept="2OqwBi" id="1xVV58i8GP5" role="3clFbG">
+              <node concept="2OqwBi" id="1xVV58i8FRF" role="2Oq$k0">
+                <node concept="1WAUZh" id="1xVV58i8Fzr" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1xVV58i8Gec" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" resolve="table" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="1xVV58i8Hl0" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
