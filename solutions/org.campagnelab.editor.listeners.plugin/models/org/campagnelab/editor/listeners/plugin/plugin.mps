@@ -933,7 +933,7 @@
                           <node concept="2OqwBi" id="4DiT5VJdevX" role="3clFbG">
                             <node concept="2YIFZM" id="4DiT5VJdeum" role="2Oq$k0">
                               <ref role="37wK5l" to="w1kc:~ModelAccess.instance():jetbrains.mps.smodel.ModelAccess" resolve="instance" />
-                              <ref role="1Pybhc" to="w1kc:~DefaultModelAccess" resolve="DefaultModelAccess" />
+                              <ref role="1Pybhc" to="w1kc:~ModelAccess" resolve="ModelAccess" />
                             </node>
                             <node concept="liA8E" id="4DiT5VJde_n" role="2OqNvi">
                               <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runReadInEDT(java.lang.Runnable):void" resolve="runReadInEDT" />

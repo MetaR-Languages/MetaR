@@ -3180,7 +3180,7 @@
               <node concept="2OqwBi" id="6g0lTWDvtqS" role="3clFbG">
                 <node concept="2YIFZM" id="6g0lTWDvtpH" role="2Oq$k0">
                   <ref role="37wK5l" to="w1kc:~ModelAccess.instance():jetbrains.mps.smodel.ModelAccess" resolve="instance" />
-                  <ref role="1Pybhc" to="w1kc:~DefaultModelAccess" resolve="DefaultModelAccess" />
+                  <ref role="1Pybhc" to="w1kc:~ModelAccess" resolve="ModelAccess" />
                 </node>
                 <node concept="liA8E" id="6g0lTWDvtxw" role="2OqNvi">
                   <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runReadInEDT(java.lang.Runnable):void" resolve="runReadInEDT" />
@@ -5451,8 +5451,8 @@
                 <node concept="3clFbF" id="8hghQrc2Bb" role="3cqZAp">
                   <node concept="2OqwBi" id="8hghQrc2Bc" role="3clFbG">
                     <node concept="2YIFZM" id="8hghQrc2Bd" role="2Oq$k0">
-                      <ref role="1Pybhc" to="w1kc:~DefaultModelAccess" resolve="DefaultModelAccess" />
                       <ref role="37wK5l" to="w1kc:~ModelAccess.instance():jetbrains.mps.smodel.ModelAccess" resolve="instance" />
+                      <ref role="1Pybhc" to="w1kc:~ModelAccess" resolve="ModelAccess" />
                     </node>
                     <node concept="liA8E" id="8hghQrc2Be" role="2OqNvi">
                       <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runReadInEDT(java.lang.Runnable):void" resolve="runReadInEDT" />
