@@ -554,9 +554,6 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
-      <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
-        <reference id="1172424100906" name="conceptDeclaration" index="3TV0OU" />
-      </concept>
       <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -2415,9 +2412,9 @@
                     <node concept="2OqwBi" id="2o$O_6RLfjq" role="2Oq$k0">
                       <node concept="2OqwBi" id="2o$O_6RLcq4" role="2Oq$k0">
                         <node concept="2qgKlT" id="2o$O_6RLcJY" role="2OqNvi">
-                          <ref role="37wK5l" to="tpcu:3fifI_xCJOQ" resolve="getScope" />
-                          <node concept="3TUQnm" id="2o$O_6S03a4" role="37wK5m">
-                            <ref role="3TV0OU" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
+                          <ref role="37wK5l" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+                          <node concept="35c_gC" id="1xVV58i8$Vj" role="37wK5m">
+                            <ref role="35c_gD" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
                           </node>
                           <node concept="pncrf" id="2o$O_6RLfaW" role="37wK5m" />
                         </node>
@@ -5957,9 +5954,9 @@
                     <ref role="3cqZAo" node="m2dhZuGO8i" resolve="scopeProvider" />
                   </node>
                   <node concept="2qgKlT" id="m2dhZuGO8A" role="2OqNvi">
-                    <ref role="37wK5l" to="tpcu:3fifI_xCJOQ" resolve="getScope" />
-                    <node concept="3TUQnm" id="m2dhZuGO8B" role="37wK5m">
-                      <ref role="3TV0OU" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
+                    <ref role="37wK5l" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+                    <node concept="35c_gC" id="1xVV58i8yrX" role="37wK5m">
+                      <ref role="35c_gD" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
                     </node>
                     <node concept="37vLTw" id="m2dhZuGO8C" role="37wK5m">
                       <ref role="3cqZAo" node="m2dhZuGO7R" resolve="currentNode" />
