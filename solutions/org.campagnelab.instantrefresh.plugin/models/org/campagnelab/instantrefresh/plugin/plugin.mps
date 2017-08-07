@@ -10092,122 +10092,139 @@
     <property role="3GE5qa" value="changeListener" />
     <node concept="2uRRBT" id="55a1UmAsgSC" role="2uRRB$">
       <node concept="3clFbS" id="55a1UmAsgSD" role="2VODD2">
-        <node concept="3cpWs8" id="55a1UmAt902" role="3cqZAp">
-          <node concept="3cpWsn" id="55a1UmAt900" role="3cpWs9">
-            <property role="3TUv4t" value="true" />
-            <property role="TrG5h" value="ideaProject" />
-            <node concept="3uibUv" id="55a1UmAt9d0" role="1tU5fm">
-              <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-            </node>
-            <node concept="2YIFZM" id="55a1UmAsX6s" role="33vP2m">
-              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
-              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-              <node concept="1KvdUw" id="55a1UmAsX9g" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="55a1UmAsRXS" role="3cqZAp">
-          <node concept="3cpWsn" id="55a1UmAsRXT" role="3cpWs9">
-            <property role="TrG5h" value="iter" />
-            <node concept="3uibUv" id="55a1UmAsRXU" role="1tU5fm">
-              <ref role="3uigEE" to="33ny:~Iterator" resolve="Iterator" />
-              <node concept="3uibUv" id="55a1UmAsUGv" role="11_B2D">
-                <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+        <node concept="3clFbF" id="4$e7IRcElkj" role="3cqZAp">
+          <node concept="2OqwBi" id="4$e7IRcEnlS" role="3clFbG">
+            <node concept="2OqwBi" id="4$e7IRcEm4N" role="2Oq$k0">
+              <node concept="1KvdUw" id="4$e7IRcElke" role="2Oq$k0" />
+              <node concept="liA8E" id="4$e7IRcEn5B" role="2OqNvi">
+                <ref role="37wK5l" to="z1c4:~Project.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
               </node>
             </node>
-            <node concept="2OqwBi" id="55a1UmAsRv0" role="33vP2m">
-              <node concept="2OqwBi" id="55a1UmAsQYY" role="2Oq$k0">
-                <node concept="1KvdUw" id="55a1UmAsQWD" role="2Oq$k0" />
-                <node concept="liA8E" id="55a1UmAsR6P" role="2OqNvi">
-                  <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
-                </node>
-              </node>
-              <node concept="liA8E" id="55a1UmAsRJ3" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Iterable.iterator():java.util.Iterator" resolve="iterator" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="55a1UmAsS4Z" role="3cqZAp">
-          <node concept="3cpWsn" id="55a1UmAsS52" role="3cpWs9">
-            <property role="TrG5h" value="models" />
-            <node concept="_YKpA" id="55a1UmAsS4V" role="1tU5fm">
-              <node concept="3uibUv" id="55a1UmAsSfr" role="_ZDj9">
-                <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
-              </node>
-            </node>
-            <node concept="2ShNRf" id="55a1UmAsSgS" role="33vP2m">
-              <node concept="Tc6Ow" id="55a1UmAsSLZ" role="2ShVmc">
-                <node concept="3uibUv" id="55a1UmAsTuu" role="HW$YZ">
-                  <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2$JKZl" id="55a1UmAsT_F" role="3cqZAp">
-          <node concept="3clFbS" id="55a1UmAsT_H" role="2LFqv$">
-            <node concept="3clFbF" id="55a1UmAsTMk" role="3cqZAp">
-              <node concept="2OqwBi" id="55a1UmAsTUc" role="3clFbG">
-                <node concept="37vLTw" id="55a1UmAsTMj" role="2Oq$k0">
-                  <ref role="3cqZAo" node="55a1UmAsS52" resolve="models" />
-                </node>
-                <node concept="TSZUe" id="55a1UmAsUhf" role="2OqNvi">
-                  <node concept="2OqwBi" id="55a1UmAsUox" role="25WWJ7">
-                    <node concept="37vLTw" id="55a1UmAsUn6" role="2Oq$k0">
-                      <ref role="3cqZAo" node="55a1UmAsRXT" resolve="iter" />
-                    </node>
-                    <node concept="liA8E" id="55a1UmAsUrm" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Iterator.next():java.lang.Object" resolve="next" />
+            <node concept="liA8E" id="4$e7IRcEovw" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable):void" resolve="runReadAction" />
+              <node concept="1bVj0M" id="4$e7IRcEo$q" role="37wK5m">
+                <node concept="3clFbS" id="4$e7IRcEo$r" role="1bW5cS">
+                  <node concept="3cpWs8" id="55a1UmAt902" role="3cqZAp">
+                    <node concept="3cpWsn" id="55a1UmAt900" role="3cpWs9">
+                      <property role="3TUv4t" value="true" />
+                      <property role="TrG5h" value="ideaProject" />
+                      <node concept="3uibUv" id="55a1UmAt9d0" role="1tU5fm">
+                        <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+                      </node>
+                      <node concept="2YIFZM" id="55a1UmAsX6s" role="33vP2m">
+                        <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                        <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                        <node concept="1KvdUw" id="55a1UmAsX9g" role="37wK5m" />
+                      </node>
                     </node>
                   </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="55a1UmAsTEA" role="2$JKZa">
-            <node concept="37vLTw" id="55a1UmAsTCx" role="2Oq$k0">
-              <ref role="3cqZAo" node="55a1UmAsRXT" resolve="iter" />
-            </node>
-            <node concept="liA8E" id="55a1UmAsTHM" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Iterator.hasNext():boolean" resolve="hasNext" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="2yvMhGhsHAt" role="3cqZAp">
-          <node concept="3SKdUq" id="2yvMhGhsHAu" role="3SKWNk">
-            <property role="3SKdUp" value="register change listeners for every model in the current project" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="55a1UmAsV1e" role="3cqZAp">
-          <node concept="2OqwBi" id="55a1UmAsVd2" role="3clFbG">
-            <node concept="37vLTw" id="55a1UmAsV1c" role="2Oq$k0">
-              <ref role="3cqZAo" node="55a1UmAsS52" resolve="models" />
-            </node>
-            <node concept="2es0OD" id="55a1UmAsVB_" role="2OqNvi">
-              <node concept="1bVj0M" id="55a1UmAsVBB" role="23t8la">
-                <node concept="3clFbS" id="55a1UmAsVBC" role="1bW5cS">
-                  <node concept="3clFbF" id="55a1UmAsVHJ" role="3cqZAp">
-                    <node concept="2OqwBi" id="55a1UmAsW7a" role="3clFbG">
-                      <node concept="2YIFZM" id="55a1UmAsW4n" role="2Oq$k0">
-                        <ref role="1Pybhc" node="4mTRct5g3kP" resolve="ModelChangeListenerManager" />
-                        <ref role="37wK5l" node="55a1UmAsk0l" resolve="getInstance" />
-                      </node>
-                      <node concept="liA8E" id="55a1UmAsWax" role="2OqNvi">
-                        <ref role="37wK5l" node="55a1UmAlG37" resolve="attach" />
-                        <node concept="37vLTw" id="55a1UmAsWhU" role="37wK5m">
-                          <ref role="3cqZAo" node="55a1UmAsVBD" resolve="model" />
+                  <node concept="3cpWs8" id="55a1UmAsRXS" role="3cqZAp">
+                    <node concept="3cpWsn" id="55a1UmAsRXT" role="3cpWs9">
+                      <property role="TrG5h" value="iter" />
+                      <node concept="3uibUv" id="55a1UmAsRXU" role="1tU5fm">
+                        <ref role="3uigEE" to="33ny:~Iterator" resolve="Iterator" />
+                        <node concept="3uibUv" id="55a1UmAsUGv" role="11_B2D">
+                          <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
                         </node>
-                        <node concept="37vLTw" id="55a1UmAt9ka" role="37wK5m">
-                          <ref role="3cqZAo" node="55a1UmAt900" resolve="ideaProject" />
+                      </node>
+                      <node concept="2OqwBi" id="55a1UmAsRv0" role="33vP2m">
+                        <node concept="2OqwBi" id="55a1UmAsQYY" role="2Oq$k0">
+                          <node concept="1KvdUw" id="55a1UmAsQWD" role="2Oq$k0" />
+                          <node concept="liA8E" id="55a1UmAsR6P" role="2OqNvi">
+                            <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="55a1UmAsRJ3" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Iterable.iterator():java.util.Iterator" resolve="iterator" />
                         </node>
                       </node>
                     </node>
                   </node>
-                </node>
-                <node concept="Rh6nW" id="55a1UmAsVBD" role="1bW2Oz">
-                  <property role="TrG5h" value="model" />
-                  <node concept="2jxLKc" id="55a1UmAsVBE" role="1tU5fm" />
+                  <node concept="3cpWs8" id="55a1UmAsS4Z" role="3cqZAp">
+                    <node concept="3cpWsn" id="55a1UmAsS52" role="3cpWs9">
+                      <property role="TrG5h" value="models" />
+                      <node concept="_YKpA" id="55a1UmAsS4V" role="1tU5fm">
+                        <node concept="3uibUv" id="55a1UmAsSfr" role="_ZDj9">
+                          <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                        </node>
+                      </node>
+                      <node concept="2ShNRf" id="55a1UmAsSgS" role="33vP2m">
+                        <node concept="Tc6Ow" id="55a1UmAsSLZ" role="2ShVmc">
+                          <node concept="3uibUv" id="55a1UmAsTuu" role="HW$YZ">
+                            <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2$JKZl" id="55a1UmAsT_F" role="3cqZAp">
+                    <node concept="3clFbS" id="55a1UmAsT_H" role="2LFqv$">
+                      <node concept="3clFbF" id="55a1UmAsTMk" role="3cqZAp">
+                        <node concept="2OqwBi" id="55a1UmAsTUc" role="3clFbG">
+                          <node concept="37vLTw" id="55a1UmAsTMj" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55a1UmAsS52" resolve="models" />
+                          </node>
+                          <node concept="TSZUe" id="55a1UmAsUhf" role="2OqNvi">
+                            <node concept="2OqwBi" id="55a1UmAsUox" role="25WWJ7">
+                              <node concept="37vLTw" id="55a1UmAsUn6" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55a1UmAsRXT" resolve="iter" />
+                              </node>
+                              <node concept="liA8E" id="55a1UmAsUrm" role="2OqNvi">
+                                <ref role="37wK5l" to="33ny:~Iterator.next():java.lang.Object" resolve="next" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="55a1UmAsTEA" role="2$JKZa">
+                      <node concept="37vLTw" id="55a1UmAsTCx" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55a1UmAsRXT" resolve="iter" />
+                      </node>
+                      <node concept="liA8E" id="55a1UmAsTHM" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~Iterator.hasNext():boolean" resolve="hasNext" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="2yvMhGhsHAt" role="3cqZAp">
+                    <node concept="3SKdUq" id="2yvMhGhsHAu" role="3SKWNk">
+                      <property role="3SKdUp" value="register change listeners for every model in the current project" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="55a1UmAsV1e" role="3cqZAp">
+                    <node concept="2OqwBi" id="55a1UmAsVd2" role="3clFbG">
+                      <node concept="37vLTw" id="55a1UmAsV1c" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55a1UmAsS52" resolve="models" />
+                      </node>
+                      <node concept="2es0OD" id="55a1UmAsVB_" role="2OqNvi">
+                        <node concept="1bVj0M" id="55a1UmAsVBB" role="23t8la">
+                          <node concept="3clFbS" id="55a1UmAsVBC" role="1bW5cS">
+                            <node concept="3clFbF" id="55a1UmAsVHJ" role="3cqZAp">
+                              <node concept="2OqwBi" id="55a1UmAsW7a" role="3clFbG">
+                                <node concept="2YIFZM" id="55a1UmAsW4n" role="2Oq$k0">
+                                  <ref role="1Pybhc" node="4mTRct5g3kP" resolve="ModelChangeListenerManager" />
+                                  <ref role="37wK5l" node="55a1UmAsk0l" resolve="getInstance" />
+                                </node>
+                                <node concept="liA8E" id="55a1UmAsWax" role="2OqNvi">
+                                  <ref role="37wK5l" node="55a1UmAlG37" resolve="attach" />
+                                  <node concept="37vLTw" id="55a1UmAsWhU" role="37wK5m">
+                                    <ref role="3cqZAo" node="55a1UmAsVBD" resolve="model" />
+                                  </node>
+                                  <node concept="37vLTw" id="55a1UmAt9ka" role="37wK5m">
+                                    <ref role="3cqZAo" node="55a1UmAt900" resolve="ideaProject" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Rh6nW" id="55a1UmAsVBD" role="1bW2Oz">
+                            <property role="TrG5h" value="model" />
+                            <node concept="2jxLKc" id="55a1UmAsVBE" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -10217,106 +10234,122 @@
     </node>
     <node concept="2uRRBN" id="55a1UmAsM9e" role="2uRRB_">
       <node concept="3clFbS" id="55a1UmAsM9f" role="2VODD2">
-        <node concept="3cpWs8" id="55a1UmAsWq7" role="3cqZAp">
-          <node concept="3cpWsn" id="55a1UmAsWq8" role="3cpWs9">
-            <property role="TrG5h" value="iter" />
-            <node concept="3uibUv" id="55a1UmAsWq9" role="1tU5fm">
-              <ref role="3uigEE" to="33ny:~Iterator" resolve="Iterator" />
-              <node concept="3uibUv" id="55a1UmAsWqa" role="11_B2D">
-                <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+        <node concept="3clFbF" id="4$e7IRcEs6P" role="3cqZAp">
+          <node concept="2OqwBi" id="4$e7IRcEslN" role="3clFbG">
+            <node concept="2OqwBi" id="4$e7IRcEs6R" role="2Oq$k0">
+              <node concept="1KvdUw" id="4$e7IRcEs6S" role="2Oq$k0" />
+              <node concept="liA8E" id="4$e7IRcEs6T" role="2OqNvi">
+                <ref role="37wK5l" to="z1c4:~Project.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
               </node>
             </node>
-            <node concept="2OqwBi" id="55a1UmAsWqb" role="33vP2m">
-              <node concept="2OqwBi" id="55a1UmAsWqc" role="2Oq$k0">
-                <node concept="1KvdUw" id="55a1UmAsWqd" role="2Oq$k0" />
-                <node concept="liA8E" id="55a1UmAsWqe" role="2OqNvi">
-                  <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
-                </node>
-              </node>
-              <node concept="liA8E" id="55a1UmAsWqf" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Iterable.iterator():java.util.Iterator" resolve="iterator" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="55a1UmAsWqg" role="3cqZAp">
-          <node concept="3cpWsn" id="55a1UmAsWqh" role="3cpWs9">
-            <property role="TrG5h" value="models" />
-            <node concept="_YKpA" id="55a1UmAsWqi" role="1tU5fm">
-              <node concept="3uibUv" id="55a1UmAsWqj" role="_ZDj9">
-                <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
-              </node>
-            </node>
-            <node concept="2ShNRf" id="55a1UmAsWqk" role="33vP2m">
-              <node concept="Tc6Ow" id="55a1UmAsWql" role="2ShVmc">
-                <node concept="3uibUv" id="55a1UmAsWqm" role="HW$YZ">
-                  <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2$JKZl" id="55a1UmAsWqn" role="3cqZAp">
-          <node concept="3clFbS" id="55a1UmAsWqo" role="2LFqv$">
-            <node concept="3clFbF" id="55a1UmAsWqp" role="3cqZAp">
-              <node concept="2OqwBi" id="55a1UmAsWqq" role="3clFbG">
-                <node concept="37vLTw" id="55a1UmAsWqr" role="2Oq$k0">
-                  <ref role="3cqZAo" node="55a1UmAsWqh" resolve="models" />
-                </node>
-                <node concept="TSZUe" id="55a1UmAsWqs" role="2OqNvi">
-                  <node concept="2OqwBi" id="55a1UmAsWqt" role="25WWJ7">
-                    <node concept="37vLTw" id="55a1UmAsWqu" role="2Oq$k0">
-                      <ref role="3cqZAo" node="55a1UmAsWq8" resolve="iter" />
-                    </node>
-                    <node concept="liA8E" id="55a1UmAsWqv" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Iterator.next():java.lang.Object" resolve="next" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="55a1UmAsWqw" role="2$JKZa">
-            <node concept="37vLTw" id="55a1UmAsWqx" role="2Oq$k0">
-              <ref role="3cqZAo" node="55a1UmAsWq8" resolve="iter" />
-            </node>
-            <node concept="liA8E" id="55a1UmAsWqy" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Iterator.hasNext():boolean" resolve="hasNext" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="2yvMhGhsHNS" role="3cqZAp">
-          <node concept="3SKdUq" id="2yvMhGhsHNT" role="3SKWNk">
-            <property role="3SKdUp" value="detach change listeners from every model in the current project" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="55a1UmAsWqz" role="3cqZAp">
-          <node concept="2OqwBi" id="55a1UmAsWq$" role="3clFbG">
-            <node concept="37vLTw" id="55a1UmAsWq_" role="2Oq$k0">
-              <ref role="3cqZAo" node="55a1UmAsWqh" resolve="models" />
-            </node>
-            <node concept="2es0OD" id="55a1UmAsWqA" role="2OqNvi">
-              <node concept="1bVj0M" id="55a1UmAsWqB" role="23t8la">
-                <node concept="3clFbS" id="55a1UmAsWqC" role="1bW5cS">
-                  <node concept="3clFbF" id="55a1UmAsWqD" role="3cqZAp">
-                    <node concept="2OqwBi" id="55a1UmAsWqE" role="3clFbG">
-                      <node concept="2YIFZM" id="55a1UmAsWqF" role="2Oq$k0">
-                        <ref role="1Pybhc" node="4mTRct5g3kP" resolve="ModelChangeListenerManager" />
-                        <ref role="37wK5l" node="55a1UmAsk0l" resolve="getInstance" />
+            <node concept="liA8E" id="4$e7IRcEsNi" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable):void" resolve="runReadAction" />
+              <node concept="1bVj0M" id="4$e7IRcEsSg" role="37wK5m">
+                <node concept="3clFbS" id="4$e7IRcEsSh" role="1bW5cS">
+                  <node concept="3cpWs8" id="55a1UmAsWq7" role="3cqZAp">
+                    <node concept="3cpWsn" id="55a1UmAsWq8" role="3cpWs9">
+                      <property role="TrG5h" value="iter" />
+                      <node concept="3uibUv" id="55a1UmAsWq9" role="1tU5fm">
+                        <ref role="3uigEE" to="33ny:~Iterator" resolve="Iterator" />
+                        <node concept="3uibUv" id="55a1UmAsWqa" role="11_B2D">
+                          <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="55a1UmAsWqG" role="2OqNvi">
-                        <ref role="37wK5l" node="55a1UmAlGhl" resolve="detach" />
-                        <node concept="37vLTw" id="55a1UmAsWqH" role="37wK5m">
-                          <ref role="3cqZAo" node="55a1UmAsWqJ" resolve="model" />
+                      <node concept="2OqwBi" id="55a1UmAsWqb" role="33vP2m">
+                        <node concept="2OqwBi" id="55a1UmAsWqc" role="2Oq$k0">
+                          <node concept="1KvdUw" id="55a1UmAsWqd" role="2Oq$k0" />
+                          <node concept="liA8E" id="55a1UmAsWqe" role="2OqNvi">
+                            <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="55a1UmAsWqf" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Iterable.iterator():java.util.Iterator" resolve="iterator" />
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="1LOG1pC8bqI" role="3cqZAp" />
-                </node>
-                <node concept="Rh6nW" id="55a1UmAsWqJ" role="1bW2Oz">
-                  <property role="TrG5h" value="model" />
-                  <node concept="2jxLKc" id="55a1UmAsWqK" role="1tU5fm" />
+                  <node concept="3cpWs8" id="55a1UmAsWqg" role="3cqZAp">
+                    <node concept="3cpWsn" id="55a1UmAsWqh" role="3cpWs9">
+                      <property role="TrG5h" value="models" />
+                      <node concept="_YKpA" id="55a1UmAsWqi" role="1tU5fm">
+                        <node concept="3uibUv" id="55a1UmAsWqj" role="_ZDj9">
+                          <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                        </node>
+                      </node>
+                      <node concept="2ShNRf" id="55a1UmAsWqk" role="33vP2m">
+                        <node concept="Tc6Ow" id="55a1UmAsWql" role="2ShVmc">
+                          <node concept="3uibUv" id="55a1UmAsWqm" role="HW$YZ">
+                            <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2$JKZl" id="55a1UmAsWqn" role="3cqZAp">
+                    <node concept="3clFbS" id="55a1UmAsWqo" role="2LFqv$">
+                      <node concept="3clFbF" id="55a1UmAsWqp" role="3cqZAp">
+                        <node concept="2OqwBi" id="55a1UmAsWqq" role="3clFbG">
+                          <node concept="37vLTw" id="55a1UmAsWqr" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55a1UmAsWqh" resolve="models" />
+                          </node>
+                          <node concept="TSZUe" id="55a1UmAsWqs" role="2OqNvi">
+                            <node concept="2OqwBi" id="55a1UmAsWqt" role="25WWJ7">
+                              <node concept="37vLTw" id="55a1UmAsWqu" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55a1UmAsWq8" resolve="iter" />
+                              </node>
+                              <node concept="liA8E" id="55a1UmAsWqv" role="2OqNvi">
+                                <ref role="37wK5l" to="33ny:~Iterator.next():java.lang.Object" resolve="next" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="55a1UmAsWqw" role="2$JKZa">
+                      <node concept="37vLTw" id="55a1UmAsWqx" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55a1UmAsWq8" resolve="iter" />
+                      </node>
+                      <node concept="liA8E" id="55a1UmAsWqy" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~Iterator.hasNext():boolean" resolve="hasNext" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="2yvMhGhsHNS" role="3cqZAp">
+                    <node concept="3SKdUq" id="2yvMhGhsHNT" role="3SKWNk">
+                      <property role="3SKdUp" value="detach change listeners from every model in the current project" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="55a1UmAsWqz" role="3cqZAp">
+                    <node concept="2OqwBi" id="55a1UmAsWq$" role="3clFbG">
+                      <node concept="37vLTw" id="55a1UmAsWq_" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55a1UmAsWqh" resolve="models" />
+                      </node>
+                      <node concept="2es0OD" id="55a1UmAsWqA" role="2OqNvi">
+                        <node concept="1bVj0M" id="55a1UmAsWqB" role="23t8la">
+                          <node concept="3clFbS" id="55a1UmAsWqC" role="1bW5cS">
+                            <node concept="3clFbF" id="55a1UmAsWqD" role="3cqZAp">
+                              <node concept="2OqwBi" id="55a1UmAsWqE" role="3clFbG">
+                                <node concept="2YIFZM" id="55a1UmAsWqF" role="2Oq$k0">
+                                  <ref role="37wK5l" node="55a1UmAsk0l" resolve="getInstance" />
+                                  <ref role="1Pybhc" node="4mTRct5g3kP" resolve="ModelChangeListenerManager" />
+                                </node>
+                                <node concept="liA8E" id="55a1UmAsWqG" role="2OqNvi">
+                                  <ref role="37wK5l" node="55a1UmAlGhl" resolve="detach" />
+                                  <node concept="37vLTw" id="55a1UmAsWqH" role="37wK5m">
+                                    <ref role="3cqZAo" node="55a1UmAsWqJ" resolve="model" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Rh6nW" id="55a1UmAsWqJ" role="1bW2Oz">
+                            <property role="TrG5h" value="model" />
+                            <node concept="2jxLKc" id="55a1UmAsWqK" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
