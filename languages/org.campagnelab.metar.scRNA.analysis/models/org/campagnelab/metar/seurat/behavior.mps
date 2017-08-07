@@ -2258,7 +2258,7 @@
   </node>
   <node concept="13h7C7" id="7lSaFvHCZE9">
     <property role="3GE5qa" value="LoadOp" />
-    <ref role="13h7C2" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
+    <ref role="13h7C2" to="lznn:3J_5udX2Qdk" resolve="Load10XSeurat" />
     <node concept="13hLZK" id="7lSaFvHCZEa" role="13h7CW">
       <node concept="3clFbS" id="7lSaFvHCZEb" role="2VODD2">
         <node concept="3SKdUt" id="7lSaFvHHv2$" role="3cqZAp">
@@ -4991,78 +4991,78 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="3IlsykRxFQd">
-    <ref role="13h7C2" to="lznn:3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
-    <node concept="13i0hz" id="3IlsykRxFQo" role="13h7CS">
+  <node concept="13h7C7" id="4$e7IRczcsF">
+    <ref role="13h7C2" to="lznn:4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
+    <node concept="13i0hz" id="4$e7IRczc5x" role="13h7CS">
       <property role="TrG5h" value="dependencies" />
-      <property role="13i0it" value="false" />
+      <property role="13i0it" value="true" />
       <property role="13i0iv" value="false" />
       <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
-      <node concept="3Tm1VV" id="3IlsykRxFQp" role="1B3o_S" />
-      <node concept="3clFbS" id="3IlsykRxFQq" role="3clF47">
-        <node concept="3cpWs6" id="3IlsykRxFQr" role="3cqZAp">
-          <node concept="2ShNRf" id="3IlsykRxFQs" role="3cqZAk">
-            <node concept="Tc6Ow" id="3IlsykRxFQt" role="2ShVmc">
-              <node concept="17QB3L" id="3IlsykRxFQu" role="HW$YZ" />
-              <node concept="Xl_RD" id="3IlsykRxFQv" role="HW$Y0">
+      <node concept="3Tm1VV" id="4$e7IRczc5y" role="1B3o_S" />
+      <node concept="3clFbS" id="4$e7IRczc5z" role="3clF47">
+        <node concept="3cpWs6" id="4$e7IRczc5$" role="3cqZAp">
+          <node concept="2ShNRf" id="4$e7IRczc5_" role="3cqZAk">
+            <node concept="Tc6Ow" id="4$e7IRczc5A" role="2ShVmc">
+              <node concept="17QB3L" id="4$e7IRczc5B" role="HW$YZ" />
+              <node concept="Xl_RD" id="4$e7IRczc5C" role="HW$Y0">
                 <property role="Xl_RC" value="dplyr" />
               </node>
-              <node concept="Xl_RD" id="3IlsykRxFQw" role="HW$Y0">
+              <node concept="Xl_RD" id="4$e7IRczc5D" role="HW$Y0">
                 <property role="Xl_RC" value="Matrix" />
               </node>
-              <node concept="Xl_RD" id="3IlsykRxFQx" role="HW$Y0">
+              <node concept="Xl_RD" id="4$e7IRczc5E" role="HW$Y0">
                 <property role="Xl_RC" value="methods" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="A3Dl8" id="3IlsykRxFQy" role="3clF45">
-        <node concept="17QB3L" id="3IlsykRxFQz" role="A3Ik2" />
+      <node concept="A3Dl8" id="4$e7IRczc5F" role="3clF45">
+        <node concept="17QB3L" id="4$e7IRczc5G" role="A3Ik2" />
       </node>
     </node>
-    <node concept="13i0hz" id="3IlsykRxFQ$" role="13h7CS">
+    <node concept="13i0hz" id="4$e7IRczc5H" role="13h7CS">
       <property role="TrG5h" value="devtoolsInstructions" />
-      <property role="13i0it" value="false" />
+      <property role="13i0it" value="true" />
       <property role="13i0iv" value="false" />
       <ref role="13i0hy" to="v8sa:1vkgFx9C2w" resolve="devtoolsInstructions" />
-      <node concept="3Tm1VV" id="3IlsykRxFQ_" role="1B3o_S" />
-      <node concept="3clFbS" id="3IlsykRxFQA" role="3clF47">
-        <node concept="3cpWs6" id="3IlsykRxFQB" role="3cqZAp">
-          <node concept="BsUDl" id="3IlsykRxFQC" role="3cqZAk">
+      <node concept="3Tm1VV" id="4$e7IRczc5I" role="1B3o_S" />
+      <node concept="3clFbS" id="4$e7IRczc5J" role="3clF47">
+        <node concept="3cpWs6" id="4$e7IRczc5K" role="3cqZAp">
+          <node concept="BsUDl" id="4$e7IRczc5L" role="3cqZAk">
             <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
-            <node concept="Xl_RD" id="3IlsykRxFQD" role="37wK5m">
+            <node concept="Xl_RD" id="4$e7IRczc5M" role="37wK5m">
               <property role="Xl_RC" value="install_github(\&quot;satijalab/seurat\&quot;)" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="A3Dl8" id="3IlsykRxFQE" role="3clF45">
-        <node concept="17QB3L" id="3IlsykRxFQF" role="A3Ik2" />
+      <node concept="A3Dl8" id="4$e7IRczc5N" role="3clF45">
+        <node concept="17QB3L" id="4$e7IRczc5O" role="A3Ik2" />
       </node>
     </node>
-    <node concept="13i0hz" id="3IlsykRxFQG" role="13h7CS">
+    <node concept="13i0hz" id="4$e7IRczc5P" role="13h7CS">
       <property role="TrG5h" value="devtoolsPackageNames" />
-      <property role="13i0it" value="false" />
+      <property role="13i0it" value="true" />
       <property role="13i0iv" value="false" />
       <ref role="13i0hy" to="v8sa:2m5kVGMYQAC" resolve="devtoolsPackageNames" />
-      <node concept="3Tm1VV" id="3IlsykRxFQH" role="1B3o_S" />
-      <node concept="3clFbS" id="3IlsykRxFQI" role="3clF47">
-        <node concept="3cpWs6" id="3IlsykRxFQJ" role="3cqZAp">
-          <node concept="BsUDl" id="3IlsykRxFQK" role="3cqZAk">
+      <node concept="3Tm1VV" id="4$e7IRczc5Q" role="1B3o_S" />
+      <node concept="3clFbS" id="4$e7IRczc5R" role="3clF47">
+        <node concept="3cpWs6" id="4$e7IRczc5S" role="3cqZAp">
+          <node concept="BsUDl" id="4$e7IRczc5T" role="3cqZAk">
             <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
-            <node concept="Xl_RD" id="3IlsykRxFQL" role="37wK5m">
+            <node concept="Xl_RD" id="4$e7IRczc5U" role="37wK5m">
               <property role="Xl_RC" value="Seurat" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="A3Dl8" id="3IlsykRxFQM" role="3clF45">
-        <node concept="17QB3L" id="3IlsykRxFQN" role="A3Ik2" />
+      <node concept="A3Dl8" id="4$e7IRczc5V" role="3clF45">
+        <node concept="17QB3L" id="4$e7IRczc5W" role="A3Ik2" />
       </node>
     </node>
-    <node concept="13hLZK" id="3IlsykRxFQe" role="13h7CW">
-      <node concept="3clFbS" id="3IlsykRxFQf" role="2VODD2" />
+    <node concept="13hLZK" id="4$e7IRczcsG" role="13h7CW">
+      <node concept="3clFbS" id="4$e7IRczcsH" role="2VODD2" />
     </node>
   </node>
 </model>

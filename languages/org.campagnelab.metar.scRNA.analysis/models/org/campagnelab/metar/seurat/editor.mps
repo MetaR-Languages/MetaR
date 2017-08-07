@@ -219,7 +219,7 @@
   </registry>
   <node concept="24kQdi" id="3J_5udX2QwD">
     <property role="3GE5qa" value="LoadOp" />
-    <ref role="1XX52x" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
+    <ref role="1XX52x" to="lznn:3J_5udX2Qdk" resolve="Load10XSeurat" />
     <node concept="3EZMnI" id="7lSaFvHEZbj" role="2wV5jI">
       <node concept="2iRkQZ" id="7lSaFvHEZbk" role="2iSdaV" />
       <node concept="3EZMnI" id="3J_5udX2QwF" role="3EZMnx">

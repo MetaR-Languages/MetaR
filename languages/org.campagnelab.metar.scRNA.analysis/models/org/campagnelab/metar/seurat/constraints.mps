@@ -329,7 +329,7 @@
               <node concept="nLn13" id="4tSF6VCKJiY" role="2Oq$k0" />
               <node concept="1mIQ4w" id="4tSF6VCKJiZ" role="2OqNvi">
                 <node concept="chp4Y" id="4tSF6VCKJj0" role="cj9EA">
-                  <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
+                  <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="Load10XSeurat" />
                 </node>
               </node>
             </node>
@@ -366,7 +366,7 @@
               <node concept="2Xjw5R" id="4tSF6VCKJie" role="2OqNvi">
                 <node concept="1xMEDy" id="4tSF6VCKJif" role="1xVPHs">
                   <node concept="chp4Y" id="4tSF6VCKJig" role="ri$Ld">
-                    <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
+                    <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="Load10XSeurat" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="4tSF6VCKJih" role="1xVPHs" />
@@ -432,7 +432,7 @@
               <node concept="2Xjw5R" id="4tSF6VCKJjZ" role="2OqNvi">
                 <node concept="1xMEDy" id="4tSF6VCKJk0" role="1xVPHs">
                   <node concept="chp4Y" id="4tSF6VCKJk1" role="ri$Ld">
-                    <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="ImportSeurat" />
+                    <ref role="cht4Q" to="lznn:3J_5udX2Qdk" resolve="Load10XSeurat" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="4tSF6VCKJk2" role="1xVPHs" />

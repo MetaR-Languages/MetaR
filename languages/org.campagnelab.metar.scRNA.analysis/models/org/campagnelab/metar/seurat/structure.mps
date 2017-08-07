@@ -65,11 +65,11 @@
   </registry>
   <node concept="1TIwiD" id="3J_5udX2Qdk">
     <property role="EcuMT" value="4315879884704146260" />
-    <property role="TrG5h" value="ImportSeurat" />
+    <property role="TrG5h" value="Load10XSeurat" />
     <property role="R4oN_" value="Load scRNA-seq dataset from 10X Genomics" />
     <property role="3GE5qa" value="LoadOp" />
     <property role="34LRSv" value="load 10X dataset" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" node="4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
     <node concept="1TJgyj" id="3J_5udXfdFL" role="1TKVEi">
       <property role="IQ2ns" value="4315879884707388145" />
       <property role="20lmBu" value="aggregation" />
@@ -103,9 +103,6 @@
     </node>
     <node concept="PrWs8" id="1RYr706GGYc" role="PzmwI">
       <ref role="PrY4T" to="jrxw:1RYr706_uYr" resolve="IHaveDockerPath" />
-    </node>
-    <node concept="PrWs8" id="3IlsykRxHz2" role="PzmwI">
-      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX5yTa">
@@ -333,12 +330,9 @@
     <property role="TrG5h" value="CleanupDataSeurat" />
     <property role="34LRSv" value="cleanup seurat" />
     <property role="R4oN_" value="Cleanup function for the seurat data" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" node="4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
     <node concept="PrWs8" id="3J_5udX8p0r" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksL" resolve="ICleanupSeurat" />
-    </node>
-    <node concept="PrWs8" id="3IlsykRxHnm" role="PzmwI">
-      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
     </node>
     <node concept="1TJgyj" id="6bALrFtYJyn" role="1TKVEi">
       <property role="IQ2ns" value="7126600866739189911" />
@@ -633,12 +627,9 @@
     <property role="TrG5h" value="AbstractPlot" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" node="4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
     <node concept="PrWs8" id="3J_5udXd5_9" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksN" resolve="IPlotsSeurat" />
-    </node>
-    <node concept="PrWs8" id="3IlsykRxJ6F" role="PzmwI">
-      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXdua9">
@@ -684,12 +675,9 @@
     <property role="TrG5h" value="AbstractAddInfo" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" node="4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
     <node concept="PrWs8" id="3J_5udXdHVk" role="PzmwI">
       <ref role="PrY4T" node="3J_5udX8ksM" resolve="IAddInfoSeurat" />
-    </node>
-    <node concept="PrWs8" id="3IlsykRxFVh" role="PzmwI">
-      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
     </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXdSLa">
@@ -982,7 +970,7 @@
     <property role="34LRSv" value="merge seurat objects" />
     <property role="R4oN_" value="Merges the data of two seurat objects by genes" />
     <property role="3GE5qa" value="LoadOp" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" node="4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
     <node concept="1TJgyj" id="3443J8RaFWk" role="1TKVEi">
       <property role="IQ2ns" value="3531964441235734292" />
       <property role="20lmBu" value="aggregation" />
@@ -1007,16 +995,13 @@
     <node concept="PrWs8" id="3443J8RaFa$" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
-    <node concept="PrWs8" id="3IlsykRxIT1" role="PzmwI">
-      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3443J8RcxkG">
     <property role="EcuMT" value="3531964441236215084" />
     <property role="TrG5h" value="NormalizeSeurat" />
     <property role="3GE5qa" value="AdjustingOp" />
     <property role="34LRSv" value="normalize seurat" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" node="4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
     <node concept="1TJgyj" id="3443J8RcxkJ" role="1TKVEi">
       <property role="IQ2ns" value="3531964441236215087" />
       <property role="20lmBu" value="aggregation" />
@@ -1034,9 +1019,6 @@
     <node concept="PrWs8" id="3443J8RcxkH" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
-    <node concept="PrWs8" id="3IlsykRxG18" role="PzmwI">
-      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
-    </node>
     <node concept="1TJgyi" id="3443J8RcHgH" role="1TKVEl">
       <property role="IQ2nx" value="3531964441236263981" />
       <property role="TrG5h" value="scaleFactor" />
@@ -1048,12 +1030,9 @@
     <property role="3GE5qa" value="AdjustingOp" />
     <property role="TrG5h" value="ScaleSeurat" />
     <property role="34LRSv" value="scale seurat" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" node="4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
     <node concept="PrWs8" id="3IlsykPxELP" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
-    </node>
-    <node concept="PrWs8" id="3IlsykRxGdw" role="PzmwI">
-      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
     </node>
     <node concept="1TJgyj" id="3IlsykPxELR" role="1TKVEi">
       <property role="IQ2ns" value="4293463323905010807" />
@@ -1119,9 +1098,6 @@
     <node concept="PrWs8" id="3IlsykRuYHo" role="PzmwI">
       <ref role="PrY4T" node="6cuwE$ic1gh" resolve="FutureSeuratCreator" />
     </node>
-    <node concept="PrWs8" id="3IlsykRxGMz" role="PzmwI">
-      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3IlsykRq3xW">
     <property role="EcuMT" value="4293463323936569468" />
@@ -1154,16 +1130,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
     </node>
-    <node concept="PrWs8" id="3IlsykRxGq$" role="PzmwI">
-      <ref role="PrY4T" node="3IlsykRxFQa" resolve="IStatementDependenciesSeurat" />
-    </node>
   </node>
-  <node concept="PlHQZ" id="3IlsykRxFQa">
-    <property role="EcuMT" value="4293463323938569610" />
-    <property role="TrG5h" value="IStatementDependenciesSeurat" />
-    <node concept="PrWs8" id="3IlsykRxFQb" role="PrDN$">
-      <ref role="PrY4T" to="jrxw:7LvyiX4miiF" resolve="StatementDependencies" />
-    </node>
+  <node concept="1TIwiD" id="4$e7IRczcqU">
+    <property role="EcuMT" value="5264179021130548922" />
+    <property role="TrG5h" value="StatementWithSeuratDependencies" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
   </node>
 </model>
 
