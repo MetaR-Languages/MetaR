@@ -491,9 +491,6 @@
       <concept id="8974276187400348183" name="jetbrains.mps.lang.access.structure.ExecuteWriteActionStatement" flags="nn" index="1QHqEM" />
       <concept id="8974276187400348177" name="jetbrains.mps.lang.access.structure.ExecuteCommandStatement" flags="nn" index="1QHqEO" />
     </language>
-    <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
-      <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
-    </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
         <child id="1199542457201" name="resultType" index="1ajl9A" />
@@ -5086,7 +5083,7 @@
           <node concept="3cpWsn" id="3Td0vW1elOE" role="3cpWs9">
             <property role="TrG5h" value="delay" />
             <node concept="10Oyi0" id="3Td0vW1elO_" role="1tU5fm" />
-            <node concept="2EnYce" id="3Td0vW1fg6N" role="33vP2m">
+            <node concept="2OqwBi" id="1xVV58jfaaT" role="33vP2m">
               <node concept="2OqwBi" id="3Td0vW1emeU" role="2Oq$k0">
                 <node concept="37vLTw" id="3Td0vW1em2N" role="2Oq$k0">
                   <ref role="3cqZAo" node="55a1UmAluQh" resolve="project" />
@@ -7506,8 +7503,13 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="7PqnxC2_S1H" role="3clF47">
+        <node concept="3SKdUt" id="1xVV58iTiVm" role="3cqZAp">
+          <node concept="3SKdUq" id="1xVV58iTiVo" role="3SKWNk">
+            <property role="3SKdUp" value="Changed ?debugMode to debugMode." />
+          </node>
+        </node>
         <node concept="3clFbF" id="7PqnxC2_S1I" role="3cqZAp">
-          <node concept="2EnYce" id="7PqnxC2_S1J" role="3clFbG">
+          <node concept="2OqwBi" id="1xVV58iThVE" role="3clFbG">
             <node concept="2OqwBi" id="7PqnxC2_S1K" role="2Oq$k0">
               <node concept="37vLTw" id="7PqnxC2_S1L" role="2Oq$k0">
                 <ref role="3cqZAo" node="7PqnxC2_S1Q" resolve="project" />
@@ -7516,7 +7518,7 @@
                 <ref role="LR4Ua" node="3uD_HpUGH8b" resolve="InstanceRefreshPreferences" />
               </node>
             </node>
-            <node concept="34pFcN" id="7PqnxC2A0Rk" role="2OqNvi">
+            <node concept="34pFcN" id="1xVV58iTio7" role="2OqNvi">
               <ref role="2WH_rO" node="7PqnxC2_rul" resolve="debugMode" />
             </node>
           </node>

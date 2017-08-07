@@ -52,6 +52,6 @@ public class TemplateModelImpl extends TemplateModelBase implements TemplateMode
   }
   @Override
   public GeneratorQueryProvider getQueryProvider() {
-    return new QueriesGenerated();
+    return reflectiveProvider(QueriesGenerated.class);
   }
 }
