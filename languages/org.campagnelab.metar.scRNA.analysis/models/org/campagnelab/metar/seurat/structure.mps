@@ -1136,5 +1136,50 @@
     <property role="TrG5h" value="StatementWithSeuratDependencies" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
   </node>
+  <node concept="1TIwiD" id="7RHbcB0Vg4B">
+    <property role="EcuMT" value="9073958069258223911" />
+    <property role="TrG5h" value="SeuratFromTable" />
+    <ref role="1TJDcQ" node="3J_5udX5yTa" resolve="Seurat" />
+    <node concept="1TJgyj" id="7RHbcB0Vg4C" role="1TKVEi">
+      <property role="IQ2ns" value="9073958069258223912" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7RHbcB0VoIR" resolve="TableRefExt" />
+    </node>
+    <node concept="PrWs8" id="7RHbcB0VTCs" role="PzmwI">
+      <ref role="PrY4T" node="7RHbcB0Vmr6" resolve="IUpdatePath" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7RHbcB0Viir">
+    <property role="EcuMT" value="9073958069258232987" />
+    <property role="3GE5qa" value="LoadOp" />
+    <property role="TrG5h" value="LoadSeuratFromTable" />
+    <property role="34LRSv" value="load dataset from table" />
+    <property role="R4oN_" value="Load counts data from table" />
+    <ref role="1TJDcQ" node="3J_5udX2Qdk" resolve="Load10XSeurat" />
+    <node concept="1TJgyj" id="7RHbcB0Viis" role="1TKVEi">
+      <property role="IQ2ns" value="9073958069258232988" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20ksaX" node="3J_5udXfdFL" resolve="seurat" />
+      <ref role="20lvS9" node="7RHbcB0Vg4B" resolve="SeuratFromTable" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7RHbcB0Vmr6">
+    <property role="EcuMT" value="9073958069258249926" />
+    <property role="TrG5h" value="IUpdatePath" />
+    <node concept="1TJgyi" id="7RHbcB0Vmr9" role="1TKVEl">
+      <property role="IQ2nx" value="9073958069258249929" />
+      <property role="TrG5h" value="inputChanged" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7RHbcB0VoIR">
+    <property role="EcuMT" value="9073958069258259383" />
+    <property role="TrG5h" value="TableRefExt" />
+    <ref role="1TJDcQ" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+  </node>
 </model>
 

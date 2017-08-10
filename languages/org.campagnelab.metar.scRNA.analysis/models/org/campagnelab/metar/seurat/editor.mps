@@ -1776,5 +1776,42 @@
       <node concept="2iRfu4" id="3IlsykRtcR5" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="7RHbcB0Vi52">
+    <ref role="1XX52x" to="lznn:7RHbcB0Vg4B" resolve="SeuratFromTable" />
+    <node concept="3EZMnI" id="7RHbcB0Vi54" role="2wV5jI">
+      <node concept="2iRkQZ" id="7RHbcB0Vi55" role="2iSdaV" />
+      <node concept="3EZMnI" id="7RHbcB0Vi56" role="3EZMnx">
+        <node concept="2iRfu4" id="7RHbcB0Vi57" role="2iSdaV" />
+        <node concept="3F1sOY" id="7RHbcB0WAKF" role="3EZMnx">
+          <ref role="1NtTu8" to="lznn:7RHbcB0Vg4C" resolve="table" />
+        </node>
+        <node concept="3F0ifn" id="7RHbcB0Vi5e" role="3EZMnx">
+          <property role="3F0ifm" value="-&gt;" />
+        </node>
+        <node concept="3F0ifn" id="7RHbcB0Vi5f" role="3EZMnx">
+          <property role="3F0ifm" value="seurat:" />
+        </node>
+        <node concept="PMmxH" id="7RHbcB0Vi5g" role="3EZMnx">
+          <ref role="PMmxG" node="3J_5udX8l2d" resolve="SeuratNameEditor" />
+        </node>
+      </node>
+    </node>
+    <node concept="3EZMnI" id="7RHbcB0Vi6L" role="6VMZX">
+      <node concept="3EZMnI" id="7RHbcB0Vi6M" role="3EZMnx">
+        <node concept="2iRfu4" id="7RHbcB0Vi6N" role="2iSdaV" />
+        <node concept="3F0ifn" id="7RHbcB0Vi6O" role="3EZMnx">
+          <property role="3F0ifm" value="path:" />
+        </node>
+        <node concept="3F0A7n" id="7RHbcB0Vi6P" role="3EZMnx">
+          <ref role="1NtTu8" to="lznn:3J_5udX5GWl" resolve="path" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7RHbcB0Vi6Q" role="3EZMnx" />
+      <node concept="2iRkQZ" id="7RHbcB0Vi6R" role="2iSdaV" />
+      <node concept="PMmxH" id="7RHbcB0Vi6S" role="3EZMnx">
+        <ref role="PMmxG" node="3J_5udX8lkP" resolve="SeuratInspectorComponent" />
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -8,6 +8,7 @@
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
     <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -545,8 +546,8 @@
               <node concept="1YBJjd" id="7lSaFvHK9AJ" role="2Oq$k0">
                 <ref role="1YBMHb" node="7lSaFvHK9Aq" resolve="diagnosticPlot" />
               </node>
-              <node concept="3Tsc0h" id="7lSaFvHKa8B" role="2OqNvi">
-                <ref role="3TtcxE" to="lznn:3J_5udXcXu6" resolve="plots" />
+              <node concept="3Tsc0h" id="7RHbcB0V93k" role="2OqNvi">
+                <ref role="3TtcxE" to="lznn:7lSaFvHLICd" resolve="plots" />
               </node>
             </node>
             <node concept="34oBXx" id="7lSaFvHKg3t" role="2OqNvi" />
@@ -876,6 +877,101 @@
     <node concept="1YaCAy" id="6bALrFu1lKm" role="1YuTPh">
       <property role="TrG5h" value="logNormalizationStrategy" />
       <ref role="1YaFvo" to="lznn:3J_5udX8QXF" resolve="LogNormalizationStrategy" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="7RHbcB0VpxY">
+    <property role="TrG5h" value="MonitorIUpdatePathInput" />
+    <node concept="3clFbS" id="7RHbcB0VpxZ" role="18ibNy">
+      <node concept="3clFbJ" id="7RHbcB0Vpy0" role="3cqZAp">
+        <node concept="2OqwBi" id="7RHbcB0Vpy1" role="3clFbw">
+          <node concept="1YBJjd" id="7RHbcB0Vpy2" role="2Oq$k0">
+            <ref role="1YBMHb" node="7RHbcB0Vpyb" resolve="iUpdatePath" />
+          </node>
+          <node concept="2qgKlT" id="7RHbcB0V$Dq" role="2OqNvi">
+            <ref role="37wK5l" to="9kby:7RHbcB0Vmrw" resolve="isInputChangedTableRef" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="7RHbcB0Vpy4" role="3clFbx">
+          <node concept="2MkqsV" id="7RHbcB0Vpy5" role="3cqZAp">
+            <node concept="3Cnw8n" id="7RHbcB0Vpy6" role="2OEOjU">
+              <property role="ARO6o" value="true" />
+              <ref role="QpYPw" node="7RHbcB0VqJw" resolve="UpdatePath" />
+              <node concept="3CnSsL" id="7RHbcB0Vpy7" role="3Coj4f">
+                <ref role="QkamJ" node="7RHbcB0VqJV" resolve="updatePath" />
+                <node concept="1YBJjd" id="7RHbcB0VKGB" role="3CoRuB">
+                  <ref role="1YBMHb" node="7RHbcB0Vpyb" resolve="iUpdatePath" />
+                </node>
+              </node>
+            </node>
+            <node concept="Xl_RD" id="7RHbcB0Vpy9" role="2MkJ7o">
+              <property role="Xl_RC" value="propagate properties" />
+            </node>
+            <node concept="1YBJjd" id="7RHbcB0Vpya" role="2OEOjV">
+              <ref role="1YBMHb" node="7RHbcB0Vpyb" resolve="iUpdatePath" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7RHbcB0Vpyb" role="1YuTPh">
+      <property role="TrG5h" value="iUpdatePath" />
+      <ref role="1YaFvo" to="lznn:7RHbcB0Vmr6" resolve="IUpdatePath" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="7RHbcB0VqJw">
+    <property role="TrG5h" value="UpdatePath" />
+    <node concept="Q5ZZ6" id="7RHbcB0VqJx" role="Q6x$H">
+      <node concept="3clFbS" id="7RHbcB0VqJy" role="2VODD2">
+        <node concept="3clFbF" id="7RHbcB0Vz$b" role="3cqZAp">
+          <node concept="2OqwBi" id="7RHbcB0VzKu" role="3clFbG">
+            <node concept="QwW4i" id="7RHbcB0Vz$9" role="2Oq$k0">
+              <ref role="QwW4h" node="7RHbcB0VqJV" resolve="updatePath" />
+            </node>
+            <node concept="2qgKlT" id="7RHbcB0VGRn" role="2OqNvi">
+              <ref role="37wK5l" to="9kby:7RHbcB0VA8t" resolve="setPath" />
+              <node concept="2OqwBi" id="7RHbcB0VHEu" role="37wK5m">
+                <node concept="2OqwBi" id="7RHbcB0VH7i" role="2Oq$k0">
+                  <node concept="QwW4i" id="7RHbcB0VGV7" role="2Oq$k0">
+                    <ref role="QwW4h" node="7RHbcB0VqJV" resolve="updatePath" />
+                  </node>
+                  <node concept="2qgKlT" id="7RHbcB0VHod" role="2OqNvi">
+                    <ref role="37wK5l" to="9kby:7RHbcB0VGGE" resolve="getTable" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="7RHbcB0VIep" role="2OqNvi">
+                  <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7RHbcB0Vzwl" role="3cqZAp" />
+        <node concept="3clFbF" id="7RHbcB0VqJR" role="3cqZAp">
+          <node concept="2OqwBi" id="7RHbcB0VqJS" role="3clFbG">
+            <node concept="QwW4i" id="7RHbcB0VqJT" role="2Oq$k0">
+              <ref role="QwW4h" node="7RHbcB0VqJV" resolve="updatePath" />
+            </node>
+            <node concept="2qgKlT" id="7RHbcB0VA4B" role="2OqNvi">
+              <ref role="37wK5l" to="9kby:7RHbcB0V_6C" resolve="resetInputChangedTableRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Q6JDH" id="7RHbcB0VqJV" role="Q6Id_">
+      <property role="TrG5h" value="updatePath" />
+      <node concept="3Tqbb2" id="7RHbcB0VqJW" role="Q6QK4">
+        <ref role="ehGHo" to="lznn:7RHbcB0Vmr6" resolve="IUpdatePath" />
+      </node>
+    </node>
+    <node concept="QznSV" id="7RHbcB0VqJX" role="QzAvj">
+      <node concept="3clFbS" id="7RHbcB0VqJY" role="2VODD2">
+        <node concept="3clFbF" id="7RHbcB0VqJZ" role="3cqZAp">
+          <node concept="Xl_RD" id="7RHbcB0VqK0" role="3clFbG">
+            <property role="Xl_RC" value="Update path of IUpdatePath!" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

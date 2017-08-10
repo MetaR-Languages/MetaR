@@ -168,5 +168,54 @@
       </node>
     </node>
   </node>
+  <node concept="37WguZ" id="7RHbcB0VnZj">
+    <property role="TrG5h" value="ChangeInputWhenCreatingSeuratFromTable" />
+    <node concept="37WvkG" id="7RHbcB0VnZk" role="37WGs$">
+      <ref role="37XkoT" to="lznn:7RHbcB0VoIR" resolve="TableRefExt" />
+      <node concept="37Y9Zx" id="7RHbcB0VnZl" role="37ZfLb">
+        <node concept="3clFbS" id="7RHbcB0VnZm" role="2VODD2">
+          <node concept="3cpWs8" id="7RHbcB0VnZn" role="3cqZAp">
+            <node concept="3cpWsn" id="7RHbcB0VnZo" role="3cpWs9">
+              <property role="TrG5h" value="updatePath" />
+              <node concept="3Tqbb2" id="7RHbcB0VnZp" role="1tU5fm">
+                <ref role="ehGHo" to="lznn:7RHbcB0Vmr6" resolve="IUpdatePath" />
+              </node>
+              <node concept="2OqwBi" id="7RHbcB0VnZq" role="33vP2m">
+                <node concept="1r4N1M" id="7RHbcB0VnZr" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="7RHbcB0VnZs" role="2OqNvi">
+                  <node concept="1xMEDy" id="7RHbcB0VnZt" role="1xVPHs">
+                    <node concept="chp4Y" id="7RHbcB0VoE9" role="ri$Ld">
+                      <ref role="cht4Q" to="lznn:7RHbcB0Vmr6" resolve="IUpdatePath" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="7RHbcB0VnZv" role="1xVPHs" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="7RHbcB0VnZw" role="3cqZAp">
+            <node concept="3clFbS" id="7RHbcB0VnZx" role="3clFbx">
+              <node concept="3clFbF" id="7RHbcB0VnZy" role="3cqZAp">
+                <node concept="2OqwBi" id="7RHbcB0VnZz" role="3clFbG">
+                  <node concept="37vLTw" id="7RHbcB0VnZ$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7RHbcB0VnZo" resolve="updatePath" />
+                  </node>
+                  <node concept="2qgKlT" id="7RHbcB0VoSa" role="2OqNvi">
+                    <ref role="37wK5l" to="9kby:7RHbcB0Vmrm" resolve="setInputChangedTableRef" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7RHbcB0VnZA" role="3clFbw">
+              <node concept="37vLTw" id="7RHbcB0VnZB" role="2Oq$k0">
+                <ref role="3cqZAo" node="7RHbcB0VnZo" resolve="updatePath" />
+              </node>
+              <node concept="3x8VRR" id="7RHbcB0VnZC" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
