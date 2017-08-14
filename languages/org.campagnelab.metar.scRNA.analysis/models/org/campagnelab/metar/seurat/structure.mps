@@ -1032,6 +1032,9 @@
     <node concept="PrWs8" id="3443J8RcxkH" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
+    <node concept="PrWs8" id="6R$bwwuS8VE" role="PzmwI">
+      <ref role="PrY4T" node="6cuwE$ic1gh" resolve="FutureSeuratCreator" />
+    </node>
     <node concept="1TJgyi" id="3443J8RcHgH" role="1TKVEl">
       <property role="IQ2nx" value="3531964441236263981" />
       <property role="TrG5h" value="scaleFactor" />
@@ -1142,6 +1145,9 @@
       <property role="20kJfa" value="alignedSeurat" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX8eUg" resolve="FutureSeurat" />
+    </node>
+    <node concept="PrWs8" id="7UToRyXNBrL" role="PzmwI">
+      <ref role="PrY4T" node="6cuwE$ic1gh" resolve="FutureSeuratCreator" />
     </node>
   </node>
   <node concept="1TIwiD" id="4$e7IRczcqU">
