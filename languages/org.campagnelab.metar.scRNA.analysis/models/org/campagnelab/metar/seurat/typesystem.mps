@@ -416,12 +416,22 @@
     <property role="TrG5h" value="MonitorFutureSeuratInput" />
     <node concept="3clFbS" id="6cuwE$icH4L" role="18ibNy">
       <node concept="3clFbJ" id="6cuwE$icH4Z" role="3cqZAp">
-        <node concept="2OqwBi" id="6cuwE$icHdN" role="3clFbw">
-          <node concept="1YBJjd" id="6cuwE$icH5k" role="2Oq$k0">
-            <ref role="1YBMHb" node="6cuwE$icH4N" resolve="futureSeuratCreator" />
+        <node concept="1Wc70l" id="3BPxiZU$EUq" role="3clFbw">
+          <node concept="2OqwBi" id="3BPxiZU$Fa_" role="3uHU7w">
+            <node concept="1YBJjd" id="3BPxiZU$EYC" role="2Oq$k0">
+              <ref role="1YBMHb" node="6cuwE$icH4N" resolve="futureSeuratCreator" />
+            </node>
+            <node concept="2qgKlT" id="3BPxiZU$Fqk" role="2OqNvi">
+              <ref role="37wK5l" to="9kby:3BPxiZUyDPZ" resolve="isCreatorReady" />
+            </node>
           </node>
-          <node concept="2qgKlT" id="6cuwE$icHvB" role="2OqNvi">
-            <ref role="37wK5l" to="9kby:6cuwE$icgMz" resolve="isInputChangedSeurat" />
+          <node concept="2OqwBi" id="6cuwE$icHdN" role="3uHU7B">
+            <node concept="1YBJjd" id="6cuwE$icH5k" role="2Oq$k0">
+              <ref role="1YBMHb" node="6cuwE$icH4N" resolve="futureSeuratCreator" />
+            </node>
+            <node concept="2qgKlT" id="6cuwE$icHvB" role="2OqNvi">
+              <ref role="37wK5l" to="9kby:6cuwE$icgMz" resolve="isInputChangedSeurat" />
+            </node>
           </node>
         </node>
         <node concept="3clFbS" id="6cuwE$icH51" role="3clFbx">

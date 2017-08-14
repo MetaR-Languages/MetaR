@@ -1868,5 +1868,17 @@
       <node concept="2iRfu4" id="3BPxiZUtojA" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="4XN3OU3CRPh">
+    <ref role="1XX52x" to="lznn:4XN3OU3CRP6" resolve="CondSeuratRef" />
+    <node concept="1iCGBv" id="4XN3OU3CRPm" role="2wV5jI">
+      <ref role="1NtTu8" to="lznn:4XN3OU3CRP7" resolve="seurat" />
+      <node concept="1sVBvm" id="4XN3OU3CRPo" role="1sWHZn">
+        <node concept="3F0A7n" id="42xbjWhSml" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
