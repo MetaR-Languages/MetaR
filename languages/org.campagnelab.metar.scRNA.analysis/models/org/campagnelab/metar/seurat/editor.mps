@@ -1870,7 +1870,7 @@
           <node concept="3EZMnI" id="7UToRyXO6sG" role="3EZMnx">
             <node concept="2iRfu4" id="7UToRyXO6sH" role="2iSdaV" />
             <node concept="3F0ifn" id="7UToRyXO6sI" role="3EZMnx">
-              <property role="3F0ifm" value="to tsne cluster" />
+              <property role="3F0ifm" value="to tsne cluster:" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               <node concept="pVoyu" id="7UToRyXO6sJ" role="3F10Kt">
                 <property role="VOm3f" value="true" />

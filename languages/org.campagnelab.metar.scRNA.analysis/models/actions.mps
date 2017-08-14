@@ -10,6 +10,7 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" />
     <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" implicit="true" />
+    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -32,6 +33,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -153,6 +155,46 @@
                 <ref role="3cqZAo" node="6cuwE$icF1O" resolve="creator" />
               </node>
               <node concept="3x8VRR" id="6cuwE$icFTl" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="4XkNWzSvwtH" role="3cqZAp" />
+          <node concept="3cpWs8" id="4XkNWzSvwxQ" role="3cqZAp">
+            <node concept="3cpWsn" id="4XkNWzSvwxR" role="3cpWs9">
+              <property role="TrG5h" value="creatorTable" />
+              <node concept="3Tqbb2" id="4XkNWzSvwxS" role="1tU5fm">
+                <ref role="ehGHo" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
+              </node>
+              <node concept="2OqwBi" id="4XkNWzSvwxT" role="33vP2m">
+                <node concept="1r4N1M" id="4XkNWzSvwxU" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="4XkNWzSvwxV" role="2OqNvi">
+                  <node concept="1xMEDy" id="4XkNWzSvwxW" role="1xVPHs">
+                    <node concept="chp4Y" id="4XkNWzSvwXN" role="ri$Ld">
+                      <ref role="cht4Q" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="4XkNWzSvwxY" role="1xVPHs" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="4XkNWzSvwxZ" role="3cqZAp">
+            <node concept="3clFbS" id="4XkNWzSvwy0" role="3clFbx">
+              <node concept="3clFbF" id="4XkNWzSvwy1" role="3cqZAp">
+                <node concept="2OqwBi" id="4XkNWzSvwy2" role="3clFbG">
+                  <node concept="37vLTw" id="4XkNWzSvwy3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4XkNWzSvwxR" resolve="creatorTable" />
+                  </node>
+                  <node concept="2qgKlT" id="4XkNWzSvxt1" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:7S2MvlQNiSB" resolve="setInputChanged" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4XkNWzSvwy5" role="3clFbw">
+              <node concept="37vLTw" id="4XkNWzSvwy6" role="2Oq$k0">
+                <ref role="3cqZAo" node="4XkNWzSvwxR" resolve="creatorTable" />
+              </node>
+              <node concept="3x8VRR" id="4XkNWzSvwy7" role="2OqNvi" />
             </node>
           </node>
         </node>

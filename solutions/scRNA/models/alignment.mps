@@ -7,7 +7,9 @@
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
     <use id="af754813-06c7-4cd1-8f24-cc91ec8e5d34" name="org.campagnelab.metar.with.r" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
+  </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
@@ -184,8 +186,14 @@
       </concept>
     </language>
     <language id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart">
+      <concept id="2202909375770430359" name="org.campagnelab.mps.XChart.structure.DataFile" flags="ng" index="31JGnK">
+        <child id="2202909375770434164" name="columns" index="31JHgj" />
+      </concept>
       <concept id="2202909375770430354" name="org.campagnelab.mps.XChart.structure.DelimitedFile" flags="ng" index="31JGnP">
         <property id="2202909375770898234" name="delimitor" index="31Cu5t" />
+      </concept>
+      <concept id="2202909375770434159" name="org.campagnelab.mps.XChart.structure.Column" flags="ng" index="31JHg8">
+        <reference id="3328299660867197501" name="type" index="1YeEjl" />
       </concept>
     </language>
   </registry>
@@ -1193,23 +1201,50 @@
           <ref role="312p7B" node="3IlsykRxwLP" resolve="tsneClusters" />
         </node>
       </node>
-      <node concept="33xtVA" id="7UToRyXRP0J" role="ZXjPg">
+      <node concept="S1EQe" id="4XkNWzSvwl9" role="ZXjPg">
+        <property role="1MXi1$" value="ETFHOJXGQH" />
+      </node>
+      <node concept="33xtVA" id="4XkNWzSvyUA" role="ZXjPg">
         <property role="8NYsT" value="false" />
-        <property role="1MXi1$" value="EHXIFTNCNJ" />
+        <property role="1MXi1$" value="UOVAEIWGOA" />
         <property role="33qgml" value="0" />
-        <property role="33qgmn" value="9" />
-        <node concept="33w07S" id="7UToRyXRP0K" role="33xgd0">
-          <node concept="3MlLWZ" id="7UToRyXRP0L" role="16C0Yd">
+        <property role="33qgmn" value="3" />
+        <node concept="33w07S" id="4XkNWzSvyUB" role="33xgd0">
+          <node concept="3MlLWZ" id="4XkNWzSvyUC" role="16C0Yd">
             <property role="TrG5h" value="aggregateCouns" />
-            <ref role="3MlLW5" node="7UToRyXRP0M" resolve="aggregateCouns" />
-            <node concept="3Mpm39" id="7UToRyXRP0M" role="3WeD9t">
+            <ref role="3MlLW5" node="4XkNWzSvyUD" resolve="aggregateCouns" />
+            <node concept="3Mpm39" id="4XkNWzSvyUD" role="3WeD9t">
               <property role="31Cu5t" value="&#9;" />
               <property role="TrG5h" value="aggregateCouns" />
+              <node concept="31JHg8" id="4XkNWzSwGQL" role="31JHgj">
+                <property role="TrG5h" value="P1C0" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="4XkNWzSwGQM" role="31JHgj">
+                <property role="TrG5h" value="P1C1" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="4XkNWzSwGQN" role="31JHgj">
+                <property role="TrG5h" value="P1C2" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="4XkNWzSwGQO" role="31JHgj">
+                <property role="TrG5h" value="P1D0" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="4XkNWzSwGQP" role="31JHgj">
+                <property role="TrG5h" value="P1D1" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="4XkNWzSwGQQ" role="31JHgj">
+                <property role="TrG5h" value="P1D2" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="1LcaPl" id="7UToRyXRP5j" role="33xgdr">
-          <ref role="1LcaPk" node="3IlsykRxwLS" resolve="P1P2Aligned" />
+        <node concept="1LcaPl" id="4XkNWzSwavq" role="33xgdr">
+          <ref role="1LcaPk" node="3IlsykRkSZs" resolve="P1VarGeneReg" />
         </node>
       </node>
     </node>
