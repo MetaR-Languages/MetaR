@@ -64,6 +64,8 @@
       <concept id="7126600866739189910" name="org.campagnelab.metar.seurat.structure.AverageExpDispersionPlot" flags="ng" index="2Z73OG" />
       <concept id="4176390670567965911" name="org.campagnelab.metar.seurat.structure.AggregateCountsTableWrapper" flags="ng" index="33w07S" />
       <concept id="4176390670567627721" name="org.campagnelab.metar.seurat.structure.PreLimma" flags="ng" index="33xtVA">
+        <property id="9131439089702168301" name="clustersFrom" index="33qgml" />
+        <property id="9131439089702168303" name="clustersTo" index="33qgmn" />
         <child id="4176390670567638639" name="futureTableWrapper" index="33xgd0" />
         <child id="4176390670567638644" name="seurat" index="33xgdr" />
       </concept>
@@ -1191,23 +1193,22 @@
           <ref role="312p7B" node="3IlsykRxwLP" resolve="tsneClusters" />
         </node>
       </node>
-      <node concept="S1EQe" id="3BPxiZUtnkU" role="ZXjPg">
-        <property role="1MXi1$" value="QQECMNDSEH" />
-      </node>
-      <node concept="33xtVA" id="3BPxiZUtSUe" role="ZXjPg">
+      <node concept="33xtVA" id="7UToRyXRP0J" role="ZXjPg">
         <property role="8NYsT" value="false" />
-        <property role="1MXi1$" value="KGGPSGKRKX" />
-        <node concept="33w07S" id="3BPxiZUtSUf" role="33xgd0">
-          <node concept="3MlLWZ" id="3BPxiZUtSUg" role="16C0Yd">
+        <property role="1MXi1$" value="EHXIFTNCNJ" />
+        <property role="33qgml" value="0" />
+        <property role="33qgmn" value="9" />
+        <node concept="33w07S" id="7UToRyXRP0K" role="33xgd0">
+          <node concept="3MlLWZ" id="7UToRyXRP0L" role="16C0Yd">
             <property role="TrG5h" value="aggregateCouns" />
-            <ref role="3MlLW5" node="3BPxiZUtSUh" resolve="aggregateCouns" />
-            <node concept="3Mpm39" id="3BPxiZUtSUh" role="3WeD9t">
+            <ref role="3MlLW5" node="7UToRyXRP0M" resolve="aggregateCouns" />
+            <node concept="3Mpm39" id="7UToRyXRP0M" role="3WeD9t">
               <property role="31Cu5t" value="&#9;" />
               <property role="TrG5h" value="aggregateCouns" />
             </node>
           </node>
         </node>
-        <node concept="1LcaPl" id="3BPxiZUtTGS" role="33xgdr">
+        <node concept="1LcaPl" id="7UToRyXRP5j" role="33xgdr">
           <ref role="1LcaPk" node="3IlsykRxwLS" resolve="P1P2Aligned" />
         </node>
       </node>
