@@ -141,6 +141,13 @@
       <property role="TrG5h" value="path" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyj" id="3BPxiZUtTYD" role="1TKVEi">
+      <property role="IQ2ns" value="4176390670568103849" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="conditions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udX8eUg">
     <property role="EcuMT" value="4315879884705558160" />

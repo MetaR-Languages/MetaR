@@ -123,6 +123,7 @@
         <property id="4315879884704857532" name="pca" index="16WMxv" />
         <property id="4315879884704885758" name="tsne" index="16WVSt" />
         <property id="4315879884704894741" name="path" index="16WXFQ" />
+        <child id="4176390670568103849" name="conditions" index="33wxE6" />
       </concept>
       <concept id="7142289721722410001" name="org.campagnelab.metar.seurat.structure.FutureSeuratCreator" flags="ng" index="1LbDqS">
         <property id="7142289721722410002" name="inputChanged" index="1LbDqV" />
@@ -181,69 +182,75 @@
     <property role="TrG5h" value="compareP1P2" />
     <node concept="ZXjPh" id="3443J8R8VN_" role="S1EQ8">
       <property role="1MXi1$" value="GRICXICTPY" />
-      <node concept="16VBqR" id="3443J8R8VNA" role="ZXjPg">
-        <property role="1MXi1$" value="EKTEMLUBHA" />
-        <node concept="16LEZw" id="3443J8R8VNB" role="2oOXxS">
-          <node concept="16LdhA" id="3443J8R8VNC" role="16L4H4">
-            <node concept="rhwXV" id="3443J8R8VND" role="16Ldh_">
-              <node concept="16Ldux" id="3443J8R8VNE" role="3uHU7B" />
-              <node concept="3cmrfG" id="3443J8R8VNF" role="3uHU7w">
+      <node concept="16VBqR" id="3BPxiZUwZlt" role="ZXjPg">
+        <property role="1MXi1$" value="MIQMSHAWQY" />
+        <node concept="16LEZw" id="3BPxiZUwZlu" role="2oOXxS">
+          <node concept="16LdhA" id="3BPxiZUwZlv" role="16L4H4">
+            <node concept="rhwXV" id="3BPxiZUwZlw" role="16Ldh_">
+              <node concept="16Ldux" id="3BPxiZUwZlx" role="3uHU7B" />
+              <node concept="3cmrfG" id="3BPxiZUwZly" role="3uHU7w">
                 <property role="3cmrfH" value="1000" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="LzkXi" id="3443J8R8VNG" role="LzxbI">
-          <node concept="16LdhA" id="3443J8R8VNH" role="16L4H4">
-            <node concept="rhwXV" id="3443J8R8VNI" role="16Ldh_">
-              <node concept="16LQ0b" id="3443J8R8VNJ" role="3uHU7B" />
-              <node concept="3cmrfG" id="3443J8R8VNK" role="3uHU7w">
+        <node concept="LzkXi" id="3BPxiZUwZlz" role="LzxbI">
+          <node concept="16LdhA" id="3BPxiZUwZl$" role="16L4H4">
+            <node concept="rhwXV" id="3BPxiZUwZl_" role="16Ldh_">
+              <node concept="16LQ0b" id="3BPxiZUwZlA" role="3uHU7B" />
+              <node concept="3cmrfG" id="3BPxiZUwZlB" role="3uHU7w">
                 <property role="3cmrfH" value="3" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="16WNID" id="3443J8R8VNM" role="16QsWi">
+        <node concept="16WNID" id="3BPxiZUwZlD" role="16QsWi">
           <property role="16WVSt" value="false" />
           <property role="16WMxv" value="false" />
           <property role="16WMwy" value="false" />
           <property role="16WMwA" value="false" />
           <property role="16WXFQ" value="/Users/farcasia/Documents/P1/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
           <property role="TrG5h" value="P1C" />
+          <node concept="1LcaPl" id="3BPxiZUwZlE" role="33wxE6">
+            <ref role="1LcaPk" node="3BPxiZUwZlD" resolve="P1C" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="3443J8R9q92" role="ZXjPg">
         <property role="1MXi1$" value="NWRBWIPHYF" />
       </node>
-      <node concept="16VBqR" id="3443J8R9qmG" role="ZXjPg">
-        <property role="1MXi1$" value="KQWWHPASKA" />
-        <node concept="16LEZw" id="3443J8R9qmH" role="2oOXxS">
-          <node concept="16LdhA" id="3443J8R9qmI" role="16L4H4">
-            <node concept="rhwXV" id="3443J8R9qmJ" role="16Ldh_">
-              <node concept="16Ldux" id="3443J8R9qmK" role="3uHU7B" />
-              <node concept="3cmrfG" id="3443J8R9qmL" role="3uHU7w">
+      <node concept="16VBqR" id="3BPxiZUx2ag" role="ZXjPg">
+        <property role="1MXi1$" value="RKHPMUYNNX" />
+        <node concept="16LEZw" id="3BPxiZUx2ah" role="2oOXxS">
+          <node concept="16LdhA" id="3BPxiZUx2ai" role="16L4H4">
+            <node concept="rhwXV" id="3BPxiZUx2aj" role="16Ldh_">
+              <node concept="16Ldux" id="3BPxiZUx2ak" role="3uHU7B" />
+              <node concept="3cmrfG" id="3BPxiZUx2al" role="3uHU7w">
                 <property role="3cmrfH" value="1000" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="LzkXi" id="3443J8R9qmM" role="LzxbI">
-          <node concept="16LdhA" id="3443J8R9qmN" role="16L4H4">
-            <node concept="rhwXV" id="3443J8R9qmO" role="16Ldh_">
-              <node concept="16LQ0b" id="3443J8R9qmP" role="3uHU7B" />
-              <node concept="3cmrfG" id="3443J8R9qmQ" role="3uHU7w">
+        <node concept="LzkXi" id="3BPxiZUx2am" role="LzxbI">
+          <node concept="16LdhA" id="3BPxiZUx2an" role="16L4H4">
+            <node concept="rhwXV" id="3BPxiZUx2ao" role="16Ldh_">
+              <node concept="16LQ0b" id="3BPxiZUx2ap" role="3uHU7B" />
+              <node concept="3cmrfG" id="3BPxiZUx2aq" role="3uHU7w">
                 <property role="3cmrfH" value="3" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="16WNID" id="3443J8R9qmS" role="16QsWi">
+        <node concept="16WNID" id="3BPxiZUx2as" role="16QsWi">
           <property role="16WVSt" value="false" />
           <property role="16WMxv" value="false" />
           <property role="16WMwy" value="false" />
           <property role="16WMwA" value="false" />
           <property role="16WXFQ" value="/Users/farcasia/Documents/P1/P1_dilated/outs/filtered_gene_bc_matrices/GRCh38" />
           <property role="TrG5h" value="P1D" />
+          <node concept="1LcaPl" id="3BPxiZUx2at" role="33wxE6">
+            <ref role="1LcaPk" node="3BPxiZUx2as" resolve="P1D" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="3443J8R8VSP" role="ZXjPg">
@@ -262,22 +269,22 @@
           </node>
         </node>
         <node concept="1LcaPl" id="3443J8Rb8zT" role="6bF7A">
-          <ref role="1LcaPk" node="3443J8R8VNM" resolve="P1C" />
+          <ref role="1LcaPk" node="3BPxiZUwZlD" resolve="P1C" />
         </node>
         <node concept="1LcaPl" id="3443J8Rb8zY" role="6bF7$">
-          <ref role="1LcaPk" node="3443J8R9qmS" resolve="P1D" />
+          <ref role="1LcaPk" node="3BPxiZUx2as" resolve="P1D" />
         </node>
       </node>
       <node concept="rerJS" id="3443J8RcvrA" role="ZXjPg">
         <property role="1MXi1$" value="QFICCBFSFQ" />
         <node concept="1LcaPl" id="3443J8Rcvt_" role="rerJT">
-          <ref role="1LcaPk" node="3443J8R8VNM" resolve="P1C" />
+          <ref role="1LcaPk" node="3BPxiZUwZlD" resolve="P1C" />
         </node>
       </node>
       <node concept="rerJS" id="3443J8Rcvv_" role="ZXjPg">
         <property role="1MXi1$" value="KCHSLMTJYT" />
         <node concept="1LcaPl" id="3443J8RcvxA" role="rerJT">
-          <ref role="1LcaPk" node="3443J8R9qmS" resolve="P1D" />
+          <ref role="1LcaPk" node="3BPxiZUx2as" resolve="P1D" />
         </node>
       </node>
       <node concept="S1EQe" id="3443J8RcvpG" role="ZXjPg">
@@ -555,69 +562,75 @@
       <node concept="S1EQe" id="3IlsykRmIdG" role="ZXjPg">
         <property role="1MXi1$" value="FXRPEFNHHL" />
       </node>
-      <node concept="16VBqR" id="3443J8R8VTi" role="ZXjPg">
-        <property role="1MXi1$" value="GJXHNGTDAA" />
-        <node concept="16LEZw" id="3443J8R8VTj" role="2oOXxS">
-          <node concept="16LdhA" id="3443J8R8VTk" role="16L4H4">
-            <node concept="rhwXV" id="3443J8R8VTl" role="16Ldh_">
-              <node concept="16Ldux" id="3443J8R8VTm" role="3uHU7B" />
-              <node concept="3cmrfG" id="3443J8R8VTn" role="3uHU7w">
+      <node concept="16VBqR" id="3BPxiZUx2Iz" role="ZXjPg">
+        <property role="1MXi1$" value="WDQECLTRFL" />
+        <node concept="16LEZw" id="3BPxiZUx2I$" role="2oOXxS">
+          <node concept="16LdhA" id="3BPxiZUx2I_" role="16L4H4">
+            <node concept="rhwXV" id="3BPxiZUx2IA" role="16Ldh_">
+              <node concept="16Ldux" id="3BPxiZUx2IB" role="3uHU7B" />
+              <node concept="3cmrfG" id="3BPxiZUx2IC" role="3uHU7w">
                 <property role="3cmrfH" value="1000" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="LzkXi" id="3443J8R8VTo" role="LzxbI">
-          <node concept="16LdhA" id="3443J8R8VTp" role="16L4H4">
-            <node concept="rhwXV" id="3443J8R8VTq" role="16Ldh_">
-              <node concept="16LQ0b" id="3443J8R8VTr" role="3uHU7B" />
-              <node concept="3cmrfG" id="3443J8R8VTs" role="3uHU7w">
+        <node concept="LzkXi" id="3BPxiZUx2ID" role="LzxbI">
+          <node concept="16LdhA" id="3BPxiZUx2IE" role="16L4H4">
+            <node concept="rhwXV" id="3BPxiZUx2IF" role="16Ldh_">
+              <node concept="16LQ0b" id="3BPxiZUx2IG" role="3uHU7B" />
+              <node concept="3cmrfG" id="3BPxiZUx2IH" role="3uHU7w">
                 <property role="3cmrfH" value="3" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="16WNID" id="3443J8R8VTv" role="16QsWi">
+        <node concept="16WNID" id="3BPxiZUx2IJ" role="16QsWi">
           <property role="16WVSt" value="false" />
           <property role="16WMxv" value="false" />
           <property role="16WMwy" value="false" />
           <property role="16WMwA" value="false" />
           <property role="16WXFQ" value="/Users/farcasia/Documents/P2/reduced/P2_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
           <property role="TrG5h" value="P2C" />
+          <node concept="1LcaPl" id="3BPxiZUx2IK" role="33wxE6">
+            <ref role="1LcaPk" node="3BPxiZUx2IJ" resolve="P2C" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="3443J8R9qfO" role="ZXjPg">
         <property role="1MXi1$" value="VNVWUOMWVR" />
       </node>
-      <node concept="16VBqR" id="3443J8R9q9T" role="ZXjPg">
-        <property role="1MXi1$" value="DXNRWGFHYW" />
-        <node concept="16LEZw" id="3443J8R9q9U" role="2oOXxS">
-          <node concept="16LdhA" id="3443J8R9q9V" role="16L4H4">
-            <node concept="rhwXV" id="3443J8R9q9W" role="16Ldh_">
-              <node concept="16Ldux" id="3443J8R9q9X" role="3uHU7B" />
-              <node concept="3cmrfG" id="3443J8R9q9Y" role="3uHU7w">
+      <node concept="16VBqR" id="3BPxiZUx31d" role="ZXjPg">
+        <property role="1MXi1$" value="BQMQBEIBDI" />
+        <node concept="16LEZw" id="3BPxiZUx31e" role="2oOXxS">
+          <node concept="16LdhA" id="3BPxiZUx31f" role="16L4H4">
+            <node concept="rhwXV" id="3BPxiZUx31g" role="16Ldh_">
+              <node concept="16Ldux" id="3BPxiZUx31h" role="3uHU7B" />
+              <node concept="3cmrfG" id="3BPxiZUx31i" role="3uHU7w">
                 <property role="3cmrfH" value="1000" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="LzkXi" id="3443J8R9q9Z" role="LzxbI">
-          <node concept="16LdhA" id="3443J8R9qa0" role="16L4H4">
-            <node concept="rhwXV" id="3443J8R9qa1" role="16Ldh_">
-              <node concept="16LQ0b" id="3443J8R9qa2" role="3uHU7B" />
-              <node concept="3cmrfG" id="3443J8R9qa3" role="3uHU7w">
+        <node concept="LzkXi" id="3BPxiZUx31j" role="LzxbI">
+          <node concept="16LdhA" id="3BPxiZUx31k" role="16L4H4">
+            <node concept="rhwXV" id="3BPxiZUx31l" role="16Ldh_">
+              <node concept="16LQ0b" id="3BPxiZUx31m" role="3uHU7B" />
+              <node concept="3cmrfG" id="3BPxiZUx31n" role="3uHU7w">
                 <property role="3cmrfH" value="3" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="16WNID" id="3443J8R9qa5" role="16QsWi">
+        <node concept="16WNID" id="3BPxiZUx31p" role="16QsWi">
           <property role="16WVSt" value="false" />
           <property role="16WMxv" value="false" />
           <property role="16WMwy" value="false" />
           <property role="16WMwA" value="false" />
           <property role="16WXFQ" value="/Users/farcasia/Documents/P2/reduced/P2_dilated/outs/filtered_gene_bc_matrices/GRCh38" />
           <property role="TrG5h" value="P2D" />
+          <node concept="1LcaPl" id="3BPxiZUx31q" role="33wxE6">
+            <ref role="1LcaPk" node="3BPxiZUx31p" resolve="P2D" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="3443J8Rbttr" role="ZXjPg">
@@ -636,22 +649,22 @@
           </node>
         </node>
         <node concept="1LcaPl" id="3443J8Rbtww" role="6bF7A">
-          <ref role="1LcaPk" node="3443J8R8VTv" resolve="P2C" />
+          <ref role="1LcaPk" node="3BPxiZUx2IJ" resolve="P2C" />
         </node>
         <node concept="1LcaPl" id="3443J8Rbtw_" role="6bF7$">
-          <ref role="1LcaPk" node="3443J8R9qa5" resolve="P2D" />
+          <ref role="1LcaPk" node="3BPxiZUx31p" resolve="P2D" />
         </node>
       </node>
       <node concept="rerJS" id="3443J8RcvT6" role="ZXjPg">
         <property role="1MXi1$" value="XDGDTYSFCI" />
         <node concept="1LcaPl" id="3443J8RcvVl" role="rerJT">
-          <ref role="1LcaPk" node="3443J8R8VTv" resolve="P2C" />
+          <ref role="1LcaPk" node="3BPxiZUx2IJ" resolve="P2C" />
         </node>
       </node>
       <node concept="rerJS" id="3443J8Rcw1V" role="ZXjPg">
         <property role="1MXi1$" value="JWXRCXBTFR" />
         <node concept="1LcaPl" id="3443J8Rcw4c" role="rerJT">
-          <ref role="1LcaPk" node="3443J8R9qa5" resolve="P2D" />
+          <ref role="1LcaPk" node="3BPxiZUx31p" resolve="P2D" />
         </node>
       </node>
       <node concept="S1EQe" id="3443J8Rc5Xk" role="ZXjPg">
@@ -1063,7 +1076,7 @@
             <property role="TrG5h" value="P1P2Aligned" />
           </node>
         </node>
-        <node concept="1LcaPl" id="3IlsykRxwPU" role="1Lc1gn">
+        <node concept="1LcaPl" id="3BPxiZUtUaE" role="1Lc1gn">
           <ref role="1LcaPk" node="3IlsykRtb06" resolve="P1P2PreAligned" />
         </node>
       </node>

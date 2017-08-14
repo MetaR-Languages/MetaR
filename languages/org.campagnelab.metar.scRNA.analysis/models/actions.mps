@@ -169,7 +169,7 @@
     </node>
   </node>
   <node concept="37WguZ" id="7RHbcB0VnZj">
-    <property role="TrG5h" value="ChangeInputWhenCreatingSeuratFromTable" />
+    <property role="TrG5h" value="ChangeInputWhenCreatingTableRef" />
     <node concept="37WvkG" id="7RHbcB0VnZk" role="37WGs$">
       <ref role="37XkoT" to="lznn:7RHbcB0VoIR" resolve="TableRefExt" />
       <node concept="37Y9Zx" id="7RHbcB0VnZl" role="37ZfLb">
