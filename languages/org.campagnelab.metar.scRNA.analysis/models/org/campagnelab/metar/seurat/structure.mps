@@ -704,6 +704,9 @@
     <node concept="PrWs8" id="6cuwE$idKzZ" role="PzmwI">
       <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
     </node>
+    <node concept="PrWs8" id="3BPxiZUsfrc" role="PzmwI">
+      <ref role="PrY4T" node="3BPxiZUsejJ" resolve="ICreateColumn" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3J_5udXdUYF">
     <property role="EcuMT" value="4315879884707049387" />
@@ -953,7 +956,7 @@
   <node concept="1TIwiD" id="1RYr706LXu8">
     <property role="EcuMT" value="2161284099590313864" />
     <property role="TrG5h" value="DeleteSeurat" />
-    <property role="3GE5qa" value="DumpOp" />
+    <property role="3GE5qa" value="DeleteOp" />
     <property role="34LRSv" value="delete seurat" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="1RYr706LXu9" role="1TKVEi">
@@ -1180,6 +1183,45 @@
     <property role="EcuMT" value="9073958069258259383" />
     <property role="TrG5h" value="TableRefExt" />
     <ref role="1TJDcQ" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+  </node>
+  <node concept="1TIwiD" id="3BPxiZUs5J9">
+    <property role="EcuMT" value="4176390670567627721" />
+    <property role="TrG5h" value="PreLimma" />
+    <property role="3GE5qa" value="LimmaOp" />
+    <property role="R4oN_" value="Create aggregate counts matrix per cluster and constituents" />
+    <property role="34LRSv" value="pre limma" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="3BPxiZUs8pO" role="1TKVEi">
+      <property role="IQ2ns" value="4176390670567638644" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="seurat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6cuwE$ibyZW" resolve="SeuratRef" />
+    </node>
+    <node concept="1TJgyj" id="3BPxiZUs8pJ" role="1TKVEi">
+      <property role="IQ2ns" value="4176390670567638639" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="futureTableWrapper" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3BPxiZUtojn" resolve="AggregateCountsTableWrapper" />
+    </node>
+    <node concept="PrWs8" id="3BPxiZUs8pH" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
+    </node>
+    <node concept="PrWs8" id="3BPxiZUsiT$" role="PzmwI">
+      <ref role="PrY4T" node="3BPxiZUsejJ" resolve="ICreateColumn" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3BPxiZUsejJ">
+    <property role="EcuMT" value="4176390670567662831" />
+    <property role="TrG5h" value="ICreateColumn" />
+  </node>
+  <node concept="1TIwiD" id="3BPxiZUtojn">
+    <property role="EcuMT" value="4176390670567965911" />
+    <property role="3GE5qa" value="LimmaOp" />
+    <property role="TrG5h" value="AggregateCountsTableWrapper" />
+    <property role="34LRSv" value="aggregate counts table" />
+    <ref role="1TJDcQ" node="3J_5udXhhDH" resolve="FutureTableWrapper" />
   </node>
 </model>
 

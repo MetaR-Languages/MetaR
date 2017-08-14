@@ -1467,7 +1467,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1RYr706LXuj">
-    <property role="3GE5qa" value="DumpOp" />
+    <property role="3GE5qa" value="DeleteOp" />
     <ref role="1XX52x" to="lznn:1RYr706LXu8" resolve="DeleteSeurat" />
     <node concept="3EZMnI" id="1RYr706LXul" role="2wV5jI">
       <node concept="PMmxH" id="1RYr706MmPk" role="3EZMnx">
@@ -1811,6 +1811,44 @@
       <node concept="PMmxH" id="7RHbcB0Vi6S" role="3EZMnx">
         <ref role="PMmxG" node="3J_5udX8lkP" resolve="SeuratInspectorComponent" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3BPxiZUs9lY">
+    <property role="3GE5qa" value="LimmaOp" />
+    <ref role="1XX52x" to="lznn:3BPxiZUs5J9" resolve="PreLimma" />
+    <node concept="3EZMnI" id="3BPxiZUs9m0" role="2wV5jI">
+      <node concept="PMmxH" id="3BPxiZUsazf" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="3BPxiZUsaUA" role="3EZMnx">
+        <property role="3F0ifm" value="for" />
+      </node>
+      <node concept="3F1sOY" id="3BPxiZUs9mk" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3BPxiZUs8pO" resolve="seurat" />
+      </node>
+      <node concept="3F0ifn" id="3BPxiZUs9ml" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F1sOY" id="3BPxiZUsb6B" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3BPxiZUs8pJ" resolve="futureTableWrapper" />
+      </node>
+      <node concept="2iRfu4" id="3BPxiZUs9mU" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3BPxiZUtojw">
+    <property role="3GE5qa" value="LimmaOp" />
+    <ref role="1XX52x" to="lznn:3BPxiZUtojn" resolve="AggregateCountsTableWrapper" />
+    <node concept="3EZMnI" id="3BPxiZUtojy" role="2wV5jI">
+      <node concept="3F0ifn" id="3BPxiZUtojz" role="3EZMnx">
+        <property role="3F0ifm" value="aggregate couns" />
+      </node>
+      <node concept="3F0ifn" id="3BPxiZUtoj$" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="3BPxiZUtoj_" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXhhDI" resolve="table" />
+      </node>
+      <node concept="2iRfu4" id="3BPxiZUtojA" role="2iSdaV" />
     </node>
   </node>
 </model>
