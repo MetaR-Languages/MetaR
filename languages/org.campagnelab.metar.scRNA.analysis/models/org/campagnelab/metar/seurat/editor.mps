@@ -1953,14 +1953,14 @@
           <node concept="3EZMnI" id="3Vn8EN0TnuT" role="3EZMnx">
             <node concept="2iRfu4" id="3Vn8EN0TnuU" role="2iSdaV" />
             <node concept="3F0ifn" id="3Vn8EN0TnuV" role="3EZMnx">
-              <property role="3F0ifm" value="counts:" />
+              <property role="3F0ifm" value="design:" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               <node concept="pVoyu" id="3Vn8EN0TnuW" role="3F10Kt">
                 <property role="VOm3f" value="true" />
               </node>
             </node>
-            <node concept="3F1sOY" id="3Vn8EN0Tnx_" role="3EZMnx">
-              <ref role="1NtTu8" to="lznn:3Vn8EN0Tnrc" resolve="counts" />
+            <node concept="3F1sOY" id="3Vn8EN0TWqv" role="3EZMnx">
+              <ref role="1NtTu8" to="qrzj:4ssfE$85c87" resolve="modelFormula" />
             </node>
             <node concept="3F0ifn" id="3Vn8EN0TnuZ" role="3EZMnx" />
             <node concept="ljvvj" id="3Vn8EN0Tnv0" role="3F10Kt">
@@ -1973,14 +1973,14 @@
           <node concept="3EZMnI" id="3Vn8EN0Tnv2" role="3EZMnx">
             <node concept="2iRfu4" id="3Vn8EN0Tnv3" role="2iSdaV" />
             <node concept="3F0ifn" id="3Vn8EN0Tnv4" role="3EZMnx">
-              <property role="3F0ifm" value="design:" />
+              <property role="3F0ifm" value="contrasts" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               <node concept="pVoyu" id="3Vn8EN0Tnv5" role="3F10Kt">
                 <property role="VOm3f" value="true" />
               </node>
             </node>
-            <node concept="3F1sOY" id="3Vn8EN0TnGn" role="3EZMnx">
-              <ref role="1NtTu8" to="qrzj:4ssfE$85c87" resolve="modelFormula" />
+            <node concept="3F1sOY" id="3Vn8EN0TWrc" role="3EZMnx">
+              <ref role="1NtTu8" to="qrzj:4ssfE$85cdC" resolve="contrasts" />
             </node>
             <node concept="lj46D" id="3Vn8EN0Tnv8" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -1995,14 +1995,17 @@
       <node concept="3F0ifn" id="3Vn8EN0Tnvb" role="3EZMnx">
         <property role="3F0ifm" value="for" />
       </node>
-      <node concept="3F1sOY" id="3Vn8EN0Tnvc" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3BPxiZUs8pO" resolve="seurat" />
+      <node concept="3F1sOY" id="3Vn8EN0TWhO" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3Vn8EN0Tnrc" resolve="counts" />
       </node>
       <node concept="3F0ifn" id="3Vn8EN0Tnvd" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
-      <node concept="3F1sOY" id="3Vn8EN0Tnve" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3BPxiZUs8pJ" resolve="futureTableWrapper" />
+      <node concept="3F0ifn" id="3Vn8EN0TWow" role="3EZMnx">
+        <property role="3F0ifm" value="DE genes table:" />
+      </node>
+      <node concept="3F1sOY" id="3Vn8EN0TWl9" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3Vn8EN0Tnrh" resolve="destinationTable" />
       </node>
       <node concept="2iRfu4" id="3Vn8EN0Tnvf" role="2iSdaV" />
     </node>
