@@ -181,6 +181,7 @@
       </concept>
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
+      <concept id="489068675575040827" name="org.campagnelab.metar.R.structure.Not" flags="ng" index="20C$T_" />
       <concept id="489068675543418438" name="org.campagnelab.metar.R.structure.EqualAssignment" flags="ng" index="22gcco" />
       <concept id="489068675543418436" name="org.campagnelab.metar.R.structure.SimpleAssignment" flags="ng" index="22gccq" />
       <concept id="489068675543418432" name="org.campagnelab.metar.R.structure.Equality" flags="ng" index="22gccu" />
@@ -239,6 +240,7 @@
         <child id="1499760628228483062" name="body" index="1LvdYI" />
       </concept>
       <concept id="6176023809880707748" name="org.campagnelab.metar.R.structure.ComparisonExpr" flags="ng" index="2PZJpa" />
+      <concept id="6176023809880707749" name="org.campagnelab.metar.R.structure.NotExpr" flags="ng" index="2PZJpb" />
       <concept id="6176023809880707746" name="org.campagnelab.metar.R.structure.MultiplicationExpr" flags="ng" index="2PZJpc" />
       <concept id="6176023809880707745" name="org.campagnelab.metar.R.structure.USER_OPExpr" flags="ng" index="2PZJpf" />
       <concept id="6176023809880707770" name="org.campagnelab.metar.R.structure.IntLiteralExpr" flags="ng" index="2PZJpk">
@@ -250,7 +252,11 @@
       <concept id="6176023809880707768" name="org.campagnelab.metar.R.structure.StringLiteralExpr" flags="ng" index="2PZJpm">
         <property id="1229604057012663630" name="value" index="pzxGI" />
       </concept>
+      <concept id="6176023809880707766" name="org.campagnelab.metar.R.structure.ParenthesizedExpr" flags="ng" index="2PZJpo">
+        <child id="1826877622983609859" name="expression" index="3flx67" />
+      </concept>
       <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
+      <concept id="6176023809880707765" name="org.campagnelab.metar.R.structure.BreakExpr" flags="ng" index="2PZJpr" />
       <concept id="6176023809880707760" name="org.campagnelab.metar.R.structure.ForExpr" flags="ng" index="2PZJpu">
         <property id="3737166271524146371" name="id" index="136pwJ" />
         <child id="3737166271524034477" name="body" index="137Wd1" />
@@ -283,6 +289,7 @@
       <concept id="1499760628227103368" name="org.campagnelab.metar.R.structure.IdentifierRef" flags="ng" index="1LhYbg">
         <reference id="1499760628227131747" name="id" index="1Li74V" />
       </concept>
+      <concept id="8607919872796341988" name="org.campagnelab.metar.R.structure.InMatchOperator" flags="ng" index="3Qu4Xw" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
@@ -10407,6 +10414,99 @@
                 <property role="1MXi1$" value="NYBBHDNJEX" />
                 <node concept="13u1kU" id="6gapTCj1$oW" role="13uv25">
                   <property role="1MXi1$" value="QNYMXDPYGG" />
+                  <node concept="2PZJp0" id="3Vn8EN1jZkn" role="13u1kV">
+                    <property role="1MXi1$" value="UGWAIWWFHJ" />
+                    <node concept="2PZJpb" id="3Vn8EN1jZkp" role="oP3ar">
+                      <property role="1MXi1$" value="PTFNXSVHSL" />
+                      <node concept="20C$T_" id="3Vn8EN1jZkq" role="22sOXp" />
+                      <node concept="2PZJpo" id="3Vn8EN1jZkr" role="22sOXk">
+                        <property role="1MXi1$" value="DDPPCRPBXO" />
+                        <node concept="2PZJpf" id="3Vn8EN1jZks" role="3flx67">
+                          <property role="1MXi1$" value="RYCOMETOXS" />
+                          <node concept="2PZJpp" id="3Vn8EN1jZkx" role="2v3mow">
+                            <property role="1MXi1$" value="TKGVFBVBEU" />
+                            <property role="TrG5h" value="cluster" />
+                          </node>
+                          <node concept="2PZJp2" id="3Vn8EN1jZky" role="2v3moI">
+                            <property role="1MXi1$" value="JJYTWVYHOG" />
+                            <node concept="2PZJpp" id="3Vn8EN1jZkz" role="134Gdo">
+                              <property role="1MXi1$" value="KGRDEFIDOI" />
+                              <property role="TrG5h" value="seq" />
+                            </node>
+                            <node concept="gNbv0" id="3Vn8EN1jZk$" role="134Gdu">
+                              <property role="1MXi1$" value="JUXAKGBMEQ" />
+                              <node concept="V6WaU" id="3Vn8EN1jZk_" role="gNbrm">
+                                <property role="1MXi1$" value="WFSOAJHRVV" />
+                                <node concept="2PZJpk" id="3Vn8EN1jZkC" role="gNbhV">
+                                  <property role="1MXi1$" value="TFDXPIGYUX" />
+                                  <property role="pzxG6" value="0" />
+                                  <node concept="17Uvod" id="3Vn8EN1jZAA" role="lGtFl">
+                                    <property role="P4ACc" value="3b58810c-8431-4bbb-99ea-b4671e02dd13/6176023809880707770/1229604057012663654" />
+                                    <property role="2qtEX9" value="value" />
+                                    <node concept="3zFVjK" id="3Vn8EN1jZAB" role="3zH0cK">
+                                      <node concept="3clFbS" id="3Vn8EN1jZAC" role="2VODD2">
+                                        <node concept="3clFbF" id="3Vn8EN1jZJ8" role="3cqZAp">
+                                          <node concept="2YIFZM" id="3Vn8EN1k3sH" role="3clFbG">
+                                            <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                            <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                                            <node concept="2OqwBi" id="3Vn8EN1k01p" role="37wK5m">
+                                              <node concept="30H73N" id="3Vn8EN1jZJ7" role="2Oq$k0" />
+                                              <node concept="3TrcHB" id="3Vn8EN1k0oT" role="2OqNvi">
+                                                <ref role="3TsBF5" to="lznn:7UToRyXO6rH" resolve="clustersFrom" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="V6WaU" id="3Vn8EN1jZkD" role="gNbrm">
+                                <property role="1MXi1$" value="UNUALKPIPV" />
+                                <node concept="2PZJpk" id="3Vn8EN1jZkG" role="gNbhV">
+                                  <property role="1MXi1$" value="AXGYVSEARL" />
+                                  <property role="pzxG6" value="3" />
+                                  <node concept="17Uvod" id="3Vn8EN1k1ee" role="lGtFl">
+                                    <property role="P4ACc" value="3b58810c-8431-4bbb-99ea-b4671e02dd13/6176023809880707770/1229604057012663654" />
+                                    <property role="2qtEX9" value="value" />
+                                    <node concept="3zFVjK" id="3Vn8EN1k1ef" role="3zH0cK">
+                                      <node concept="3clFbS" id="3Vn8EN1k1eg" role="2VODD2">
+                                        <node concept="3clFbF" id="3Vn8EN1k1pQ" role="3cqZAp">
+                                          <node concept="2YIFZM" id="3Vn8EN1k1yr" role="3clFbG">
+                                            <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                            <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                                            <node concept="2OqwBi" id="3Vn8EN1k1Z6" role="37wK5m">
+                                              <node concept="30H73N" id="3Vn8EN1k1FZ" role="2Oq$k0" />
+                                              <node concept="3TrcHB" id="3Vn8EN1k2Ap" role="2OqNvi">
+                                                <ref role="3TsBF5" to="lznn:7UToRyXO6rJ" resolve="clustersTo" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3Qu4Xw" id="3Vn8EN1jZkH" role="22hImy">
+                            <property role="enNV9" value="in" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2PZJp3" id="3Vn8EN1jZkI" role="oP3dk">
+                      <property role="1MXi1$" value="CNXGEYKJQQ" />
+                      <node concept="13u1kU" id="3Vn8EN1jZkJ" role="13uv25">
+                        <property role="1MXi1$" value="PPNUMORYWG" />
+                        <node concept="2PZJpr" id="3Vn8EN1jZkK" role="13u1kV">
+                          <property role="1MXi1$" value="GBHNEOWPKY" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="2PZJp4" id="6gapTCj1$pb" role="13u1kV">
                     <property role="1MXi1$" value="CNWNLRYHKL" />
                     <node concept="2PZJpO" id="6gapTCj1$pg" role="2v3mow">
