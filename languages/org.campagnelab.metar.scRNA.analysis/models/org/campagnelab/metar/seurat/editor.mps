@@ -1973,7 +1973,7 @@
           <node concept="3EZMnI" id="3Vn8EN0Tnv2" role="3EZMnx">
             <node concept="2iRfu4" id="3Vn8EN0Tnv3" role="2iSdaV" />
             <node concept="3F0ifn" id="3Vn8EN0Tnv4" role="3EZMnx">
-              <property role="3F0ifm" value="contrasts" />
+              <property role="3F0ifm" value="contrasts:" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               <node concept="pVoyu" id="3Vn8EN0Tnv5" role="3F10Kt">
                 <property role="VOm3f" value="true" />

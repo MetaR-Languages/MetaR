@@ -1266,7 +1266,8 @@
     <property role="EcuMT" value="4528126075710303696" />
     <property role="3GE5qa" value="LimmaOp" />
     <property role="TrG5h" value="Limma" />
-    <property role="34LRSv" value="limma voom on qc counts" />
+    <property role="34LRSv" value="limma voom" />
+    <property role="R4oN_" value="Limma voom applied on cleaned counts" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="3Vn8EN0TmVg" role="PzmwI">
       <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
