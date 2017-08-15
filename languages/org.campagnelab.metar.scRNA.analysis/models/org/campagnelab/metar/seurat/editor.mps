@@ -19,7 +19,6 @@
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
-    <import index="qrzj" ref="r:33ebfe68-dd35-4984-bf5b-c6afb777446c(org.campagnelab.metar.models.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -1953,14 +1952,14 @@
           <node concept="3EZMnI" id="3Vn8EN0TnuT" role="3EZMnx">
             <node concept="2iRfu4" id="3Vn8EN0TnuU" role="2iSdaV" />
             <node concept="3F0ifn" id="3Vn8EN0TnuV" role="3EZMnx">
-              <property role="3F0ifm" value="design:" />
+              <property role="3F0ifm" value="model formula" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               <node concept="pVoyu" id="3Vn8EN0TnuW" role="3F10Kt">
                 <property role="VOm3f" value="true" />
               </node>
             </node>
             <node concept="3F1sOY" id="3Vn8EN0TWqv" role="3EZMnx">
-              <ref role="1NtTu8" to="qrzj:4ssfE$85c87" resolve="modelFormula" />
+              <ref role="1NtTu8" to="lznn:4ssfE$85c87" resolve="modelFormula" />
             </node>
             <node concept="3F0ifn" id="3Vn8EN0TnuZ" role="3EZMnx" />
             <node concept="ljvvj" id="3Vn8EN0Tnv0" role="3F10Kt">
@@ -1973,14 +1972,15 @@
           <node concept="3EZMnI" id="3Vn8EN0Tnv2" role="3EZMnx">
             <node concept="2iRfu4" id="3Vn8EN0Tnv3" role="2iSdaV" />
             <node concept="3F0ifn" id="3Vn8EN0Tnv4" role="3EZMnx">
-              <property role="3F0ifm" value="contrasts:" />
+              <property role="3F0ifm" value="comparisons:" />
               <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               <node concept="pVoyu" id="3Vn8EN0Tnv5" role="3F10Kt">
                 <property role="VOm3f" value="true" />
               </node>
             </node>
-            <node concept="3F1sOY" id="3Vn8EN0TWrc" role="3EZMnx">
-              <ref role="1NtTu8" to="qrzj:4ssfE$85cdC" resolve="contrasts" />
+            <node concept="3F2HdR" id="3Vn8EN106Yt" role="3EZMnx">
+              <ref role="1NtTu8" to="lznn:4ssfE$85cdC" resolve="contrasts" />
+              <node concept="2iRkQZ" id="3Vn8EN106Yw" role="2czzBx" />
             </node>
             <node concept="lj46D" id="3Vn8EN0Tnv8" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -2008,6 +2008,19 @@
         <ref role="1NtTu8" to="lznn:3Vn8EN0Tnrh" resolve="destinationTable" />
       </node>
       <node concept="2iRfu4" id="3Vn8EN0Tnvf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3Vn8EN1iBda">
+    <property role="3GE5qa" value="LimmaOp" />
+    <ref role="1XX52x" to="lznn:3Vn8EN10Wcw" resolve="GroupRefFromSeurat" />
+    <node concept="1iCGBv" id="3Vn8EN1iBdO" role="2wV5jI">
+      <ref role="1NtTu8" to="lznn:4ssfE$7TB66" resolve="group" />
+      <node concept="1sVBvm" id="3Vn8EN1iBdQ" role="1sWHZn">
+        <node concept="3F0A7n" id="3Vn8EN1iBe0" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

@@ -1272,9 +1272,6 @@
     <node concept="PrWs8" id="3Vn8EN0TmVg" role="PzmwI">
       <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
     </node>
-    <node concept="PrWs8" id="3Vn8EN0TmVu" role="PzmwI">
-      <ref role="PrY4T" to="qrzj:4ssfE$85c2J" resolve="IStatTest" />
-    </node>
     <node concept="1TJgyj" id="3Vn8EN0Tnrc" role="1TKVEi">
       <property role="IQ2ns" value="4528126075710305996" />
       <property role="20lmBu" value="aggregation" />
@@ -1282,12 +1279,39 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
     </node>
+    <node concept="1TJgyj" id="4ssfE$85c87" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="modelFormula" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="5124039371746755079" />
+      <ref role="20lvS9" to="qrzj:4ssfE$7VtQe" resolve="GroupFormula" />
+    </node>
+    <node concept="1TJgyj" id="4ssfE$85cdC" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="contrasts" />
+      <property role="20lbJX" value="1..n" />
+      <property role="IQ2ns" value="5124039371746755432" />
+      <ref role="20lvS9" to="qrzj:4ssfE$7TB64" resolve="GroupExpression" />
+    </node>
     <node concept="1TJgyj" id="3Vn8EN0Tnrh" role="1TKVEi">
       <property role="IQ2ns" value="4528126075710306001" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="destinationTable" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3Vn8EN10Wcw">
+    <property role="EcuMT" value="4528126075712291616" />
+    <property role="3GE5qa" value="LimmaOp" />
+    <property role="TrG5h" value="GroupRefFromSeurat" />
+    <ref role="1TJDcQ" to="qrzj:4ssfE$7TB64" resolve="GroupExpression" />
+    <node concept="1TJgyj" id="4ssfE$7TB66" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="group" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="5124039371743719814" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
     </node>
   </node>
 </model>

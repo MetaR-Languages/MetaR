@@ -112,9 +112,7 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)</dependency>
-    <dependency reexport="false">5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</dependency>
     <dependency reexport="false">95951e17-c0d6-47b9-b1b5-42a4ca186fc6(org.campagnelab.instantrefresh)</dependency>
-    <dependency reexport="false">ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="5" />
@@ -154,6 +152,7 @@
     <language slang="l:95951e17-c0d6-47b9-b1b5-42a4ca186fc6:org.campagnelab.instantrefresh" version="1" />
     <language slang="l:837afec3-cff0-45b1-a221-6b811148f87e:org.campagnelab.metar.R.gen" version="0" />
     <language slang="l:32f503e8-061b-451e-bcb0-fef56aa05eb9:org.campagnelab.metar.inspect" version="0" />
+    <language slang="l:ecc862c9-5ab5-42ef-8703-2039019fb338:org.campagnelab.metar.models" version="1" />
     <language slang="l:6562d9c6-fb82-4150-9d7f-5e4f50d7bba1:org.campagnelab.metar.seurat" version="0" />
     <language slang="l:5d6bde84-4ce4-4eb5-a37e-25a5edd55129:org.campagnelab.metar.tables" version="3" />
     <language slang="l:5ec1cd3d-0a50-4049-a8fa-ae768d7baa25:org.campagnelab.mps.XChart" version="0" />
@@ -197,6 +196,7 @@
   </dependencyVersions>
   <extendedLanguages>
     <extendedLanguage>5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</extendedLanguage>
+    <extendedLanguage>ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)</extendedLanguage>
   </extendedLanguages>
 </language>
 
