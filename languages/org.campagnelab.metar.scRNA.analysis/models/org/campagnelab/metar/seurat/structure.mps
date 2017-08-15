@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+    <import index="qrzj" ref="r:33ebfe68-dd35-4984-bf5b-c6afb777446c(org.campagnelab.metar.models.structure)" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
@@ -1259,6 +1260,33 @@
       <property role="20kJfa" value="seurat" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3J_5udX5yTa" resolve="Seurat" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3Vn8EN0TmRg">
+    <property role="EcuMT" value="4528126075710303696" />
+    <property role="3GE5qa" value="LimmaOp" />
+    <property role="TrG5h" value="Limma" />
+    <property role="34LRSv" value="limma voom on qc counts" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="3Vn8EN0TmVg" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
+    </node>
+    <node concept="PrWs8" id="3Vn8EN0TmVu" role="PzmwI">
+      <ref role="PrY4T" to="qrzj:4ssfE$85c2J" resolve="IStatTest" />
+    </node>
+    <node concept="1TJgyj" id="3Vn8EN0Tnrc" role="1TKVEi">
+      <property role="IQ2ns" value="4528126075710305996" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="counts" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+    <node concept="1TJgyj" id="3Vn8EN0Tnrh" role="1TKVEi">
+      <property role="IQ2ns" value="4528126075710306001" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="destinationTable" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
     </node>
   </node>
 </model>

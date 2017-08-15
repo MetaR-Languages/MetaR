@@ -166,6 +166,7 @@
       </concept>
       <concept id="3105090771426712763" name="org.campagnelab.metar.tables.structure.PlotRefWithPreview" flags="ng" index="31becx" />
       <concept id="7575483536003856472" name="org.campagnelab.metar.tables.structure.TablePreview" flags="ng" index="34tvTV">
+        <property id="7575483536004765689" name="preview" index="34gX7q" />
         <property id="7575483536003856646" name="numColumns" index="34tvW_" />
         <property id="7575483536003856644" name="numRows" index="34tvWB" />
         <child id="7575483536003856630" name="tableRef" index="34tvVl" />
@@ -1391,6 +1392,7 @@
         <property role="1MXi1$" value="WIWKLJSUYK" />
         <property role="34tvW_" value="40" />
         <property role="34tvWB" value="10" />
+        <property role="34gX7q" value="true" />
         <node concept="afgQW" id="6gapTCj2mkA" role="34tvVl">
           <ref role="afgo8" node="4XkNWzSvyUD" resolve="aggregateCounts" />
         </node>
