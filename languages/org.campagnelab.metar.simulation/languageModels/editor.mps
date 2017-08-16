@@ -11,6 +11,7 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -22,6 +23,7 @@
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
+      <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
@@ -36,6 +38,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -63,6 +66,11 @@
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
     </language>
   </registry>
@@ -310,6 +318,262 @@
           <ref role="PMmxG" to="8gqa:AkpVsnx_dO" resolve="TableEditorInspectorComponent" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="C8BOZOcDyA">
+    <property role="3GE5qa" value="SimulationSCRNASeqData" />
+    <ref role="1XX52x" to="hgbr:C8BOZOc$Ya" resolve="SimulateSCRNASeqData" />
+    <node concept="3EZMnI" id="3J_5udXdH6k" role="2wV5jI">
+      <node concept="3EZMnI" id="3J_5udXdH6l" role="3EZMnx">
+        <node concept="2iRkQZ" id="3J_5udXdH6m" role="2iSdaV" />
+        <node concept="PMmxH" id="3J_5udXdH6n" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3EZMnI" id="3J_5udXdH6q" role="3EZMnx">
+          <node concept="3EZMnI" id="C8BOZOcFLk" role="3EZMnx">
+            <node concept="VPM3Z" id="C8BOZOcFLl" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="3F0ifn" id="C8BOZOcFO5" role="3EZMnx">
+              <property role="3F0ifm" value="scRNA-seq data table to compute parameters from:" />
+              <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+            </node>
+            <node concept="3F1sOY" id="C8BOZOcFOk" role="3EZMnx">
+              <ref role="1NtTu8" to="hgbr:C8BOZOcDtR" resolve="paramsTable" />
+            </node>
+            <node concept="2iRfu4" id="C8BOZOcFLn" role="2iSdaV" />
+            <node concept="lj46D" id="C8BOZOcFLo" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F0ifn" id="C8BOZOcFRo" role="3EZMnx">
+            <property role="3F0ifm" value="The following parameters will override the parameters computed from the table:" />
+            <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+            <node concept="lj46D" id="C8BOZOcFUf" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3EZMnI" id="C8BOZOcFY4" role="3EZMnx">
+            <node concept="3EZMnI" id="C8BOZOcFYd" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcFYe" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcFYf" role="3EZMnx">
+                <property role="3F0ifm" value="number of groups:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="C8BOZOd$As" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:C8BOZOd$wy" resolve="noOfGroups" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcFYh" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcFYi" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOcFYj" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcFYk" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcFYl" role="3EZMnx">
+                <property role="3F0ifm" value="number of cells:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="C8BOZOd$AT" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:C8BOZOd$zQ" resolve="noOfCells" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcFYn" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcFYo" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOcFYp" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcFYq" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcFYr" role="3EZMnx">
+                <property role="3F0ifm" value="number of genes:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="C8BOZOd$Bm" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:C8BOZOd$$z" resolve="noOFGenes" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcFYt" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcFYu" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOcFYv" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcFYw" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcGcU" role="3EZMnx">
+                <property role="3F0ifm" value="mean library size:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="C8BOZOd$BN" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:C8BOZOd$_k" resolve="meanLibrarySize" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcFYy" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcFYz" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOdnMy" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOdnMz" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOdnZH" role="3EZMnx">
+                <property role="3F0ifm" value="base mean:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="C8BOZOd$Cg" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:C8BOZOd$yc" resolve="baseMean" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOdnMA" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOdnMB" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOdnIl" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOdnIo" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOdo07" role="3EZMnx">
+                <property role="3F0ifm" value="base standard deviation:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="C8BOZOd$CH" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:C8BOZOd$z1" resolve="baseSD" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOdnIs" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOdnMp" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOcFY$" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcFY_" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcGmG" role="3EZMnx">
+                <property role="3F0ifm" value="group division:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F2HdR" id="C8BOZOcGvZ" role="3EZMnx">
+                <property role="2czwfO" value="," />
+                <ref role="1NtTu8" to="hgbr:C8BOZOcDtW" resolve="groupDivision" />
+                <node concept="2iRfu4" id="C8BOZOcGw1" role="2czzBx" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcFYB" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcFYC" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOcFYD" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcFYE" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcGwe" role="3EZMnx">
+                <property role="3F0ifm" value="DE probability per group:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F2HdR" id="C8BOZOcGDx" role="3EZMnx">
+                <property role="2czwfO" value="," />
+                <ref role="1NtTu8" to="hgbr:C8BOZOcDuR" resolve="deProbPerGroup" />
+                <node concept="2iRfu4" id="C8BOZOcGDz" role="2czzBx" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcFYG" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcFYH" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOcGMf" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcGMg" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcGWA" role="3EZMnx">
+                <property role="3F0ifm" value="DE mean per group:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F2HdR" id="C8BOZOcH5T" role="3EZMnx">
+                <property role="2czwfO" value="," />
+                <ref role="1NtTu8" to="hgbr:C8BOZOcDv4" resolve="deMeanPerGroup" />
+                <node concept="2iRfu4" id="C8BOZOcH5V" role="2czzBx" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcGMi" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcGMj" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOcGPs" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcGPt" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcH68" role="3EZMnx">
+                <property role="3F0ifm" value="DE standard deviation per group:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F2HdR" id="C8BOZOcHfr" role="3EZMnx">
+                <property role="2czwfO" value="," />
+                <ref role="1NtTu8" to="hgbr:C8BOZOcDwg" resolve="deSDPerGroup" />
+                <node concept="2iRfu4" id="C8BOZOcHft" role="2czzBx" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcGPv" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcGPw" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOcGST" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcGSU" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcHfE" role="3EZMnx">
+                <property role="3F0ifm" value="DE down probability:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="C8BOZOd$D2" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:C8BOZOd$xn" resolve="deDownProbability" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcGSW" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcGSX" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="l2Vlx" id="C8BOZOcFYN" role="2iSdaV" />
+            <node concept="pj6Ft" id="C8BOZOcFYO" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="lj46D" id="C8BOZOcG4L" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="l2Vlx" id="3J_5udXdH6r" role="2iSdaV" />
+          <node concept="pj6Ft" id="3J_5udXdH6u" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="3J_5udXdH6_" role="3EZMnx" />
+      </node>
+      <node concept="3F0ifn" id="3J_5udXdH6D" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3EZMnI" id="3J_5udXfI37" role="3EZMnx">
+        <node concept="3F0ifn" id="C8BOZOcEyI" role="3EZMnx">
+          <property role="3F0ifm" value="count tables per group:" />
+        </node>
+        <node concept="3F2HdR" id="C8BOZOcEyh" role="3EZMnx">
+          <ref role="1NtTu8" to="hgbr:C8BOZOcDzg" resolve="destCountTables" />
+          <node concept="2iRkQZ" id="C8BOZOcEyj" role="2czzBx" />
+        </node>
+        <node concept="2iRfu4" id="C8BOZOcEys" role="2iSdaV" />
+      </node>
+      <node concept="2iRfu4" id="3J_5udXdH6F" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="C8BOZOd$vM">
+    <property role="3GE5qa" value="SimulationSCRNASeqData" />
+    <ref role="1XX52x" to="hgbr:C8BOZOd$uW" resolve="NumberWrapper" />
+    <node concept="3F0A7n" id="C8BOZOd$ws" role="2wV5jI">
+      <ref role="1NtTu8" to="hgbr:C8BOZOd$v_" resolve="number" />
     </node>
   </node>
 </model>

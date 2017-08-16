@@ -7,6 +7,7 @@
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -39,6 +40,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -206,6 +210,108 @@
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="436556547688972995" />
       <ref role="20lvS9" node="WAEVbt3F3q" resolve="CovariateTable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="C8BOZOc$Ya">
+    <property role="EcuMT" value="723002905941135242" />
+    <property role="TrG5h" value="SimulateSCRNASeqData" />
+    <property role="3GE5qa" value="SimulationSCRNASeqData" />
+    <property role="34LRSv" value="simulate scRNA-seq datasets" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="C8BOZOd$wy" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941395490" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="noOfGroups" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOd$xn" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941395543" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="deDownProbability" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOd$yc" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941395596" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="baseMean" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOd$z1" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941395649" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="baseSD" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOd$zQ" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941395702" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="noOfCells" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOd$$z" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941395747" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="noOFGenes" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOd$_k" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941395796" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="meanLibrarySize" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOcDtR" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941153655" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="paramsTable" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOcDzg" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941154000" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="destCountTables" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOcDtW" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941153660" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="groupDivision" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOcDuR" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941153719" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="deProbPerGroup" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOcDv4" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941153732" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="deMeanPerGroup" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="C8BOZOcDwg" role="1TKVEi">
+      <property role="IQ2ns" value="723002905941153808" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="deSDPerGroup" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="C8BOZOd$uW">
+    <property role="EcuMT" value="723002905941395388" />
+    <property role="3GE5qa" value="SimulationSCRNASeqData" />
+    <property role="TrG5h" value="NumberWrapper" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="C8BOZOd$v_" role="1TKVEl">
+      <property role="IQ2nx" value="723002905941395429" />
+      <property role="TrG5h" value="number" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
 </model>
