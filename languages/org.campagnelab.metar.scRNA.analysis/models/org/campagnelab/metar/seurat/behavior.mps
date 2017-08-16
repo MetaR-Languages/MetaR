@@ -6006,8 +6006,8 @@
         </node>
         <node concept="3clFbF" id="3Vn8EN1nbIa" role="3cqZAp">
           <node concept="37vLTI" id="3Vn8EN1nfDx" role="3clFbG">
-            <node concept="Xl_RD" id="3Vn8EN1ngau" role="37vLTx">
-              <property role="Xl_RC" value="condition" />
+            <node concept="BsUDl" id="3M31SPQktK2" role="37vLTx">
+              <ref role="37wK5l" node="3M31SPQkju7" resolve="nameOfCondition" />
             </node>
             <node concept="2OqwBi" id="3Vn8EN1necM" role="37vLTJ">
               <node concept="37vLTw" id="3Vn8EN1nbI8" role="2Oq$k0">
@@ -6152,8 +6152,8 @@
         </node>
         <node concept="3clFbF" id="3Vn8EN1ni_F" role="3cqZAp">
           <node concept="37vLTI" id="3Vn8EN1ni_G" role="3clFbG">
-            <node concept="Xl_RD" id="3Vn8EN1ni_H" role="37vLTx">
-              <property role="Xl_RC" value="cluster" />
+            <node concept="BsUDl" id="3M31SPQktTw" role="37vLTx">
+              <ref role="37wK5l" node="3M31SPQkpl_" resolve="nameOfCluster" />
             </node>
             <node concept="2OqwBi" id="3Vn8EN1ni_I" role="37vLTJ">
               <node concept="37vLTw" id="3Vn8EN1ni_J" role="2Oq$k0">
@@ -7210,6 +7210,50 @@
         </node>
       </node>
       <node concept="10P_77" id="7UToRyXQ9we" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="3M31SPQkju7" role="13h7CS">
+      <property role="TrG5h" value="nameOfCondition" />
+      <node concept="3Tm1VV" id="3M31SPQkju8" role="1B3o_S" />
+      <node concept="17QB3L" id="3M31SPQkpgr" role="3clF45" />
+      <node concept="3clFbS" id="3M31SPQkjua" role="3clF47">
+        <node concept="3SKdUt" id="3M31SPQktBz" role="3cqZAp">
+          <node concept="3SKdUq" id="3M31SPQktB_" role="3SKWNk">
+            <property role="3SKdUp" value="This function tries to keep names generated in the column group container" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3M31SPQktCL" role="3cqZAp">
+          <node concept="3SKdUq" id="3M31SPQktCN" role="3SKWNk">
+            <property role="3SKdUp" value="and names in the generated code consistent!" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3M31SPQkpk_" role="3cqZAp">
+          <node concept="Xl_RD" id="3M31SPQkpkY" role="3cqZAk">
+            <property role="Xl_RC" value="condition" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="3M31SPQkpl_" role="13h7CS">
+      <property role="TrG5h" value="nameOfCluster" />
+      <node concept="3Tm1VV" id="3M31SPQkplA" role="1B3o_S" />
+      <node concept="17QB3L" id="3M31SPQktyq" role="3clF45" />
+      <node concept="3clFbS" id="3M31SPQkplC" role="3clF47">
+        <node concept="3SKdUt" id="3M31SPQktWS" role="3cqZAp">
+          <node concept="3SKdUq" id="3M31SPQktWT" role="3SKWNk">
+            <property role="3SKdUp" value="This function tries to keep names generated in the column group container" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3M31SPQktWU" role="3cqZAp">
+          <node concept="3SKdUq" id="3M31SPQktWV" role="3SKWNk">
+            <property role="3SKdUp" value="and names in the generated code consistent!" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3M31SPQkt_4" role="3cqZAp">
+          <node concept="Xl_RD" id="3M31SPQkt_B" role="3cqZAk">
+            <property role="Xl_RC" value="cluster" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13hLZK" id="3BPxiZUsb6J" role="13h7CW">
       <node concept="3clFbS" id="3BPxiZUsb6K" role="2VODD2">
