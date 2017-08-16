@@ -3537,7 +3537,7 @@
         <node concept="3clFbJ" id="38k4CcpRXsS" role="3cqZAp">
           <node concept="3clFbS" id="38k4CcpRXsU" role="3clFbx">
             <node concept="34ab3g" id="38k4CcpRYDT" role="3cqZAp">
-              <property role="35gtTG" value="info" />
+              <property role="35gtTG" value="debug" />
               <node concept="3cpWs3" id="3in85J_rKGc" role="34bqiv">
                 <node concept="37vLTw" id="7SyL5U3dGhB" role="3uHU7w">
                   <ref role="3cqZAo" node="1QuiO55vM$" resolve="projectName" />
@@ -5023,7 +5023,7 @@
           </node>
         </node>
         <node concept="34ab3g" id="2Qyt1JMOPwh" role="3cqZAp">
-          <property role="35gtTG" value="info" />
+          <property role="35gtTG" value="debug" />
           <node concept="3cpWs3" id="hkQJd4Smnt" role="34bqiv">
             <node concept="2OqwBi" id="hkQJd4SmGN" role="3uHU7w">
               <node concept="Xjq3P" id="hkQJd4SmyY" role="2Oq$k0" />
@@ -5052,7 +5052,7 @@
         <node concept="3clFbJ" id="1QuiO55BRW" role="3cqZAp">
           <node concept="3clFbS" id="1QuiO55BRY" role="3clFbx">
             <node concept="34ab3g" id="3in85J_rHEH" role="3cqZAp">
-              <property role="35gtTG" value="info" />
+              <property role="35gtTG" value="debug" />
               <node concept="3cpWs3" id="3in85J_rHEI" role="34bqiv">
                 <node concept="2OqwBi" id="3in85J_rHEJ" role="3uHU7w">
                   <node concept="Xjq3P" id="3in85J_rHEK" role="2Oq$k0" />

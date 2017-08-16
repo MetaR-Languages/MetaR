@@ -2001,11 +2001,12 @@
       <node concept="3F0ifn" id="3Vn8EN0Tnvd" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
-      <node concept="3F0ifn" id="3Vn8EN0TWow" role="3EZMnx">
-        <property role="3F0ifm" value="DE genes table:" />
+      <node concept="3F0ifn" id="3M31SPQnFKb" role="3EZMnx">
+        <property role="3F0ifm" value="DE genes per comparison:" />
       </node>
-      <node concept="3F1sOY" id="3Vn8EN0TWl9" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3Vn8EN0Tnrh" resolve="destinationTable" />
+      <node concept="3F2HdR" id="3M31SPQntCi" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3Vn8EN0Tnrh" resolve="destinationTables" />
+        <node concept="2iRkQZ" id="3M31SPQntCl" role="2czzBx" />
       </node>
       <node concept="2iRfu4" id="3Vn8EN0Tnvf" role="2iSdaV" />
     </node>
@@ -2021,6 +2022,13 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3M31SPQnFpI">
+    <property role="3GE5qa" value="LimmaOp" />
+    <ref role="1XX52x" to="lznn:3M31SPQnz9f" resolve="LimmaFTWrapper" />
+    <node concept="3F1sOY" id="3M31SPQnFqo" role="2wV5jI">
+      <ref role="1NtTu8" to="lznn:3J_5udXhhDI" resolve="table" />
     </node>
   </node>
 </model>

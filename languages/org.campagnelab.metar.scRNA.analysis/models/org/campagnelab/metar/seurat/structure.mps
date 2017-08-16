@@ -1269,9 +1269,6 @@
     <property role="34LRSv" value="limma voom" />
     <property role="R4oN_" value="Limma voom applied on cleaned counts" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-    <node concept="PrWs8" id="3Vn8EN0TmVg" role="PzmwI">
-      <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
-    </node>
     <node concept="1TJgyj" id="3Vn8EN0Tnrc" role="1TKVEi">
       <property role="IQ2ns" value="4528126075710305996" />
       <property role="20lmBu" value="aggregation" />
@@ -1296,9 +1293,9 @@
     <node concept="1TJgyj" id="3Vn8EN0Tnrh" role="1TKVEi">
       <property role="IQ2ns" value="4528126075710306001" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="destinationTable" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+      <property role="20kJfa" value="destinationTables" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3M31SPQnz9f" resolve="LimmaFTWrapper" />
     </node>
   </node>
   <node concept="1TIwiD" id="3Vn8EN10Wcw">
@@ -1313,6 +1310,12 @@
       <property role="IQ2ns" value="5124039371743719814" />
       <ref role="20lvS9" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="3M31SPQnz9f">
+    <property role="EcuMT" value="4360337168382440015" />
+    <property role="3GE5qa" value="LimmaOp" />
+    <property role="TrG5h" value="LimmaFTWrapper" />
+    <ref role="1TJDcQ" node="3J_5udXhhDH" resolve="FutureTableWrapper" />
   </node>
 </model>
 

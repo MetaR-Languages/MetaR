@@ -4293,7 +4293,7 @@
           </node>
         </node>
         <node concept="34ab3g" id="FXZ5xlJ4$$" role="3cqZAp">
-          <property role="35gtTG" value="info" />
+          <property role="35gtTG" value="debug" />
           <node concept="3cpWs3" id="FXZ5xlJ4$_" role="34bqiv">
             <node concept="37vLTw" id="FXZ5xlJ4$A" role="3uHU7w">
               <ref role="3cqZAo" node="FXZ5xlJ4$F" resolve="model" />
@@ -4389,7 +4389,7 @@
                 </node>
               </node>
               <node concept="34ab3g" id="3gtMiDCe3y$" role="3cqZAp">
-                <property role="35gtTG" value="info" />
+                <property role="35gtTG" value="debug" />
                 <node concept="3cpWs3" id="55a1UmAsIr6" role="34bqiv">
                   <node concept="37vLTw" id="55a1UmAsJ3m" role="3uHU7w">
                     <ref role="3cqZAo" node="55a1UmAlGhB" resolve="model" />
@@ -4438,7 +4438,7 @@
                 </node>
               </node>
               <node concept="34ab3g" id="3gtMiDCe3UJ" role="3cqZAp">
-                <property role="35gtTG" value="info" />
+                <property role="35gtTG" value="debug" />
                 <node concept="3cpWs3" id="55a1UmAlGhy" role="34bqiv">
                   <node concept="37vLTw" id="55a1UmAsM7T" role="3uHU7w">
                     <ref role="3cqZAo" node="55a1UmAsKgX" resolve="listener" />
