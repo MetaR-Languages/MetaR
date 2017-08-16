@@ -1154,6 +1154,8 @@
   <node concept="1TIwiD" id="4$e7IRczcqU">
     <property role="EcuMT" value="5264179021130548922" />
     <property role="TrG5h" value="StatementWithSeuratDependencies" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
   </node>
   <node concept="1TIwiD" id="7RHbcB0Vg4B">
