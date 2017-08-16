@@ -7779,6 +7779,34 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="3M31SPQlwYZ" role="13h7CS">
+      <property role="TrG5h" value="getReferencedGroups" />
+      <node concept="3Tm1VV" id="3M31SPQlwZ0" role="1B3o_S" />
+      <node concept="_YKpA" id="3M31SPQlxJ5" role="3clF45">
+        <node concept="3Tqbb2" id="3M31SPQlxJv" role="_ZDj9">
+          <ref role="ehGHo" to="lznn:3Vn8EN10Wcw" resolve="GroupRefFromSeurat" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="3M31SPQlwZ2" role="3clF47">
+        <node concept="3cpWs6" id="3M31SPQly7N" role="3cqZAp">
+          <node concept="2OqwBi" id="3M31SPQlyW$" role="3cqZAk">
+            <node concept="2OqwBi" id="3M31SPQlzMx" role="2Oq$k0">
+              <node concept="13iPFW" id="3M31SPQlyJ5" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3M31SPQl$pb" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:4ssfE$85c87" resolve="modelFormula" />
+              </node>
+            </node>
+            <node concept="2Rf3mk" id="3M31SPQlzz0" role="2OqNvi">
+              <node concept="1xMEDy" id="3M31SPQlzz2" role="1xVPHs">
+                <node concept="chp4Y" id="3M31SPQlz_J" role="ri$Ld">
+                  <ref role="cht4Q" to="lznn:3Vn8EN10Wcw" resolve="GroupRefFromSeurat" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="3Vn8EN0TWrr" role="13h7CW">
       <node concept="3clFbS" id="3Vn8EN0TWrs" role="2VODD2">
         <node concept="3clFbF" id="7$n2ViPrG4I" role="3cqZAp">
