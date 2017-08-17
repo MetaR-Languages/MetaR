@@ -90,6 +90,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
@@ -130,6 +131,11 @@
       <concept id="1177093525992" name="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" flags="lg" index="gft3U">
         <child id="1177093586806" name="templateNode" index="gfFT$" />
       </concept>
+      <concept id="5015072279636464462" name="jetbrains.mps.lang.generator.structure.VarMacro" flags="lg" index="2jeGV$">
+        <child id="5015072279636624635" name="type" index="2jfP_h" />
+        <child id="5015072279636624596" name="value" index="2jfP_Y" />
+      </concept>
+      <concept id="5015072279636592410" name="jetbrains.mps.lang.generator.structure.VarMacro_ValueQuery" flags="in" index="2jfdEK" />
       <concept id="1168559333462" name="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" flags="ln" index="j$656" />
       <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj" />
       <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
@@ -187,6 +193,9 @@
       </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
+      <concept id="2721957369897614808" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_VarRef" flags="nn" index="1bhEwm">
+        <reference id="2721957369897614810" name="varmacro" index="1bhEwk" />
+      </concept>
       <concept id="5190093307972723402" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ParameterRef" flags="nn" index="3cR$yn">
         <reference id="5190093307972736266" name="parameter" index="3cRzXn" />
       </concept>
@@ -258,7 +267,11 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
@@ -2622,15 +2635,39 @@
             <node concept="3zFVjK" id="64Erk42uoy4" role="3zH0cK">
               <node concept="3clFbS" id="64Erk42uoy5" role="2VODD2">
                 <node concept="3clFbF" id="64Erk42uoEF" role="3cqZAp">
-                  <node concept="3cpWs3" id="64Erk42upJg" role="3clFbG">
-                    <node concept="2OqwBi" id="64Erk42uq8y" role="3uHU7w">
-                      <node concept="30H73N" id="64Erk42upS2" role="2Oq$k0" />
-                      <node concept="3TrcHB" id="64Erk42voiO" role="2OqNvi">
-                        <ref role="3TsBF5" to="hgbr:C8BOZOd$v_" resolve="number" />
+                  <node concept="2OqwBi" id="64Erk42Ap9d" role="3clFbG">
+                    <node concept="2OqwBi" id="64Erk42Agek" role="2Oq$k0">
+                      <node concept="2OqwBi" id="64Erk42AbfO" role="2Oq$k0">
+                        <node concept="2OqwBi" id="64Erk42AaFg" role="2Oq$k0">
+                          <node concept="1iwH7S" id="64Erk42AaqU" role="2Oq$k0" />
+                          <node concept="1bhEwm" id="64Erk42AaWl" role="2OqNvi">
+                            <ref role="1bhEwk" node="64Erk42A3vk" resolve="simObj" />
+                          </node>
+                        </node>
+                        <node concept="3Tsc0h" id="64Erk42Aciq" role="2OqNvi">
+                          <ref role="3TtcxE" to="hgbr:C8BOZOcDzg" resolve="destCountTables" />
+                        </node>
+                      </node>
+                      <node concept="34jXtK" id="64Erk42AkxB" role="2OqNvi">
+                        <node concept="3cpWsd" id="64Erk42ADO5" role="25WWJ7">
+                          <node concept="3cmrfG" id="64Erk42ADOb" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                          <node concept="2YIFZM" id="64Erk42Anp_" role="3uHU7B">
+                            <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
+                            <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                            <node concept="2OqwBi" id="64Erk42Al05" role="37wK5m">
+                              <node concept="30H73N" id="64Erk42AkJU" role="2Oq$k0" />
+                              <node concept="3TrcHB" id="64Erk42AlGl" role="2OqNvi">
+                                <ref role="3TsBF5" to="hgbr:C8BOZOd$v_" resolve="number" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
-                    <node concept="Xl_RD" id="64Erk42uoEE" role="3uHU7B">
-                      <property role="Xl_RC" value="Group" />
+                    <node concept="2qgKlT" id="64Erk42Aq05" role="2OqNvi">
+                      <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                     </node>
                   </node>
                 </node>
@@ -2754,6 +2791,19 @@
             </node>
           </node>
         </node>
+        <node concept="2jeGV$" id="64Erk42A3vk" role="lGtFl">
+          <property role="TrG5h" value="simObj" />
+          <node concept="2jfdEK" id="64Erk42A3vm" role="2jfP_Y">
+            <node concept="3clFbS" id="64Erk42A3vo" role="2VODD2">
+              <node concept="3cpWs6" id="64Erk42A6EV" role="3cqZAp">
+                <node concept="30H73N" id="64Erk42A6P1" role="3cqZAk" />
+              </node>
+            </node>
+          </node>
+          <node concept="3Tqbb2" id="64Erk42A5ro" role="2jfP_h">
+            <ref role="ehGHo" to="hgbr:C8BOZOc$Ya" resolve="SimulateSCRNASeqData" />
+          </node>
+        </node>
         <node concept="1WS0z7" id="64Erk42ub39" role="lGtFl">
           <node concept="3JmXsc" id="64Erk42ub3c" role="3Jn$fo">
             <node concept="3clFbS" id="64Erk42ub3d" role="2VODD2">
@@ -2805,7 +2855,7 @@
                             </node>
                           </node>
                           <node concept="2n63Yl" id="64Erk42ulCW" role="3cqZAp">
-                            <node concept="37vLTw" id="64Erk42vn82" role="2n6tg2">
+                            <node concept="37vLTw" id="64Erk42A1H6" role="2n6tg2">
                               <ref role="3cqZAo" node="64Erk42v5Ok" resolve="noWrapper" />
                             </node>
                           </node>

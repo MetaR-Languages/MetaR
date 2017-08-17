@@ -206,6 +206,15 @@
       <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
         <reference id="4451133196879830023" name="table" index="afgo8" />
       </concept>
+      <concept id="3929971219796704543" name="org.campagnelab.metar.tables.structure.OutputFile" flags="ng" index="2jXUOv">
+        <property id="3929971219796704769" name="path" index="2jXUS1" />
+      </concept>
+      <concept id="8031339867733060044" name="org.campagnelab.metar.tables.structure.WriteTable" flags="ng" index="2xR6j2">
+        <property id="8031339867734631313" name="withQuotes" index="2xH6Uv" />
+        <property id="8031339867734757239" name="separator" index="2xH$9T" />
+        <child id="3929971219796718185" name="outputPath" index="2jXY9D" />
+        <child id="8031339867733060257" name="table" index="2xR6uJ" />
+      </concept>
       <concept id="8031339867720116703" name="org.campagnelab.metar.tables.structure.UsageTypeRef" flags="ng" index="2y_Ijh">
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
       </concept>
@@ -10624,6 +10633,31 @@
       <node concept="S1EQe" id="64Erk42wbTy" role="ZXjPg">
         <property role="1MXi1$" value="IQXWUKKEPK" />
       </node>
+      <node concept="2xR6j2" id="64Erk42_$hw" role="ZXjPg">
+        <property role="1MXi1$" value="QJKADLXWOM" />
+        <property role="2xH6Uv" value="false" />
+        <property role="2xH$9T" value="\t" />
+        <node concept="2jXUOv" id="64Erk42_$hy" role="2jXY9D">
+          <property role="2jXUS1" value="/Users/farcasia/DEAnalysis/tableGroup1.txt" />
+        </node>
+        <node concept="afgQW" id="64Erk42_$k3" role="2xR6uJ">
+          <ref role="afgo8" node="64Erk42xnrs" resolve="tableGroup1" />
+        </node>
+      </node>
+      <node concept="2xR6j2" id="64Erk42_$ph" role="ZXjPg">
+        <property role="1MXi1$" value="YKYPMWFODG" />
+        <property role="2xH6Uv" value="false" />
+        <property role="2xH$9T" value="\t" />
+        <node concept="afgQW" id="64Erk42_$s5" role="2xR6uJ">
+          <ref role="afgo8" node="64Erk42xnrv" resolve="tableGroup2" />
+        </node>
+        <node concept="2jXUOv" id="64Erk42_$sd" role="2jXY9D">
+          <property role="2jXUS1" value="/Users/farcasia/DEAnalysis/tableGroup2.txt" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="64Erk42_D$2" role="ZXjPg">
+        <property role="1MXi1$" value="REAILSYVOV" />
+      </node>
       <node concept="34tvTV" id="64Erk42_6qW" role="ZXjPg">
         <property role="1MXi1$" value="KOSWOQRVLD" />
         <property role="34tvW_" value="12" />
@@ -10733,6 +10767,10 @@
         <property role="TrG5h" value="QUIUISJBLX" />
       </node>
     </node>
+  </node>
+  <node concept="3Mpm39" id="64Erk42_$et">
+    <property role="31Cu5t" value="&#9;" />
+    <node concept="31JHg8" id="64Erk42_$eu" role="31JHgj" />
   </node>
 </model>
 
