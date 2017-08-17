@@ -2504,6 +2504,53 @@
           </node>
         </node>
       </node>
+      <node concept="1gZcZf" id="64Erk42$PRM" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="64Erk42$PRN" role="3_3kQL">
+          <property role="3_3kQV" value="params@batchCells &lt;- " />
+        </node>
+        <node concept="3_3kQU" id="64Erk42$PRO" role="3_3kQL">
+          <property role="3_3kQV" value="10" />
+          <node concept="17Uvod" id="64Erk42$PRP" role="lGtFl">
+            <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+            <property role="2qtEX9" value="text" />
+            <node concept="3zFVjK" id="64Erk42$PRQ" role="3zH0cK">
+              <node concept="3clFbS" id="64Erk42$PRR" role="2VODD2">
+                <node concept="3clFbF" id="64Erk42$PRS" role="3cqZAp">
+                  <node concept="2OqwBi" id="64Erk42$PRT" role="3clFbG">
+                    <node concept="2OqwBi" id="64Erk42$PRU" role="2Oq$k0">
+                      <node concept="30H73N" id="64Erk42$PRV" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="64Erk42$PRW" role="2OqNvi">
+                        <ref role="3Tt5mk" to="hgbr:C8BOZOd$zQ" resolve="noOfCells" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="64Erk42$PRX" role="2OqNvi">
+                      <ref role="3TsBF5" to="hgbr:C8BOZOd$v_" resolve="number" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1W57fq" id="64Erk42$PRY" role="lGtFl">
+          <node concept="3IZrLx" id="64Erk42$PRZ" role="3IZSJc">
+            <node concept="3clFbS" id="64Erk42$PS0" role="2VODD2">
+              <node concept="3clFbF" id="64Erk42$PS1" role="3cqZAp">
+                <node concept="2OqwBi" id="64Erk42$PS2" role="3clFbG">
+                  <node concept="2OqwBi" id="64Erk42$PS3" role="2Oq$k0">
+                    <node concept="3TrEf2" id="64Erk42$PS4" role="2OqNvi">
+                      <ref role="3Tt5mk" to="hgbr:C8BOZOd$zQ" resolve="noOfCells" />
+                    </node>
+                    <node concept="30H73N" id="64Erk42$PS5" role="2Oq$k0" />
+                  </node>
+                  <node concept="3x8VRR" id="64Erk42$PS6" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1gZcZf" id="64Erk42tx0r" role="2G3XIn">
         <property role="1gZaPE" value="" />
         <node concept="3_3kQU" id="64Erk42tx0t" role="3_3kQL">
