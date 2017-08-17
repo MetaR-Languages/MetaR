@@ -6,8 +6,8 @@
   </languages>
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -260,6 +260,12 @@
       <property role="20kJfa" value="meanLibrarySize" />
       <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
     </node>
+    <node concept="1TJgyj" id="64Erk42vAuI" role="1TKVEi">
+      <property role="IQ2ns" value="7001528696682997678" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="sdLibrarySize" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
     <node concept="1TJgyj" id="C8BOZOcDtR" role="1TKVEi">
       <property role="IQ2ns" value="723002905941153655" />
       <property role="20lmBu" value="aggregation" />
@@ -302,6 +308,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
     </node>
+    <node concept="PrWs8" id="64Erk42qGnx" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
+    </node>
   </node>
   <node concept="1TIwiD" id="C8BOZOd$uW">
     <property role="EcuMT" value="723002905941395388" />
@@ -311,7 +320,7 @@
     <node concept="1TJgyi" id="C8BOZOd$v_" role="1TKVEl">
       <property role="IQ2nx" value="723002905941395429" />
       <property role="TrG5h" value="number" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
     </node>
   </node>
 </model>

@@ -12,6 +12,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -347,7 +348,7 @@
             </node>
           </node>
           <node concept="3F0ifn" id="C8BOZOcFRo" role="3EZMnx">
-            <property role="3F0ifm" value="The following parameters will override the parameters computed from the table:" />
+            <property role="3F0ifm" value="Override computed parameters:" />
             <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
             <node concept="lj46D" id="C8BOZOcFUf" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -415,6 +416,22 @@
               </node>
               <node concept="2iRfu4" id="C8BOZOcFYy" role="2iSdaV" />
               <node concept="lj46D" id="C8BOZOcFYz" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="64Erk42vA_0" role="3EZMnx">
+              <node concept="VPM3Z" id="64Erk42vA_1" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="64Erk42vA_2" role="3EZMnx">
+                <property role="3F0ifm" value="standard deviation library size:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="64Erk42vA_3" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:64Erk42vAuI" resolve="sdLibrarySize" />
+              </node>
+              <node concept="2iRfu4" id="64Erk42vA_4" role="2iSdaV" />
+              <node concept="lj46D" id="64Erk42vA_5" role="3F10Kt">
                 <property role="VOm3f" value="true" />
               </node>
             </node>
@@ -551,7 +568,6 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F0ifn" id="3J_5udXdH6_" role="3EZMnx" />
       </node>
       <node concept="3F0ifn" id="3J_5udXdH6D" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
@@ -574,6 +590,7 @@
     <ref role="1XX52x" to="hgbr:C8BOZOd$uW" resolve="NumberWrapper" />
     <node concept="3F0A7n" id="C8BOZOd$ws" role="2wV5jI">
       <ref role="1NtTu8" to="hgbr:C8BOZOd$v_" resolve="number" />
+      <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
     </node>
   </node>
 </model>
