@@ -1606,6 +1606,7 @@
       </node>
       <node concept="3F0A7n" id="3443J8RcHgJ" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3443J8RcHgH" resolve="scaleFactor" />
+        <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
       </node>
       <node concept="3F0ifn" id="3443J8Rcxz0" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
@@ -2667,69 +2668,113 @@
         </node>
       </node>
       <node concept="1vlq3a" id="22QJO5Oh$p1" role="1Qtc8A">
-        <node concept="IWgqT" id="22QJO5OhD9t" role="1vlqcB">
-          <node concept="1hCUdq" id="22QJO5OhD9u" role="1hCUd6">
-            <node concept="3clFbS" id="22QJO5OhD9v" role="2VODD2">
-              <node concept="3clFbF" id="22QJO5OhD9w" role="3cqZAp">
-                <node concept="Xl_RD" id="22QJO5OhD9x" role="3clFbG">
-                  <property role="Xl_RC" value="Features and total plot" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="IWg2L" id="22QJO5OhD9y" role="IWgqQ">
-            <node concept="3clFbS" id="22QJO5OhD9z" role="2VODD2">
-              <node concept="3clFbF" id="22QJO5OhD9$" role="3cqZAp">
-                <node concept="2OqwBi" id="22QJO5OhD9_" role="3clFbG">
-                  <node concept="7Obwk" id="22QJO5OhD9A" role="2Oq$k0" />
-                  <node concept="HtX7F" id="22QJO5OhD9B" role="2OqNvi">
-                    <node concept="2ShNRf" id="22QJO5OhD9C" role="HtX7I">
-                      <node concept="2fJWfE" id="22QJO5OhD9D" role="2ShVmc">
-                        <node concept="3Tqbb2" id="22QJO5OhD9E" role="3zrR0E">
-                          <ref role="ehGHo" to="lznn:5vXLLHdBrH2" resolve="FeaturesAndTotalPlot" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="IWgqT" id="22QJO5OhCxv" role="1vlqcB">
-          <node concept="1hCUdq" id="22QJO5OhCxw" role="1hCUd6">
-            <node concept="3clFbS" id="22QJO5OhCxx" role="2VODD2">
-              <node concept="3clFbF" id="22QJO5OhCxy" role="3cqZAp">
-                <node concept="Xl_RD" id="22QJO5OhCxz" role="3clFbG">
-                  <property role="Xl_RC" value="Features plot" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="IWg2L" id="22QJO5OhCx$" role="IWgqQ">
-            <node concept="3clFbS" id="22QJO5OhCx_" role="2VODD2">
-              <node concept="3clFbF" id="22QJO5OhCxA" role="3cqZAp">
-                <node concept="2OqwBi" id="22QJO5OhCxB" role="3clFbG">
-                  <node concept="7Obwk" id="22QJO5OhCxC" role="2Oq$k0" />
-                  <node concept="HtX7F" id="22QJO5OhCxD" role="2OqNvi">
-                    <node concept="2ShNRf" id="22QJO5OhCxE" role="HtX7I">
-                      <node concept="2fJWfE" id="22QJO5OhCxF" role="2ShVmc">
-                        <node concept="3Tqbb2" id="22QJO5OhCxG" role="3zrR0E">
-                          <ref role="ehGHo" to="lznn:3J_5udXdua9" resolve="FeaturePlot" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="293xgL" id="22QJO5Oh$p3" role="1hCDOS">
           <node concept="3clFbS" id="22QJO5Oh$p5" role="2VODD2">
             <node concept="3clFbF" id="22QJO5Oh_0p" role="3cqZAp">
               <node concept="Xl_RD" id="22QJO5Oh_0o" role="3clFbG">
                 <property role="Xl_RC" value="Plots" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="aenpk" id="22QJO5On$Vc" role="1vlqcB">
+          <node concept="IWgqT" id="22QJO5OhD9t" role="aenpr">
+            <node concept="1hCUdq" id="22QJO5OhD9u" role="1hCUd6">
+              <node concept="3clFbS" id="22QJO5OhD9v" role="2VODD2">
+                <node concept="3clFbF" id="22QJO5OhD9w" role="3cqZAp">
+                  <node concept="Xl_RD" id="22QJO5OhD9x" role="3clFbG">
+                    <property role="Xl_RC" value="Features and total plot" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="IWg2L" id="22QJO5OhD9y" role="IWgqQ">
+              <node concept="3clFbS" id="22QJO5OhD9z" role="2VODD2">
+                <node concept="3clFbF" id="22QJO5OhD9$" role="3cqZAp">
+                  <node concept="2OqwBi" id="22QJO5OhD9_" role="3clFbG">
+                    <node concept="7Obwk" id="22QJO5OhD9A" role="2Oq$k0" />
+                    <node concept="HtX7F" id="22QJO5OhD9B" role="2OqNvi">
+                      <node concept="2ShNRf" id="22QJO5OhD9C" role="HtX7I">
+                        <node concept="2fJWfE" id="22QJO5OhD9D" role="2ShVmc">
+                          <node concept="3Tqbb2" id="22QJO5OhD9E" role="3zrR0E">
+                            <ref role="ehGHo" to="lznn:5vXLLHdBrH2" resolve="FeaturesAndTotalPlot" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="IWgqT" id="22QJO5OhCxv" role="aenpr">
+            <node concept="1hCUdq" id="22QJO5OhCxw" role="1hCUd6">
+              <node concept="3clFbS" id="22QJO5OhCxx" role="2VODD2">
+                <node concept="3clFbF" id="22QJO5OhCxy" role="3cqZAp">
+                  <node concept="Xl_RD" id="22QJO5OhCxz" role="3clFbG">
+                    <property role="Xl_RC" value="Features plot" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="IWg2L" id="22QJO5OhCx$" role="IWgqQ">
+              <node concept="3clFbS" id="22QJO5OhCx_" role="2VODD2">
+                <node concept="3clFbF" id="22QJO5OhCxA" role="3cqZAp">
+                  <node concept="2OqwBi" id="22QJO5OhCxB" role="3clFbG">
+                    <node concept="7Obwk" id="22QJO5OhCxC" role="2Oq$k0" />
+                    <node concept="HtX7F" id="22QJO5OhCxD" role="2OqNvi">
+                      <node concept="2ShNRf" id="22QJO5OhCxE" role="HtX7I">
+                        <node concept="2fJWfE" id="22QJO5OhCxF" role="2ShVmc">
+                          <node concept="3Tqbb2" id="22QJO5OhCxG" role="3zrR0E">
+                            <ref role="ehGHo" to="lznn:3J_5udXdua9" resolve="FeaturePlot" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="27VH4U" id="22QJO5On_8n" role="aenpu">
+            <node concept="3clFbS" id="22QJO5On_8o" role="2VODD2">
+              <node concept="3SKdUt" id="22QJO5OnKl7" role="3cqZAp">
+                <node concept="3SKdUq" id="22QJO5OnKl9" role="3SKWNk">
+                  <property role="3SKdUp" value="Feature plots are valid only for seurats with tsne computed." />
+                </node>
+              </node>
+              <node concept="3clFbF" id="22QJO5On_J1" role="3cqZAp">
+                <node concept="2OqwBi" id="22QJO5OnJ1s" role="3clFbG">
+                  <node concept="2OqwBi" id="22QJO5OnCG3" role="2Oq$k0">
+                    <node concept="2OqwBi" id="22QJO5On_ZY" role="2Oq$k0">
+                      <node concept="7Obwk" id="22QJO5On_J0" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="22QJO5OnAqO" role="2OqNvi">
+                        <ref role="37wK5l" to="9kby:5YbQYgaecC3" resolve="seuratsBefore" />
+                      </node>
+                    </node>
+                    <node concept="1z4cxt" id="22QJO5OnHhg" role="2OqNvi">
+                      <node concept="1bVj0M" id="22QJO5OnHhi" role="23t8la">
+                        <node concept="3clFbS" id="22QJO5OnHhj" role="1bW5cS">
+                          <node concept="3clFbF" id="22QJO5OnH_f" role="3cqZAp">
+                            <node concept="2OqwBi" id="22QJO5OnHQ2" role="3clFbG">
+                              <node concept="37vLTw" id="22QJO5OnH_e" role="2Oq$k0">
+                                <ref role="3cqZAo" node="22QJO5OnHhk" resolve="it" />
+                              </node>
+                              <node concept="3TrcHB" id="22QJO5OnIxj" role="2OqNvi">
+                                <ref role="3TsBF5" to="lznn:3J_5udX5EJY" resolve="tsne" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="22QJO5OnHhk" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="22QJO5OnHhl" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="22QJO5OnJJ4" role="2OqNvi" />
+                </node>
               </node>
             </node>
           </node>
@@ -2774,7 +2819,7 @@
             </node>
             <node concept="3SKdUt" id="22QJO5OkCYA" role="3cqZAp">
               <node concept="3SKdUq" id="22QJO5OkCYC" role="3SKWNk">
-                <property role="3SKdUp" value="play with at the moment." />
+                <property role="3SKdUp" value="work with at the current position in the analysis file." />
               </node>
             </node>
             <node concept="3clFbF" id="5YbQYgaerIz" role="3cqZAp">
