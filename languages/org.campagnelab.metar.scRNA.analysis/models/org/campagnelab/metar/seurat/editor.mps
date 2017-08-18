@@ -19,7 +19,6 @@
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
-    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -2110,11 +2109,6 @@
       <node concept="3F0ifn" id="5YbQYgabbPz" role="3EZMnx">
         <node concept="A1WHr" id="5YbQYgacZ5o" role="3vIgyS">
           <ref role="2ZyFGn" to="lznn:5YbQYga7iC5" resolve="EmptyLineContextAssist" />
-        </node>
-        <node concept="OXEIz" id="5YbQYgadn43" role="P5bDN">
-          <node concept="UkePV" id="5YbQYgadn49" role="OY2wv">
-            <ref role="Ul1FP" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-          </node>
         </node>
         <node concept="VPxyj" id="5YbQYgadn4f" role="3F10Kt">
           <property role="VOm3f" value="true" />
