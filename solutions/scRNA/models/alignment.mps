@@ -171,7 +171,7 @@
       <concept id="5724936381208427846" name="org.campagnelab.metar.seurat.structure.CondSeuratRef" flags="ng" index="3cO788">
         <reference id="5724936381208427847" name="seurat" index="3cO789" />
       </concept>
-      <concept id="6884838227834644997" name="org.campagnelab.metar.seurat.structure.EmptyLineAnnotation" flags="ng" index="1l_J7x" />
+      <concept id="6884838227834644997" name="org.campagnelab.metar.seurat.structure.EmptyLineContextAssist" flags="ng" index="1l_J7x" />
       <concept id="7142289721722410001" name="org.campagnelab.metar.seurat.structure.FutureSeuratCreator" flags="ng" index="1LbDqS">
         <property id="7142289721722410002" name="inputChanged" index="1LbDqV" />
       </concept>
@@ -238,6 +238,7 @@
         <property id="8962032619586499111" name="height" index="ZHjG8" />
         <property id="4166618652723451261" name="plotId" index="3ZMXzF" />
       </concept>
+      <concept id="2417420436961839041" name="org.campagnelab.metar.tables.structure.SaveSession" flags="ng" index="1Kri3l" />
       <concept id="2417420436961838574" name="org.campagnelab.metar.tables.structure.LoadSession" flags="ng" index="1KribU">
         <child id="2417420437005954430" name="dependencies" index="1P3wDE" />
       </concept>
@@ -10538,9 +10539,8 @@
           <ref role="3MlLW5" node="C8BOZOddG6" resolve="P1CTMatrixOrig.txt" />
         </node>
       </node>
-      <node concept="S1EQe" id="C8BOZOdOdf" role="ZXjPg">
-        <property role="1MXi1$" value="BSNDRDPIGM" />
-        <node concept="1l_J7x" id="5YbQYga8A5M" role="lGtFl" />
+      <node concept="1l_J7x" id="5YbQYgadmSu" role="ZXjPg">
+        <property role="1MXi1$" value="YRTPYAPYHK" />
       </node>
       <node concept="3YeH35" id="C8BOZOdrrs" role="ZXjPg">
         <property role="1MXi1$" value="QUIUISJBLX" />
@@ -10560,10 +10560,6 @@
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="5YbQYga8$XU" role="ZXjPg">
-        <property role="1MXi1$" value="CHVNKWVQTN" />
-        <node concept="1l_J7x" id="5YbQYga8A7i" role="lGtFl" />
-      </node>
       <node concept="2xR6j2" id="64Erk42_$hw" role="ZXjPg">
         <property role="1MXi1$" value="QJKADLXWOM" />
         <property role="2xH6Uv" value="false" />
@@ -10575,10 +10571,6 @@
           <ref role="afgo8" node="64Erk42xnrs" resolve="tableGroup1" />
         </node>
       </node>
-      <node concept="S1EQe" id="64Erk42_D$2" role="ZXjPg">
-        <property role="1MXi1$" value="REAILSYVOV" />
-        <node concept="1l_J7x" id="5YbQYga8A93" role="lGtFl" />
-      </node>
       <node concept="3MjoWR" id="64Erk42AW6x" role="ZXjPg">
         <property role="1MXi1$" value="GSDNJEOLWM" />
         <ref role="3Mj2Vh" node="64Erk42_$et" resolve="tableGroup1.txt" />
@@ -10587,15 +10579,11 @@
           <ref role="3MlLW5" node="64Erk42_$et" resolve="tableGroup1.txt" />
         </node>
       </node>
-      <node concept="S1EQe" id="5YbQYga9Zl3" role="ZXjPg">
-        <property role="1MXi1$" value="PPQLCSGFSJ" />
-        <node concept="1l_J7x" id="5YbQYga9ZmH" role="lGtFl" />
-      </node>
       <node concept="34tvTV" id="64Erk42_6qW" role="ZXjPg">
         <property role="1MXi1$" value="KOSWOQRVLD" />
         <property role="34tvW_" value="6" />
         <property role="34tvWB" value="6" />
-        <property role="34gX7q" value="true" />
+        <property role="34gX7q" value="false" />
         <node concept="afgQW" id="64Erk42Bg0R" role="34tvVl">
           <ref role="afgo8" node="64Erk42_$et" resolve="tableGroup1.txt" />
         </node>
@@ -10607,18 +10595,91 @@
     <property role="TrG5h" value="Instant refresh" />
     <node concept="ZXjPh" id="64Erk42q879" role="S1EQ8">
       <property role="1MXi1$" value="BOTMBLOPVU" />
-      <node concept="1KribU" id="5YbQYga9ZmN" role="ZXjPg">
-        <property role="1MXi1$" value="BRUYJGEOII" />
-        <property role="TrG5h" value="GSDNJEOLWM" />
-        <node concept="1P3wDJ" id="5YbQYga9ZmO" role="1P3wDE">
+      <node concept="1KribU" id="5YbQYgabWxN" role="ZXjPg">
+        <property role="1MXi1$" value="RFTKXSADUW" />
+        <property role="TrG5h" value="FDHPGWCXNT" />
+        <node concept="1P3wDJ" id="5YbQYgabWxO" role="1P3wDE">
+          <property role="1P3wDC" value="Matrix" />
+        </node>
+        <node concept="1P3wDJ" id="5YbQYgabWxP" role="1P3wDE">
+          <property role="1P3wDC" value="methods" />
+        </node>
+        <node concept="1P3wDJ" id="5YbQYgabWxQ" role="1P3wDE">
           <property role="1P3wDC" value="data.table" />
         </node>
-        <node concept="1P3wDJ" id="5YbQYga9ZmP" role="1P3wDE">
+        <node concept="1P3wDJ" id="5YbQYgabWxR" role="1P3wDE">
           <property role="1P3wDC" value="devtools" />
         </node>
-        <node concept="1P3wDJ" id="5YbQYga9ZmQ" role="1P3wDE">
+        <node concept="1P3wDJ" id="5YbQYgabWxS" role="1P3wDE">
           <property role="1P3wDC" value="ztable" />
         </node>
+        <node concept="1P3wDJ" id="5YbQYgabWxT" role="1P3wDE">
+          <property role="1P3wDC" value="dplyr" />
+        </node>
+      </node>
+      <node concept="16PJcN" id="5YbQYgabWxU" role="ZXjPg">
+        <property role="1MXi1$" value="YFQBUSDTRR" />
+        <property role="16PG9H" value="false" />
+        <node concept="2oJG2X" id="5YbQYgabWxV" role="16PG9_">
+          <property role="1MXi1$" value="LRRGQJLRKO" />
+          <property role="L$Obh" value="true" />
+          <property role="L$Obm" value="number of genes detected per cell - violin plot:" />
+          <node concept="2rfVTk" id="5YbQYgabWxW" role="2oLyky">
+            <property role="ZHjxa" value="300" />
+            <property role="ZHjG8" value="300" />
+            <property role="3ZMXzF" value="1000" />
+            <property role="TrG5h" value="violinNGene" />
+          </node>
+        </node>
+        <node concept="2oJG2X" id="5YbQYgabWxX" role="16PG9_">
+          <property role="1MXi1$" value="DDKLQVTCVK" />
+          <property role="L$Obh" value="true" />
+          <property role="L$Obm" value="number of UMIs per cell - violin plot:" />
+          <node concept="2rfVTk" id="5YbQYgabWxY" role="2oLyky">
+            <property role="ZHjxa" value="300" />
+            <property role="ZHjG8" value="300" />
+            <property role="3ZMXzF" value="1000" />
+            <property role="TrG5h" value="violinNUMI" />
+          </node>
+        </node>
+        <node concept="2oJG2X" id="5YbQYgabWxZ" role="16PG9_">
+          <property role="1MXi1$" value="UJPJEKHVIH" />
+          <property role="L$Obh" value="true" />
+          <property role="L$Obm" value="percentage of mithocondrial genes per cell - violin plot:" />
+          <node concept="2rfVTk" id="5YbQYgabWy0" role="2oLyky">
+            <property role="ZHjxa" value="300" />
+            <property role="ZHjG8" value="300" />
+            <property role="3ZMXzF" value="1000" />
+            <property role="TrG5h" value="violinMito" />
+          </node>
+        </node>
+        <node concept="2oJG2X" id="5YbQYgabWy1" role="16PG9_">
+          <property role="1MXi1$" value="MHLQJAIDMN" />
+          <property role="L$Obh" value="true" />
+          <property role="L$Obm" value="nGene and nUMI - scatter plot:" />
+          <node concept="2rfVTk" id="5YbQYgabWy2" role="2oLyky">
+            <property role="ZHjxa" value="300" />
+            <property role="ZHjG8" value="300" />
+            <property role="3ZMXzF" value="1000" />
+            <property role="TrG5h" value="scatterNUMINGene" />
+          </node>
+        </node>
+        <node concept="2oJG2X" id="5YbQYgabWy3" role="16PG9_">
+          <property role="1MXi1$" value="VCOPJLRUYQ" />
+          <property role="L$Obh" value="true" />
+          <property role="L$Obm" value="nUMI and percent.mito - scatter plot:" />
+          <node concept="2rfVTk" id="5YbQYgabWy4" role="2oLyky">
+            <property role="ZHjxa" value="300" />
+            <property role="ZHjG8" value="300" />
+            <property role="3ZMXzF" value="1000" />
+            <property role="TrG5h" value="scatterNUMIMito" />
+          </node>
+        </node>
+        <node concept="1LcaPl" id="5YbQYgabWy5" role="1Lc1gn" />
+      </node>
+      <node concept="1Kri3l" id="5YbQYgabWy6" role="ZXjPg">
+        <property role="1MXi1$" value="FYHTNCKJQL" />
+        <property role="TrG5h" value="YFQBUSDTRR" />
       </node>
     </node>
   </node>

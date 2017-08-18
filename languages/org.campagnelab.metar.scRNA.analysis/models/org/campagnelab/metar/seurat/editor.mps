@@ -19,7 +19,7 @@
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
-    <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" implicit="true" />
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -46,6 +46,7 @@
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
       <concept id="795210086017940429" name="jetbrains.mps.lang.editor.structure.ReadOnlyStyleClassItem" flags="lg" index="xShMh" />
+      <concept id="6718020819487620876" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Default" flags="ng" index="A1WHr" />
       <concept id="1638911550608571617" name="jetbrains.mps.lang.editor.structure.TransformationMenu_Default" flags="ng" index="IW6AY" />
       <concept id="1638911550608610798" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Execute" flags="ig" index="IWg2L" />
       <concept id="1638911550608610278" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_Action" flags="ng" index="IWgqT">
@@ -59,7 +60,6 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
-      <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1164914519156" name="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceNode_CustomNodeConcept" flags="ng" index="UkePV">
         <reference id="1164914727930" name="replacementConcept" index="Ul1FP" />
       </concept>
@@ -76,6 +76,9 @@
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1630016958697718209" name="jetbrains.mps.lang.editor.structure.IMenuReference_Default" flags="ng" index="2Z_bC8">
+        <reference id="1630016958698373342" name="concept" index="2ZyFGn" />
+      </concept>
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
       </concept>
@@ -112,6 +115,7 @@
         <reference id="1139959269582" name="actionMap" index="1ERwB7" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
         <child id="1164826688380" name="menuDescriptor" index="P5bDN" />
+        <child id="4202667662392416064" name="transformationMenu" index="3vIgyS" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
@@ -2054,15 +2058,20 @@
   </node>
   <node concept="24kQdi" id="5YbQYga7iDV">
     <property role="3GE5qa" value="ContextAssistant" />
-    <ref role="1XX52x" to="lznn:5YbQYga7iC5" resolve="EmptyLineAnnotation" />
+    <ref role="1XX52x" to="lznn:5YbQYga7iC5" resolve="EmptyLineContextAssist" />
     <node concept="3EZMnI" id="5YbQYga7iRF" role="2wV5jI">
       <node concept="2iRfu4" id="5YbQYga7iRG" role="2iSdaV" />
-      <node concept="2SsqMj" id="5YbQYga7iPU" role="3EZMnx" />
-      <node concept="3F0ifn" id="5YbQYgaad5V" role="3EZMnx">
-        <property role="3F0ifm" value="click here for suggestions" />
-        <ref role="1k5W1q" to="tpc5:i0pPgF8" resolve="rootCellModelStyle" />
-        <node concept="VechU" id="5YbQYgaaoVQ" role="3F10Kt">
-          <property role="Vb096" value="gray" />
+      <node concept="3F0ifn" id="5YbQYgabbPz" role="3EZMnx">
+        <node concept="A1WHr" id="5YbQYgacZ5o" role="3vIgyS">
+          <ref role="2ZyFGn" to="lznn:5YbQYga7iC5" resolve="EmptyLineContextAssist" />
+        </node>
+        <node concept="OXEIz" id="5YbQYgadn43" role="P5bDN">
+          <node concept="UkePV" id="5YbQYgadn49" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+          </node>
+        </node>
+        <node concept="VPxyj" id="5YbQYgadn4f" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="18a60v" id="5YbQYga7iS6" role="3EZMnx">
@@ -2072,9 +2081,9 @@
       </node>
     </node>
   </node>
-  <node concept="IW6AY" id="5YbQYga7iVG">
+  <node concept="IW6AY" id="5YbQYgacYNc">
     <property role="3GE5qa" value="ContextAssistant" />
-    <ref role="aqKnT" to="lznn:5YbQYga7iC5" resolve="EmptyLineAnnotation" />
+    <ref role="aqKnT" to="lznn:5YbQYga7iC5" resolve="EmptyLineContextAssist" />
     <node concept="1Qtc8_" id="5YbQYga7iXg" role="IW6Ez">
       <node concept="2j_NTm" id="5YbQYga7iXq" role="1Qtc8$" />
       <node concept="IWgqT" id="5YbQYga7iXw" role="1Qtc8A">
