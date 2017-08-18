@@ -1740,5 +1740,68 @@
       </node>
     </node>
   </node>
+  <node concept="18kY7G" id="22QJO5OkDs4">
+    <property role="TrG5h" value="CheckTSNEForFeaturePlot" />
+    <node concept="3clFbS" id="22QJO5OkDs5" role="18ibNy">
+      <node concept="3clFbJ" id="22QJO5OkDt8" role="3cqZAp">
+        <node concept="1Wc70l" id="22QJO5OkG5S" role="3clFbw">
+          <node concept="3fqX7Q" id="22QJO5OkGfy" role="3uHU7w">
+            <node concept="2OqwBi" id="22QJO5OkI9J" role="3fr31v">
+              <node concept="2OqwBi" id="22QJO5OkHvS" role="2Oq$k0">
+                <node concept="2OqwBi" id="22QJO5OkG$6" role="2Oq$k0">
+                  <node concept="1YBJjd" id="22QJO5OkGi8" role="2Oq$k0">
+                    <ref role="1YBMHb" node="22QJO5OkDsW" resolve="featurePlot" />
+                  </node>
+                  <node concept="3TrEf2" id="22QJO5OkGXV" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:6cuwE$ibDqY" resolve="seurat" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="22QJO5OkHK9" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:6cuwE$ibyZX" resolve="seurat" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="22QJO5OkIt3" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udX5zQW" resolve="pca" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="22QJO5OkFpw" role="3uHU7B">
+            <node concept="2OqwBi" id="22QJO5OkFpy" role="3fr31v">
+              <node concept="2OqwBi" id="22QJO5OkFpz" role="2Oq$k0">
+                <node concept="2OqwBi" id="22QJO5OkFp$" role="2Oq$k0">
+                  <node concept="1YBJjd" id="22QJO5OkFp_" role="2Oq$k0">
+                    <ref role="1YBMHb" node="22QJO5OkDsW" resolve="featurePlot" />
+                  </node>
+                  <node concept="3TrEf2" id="22QJO5OkFpA" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:6cuwE$ibDqY" resolve="seurat" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="22QJO5OkFpB" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:6cuwE$ibyZX" resolve="seurat" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="22QJO5OkFpC" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udX5EJY" resolve="tsne" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="22QJO5OkDta" role="3clFbx">
+          <node concept="2MkqsV" id="22QJO5OkFx7" role="3cqZAp">
+            <node concept="Xl_RD" id="22QJO5OkFxs" role="2MkJ7o">
+              <property role="Xl_RC" value="Feature plot needs tsne or pca computed!" />
+            </node>
+            <node concept="1YBJjd" id="22QJO5OkFxE" role="2OEOjV">
+              <ref role="1YBMHb" node="22QJO5OkDsW" resolve="featurePlot" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="22QJO5OkDsW" role="1YuTPh">
+      <property role="TrG5h" value="featurePlot" />
+      <ref role="1YaFvo" to="lznn:3J_5udXdua9" resolve="FeaturePlot" />
+    </node>
+  </node>
 </model>
 
