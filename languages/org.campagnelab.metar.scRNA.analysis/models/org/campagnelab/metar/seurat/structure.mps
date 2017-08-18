@@ -142,6 +142,31 @@
       <property role="TrG5h" value="path" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="22QJO5Op3kN" role="1TKVEl">
+      <property role="IQ2nx" value="2357281742821537075" />
+      <property role="TrG5h" value="hvg" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="22QJO5Op3lc" role="1TKVEl">
+      <property role="IQ2nx" value="2357281742821537100" />
+      <property role="TrG5h" value="normalized" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="22QJO5Op3lD" role="1TKVEl">
+      <property role="IQ2nx" value="2357281742821537129" />
+      <property role="TrG5h" value="scaled" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="22QJO5Op3ma" role="1TKVEl">
+      <property role="IQ2nx" value="2357281742821537162" />
+      <property role="TrG5h" value="prealigned" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="22QJO5Op3mJ" role="1TKVEl">
+      <property role="IQ2nx" value="2357281742821537199" />
+      <property role="TrG5h" value="prelimma" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="3BPxiZUtTYD" role="1TKVEi">
       <property role="IQ2ns" value="4176390670568103849" />
       <property role="20lmBu" value="aggregation" />

@@ -448,6 +448,21 @@
             <node concept="2iRfu4" id="3J_5udX5Co5" role="2iSdaV" />
           </node>
         </node>
+        <node concept="3EZMnI" id="22QJO5Op3no" role="3EZMnx">
+          <node concept="l2Vlx" id="22QJO5Op3np" role="2iSdaV" />
+          <node concept="3EZMnI" id="22QJO5Op3nq" role="3EZMnx">
+            <node concept="VPM3Z" id="22QJO5Op3nr" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="3F0ifn" id="22QJO5Op3ns" role="3EZMnx">
+              <property role="3F0ifm" value="tsne computed:" />
+            </node>
+            <node concept="3F0A7n" id="22QJO5Op3nt" role="3EZMnx">
+              <ref role="1NtTu8" to="lznn:3J_5udX5EJY" resolve="tsne" />
+            </node>
+            <node concept="2iRfu4" id="22QJO5Op3nu" role="2iSdaV" />
+          </node>
+        </node>
         <node concept="3EZMnI" id="3J_5udX5FbH" role="3EZMnx">
           <node concept="l2Vlx" id="3J_5udX5FbI" role="2iSdaV" />
           <node concept="3EZMnI" id="3J_5udX5Fb0" role="3EZMnx">
@@ -455,12 +470,57 @@
               <property role="VOm3f" value="false" />
             </node>
             <node concept="3F0ifn" id="3J_5udX5Fb4" role="3EZMnx">
-              <property role="3F0ifm" value="tsne computed:" />
+              <property role="3F0ifm" value="normalized:" />
             </node>
             <node concept="3F0A7n" id="3J_5udX5FbD" role="3EZMnx">
-              <ref role="1NtTu8" to="lznn:3J_5udX5EJY" resolve="tsne" />
+              <ref role="1NtTu8" to="lznn:22QJO5Op3lc" resolve="normalized" />
             </node>
             <node concept="2iRfu4" id="3J_5udX5Fb5" role="2iSdaV" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="22QJO5Op3DI" role="3EZMnx">
+          <node concept="l2Vlx" id="22QJO5Op3DJ" role="2iSdaV" />
+          <node concept="3EZMnI" id="22QJO5Op3DK" role="3EZMnx">
+            <node concept="VPM3Z" id="22QJO5Op3DL" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="3F0ifn" id="22QJO5Op3DM" role="3EZMnx">
+              <property role="3F0ifm" value="scaled:" />
+            </node>
+            <node concept="3F0A7n" id="22QJO5Op3DN" role="3EZMnx">
+              <ref role="1NtTu8" to="lznn:22QJO5Op3lD" resolve="scaled" />
+            </node>
+            <node concept="2iRfu4" id="22QJO5Op3DO" role="2iSdaV" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="22QJO5Op3Hd" role="3EZMnx">
+          <node concept="l2Vlx" id="22QJO5Op3He" role="2iSdaV" />
+          <node concept="3EZMnI" id="22QJO5Op3Hf" role="3EZMnx">
+            <node concept="VPM3Z" id="22QJO5Op3Hg" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="3F0ifn" id="22QJO5Op3Hh" role="3EZMnx">
+              <property role="3F0ifm" value="prealigned:" />
+            </node>
+            <node concept="3F0A7n" id="22QJO5Op3Hi" role="3EZMnx">
+              <ref role="1NtTu8" to="lznn:22QJO5Op3ma" resolve="prealigned" />
+            </node>
+            <node concept="2iRfu4" id="22QJO5Op3Hj" role="2iSdaV" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="22QJO5Op3L8" role="3EZMnx">
+          <node concept="l2Vlx" id="22QJO5Op3L9" role="2iSdaV" />
+          <node concept="3EZMnI" id="22QJO5Op3La" role="3EZMnx">
+            <node concept="VPM3Z" id="22QJO5Op3Lb" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="3F0ifn" id="22QJO5Op3Lc" role="3EZMnx">
+              <property role="3F0ifm" value="prelimma computed:" />
+            </node>
+            <node concept="3F0A7n" id="22QJO5Op3Ld" role="3EZMnx">
+              <ref role="1NtTu8" to="lznn:22QJO5Op3mJ" resolve="prelimma" />
+            </node>
+            <node concept="2iRfu4" id="22QJO5Op3Le" role="2iSdaV" />
           </node>
         </node>
         <node concept="3EZMnI" id="3BPxiZUtU8u" role="3EZMnx">
