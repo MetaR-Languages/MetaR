@@ -153,6 +153,7 @@
       </concept>
       <concept id="1216390987552" name="jetbrains.mps.lang.typesystem.structure.QuickFixDescriptionBlock" flags="in" index="QznSV" />
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
+        <property id="1195213689297" name="overrides" index="18ip37" />
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
@@ -187,9 +188,16 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
+      </concept>
+      <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
+        <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
+      </concept>
+      <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
+        <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -1579,6 +1587,85 @@
           </node>
         </node>
         <node concept="3clFbH" id="3M31SPQoxLH" role="3cqZAp" />
+      </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="5YbQYga7IB5">
+    <property role="TrG5h" value="AlwaysAnnotatedEmptyLine" />
+    <property role="18ip37" value="true" />
+    <node concept="3clFbS" id="5YbQYga7IB6" role="18ibNy">
+      <node concept="3clFbJ" id="5YbQYga82Wi" role="3cqZAp">
+        <node concept="3clFbS" id="5YbQYga82Wk" role="3clFbx">
+          <node concept="2MkqsV" id="5YbQYga83zI" role="3cqZAp">
+            <node concept="Xl_RD" id="5YbQYga83$3" role="2MkJ7o">
+              <property role="Xl_RC" value="Context assistant is not activated for the empty line!" />
+            </node>
+            <node concept="1YBJjd" id="5YbQYga83_n" role="2OEOjV">
+              <ref role="1YBMHb" node="5YbQYga7ICF" resolve="emptyLine" />
+            </node>
+            <node concept="3Cnw8n" id="5YbQYga88TF" role="2OEOjU">
+              <property role="ARO6o" value="true" />
+              <ref role="QpYPw" node="5YbQYga83Aa" resolve="AddContextAssistantToEmptyLine" />
+              <node concept="3CnSsL" id="5YbQYga88ZF" role="3Coj4f">
+                <ref role="QkamJ" node="5YbQYga83C2" resolve="emptyLine" />
+                <node concept="1YBJjd" id="5YbQYga890h" role="3CoRuB">
+                  <ref role="1YBMHb" node="5YbQYga7ICF" resolve="emptyLine" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="5YbQYga839F" role="3clFbw">
+          <node concept="2OqwBi" id="5YbQYga7IPG" role="2Oq$k0">
+            <node concept="1YBJjd" id="5YbQYga7IDc" role="2Oq$k0">
+              <ref role="1YBMHb" node="5YbQYga7ICF" resolve="emptyLine" />
+            </node>
+            <node concept="3CFZ6_" id="5YbQYga7J2A" role="2OqNvi">
+              <node concept="3CFYIy" id="5YbQYga7ZD4" role="3CFYIz">
+                <ref role="3CFYIx" to="lznn:5YbQYga7iC5" resolve="EmptyLineAnnotation" />
+              </node>
+            </node>
+          </node>
+          <node concept="3w_OXm" id="5YbQYga83xq" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5YbQYga7ICF" role="1YuTPh">
+      <property role="TrG5h" value="emptyLine" />
+      <ref role="1YaFvo" to="jrxw:7LvyiX4miix" resolve="EmptyLine" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="5YbQYga83Aa">
+    <property role="TrG5h" value="AddContextAssistantToEmptyLine" />
+    <node concept="Q6JDH" id="5YbQYga83C2" role="Q6Id_">
+      <property role="TrG5h" value="emptyLine" />
+      <node concept="3Tqbb2" id="5YbQYga83Ce" role="Q6QK4">
+        <ref role="ehGHo" to="jrxw:7LvyiX4miix" resolve="EmptyLine" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="5YbQYga83Ab" role="Q6x$H">
+      <node concept="3clFbS" id="5YbQYga83Ac" role="2VODD2">
+        <node concept="3clFbF" id="5YbQYga83Cx" role="3cqZAp">
+          <node concept="37vLTI" id="5YbQYga9W1E" role="3clFbG">
+            <node concept="2ShNRf" id="5YbQYga9W7$" role="37vLTx">
+              <node concept="3zrR0B" id="5YbQYga9W7y" role="2ShVmc">
+                <node concept="3Tqbb2" id="5YbQYga9W7z" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:5YbQYga7iC5" resolve="EmptyLineAnnotation" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5YbQYga83MU" role="37vLTJ">
+              <node concept="QwW4i" id="5YbQYga83Cw" role="2Oq$k0">
+                <ref role="QwW4h" node="5YbQYga83C2" resolve="emptyLine" />
+              </node>
+              <node concept="3CFZ6_" id="5YbQYga84ox" role="2OqNvi">
+                <node concept="3CFYIy" id="5YbQYga84ti" role="3CFYIz">
+                  <ref role="3CFYIx" to="lznn:5YbQYga7iC5" resolve="EmptyLineAnnotation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
