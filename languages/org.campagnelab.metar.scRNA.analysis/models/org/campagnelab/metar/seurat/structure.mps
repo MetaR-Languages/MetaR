@@ -641,6 +641,16 @@
     <property role="34LRSv" value="Diagnostic plots" />
     <property role="R4oN_" value="Visualize counts and relationships between them" />
     <ref role="1TJDcQ" node="3J_5udXd5_8" resolve="AbstractPlot" />
+    <node concept="1TJgyi" id="59Vu5yiKtNq" role="1TKVEl">
+      <property role="IQ2nx" value="5943476455060135130" />
+      <property role="TrG5h" value="width" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="59Vu5yiKtNv" role="1TKVEl">
+      <property role="IQ2nx" value="5943476455060135135" />
+      <property role="TrG5h" value="height" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyj" id="7lSaFvHLICd" role="1TKVEi">
       <property role="IQ2ns" value="8464562469099465229" />
       <property role="20lmBu" value="aggregation" />
