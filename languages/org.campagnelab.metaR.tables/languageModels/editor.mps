@@ -450,6 +450,7 @@
         <property id="1879241968983569933" name="label" index="ykhUg" />
         <child id="1879241968983811680" name="handler" index="ynkVX" />
       </concept>
+      <concept id="1879241968972006591" name="org.campagnelab.ui.structure.EditorContextParameter" flags="ng" index="HwmKy" />
       <concept id="2954990197977599794" name="org.campagnelab.ui.structure.FileSelectionButton" flags="ng" index="3wdnjv">
         <property id="5693159665557586134" name="acceptMultipleSelections" index="k9ADr" />
         <property id="5693159665555023471" name="acceptFiles" index="lZKNy" />
@@ -2306,6 +2307,15 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbF" id="22QJO5OH5bE" role="3cqZAp">
+                  <node concept="2OqwBi" id="22QJO5OH5bF" role="3clFbG">
+                    <node concept="HwmKy" id="22QJO5OIBu2" role="2Oq$k0" />
+                    <node concept="liA8E" id="22QJO5OH5bH" role="2OqNvi">
+                      <ref role="37wK5l" to="cj4x:~EditorContext.selectWRTFocusPolicy(org.jetbrains.mps.openapi.model.SNode):void" resolve="selectWRTFocusPolicy" />
+                      <node concept="1VaYGm" id="22QJO5OIBpG" role="37wK5m" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -2323,6 +2333,15 @@
                       <node concept="3TrcHB" id="3cG4XgKr23l" role="2OqNvi">
                         <ref role="3TsBF5" to="jrxw:2GnvTFEgwEK" resolve="preview" />
                       </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="22QJO5OIBxg" role="3cqZAp">
+                  <node concept="2OqwBi" id="22QJO5OIBxh" role="3clFbG">
+                    <node concept="HwmKy" id="22QJO5OIBGJ" role="2Oq$k0" />
+                    <node concept="liA8E" id="22QJO5OIBxi" role="2OqNvi">
+                      <ref role="37wK5l" to="cj4x:~EditorContext.selectWRTFocusPolicy(org.jetbrains.mps.openapi.model.SNode):void" resolve="selectWRTFocusPolicy" />
+                      <node concept="1VaYGm" id="22QJO5OIBCn" role="37wK5m" />
                     </node>
                   </node>
                 </node>
