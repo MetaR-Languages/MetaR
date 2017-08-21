@@ -957,6 +957,7 @@
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <property role="TrG5h" value="LessThanSeurat" />
     <property role="34LRSv" value="&lt;" />
+    <property role="R4oN_" value="Less than" />
     <ref role="1TJDcQ" to="tpee:fJeOVwE" resolve="LessThanExpression" />
     <node concept="PrWs8" id="1RYr706I6ck" role="PzmwI">
       <ref role="PrY4T" node="1RYr706I6cj" resolve="IBinaryComparatorSeurat" />
@@ -967,6 +968,13 @@
       <property role="20kJfa" value="leftExpression" />
       <ref role="20ksaX" to="tpee:fJuHU4s" resolve="leftExpression" />
       <ref role="20lvS9" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
+    </node>
+    <node concept="1TJgyj" id="59Vu5yiO99w" role="1TKVEi">
+      <property role="IQ2ns" value="5943476455061099104" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rightExpression" />
+      <ref role="20lvS9" to="tpee:fzcmrck" resolve="IntegerConstant" />
+      <ref role="20ksaX" to="tpee:fJuHU4r" resolve="rightExpression" />
     </node>
   </node>
   <node concept="PlHQZ" id="1RYr706I6cj">
@@ -979,7 +987,15 @@
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <property role="TrG5h" value="GreaterThanSeurat" />
     <property role="34LRSv" value="&gt;" />
+    <property role="R4oN_" value="Greater than" />
     <ref role="1TJDcQ" to="tpee:fJeOSZf" resolve="GreaterThanExpression" />
+    <node concept="1TJgyj" id="59Vu5yiOyk1" role="1TKVEi">
+      <property role="IQ2ns" value="5943476455061202177" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rightExpression" />
+      <ref role="20lvS9" to="tpee:fzcmrck" resolve="IntegerConstant" />
+      <ref role="20ksaX" to="tpee:fJuHU4r" resolve="rightExpression" />
+    </node>
     <node concept="1TJgyj" id="1RYr706IBRv" role="1TKVEi">
       <property role="IQ2ns" value="2161284099589438943" />
       <property role="20lmBu" value="aggregation" />

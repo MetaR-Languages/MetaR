@@ -8771,5 +8771,139 @@
       <node concept="3clFbS" id="22QJO5OP1$8" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="59Vu5yiLpOp">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="13h7C2" to="lznn:3J_5udX8VC3" resolve="RejectCellStrategy" />
+    <node concept="13hLZK" id="59Vu5yiLpOq" role="13h7CW">
+      <node concept="3clFbS" id="59Vu5yiLpOr" role="2VODD2">
+        <node concept="3clFbF" id="59Vu5yiLpPF" role="3cqZAp">
+          <node concept="37vLTI" id="59Vu5yiLqsY" role="3clFbG">
+            <node concept="2ShNRf" id="59Vu5yiLqvO" role="37vLTx">
+              <node concept="3zrR0B" id="59Vu5yiLr5T" role="2ShVmc">
+                <node concept="3Tqbb2" id="59Vu5yiLr5V" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:3J_5udX8s65" resolve="SeuratCleanupCondition" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="59Vu5yiLpXn" role="37vLTJ">
+              <node concept="13iPFW" id="59Vu5yiLpPE" role="2Oq$k0" />
+              <node concept="3TrEf2" id="59Vu5yiLq8W" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:3J_5udX8lUB" resolve="conditions" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="59Vu5yiLrh0">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="13h7C2" to="lznn:1GombsE_hv_" resolve="RejectGeneStrategy" />
+    <node concept="13hLZK" id="59Vu5yiLrh1" role="13h7CW">
+      <node concept="3clFbS" id="59Vu5yiLrh2" role="2VODD2">
+        <node concept="3clFbF" id="59Vu5yiLrid" role="3cqZAp">
+          <node concept="37vLTI" id="59Vu5yiLrif" role="3clFbG">
+            <node concept="2ShNRf" id="59Vu5yiLrig" role="37vLTx">
+              <node concept="3zrR0B" id="59Vu5yiLrih" role="2ShVmc">
+                <node concept="3Tqbb2" id="59Vu5yiLrii" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:3J_5udX8s65" resolve="SeuratCleanupCondition" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="59Vu5yiLrij" role="37vLTJ">
+              <node concept="13iPFW" id="59Vu5yiLrik" role="2Oq$k0" />
+              <node concept="3TrEf2" id="59Vu5yiLril" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:3J_5udX8lUB" resolve="conditions" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="59Vu5yiMkjF">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="13h7C2" to="lznn:1RYr706I6cb" resolve="LessThanSeurat" />
+    <node concept="13hLZK" id="59Vu5yiMkjG" role="13h7CW">
+      <node concept="3clFbS" id="59Vu5yiMkjH" role="2VODD2">
+        <node concept="3clFbF" id="59Vu5yiMkkX" role="3cqZAp">
+          <node concept="37vLTI" id="59Vu5yiMl__" role="3clFbG">
+            <node concept="2ShNRf" id="59Vu5yiMlAp" role="37vLTx">
+              <node concept="3zrR0B" id="59Vu5yiMm0t" role="2ShVmc">
+                <node concept="3Tqbb2" id="59Vu5yiMm0v" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:3J_5udX8BnD" resolve="AbstractSeuratVariable" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="59Vu5yiMkvV" role="37vLTJ">
+              <node concept="13iPFW" id="59Vu5yiMkkW" role="2Oq$k0" />
+              <node concept="3TrEf2" id="59Vu5yiMl6l" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:1RYr706I_y_" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="59Vu5yiNpYC" role="3cqZAp">
+          <node concept="37vLTI" id="59Vu5yiNrh$" role="3clFbG">
+            <node concept="2ShNRf" id="59Vu5yiNrl2" role="37vLTx">
+              <node concept="3zrR0B" id="59Vu5yiNrIA" role="2ShVmc">
+                <node concept="3Tqbb2" id="59Vu5yiNrIC" role="3zrR0E">
+                  <ref role="ehGHo" to="tpee:fzcmrck" resolve="IntegerConstant" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="59Vu5yiNqao" role="37vLTJ">
+              <node concept="13iPFW" id="59Vu5yiNpYA" role="2Oq$k0" />
+              <node concept="3TrEf2" id="59Vu5yiNqNk" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:fJuHU4r" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="59Vu5yiOTE0">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="13h7C2" to="lznn:1RYr706I6cn" resolve="GreaterThanSeurat" />
+    <node concept="13hLZK" id="59Vu5yiOTE1" role="13h7CW">
+      <node concept="3clFbS" id="59Vu5yiOTE2" role="2VODD2">
+        <node concept="3clFbF" id="59Vu5yiOTFi" role="3cqZAp">
+          <node concept="37vLTI" id="59Vu5yiOUVU" role="3clFbG">
+            <node concept="2ShNRf" id="59Vu5yiOUZo" role="37vLTx">
+              <node concept="3zrR0B" id="59Vu5yiOVps" role="2ShVmc">
+                <node concept="3Tqbb2" id="59Vu5yiOVpu" role="3zrR0E">
+                  <ref role="ehGHo" to="lznn:3J_5udX8BnD" resolve="AbstractSeuratVariable" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="59Vu5yiOTQg" role="37vLTJ">
+              <node concept="13iPFW" id="59Vu5yiOTFh" role="2Oq$k0" />
+              <node concept="3TrEf2" id="59Vu5yiOUsE" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:1RYr706IBRv" resolve="leftExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="59Vu5yiOVCR" role="3cqZAp">
+          <node concept="37vLTI" id="59Vu5yiOWWh" role="3clFbG">
+            <node concept="2ShNRf" id="59Vu5yiOWX5" role="37vLTx">
+              <node concept="3zrR0B" id="59Vu5yiOXn1" role="2ShVmc">
+                <node concept="3Tqbb2" id="59Vu5yiOXn3" role="3zrR0E">
+                  <ref role="ehGHo" to="tpee:fzcmrck" resolve="IntegerConstant" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="59Vu5yiOVRh" role="37vLTJ">
+              <node concept="13iPFW" id="59Vu5yiOVCP" role="2Oq$k0" />
+              <node concept="3TrEf2" id="59Vu5yiOWtF" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:59Vu5yiOyk1" resolve="rightExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

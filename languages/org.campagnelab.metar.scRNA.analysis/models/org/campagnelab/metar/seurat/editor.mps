@@ -3846,5 +3846,37 @@
       <node concept="2iRfu4" id="59Vu5yiKtPg" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="59Vu5yiOddx">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="1XX52x" to="lznn:1RYr706I6cb" resolve="LessThanSeurat" />
+    <node concept="3EZMnI" id="59Vu5yiOde_" role="2wV5jI">
+      <node concept="3F1sOY" id="59Vu5yiOdeP" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:1RYr706I_y_" resolve="leftExpression" />
+      </node>
+      <node concept="PMmxH" id="59Vu5yiOdfe" role="3EZMnx">
+        <ref role="PMmxG" node="22QJO5OKPh6" resolve="aliasReloaded" />
+      </node>
+      <node concept="3F1sOY" id="59Vu5yiOdfM" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:59Vu5yiO99w" resolve="rightExpression" />
+      </node>
+      <node concept="2iRfu4" id="59Vu5yiOdeC" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="59Vu5yiOync">
+    <property role="3GE5qa" value="CleanUpOp.Strategies" />
+    <ref role="1XX52x" to="lznn:1RYr706I6cn" resolve="GreaterThanSeurat" />
+    <node concept="3EZMnI" id="59Vu5yiOyog" role="2wV5jI">
+      <node concept="3F1sOY" id="59Vu5yiOyoh" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:1RYr706IBRv" resolve="leftExpression" />
+      </node>
+      <node concept="PMmxH" id="59Vu5yiOyoi" role="3EZMnx">
+        <ref role="PMmxG" node="22QJO5OKPh6" resolve="aliasReloaded" />
+      </node>
+      <node concept="3F1sOY" id="59Vu5yiOyoj" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:59Vu5yiOyk1" resolve="rightExpression" />
+      </node>
+      <node concept="2iRfu4" id="59Vu5yiOyok" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
