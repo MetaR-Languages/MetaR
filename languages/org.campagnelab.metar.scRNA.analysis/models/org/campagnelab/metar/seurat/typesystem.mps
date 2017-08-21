@@ -2015,7 +2015,7 @@
         <node concept="3clFbS" id="22QJO5OD_iL" role="3clFbx">
           <node concept="2MkqsV" id="22QJO5ODBhX" role="3cqZAp">
             <node concept="Xl_RD" id="22QJO5ODKuh" role="2MkJ7o">
-              <property role="Xl_RC" value="Seurat object needs to be normalized before computing he highly variable genes!" />
+              <property role="Xl_RC" value="Seurat object needs to be normalized before computing the highly variable genes!" />
             </node>
             <node concept="1YBJjd" id="22QJO5ODKxS" role="2OEOjV">
               <ref role="1YBMHb" node="22QJO5OD_ef" resolve="cleanupDataSeurat" />
