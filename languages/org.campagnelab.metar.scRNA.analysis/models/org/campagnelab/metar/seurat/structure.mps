@@ -162,11 +162,6 @@
       <property role="TrG5h" value="prealigned" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="22QJO5Op3mJ" role="1TKVEl">
-      <property role="IQ2nx" value="2357281742821537199" />
-      <property role="TrG5h" value="prelimma" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyj" id="3BPxiZUtTYD" role="1TKVEi">
       <property role="IQ2ns" value="4176390670568103849" />
       <property role="20lmBu" value="aggregation" />
@@ -1075,6 +1070,9 @@
     <ref role="1TJDcQ" node="4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
     <node concept="PrWs8" id="3IlsykPxELP" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
+    </node>
+    <node concept="PrWs8" id="22QJO5OsaM9" role="PzmwI">
+      <ref role="PrY4T" node="6cuwE$ic1gh" resolve="FutureSeuratCreator" />
     </node>
     <node concept="1TJgyj" id="3IlsykPxELR" role="1TKVEi">
       <property role="IQ2ns" value="4293463323905010807" />
