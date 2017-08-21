@@ -1803,5 +1803,231 @@
       <ref role="1YaFvo" to="lznn:3J_5udXdua9" resolve="FeaturePlot" />
     </node>
   </node>
+  <node concept="18kY7G" id="22QJO5OD4Cb">
+    <property role="TrG5h" value="AlreadyNormalized" />
+    <node concept="3clFbS" id="22QJO5OD4Cc" role="18ibNy">
+      <node concept="3clFbJ" id="22QJO5OD4Df" role="3cqZAp">
+        <node concept="2OqwBi" id="22QJO5OD6D7" role="3clFbw">
+          <node concept="2OqwBi" id="22QJO5OD63w" role="2Oq$k0">
+            <node concept="2OqwBi" id="22QJO5OD4RC" role="2Oq$k0">
+              <node concept="1YBJjd" id="22QJO5OD4D$" role="2Oq$k0">
+                <ref role="1YBMHb" node="22QJO5OD4D3" resolve="normalizeSeurat" />
+              </node>
+              <node concept="3TrEf2" id="22QJO5OD5Ds" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:3443J8RcxkJ" resolve="seurat" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="22QJO5OD6lQ" role="2OqNvi">
+              <ref role="3Tt5mk" to="lznn:6cuwE$ibyZX" resolve="seurat" />
+            </node>
+          </node>
+          <node concept="3TrcHB" id="22QJO5OD72N" role="2OqNvi">
+            <ref role="3TsBF5" to="lznn:22QJO5Op3lc" resolve="normalized" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="22QJO5OD4Dh" role="3clFbx">
+          <node concept="2MkqsV" id="22QJO5OD750" role="3cqZAp">
+            <node concept="Xl_RD" id="22QJO5OD75l" role="2MkJ7o">
+              <property role="Xl_RC" value="Seurat object is already normalized!" />
+            </node>
+            <node concept="1YBJjd" id="22QJO5OD75S" role="2OEOjV">
+              <ref role="1YBMHb" node="22QJO5OD4D3" resolve="normalizeSeurat" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="22QJO5OD4D3" role="1YuTPh">
+      <property role="TrG5h" value="normalizeSeurat" />
+      <ref role="1YaFvo" to="lznn:3443J8RcxkG" resolve="NormalizeSeurat" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="22QJO5ODbPv">
+    <property role="TrG5h" value="PrealingBeforeAlign" />
+    <node concept="3clFbS" id="22QJO5ODbPw" role="18ibNy">
+      <node concept="3clFbJ" id="22QJO5ODbQz" role="3cqZAp">
+        <node concept="3fqX7Q" id="22QJO5ODe9h" role="3clFbw">
+          <node concept="2OqwBi" id="22QJO5ODe9j" role="3fr31v">
+            <node concept="2OqwBi" id="22QJO5ODe9k" role="2Oq$k0">
+              <node concept="2OqwBi" id="22QJO5ODe9l" role="2Oq$k0">
+                <node concept="1YBJjd" id="22QJO5ODe9m" role="2Oq$k0">
+                  <ref role="1YBMHb" node="22QJO5ODbQn" resolve="alignment" />
+                </node>
+                <node concept="3TrEf2" id="22QJO5ODe9n" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:6cuwE$ibDqY" resolve="seurat" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="22QJO5ODe9o" role="2OqNvi">
+                <ref role="3Tt5mk" to="lznn:6cuwE$ibyZX" resolve="seurat" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="22QJO5ODe9p" role="2OqNvi">
+              <ref role="3TsBF5" to="lznn:22QJO5Op3ma" resolve="prealigned" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="22QJO5ODbQ_" role="3clFbx">
+          <node concept="2MkqsV" id="22QJO5ODeh1" role="3cqZAp">
+            <node concept="Xl_RD" id="22QJO5ODehm" role="2MkJ7o">
+              <property role="Xl_RC" value="Seurat object needs to be prealigned before being aligned!" />
+            </node>
+            <node concept="1YBJjd" id="22QJO5ODeiS" role="2OEOjV">
+              <ref role="1YBMHb" node="22QJO5ODbQn" resolve="alignment" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="22QJO5ODbQn" role="1YuTPh">
+      <property role="TrG5h" value="alignment" />
+      <ref role="1YaFvo" to="lznn:3IlsykRq3xW" resolve="Alignment" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="22QJO5ODn2h">
+    <property role="TrG5h" value="HVGBeforePrealign" />
+    <node concept="3clFbS" id="22QJO5ODn2i" role="18ibNy">
+      <node concept="3clFbJ" id="22QJO5ODnsW" role="3cqZAp">
+        <node concept="22lmx$" id="22QJO5ODqVl" role="3clFbw">
+          <node concept="3fqX7Q" id="22QJO5ODr4f" role="3uHU7w">
+            <node concept="2OqwBi" id="22QJO5ODsLm" role="3fr31v">
+              <node concept="2OqwBi" id="22QJO5ODsfH" role="2Oq$k0">
+                <node concept="2OqwBi" id="22QJO5ODrp_" role="2Oq$k0">
+                  <node concept="1YBJjd" id="22QJO5ODr6P" role="2Oq$k0">
+                    <ref role="1YBMHb" node="22QJO5ODnsK" resolve="preAlignment" />
+                  </node>
+                  <node concept="3TrEf2" id="22QJO5ODrNV" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:3IlsykRnvIN" resolve="seurat2" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="22QJO5ODsve" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:6cuwE$ibyZX" resolve="seurat" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="22QJO5ODt3U" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:22QJO5Op3kN" resolve="hvg" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="22QJO5ODqa9" role="3uHU7B">
+            <node concept="2OqwBi" id="22QJO5ODqab" role="3fr31v">
+              <node concept="2OqwBi" id="22QJO5ODqac" role="2Oq$k0">
+                <node concept="2OqwBi" id="22QJO5ODqad" role="2Oq$k0">
+                  <node concept="1YBJjd" id="22QJO5ODqae" role="2Oq$k0">
+                    <ref role="1YBMHb" node="22QJO5ODnsK" resolve="preAlignment" />
+                  </node>
+                  <node concept="3TrEf2" id="22QJO5ODqaf" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:3IlsykRnvIJ" resolve="seurat1" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="22QJO5ODqag" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:6cuwE$ibyZX" resolve="seurat" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="22QJO5ODqah" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:22QJO5Op3kN" resolve="hvg" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="22QJO5ODnsY" role="3clFbx">
+          <node concept="2MkqsV" id="22QJO5ODtbu" role="3cqZAp">
+            <node concept="Xl_RD" id="22QJO5ODtbN" role="2MkJ7o">
+              <property role="Xl_RC" value="Both input seurat objects need to have highly variable genes computed before pre alignment!" />
+            </node>
+            <node concept="1YBJjd" id="22QJO5ODtfG" role="2OEOjV">
+              <ref role="1YBMHb" node="22QJO5ODnsK" resolve="preAlignment" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="22QJO5ODnsK" role="1YuTPh">
+      <property role="TrG5h" value="preAlignment" />
+      <ref role="1YaFvo" to="lznn:3IlsykRnvI$" resolve="PreAlignment" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="22QJO5OD_dn">
+    <property role="TrG5h" value="NormalizationBeforeHVG" />
+    <node concept="3clFbS" id="22QJO5OD_do" role="18ibNy">
+      <node concept="3clFbJ" id="22QJO5OD_iJ" role="3cqZAp">
+        <node concept="1Wc70l" id="22QJO5ODBHk" role="3clFbw">
+          <node concept="3y3z36" id="22QJO5ODK4N" role="3uHU7w">
+            <node concept="3cmrfG" id="22QJO5ODKi_" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="22QJO5ODH6R" role="3uHU7B">
+              <node concept="2OqwBi" id="22QJO5ODElW" role="2Oq$k0">
+                <node concept="2OqwBi" id="22QJO5ODC5Z" role="2Oq$k0">
+                  <node concept="1YBJjd" id="22QJO5ODBQ6" role="2Oq$k0">
+                    <ref role="1YBMHb" node="22QJO5OD_ef" resolve="cleanupDataSeurat" />
+                  </node>
+                  <node concept="3Tsc0h" id="22QJO5ODCuQ" role="2OqNvi">
+                    <ref role="3TtcxE" to="lznn:3J_5udX8lD6" resolve="strategies" />
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="22QJO5ODFps" role="2OqNvi">
+                  <node concept="1bVj0M" id="22QJO5ODFpu" role="23t8la">
+                    <node concept="3clFbS" id="22QJO5ODFpv" role="1bW5cS">
+                      <node concept="3clFbF" id="22QJO5ODFAp" role="3cqZAp">
+                        <node concept="2OqwBi" id="22QJO5ODFOk" role="3clFbG">
+                          <node concept="37vLTw" id="22QJO5ODFAo" role="2Oq$k0">
+                            <ref role="3cqZAo" node="22QJO5ODFpw" resolve="it" />
+                          </node>
+                          <node concept="1mIQ4w" id="22QJO5ODG66" role="2OqNvi">
+                            <node concept="chp4Y" id="22QJO5ODGFh" role="cj9EA">
+                              <ref role="cht4Q" to="lznn:3J_5udXaudg" resolve="AcceptHighVarGenesStrategy" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="22QJO5ODFpw" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="22QJO5ODFpx" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="34oBXx" id="22QJO5ODH$b" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="22QJO5ODBal" role="3uHU7B">
+            <node concept="2OqwBi" id="22QJO5ODBan" role="3fr31v">
+              <node concept="2OqwBi" id="22QJO5ODBao" role="2Oq$k0">
+                <node concept="2OqwBi" id="22QJO5ODBap" role="2Oq$k0">
+                  <node concept="1YBJjd" id="22QJO5ODBaq" role="2Oq$k0">
+                    <ref role="1YBMHb" node="22QJO5OD_ef" resolve="cleanupDataSeurat" />
+                  </node>
+                  <node concept="3TrEf2" id="22QJO5ODBar" role="2OqNvi">
+                    <ref role="3Tt5mk" to="lznn:6cuwE$ibz1i" resolve="seurat" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="22QJO5ODBas" role="2OqNvi">
+                  <ref role="3Tt5mk" to="lznn:6cuwE$ibyZX" resolve="seurat" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="22QJO5ODBat" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:22QJO5Op3lc" resolve="normalized" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="22QJO5OD_iL" role="3clFbx">
+          <node concept="2MkqsV" id="22QJO5ODBhX" role="3cqZAp">
+            <node concept="Xl_RD" id="22QJO5ODKuh" role="2MkJ7o">
+              <property role="Xl_RC" value="Seurat object needs to be normalized before computing he highly variable genes!" />
+            </node>
+            <node concept="1YBJjd" id="22QJO5ODKxS" role="2OEOjV">
+              <ref role="1YBMHb" node="22QJO5OD_ef" resolve="cleanupDataSeurat" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="22QJO5OD_ef" role="1YuTPh">
+      <property role="TrG5h" value="cleanupDataSeurat" />
+      <ref role="1YaFvo" to="lznn:3J_5udX8o_k" resolve="CleanupDataSeurat" />
+    </node>
+  </node>
 </model>
 
