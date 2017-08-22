@@ -6,8 +6,8 @@
   </languages>
   <imports>
     <import index="986b" ref="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
+    <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
-    <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
@@ -202,10 +202,12 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -265,6 +267,7 @@
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
+      <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
     </language>
   </registry>
   <node concept="1YbPZF" id="3J_5udX8xXz">
@@ -2027,6 +2030,111 @@
     <node concept="1YaCAy" id="22QJO5OD_ef" role="1YuTPh">
       <property role="TrG5h" value="cleanupDataSeurat" />
       <ref role="1YaFvo" to="lznn:3J_5udX8o_k" resolve="CleanupDataSeurat" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1yiyxIBH1kh">
+    <property role="TrG5h" value="PlotAssociatedToExistingSeurat" />
+    <node concept="3clFbS" id="1yiyxIBH1ki" role="18ibNy">
+      <node concept="3cpWs8" id="1yiyxIBH3A3" role="3cqZAp">
+        <node concept="3cpWsn" id="1yiyxIBH3A6" role="3cpWs9">
+          <property role="TrG5h" value="statSeurat" />
+          <node concept="3Tqbb2" id="1yiyxIBH3A1" role="1tU5fm">
+            <ref role="ehGHo" to="lznn:4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
+          </node>
+          <node concept="2OqwBi" id="1yiyxIBH2we" role="33vP2m">
+            <node concept="2OqwBi" id="1yiyxIBH21F" role="2Oq$k0">
+              <node concept="1YBJjd" id="1yiyxIBH1T4" role="2Oq$k0">
+                <ref role="1YBMHb" node="1yiyxIBH1Sv" resolve="plotRef" />
+              </node>
+              <node concept="3TrEf2" id="1yiyxIBH2ei" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:2GnvTFE7ITX" resolve="plot" />
+              </node>
+            </node>
+            <node concept="2Xjw5R" id="1yiyxIBH2R7" role="2OqNvi">
+              <node concept="1xMEDy" id="1yiyxIBH2R9" role="1xVPHs">
+                <node concept="chp4Y" id="1yiyxIBH2XX" role="ri$Ld">
+                  <ref role="cht4Q" to="lznn:4$e7IRczcqU" resolve="StatementWithSeuratDependencies" />
+                </node>
+              </node>
+              <node concept="1xIGOp" id="1yiyxIBH34h" role="1xVPHs" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="1yiyxIBJCkN" role="3cqZAp">
+        <node concept="3cpWsn" id="1yiyxIBJCkQ" role="3cpWs9">
+          <property role="TrG5h" value="currentStatement" />
+          <node concept="3Tqbb2" id="1yiyxIBJCkL" role="1tU5fm">
+            <ref role="ehGHo" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+          </node>
+          <node concept="2OqwBi" id="1yiyxIBJCvS" role="33vP2m">
+            <node concept="1YBJjd" id="1yiyxIBJCnd" role="2Oq$k0">
+              <ref role="1YBMHb" node="1yiyxIBH1Sv" resolve="plotRef" />
+            </node>
+            <node concept="2Xjw5R" id="1yiyxIBJCMb" role="2OqNvi">
+              <node concept="1xMEDy" id="1yiyxIBJCMd" role="1xVPHs">
+                <node concept="chp4Y" id="1yiyxIBJCMS" role="ri$Ld">
+                  <ref role="cht4Q" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1yiyxIBH3ER" role="3cqZAp" />
+      <node concept="3clFbJ" id="1yiyxIBH1SG" role="3cqZAp">
+        <node concept="3clFbS" id="1yiyxIBH1SI" role="3clFbx">
+          <node concept="2MkqsV" id="1yiyxIBH4lw" role="3cqZAp">
+            <node concept="Xl_RD" id="1yiyxIBH4lS" role="2MkJ7o">
+              <property role="Xl_RC" value="Trying to view a plot whose associated seurat was deleted!" />
+            </node>
+            <node concept="1YBJjd" id="1yiyxIBH4C_" role="2OEOjV">
+              <ref role="1YBMHb" node="1yiyxIBH1Sv" resolve="plotRef" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="1yiyxIBJFzr" role="3clFbw">
+          <node concept="3fqX7Q" id="1yiyxIBJPRp" role="3uHU7w">
+            <node concept="2OqwBi" id="1yiyxIBJPRr" role="3fr31v">
+              <node concept="2YIFZM" id="1yiyxIBJPRs" role="2Oq$k0">
+                <ref role="37wK5l" to="9kby:1yiyxIBIcmn" resolve="seuratsBefore" />
+                <ref role="1Pybhc" to="9kby:1yiyxIBHior" resolve="CommonMethods" />
+                <node concept="37vLTw" id="1yiyxIBJPRt" role="37wK5m">
+                  <ref role="3cqZAo" node="1yiyxIBJCkQ" resolve="currentStatement" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="1yiyxIBJPRu" role="2OqNvi">
+                <node concept="2OqwBi" id="1yiyxIBJPRv" role="25WWJ7">
+                  <node concept="37vLTw" id="1yiyxIBJPRw" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1yiyxIBH3A6" resolve="statSeurat" />
+                  </node>
+                  <node concept="2qgKlT" id="1yiyxIBJPRx" role="2OqNvi">
+                    <ref role="37wK5l" to="9kby:1yiyxIBE7bo" resolve="getSeuratForPlot" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="1yiyxIBJE6$" role="3uHU7B">
+            <node concept="2OqwBi" id="1yiyxIBH3TY" role="3uHU7B">
+              <node concept="37vLTw" id="1yiyxIBH3FY" role="2Oq$k0">
+                <ref role="3cqZAo" node="1yiyxIBH3A6" resolve="statSeurat" />
+              </node>
+              <node concept="3x8VRR" id="1yiyxIBH4iW" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="1yiyxIBJEqM" role="3uHU7w">
+              <node concept="37vLTw" id="1yiyxIBJEdl" role="2Oq$k0">
+                <ref role="3cqZAo" node="1yiyxIBJCkQ" resolve="currentStatement" />
+              </node>
+              <node concept="3x8VRR" id="1yiyxIBJEJ7" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1yiyxIBH1Sv" role="1YuTPh">
+      <property role="TrG5h" value="plotRef" />
+      <ref role="1YaFvo" to="jrxw:2GnvTFE7ITW" resolve="PlotRef" />
     </node>
   </node>
 </model>
