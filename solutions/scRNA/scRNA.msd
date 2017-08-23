@@ -8,6 +8,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6562d9c6-fb82-4150-9d7f-5e4f50d7bba1(org.campagnelab.metar.seurat)</dependency>
+    <dependency reexport="false">067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8(org.campagnelab.metar.simulation)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="5" />
@@ -53,6 +54,7 @@
     <module reference="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" version="0" />
     <module reference="ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)" version="0" />
     <module reference="6562d9c6-fb82-4150-9d7f-5e4f50d7bba1(org.campagnelab.metar.seurat)" version="0" />
+    <module reference="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8(org.campagnelab.metar.simulation)" version="0" />
     <module reference="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" version="0" />
     <module reference="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" version="0" />
     <module reference="ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)" version="0" />

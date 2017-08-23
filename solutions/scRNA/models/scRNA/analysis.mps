@@ -121,7 +121,10 @@
       <concept id="4315879884706931337" name="org.campagnelab.metar.seurat.structure.FeaturePlot" flags="ng" index="16OftE" />
       <concept id="4315879884707040330" name="org.campagnelab.metar.seurat.structure.MarkersInfoSeurat" flags="ng" index="16ODAD" />
       <concept id="4315879884707049387" name="org.campagnelab.metar.seurat.structure.PCInfoSeurat" flags="ng" index="16OFD8" />
-      <concept id="4315879884706801360" name="org.campagnelab.metar.seurat.structure.DiagnosticPlot" flags="ng" index="16PJcN" />
+      <concept id="4315879884706801360" name="org.campagnelab.metar.seurat.structure.DiagnosticPlot" flags="ng" index="16PJcN">
+        <property id="5943476455060135130" name="width" index="30IEi2" />
+        <property id="5943476455060135135" name="height" index="30IEi7" />
+      </concept>
       <concept id="4315879884704146260" name="org.campagnelab.metar.seurat.structure.Load10XSeurat" flags="ng" index="16VBqR">
         <child id="8464562469097696296" name="normalization" index="2oOWqv" />
         <child id="8464562469097697999" name="rejectedCells" index="2oOXxS" />
@@ -229,9 +232,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="2YPoW8" id="6$xxyeHKDce">
-    <property role="TrG5h" value="DefaultStyle" />
-  </node>
   <node concept="S1EQb" id="3J_5udX5xqY">
     <property role="2BDq$p" value="false" />
     <property role="TrG5h" value="collapsedTubulesAnalysis" />
@@ -275,6 +275,8 @@
       <node concept="16PJcN" id="6bALrFu1RVe" role="ZXjPg">
         <property role="1MXi1$" value="NOXYPTXMRP" />
         <property role="16PG9H" value="false" />
+        <property role="30IEi2" value="300" />
+        <property role="30IEi7" value="300" />
         <node concept="2oJG2X" id="6bALrFu1RVf" role="16PG9_">
           <property role="1MXi1$" value="ORORCALVAM" />
           <property role="L$Obh" value="true" />
