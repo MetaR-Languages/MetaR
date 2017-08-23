@@ -7,13 +7,25 @@
     <use id="6562d9c6-fb82-4150-9d7f-5e4f50d7bba1" name="org.campagnelab.metar.seurat" version="0" />
     <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
   </languages>
-  <imports />
+  <imports>
+    <import index="9p4w" ref="r:7f0461cb-e0ad-4b3d-b829-c135b2e8f543(org.campagnelab.metar.seurat.typesystem)" implicit="true" />
+  </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="1215507671101" name="jetbrains.mps.lang.test.structure.NodeErrorCheckOperation" flags="ng" index="1TM$A">
+        <child id="8489045168660938517" name="errorRef" index="3lydEf" />
+      </concept>
+      <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
+        <child id="1215604436604" name="nodeOperations" index="7EUXB" />
+      </concept>
       <concept id="511191073233700873" name="jetbrains.mps.lang.test.structure.ScopesTest" flags="ng" index="2rqxmr">
         <reference id="5449224527592117654" name="checkingReference" index="1BTHP0" />
         <child id="3655334166513314307" name="nodes" index="3KTr4d" />
       </concept>
+      <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
+        <reference id="8333855927540250453" name="declaration" index="39XzEq" />
+      </concept>
+      <concept id="4531408400484511853" name="jetbrains.mps.lang.test.structure.ReportErrorStatementReference" flags="ng" index="2PYRI3" />
       <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
@@ -51,9 +63,16 @@
         <child id="4293463323905010807" name="seurat" index="e4XTi" />
         <child id="4293463323905010809" name="scaledSeurat" index="e4XTs" />
       </concept>
+      <concept id="8464562469099465226" name="org.campagnelab.metar.seurat.structure.PlotInStatementWrapper" flags="ng" index="2oJG2X" />
+      <concept id="8464562469098885003" name="org.campagnelab.metar.seurat.structure.IPlotInStatementWrapper" flags="ng" index="2oLykW">
+        <property id="1952407982181128806" name="withDescription" index="L$Obh" />
+        <property id="1952407982181128801" name="description" index="L$Obm" />
+        <child id="8464562469098885013" name="plot" index="2oLyky" />
+      </concept>
       <concept id="2161284099590313864" name="org.campagnelab.metar.seurat.structure.DeleteSeurat" flags="ng" index="rerJS">
         <child id="2161284099590313865" name="seurat" index="rerJT" />
       </concept>
+      <concept id="8464562469107897571" name="org.campagnelab.metar.seurat.structure.PlotSeurat" flags="ng" index="2rfVTk" />
       <concept id="2161284099589301003" name="org.campagnelab.metar.seurat.structure.LessThanSeurat" flags="ng" index="rhwXV" />
       <concept id="1952407982181783525" name="org.campagnelab.metar.seurat.structure.RejectGeneStrategy" flags="ng" index="LzkXi" />
       <concept id="9073958069258232987" name="org.campagnelab.metar.seurat.structure.LoadSeuratFromTable" flags="ng" index="2X00xi" />
@@ -67,6 +86,11 @@
       <concept id="4315879884705585733" name="org.campagnelab.metar.seurat.structure.ICleanupStrategy" flags="ng" index="16L4YA">
         <child id="4315879884705586855" name="conditions" index="16L4H4" />
       </concept>
+      <concept id="4315879884705580851" name="org.campagnelab.metar.seurat.structure.IPlotsSeurat" flags="ng" index="16L5bg">
+        <property id="4315879884706797454" name="hasParam" index="16PG9H" />
+        <child id="4315879884706797446" name="plots" index="16PG9_" />
+        <child id="7142289721722312382" name="seurat" index="1Lc1gn" />
+      </concept>
       <concept id="4315879884705612165" name="org.campagnelab.metar.seurat.structure.SeuratCleanupCondition" flags="ng" index="16LdhA">
         <child id="4315879884705612166" name="expressions" index="16Ldh_" />
       </concept>
@@ -76,6 +100,10 @@
       </concept>
       <concept id="4315879884705741315" name="org.campagnelab.metar.seurat.structure.RejectCellStrategy" flags="ng" index="16LEZw" />
       <concept id="4315879884705658344" name="org.campagnelab.metar.seurat.structure.CellsGeneExpressed" flags="ng" index="16LQ0b" />
+      <concept id="4315879884706801360" name="org.campagnelab.metar.seurat.structure.DiagnosticPlot" flags="ng" index="16PJcN">
+        <property id="5943476455060135130" name="width" index="30IEi2" />
+        <property id="5943476455060135135" name="height" index="30IEi7" />
+      </concept>
       <concept id="4315879884704146260" name="org.campagnelab.metar.seurat.structure.Load10XSeurat" flags="ng" index="16VBqR">
         <child id="8464562469097697999" name="rejectedCells" index="2oOXxS" />
         <child id="1952407982181861977" name="rejectedGenes" index="LzxbI" />
@@ -95,6 +123,7 @@
       <concept id="5724936381208427846" name="org.campagnelab.metar.seurat.structure.CondSeuratRef" flags="ng" index="3cO788">
         <reference id="5724936381208427847" name="seurat" index="3cO789" />
       </concept>
+      <concept id="6884838227834644997" name="org.campagnelab.metar.seurat.structure.EmptyLineContextAssist" flags="ng" index="1l_J7x" />
       <concept id="7142289721722410001" name="org.campagnelab.metar.seurat.structure.FutureSeuratCreator" flags="ng" index="1LbDqS">
         <property id="7142289721722410002" name="inputChanged" index="1LbDqV" />
       </concept>
@@ -109,6 +138,21 @@
       </concept>
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="transformations" index="ZXjPg" />
+      </concept>
+      <concept id="3105090771424833148" name="org.campagnelab.metar.tables.structure.PlotRef" flags="ng" index="312p7A">
+        <reference id="3105090771424833149" name="plot" index="312p7B" />
+      </concept>
+      <concept id="3105090771424556187" name="org.campagnelab.metar.tables.structure.Multiplot" flags="ng" index="313sG1">
+        <property id="3105090771424561488" name="numColumns" index="313rra" />
+        <property id="3105090771424561486" name="numRows" index="313rrk" />
+        <child id="3105090771424832493" name="plots" index="312phR" />
+        <child id="3105090771426088552" name="destination" index="319mBM" />
+      </concept>
+      <concept id="3105090771426712763" name="org.campagnelab.metar.tables.structure.PlotRefWithPreview" flags="ng" index="31becx" />
+      <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
+        <property id="8962032619586498917" name="width" index="ZHjxa" />
+        <property id="8962032619586499111" name="height" index="ZHjG8" />
+        <property id="4166618652723451261" name="plotId" index="3ZMXzF" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -371,6 +415,176 @@
   </node>
   <node concept="2XOHcx" id="1yiyxIBPZj9">
     <property role="2XOHcw" value="${org.campagnelab.metaR.home}" />
+  </node>
+  <node concept="1lH9Xt" id="6p4IBf3QTIo">
+    <property role="TrG5h" value="NoPlotForDeletedSeurats" />
+    <node concept="1qefOq" id="6p4IBf3QTIp" role="1SKRRt">
+      <node concept="S1EQb" id="6p4IBf3QTIr" role="1qenE9">
+        <property role="2BDq$p" value="false" />
+        <property role="TrG5h" value="noPlotForDeletedSeurats" />
+        <node concept="ZXjPh" id="6p4IBf3QTIs" role="S1EQ8">
+          <property role="1MXi1$" value="UPQRFNFFHO" />
+          <node concept="2X00xi" id="6p4IBf3QTIv" role="ZXjPg">
+            <property role="1MXi1$" value="AAXLAGJWCH" />
+            <node concept="16LEZw" id="6p4IBf3QTIM" role="2oOXxS">
+              <node concept="16LdhA" id="6p4IBf3QTIO" role="16L4H4">
+                <node concept="rhwXV" id="6p4IBf3QTIP" role="16Ldh_">
+                  <node concept="16Ldux" id="6p4IBf3QTIS" role="3uHU7B" />
+                  <node concept="3cmrfG" id="6p4IBf3QTIT" role="3uHU7w">
+                    <property role="3cmrfH" value="1000" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="LzkXi" id="6p4IBf3QTIU" role="LzxbI">
+              <node concept="16LdhA" id="6p4IBf3QTIW" role="16L4H4">
+                <node concept="rhwXV" id="6p4IBf3QTIX" role="16Ldh_">
+                  <node concept="16LQ0b" id="6p4IBf3QTJ0" role="3uHU7B" />
+                  <node concept="3cmrfG" id="6p4IBf3QTJ1" role="3uHU7w">
+                    <property role="3cmrfH" value="3" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2X02RI" id="6p4IBf3QTJ2" role="16QsWi">
+              <property role="2X04C0" value="false" />
+              <property role="16WVSt" value="false" />
+              <property role="16WMxv" value="false" />
+              <property role="16WMwy" value="false" />
+              <property role="16WMwA" value="false" />
+              <property role="1kOCCd" value="false" />
+              <property role="1kOCCC" value="false" />
+              <property role="1kOCFb" value="false" />
+              <property role="1kOCDM" value="false" />
+              <property role="TrG5h" value="Seurat1" />
+              <node concept="2X0atY" id="6p4IBf3QTJ3" role="2X02Rx" />
+              <node concept="3cO788" id="6p4IBf3QTJ4" role="33wxE6">
+                <ref role="3cO789" node="6p4IBf3QTJ2" resolve="Seurat1" />
+              </node>
+            </node>
+          </node>
+          <node concept="1l_J7x" id="6p4IBf3QUze" role="ZXjPg">
+            <property role="1MXi1$" value="PYLJLRKCKT" />
+          </node>
+          <node concept="16PJcN" id="6p4IBf3QTPg" role="ZXjPg">
+            <property role="1MXi1$" value="RSFISIHXKN" />
+            <property role="16PG9H" value="false" />
+            <property role="30IEi2" value="200" />
+            <property role="30IEi7" value="200" />
+            <node concept="2oJG2X" id="6p4IBf3QTPh" role="16PG9_">
+              <property role="1MXi1$" value="PKKKVNNEPO" />
+              <property role="L$Obh" value="true" />
+              <property role="L$Obm" value="number of genes detected per cell - violin plot:" />
+              <node concept="2rfVTk" id="6p4IBf3QTPi" role="2oLyky">
+                <property role="ZHjxa" value="200" />
+                <property role="ZHjG8" value="200" />
+                <property role="3ZMXzF" value="1010" />
+                <property role="TrG5h" value="violinNGene" />
+              </node>
+            </node>
+            <node concept="2oJG2X" id="6p4IBf3QTPj" role="16PG9_">
+              <property role="1MXi1$" value="VBJRLHCFRQ" />
+              <property role="L$Obh" value="true" />
+              <property role="L$Obm" value="number of UMIs per cell - violin plot:" />
+              <node concept="2rfVTk" id="6p4IBf3QTPk" role="2oLyky">
+                <property role="ZHjxa" value="200" />
+                <property role="ZHjG8" value="200" />
+                <property role="3ZMXzF" value="1009" />
+                <property role="TrG5h" value="violinNUMI" />
+              </node>
+            </node>
+            <node concept="2oJG2X" id="6p4IBf3QTPl" role="16PG9_">
+              <property role="1MXi1$" value="MUIKDNCSSO" />
+              <property role="L$Obh" value="true" />
+              <property role="L$Obm" value="percentage of mithocondrial genes per cell - violin plot:" />
+              <node concept="2rfVTk" id="6p4IBf3QTPm" role="2oLyky">
+                <property role="ZHjxa" value="200" />
+                <property role="ZHjG8" value="200" />
+                <property role="3ZMXzF" value="1008" />
+                <property role="TrG5h" value="violinMito" />
+              </node>
+            </node>
+            <node concept="2oJG2X" id="6p4IBf3QTPn" role="16PG9_">
+              <property role="1MXi1$" value="LIRGTRTHAO" />
+              <property role="L$Obh" value="true" />
+              <property role="L$Obm" value="nGene and nUMI - scatter plot:" />
+              <node concept="2rfVTk" id="6p4IBf3QTPo" role="2oLyky">
+                <property role="ZHjxa" value="200" />
+                <property role="ZHjG8" value="200" />
+                <property role="3ZMXzF" value="1000" />
+                <property role="TrG5h" value="scatterNUMINGene" />
+              </node>
+            </node>
+            <node concept="2oJG2X" id="6p4IBf3QTPp" role="16PG9_">
+              <property role="1MXi1$" value="PFRLKPPGOS" />
+              <property role="L$Obh" value="true" />
+              <property role="L$Obm" value="nUMI and percent.mito - scatter plot:" />
+              <node concept="2rfVTk" id="6p4IBf3QTPq" role="2oLyky">
+                <property role="ZHjxa" value="200" />
+                <property role="ZHjG8" value="200" />
+                <property role="3ZMXzF" value="1006" />
+                <property role="TrG5h" value="scatterNUMIMito" />
+              </node>
+            </node>
+            <node concept="1LcaPl" id="6p4IBf3QTPU" role="1Lc1gn">
+              <ref role="1LcaPk" node="6p4IBf3QTJ2" resolve="Seurat1" />
+            </node>
+          </node>
+          <node concept="1l_J7x" id="6p4IBf3QUzf" role="ZXjPg">
+            <property role="1MXi1$" value="OKYCDPCCAN" />
+          </node>
+          <node concept="313sG1" id="6p4IBf3QTQT" role="ZXjPg">
+            <property role="1MXi1$" value="PBILESXJMF" />
+            <property role="313rra" value="1" />
+            <property role="313rrk" value="1" />
+            <node concept="1FHg$p" id="6p4IBf3QTQU" role="319mBM">
+              <property role="ZHjxa" value="200" />
+              <property role="ZHjG8" value="200" />
+              <property role="3ZMXzF" value="4" />
+              <property role="TrG5h" value="yes" />
+            </node>
+            <node concept="31becx" id="6p4IBf3QTRr" role="312phR">
+              <property role="1MXi1$" value="YPHHCHGDTL" />
+              <ref role="312p7B" node="6p4IBf3QTPi" resolve="violinNGene" />
+            </node>
+          </node>
+          <node concept="1l_J7x" id="6p4IBf3QUzg" role="ZXjPg">
+            <property role="1MXi1$" value="PUUQQTCJKP" />
+          </node>
+          <node concept="rerJS" id="6p4IBf3QTT$" role="ZXjPg">
+            <property role="1MXi1$" value="FHFEOKVNFA" />
+            <node concept="1LcaPl" id="6p4IBf3QTUb" role="rerJT">
+              <ref role="1LcaPk" node="6p4IBf3QTJ2" resolve="Seurat1" />
+            </node>
+          </node>
+          <node concept="1l_J7x" id="6p4IBf3QUzh" role="ZXjPg">
+            <property role="1MXi1$" value="DVVBWVKWAC" />
+          </node>
+          <node concept="313sG1" id="6p4IBf3QTVo" role="ZXjPg">
+            <property role="1MXi1$" value="FJGCVJBMBI" />
+            <property role="313rra" value="1" />
+            <property role="313rrk" value="1" />
+            <node concept="1FHg$p" id="6p4IBf3QTVp" role="319mBM">
+              <property role="ZHjxa" value="200" />
+              <property role="ZHjG8" value="200" />
+              <property role="3ZMXzF" value="1" />
+              <property role="TrG5h" value="no" />
+            </node>
+            <node concept="31becx" id="6p4IBf3QTW1" role="312phR">
+              <property role="1MXi1$" value="JIEEEIMYSF" />
+              <ref role="312p7B" node="6p4IBf3QTPi" resolve="violinNGene" />
+              <node concept="7CXmI" id="6p4IBf3RNtQ" role="lGtFl">
+                <node concept="1TM$A" id="6p4IBf3RNtR" role="7EUXB">
+                  <node concept="2PYRI3" id="6p4IBf3RNtW" role="3lydEf">
+                    <ref role="39XzEq" to="9p4w:1yiyxIBH4lw" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
