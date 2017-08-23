@@ -551,68 +551,24 @@
           <node concept="3clFbJ" id="64Erk42xMqp" role="3cqZAp">
             <node concept="3clFbS" id="64Erk42xMqr" role="3clFbx">
               <node concept="2MkqsV" id="64Erk42yj8S" role="3cqZAp">
-                <node concept="3cpWs3" id="64Erk42ykDQ" role="2MkJ7o">
-                  <node concept="Xl_RD" id="64Erk42ykFT" role="3uHU7w">
-                    <property role="Xl_RC" value="and DE standard deviation per group should only be specified if number of groups is greater than 1!" />
-                  </node>
-                  <node concept="Xl_RD" id="64Erk42yjaP" role="3uHU7B">
-                    <property role="Xl_RC" value="Group division, DE mean probability per group, DE probability per group, " />
-                  </node>
+                <node concept="Xl_RD" id="64Erk42yjaP" role="2MkJ7o">
+                  <property role="Xl_RC" value="Group division should only be specified if number of groups is greater than 1!" />
                 </node>
                 <node concept="1YBJjd" id="64Erk42yn3U" role="2OEOjV">
                   <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
                 </node>
               </node>
             </node>
-            <node concept="22lmx$" id="64Erk42y5_y" role="3clFbw">
-              <node concept="2OqwBi" id="64Erk42yaw$" role="3uHU7w">
-                <node concept="2OqwBi" id="64Erk42y7d2" role="2Oq$k0">
-                  <node concept="1YBJjd" id="64Erk42y6jS" role="2Oq$k0">
-                    <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
-                  </node>
-                  <node concept="3Tsc0h" id="64Erk42y8k_" role="2OqNvi">
-                    <ref role="3TtcxE" to="hgbr:C8BOZOcDwg" resolve="deSDPerGroup" />
-                  </node>
+            <node concept="2OqwBi" id="64Erk42xPlj" role="3clFbw">
+              <node concept="2OqwBi" id="64Erk42xMFg" role="2Oq$k0">
+                <node concept="1YBJjd" id="64Erk42xMsp" role="2Oq$k0">
+                  <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
                 </node>
-                <node concept="3GX2aA" id="64Erk42ydrO" role="2OqNvi" />
-              </node>
-              <node concept="22lmx$" id="64Erk42y1D_" role="3uHU7B">
-                <node concept="22lmx$" id="64Erk42xSCw" role="3uHU7B">
-                  <node concept="2OqwBi" id="64Erk42xPlj" role="3uHU7B">
-                    <node concept="2OqwBi" id="64Erk42xMFg" role="2Oq$k0">
-                      <node concept="1YBJjd" id="64Erk42xMsp" role="2Oq$k0">
-                        <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
-                      </node>
-                      <node concept="3Tsc0h" id="64Erk42xNwV" role="2OqNvi">
-                        <ref role="3TtcxE" to="hgbr:C8BOZOcDtW" resolve="groupDivision" />
-                      </node>
-                    </node>
-                    <node concept="3GX2aA" id="64Erk42xRYF" role="2OqNvi" />
-                  </node>
-                  <node concept="2OqwBi" id="64Erk42xXWj" role="3uHU7w">
-                    <node concept="2OqwBi" id="64Erk42xTjL" role="2Oq$k0">
-                      <node concept="1YBJjd" id="64Erk42xT4e" role="2Oq$k0">
-                        <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
-                      </node>
-                      <node concept="3Tsc0h" id="64Erk42xVLl" role="2OqNvi">
-                        <ref role="3TtcxE" to="hgbr:C8BOZOcDv4" resolve="deMeanPerGroup" />
-                      </node>
-                    </node>
-                    <node concept="3GX2aA" id="64Erk42y0At" role="2OqNvi" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="64Erk42yfCj" role="3uHU7w">
-                  <node concept="2OqwBi" id="64Erk42y2K2" role="2Oq$k0">
-                    <node concept="1YBJjd" id="64Erk42y27c" role="2Oq$k0">
-                      <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
-                    </node>
-                    <node concept="3Tsc0h" id="64Erk42y3pI" role="2OqNvi">
-                      <ref role="3TtcxE" to="hgbr:C8BOZOcDuR" resolve="deProbPerGroup" />
-                    </node>
-                  </node>
-                  <node concept="3GX2aA" id="64Erk42yik1" role="2OqNvi" />
+                <node concept="3Tsc0h" id="64Erk42xNwV" role="2OqNvi">
+                  <ref role="3TtcxE" to="hgbr:C8BOZOcDtW" resolve="groupDivision" />
                 </node>
               </node>
+              <node concept="3GX2aA" id="64Erk42xRYF" role="2OqNvi" />
             </node>
           </node>
         </node>
