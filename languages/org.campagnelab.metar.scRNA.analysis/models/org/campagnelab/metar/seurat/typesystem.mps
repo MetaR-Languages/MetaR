@@ -50,6 +50,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -87,6 +88,9 @@
       </concept>
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
@@ -842,19 +846,34 @@
             </node>
           </node>
         </node>
-        <node concept="2OqwBi" id="6bALrFu0t6V" role="3clFbw">
-          <node concept="2OqwBi" id="6bALrFu0qr_" role="2Oq$k0">
-            <node concept="1YBJjd" id="6bALrFu0qrA" role="2Oq$k0">
-              <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
-            </node>
-            <node concept="3TrcHB" id="6bALrFu0six" role="2OqNvi">
-              <ref role="3TsBF5" to="lznn:3J_5udXbEhL" resolve="xFold" />
+        <node concept="1Wc70l" id="65UmLUr6Uhh" role="3clFbw">
+          <node concept="1eOMI4" id="65UmLUr6UF0" role="3uHU7B">
+            <node concept="3y3z36" id="65UmLUr6VpE" role="1eOMHV">
+              <node concept="10Nm6u" id="65UmLUr6VLP" role="3uHU7w" />
+              <node concept="2OqwBi" id="65UmLUr6UHB" role="3uHU7B">
+                <node concept="1YBJjd" id="65UmLUr6UHC" role="2Oq$k0">
+                  <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
+                </node>
+                <node concept="3TrcHB" id="65UmLUr6UHD" role="2OqNvi">
+                  <ref role="3TsBF5" to="lznn:3J_5udXbEhL" resolve="xFold" />
+                </node>
+              </node>
             </node>
           </node>
-          <node concept="liA8E" id="6bALrFu0u_X" role="2OqNvi">
-            <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
-            <node concept="Xl_RD" id="6bALrFu0uZN" role="37wK5m">
-              <property role="Xl_RC" value="-" />
+          <node concept="2OqwBi" id="6bALrFu0t6V" role="3uHU7w">
+            <node concept="2OqwBi" id="6bALrFu0qr_" role="2Oq$k0">
+              <node concept="1YBJjd" id="6bALrFu0qrA" role="2Oq$k0">
+                <ref role="1YBMHb" node="6bALrFu0qrO" resolve="xFoldPercentageNoOfMarkers" />
+              </node>
+              <node concept="3TrcHB" id="6bALrFu0six" role="2OqNvi">
+                <ref role="3TsBF5" to="lznn:3J_5udXbEhL" resolve="xFold" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6bALrFu0u_X" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+              <node concept="Xl_RD" id="6bALrFu0uZN" role="37wK5m">
+                <property role="Xl_RC" value="-" />
+              </node>
             </node>
           </node>
         </node>
