@@ -218,6 +218,24 @@
     <property role="3GE5qa" value="SimulationSCRNASeqData" />
     <property role="34LRSv" value="simulate scRNA-seq datasets" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="4_jTuJPvJRm" role="1TKVEi">
+      <property role="IQ2ns" value="5283819589434539478" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="outProb" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="4_jTuJPvJS4" role="1TKVEi">
+      <property role="IQ2ns" value="5283819589434539524" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="outMean" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
+    <node concept="1TJgyj" id="4_jTuJPvJSP" role="1TKVEi">
+      <property role="IQ2ns" value="5283819589434539573" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="outSD" />
+      <ref role="20lvS9" node="C8BOZOd$uW" resolve="NumberWrapper" />
+    </node>
     <node concept="1TJgyj" id="C8BOZOd$wy" role="1TKVEi">
       <property role="IQ2ns" value="723002905941395490" />
       <property role="20lmBu" value="aggregation" />

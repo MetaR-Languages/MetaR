@@ -355,22 +355,6 @@
             </node>
           </node>
           <node concept="3EZMnI" id="C8BOZOcFY4" role="3EZMnx">
-            <node concept="3EZMnI" id="C8BOZOcFYd" role="3EZMnx">
-              <node concept="VPM3Z" id="C8BOZOcFYe" role="3F10Kt">
-                <property role="VOm3f" value="false" />
-              </node>
-              <node concept="3F0ifn" id="C8BOZOcFYf" role="3EZMnx">
-                <property role="3F0ifm" value="number of groups:" />
-                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
-              </node>
-              <node concept="3F1sOY" id="C8BOZOd$As" role="3EZMnx">
-                <ref role="1NtTu8" to="hgbr:C8BOZOd$wy" resolve="noOfGroups" />
-              </node>
-              <node concept="2iRfu4" id="C8BOZOcFYh" role="2iSdaV" />
-              <node concept="lj46D" id="C8BOZOcFYi" role="3F10Kt">
-                <property role="VOm3f" value="true" />
-              </node>
-            </node>
             <node concept="3EZMnI" id="C8BOZOcFYj" role="3EZMnx">
               <node concept="VPM3Z" id="C8BOZOcFYk" role="3F10Kt">
                 <property role="VOm3f" value="false" />
@@ -464,6 +448,70 @@
               </node>
               <node concept="2iRfu4" id="C8BOZOdnIs" role="2iSdaV" />
               <node concept="lj46D" id="C8BOZOdnMp" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="4_jTuJPvKfa" role="3EZMnx">
+              <node concept="VPM3Z" id="4_jTuJPvKfb" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="4_jTuJPvKfc" role="3EZMnx">
+                <property role="3F0ifm" value="outlier probability" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="4_jTuJPvKfd" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:4_jTuJPvJRm" resolve="outProb" />
+              </node>
+              <node concept="2iRfu4" id="4_jTuJPvKfe" role="2iSdaV" />
+              <node concept="lj46D" id="4_jTuJPvKff" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="4_jTuJPvKn0" role="3EZMnx">
+              <node concept="VPM3Z" id="4_jTuJPvKn1" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="4_jTuJPvKn2" role="3EZMnx">
+                <property role="3F0ifm" value="outlier mean" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="4_jTuJPvKn3" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:4_jTuJPvJS4" resolve="outMean" />
+              </node>
+              <node concept="2iRfu4" id="4_jTuJPvKn4" role="2iSdaV" />
+              <node concept="lj46D" id="4_jTuJPvKn5" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="4_jTuJPvKvq" role="3EZMnx">
+              <node concept="VPM3Z" id="4_jTuJPvKvr" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="4_jTuJPvKvs" role="3EZMnx">
+                <property role="3F0ifm" value="outlier standard deviation" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="4_jTuJPvKvt" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:4_jTuJPvJSP" resolve="outSD" />
+              </node>
+              <node concept="2iRfu4" id="4_jTuJPvKvu" role="2iSdaV" />
+              <node concept="lj46D" id="4_jTuJPvKvv" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="3EZMnI" id="C8BOZOcFYd" role="3EZMnx">
+              <node concept="VPM3Z" id="C8BOZOcFYe" role="3F10Kt">
+                <property role="VOm3f" value="false" />
+              </node>
+              <node concept="3F0ifn" id="C8BOZOcFYf" role="3EZMnx">
+                <property role="3F0ifm" value="number of groups:" />
+                <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+              </node>
+              <node concept="3F1sOY" id="C8BOZOd$As" role="3EZMnx">
+                <ref role="1NtTu8" to="hgbr:C8BOZOd$wy" resolve="noOfGroups" />
+              </node>
+              <node concept="2iRfu4" id="C8BOZOcFYh" role="2iSdaV" />
+              <node concept="lj46D" id="C8BOZOcFYi" role="3F10Kt">
                 <property role="VOm3f" value="true" />
               </node>
             </node>

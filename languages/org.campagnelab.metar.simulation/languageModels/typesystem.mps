@@ -498,6 +498,54 @@
         </node>
       </node>
       <node concept="3clFbH" id="64Erk42xnsa" role="3cqZAp" />
+      <node concept="3clFbJ" id="4_jTuJPvMY1" role="3cqZAp">
+        <node concept="3clFbS" id="4_jTuJPvMY2" role="3clFbx">
+          <node concept="2MkqsV" id="4_jTuJPvMY3" role="3cqZAp">
+            <node concept="Xl_RD" id="4_jTuJPvMY4" role="2MkJ7o">
+              <property role="Xl_RC" value="Outlier probability has to be between 0 and 1!" />
+            </node>
+            <node concept="1YBJjd" id="4_jTuJPvMY5" role="2OEOjV">
+              <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="4_jTuJPvMY6" role="3clFbw">
+          <node concept="2OqwBi" id="4_jTuJPvMY7" role="3uHU7B">
+            <node concept="2OqwBi" id="4_jTuJPvMY8" role="2Oq$k0">
+              <node concept="1YBJjd" id="4_jTuJPvMY9" role="2Oq$k0">
+                <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+              </node>
+              <node concept="3TrEf2" id="4_jTuJPvPeL" role="2OqNvi">
+                <ref role="3Tt5mk" to="hgbr:4_jTuJPvJRm" resolve="outProb" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4_jTuJPvMYb" role="2OqNvi" />
+          </node>
+          <node concept="3eOSWO" id="4_jTuJPvMYc" role="3uHU7w">
+            <node concept="3cmrfG" id="4_jTuJPvMYd" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2YIFZM" id="4_jTuJPvMYe" role="3uHU7B">
+              <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+              <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
+              <node concept="2OqwBi" id="4_jTuJPvMYf" role="37wK5m">
+                <node concept="2OqwBi" id="4_jTuJPvMYg" role="2Oq$k0">
+                  <node concept="1YBJjd" id="4_jTuJPvMYh" role="2Oq$k0">
+                    <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+                  </node>
+                  <node concept="3TrEf2" id="4_jTuJPvPYs" role="2OqNvi">
+                    <ref role="3Tt5mk" to="hgbr:4_jTuJPvJRm" resolve="outProb" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="4_jTuJPvMYj" role="2OqNvi">
+                  <ref role="3TsBF5" to="hgbr:C8BOZOd$v_" resolve="number" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="4_jTuJPvK$a" role="3cqZAp" />
       <node concept="3clFbJ" id="64Erk42xFi_" role="3cqZAp">
         <node concept="3clFbS" id="64Erk42xFiB" role="3clFbx">
           <node concept="3clFbJ" id="64Erk42xMqp" role="3cqZAp">
