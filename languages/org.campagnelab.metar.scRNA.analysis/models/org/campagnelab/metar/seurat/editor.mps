@@ -598,7 +598,7 @@
       <node concept="3EZMnI" id="3J_5udX5Crc" role="3EZMnx">
         <node concept="2iRfu4" id="3J_5udX5Crf" role="2iSdaV" />
         <node concept="3F0A7n" id="3J_5udXfuqG" role="3EZMnx">
-          <property role="1$x2rV" value="10X Genomics dataset directory that looks like this: outs/filtered_gene_bc_matrices/GRCh38" />
+          <property role="1$x2rV" value="10X directory with barcodes.tsv, genes.tsv, and matrix.mtx" />
           <ref role="1NtTu8" to="lznn:3J_5udX5GWl" resolve="path" />
         </node>
         <node concept="3MhZvs" id="3J_5udX5GWv" role="3EZMnx">

@@ -208,6 +208,43 @@
     <property role="TrG5h" value="TubulesAnalysis" />
     <node concept="ZXjPh" id="5YbQYgad$Z2" role="S1EQ8">
       <property role="1MXi1$" value="NLWTGESNDX" />
+      <node concept="16VBqR" id="6p4IBf41pIV" role="ZXjPg">
+        <property role="1MXi1$" value="JMJOPSQYNK" />
+        <node concept="16LEZw" id="6p4IBf41pIW" role="2oOXxS">
+          <node concept="16LdhA" id="6p4IBf41pIY" role="16L4H4">
+            <node concept="rhwXV" id="6p4IBf41pIZ" role="16Ldh_">
+              <node concept="16Ldux" id="6p4IBf41pJ2" role="3uHU7B" />
+              <node concept="3cmrfG" id="6p4IBf41pJ3" role="3uHU7w">
+                <property role="3cmrfH" value="1000" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="LzkXi" id="6p4IBf41pJ4" role="LzxbI">
+          <node concept="16LdhA" id="6p4IBf41pJ6" role="16L4H4">
+            <node concept="rhwXV" id="6p4IBf41pJ7" role="16Ldh_">
+              <node concept="16LQ0b" id="6p4IBf41pJa" role="3uHU7B" />
+              <node concept="3cmrfG" id="6p4IBf41pJb" role="3uHU7w">
+                <property role="3cmrfH" value="3" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="16WNID" id="6p4IBf41pJc" role="16QsWi">
+          <property role="16WVSt" value="false" />
+          <property role="16WMxv" value="false" />
+          <property role="16WMwy" value="false" />
+          <property role="16WMwA" value="false" />
+          <property role="1kOCCd" value="false" />
+          <property role="1kOCCC" value="false" />
+          <property role="1kOCFb" value="false" />
+          <property role="1kOCDM" value="false" />
+          <property role="16WXFQ" value="/Users/farcasia/Documents/P1/P1_collapsed/outs/filtered_gene_bc_matrices/GRCh38" />
+          <node concept="3cO788" id="6p4IBf41pJd" role="33wxE6">
+            <ref role="3cO789" node="6p4IBf41pJc" />
+          </node>
+        </node>
+      </node>
       <node concept="1l_J7x" id="6p4IBf41gk3" role="ZXjPg">
         <property role="1MXi1$" value="KJNRLFUVKX" />
       </node>
