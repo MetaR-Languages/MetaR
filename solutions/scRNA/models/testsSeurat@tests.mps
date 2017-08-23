@@ -75,14 +75,6 @@
       <concept id="8464562469107897571" name="org.campagnelab.metar.seurat.structure.PlotSeurat" flags="ng" index="2rfVTk" />
       <concept id="2161284099589301003" name="org.campagnelab.metar.seurat.structure.LessThanSeurat" flags="ng" index="rhwXV" />
       <concept id="1952407982181783525" name="org.campagnelab.metar.seurat.structure.RejectGeneStrategy" flags="ng" index="LzkXi" />
-      <concept id="9073958069258232987" name="org.campagnelab.metar.seurat.structure.LoadSeuratFromTable" flags="ng" index="2X00xi" />
-      <concept id="9073958069258223911" name="org.campagnelab.metar.seurat.structure.SeuratFromTable" flags="ng" index="2X02RI">
-        <child id="9073958069258223912" name="table" index="2X02Rx" />
-      </concept>
-      <concept id="9073958069258249926" name="org.campagnelab.metar.seurat.structure.IUpdatePath" flags="ng" index="2X04Cf">
-        <property id="9073958069258249929" name="inputChanged" index="2X04C0" />
-      </concept>
-      <concept id="9073958069258259383" name="org.campagnelab.metar.seurat.structure.TableRefExt" flags="ng" index="2X0atY" />
       <concept id="4315879884705585733" name="org.campagnelab.metar.seurat.structure.ICleanupStrategy" flags="ng" index="16L4YA">
         <child id="4315879884705586855" name="conditions" index="16L4H4" />
       </concept>
@@ -114,6 +106,7 @@
         <property id="4315879884704857541" name="markers" index="16WMwA" />
         <property id="4315879884704857532" name="pca" index="16WMxv" />
         <property id="4315879884704885758" name="tsne" index="16WVSt" />
+        <property id="4315879884704894741" name="path" index="16WXFQ" />
         <property id="2357281742821537100" name="normalized" index="1kOCCd" />
         <property id="2357281742821537129" name="scaled" index="1kOCCC" />
         <property id="2357281742821537075" name="hvg" index="1kOCDM" />
@@ -145,6 +138,7 @@
       <concept id="3105090771424556187" name="org.campagnelab.metar.tables.structure.Multiplot" flags="ng" index="313sG1">
         <property id="3105090771424561488" name="numColumns" index="313rra" />
         <property id="3105090771424561486" name="numRows" index="313rrk" />
+        <property id="3105090771427134128" name="preview" index="31lnkE" />
         <child id="3105090771424832493" name="plots" index="312phR" />
         <child id="3105090771426088552" name="destination" index="319mBM" />
       </concept>
@@ -165,7 +159,7 @@
     </language>
   </registry>
   <node concept="1lH9Xt" id="1yiyxIBPZi7">
-    <property role="TrG5h" value="ScopesWithDeleteSeurat" />
+    <property role="TrG5h" value="ScopesWithDeletedSeurats" />
     <node concept="1qefOq" id="1yiyxIBPZkb" role="1SKRRt">
       <node concept="S1EQb" id="1yiyxIBPZkg" role="1qenE9">
         <property role="2BDq$p" value="false" />
@@ -204,35 +198,35 @@
               <property role="1kOCFb" value="false" />
               <property role="1kOCDM" value="false" />
               <property role="TrG5h" value="Seurat1" />
+              <property role="16WXFQ" value="${org.campagnelab.metaR.home}/data" />
               <node concept="3cO788" id="7CYOY83_g3I" role="33wxE6">
                 <ref role="3cO789" node="7CYOY83_g3H" resolve="Seurat1" />
               </node>
             </node>
           </node>
-          <node concept="2X00xi" id="7CYOY83_ggF" role="ZXjPg">
-            <property role="1MXi1$" value="NGPTEHGAVX" />
-            <node concept="16LEZw" id="7CYOY83_ggY" role="2oOXxS">
-              <node concept="16LdhA" id="7CYOY83_gh0" role="16L4H4">
-                <node concept="rhwXV" id="7CYOY83_gh1" role="16Ldh_">
-                  <node concept="16Ldux" id="7CYOY83_gh4" role="3uHU7B" />
-                  <node concept="3cmrfG" id="7CYOY83_gh5" role="3uHU7w">
+          <node concept="16VBqR" id="6p4IBf3TD0b" role="ZXjPg">
+            <property role="1MXi1$" value="YIIOODHNHC" />
+            <node concept="16LEZw" id="6p4IBf3TD0c" role="2oOXxS">
+              <node concept="16LdhA" id="6p4IBf3TD0e" role="16L4H4">
+                <node concept="rhwXV" id="6p4IBf3TD0f" role="16Ldh_">
+                  <node concept="16Ldux" id="6p4IBf3TD0i" role="3uHU7B" />
+                  <node concept="3cmrfG" id="6p4IBf3TD0j" role="3uHU7w">
                     <property role="3cmrfH" value="1000" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="LzkXi" id="7CYOY83_gh6" role="LzxbI">
-              <node concept="16LdhA" id="7CYOY83_gh8" role="16L4H4">
-                <node concept="rhwXV" id="7CYOY83_gh9" role="16Ldh_">
-                  <node concept="16LQ0b" id="7CYOY83_ghc" role="3uHU7B" />
-                  <node concept="3cmrfG" id="7CYOY83_ghd" role="3uHU7w">
+            <node concept="LzkXi" id="6p4IBf3TD0k" role="LzxbI">
+              <node concept="16LdhA" id="6p4IBf3TD0m" role="16L4H4">
+                <node concept="rhwXV" id="6p4IBf3TD0n" role="16Ldh_">
+                  <node concept="16LQ0b" id="6p4IBf3TD0q" role="3uHU7B" />
+                  <node concept="3cmrfG" id="6p4IBf3TD0r" role="3uHU7w">
                     <property role="3cmrfH" value="3" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="2X02RI" id="7CYOY83_ghe" role="16QsWi">
-              <property role="2X04C0" value="false" />
+            <node concept="16WNID" id="6p4IBf3TD0s" role="16QsWi">
               <property role="16WVSt" value="false" />
               <property role="16WMxv" value="false" />
               <property role="16WMwy" value="false" />
@@ -242,9 +236,9 @@
               <property role="1kOCFb" value="false" />
               <property role="1kOCDM" value="false" />
               <property role="TrG5h" value="Seurat2" />
-              <node concept="2X0atY" id="7CYOY83_ghf" role="2X02Rx" />
-              <node concept="3cO788" id="7CYOY83_ghg" role="33wxE6">
-                <ref role="3cO789" node="7CYOY83_ghe" resolve="Seurat2" />
+              <property role="16WXFQ" value="${org.campagnelab.metaR.home}/data" />
+              <node concept="3cO788" id="6p4IBf3TD0t" role="33wxE6">
+                <ref role="3cO789" node="6p4IBf3TD0s" resolve="Seurat2" />
               </node>
             </node>
           </node>
@@ -259,8 +253,8 @@
                 <node concept="3KTrbX" id="7CYOY83_h9t" role="3KTr4d">
                   <ref role="3AHY9a" node="7CYOY83_g3H" resolve="Seurat1" />
                 </node>
-                <node concept="3KTrbX" id="7CYOY83_h9u" role="3KTr4d">
-                  <ref role="3AHY9a" node="7CYOY83_ghe" resolve="Seurat2" />
+                <node concept="3KTrbX" id="6p4IBf3TE5T" role="3KTr4d">
+                  <ref role="3AHY9a" node="6p4IBf3TD0s" resolve="Seurat2" />
                 </node>
               </node>
             </node>
@@ -293,11 +287,11 @@
             <property role="1MXi1$" value="BKGCIDCRIK" />
             <property role="6dHFv" value="10000" />
             <node concept="1LcaPl" id="7CYOY83_hf$" role="6dxJt">
-              <ref role="1LcaPk" node="7CYOY83_ghe" resolve="Seurat2" />
+              <ref role="1LcaPk" node="6p4IBf3TD0s" resolve="Seurat2" />
               <node concept="2rqxmr" id="7CYOY83_hlA" role="lGtFl">
-                <ref role="1BTHP0" node="7CYOY83_ghe" resolve="Seurat2" />
+                <ref role="1BTHP0" node="6p4IBf3TD0s" resolve="Seurat2" />
                 <node concept="3KTrbX" id="7CYOY83_hlC" role="3KTr4d">
-                  <ref role="3AHY9a" node="7CYOY83_ghe" resolve="Seurat2" />
+                  <ref role="3AHY9a" node="6p4IBf3TD0s" resolve="Seurat2" />
                 </node>
                 <node concept="3KTrbX" id="7CYOY83_hlD" role="3KTr4d">
                   <ref role="3AHY9a" node="7CYOY83_h1S" resolve="NormSeurat1" />
@@ -317,7 +311,7 @@
                 <property role="1kOCDM" value="false" />
                 <property role="TrG5h" value="NormSeurat2" />
                 <node concept="3cO788" id="7CYOY83_hIy" role="33wxE6">
-                  <ref role="3cO789" node="7CYOY83_ghe" resolve="Seurat2" />
+                  <ref role="3cO789" node="6p4IBf3TD0s" resolve="Seurat2" />
                 </node>
               </node>
             </node>
@@ -325,7 +319,7 @@
           <node concept="rerJS" id="7CYOY83_hZH" role="ZXjPg">
             <property role="1MXi1$" value="XCKELVNXAI" />
             <node concept="1LcaPl" id="7CYOY83_i0x" role="rerJT">
-              <ref role="1LcaPk" node="7CYOY83_ghe" resolve="Seurat2" />
+              <ref role="1LcaPk" node="6p4IBf3TD0s" resolve="Seurat2" />
             </node>
           </node>
           <node concept="rerJS" id="7CYOY83_ils" role="ZXjPg">
@@ -340,30 +334,29 @@
               <ref role="1LcaPk" node="7CYOY83_heO" resolve="NormSeurat2" />
             </node>
           </node>
-          <node concept="2X00xi" id="7CYOY83_irg" role="ZXjPg">
-            <property role="1MXi1$" value="MQWXROXMCV" />
-            <node concept="16LEZw" id="7CYOY83_irz" role="2oOXxS">
-              <node concept="16LdhA" id="7CYOY83_ir_" role="16L4H4">
-                <node concept="rhwXV" id="7CYOY83_irA" role="16Ldh_">
-                  <node concept="16Ldux" id="7CYOY83_irD" role="3uHU7B" />
-                  <node concept="3cmrfG" id="7CYOY83_irE" role="3uHU7w">
+          <node concept="16VBqR" id="6p4IBf3TE5Z" role="ZXjPg">
+            <property role="1MXi1$" value="SVVDOKSDBR" />
+            <node concept="16LEZw" id="6p4IBf3TE60" role="2oOXxS">
+              <node concept="16LdhA" id="6p4IBf3TE62" role="16L4H4">
+                <node concept="rhwXV" id="6p4IBf3TE63" role="16Ldh_">
+                  <node concept="16Ldux" id="6p4IBf3TE66" role="3uHU7B" />
+                  <node concept="3cmrfG" id="6p4IBf3TE67" role="3uHU7w">
                     <property role="3cmrfH" value="1000" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="LzkXi" id="7CYOY83_irF" role="LzxbI">
-              <node concept="16LdhA" id="7CYOY83_irH" role="16L4H4">
-                <node concept="rhwXV" id="7CYOY83_irI" role="16Ldh_">
-                  <node concept="16LQ0b" id="7CYOY83_irL" role="3uHU7B" />
-                  <node concept="3cmrfG" id="7CYOY83_irM" role="3uHU7w">
+            <node concept="LzkXi" id="6p4IBf3TE68" role="LzxbI">
+              <node concept="16LdhA" id="6p4IBf3TE6a" role="16L4H4">
+                <node concept="rhwXV" id="6p4IBf3TE6b" role="16Ldh_">
+                  <node concept="16LQ0b" id="6p4IBf3TE6e" role="3uHU7B" />
+                  <node concept="3cmrfG" id="6p4IBf3TE6f" role="3uHU7w">
                     <property role="3cmrfH" value="3" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="2X02RI" id="7CYOY83_irN" role="16QsWi">
-              <property role="2X04C0" value="false" />
+            <node concept="16WNID" id="6p4IBf3TE6g" role="16QsWi">
               <property role="16WVSt" value="false" />
               <property role="16WMxv" value="false" />
               <property role="16WMwy" value="false" />
@@ -372,10 +365,10 @@
               <property role="1kOCCC" value="false" />
               <property role="1kOCFb" value="false" />
               <property role="1kOCDM" value="false" />
+              <property role="16WXFQ" value="${org.campagnelab.metaR.home}/data" />
               <property role="TrG5h" value="Seurat1" />
-              <node concept="2X0atY" id="7CYOY83_irO" role="2X02Rx" />
-              <node concept="3cO788" id="7CYOY83_irP" role="33wxE6">
-                <ref role="3cO789" node="7CYOY83_irN" resolve="Seurat1" />
+              <node concept="3cO788" id="6p4IBf3TE6h" role="33wxE6">
+                <ref role="3cO789" node="6p4IBf3TE6g" resolve="Seurat1" />
               </node>
             </node>
           </node>
@@ -383,11 +376,11 @@
             <property role="1LbDqV" value="false" />
             <property role="1MXi1$" value="GEBKKOVHFF" />
             <node concept="1LcaPl" id="7CYOY83_ids" role="e4XTi">
-              <ref role="1LcaPk" node="7CYOY83_irN" resolve="Seurat1" />
+              <ref role="1LcaPk" node="6p4IBf3TE6g" resolve="Seurat1" />
               <node concept="2rqxmr" id="7CYOY83_ijw" role="lGtFl">
-                <ref role="1BTHP0" node="7CYOY83_irN" resolve="Seurat1" />
-                <node concept="3KTrbX" id="7CYOY83_iD1" role="3KTr4d">
-                  <ref role="3AHY9a" node="7CYOY83_irN" resolve="Seurat1" />
+                <ref role="1BTHP0" node="6p4IBf3TE6g" resolve="Seurat1" />
+                <node concept="3KTrbX" id="6p4IBf3TEjX" role="3KTr4d">
+                  <ref role="3AHY9a" node="6p4IBf3TE6g" resolve="Seurat1" />
                 </node>
               </node>
             </node>
@@ -403,8 +396,8 @@
                 <property role="1kOCFb" value="false" />
                 <property role="1kOCDM" value="false" />
                 <property role="TrG5h" value="ScaledSeurat" />
-                <node concept="3cO788" id="7CYOY83_j9s" role="33wxE6">
-                  <ref role="3cO789" node="7CYOY83_irN" resolve="Seurat1" />
+                <node concept="3cO788" id="6p4IBf3TEk1" role="33wxE6">
+                  <ref role="3cO789" node="6p4IBf3TE6g" resolve="Seurat1" />
                 </node>
               </node>
             </node>
@@ -412,9 +405,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="2XOHcx" id="1yiyxIBPZj9">
-    <property role="2XOHcw" value="${org.campagnelab.metaR.home}" />
   </node>
   <node concept="1lH9Xt" id="6p4IBf3QTIo">
     <property role="TrG5h" value="NoPlotForDeletedSeurats" />
@@ -424,30 +414,29 @@
         <property role="TrG5h" value="noPlotForDeletedSeurats" />
         <node concept="ZXjPh" id="6p4IBf3QTIs" role="S1EQ8">
           <property role="1MXi1$" value="UPQRFNFFHO" />
-          <node concept="2X00xi" id="6p4IBf3QTIv" role="ZXjPg">
-            <property role="1MXi1$" value="AAXLAGJWCH" />
-            <node concept="16LEZw" id="6p4IBf3QTIM" role="2oOXxS">
-              <node concept="16LdhA" id="6p4IBf3QTIO" role="16L4H4">
-                <node concept="rhwXV" id="6p4IBf3QTIP" role="16Ldh_">
-                  <node concept="16Ldux" id="6p4IBf3QTIS" role="3uHU7B" />
-                  <node concept="3cmrfG" id="6p4IBf3QTIT" role="3uHU7w">
+          <node concept="16VBqR" id="6p4IBf3TEsa" role="ZXjPg">
+            <property role="1MXi1$" value="LDERDJJNLI" />
+            <node concept="16LEZw" id="6p4IBf3TEsb" role="2oOXxS">
+              <node concept="16LdhA" id="6p4IBf3TEsd" role="16L4H4">
+                <node concept="rhwXV" id="6p4IBf3TEse" role="16Ldh_">
+                  <node concept="16Ldux" id="6p4IBf3TEsh" role="3uHU7B" />
+                  <node concept="3cmrfG" id="6p4IBf3TEsi" role="3uHU7w">
                     <property role="3cmrfH" value="1000" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="LzkXi" id="6p4IBf3QTIU" role="LzxbI">
-              <node concept="16LdhA" id="6p4IBf3QTIW" role="16L4H4">
-                <node concept="rhwXV" id="6p4IBf3QTIX" role="16Ldh_">
-                  <node concept="16LQ0b" id="6p4IBf3QTJ0" role="3uHU7B" />
-                  <node concept="3cmrfG" id="6p4IBf3QTJ1" role="3uHU7w">
+            <node concept="LzkXi" id="6p4IBf3TEsj" role="LzxbI">
+              <node concept="16LdhA" id="6p4IBf3TEsl" role="16L4H4">
+                <node concept="rhwXV" id="6p4IBf3TEsm" role="16Ldh_">
+                  <node concept="16LQ0b" id="6p4IBf3TEsp" role="3uHU7B" />
+                  <node concept="3cmrfG" id="6p4IBf3TEsq" role="3uHU7w">
                     <property role="3cmrfH" value="3" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="2X02RI" id="6p4IBf3QTJ2" role="16QsWi">
-              <property role="2X04C0" value="false" />
+            <node concept="16WNID" id="6p4IBf3TEsr" role="16QsWi">
               <property role="16WVSt" value="false" />
               <property role="16WMxv" value="false" />
               <property role="16WMwy" value="false" />
@@ -456,10 +445,10 @@
               <property role="1kOCCC" value="false" />
               <property role="1kOCFb" value="false" />
               <property role="1kOCDM" value="false" />
+              <property role="16WXFQ" value="${org.campagnelab.metaR.home}/data" />
               <property role="TrG5h" value="Seurat1" />
-              <node concept="2X0atY" id="6p4IBf3QTJ3" role="2X02Rx" />
-              <node concept="3cO788" id="6p4IBf3QTJ4" role="33wxE6">
-                <ref role="3cO789" node="6p4IBf3QTJ2" resolve="Seurat1" />
+              <node concept="3cO788" id="6p4IBf3TEss" role="33wxE6">
+                <ref role="3cO789" node="6p4IBf3TEsr" resolve="Seurat1" />
               </node>
             </node>
           </node>
@@ -526,8 +515,8 @@
                 <property role="TrG5h" value="scatterNUMIMito" />
               </node>
             </node>
-            <node concept="1LcaPl" id="6p4IBf3QTPU" role="1Lc1gn">
-              <ref role="1LcaPk" node="6p4IBf3QTJ2" resolve="Seurat1" />
+            <node concept="1LcaPl" id="6p4IBf3TECn" role="1Lc1gn">
+              <ref role="1LcaPk" node="6p4IBf3TEsr" resolve="Seurat1" />
             </node>
           </node>
           <node concept="1l_J7x" id="6p4IBf3QUzf" role="ZXjPg">
@@ -553,8 +542,8 @@
           </node>
           <node concept="rerJS" id="6p4IBf3QTT$" role="ZXjPg">
             <property role="1MXi1$" value="FHFEOKVNFA" />
-            <node concept="1LcaPl" id="6p4IBf3QTUb" role="rerJT">
-              <ref role="1LcaPk" node="6p4IBf3QTJ2" resolve="Seurat1" />
+            <node concept="1LcaPl" id="6p4IBf3TECq" role="rerJT">
+              <ref role="1LcaPk" node="6p4IBf3TEsr" resolve="Seurat1" />
             </node>
           </node>
           <node concept="1l_J7x" id="6p4IBf3QUzh" role="ZXjPg">
@@ -564,6 +553,7 @@
             <property role="1MXi1$" value="FJGCVJBMBI" />
             <property role="313rra" value="1" />
             <property role="313rrk" value="1" />
+            <property role="31lnkE" value="false" />
             <node concept="1FHg$p" id="6p4IBf3QTVp" role="319mBM">
               <property role="ZHjxa" value="200" />
               <property role="ZHjG8" value="200" />
@@ -585,6 +575,9 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="2XOHcx" id="1yiyxIBPZj9">
+    <property role="2XOHcw" value="${org.campagnelab.metaR.home}" />
   </node>
 </model>
 

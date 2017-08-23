@@ -5,12 +5,12 @@ package org.campagnelab.metar.tables.generator.template.expressions;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.impl.query.QueryProviderBase;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.core.behavior.BaseConcept__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.campagnelab.metar.code.generator.helpers.NameHelper;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
@@ -32,8 +32,29 @@ public class QueriesGenerated extends QueryProviderBase {
   public QueriesGenerated() {
     super(1);
   }
+  public static boolean baseMappingRule_Condition_7369219896655780775(final BaseMappingRuleContext _context) {
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c108ca66L, "jetbrains.mps.baseLanguage.structure.ClassConcept")));
+  }
+  public static boolean baseMappingRule_Condition_7369219896655782610(final BaseMappingRuleContext _context) {
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c108ca66L, "jetbrains.mps.baseLanguage.structure.ClassConcept")));
+  }
+  public static boolean baseMappingRule_Condition_7369219896655784057(final BaseMappingRuleContext _context) {
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c108ca66L, "jetbrains.mps.baseLanguage.structure.ClassConcept")));
+  }
+  public static boolean baseMappingRule_Condition_7369219896655771224(final BaseMappingRuleContext _context) {
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c108ca66L, "jetbrains.mps.baseLanguage.structure.ClassConcept")));
+  }
   public static boolean baseMappingRule_Condition_8044300460862745704(final BaseMappingRuleContext _context) {
     return false;
+  }
+  public static boolean baseMappingRule_Condition_7369219896655785775(final BaseMappingRuleContext _context) {
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c108ca66L, "jetbrains.mps.baseLanguage.structure.ClassConcept")));
+  }
+  public static boolean baseMappingRule_Condition_7369219896655787574(final BaseMappingRuleContext _context) {
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c108ca66L, "jetbrains.mps.baseLanguage.structure.ClassConcept")));
+  }
+  public static boolean baseMappingRule_Condition_7369219896655789021(final BaseMappingRuleContext _context) {
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c108ca66L, "jetbrains.mps.baseLanguage.structure.ClassConcept")));
   }
   public static Object propertyMacro_GetPropertyValue_548459537434164940(final PropertyMacroContext _context) {
     return (String) BaseConcept__BehaviorDescriptor.getPresentation_idhEwIMiw.invoke(_context.getNode());
@@ -71,7 +92,14 @@ public class QueriesGenerated extends QueryProviderBase {
   private final Map<String, ReductionRuleCondition> rrcMethods = new HashMap<String, ReductionRuleCondition>();
   {
     int i = 0;
+    rrcMethods.put("7783277237109412243", new QueriesGenerated.RRC(i++));
+    rrcMethods.put("7783277237109460873", new QueriesGenerated.RRC(i++));
+    rrcMethods.put("2826789978053353313", new QueriesGenerated.RRC(i++));
+    rrcMethods.put("8044300460862479309", new QueriesGenerated.RRC(i++));
     rrcMethods.put("7783277237109527333", new QueriesGenerated.RRC(i++));
+    rrcMethods.put("8044300460862743425", new QueriesGenerated.RRC(i++));
+    rrcMethods.put("5821174364903457155", new QueriesGenerated.RRC(i++));
+    rrcMethods.put("2807244893518306780", new QueriesGenerated.RRC(i++));
   }
   @Override
   @NotNull
@@ -91,7 +119,21 @@ public class QueriesGenerated extends QueryProviderBase {
     public boolean check(ReductionRuleQueryContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
+          return QueriesGenerated.baseMappingRule_Condition_7369219896655780775(ctx);
+        case 1:
+          return QueriesGenerated.baseMappingRule_Condition_7369219896655782610(ctx);
+        case 2:
+          return QueriesGenerated.baseMappingRule_Condition_7369219896655784057(ctx);
+        case 3:
+          return QueriesGenerated.baseMappingRule_Condition_7369219896655771224(ctx);
+        case 4:
           return QueriesGenerated.baseMappingRule_Condition_8044300460862745704(ctx);
+        case 5:
+          return QueriesGenerated.baseMappingRule_Condition_7369219896655785775(ctx);
+        case 6:
+          return QueriesGenerated.baseMappingRule_Condition_7369219896655787574(ctx);
+        case 7:
+          return QueriesGenerated.baseMappingRule_Condition_7369219896655789021(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no condition method for rule %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }

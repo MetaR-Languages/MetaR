@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="scRNA" uuid="0e390fc7-6151-4720-9a5a-cb2b5e724509" moduleVersion="0" compileInMPS="true">
+<solution name="scRNA" uuid="0e390fc7-6151-4720-9a5a-cb2b5e724509" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -7,8 +7,6 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)</dependency>
-    <dependency reexport="false">ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)</dependency>
     <dependency reexport="false">6562d9c6-fb82-4150-9d7f-5e4f50d7bba1(org.campagnelab.metar.seurat)</dependency>
   </dependencies>
   <languageVersions>
