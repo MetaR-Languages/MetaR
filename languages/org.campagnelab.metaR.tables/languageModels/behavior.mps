@@ -1733,12 +1733,6 @@
       <ref role="13i0hy" node="5RQTS2osRA4" resolve="getPath" />
       <node concept="3Tm1VV" id="5RQTS2osWRL" role="1B3o_S" />
       <node concept="3clFbS" id="5RQTS2osWRO" role="3clF47">
-        <node concept="34ab3g" id="3amEmmQyu9i" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="Xl_RD" id="3amEmmQyu9k" role="34bqiv">
-            <property role="Xl_RC" value="IN get path of Table behavior" />
-          </node>
-        </node>
         <node concept="3clFbF" id="5RQTS2osX2X" role="3cqZAp">
           <node concept="2OqwBi" id="5RQTS2osX6Z" role="3clFbG">
             <node concept="13iPFW" id="5RQTS2osX2W" role="2Oq$k0" />
