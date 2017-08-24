@@ -202,12 +202,6 @@
       <concept id="3929971219796704543" name="org.campagnelab.metar.tables.structure.OutputFile" flags="ng" index="2jXUOv">
         <property id="3929971219796704769" name="path" index="2jXUS1" />
       </concept>
-      <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
-        <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
-      </concept>
-      <concept id="2814838647970474295" name="org.campagnelab.metar.tables.structure.StatementCommentPart" flags="ng" index="ngBBx">
-        <child id="2814838647970474325" name="commentedStatement" index="ngBA3" />
-      </concept>
       <concept id="8031339867733060044" name="org.campagnelab.metar.tables.structure.WriteTable" flags="ng" index="2xR6j2">
         <property id="8031339867734631313" name="withQuotes" index="2xH6Uv" />
         <property id="8031339867734757239" name="separator" index="2xH$9T" />
@@ -42838,50 +42832,45 @@
       <node concept="1l_J7x" id="31hiXbP31wP" role="ZXjPg">
         <property role="1MXi1$" value="WKGLDKEFXY" />
       </node>
-      <node concept="nccVD" id="31hiXbP4lPp" role="ZXjPg">
-        <property role="1MXi1$" value="GQDKBYINPQ" />
-        <node concept="ngBBx" id="31hiXbP4lPq" role="nccZR">
-          <node concept="2X00xi" id="4_jTuJPxh3w" role="ngBA3">
-            <property role="1MXi1$" value="EFSHEPEPYJ" />
-            <node concept="16LEZw" id="4_jTuJPxh3N" role="2oOXxS">
-              <node concept="16LdhA" id="4_jTuJPxh3P" role="16L4H4">
-                <node concept="rhwXV" id="4_jTuJPxh3Q" role="16Ldh_">
-                  <node concept="16Ldux" id="4_jTuJPxh3T" role="3uHU7B" />
-                  <node concept="3cmrfG" id="4_jTuJPxh3U" role="3uHU7w">
-                    <property role="3cmrfH" value="1000" />
-                  </node>
-                </node>
+      <node concept="2X00xi" id="4_jTuJPxh3w" role="ZXjPg">
+        <property role="1MXi1$" value="EFSHEPEPYJ" />
+        <node concept="16LEZw" id="4_jTuJPxh3N" role="2oOXxS">
+          <node concept="16LdhA" id="4_jTuJPxh3P" role="16L4H4">
+            <node concept="rhwXV" id="4_jTuJPxh3Q" role="16Ldh_">
+              <node concept="16Ldux" id="4_jTuJPxh3T" role="3uHU7B" />
+              <node concept="3cmrfG" id="4_jTuJPxh3U" role="3uHU7w">
+                <property role="3cmrfH" value="1000" />
               </node>
             </node>
-            <node concept="LzkXi" id="4_jTuJPxh3V" role="LzxbI">
-              <node concept="16LdhA" id="4_jTuJPxh3X" role="16L4H4">
-                <node concept="rhwXV" id="4_jTuJPxh3Y" role="16Ldh_">
-                  <node concept="16LQ0b" id="4_jTuJPxh41" role="3uHU7B" />
-                  <node concept="3cmrfG" id="4_jTuJPxh42" role="3uHU7w">
-                    <property role="3cmrfH" value="3" />
-                  </node>
-                </node>
+          </node>
+        </node>
+        <node concept="LzkXi" id="4_jTuJPxh3V" role="LzxbI">
+          <node concept="16LdhA" id="4_jTuJPxh3X" role="16L4H4">
+            <node concept="rhwXV" id="4_jTuJPxh3Y" role="16Ldh_">
+              <node concept="16LQ0b" id="4_jTuJPxh41" role="3uHU7B" />
+              <node concept="3cmrfG" id="4_jTuJPxh42" role="3uHU7w">
+                <property role="3cmrfH" value="3" />
               </node>
             </node>
-            <node concept="2X02RI" id="4_jTuJPxh43" role="16QsWi">
-              <property role="2X04C0" value="false" />
-              <property role="16WVSt" value="false" />
-              <property role="16WMxv" value="false" />
-              <property role="16WMwy" value="false" />
-              <property role="16WMwA" value="false" />
-              <property role="1kOCCd" value="false" />
-              <property role="1kOCCC" value="false" />
-              <property role="1kOCFb" value="false" />
-              <property role="1kOCDM" value="false" />
-              <property role="TrG5h" value="P2D" />
-              <property role="16WXFQ" value="/Users/farcasia/DEAnalysis/simP2D.txt" />
-              <node concept="afgQW" id="31hiXbP32fy" role="2X02Rx">
-                <ref role="afgo8" node="4_jTuJPxazn" resolve="simP2D.txt" />
-              </node>
-              <node concept="3cO788" id="4_jTuJPxh45" role="33wxE6">
-                <ref role="3cO789" node="4_jTuJPxh43" resolve="P2D" />
-              </node>
-            </node>
+          </node>
+        </node>
+        <node concept="2X02RI" id="4_jTuJPxh43" role="16QsWi">
+          <property role="2X04C0" value="false" />
+          <property role="16WVSt" value="false" />
+          <property role="16WMxv" value="false" />
+          <property role="16WMwy" value="false" />
+          <property role="16WMwA" value="false" />
+          <property role="1kOCCd" value="false" />
+          <property role="1kOCCC" value="false" />
+          <property role="1kOCFb" value="false" />
+          <property role="1kOCDM" value="false" />
+          <property role="TrG5h" value="P2D" />
+          <property role="16WXFQ" value="/Users/farcasia/DEAnalysis/simP2D.txt" />
+          <node concept="afgQW" id="31hiXbP32fy" role="2X02Rx">
+            <ref role="afgo8" node="4_jTuJPxazn" resolve="simP2D.txt" />
+          </node>
+          <node concept="3cO788" id="4_jTuJPxh45" role="33wxE6">
+            <ref role="3cO789" node="4_jTuJPxh43" resolve="P2D" />
           </node>
         </node>
       </node>
