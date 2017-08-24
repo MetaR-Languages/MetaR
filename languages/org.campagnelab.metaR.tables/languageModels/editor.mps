@@ -679,22 +679,37 @@
       </node>
       <node concept="l2Vlx" id="2WRhvFtn5da" role="2iSdaV" />
     </node>
-    <node concept="3EZMnI" id="4ssfE$bGQSK" role="6VMZX">
-      <node concept="3F0ifn" id="1o6_6Kptmd1" role="3EZMnx">
-        <property role="3F0ifm" value="name:" />
-      </node>
-      <node concept="3F0A7n" id="1o6_6Kptmd9" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="1o6_6Kptmdj" role="3EZMnx">
-        <property role="3F0ifm" value="path to resolve:" />
-        <node concept="pVoyu" id="1o6_6Kptmdp" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+    <node concept="3EZMnI" id="B4DH$ImKaf" role="6VMZX">
+      <node concept="2iRkQZ" id="B4DH$ImKag" role="2iSdaV" />
+      <node concept="3EZMnI" id="B4DH$ImKfm" role="3EZMnx">
+        <node concept="2iRfu4" id="B4DH$ImKfn" role="2iSdaV" />
+        <node concept="3F0ifn" id="1o6_6Kptmd1" role="3EZMnx">
+          <property role="3F0ifm" value="name:" />
+        </node>
+        <node concept="3F0A7n" id="1o6_6Kptmd9" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
-      <node concept="l2Vlx" id="4ssfE$bGQSL" role="2iSdaV" />
-      <node concept="3F0A7n" id="4ssfE$bGRkT" role="3EZMnx">
-        <ref role="1NtTu8" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+      <node concept="3EZMnI" id="B4DH$ImKgB" role="3EZMnx">
+        <node concept="2iRfu4" id="B4DH$ImKgC" role="2iSdaV" />
+        <node concept="3F0ifn" id="1o6_6Kptmdj" role="3EZMnx">
+          <property role="3F0ifm" value="path to resolve:" />
+          <node concept="pVoyu" id="1o6_6Kptmdp" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="4ssfE$bGRkT" role="3EZMnx">
+          <ref role="1NtTu8" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="B4DH$ImKe1" role="3EZMnx">
+        <node concept="2iRfu4" id="B4DH$ImKe2" role="2iSdaV" />
+        <node concept="3F0ifn" id="B4DH$ImKc0" role="3EZMnx">
+          <property role="3F0ifm" value="has row names:" />
+        </node>
+        <node concept="3F0A7n" id="B4DH$ImKeN" role="3EZMnx">
+          <ref role="1NtTu8" to="ztlb:B4DH$IlB7E" resolve="hasRowNames" />
+        </node>
       </node>
     </node>
   </node>

@@ -11,8 +11,8 @@
     <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" />
     <import index="hut6" ref="r:2b3ce235-653e-4507-849e-e62b0f7e1023(org.campagnelab.ui.structure)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
-    <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
   </imports>
@@ -341,10 +341,6 @@
       <node concept="3EZMnI" id="3J_5udX2QwF" role="3EZMnx">
         <node concept="PMmxH" id="6bALrFtWlLP" role="3EZMnx">
           <ref role="PMmxG" node="22QJO5OKPh6" resolve="aliasReloaded" />
-        </node>
-        <node concept="3F0ifn" id="6bALrFtWxa_" role="3EZMnx">
-          <property role="3F0ifm" value="from" />
-          <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
         </node>
         <node concept="3F1sOY" id="3J_5udXfdFW" role="3EZMnx">
           <ref role="1NtTu8" to="lznn:3J_5udXfdFL" resolve="seurat" />
@@ -2065,6 +2061,7 @@
       <node concept="3EZMnI" id="7RHbcB0Vi56" role="3EZMnx">
         <node concept="2iRfu4" id="7RHbcB0Vi57" role="2iSdaV" />
         <node concept="3F1sOY" id="7RHbcB0WAKF" role="3EZMnx">
+          <property role="1$x2rV" value="table with genes on the rows and cells on the columns" />
           <ref role="1NtTu8" to="lznn:7RHbcB0Vg4C" resolve="table" />
         </node>
         <node concept="3F0ifn" id="7RHbcB0Vi5e" role="3EZMnx">
