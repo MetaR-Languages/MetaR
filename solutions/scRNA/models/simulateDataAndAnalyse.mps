@@ -305,10 +305,10 @@
       <property role="1MXi1$" value="UFNENRIOYI" />
       <node concept="3MjoWR" id="65UmLUr7xkU" role="ZXjPg">
         <property role="1MXi1$" value="GWWHPKTPWK" />
-        <ref role="3Mj2Vh" node="65UmLUr7JYw" resolve="P1CTMatrixOrig.txt" />
-        <node concept="3MlLWZ" id="4_jTuJPvEOw" role="3MjoVY">
-          <property role="TrG5h" value="P1CTMatrixOrig.txt" />
-          <ref role="3MlLW5" node="65UmLUr7JYw" resolve="P1CTMatrixOrig.txt" />
+        <ref role="3Mj2Vh" node="FbmQdcQ_QV" resolve="mergedMatrixP1.txt" />
+        <node concept="3MlLWZ" id="FbmQdcSllS" role="3MjoVY">
+          <property role="TrG5h" value="mergedMatrixP1.txt" />
+          <ref role="3MlLW5" node="FbmQdcQ_QV" resolve="mergedMatrixP1.txt" />
         </node>
       </node>
       <node concept="1l_J7x" id="4_jTuJPx9cI" role="ZXjPg">
@@ -317,17 +317,26 @@
       <node concept="3YeH35" id="31hiXbP0dg6" role="ZXjPg">
         <property role="8NYsT" value="false" />
         <property role="1MXi1$" value="WXFJFUAFOC" />
+        <node concept="3YfHzN" id="FbmQdcSl4C" role="3Yewtv">
+          <property role="3YfHyE" value="0" />
+        </node>
         <node concept="3YfHzN" id="31hiXbP0djL" role="3Yewtv">
           <property role="3YfHyE" value="0.3" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSl4v" role="3Yewyb">
+          <property role="3YfHyE" value="0" />
         </node>
         <node concept="3YfHzN" id="31hiXbP0djH" role="3Yewyb">
           <property role="3YfHyE" value="2" />
         </node>
+        <node concept="3YfHzN" id="FbmQdcSl49" role="3YewzS">
+          <property role="3YfHyE" value="0" />
+        </node>
         <node concept="3YfHzN" id="31hiXbP0djD" role="3YewzS">
           <property role="3YfHyE" value="0.5" />
         </node>
-        <node concept="afgQW" id="31hiXbP0djc" role="3YewwS">
-          <ref role="afgo8" node="65UmLUr7JYw" resolve="P1CTMatrixOrig.txt" />
+        <node concept="afgQW" id="FbmQdcSlmj" role="3YewwS">
+          <ref role="afgo8" node="FbmQdcQ_QV" resolve="mergedMatrixP1.txt" />
         </node>
         <node concept="3YfHzN" id="31hiXbP0djp" role="3YfHv3">
           <property role="3YfHyE" value="0.2" />
@@ -344,25 +353,27 @@
         <node concept="3YfHzN" id="31hiXbP0djP" role="3YfHso">
           <property role="3YfHyE" value="0.5" />
         </node>
-        <node concept="3MlLWZ" id="FbmQdcS4GC" role="3Yewuv">
+        <node concept="3MlLWZ" id="FbmQdcSl2Z" role="3Yewuv">
           <property role="TrG5h" value="simP1C" />
-          <ref role="3MlLW5" node="FbmQdcS4GD" resolve="simP1C" />
-          <node concept="3Mpm39" id="FbmQdcS4GD" role="3WeD9t">
+          <ref role="3MlLW5" node="FbmQdcSl30" resolve="simP1C" />
+          <node concept="3Mpm39" id="FbmQdcSl30" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="simP1C" />
-            <node concept="31JHg8" id="FbmQdcS4GE" role="31JHgj">
+            <property role="B$HsN" value="true" />
+            <node concept="31JHg8" id="FbmQdcSlmq" role="31JHgj">
               <property role="TrG5h" value="Cell" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
           </node>
         </node>
-        <node concept="3MlLWZ" id="FbmQdcS4GF" role="3Yewuv">
-          <property role="TrG5h" value="tableGroup2" />
-          <ref role="3MlLW5" node="FbmQdcS4GG" resolve="tableGroup2" />
-          <node concept="3Mpm39" id="FbmQdcS4GG" role="3WeD9t">
+        <node concept="3MlLWZ" id="FbmQdcSl32" role="3Yewuv">
+          <property role="TrG5h" value="simP1D" />
+          <ref role="3MlLW5" node="FbmQdcSl33" resolve="simP1D" />
+          <node concept="3Mpm39" id="FbmQdcSl33" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
-            <property role="TrG5h" value="tableGroup2" />
-            <node concept="31JHg8" id="FbmQdcS4GH" role="31JHgj">
+            <property role="TrG5h" value="simP1D" />
+            <property role="B$HsN" value="true" />
+            <node concept="31JHg8" id="FbmQdcSlmr" role="31JHgj">
               <property role="TrG5h" value="Cell" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
@@ -380,7 +391,7 @@
           <property role="2jXUS1" value="/Users/farcasia/DEAnalysis/simP1C.txt" />
         </node>
         <node concept="afgQW" id="4_jTuJPx68y" role="2xR6uJ">
-          <ref role="afgo8" node="31hiXbP0aID" resolve="simP1C" />
+          <ref role="afgo8" node="FbmQdcSl30" resolve="simP1C" />
         </node>
       </node>
       <node concept="2xR6j2" id="4_jTuJPx6bz" role="ZXjPg">
@@ -391,7 +402,7 @@
           <property role="2jXUS1" value="/Users/farcasia/DEAnalysis/simP1D.txt" />
         </node>
         <node concept="afgQW" id="4_jTuJPx6da" role="2xR6uJ">
-          <ref role="afgo8" node="31hiXbP0dg8" resolve="simP1D" />
+          <ref role="afgo8" node="FbmQdcSl33" resolve="simP1D" />
         </node>
       </node>
       <node concept="1l_J7x" id="4_jTuJPx9cK" role="ZXjPg">
@@ -405,68 +416,29 @@
           <ref role="3MlLW5" node="4_jTuJPx6i9" resolve="P2CTMatrixOrig.txt" />
         </node>
       </node>
-      <node concept="1l_J7x" id="4_jTuJPx9cL" role="ZXjPg">
-        <property role="1MXi1$" value="FEOMWWURFO" />
-      </node>
-      <node concept="3YeH35" id="31hiXbP0dn3" role="ZXjPg">
-        <property role="8NYsT" value="false" />
-        <property role="1MXi1$" value="NELFWVTVAN" />
-        <node concept="3MlLWZ" id="31hiXbP0dn4" role="3Yewuv">
-          <property role="TrG5h" value="simP2C" />
-          <ref role="3MlLW5" node="31hiXbP0dn5" resolve="simP2C" />
-          <node concept="3Mpm39" id="31hiXbP0dn5" role="3WeD9t">
-            <property role="31Cu5t" value="&#9;" />
-            <property role="B$HsN" value="true" />
-            <property role="TrG5h" value="simP2C" />
-            <node concept="31JHg8" id="31hiXbP0dqk" role="31JHgj">
-              <property role="TrG5h" value="Cell" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-          </node>
-        </node>
-        <node concept="afgQW" id="31hiXbP0dqe" role="3YewwS">
-          <ref role="afgo8" node="4_jTuJPx6i9" resolve="P2CTMatrixOrig.txt" />
-        </node>
-        <node concept="3YfHzN" id="31hiXbP0dqr" role="3YfHv3">
-          <property role="3YfHyE" value="0.5" />
-        </node>
-        <node concept="3YfHzN" id="31hiXbP0dqv" role="3YfHue">
-          <property role="3YfHyE" value="0.2" />
-        </node>
-        <node concept="3YfHzN" id="31hiXbP0dqz" role="2WbhwX">
-          <property role="3YfHyE" value="0" />
-        </node>
-        <node concept="3YfHzN" id="31hiXbP0dqB" role="3YfHtH">
-          <property role="3YfHyE" value="1" />
-        </node>
-      </node>
       <node concept="1l_J7x" id="4_jTuJPx9cM" role="ZXjPg">
         <property role="1MXi1$" value="AFXPOGACUH" />
       </node>
       <node concept="3YeH35" id="31hiXbP0dtn" role="ZXjPg">
         <property role="8NYsT" value="false" />
         <property role="1MXi1$" value="LNTUMIUWDA" />
+        <node concept="3YfHzN" id="FbmQdcSlc_" role="3Yewtv">
+          <property role="3YfHyE" value="0" />
+        </node>
         <node concept="3YfHzN" id="31hiXbP0eIJ" role="3Yewtv">
           <property role="3YfHyE" value="0.2" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSlcs" role="3Yewyb">
+          <property role="3YfHyE" value="0" />
         </node>
         <node concept="3YfHzN" id="31hiXbP0eIF" role="3Yewyb">
           <property role="3YfHyE" value="3" />
         </node>
+        <node concept="3YfHzN" id="FbmQdcSlcj" role="3YewzS">
+          <property role="3YfHyE" value="0" />
+        </node>
         <node concept="3YfHzN" id="31hiXbP0eIB" role="3YewzS">
           <property role="3YfHyE" value="0.5" />
-        </node>
-        <node concept="3MlLWZ" id="31hiXbP0dto" role="3Yewuv">
-          <property role="TrG5h" value="simP2D" />
-          <ref role="3MlLW5" node="31hiXbP0dtp" resolve="simP2D" />
-          <node concept="3Mpm39" id="31hiXbP0dtp" role="3WeD9t">
-            <property role="31Cu5t" value="&#9;" />
-            <property role="B$HsN" value="true" />
-            <property role="TrG5h" value="simP2D" />
-            <node concept="31JHg8" id="31hiXbP0dw_" role="31JHgj">
-              <property role="TrG5h" value="Cell" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-          </node>
         </node>
         <node concept="afgQW" id="31hiXbP0dwv" role="3YewwS">
           <ref role="afgo8" node="4_jTuJPx6i9" resolve="P2CTMatrixOrig.txt" />
@@ -481,10 +453,36 @@
           <property role="3YfHyE" value="0" />
         </node>
         <node concept="3YfHzN" id="31hiXbP0eIz" role="3YfHtH">
-          <property role="3YfHyE" value="1" />
+          <property role="3YfHyE" value="2" />
         </node>
         <node concept="3YfHzN" id="31hiXbP0eIN" role="3YfHso">
           <property role="3YfHyE" value="0.5" />
+        </node>
+        <node concept="3MlLWZ" id="FbmQdcSld3" role="3Yewuv">
+          <property role="TrG5h" value="simP2C" />
+          <ref role="3MlLW5" node="FbmQdcSld4" resolve="simP2C" />
+          <node concept="3Mpm39" id="FbmQdcSld4" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="simP2C" />
+            <property role="B$HsN" value="true" />
+            <node concept="31JHg8" id="FbmQdcSld5" role="31JHgj">
+              <property role="TrG5h" value="Cell" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MlLWZ" id="FbmQdcSld6" role="3Yewuv">
+          <property role="TrG5h" value="simP2D" />
+          <ref role="3MlLW5" node="FbmQdcSld7" resolve="simP2D" />
+          <node concept="3Mpm39" id="FbmQdcSld7" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="simP2D" />
+            <property role="B$HsN" value="true" />
+            <node concept="31JHg8" id="FbmQdcSld8" role="31JHgj">
+              <property role="TrG5h" value="Cell" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1l_J7x" id="4_jTuJPx9cN" role="ZXjPg">
@@ -498,7 +496,7 @@
           <property role="2jXUS1" value="/Users/farcasia/DEAnalysis/simP2C.txt" />
         </node>
         <node concept="afgQW" id="4_jTuJPx99C" role="2xR6uJ">
-          <ref role="afgo8" node="31hiXbP0dn5" resolve="simP2C" />
+          <ref role="afgo8" node="FbmQdcSld4" resolve="simP2C" />
         </node>
       </node>
       <node concept="2xR6j2" id="4_jTuJPx9fO" role="ZXjPg">
@@ -509,7 +507,7 @@
           <property role="2jXUS1" value="/Users/farcasia/DEAnalysis/simP2D.txt" />
         </node>
         <node concept="afgQW" id="4_jTuJPx9iY" role="2xR6uJ">
-          <ref role="afgo8" node="31hiXbP0dtp" resolve="simP2D" />
+          <ref role="afgo8" node="FbmQdcSld7" resolve="simP2D" />
         </node>
       </node>
     </node>
@@ -8997,78 +8995,115 @@
     <property role="TrG5h" value="Instant refresh" />
     <node concept="ZXjPh" id="4_jTuJPvET2" role="S1EQ8">
       <property role="1MXi1$" value="ASIQWCUMOX" />
-      <node concept="1KribU" id="FbmQdcQePj" role="ZXjPg">
-        <property role="1MXi1$" value="XYOKMFBXGO" />
-        <property role="TrG5h" value="NELFWVTVAN" />
-        <node concept="1P3wDJ" id="FbmQdcQePk" role="1P3wDE">
+      <node concept="1KribU" id="FbmQdcSln9" role="ZXjPg">
+        <property role="1MXi1$" value="GUBRULLLGG" />
+        <property role="TrG5h" value="GWWHPKTPWK" />
+        <node concept="1P3wDJ" id="FbmQdcSlna" role="1P3wDE">
           <property role="1P3wDC" value="data.table" />
         </node>
-        <node concept="1P3wDJ" id="FbmQdcQePl" role="1P3wDE">
+        <node concept="1P3wDJ" id="FbmQdcSlnb" role="1P3wDE">
           <property role="1P3wDC" value="devtools" />
         </node>
       </node>
-      <node concept="3YeH35" id="FbmQdcQePm" role="ZXjPg">
+      <node concept="3YeH35" id="FbmQdcSlnc" role="ZXjPg">
         <property role="8NYsT" value="false" />
-        <property role="1MXi1$" value="LNTUMIUWDA" />
-        <node concept="3YfHzN" id="FbmQdcQePn" role="3Yewtv">
-          <property role="3YfHyE" value="0.2" />
+        <property role="1MXi1$" value="WXFJFUAFOC" />
+        <node concept="3YfHzN" id="FbmQdcSlnd" role="3Yewtv">
+          <property role="3YfHyE" value="0" />
         </node>
-        <node concept="3YfHzN" id="FbmQdcQePo" role="3Yewyb">
-          <property role="3YfHyE" value="3" />
+        <node concept="3YfHzN" id="FbmQdcSlne" role="3Yewtv">
+          <property role="3YfHyE" value="0.3" />
         </node>
-        <node concept="3YfHzN" id="FbmQdcQePp" role="3YewzS">
+        <node concept="3YfHzN" id="FbmQdcSlnf" role="3Yewyb">
+          <property role="3YfHyE" value="0" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSlng" role="3Yewyb">
+          <property role="3YfHyE" value="2" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSlnh" role="3YewzS">
+          <property role="3YfHyE" value="0" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSlni" role="3YewzS">
           <property role="3YfHyE" value="0.5" />
         </node>
-        <node concept="3MlLWZ" id="FbmQdcQePq" role="3Yewuv">
-          <property role="TrG5h" value="simP2D" />
-          <ref role="3MlLW5" node="FbmQdcQePr" resolve="simP2D" />
-          <node concept="3Mpm39" id="FbmQdcQePr" role="3WeD9t">
+        <node concept="afgQW" id="FbmQdcSlnj" role="3YewwS">
+          <ref role="afgo8" node="FbmQdcQ_QV" resolve="mergedMatrixP1.txt" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSlnk" role="3YfHv3">
+          <property role="3YfHyE" value="0.2" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSlnl" role="3YfHue">
+          <property role="3YfHyE" value="0.3" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSlnm" role="2WbhwX">
+          <property role="3YfHyE" value="0" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSlnn" role="3YfHtH">
+          <property role="3YfHyE" value="2" />
+        </node>
+        <node concept="3YfHzN" id="FbmQdcSlno" role="3YfHso">
+          <property role="3YfHyE" value="0.5" />
+        </node>
+        <node concept="3MlLWZ" id="FbmQdcSlnp" role="3Yewuv">
+          <property role="TrG5h" value="simP1C" />
+          <ref role="3MlLW5" node="FbmQdcSlnq" resolve="simP1C" />
+          <node concept="3Mpm39" id="FbmQdcSlnq" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="simP1C" />
             <property role="B$HsN" value="true" />
-            <property role="TrG5h" value="simP2D" />
-            <node concept="31JHg8" id="FbmQdcQePs" role="31JHgj">
+            <node concept="31JHg8" id="FbmQdcSlnr" role="31JHgj">
               <property role="TrG5h" value="Cell" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
           </node>
         </node>
-        <node concept="afgQW" id="FbmQdcQePt" role="3YewwS">
-          <ref role="afgo8" node="4_jTuJPx6i9" resolve="P2CTMatrixOrig.txt" />
-        </node>
-        <node concept="3YfHzN" id="FbmQdcQePu" role="3YfHv3">
-          <property role="3YfHyE" value="0.5" />
-        </node>
-        <node concept="3YfHzN" id="FbmQdcQePv" role="3YfHue">
-          <property role="3YfHyE" value="0.2" />
-        </node>
-        <node concept="3YfHzN" id="FbmQdcQePw" role="2WbhwX">
-          <property role="3YfHyE" value="0" />
-        </node>
-        <node concept="3YfHzN" id="FbmQdcQePx" role="3YfHtH">
-          <property role="3YfHyE" value="1" />
-        </node>
-        <node concept="3YfHzN" id="FbmQdcQePy" role="3YfHso">
-          <property role="3YfHyE" value="0.5" />
+        <node concept="3MlLWZ" id="FbmQdcSlns" role="3Yewuv">
+          <property role="TrG5h" value="simP1D" />
+          <ref role="3MlLW5" node="FbmQdcSlnt" resolve="simP1D" />
+          <node concept="3Mpm39" id="FbmQdcSlnt" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="simP1D" />
+            <property role="B$HsN" value="true" />
+            <node concept="31JHg8" id="FbmQdcSlnu" role="31JHgj">
+              <property role="TrG5h" value="Cell" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            </node>
+          </node>
         </node>
       </node>
-      <node concept="1Kri3l" id="FbmQdcQePz" role="ZXjPg">
-        <property role="1MXi1$" value="PNOAYGKTXB" />
-        <property role="TrG5h" value="LNTUMIUWDA" />
+      <node concept="1Kri3l" id="FbmQdcSlnv" role="ZXjPg">
+        <property role="1MXi1$" value="YPQXEIGAKW" />
+        <property role="TrG5h" value="WXFJFUAFOC" />
       </node>
-      <node concept="2xR6j2" id="FbmQdcQeP$" role="ZXjPg">
-        <property role="1MXi1$" value="COINHBAYAN" />
+      <node concept="2xR6j2" id="FbmQdcSlnw" role="ZXjPg">
+        <property role="1MXi1$" value="BYLVVQYKAK" />
         <property role="2xH6Uv" value="false" />
         <property role="2xH$9T" value="\t" />
-        <node concept="2jXUOv" id="FbmQdcQeP_" role="2jXY9D">
-          <property role="2jXUS1" value="/Users/farcasia/DEAnalysis/simP2D.txt" />
+        <node concept="2jXUOv" id="FbmQdcSlnx" role="2jXY9D">
+          <property role="2jXUS1" value="/Users/farcasia/DEAnalysis/simP1C.txt" />
         </node>
-        <node concept="afgQW" id="FbmQdcQePA" role="2xR6uJ">
-          <ref role="afgo8" node="31hiXbP0dtp" resolve="simP2D" />
+        <node concept="afgQW" id="FbmQdcSlny" role="2xR6uJ">
+          <ref role="afgo8" node="FbmQdcSl30" resolve="simP1C" />
         </node>
       </node>
-      <node concept="1Kri3l" id="FbmQdcQePB" role="ZXjPg">
-        <property role="1MXi1$" value="EXOWMDABTD" />
-        <property role="TrG5h" value="COINHBAYAN" />
+      <node concept="1Kri3l" id="FbmQdcSlnz" role="ZXjPg">
+        <property role="1MXi1$" value="VTFTEKEQKV" />
+        <property role="TrG5h" value="BYLVVQYKAK" />
+      </node>
+      <node concept="2xR6j2" id="FbmQdcSln$" role="ZXjPg">
+        <property role="1MXi1$" value="FLIPFVPTEW" />
+        <property role="2xH6Uv" value="false" />
+        <property role="2xH$9T" value="\t" />
+        <node concept="2jXUOv" id="FbmQdcSln_" role="2jXY9D">
+          <property role="2jXUS1" value="/Users/farcasia/DEAnalysis/simP1D.txt" />
+        </node>
+        <node concept="afgQW" id="FbmQdcSlnA" role="2xR6uJ">
+          <ref role="afgo8" node="FbmQdcSl33" resolve="simP1D" />
+        </node>
+      </node>
+      <node concept="1Kri3l" id="FbmQdcSlnB" role="ZXjPg">
+        <property role="1MXi1$" value="LDQEIEFOER" />
+        <property role="TrG5h" value="FLIPFVPTEW" />
       </node>
     </node>
   </node>
@@ -67387,6 +67422,10 @@
       <property role="TrG5h" value="TTTGTCATCGCATGGC" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
+  </node>
+  <node concept="3Mpm39" id="FbmQdcSmHa">
+    <property role="31Cu5t" value="&#9;" />
+    <node concept="31JHg8" id="FbmQdcSmHb" role="31JHgj" />
   </node>
 </model>
 
