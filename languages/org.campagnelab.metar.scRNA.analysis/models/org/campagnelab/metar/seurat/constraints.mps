@@ -785,9 +785,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="4XN3OU3F9ic">
-    <ref role="1M2myG" to="lznn:4XN3OU3CRP6" resolve="CondSeuratRef" />
-  </node>
   <node concept="1M2fIO" id="4XkNWzSvIqn">
     <property role="3GE5qa" value="LimmaOp" />
     <ref role="1M2myG" to="lznn:3BPxiZUs5J9" resolve="PreLimma" />
@@ -1092,7 +1089,7 @@
             <node concept="3clFbC" id="59Vu5yiNjEe" role="3uHU7B">
               <node concept="359W_D" id="59Vu5yiNkzW" role="3uHU7w">
                 <ref role="359W_E" to="lznn:1RYr706I6cb" resolve="LessThanSeurat" />
-                <ref role="359W_F" to="tpee:fJuHU4r" resolve="rightExpression" />
+                <ref role="359W_F" to="lznn:59Vu5yiO99w" resolve="rightExpression" />
               </node>
               <node concept="2DA6wF" id="59Vu5yiNjib" role="3uHU7B" />
             </node>

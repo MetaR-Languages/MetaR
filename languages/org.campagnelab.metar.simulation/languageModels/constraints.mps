@@ -416,9 +416,5 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="64Erk42pJvt">
-    <property role="3GE5qa" value="SimulationSCRNASeqData" />
-    <ref role="1M2myG" to="hgbr:C8BOZOc$Ya" resolve="SimulateSCRNASeqData" />
-  </node>
 </model>
 
