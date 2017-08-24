@@ -12,9 +12,9 @@
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="qrzj" ref="r:33ebfe68-dd35-4984-bf5b-c6afb777446c(org.campagnelab.metar.models.structure)" implicit="true" />
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
@@ -162,15 +162,11 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
         <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
         <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
-      </concept>
-      <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
-        <reference id="1176109685394" name="concept" index="3lApI3" />
       </concept>
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -784,31 +780,6 @@
         <node concept="3cpWs6" id="4tSF6VCKJjP" role="3cqZAp">
           <node concept="3clFbT" id="4tSF6VCKJjQ" role="3cqZAk">
             <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="7RHbcB10TaF">
-    <ref role="1M2myG" to="lznn:7RHbcB0VoIR" resolve="TableRefExt" />
-    <node concept="1N5Pfh" id="7RHbcB10TaG" role="1Mr941">
-      <ref role="1N5Vy1" to="jrxw:3R5AwWRY9K7" resolve="table" />
-      <node concept="3dgokm" id="7RHbcB10TaK" role="1N6uqs">
-        <node concept="3clFbS" id="7RHbcB10TaM" role="2VODD2">
-          <node concept="3clFbF" id="7RHbcB10TeC" role="3cqZAp">
-            <node concept="2YIFZM" id="4tSF6VCKJxF" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="4tSF6VCKJxG" role="37wK5m">
-                <node concept="2OqwBi" id="4tSF6VCKJxH" role="2Oq$k0">
-                  <node concept="2rP1CM" id="4tSF6VCKJxI" role="2Oq$k0" />
-                  <node concept="I4A8Y" id="4tSF6VCKJxJ" role="2OqNvi" />
-                </node>
-                <node concept="3lApI0" id="4tSF6VCKJxK" role="2OqNvi">
-                  <ref role="3lApI3" to="jrxw:2WRhvFtkykN" resolve="Table" />
-                </node>
-              </node>
-            </node>
           </node>
         </node>
       </node>

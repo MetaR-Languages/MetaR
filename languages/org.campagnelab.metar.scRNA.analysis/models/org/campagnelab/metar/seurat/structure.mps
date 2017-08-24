@@ -1216,7 +1216,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="table" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7RHbcB0VoIR" resolve="TableRefExt" />
+      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
     </node>
     <node concept="PrWs8" id="7RHbcB0VTCs" role="PzmwI">
       <ref role="PrY4T" node="7RHbcB0Vmr6" resolve="IUpdatePath" />
@@ -1246,11 +1246,6 @@
       <property role="TrG5h" value="inputChanged" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="7RHbcB0VoIR">
-    <property role="EcuMT" value="9073958069258259383" />
-    <property role="TrG5h" value="TableRefExt" />
-    <ref role="1TJDcQ" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
   </node>
   <node concept="1TIwiD" id="3BPxiZUs5J9">
     <property role="EcuMT" value="4176390670567627721" />
