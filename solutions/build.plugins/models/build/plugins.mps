@@ -2484,6 +2484,18 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="FbmQdc5M19" role="3bR37C">
+          <node concept="3bR9La" id="FbmQdc5M1a" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FbmQdc5M1b" role="3bR37C">
+          <node concept="3bR9La" id="FbmQdc5M1c" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="1yPZLM3xz9H" resolve="org.campagnelab.metar.simulation" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="3vYuQ8LHEFz" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -3613,12 +3625,6 @@
             <ref role="3bR37D" to="vh2l:7XxitGzkyrv" resolve="org.campagnelab.mps.XChart" />
           </node>
         </node>
-        <node concept="1SiIV0" id="56btAhfSGRf" role="3bR37C">
-          <node concept="3bR9La" id="56btAhfSGRg" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="vh2l:7H5cA3sEqXS" resolve="org.campagnelab.mps.XChart.types" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="56btAhfSGRh" role="3bR37C">
           <node concept="3bR9La" id="56btAhfSGRi" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -3629,12 +3635,6 @@
           <node concept="3bR9La" id="56btAhfSGRm" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="56btAhfSGRn" role="3bR37C">
-          <node concept="3bR9La" id="56btAhfSGRo" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="56btAhfSEy2" resolve="org.campagnelab.metar.seurat" />
           </node>
         </node>
         <node concept="1SiIV0" id="56btAhfSGRp" role="3bR37C">
@@ -3668,12 +3668,6 @@
             <node concept="3bR9La" id="56btAhfSGRz" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="56btAhfSGR$" role="3bR37C">
-            <node concept="3bR9La" id="56btAhfSGR_" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="1c1rOX4CcfU" resolve="org.campagnelab.metar.plots" />
             </node>
           </node>
           <node concept="1SiIV0" id="56btAhfSGRA" role="3bR37C">
