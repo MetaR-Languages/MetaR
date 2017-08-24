@@ -175,7 +175,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return new RPath(ImportTable__BehaviorDescriptor.getPath_id55a1UmAntc$.invoke(_context.getNode())).toString();
   }
   public static Object propertyMacro_GetPropertyValue_3481647356360155113(final PropertyMacroContext _context) {
-    return IterableUtils.join(ListSequence.fromList(Table__BehaviorDescriptor.getRColumnTypes_id2Vuj1UXh62n.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd7acacdL, 0x2f3745fadd7b6b2bL, "table")))).select(new ISelector<String, String>() {
+    return "\"character\"," + IterableUtils.join(ListSequence.fromList(Table__BehaviorDescriptor.getRColumnTypes_id2Vuj1UXh62n.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd7acacdL, 0x2f3745fadd7b6b2bL, "table")))).select(new ISelector<String, String>() {
       public String select(String rType) {
         return "\"" + rType + "\"";
       }
