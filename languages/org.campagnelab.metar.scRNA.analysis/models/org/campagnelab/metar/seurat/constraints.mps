@@ -1145,5 +1145,75 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="B4DH$Ilbka">
+    <ref role="1M2myG" to="lznn:7RHbcB0Vg4B" resolve="SeuratFromTable" />
+    <node concept="EnEH3" id="B4DH$Ilblg" role="1MhHOB">
+      <ref role="EomxK" to="lznn:3J_5udX5GWl" resolve="path" />
+      <node concept="QB0g5" id="B4DH$Ilblh" role="QCWH9">
+        <node concept="3clFbS" id="B4DH$Ilbli" role="2VODD2">
+          <node concept="3clFbJ" id="B4DH$Ilblj" role="3cqZAp">
+            <node concept="3clFbS" id="B4DH$Ilblk" role="3clFbx">
+              <node concept="3cpWs8" id="B4DH$Ilbll" role="3cqZAp">
+                <node concept="3cpWsn" id="B4DH$Ilblm" role="3cpWs9">
+                  <property role="TrG5h" value="newPath" />
+                  <node concept="17QB3L" id="B4DH$Ilbln" role="1tU5fm" />
+                  <node concept="2OqwBi" id="B4DH$Ilblo" role="33vP2m">
+                    <node concept="2YIFZM" id="B4DH$Ilblp" role="2Oq$k0">
+                      <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                    </node>
+                    <node concept="liA8E" id="B4DH$Ilblq" role="2OqNvi">
+                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                      <node concept="1Wqviy" id="B4DH$Ilblr" role="37wK5m" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs8" id="B4DH$Ilbls" role="3cqZAp">
+                <node concept="3cpWsn" id="B4DH$Ilblt" role="3cpWs9">
+                  <property role="TrG5h" value="file" />
+                  <node concept="3uibUv" id="B4DH$Ilblu" role="1tU5fm">
+                    <ref role="3uigEE" to="guwi:~File" resolve="File" />
+                  </node>
+                  <node concept="2ShNRf" id="B4DH$Ilblv" role="33vP2m">
+                    <node concept="1pGfFk" id="B4DH$Ilblw" role="2ShVmc">
+                      <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                      <node concept="37vLTw" id="B4DH$Ilblx" role="37wK5m">
+                        <ref role="3cqZAo" node="B4DH$Ilblm" resolve="newPath" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="B4DH$Ilbly" role="3cqZAp" />
+              <node concept="3cpWs6" id="B4DH$IleY_" role="3cqZAp">
+                <node concept="2OqwBi" id="B4DH$IlfPO" role="3cqZAk">
+                  <node concept="37vLTw" id="B4DH$Ilf8B" role="2Oq$k0">
+                    <ref role="3cqZAo" node="B4DH$Ilblt" resolve="file" />
+                  </node>
+                  <node concept="liA8E" id="B4DH$IlgDt" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="B4DH$IlbmG" role="3clFbw">
+              <node concept="1Wqviy" id="B4DH$IlbmH" role="2Oq$k0" />
+              <node concept="17RvpY" id="B4DH$IlbmI" role="2OqNvi" />
+            </node>
+            <node concept="9aQIb" id="B4DH$IlbmJ" role="9aQIa">
+              <node concept="3clFbS" id="B4DH$IlbmK" role="9aQI4">
+                <node concept="3cpWs6" id="B4DH$IlbmL" role="3cqZAp">
+                  <node concept="3clFbT" id="B4DH$IlbmM" role="3cqZAk">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
