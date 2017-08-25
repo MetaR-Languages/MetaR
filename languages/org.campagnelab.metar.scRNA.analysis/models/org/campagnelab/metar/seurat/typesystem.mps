@@ -1289,7 +1289,7 @@
                 <node concept="3clFbF" id="4ssfE$9FVFh" role="3cqZAp">
                   <node concept="37vLTI" id="4ssfE$9FVFi" role="3clFbG">
                     <node concept="Xl_RD" id="4ssfE$9FVFj" role="37vLTx">
-                      <property role="Xl_RC" value="genes" />
+                      <property role="Xl_RC" value="GeneName" />
                     </node>
                     <node concept="2OqwBi" id="4ssfE$9FVFk" role="37vLTJ">
                       <node concept="37vLTw" id="4ssfE$9FVFl" role="2Oq$k0">
