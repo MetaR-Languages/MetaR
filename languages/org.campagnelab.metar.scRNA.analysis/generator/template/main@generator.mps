@@ -14444,7 +14444,7 @@
                 <property role="1MXi1$" value="UUVCDPBMFC" />
                 <node concept="2PZJpp" id="81QE2NhrtI" role="134Gdo">
                   <property role="1MXi1$" value="RGNKCPCVMO" />
-                  <property role="TrG5h" value="as.data.frame" />
+                  <property role="TrG5h" value="as.data.table" />
                 </node>
                 <node concept="gNbv0" id="81QE2NhrtJ" role="134Gdu">
                   <property role="1MXi1$" value="RDEBWSQIGF" />
