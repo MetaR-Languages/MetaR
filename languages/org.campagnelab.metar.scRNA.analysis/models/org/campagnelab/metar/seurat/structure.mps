@@ -1264,8 +1264,8 @@
     <node concept="1TJgyj" id="3BPxiZUs8pJ" role="1TKVEi">
       <property role="IQ2ns" value="4176390670567638639" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="futureTableWrapper" />
-      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="futureTableWrappers" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3BPxiZUtojn" resolve="AggregateCountsTableWrapper" />
     </node>
     <node concept="PrWs8" id="3BPxiZUs8pH" role="PzmwI">
@@ -1368,6 +1368,13 @@
     <property role="TrG5h" value="EmptyLineContextAssist" />
     <property role="3GE5qa" value="ContextAssistant" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miix" resolve="EmptyLine" />
+  </node>
+  <node concept="1TIwiD" id="81QE2NgDKC">
+    <property role="EcuMT" value="144637046789676072" />
+    <property role="3GE5qa" value="LimmaOp" />
+    <property role="TrG5h" value="AggregateCountsWithNamesTableWrapper" />
+    <property role="34LRSv" value="aggregate counts with names table" />
+    <ref role="1TJDcQ" node="3BPxiZUtojn" resolve="AggregateCountsTableWrapper" />
   </node>
 </model>
 
