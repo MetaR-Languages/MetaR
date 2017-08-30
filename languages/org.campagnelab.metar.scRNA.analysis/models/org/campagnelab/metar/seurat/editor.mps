@@ -13,8 +13,8 @@
     <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" />
     <import index="7nzw" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#2b3d76b7-a9ea-44f6-8a30-283c3ffb5f0a(jetbrains.mps.lang.project.modules/module.org.campagnelab.ui.code@project_stub)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
   </imports>
@@ -348,6 +348,21 @@
           <ref role="1NtTu8" to="lznn:3J_5udXfdFL" resolve="seurat" />
         </node>
         <node concept="2iRfu4" id="3J_5udX2QwI" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="7qXY2CnGLn_" role="3EZMnx">
+        <node concept="VPM3Z" id="7qXY2CnGLnB" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="7qXY2CnGLnD" role="3EZMnx">
+          <property role="3F0ifm" value="annotations:" />
+        </node>
+        <node concept="3F2HdR" id="7qXY2CnGLpQ" role="3EZMnx">
+          <property role="2czwfO" value="," />
+          <ref role="1NtTu8" to="lznn:7qXY2CnGLfZ" resolve="annotations" />
+          <ref role="1k5W1q" to="8gqa:7Hltlm8E96y" resolve="GroupName" />
+          <node concept="2iRfu4" id="7qXY2CnGLpS" role="2czzBx" />
+        </node>
+        <node concept="2iRfu4" id="7qXY2CnGLnE" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="7lSaFvHEZd2" role="3EZMnx">
         <node concept="3F0ifn" id="7lSaFvHEZbB" role="3EZMnx">

@@ -99,6 +99,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1GombsE_hv_" resolve="RejectGeneStrategy" />
     </node>
+    <node concept="1TJgyj" id="7qXY2CnGLfZ" role="1TKVEi">
+      <property role="IQ2ns" value="8556267726743737343" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="annotations" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+    </node>
     <node concept="PrWs8" id="2jGfOiyRCIB" role="PzmwI">
       <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
