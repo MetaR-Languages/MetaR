@@ -3688,6 +3688,12 @@
             <ref role="1Busuk" node="6g5l50dUyaG" resolve="org.campagnelab.metar.models" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4x8rD4ZOhC5" role="3bR37C">
+          <node concept="3bR9La" id="4x8rD4ZOhC6" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2_Ic$z" id="5Ak$p3hCPSn" role="3989C9">

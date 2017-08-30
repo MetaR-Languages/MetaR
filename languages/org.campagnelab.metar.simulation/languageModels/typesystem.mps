@@ -135,9 +135,13 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
+      <concept id="1227096620180" name="jetbrains.mps.lang.typesystem.structure.ReferenceMessageTarget" flags="ng" index="2OE7Q9">
+        <reference id="1227096645744" name="linkDeclaration" index="2OEe5H" />
+      </concept>
       <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
         <child id="1227096802791" name="helginsIntention" index="2OEOjU" />
         <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
+        <child id="1227096836496" name="messageTarget" index="2OEWyd" />
       </concept>
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
@@ -291,6 +295,9 @@
               </node>
               <node concept="1YBJjd" id="64Erk42ws6f" role="2OEOjV">
                 <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+              </node>
+              <node concept="2OE7Q9" id="4x8rD4ZP3N8" role="2OEWyd">
+                <ref role="2OEe5H" to="hgbr:C8BOZOd$wy" resolve="noOfGroups" />
               </node>
             </node>
           </node>
@@ -451,6 +458,9 @@
               <node concept="1YBJjd" id="64Erk42ws9k" role="2OEOjV">
                 <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
               </node>
+              <node concept="2OE7Q9" id="4x8rD4ZP61G" role="2OEWyd">
+                <ref role="2OEe5H" to="hgbr:C8BOZOd$zQ" resolve="noOfCells" />
+              </node>
             </node>
           </node>
         </node>
@@ -526,6 +536,9 @@
               <node concept="1YBJjd" id="64Erk42wslR" role="2OEOjV">
                 <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
               </node>
+              <node concept="2OE7Q9" id="4x8rD4ZP7JV" role="2OEWyd">
+                <ref role="2OEe5H" to="hgbr:C8BOZOd$$z" resolve="noOFGenes" />
+              </node>
             </node>
           </node>
         </node>
@@ -539,6 +552,9 @@
             </node>
             <node concept="1YBJjd" id="64Erk42wCrd" role="2OEOjV">
               <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+            </node>
+            <node concept="2OE7Q9" id="4x8rD4ZP9uj" role="2OEWyd">
+              <ref role="2OEe5H" to="hgbr:C8BOZOd$xn" resolve="deDownProbability" />
             </node>
           </node>
         </node>
@@ -605,6 +621,9 @@
             </node>
             <node concept="1YBJjd" id="4_jTuJPvMY5" role="2OEOjV">
               <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+            </node>
+            <node concept="2OE7Q9" id="4x8rD4ZPbcF" role="2OEWyd">
+              <ref role="2OEe5H" to="hgbr:4_jTuJPvJRm" resolve="outProb" />
             </node>
           </node>
         </node>
@@ -673,6 +692,9 @@
                 </node>
                 <node concept="1YBJjd" id="64Erk42yn3U" role="2OEOjV">
                   <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+                </node>
+                <node concept="2OE7Q9" id="4x8rD4ZPcV3" role="2OEWyd">
+                  <ref role="2OEe5H" to="hgbr:C8BOZOcDtW" resolve="groupDivision" />
                 </node>
               </node>
             </node>
@@ -826,6 +848,9 @@
                   <node concept="1YBJjd" id="64Erk42y$PN" role="2OEOjV">
                     <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
                   </node>
+                  <node concept="2OE7Q9" id="4x8rD4ZPeDr" role="2OEWyd">
+                    <ref role="2OEe5H" to="hgbr:C8BOZOcDtW" resolve="groupDivision" />
+                  </node>
                 </node>
               </node>
               <node concept="1Wc70l" id="64Erk42xwjK" role="3clFbw">
@@ -866,6 +891,9 @@
                   </node>
                   <node concept="1YBJjd" id="64Erk42y_4z" role="2OEOjV">
                     <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+                  </node>
+                  <node concept="2OE7Q9" id="4x8rD4ZPgo4" role="2OEWyd">
+                    <ref role="2OEe5H" to="hgbr:C8BOZOcDv4" resolve="deMeanPerGroup" />
                   </node>
                 </node>
               </node>
@@ -908,6 +936,9 @@
                   <node concept="1YBJjd" id="64Erk42yAFw" role="2OEOjV">
                     <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
                   </node>
+                  <node concept="2OE7Q9" id="4x8rD4ZPi6s" role="2OEWyd">
+                    <ref role="2OEe5H" to="hgbr:C8BOZOcDuR" resolve="deProbPerGroup" />
+                  </node>
                 </node>
               </node>
               <node concept="1Wc70l" id="64Erk42yAFx" role="3clFbw">
@@ -948,6 +979,9 @@
                   </node>
                   <node concept="1YBJjd" id="64Erk42yC0b" role="2OEOjV">
                     <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+                  </node>
+                  <node concept="2OE7Q9" id="4x8rD4ZPjOO" role="2OEWyd">
+                    <ref role="2OEe5H" to="hgbr:C8BOZOcDwg" resolve="deSDPerGroup" />
                   </node>
                 </node>
               </node>
@@ -990,6 +1024,9 @@
                   </node>
                   <node concept="1YBJjd" id="64Erk42yHth" role="2OEOjV">
                     <ref role="1YBMHb" node="64Erk42qbwa" resolve="simulateSCRNASeqData" />
+                  </node>
+                  <node concept="2OE7Q9" id="4x8rD4ZPlzc" role="2OEWyd">
+                    <ref role="2OEe5H" to="hgbr:C8BOZOcDtW" resolve="groupDivision" />
                   </node>
                 </node>
               </node>

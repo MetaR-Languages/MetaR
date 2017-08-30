@@ -427,7 +427,7 @@
         </node>
         <node concept="16NfqN" id="6bALrFtZeEX" role="16L4Y_">
           <node concept="16NTG9" id="6bALrFtZeF4" role="16NFga">
-            <property role="16NFvD" value="0.5" />
+            <property role="16NFvD" value="0.1" />
           </node>
           <node concept="16Nezg" id="6bALrFtZeF5" role="16NFga">
             <property role="16NFvD" value="0.0125" />

@@ -208,6 +208,10 @@
         <child id="8459500803719374387" name="plot" index="1FHg$q" />
         <child id="8459500803719286733" name="dataSelection" index="1FHY3$" />
       </concept>
+      <concept id="2417420436961839041" name="org.campagnelab.metar.tables.structure.SaveSession" flags="ng" index="1Kri3l" />
+      <concept id="2417420436961838574" name="org.campagnelab.metar.tables.structure.LoadSession" flags="ng" index="1KribU">
+        <child id="2417420437005954430" name="dependencies" index="1P3wDE" />
+      </concept>
       <concept id="3402264987261651661" name="org.campagnelab.metar.tables.structure.ImportTable" flags="ng" index="3MjoWR">
         <reference id="3402264987261692715" name="table" index="3Mj2Vh" />
         <child id="3402264987261651716" name="future" index="3MjoVY" />
@@ -247,6 +251,9 @@
       </concept>
       <concept id="3402264987266660978" name="org.campagnelab.metar.tables.structure.SelectByGroup" flags="ng" index="3MW7Y8">
         <reference id="3402264987266660979" name="byGroup" index="3MW7Y9" />
+      </concept>
+      <concept id="2417420437005954427" name="org.campagnelab.metar.tables.structure.SessionDependency" flags="ng" index="1P3wDJ">
+        <property id="2417420437005954428" name="dependency" index="1P3wDC" />
       </concept>
       <concept id="4166618652716277483" name="org.campagnelab.metar.tables.structure.SubSetTableRows" flags="ng" index="3WuldX">
         <child id="4451133196880140419" name="table" index="aecac" />
@@ -592,10 +599,6 @@
         <node concept="afgQW" id="5lDNWrJN8mR" role="34tvVl">
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
-      </node>
-      <node concept="S1EQe" id="4r50q8aI6Cc" role="ZXjPg">
-        <property role="S1EQ6" value="LBDALNEYYF" />
-        <property role="1MXi1$" value="UTDFQGCLXO" />
       </node>
       <node concept="3WuldX" id="4r50q8aI6Cd" role="ZXjPg">
         <property role="S1EQ6" value="CGLJYLRYDD" />
@@ -1085,9 +1088,8 @@
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
       </node>
-      <node concept="S1EQe" id="7eyWL1Lfqgd" role="ZXjPg">
-        <property role="S1EQ6" value="TWCJWUBSCT" />
-        <property role="1MXi1$" value="LYSEFHLQWT" />
+      <node concept="S1EQe" id="5oaAukX_HqO" role="ZXjPg">
+        <property role="1MXi1$" value="SXRILWFNML" />
       </node>
       <node concept="3giYhJ" id="7eyWL1Lfque" role="ZXjPg">
         <property role="S1EQ6" value="ODLFSKRUXK" />
@@ -1744,9 +1746,17 @@
           <ref role="afgo8" node="1EG$v9O98so" resolve="Results" />
         </node>
       </node>
-      <node concept="S1EQe" id="3W3L4MKjODb" role="ZXjPg">
-        <property role="S1EQ6" value="VBDFESCHGV" />
-        <property role="1MXi1$" value="ERJMYSSVBX" />
+      <node concept="S1EQe" id="5oaAukX_i9l" role="ZXjPg">
+        <property role="1MXi1$" value="JKHSTDBAKN" />
+      </node>
+      <node concept="S1EQe" id="5oaAukX_iwm" role="ZXjPg">
+        <property role="1MXi1$" value="SWHAYWRITN" />
+      </node>
+      <node concept="S1EQe" id="5oaAukX_NOr" role="ZXjPg">
+        <property role="1MXi1$" value="VRQRVSGTVB" />
+      </node>
+      <node concept="S1EQe" id="5oaAukX_je$" role="ZXjPg">
+        <property role="1MXi1$" value="VEBRBQBWWL" />
       </node>
     </node>
   </node>
@@ -1842,6 +1852,53 @@
     </node>
     <node concept="1dcRRW" id="5lDNWrJXzdH" role="2YPqp2">
       <property role="2A4bwM" value="true" />
+    </node>
+  </node>
+  <node concept="S1EQb" id="5oaAukX_JhJ">
+    <property role="2BDq$p" value="false" />
+    <property role="TrG5h" value="Instant refresh" />
+    <node concept="ZXjPh" id="5oaAukX_JhL" role="S1EQ8">
+      <property role="1MXi1$" value="PFUWRKYWPW" />
+      <node concept="1KribU" id="5oaAukX_JhB" role="ZXjPg">
+        <property role="1MXi1$" value="YQBHCKEQKL" />
+        <property role="TrG5h" value="LNPQVLOSYJ" />
+        <node concept="1P3wDJ" id="5oaAukX_JhC" role="1P3wDE">
+          <property role="1P3wDC" value="plyr" />
+        </node>
+        <node concept="1P3wDJ" id="5oaAukX_JhD" role="1P3wDE">
+          <property role="1P3wDC" value="Cairo" />
+        </node>
+        <node concept="1P3wDJ" id="5oaAukX_JhE" role="1P3wDE">
+          <property role="1P3wDC" value="limma" />
+        </node>
+        <node concept="1P3wDJ" id="5oaAukX_JhF" role="1P3wDE">
+          <property role="1P3wDC" value="data.table" />
+        </node>
+        <node concept="1P3wDJ" id="5oaAukX_JhG" role="1P3wDE">
+          <property role="1P3wDC" value="ztable" />
+        </node>
+        <node concept="1P3wDJ" id="5oaAukX_JhH" role="1P3wDE">
+          <property role="1P3wDC" value="edgeR" />
+        </node>
+        <node concept="1P3wDJ" id="5oaAukX_JhI" role="1P3wDE">
+          <property role="1P3wDC" value="pheatmap" />
+        </node>
+      </node>
+      <node concept="34tvTV" id="5oaAukX_JhM" role="ZXjPg">
+        <property role="S1EQ6" value="TPASBFNGKB" />
+        <property role="34tvW_" value="7" />
+        <property role="34tvWB" value="3" />
+        <property role="34gX7q" value="false" />
+        <property role="1MXi1$" value="NQWXHWAKAE" />
+        <ref role="L_9Jz" node="5lDNWrJNeMM" resolve="TableStyle" />
+        <node concept="afgQW" id="5oaAukX_JhN" role="34tvVl">
+          <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
+        </node>
+      </node>
+      <node concept="1Kri3l" id="5oaAukX_JhO" role="ZXjPg">
+        <property role="1MXi1$" value="CDFOBPVKCV" />
+        <property role="TrG5h" value="NQWXHWAKAE" />
+      </node>
     </node>
   </node>
 </model>
