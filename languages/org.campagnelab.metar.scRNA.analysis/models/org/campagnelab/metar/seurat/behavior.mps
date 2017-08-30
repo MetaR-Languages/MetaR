@@ -7118,7 +7118,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="5t30k5$ZCbv" role="3uHU7B">
-                      <property role="Xl_RC" value="C" />
+                      <property role="Xl_RC" value="Cluster" />
                     </node>
                   </node>
                 </node>
