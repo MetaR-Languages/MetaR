@@ -1368,6 +1368,7 @@
     <property role="EcuMT" value="4360337168382440015" />
     <property role="3GE5qa" value="LimmaOp" />
     <property role="TrG5h" value="LimmaFTWrapper" />
+    <property role="34LRSv" value="DE genes table (and glimma path):" />
     <ref role="1TJDcQ" node="3J_5udXhhDH" resolve="FutureTableWrapper" />
   </node>
   <node concept="1TIwiD" id="5YbQYga7iC5">

@@ -2280,9 +2280,6 @@
       <node concept="3F0ifn" id="3Vn8EN0Tnvd" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
-      <node concept="3F0ifn" id="3M31SPQnFKb" role="3EZMnx">
-        <property role="3F0ifm" value="DE genes per comparison:" />
-      </node>
       <node concept="3F2HdR" id="3M31SPQntCi" role="3EZMnx">
         <ref role="1NtTu8" to="lznn:3Vn8EN0Tnrh" resolve="destinationTables" />
         <node concept="2iRkQZ" id="3M31SPQntCl" role="2czzBx" />
@@ -2306,8 +2303,36 @@
   <node concept="24kQdi" id="3M31SPQnFpI">
     <property role="3GE5qa" value="LimmaOp" />
     <ref role="1XX52x" to="lznn:3M31SPQnz9f" resolve="LimmaFTWrapper" />
-    <node concept="3F1sOY" id="3M31SPQnFqo" role="2wV5jI">
-      <ref role="1NtTu8" to="lznn:3J_5udXhhDI" resolve="table" />
+    <node concept="3EZMnI" id="6Sje3Q$dMTl" role="2wV5jI">
+      <node concept="2iRfu4" id="6Sje3Q$dMTm" role="2iSdaV" />
+      <node concept="PMmxH" id="6Sje3Q$dMTU" role="3EZMnx">
+        <ref role="PMmxG" node="22QJO5OKPh6" resolve="aliasReloaded" />
+      </node>
+      <node concept="3F1sOY" id="3M31SPQnFqo" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3J_5udXhhDI" resolve="table" />
+      </node>
+    </node>
+    <node concept="3EZMnI" id="6Sje3Q$e7mS" role="6VMZX">
+      <node concept="3F0ifn" id="6Sje3Q$e7n8" role="3EZMnx">
+        <property role="3F0ifm" value="glimma path:" />
+      </node>
+      <node concept="1HlG4h" id="6Sje3Q$e7nn" role="3EZMnx">
+        <node concept="1HfYo3" id="6Sje3Q$e7np" role="1HlULh">
+          <node concept="3TQlhw" id="6Sje3Q$e7nr" role="1Hhtcw">
+            <node concept="3clFbS" id="6Sje3Q$e7nt" role="2VODD2">
+              <node concept="3clFbF" id="6Sje3Q$fP6p" role="3cqZAp">
+                <node concept="2OqwBi" id="6Sje3Q$fPjY" role="3clFbG">
+                  <node concept="pncrf" id="6Sje3Q$fP6o" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="6Sje3Q$fRiC" role="2OqNvi">
+                    <ref role="37wK5l" to="9kby:6Sje3Q$e7wb" resolve="glimmaPath" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="6Sje3Q$e7mV" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5YbQYga7iDV">
