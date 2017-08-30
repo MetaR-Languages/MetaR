@@ -2166,9 +2166,8 @@
       <node concept="3F0ifn" id="3BPxiZUs9ml" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
-      <node concept="3F2HdR" id="81QE2NjH1Q" role="3EZMnx">
-        <ref role="1NtTu8" to="lznn:3BPxiZUs8pJ" resolve="futureTableWrappers" />
-        <node concept="2iRkQZ" id="81QE2NjH1T" role="2czzBx" />
+      <node concept="3F1sOY" id="4x8rD4ZQzbG" role="3EZMnx">
+        <ref role="1NtTu8" to="lznn:3BPxiZUs8pJ" resolve="futureTableWrapper" />
       </node>
       <node concept="2iRfu4" id="3BPxiZUs9mU" role="2iSdaV" />
     </node>

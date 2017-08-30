@@ -1264,8 +1264,8 @@
     <node concept="1TJgyj" id="3BPxiZUs8pJ" role="1TKVEi">
       <property role="IQ2ns" value="4176390670567638639" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="futureTableWrappers" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="futureTableWrapper" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3BPxiZUtojn" resolve="AggregateCountsTableWrapper" />
     </node>
     <node concept="PrWs8" id="3BPxiZUs8pH" role="PzmwI">
