@@ -1097,7 +1097,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return Integer.toString(SNodeOperations.getIndexInParent(_context.getNode()) + 1);
   }
   public static Object propertyMacro_GetPropertyValue_5056358962710991396(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(Limma__BehaviorDescriptor.getGroupUsageRef_idC8BOZO9tmE.invoke(((SNode) _context.getVariable("var:outerLimma")))).first(), MetaAdapterFactory.getReferenceLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea907eddd91L, 0x471c3ea907eddd92L, "groupUsage")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+    return SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(Limma__BehaviorDescriptor.getGroupUsageRef_idC8BOZO9tmE.invoke(((SNode) _context.getVariable("var:outerLimma")))).last(), MetaAdapterFactory.getReferenceLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea907eddd91L, 0x471c3ea907eddd92L, "groupUsage")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static Object propertyMacro_GetPropertyValue_7931745206129365830(final PropertyMacroContext _context) {
     return new RPath(LimmaFTWrapper__BehaviorDescriptor.getCleanModelName_id6Sje3Q$exEc.invoke(_context.getNode()) + File.separator + LimmaFTWrapper__BehaviorDescriptor.glimmaDirName_id7tHgX0wOTkT.invoke(_context.getNode())).toString();

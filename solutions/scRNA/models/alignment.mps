@@ -4255,16 +4255,16 @@
                     <node concept="3$Gm2I" id="4r50q8aI6Gs" role="3uHU7B">
                       <ref role="3$Gm2J" node="7qXY2CnLd5m" resolve="logFC" />
                     </node>
-                    <node concept="3cmrfG" id="4r50q8aI6Gt" role="3uHU7w">
-                      <property role="3cmrfH" value="-1" />
+                    <node concept="3b6qkQ" id="Q1ZZsxQDvD" role="3uHU7w">
+                      <property role="$nhwW" value="-0.5" />
                     </node>
                   </node>
                   <node concept="3eOSWO" id="4r50q8aI6Gu" role="3uHU7B">
                     <node concept="3$Gm2I" id="4r50q8aI6Gv" role="3uHU7B">
                       <ref role="3$Gm2J" node="7qXY2CnLd5m" resolve="logFC" />
                     </node>
-                    <node concept="3cmrfG" id="6NeitPgSVQm" role="3uHU7w">
-                      <property role="3cmrfH" value="1" />
+                    <node concept="3b6qkQ" id="Q1ZZsxQCJ0" role="3uHU7w">
+                      <property role="$nhwW" value="0.5" />
                     </node>
                   </node>
                 </node>
