@@ -498,7 +498,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="C8BOZOcGcU" role="3EZMnx">
-                <property role="3F0ifm" value="mean library size:" />
+                <property role="3F0ifm" value="mean library size (log value):" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F1sOY" id="C8BOZOd$BN" role="3EZMnx">
@@ -514,7 +514,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="64Erk42vA_2" role="3EZMnx">
-                <property role="3F0ifm" value="standard deviation library size:" />
+                <property role="3F0ifm" value="standard deviation library size (log value):" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F1sOY" id="64Erk42vA_3" role="3EZMnx">
@@ -530,7 +530,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="C8BOZOdnZH" role="3EZMnx">
-                <property role="3F0ifm" value="base mean:" />
+                <property role="3F0ifm" value="base mean (log value):" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F1sOY" id="C8BOZOd$Cg" role="3EZMnx">
@@ -546,7 +546,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="C8BOZOdo07" role="3EZMnx">
-                <property role="3F0ifm" value="base standard deviation:" />
+                <property role="3F0ifm" value="base standard deviation (log value):" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F1sOY" id="C8BOZOd$CH" role="3EZMnx">
@@ -578,7 +578,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="4_jTuJPvKn2" role="3EZMnx">
-                <property role="3F0ifm" value="outlier mean" />
+                <property role="3F0ifm" value="outlier mean (log value)" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F1sOY" id="4_jTuJPvKn3" role="3EZMnx">
@@ -594,7 +594,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="4_jTuJPvKvs" role="3EZMnx">
-                <property role="3F0ifm" value="outlier standard deviation" />
+                <property role="3F0ifm" value="outlier standard deviation (log value)" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F1sOY" id="4_jTuJPvKvt" role="3EZMnx">
@@ -626,7 +626,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="C8BOZOcGmG" role="3EZMnx">
-                <property role="3F0ifm" value="group division:" />
+                <property role="3F0ifm" value="group proportions:" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F2HdR" id="C8BOZOcGvZ" role="3EZMnx">
@@ -662,7 +662,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="C8BOZOcGWA" role="3EZMnx">
-                <property role="3F0ifm" value="DE mean per group:" />
+                <property role="3F0ifm" value="DE mean per group (log values):" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F2HdR" id="C8BOZOcH5T" role="3EZMnx">
@@ -680,7 +680,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="C8BOZOcH68" role="3EZMnx">
-                <property role="3F0ifm" value="DE standard deviation per group:" />
+                <property role="3F0ifm" value="DE standard deviation per group (log values):" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F2HdR" id="C8BOZOcHfr" role="3EZMnx">
@@ -698,7 +698,7 @@
                 <property role="VOm3f" value="false" />
               </node>
               <node concept="3F0ifn" id="C8BOZOcHfE" role="3EZMnx">
-                <property role="3F0ifm" value="DE down probability:" />
+                <property role="3F0ifm" value="DE down-regulated probability:" />
                 <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
               </node>
               <node concept="3F1sOY" id="C8BOZOd$D2" role="3EZMnx">
