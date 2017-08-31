@@ -13,9 +13,6 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
-        <property id="1113006610751" name="value" index="$nhwW" />
-      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -407,11 +404,11 @@
         </node>
         <node concept="16LEZw" id="6bALrFtZf2_" role="16L4Y_">
           <node concept="16LdhA" id="6bALrFtZf2A" role="16L4H4">
-            <node concept="rhwXB" id="1RYr706LQlr" role="16Ldh_">
-              <node concept="3b6qkQ" id="1RYr706LQlH" role="3uHU7w">
-                <property role="$nhwW" value="0.1" />
+            <node concept="rhwXB" id="2fOFItm7MQK" role="16Ldh_">
+              <node concept="16Nrny" id="2fOFItm7MRm" role="3uHU7B" />
+              <node concept="3cmrfG" id="2fOFItm7MQM" role="3uHU7w">
+                <property role="3cmrfH" value="10" />
               </node>
-              <node concept="16Nrny" id="1RYr706LQl_" role="3uHU7B" />
             </node>
             <node concept="rhwXB" id="1RYr706LQqj" role="16Ldh_">
               <node concept="3cmrfG" id="1RYr706LQqF" role="3uHU7w">

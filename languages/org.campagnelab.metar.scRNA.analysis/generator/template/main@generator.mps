@@ -56,6 +56,11 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -88,6 +93,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -2549,6 +2557,52 @@
                         <node concept="3clFbH" id="7lSaFvHYC9u" role="3cqZAp" />
                         <node concept="3clFbJ" id="7lSaFvHYC9v" role="3cqZAp">
                           <node concept="3clFbS" id="7lSaFvHYC9w" role="3clFbx">
+                            <node concept="3clFbJ" id="2fOFItm76f3" role="3cqZAp">
+                              <node concept="3clFbS" id="2fOFItm76f5" role="3clFbx">
+                                <node concept="3cpWs6" id="2fOFItm7a2P" role="3cqZAp">
+                                  <node concept="2YIFZM" id="2fOFItm7jKj" role="3cqZAk">
+                                    <ref role="37wK5l" to="wyt6:~Float.toString(float):java.lang.String" resolve="toString" />
+                                    <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
+                                    <node concept="FJ1c_" id="2fOFItm7gBM" role="37wK5m">
+                                      <node concept="3cmrfG" id="2fOFItm7gBS" role="3uHU7w">
+                                        <property role="3cmrfH" value="100" />
+                                      </node>
+                                      <node concept="1eOMI4" id="2fOFItm7quh" role="3uHU7B">
+                                        <node concept="10QFUN" id="2fOFItm7que" role="1eOMHV">
+                                          <node concept="10OMs4" id="2fOFItm7r03" role="10QFUM" />
+                                          <node concept="2OqwBi" id="2fOFItm7cSM" role="10QFUP">
+                                            <node concept="1PxgMI" id="2fOFItm7cSN" role="2Oq$k0">
+                                              <node concept="37vLTw" id="2fOFItm7cSO" role="1m5AlR">
+                                                <ref role="3cqZAo" node="71JQJG2jfRR" resolve="rightHandExpression" />
+                                              </node>
+                                              <node concept="chp4Y" id="2fOFItm7cSP" role="3oSUPX">
+                                                <ref role="cht4Q" to="tpee:fzcmrck" resolve="IntegerConstant" />
+                                              </node>
+                                            </node>
+                                            <node concept="3TrcHB" id="2fOFItm7cSQ" role="2OqNvi">
+                                              <ref role="3TsBF5" to="tpee:fzcmrcl" resolve="value" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="2OqwBi" id="2fOFItm78fX" role="3clFbw">
+                                <node concept="2YIFZM" id="2fOFItm77ba" role="2Oq$k0">
+                                  <ref role="37wK5l" to="9kby:71JQJG2l_v_" resolve="leftHandExpression" />
+                                  <ref role="1Pybhc" to="9kby:7lSaFvHVJG1" resolve="ICleanupSeuratGenHelpers" />
+                                  <node concept="30H73N" id="2fOFItm77DG" role="37wK5m" />
+                                </node>
+                                <node concept="1mIQ4w" id="2fOFItm7943" role="2OqNvi">
+                                  <node concept="chp4Y" id="2fOFItm79xJ" role="cj9EA">
+                                    <ref role="cht4Q" to="lznn:3J_5udXaa01" resolve="PercentageMitochondrialGenes" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbH" id="2fOFItm74Yx" role="3cqZAp" />
                             <node concept="3cpWs6" id="7lSaFvHYC9x" role="3cqZAp">
                               <node concept="2YIFZM" id="7lSaFvHYC9y" role="3cqZAk">
                                 <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />

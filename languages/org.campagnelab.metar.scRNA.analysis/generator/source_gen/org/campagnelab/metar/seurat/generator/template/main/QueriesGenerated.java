@@ -223,6 +223,10 @@ public class QueriesGenerated extends QueryProviderBase {
     assert (boolean) Expression__BehaviorDescriptor.isCompileTimeConstant_idi1LOPRp.invoke(rightHandExpression);
 
     if (SNodeOperations.isInstanceOf(rightHandExpression, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, "jetbrains.mps.baseLanguage.structure.IntegerConstant"))) {
+      if (SNodeOperations.isInstanceOf(ICleanupSeuratGenHelpers.leftHandExpression(_context.getNode()), MetaAdapterFactory.getConcept(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d28a001L, "org.campagnelab.metar.seurat.structure.PercentageMitochondrialGenes"))) {
+        return Float.toString(((float) SPropertyOperations.getInteger(SNodeOperations.cast(rightHandExpression, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, "jetbrains.mps.baseLanguage.structure.IntegerConstant")), MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, 0xf8cc59b315L, "value"))) / 100);
+      }
+
       return Integer.toString(SPropertyOperations.getInteger(SNodeOperations.cast(rightHandExpression, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, "jetbrains.mps.baseLanguage.structure.IntegerConstant")), MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, 0xf8cc59b315L, "value")));
     }
     if (SNodeOperations.isInstanceOf(rightHandExpression, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x102cb19a434L, "jetbrains.mps.baseLanguage.structure.FloatingPointConstant"))) {
