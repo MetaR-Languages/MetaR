@@ -11,12 +11,12 @@
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
     <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
     <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" implicit="true" />
@@ -16127,10 +16127,24 @@
                         <node concept="2ShNRf" id="6Sje3Q$g6e9" role="2Oq$k0">
                           <node concept="1pGfFk" id="6Sje3Q$g7TM" role="2ShVmc">
                             <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
-                            <node concept="2OqwBi" id="6Sje3Q$g4Ey" role="37wK5m">
-                              <node concept="30H73N" id="6Sje3Q$g44J" role="2Oq$k0" />
-                              <node concept="2qgKlT" id="6Sje3Q$g5eM" role="2OqNvi">
-                                <ref role="37wK5l" to="9kby:6Sje3Q$e7wb" resolve="glimmaPath" />
+                            <node concept="3cpWs3" id="5TOLd3SE7y6" role="37wK5m">
+                              <node concept="2OqwBi" id="5TOLd3SE863" role="3uHU7w">
+                                <node concept="30H73N" id="5TOLd3SE7Ol" role="2Oq$k0" />
+                                <node concept="2qgKlT" id="5TOLd3SE8Mq" role="2OqNvi">
+                                  <ref role="37wK5l" to="9kby:7tHgX0wOTkT" resolve="glimmaDirName" />
+                                </node>
+                              </node>
+                              <node concept="3cpWs3" id="5TOLd3SE5rt" role="3uHU7B">
+                                <node concept="2OqwBi" id="6Sje3Q$g4Ey" role="3uHU7B">
+                                  <node concept="30H73N" id="6Sje3Q$g44J" role="2Oq$k0" />
+                                  <node concept="2qgKlT" id="5TOLd3SE2Pe" role="2OqNvi">
+                                    <ref role="37wK5l" to="9kby:6Sje3Q$exEc" resolve="getCleanModelName" />
+                                  </node>
+                                </node>
+                                <node concept="10M0yZ" id="3RDLr5ONXrv" role="3uHU7w">
+                                  <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                                  <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
+                                </node>
                               </node>
                             </node>
                           </node>
