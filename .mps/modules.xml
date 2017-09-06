@@ -30,9 +30,12 @@
       <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.limma.jar!/META-INF/module.xml" folder="" />
       <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.models.jar!/META-INF/module.xml" folder="" />
       <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.plots.jar!/META-INF/module.xml" folder="" />
+      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.scnorm.jar!/META-INF/module.xml" folder="" />
+      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.seurat.jar!/META-INF/module.xml" folder="" />
       <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.simulation.jar!/META-INF/module.xml" folder="" />
       <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.sleuth.jar!/META-INF/module.xml" folder="" />
       <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.tables.jar!/META-INF/module.xml" folder="" />
+      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.variance.jar!/META-INF/module.xml" folder="" />
       <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.with.r.jar!/META-INF/module.xml" folder="" />
       <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.modeling.jar!/META-INF/module.xml" folder="" />
       <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.runR.jar!/META-INF/module.xml" folder="" />
