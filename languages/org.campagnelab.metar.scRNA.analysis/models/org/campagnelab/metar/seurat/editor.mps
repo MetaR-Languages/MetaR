@@ -11,7 +11,6 @@
   <imports>
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="9kby" ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)" />
-    <import index="7nzw" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#2b3d76b7-a9ea-44f6-8a30-283c3ffb5f0a(jetbrains.mps.lang.project.modules/module.org.campagnelab.ui.code@project_stub)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />

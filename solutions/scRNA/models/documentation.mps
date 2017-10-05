@@ -176,6 +176,7 @@
         <property id="2357281742821537162" name="prealigned" index="1kOCFb" />
         <child id="4176390670568103849" name="conditions" index="33wxE6" />
       </concept>
+      <concept id="4360337168382440015" name="org.campagnelab.metar.seurat.structure.LimmaFTWrapper" flags="ng" index="1aRjn2" />
       <concept id="5724936381208427846" name="org.campagnelab.metar.seurat.structure.CondSeuratRef" flags="ng" index="3cO788">
         <reference id="5724936381208427847" name="seurat" index="3cO789" />
       </concept>
@@ -190,6 +191,7 @@
         <child id="5124039371746755079" name="modelFormula" index="1f2fMI" />
         <child id="5124039371746755432" name="contrasts" index="1f2fR1" />
         <child id="4528126075710305996" name="counts" index="3Yc_hw" />
+        <child id="4528126075710306001" name="destinationTables" index="3Yc_hX" />
       </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
@@ -235,6 +237,9 @@
       </concept>
       <concept id="3402264987265829883" name="org.campagnelab.metar.tables.structure.ColumnGroup" flags="ng" index="3MzsS1">
         <child id="8031339867720116700" name="usesRefs" index="2y_Iji" />
+      </concept>
+      <concept id="3402264987265829804" name="org.campagnelab.metar.tables.structure.ColumnAnnotation" flags="ng" index="3MzsTm">
+        <child id="3402264987265831176" name="groups" index="3MztjM" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -435,7 +440,7 @@
           <node concept="2rfVTk" id="3rFtNue4H6N" role="2oLyky">
             <property role="ZHjxa" value="200" />
             <property role="ZHjG8" value="200" />
-            <property role="3ZMXzF" value="1000" />
+            <property role="3ZMXzF" value="1040" />
           </node>
         </node>
         <node concept="16ML3z" id="3rFtNue4H6O" role="16M02g" />
@@ -599,7 +604,7 @@
           <node concept="2rfVTk" id="3rFtNue4pND" role="2oLyky">
             <property role="ZHjxa" value="300" />
             <property role="ZHjG8" value="300" />
-            <property role="3ZMXzF" value="1060" />
+            <property role="3ZMXzF" value="1090" />
             <property role="TrG5h" value="violinNGene" />
           </node>
         </node>
@@ -715,7 +720,7 @@
           <node concept="2rfVTk" id="3rFtNue551l" role="2oLyky">
             <property role="ZHjxa" value="400" />
             <property role="ZHjG8" value="400" />
-            <property role="3ZMXzF" value="1000" />
+            <property role="3ZMXzF" value="1110" />
             <property role="TrG5h" value="tsneClustersDatasets" />
           </node>
         </node>
@@ -783,6 +788,47 @@
         <node concept="3ZW7eb" id="3rFtNue5hPq" role="lGtFl">
           <property role="2ripvU" value="1" />
           <property role="TrG5h" value="LimmaSeurat" />
+        </node>
+        <node concept="1aRjn2" id="3gW$W3ftyb1" role="3Yc_hX">
+          <node concept="3MlLWZ" id="3gW$W3ftyb2" role="16C0Yd">
+            <property role="TrG5h" value="deGenesForContrast" />
+            <ref role="3MlLW5" node="3gW$W3ftyb3" resolve="deGenesForContrast" />
+            <node concept="3Mpm39" id="3gW$W3ftyb3" role="3WeD9t">
+              <property role="31Cu5t" value="&#9;" />
+              <property role="TrG5h" value="deGenesForContrast" />
+              <node concept="31JHg8" id="3gW$W3ftyb4" role="31JHgj">
+                <property role="TrG5h" value="GeneName" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+                <node concept="3MzsTm" id="3gW$W3ftyb5" role="lGtFl">
+                  <node concept="3MzsBX" id="3gW$W3ftyb6" role="3MztjM" />
+                </node>
+              </node>
+              <node concept="31JHg8" id="3gW$W3ftyb7" role="31JHgj">
+                <property role="TrG5h" value="logFC" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="3gW$W3ftyb8" role="31JHgj">
+                <property role="TrG5h" value="AveExpr" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="3gW$W3ftyb9" role="31JHgj">
+                <property role="TrG5h" value="t" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="3gW$W3ftyba" role="31JHgj">
+                <property role="TrG5h" value="P.Value" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="3gW$W3ftybb" role="31JHgj">
+                <property role="TrG5h" value="adj.P.Val" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+              <node concept="31JHg8" id="3gW$W3ftybc" role="31JHgj">
+                <property role="TrG5h" value="B" />
+                <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQB" role="ZXjPg">
