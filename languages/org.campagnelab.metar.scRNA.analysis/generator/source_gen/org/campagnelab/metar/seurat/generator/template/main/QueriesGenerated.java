@@ -224,7 +224,7 @@ public class QueriesGenerated extends QueryProviderBase {
 
     if (SNodeOperations.isInstanceOf(rightHandExpression, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, "jetbrains.mps.baseLanguage.structure.IntegerConstant"))) {
       if (SNodeOperations.isInstanceOf(ICleanupSeuratGenHelpers.leftHandExpression(_context.getNode()), MetaAdapterFactory.getConcept(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d28a001L, "org.campagnelab.metar.seurat.structure.PercentageMitochondrialGenes"))) {
-        return Float.toString(((float) SPropertyOperations.getInteger(SNodeOperations.cast(rightHandExpression, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, "jetbrains.mps.baseLanguage.structure.IntegerConstant")), MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, 0xf8cc59b315L, "value"))) / 100);
+        return Float.toString((SPropertyOperations.getInteger(SNodeOperations.cast(rightHandExpression, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, "jetbrains.mps.baseLanguage.structure.IntegerConstant")), MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, 0xf8cc59b315L, "value"))) / 100);
       }
 
       return Integer.toString(SPropertyOperations.getInteger(SNodeOperations.cast(rightHandExpression, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, "jetbrains.mps.baseLanguage.structure.IntegerConstant")), MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc59b314L, 0xf8cc59b315L, "value")));
@@ -444,8 +444,11 @@ public class QueriesGenerated extends QueryProviderBase {
     return (String) IModifySeurat__BehaviorDescriptor.destSeuratName_id7lSaFvHZqCP.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_8464562469103485133(final PropertyMacroContext _context) {
+    if (isEmptyString(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214732L, 0x3be515e37d2d1573L, "param")), MetaAdapterFactory.getProperty(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d2ea46fL, 0x3be515e37d2ea475L, "percentage")))) {
+      return "0.0";
+    }
     if (LOG.isInfoEnabled()) {
-      LoggingRuntime.legacyLog(Level.INFO, "Percentage: " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214732L, 0x3be515e37d2d1573L, "param")), MetaAdapterFactory.getProperty(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d2ea46fL, 0x3be515e37d2ea475L, "percentage")), QueriesGenerated.class, null);
+      LOG.info("Percentage: " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214732L, 0x3be515e37d2d1573L, "param")), MetaAdapterFactory.getProperty(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d2ea46fL, 0x3be515e37d2ea475L, "percentage")));
     }
     return Double.toString(Float.parseFloat(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d214732L, 0x3be515e37d2d1573L, "param")), MetaAdapterFactory.getProperty(0x6562d9c6fb824150L, 0x9d7f5e4f50d7bba1L, 0x3be515e37d2ea46fL, 0x3be515e37d2ea475L, "percentage"))) / 100);
   }
@@ -2350,5 +2353,8 @@ public class QueriesGenerated extends QueryProviderBase {
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
     }
+  }
+  private static boolean isEmptyString(String str) {
+    return str == null || str.length() == 0;
   }
 }
