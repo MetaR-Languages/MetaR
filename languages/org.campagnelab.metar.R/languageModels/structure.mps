@@ -91,7 +91,6 @@
   </node>
   <node concept="1TIwiD" id="5mPDeVwiJFe">
     <property role="TrG5h" value="RScript" />
-    <property role="OYydz" value="Program" />
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="6176023809880685262" />
     <ref role="1TJDcQ" node="5mPDeVwiJFd" resolve="Prog" />
