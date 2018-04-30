@@ -932,34 +932,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="B4DH$Is77T" role="3EZMnx">
-        <property role="3F0ifm" value="has row names=" />
-      </node>
-      <node concept="1HlG4h" id="B4DH$Is8ug" role="3EZMnx">
-        <node concept="1HfYo3" id="B4DH$Is8uh" role="1HlULh">
-          <node concept="3TQlhw" id="B4DH$Is8ui" role="1Hhtcw">
-            <node concept="3clFbS" id="B4DH$Is8uj" role="2VODD2">
-              <node concept="3clFbF" id="B4DH$Is8uk" role="3cqZAp">
-                <node concept="2YIFZM" id="B4DH$IsfVE" role="3clFbG">
-                  <ref role="37wK5l" to="wyt6:~Boolean.toString(boolean):java.lang.String" resolve="toString" />
-                  <ref role="1Pybhc" to="wyt6:~Boolean" resolve="Boolean" />
-                  <node concept="2OqwBi" id="B4DH$Is8um" role="37wK5m">
-                    <node concept="2OqwBi" id="B4DH$Is8us" role="2Oq$k0">
-                      <node concept="pncrf" id="B4DH$Is8ut" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="B4DH$Is8uu" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" resolve="table" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="B4DH$IseKl" role="2OqNvi">
-                      <ref role="3TsBF5" to="ztlb:B4DH$IlB7E" resolve="hasRowNames" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3F0ifn" id="3BiNpr61tvI" role="3EZMnx">
         <property role="3F0ifm" value="Columns" />
         <node concept="pVoyu" id="3BiNpr61usO" role="3F10Kt">
