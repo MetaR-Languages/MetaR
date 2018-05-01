@@ -56,6 +56,7 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -260,6 +261,10 @@
                                       <ref role="2pJxaS" to="tpf8:gZ0H77W" resolve="TemplateFunctionParameter_sourceNode" />
                                     </node>
                                   </node>
+                                  <node concept="2pIpSj" id="1tjeH0idSqz" role="2pJxcM">
+                                    <ref role="2pIpSl" to="tp25:3oQEojIPgjT" resolve="conceptArgument" />
+                                    <node concept="10Nm6u" id="1tjeH0idSsp" role="2pJxcZ" />
+                                  </node>
                                 </node>
                               </node>
                               <node concept="2pIpSj" id="6YH$XmRcD$2" role="2pJxcM">
@@ -424,6 +429,10 @@
                                     <node concept="2pJPED" id="79$YT4ld_lB" role="2pJxcZ">
                                       <ref role="2pJxaS" to="tpf8:gZ0H77W" resolve="TemplateFunctionParameter_sourceNode" />
                                     </node>
+                                  </node>
+                                  <node concept="2pIpSj" id="1tjeH0idSrk" role="2pJxcM">
+                                    <ref role="2pIpSl" to="tp25:3oQEojIPgjT" resolve="conceptArgument" />
+                                    <node concept="10Nm6u" id="1tjeH0idSs5" role="2pJxcZ" />
                                   </node>
                                 </node>
                               </node>
