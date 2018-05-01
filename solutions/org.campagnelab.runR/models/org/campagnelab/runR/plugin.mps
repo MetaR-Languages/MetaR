@@ -8299,10 +8299,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="7nsdmC8vzqI" role="2OqNvi">
-                          <ref role="37wK5l" to="m0f7:~ModelsToResources.resources(boolean):java.lang.Iterable" resolve="resources" />
-                          <node concept="3clFbT" id="7nsdmC8vzqJ" role="37wK5m">
-                            <property role="3clFbU" value="false" />
-                          </node>
+                          <ref role="37wK5l" to="m0f7:~ModelsToResources.resources():java.lang.Iterable" resolve="resources" />
                         </node>
                       </node>
                       <node concept="A3Dl8" id="6efZaUghL6O" role="10QFUM">
