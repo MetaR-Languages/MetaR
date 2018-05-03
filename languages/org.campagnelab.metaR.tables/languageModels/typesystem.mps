@@ -191,6 +191,7 @@
         <child id="1216391046856" name="descriptionBlock" index="QzAvj" />
       </concept>
       <concept id="1216383287005" name="jetbrains.mps.lang.typesystem.structure.QuickFixExecuteBlock" flags="in" index="Q5ZZ6" />
+      <concept id="1216383337216" name="jetbrains.mps.lang.typesystem.structure.ConceptFunctionParameter_node" flags="nn" index="Q6c8r" />
       <concept id="1216383482742" name="jetbrains.mps.lang.typesystem.structure.QuickFixArgument" flags="ng" index="Q6JDH">
         <child id="1216383511839" name="argumentType" index="Q6QK4" />
       </concept>
@@ -3297,6 +3298,9 @@
             <node concept="1YBJjd" id="7uYamNfl_K3" role="2OEOjV">
               <ref role="1YBMHb" node="7uYamNflpD1" resolve="iGenerateToRScript" />
             </node>
+            <node concept="3Cnw8n" id="61_Q76mNyv4" role="2OEOjU">
+              <ref role="QpYPw" node="61_Q76mNo4_" resolve="GenerateNewIDs" />
+            </node>
           </node>
         </node>
         <node concept="3eOVzh" id="7uYamNfqOoB" role="3clFbw">
@@ -3553,6 +3557,62 @@
     <node concept="1YaCAy" id="4QZXGcYYCeV" role="1YuTPh">
       <property role="TrG5h" value="testNodeAnnotation" />
       <ref role="1YaFvo" to="tp5g:hBxLA2s" resolve="TestNodeAnnotation" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="61_Q76mNo4_">
+    <property role="TrG5h" value="GenerateNewIDs" />
+    <node concept="Q5ZZ6" id="61_Q76mNo4A" role="Q6x$H">
+      <node concept="3clFbS" id="61_Q76mNo4B" role="2VODD2">
+        <node concept="3clFbF" id="61_Q76mNq4z" role="3cqZAp">
+          <node concept="2OqwBi" id="61_Q76mNsC2" role="3clFbG">
+            <node concept="2OqwBi" id="61_Q76mNqb3" role="2Oq$k0">
+              <node concept="Q6c8r" id="61_Q76mNq4x" role="2Oq$k0" />
+              <node concept="2Rf3mk" id="61_Q76mNqo9" role="2OqNvi">
+                <node concept="1xMEDy" id="61_Q76mNqob" role="1xVPHs">
+                  <node concept="chp4Y" id="61_Q76mNqvq" role="ri$Ld">
+                    <ref role="cht4Q" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2es0OD" id="61_Q76mNw8H" role="2OqNvi">
+              <node concept="1bVj0M" id="61_Q76mNw8J" role="23t8la">
+                <node concept="3clFbS" id="61_Q76mNw8K" role="1bW5cS">
+                  <node concept="3clFbF" id="61_Q76mNwd9" role="3cqZAp">
+                    <node concept="2OqwBi" id="61_Q76mNwnJ" role="3clFbG">
+                      <node concept="37vLTw" id="61_Q76mNwd8" role="2Oq$k0">
+                        <ref role="3cqZAo" node="61_Q76mNw8L" resolve="it" />
+                      </node>
+                      <node concept="2qgKlT" id="61_Q76mNyfp" role="2OqNvi">
+                        <ref role="37wK5l" to="k6y1:cisdhLTPr5" resolve="generateNewID" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="61_Q76mNw8L" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="61_Q76mNw8M" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Q6JDH" id="61_Q76mNo8w" role="Q6Id_">
+      <property role="TrG5h" value="root" />
+      <node concept="3Tqbb2" id="61_Q76mNo8x" role="Q6QK4">
+        <ref role="ehGHo" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
+      </node>
+    </node>
+    <node concept="QznSV" id="61_Q76mNo98" role="QzAvj">
+      <node concept="3clFbS" id="61_Q76mNo99" role="2VODD2">
+        <node concept="3clFbF" id="61_Q76mNohS" role="3cqZAp">
+          <node concept="Xl_RD" id="61_Q76mNohR" role="3clFbG">
+            <property role="Xl_RC" value="Generate a new ID for all the Statements" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
