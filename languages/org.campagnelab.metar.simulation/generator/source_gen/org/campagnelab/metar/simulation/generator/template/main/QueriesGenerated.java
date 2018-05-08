@@ -17,6 +17,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import org.campagnelab.metar.simulation.behavior.CovariateFactor__BehaviorDescriptor;
 import org.campagnelab.metar.tables.behavior.GroupAnnotation__BehaviorDescriptor;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import java.util.Objects;
 import org.campagnelab.metar.code.generator.helpers.NameHelper;
 import org.campagnelab.metar.code.generator.helpers.RPath;
 import org.campagnelab.metar.tables.behavior.FutureTable__BehaviorDescriptor;
@@ -99,7 +100,7 @@ public class QueriesGenerated extends QueryProviderBase {
     }
     return IterableUtils.join(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x79170bb4b56ebd77L, "simulationTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a74L, "columns"))).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode column) {
-        return neq_x583g4_a0a0a0a0a0a0c0k(SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), SimulateDataset__BehaviorDescriptor.geneColumnName_id6m3kBexWyv$.invoke(SNodeOperations.asSConcept(MetaAdapterFactory.getConcept(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, "org.campagnelab.metar.simulation.structure.SimulateDataset"))));
+        return !(Objects.equals(SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), SimulateDataset__BehaviorDescriptor.geneColumnName_id6m3kBexWyv$.invoke(SNodeOperations.asSConcept(MetaAdapterFactory.getConcept(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, "org.campagnelab.metar.simulation.structure.SimulateDataset")))));
       }
     }).select(new ISelector<SNode, String>() {
       public String select(SNode sample) {
@@ -691,8 +692,5 @@ __switch__:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
     }
-  }
-  private static boolean neq_x583g4_a0a0a0a0a0a0c0k(Object a, Object b) {
-    return !(((a != null ? a.equals(b) : a == b)));
   }
 }

@@ -1754,11 +1754,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3gMg70bWNOB" role="3bR37C">
-          <node concept="1Busua" id="3gMg70bWNOC" role="1SiIV1">
-            <ref role="1Busuk" node="3gMg70bRmft" resolve="org.campagnelab.metar.inspect" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3gMg70bWO0V" role="3bR37C">
           <node concept="1Busua" id="3gMg70bWO0W" role="1SiIV1">
             <ref role="1Busuk" to="vh2l:7XxitGzkyrv" resolve="org.campagnelab.mps.XChart" />
@@ -1767,11 +1762,6 @@
         <node concept="1SiIV0" id="3gMg70bWO0X" role="3bR37C">
           <node concept="1Busua" id="3gMg70bWO0Y" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3gMg70bWO0Z" role="3bR37C">
-          <node concept="1Busua" id="3gMg70bWO10" role="1SiIV1">
-            <ref role="1Busuk" to="nr1s:2mFg1uCEgGH" resolve="org.campagnelab.textoutput" />
           </node>
         </node>
         <node concept="1yeLz9" id="3gMg70bWO11" role="1TViLv">
@@ -1965,6 +1955,18 @@
           <node concept="3bR9La" id="1tjeH0jkWyG" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1d41uYMTVPB" resolve="jetbrains.mps.lang.scopes.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="bnUduCpOQ_" role="3bR37C">
+          <node concept="3bR9La" id="bnUduCpOQA" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="nr1s:2mFg1uCEgGH" resolve="org.campagnelab.textoutput" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="bnUduCpOQB" role="3bR37C">
+          <node concept="3bR9La" id="bnUduCpOQC" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmft" resolve="org.campagnelab.metar.inspect" />
           </node>
         </node>
       </node>

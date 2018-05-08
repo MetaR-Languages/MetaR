@@ -58,11 +58,9 @@
         <module reference="544eb3a5-f68f-41ed-98e0-db6291e897fb(org.campagnelab.metar.R.inspect)" version="0" />
         <module reference="1c6252a0-6f97-46c6-9420-fec06fc86e92(org.campagnelab.metar.R.inspect#4156558924941055313)" version="0" />
         <module reference="c901f7a1-ed4f-4b52-8d35-10d1a33974f0(org.campagnelab.metar.code)" version="0" />
-        <module reference="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" version="0" />
         <module reference="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" version="0" />
         <module reference="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" version="0" />
         <module reference="43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.styles)" version="0" />
-        <module reference="901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
