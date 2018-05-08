@@ -78,6 +78,7 @@
     <import index="yo81" ref="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="lznn" ref="r:061dbddb-3dae-415c-af46-45dc4cc2e098(org.campagnelab.metar.seurat.structure)" />
+    <import index="ic9i" ref="r:8aafee6a-4721-443e-8020-e8986ed3f25a(jetbrains.mps.execution.configurations.implementation.plugin.plugin)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
@@ -508,6 +509,7 @@
         <child id="5475888311765521408" name="parameter" index="1ZwhtC" />
       </concept>
       <concept id="7037083547576022975" name="jetbrains.mps.execution.configurations.structure.BeforeTask" flags="ng" index="2PEKAc">
+        <property id="8903462855138769388" name="caption" index="OSgQB" />
         <child id="6550182048787568298" name="parameter" index="yYnPO" />
         <child id="2454261876037700497" name="execute" index="1D3o6X" />
       </concept>
@@ -1190,20 +1192,20 @@
     <property role="3GE5qa" value="R" />
     <property role="3gLNDv" value="myRunConfiguration" />
     <ref role="yIonz" node="5gyVhZ17Jj8" resolve="R" />
-    <node concept="yYvg6" id="5gyVhZ17Jmc" role="yYvgT">
+    <node concept="yYvg6" id="7RogX4VEb8y" role="yYvgT">
       <ref role="yYvg7" to="eva:4KDfkUwMkVJ" resolve="MakeNodePointers" />
-      <node concept="2ShNRf" id="5gyVhZ17Jmd" role="1ZwhtC">
-        <node concept="Tc6Ow" id="5gyVhZ17Jme" role="2ShVmc">
-          <node concept="3uibUv" id="5gyVhZ17Jmf" role="HW$YZ">
+      <node concept="2ShNRf" id="7RogX4VEb8z" role="1ZwhtC">
+        <node concept="Tc6Ow" id="7RogX4VEb8$" role="2ShVmc">
+          <node concept="3uibUv" id="7RogX4VEb8_" role="HW$YZ">
             <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
           </node>
-          <node concept="2OqwBi" id="5gyVhZ17Jmg" role="HW$Y0">
-            <node concept="2XshWL" id="5h4fo9Gsu5n" role="2OqNvi">
+          <node concept="2OqwBi" id="7RogX4VEb8A" role="HW$Y0">
+            <node concept="2XshWL" id="7RogX4VEb8B" role="2OqNvi">
               <ref role="2WH_rO" to="awpe:7byHRlLCxOy" resolve="getNode" />
             </node>
-            <node concept="2OqwBi" id="5gyVhZ17Jmi" role="2Oq$k0">
-              <node concept="RBKsg" id="5gyVhZ17Jmj" role="2Oq$k0" />
-              <node concept="yHkDZ" id="6W4RPA0zUio" role="2OqNvi">
+            <node concept="2OqwBi" id="7RogX4VEb8C" role="2Oq$k0">
+              <node concept="RBKsg" id="7RogX4VEb8D" role="2Oq$k0" />
+              <node concept="yHkDZ" id="5gyVhZ17Jmk" role="2OqNvi">
                 <ref role="yHkDY" node="5gyVhZ17JkL" resolve="myNode" />
               </node>
             </node>
@@ -1211,20 +1213,20 @@
         </node>
       </node>
     </node>
-    <node concept="yYvg6" id="1t7sLRHnoDZ" role="yYvgT">
+    <node concept="yYvg6" id="7RogX4VFdhx" role="yYvgT">
       <ref role="yYvg7" node="3HMibU_qHv5" resolve="GenerateThenMake" />
-      <node concept="2ShNRf" id="1t7sLRHuZas" role="1ZwhtC">
-        <node concept="Tc6Ow" id="1t7sLRHuZat" role="2ShVmc">
-          <node concept="3uibUv" id="1t7sLRHuZau" role="HW$YZ">
+      <node concept="2ShNRf" id="7RogX4VFd_6" role="1ZwhtC">
+        <node concept="Tc6Ow" id="7RogX4VFd_7" role="2ShVmc">
+          <node concept="3uibUv" id="7RogX4VFd_8" role="HW$YZ">
             <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
           </node>
-          <node concept="2OqwBi" id="1t7sLRHuZav" role="HW$Y0">
-            <node concept="2XshWL" id="1t7sLRHuZaw" role="2OqNvi">
+          <node concept="2OqwBi" id="7RogX4VFd_9" role="HW$Y0">
+            <node concept="2XshWL" id="7RogX4VFd_a" role="2OqNvi">
               <ref role="2WH_rO" to="awpe:7byHRlLCxOy" resolve="getNode" />
             </node>
-            <node concept="2OqwBi" id="1t7sLRHuZax" role="2Oq$k0">
-              <node concept="RBKsg" id="1t7sLRHuZay" role="2Oq$k0" />
-              <node concept="yHkDZ" id="6W4RPA0zUG2" role="2OqNvi">
+            <node concept="2OqwBi" id="7RogX4VFd_b" role="2Oq$k0">
+              <node concept="RBKsg" id="7RogX4VFd_c" role="2Oq$k0" />
+              <node concept="yHkDZ" id="7RogX4VFd_d" role="2OqNvi">
                 <ref role="yHkDY" node="5gyVhZ17JkL" resolve="myNode" />
               </node>
             </node>
@@ -7772,6 +7774,7 @@
   <node concept="2PEKAc" id="3HMibU_qHv5">
     <property role="3GE5qa" value="R" />
     <property role="TrG5h" value="GenerateThenMake" />
+    <property role="OSgQB" value="GenerateThenMake" />
     <node concept="yYmJa" id="3HMibU_r7sr" role="yYnPO">
       <property role="TrG5h" value="analyses" />
       <node concept="_YKpA" id="3HMibU_r7ss" role="1tU5fm">
@@ -9893,7 +9896,7 @@
       <node concept="3uibUv" id="3zqZiqC1RAp" role="Sfmx6">
         <ref role="3uigEE" to="3v5a:~ExecutionException" resolve="ExecutionException" />
       </node>
-      <node concept="3uibUv" id="3zqZiqCmQkQ" role="3clF45">
+      <node concept="3uibUv" id="7RogX4VGchf" role="3clF45">
         <ref role="3uigEE" to="3v5a:~ExecutionResult" resolve="ExecutionResult" />
       </node>
     </node>
