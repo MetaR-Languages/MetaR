@@ -1493,7 +1493,7 @@
             <property role="2Ry0Am" value="languages" />
             <node concept="2Ry0Ak" id="1$0xyBYfkOA" role="2Ry0An">
               <property role="2Ry0Am" value="org.campagnelab.metar.code" />
-              <node concept="2Ry0Ak" id="1$0xyBYfkQY" role="2Ry0An">
+              <node concept="2Ry0Ak" id="5AuUFuzEyoR" role="2Ry0An">
                 <property role="2Ry0Am" value="org.campagnelab.metar.code.mpl" />
               </node>
             </node>
@@ -2455,6 +2455,12 @@
           <node concept="3bR9La" id="7RogX4VHsYZ" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:5xa9wY2vhb7" resolve="jetbrains.mps.execution.configurations.implementation.plugin" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5AuUFuzDFWj" role="3bR37C">
+          <node concept="3bR9La" id="5AuUFuzDFWk" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg2" resolve="jetbrains.mps.smodel.resources" />
           </node>
         </node>
       </node>
