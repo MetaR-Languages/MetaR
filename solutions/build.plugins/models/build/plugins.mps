@@ -4,11 +4,7 @@
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="-1" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -18,6 +14,7 @@
     <import index="t9i9" ref="r:006098bf-146e-48ca-a752-e9a7c66a9eb3(org.campagnelab.build.NYoSh)" />
     <import index="vh2l" ref="r:64aeeca7-3a4b-4dcc-b81a-48f20fa34cb4(org.campangelab.xchart)" />
     <import index="h9g5" ref="r:7aca3565-24aa-4c08-aaaf-0fe7bbf3b79f(org.campagnelab.build.Logger)" />
+    <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.slisson.mps.all.build)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -218,6 +215,17 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="1UrpUrLUcXs" role="1l3spd">
+      <property role="TrG5h" value="mps.extensions.home" />
+      <node concept="55IIr" id="1UrpUrLUcXt" role="398pKh">
+        <node concept="2Ry0Ak" id="1UrpUrLUcXu" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="6T2IikInnQx" role="2Ry0An">
+            <property role="2Ry0Am" value="de.itemis.mps.extensions" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2kB4xC" id="3gMg70bX6Gp" role="1l3spd">
       <property role="TrG5h" value="metaR_version" />
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
@@ -387,6 +395,15 @@
         <ref role="398BVh" node="3gMg70bRmeS" resolve="mps_home" />
       </node>
     </node>
+    <node concept="2sgV4H" id="fjQrsdNobh" role="1l3spa">
+      <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
+      <node concept="398BVA" id="fjQrsdNoqn" role="2JcizS">
+        <ref role="398BVh" node="1UrpUrLUcXs" resolve="mps.extensions.home" />
+        <node concept="2Ry0Ak" id="6T2IikInnVk" role="iGT6I">
+          <property role="2Ry0Am" value="mps-richtext" />
+        </node>
+      </node>
+    </node>
     <node concept="1l3spV" id="3gMg70bRmfC" role="1l3spN">
       <node concept="3981dG" id="7XxitGzkyrX" role="39821P">
         <node concept="3_J27D" id="7XxitGzkyrY" role="Nbhlr">
@@ -498,6 +515,9 @@
       </node>
       <node concept="m$_yC" id="2NA8L6KzDZD" role="m$_yJ">
         <ref role="m$_y1" to="h9g5:7ZmC9JYEfXD" resolve="org.campagnelab.logger" />
+      </node>
+      <node concept="m$_yC" id="6jI3565Rjzz" role="m$_yJ">
+        <ref role="m$_y1" to="90a9:1sO539bGQvt" resolve="de.slisson.mps.richtext" />
       </node>
       <node concept="3_J27D" id="3gMg70bRmfA" role="m_cZH">
         <node concept="3Mxwew" id="3gMg70bRmfB" role="3MwsjC">
