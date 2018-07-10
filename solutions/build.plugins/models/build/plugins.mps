@@ -2483,6 +2483,18 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg2" resolve="jetbrains.mps.smodel.resources" />
           </node>
         </node>
+        <node concept="1SiIV0" id="$DED_ptmy$" role="3bR37C">
+          <node concept="3bR9La" id="$DED_ptmy_" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="$DED_ptmyA" role="3bR37C">
+          <node concept="3bR9La" id="$DED_ptmyB" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:71aLKqdKvPp" resolve="jetbrains.mps.ide.make" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1S_LPePu7V7" role="2G$12L">
         <property role="BnDLt" value="true" />
