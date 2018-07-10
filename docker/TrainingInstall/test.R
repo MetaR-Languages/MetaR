@@ -412,3 +412,5 @@ plot_DEKVUDCSIH(null)
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/602416447544327972/\n");
 
+source("https://bioconductor.org/biocLite.R")
+        biocLite("Glimma")

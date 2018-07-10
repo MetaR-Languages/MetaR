@@ -1,5 +1,5 @@
 # Version: 1.0.0 
-FROM rocker/verse:3.4.0
+FROM rocker/verse:3.5.1
 #FROM r-base:latest
 MAINTAINER Fabien Campagne "fac2003@campagnelab.org"
 ## Refresh package list and upgrade
@@ -7,18 +7,20 @@ MAINTAINER Fabien Campagne "fac2003@campagnelab.org"
 RUN echo "deb http://ftp.us.debian.org/debian jessie main" >> /etc/apt/sources.list
 RUN echo "deb-src http://ftp.us.debian.org/debian jessie main" >> /etc/apt/sources.list
 #RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
-#RUN apt-get update
+RUN apt-get update
+RUN apt-get -y install python-software-properties
+#RUN add-apt-repository universe
+
 ## Remain current
 #RUN apt-get update -qq \
 #	&& apt-get dist-upgrade -y 
-
+#RUN apt-file search libhdf5_serial_hl.so.10
 RUN useradd docker \
 	&& mkdir /home/docker \
 	&& chown docker:docker /home/docker \
 	&& addgroup docker staff
-
 RUN Rscript -e 'R.Version()'
-
+RUN apt-get -y install libhdf5-dev
 RUN  Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite("edgeR", ask=FALSE);  biocLite("limma", ask=FALSE); ' \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds 
 
@@ -35,6 +37,10 @@ RUN mkdir -p /etc/R \
 RUN mkdir -p /home/docker \
 && chown docker:docker /home/docker \
 && addgroup docker staff
+RUN wget https://cran.r-project.org/src/contrib/hdf5r_1.0.0.tar.gz \
+&& R CMD INSTALL hdf5r_1.0.0.tar.gz
+ADD install-Seurat.R /tmp/install-Seurat.R
+RUN Rscript --verbose /tmp/install-Seurat.R && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 ADD test.R test.R
 ADD install-metaR-packages.R /tmp/install-metaR-packages.R
 RUN Rscript --verbose /tmp/install-metaR-packages.R \
@@ -42,5 +48,7 @@ RUN Rscript --verbose /tmp/install-metaR-packages.R \
 ADD install-metaR-packages-2.R /tmp/install-metaR-packages-2.R
 RUN Rscript --verbose /tmp/install-metaR-packages-2.R \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+ADD install-GLimma.R /tmp/install-GLimma.R
+RUN Rscript --verbose /tmp/install-GLimma.R
 
 RUN echo "Installed packages needed for MetaR training session"
