@@ -485,6 +485,11 @@
     <property role="3GE5qa" value="CleanUpOp.Strategies" />
     <property role="TrG5h" value="AcceptHighVarGenesStrategy" />
     <property role="34LRSv" value="by accepting highly variable genes" />
+    <node concept="1TJgyi" id="4cAGdIeZ7QD" role="1TKVEl">
+      <property role="IQ2nx" value="4838749306699414953" />
+      <property role="TrG5h" value="numBin" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyj" id="3J_5udXaU7D" role="1TKVEi">
       <property role="IQ2ns" value="4315879884706259433" />
       <property role="20lmBu" value="aggregation" />
@@ -1007,8 +1012,8 @@
       <property role="IQ2ns" value="2161284099589438943" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="leftExpression" />
-      <ref role="20lvS9" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
       <ref role="20ksaX" to="tpee:fJuHU4s" resolve="leftExpression" />
+      <ref role="20lvS9" node="3J_5udX8BnD" resolve="AbstractSeuratVariable" />
     </node>
     <node concept="PrWs8" id="1RYr706I6co" role="PzmwI">
       <ref role="PrY4T" node="1RYr706I6cj" resolve="IBinaryComparatorSeurat" />

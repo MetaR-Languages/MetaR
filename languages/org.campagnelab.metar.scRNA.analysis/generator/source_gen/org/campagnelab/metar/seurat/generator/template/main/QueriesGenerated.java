@@ -23,7 +23,6 @@ import org.campagnelab.metar.tables.behavior.Plot__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import org.campagnelab.metar.seurat.behavior.INameInR__BehaviorDescriptor;
 import org.apache.log4j.Level;
-import jetbrains.mps.baseLanguage.logging.runtime.model.LoggingRuntime;
 import jetbrains.mps.baseLanguage.behavior.Expression__BehaviorDescriptor;
 import org.campagnelab.metar.seurat.behavior.IModifySeurat__BehaviorDescriptor;
 import org.campagnelab.metar.code.generator.helpers.NameHelper;
@@ -213,7 +212,7 @@ public class QueriesGenerated extends QueryProviderBase {
     }
 
     if (LOG.isEnabledFor(Level.ERROR)) {
-      LoggingRuntime.legacyLog(Level.ERROR, "Expression is neither LessThanSeurat, nor GreaterThanSeurat " + _context.getNode(), QueriesGenerated.class, null);
+      LOG.error("Expression is neither LessThanSeurat, nor GreaterThanSeurat ");
     }
     return null;
   }

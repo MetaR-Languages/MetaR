@@ -325,10 +325,6 @@
         <property id="2034914114981261751" name="severity" index="RRSoG" />
         <child id="2034914114981261753" name="message" index="RRSoy" />
       </concept>
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
-      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
@@ -2520,17 +2516,14 @@
                           </node>
                         </node>
                         <node concept="3clFbH" id="71JQJG2jFej" role="3cqZAp" />
-                        <node concept="34ab3g" id="71JQJG2j3su" role="3cqZAp">
-                          <property role="35gtTG" value="error" />
-                          <node concept="3cpWs3" id="71JQJG2jdgd" role="34bqiv">
-                            <node concept="30H73N" id="71JQJG2jdGm" role="3uHU7w" />
-                            <node concept="Xl_RD" id="71JQJG2j3sw" role="3uHU7B">
-                              <property role="Xl_RC" value="Expression is neither LessThanSeurat, nor GreaterThanSeurat " />
-                            </node>
+                        <node concept="RRSsy" id="4cAGdIeF4Fp" role="3cqZAp">
+                          <property role="RRSoG" value="error" />
+                          <node concept="Xl_RD" id="71JQJG2j3sw" role="RRSoy">
+                            <property role="Xl_RC" value="Expression is neither LessThanSeurat, nor GreaterThanSeurat " />
                           </node>
                         </node>
                         <node concept="3cpWs6" id="71JQJG2jEe6" role="3cqZAp">
-                          <node concept="10Nm6u" id="71JQJG2jEGL" role="3cqZAk" />
+                          <node concept="10Nm6u" id="4cAGdIeF8lg" role="3cqZAk" />
                         </node>
                       </node>
                     </node>
@@ -2859,9 +2852,6 @@
           </node>
         </node>
         <node concept="22gccq" id="7lSaFvHVHAs" role="22hImy" />
-      </node>
-      <node concept="3cU4HJ" id="7lSaFvHVH_X" role="13u1kV">
-        <property role="1MXi1$" value="JHQTOIEBGJ" />
       </node>
       <node concept="raruj" id="7lSaFvHVHAQ" role="lGtFl" />
     </node>
@@ -3423,6 +3413,20 @@
                             </node>
                           </node>
                         </node>
+                      </node>
+                    </node>
+                    <node concept="V6WaU" id="40QF1RLfBTx" role="gNbrm">
+                      <property role="1MXi1$" value="HXOUDHJTAC" />
+                      <node concept="2PZJp4" id="40QF1RLfCdL" role="gNbhV">
+                        <property role="1MXi1$" value="RYYIAYCVIB" />
+                        <node concept="2PZJpp" id="40QF1RLfCdQ" role="2v3mow">
+                          <property role="1MXi1$" value="ECVGMCUNWJ" />
+                          <property role="TrG5h" value="do.contour" />
+                        </node>
+                        <node concept="2PZJoG" id="40QF1RLfCdR" role="2v3moI">
+                          <property role="1MXi1$" value="NCVBCYSDLP" />
+                        </node>
+                        <node concept="22gcco" id="40QF1RLfCdS" role="22hImy" />
                       </node>
                     </node>
                   </node>

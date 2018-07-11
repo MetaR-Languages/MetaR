@@ -343,6 +343,10 @@
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
+      </concept>
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
         <property id="1167245565795" name="severity" index="35gtTG" />
         <child id="1167227463056" name="logExpression" index="34bqiv" />
@@ -7112,9 +7116,9 @@
             </node>
           </node>
         </node>
-        <node concept="34ab3g" id="40GRGjK1C4i" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="40GRGjK1Dac" role="34bqiv">
+        <node concept="RRSsy" id="4cAGdIeQSCm" role="3cqZAp">
+          <property role="RRSoG" value="info" />
+          <node concept="3cpWs3" id="40GRGjK1Dac" role="RRSoy">
             <node concept="2OqwBi" id="40GRGjK1Ec9" role="3uHU7w">
               <node concept="37vLTw" id="40GRGjK1DSC" role="2Oq$k0">
                 <ref role="3cqZAo" node="40GRGjJYWU3" resolve="joiningColumns" />
