@@ -639,7 +639,6 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                         final SNode tnode71 = environment.createOutputNode(myConcepts[25]);
                         try {
                           SNodeAccessUtil.setProperty(tnode71, myProperties[3], "error");
-                          SNodeAccessUtil.setProperty(tnode71, myProperties[4], "true");
                           TemplateContext context35 = context34.subContext();
                           {
                             final SNode tnode72 = environment.createOutputNode(myConcepts[7]);
@@ -653,7 +652,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                           {
                             final SNode tnode73 = environment.createOutputNode(myConcepts[13]);
                             try {
-                              environment.resolveInTemplateLater(tnode73, myAssociationLinks[1], templateNode_yujq03_c0a0a1a4a1a1a1a2a1a2a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3873701307954136979", "npe", context35);
+                              environment.resolveInTemplateLater(tnode73, myAssociationLinks[1], templateNode_yujq03_c0a0a1a3a1a1a1a2a1a2a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3873701307954136979", "npe", context35);
                             } finally {
                             }
                             tnode71.addChild(myAggregationLinks[19], tnode73);
@@ -746,17 +745,16 @@ public class Template_reduce_image extends TemplateDeclarationBase {
     rv[22] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, "jetbrains.mps.lang.smodel"), 0x10a2e126334L, "Node_GetModelOperation");
     rv[23] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage"), 0xf8cc67c7feL, "ReturnStatement");
     rv[24] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage"), 0x10f39a56e2fL, "CatchClause");
-    rv[25] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, "jetbrains.mps.baseLanguage.logging"), 0x10fc428b1dfL, "LogStatement");
+    rv[25] = MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, "jetbrains.mps.baseLanguage.logging"), 0x1c3d779b2be2f0b9L, "LogLowLevelStatement");
     return rv;
   }
   @Override
   protected SProperty[] initProperties() {
-    SProperty[] rv = new SProperty[5];
+    SProperty[] rv = new SProperty[4];
     rv[0] = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
     rv[1] = MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value");
     rv[2] = MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37a7f6eL, 0x111f9e9f00cL, "isFinal");
-    rv[3] = MetaAdapterFactory.getProperty(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, 0x10fc428b1dfL, 0x10fc541df63L, "severity");
-    rv[4] = MetaAdapterFactory.getProperty(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, 0x10fc428b1dfL, 0x10fc43f6f0fL, "hasException");
+    rv[3] = MetaAdapterFactory.getProperty(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, 0x1c3d779b2be2f0b9L, 0x1c3d779b2be2f1b7L, "severity");
     return rv;
   }
   @Override
@@ -789,8 +787,8 @@ public class Template_reduce_image extends TemplateDeclarationBase {
     rv[15] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, 0xf8cc6bf96cL, "expression");
     rv[16] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f383e6771L, 0x10f383e83d4L, "body");
     rv[17] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f39a56e2fL, 0x10f39a6a2f1L, "throwable");
-    rv[18] = MetaAdapterFactory.getContainmentLink(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, 0x10fc428b1dfL, 0x10fc42da590L, "logExpression");
-    rv[19] = MetaAdapterFactory.getContainmentLink(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, 0x10fc428b1dfL, 0x10fc42f25e9L, "exception");
+    rv[18] = MetaAdapterFactory.getContainmentLink(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, 0x1c3d779b2be2f0b9L, 0x1c3d779b2be2f1b9L, "message");
+    rv[19] = MetaAdapterFactory.getContainmentLink(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, 0x1c3d779b2be2f0b9L, 0x1c3d779b2be2f1bbL, "throwable");
     rv[20] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f39a56e2fL, 0x10f39a6a2f2L, "catchBody");
     rv[21] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f383e6771L, 0x10f39a8ba1fL, "catchClause");
     rv[22] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1ffL, "body");
@@ -806,5 +804,5 @@ public class Template_reduce_image extends TemplateDeclarationBase {
   private static SNodePointer templateNode_yujq03_c0a0a1a1a1a1a1a3a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5534405333775252450");
   private static SNodePointer templateNode_yujq03_c0a0a1a2a1a2a1a1a1a3a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5150055766264606259");
   private static SNodePointer templateNode_yujq03_c0a0a1a1a1a6a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3873701307954160380");
-  private static SNodePointer templateNode_yujq03_c0a0a1a4a1a1a1a2a1a2a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5875920312051451017");
+  private static SNodePointer templateNode_yujq03_c0a0a1a3a1a1a1a2a1a2a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5875920312051451017");
 }

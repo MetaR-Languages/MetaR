@@ -212,9 +212,13 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
+      </concept>
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -249,9 +253,9 @@
       <property role="TrG5h" value="showTable" />
       <node concept="3cqZAl" id="7iuWixLMYd8" role="3clF45" />
       <node concept="3clFbS" id="7iuWixLMXZL" role="3clF47">
-        <node concept="34ab3g" id="5aUFu7SMYkE" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="5aUFu7SN14h" role="34bqiv">
+        <node concept="RRSsy" id="6lttmbXOarl" role="3cqZAp">
+          <property role="RRSoG" value="info" />
+          <node concept="3cpWs3" id="5aUFu7SN14h" role="RRSoy">
             <node concept="2OqwBi" id="5RQTS2ot9PG" role="3uHU7w">
               <node concept="37vLTw" id="5RQTS2ot9M5" role="2Oq$k0">
                 <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
@@ -516,9 +520,9 @@
     </node>
     <node concept="2ScWuX" id="1xeqmqLbJsj" role="tmbBb">
       <node concept="3clFbS" id="1xeqmqLbJsk" role="2VODD2">
-        <node concept="34ab3g" id="5RQTS2oqGqp" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="5RQTS2oqHDF" role="34bqiv">
+        <node concept="2xdQw9" id="6lttmbXO9Fl" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="3cpWs3" id="5RQTS2oqHDF" role="9lYJi">
             <node concept="Xl_RD" id="5RQTS2oqGqr" role="3uHU7B">
               <property role="Xl_RC" value="Checking table file: " />
             </node>

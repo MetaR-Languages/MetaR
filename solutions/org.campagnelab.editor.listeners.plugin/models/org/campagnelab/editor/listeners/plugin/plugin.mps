@@ -8,6 +8,7 @@
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
   </languages>
   <imports>
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
@@ -196,6 +197,10 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
+      </concept>
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
         <property id="1167228628751" name="hasException" index="34fQS0" />
         <property id="1167245565795" name="severity" index="35gtTG" />
@@ -707,9 +712,9 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="34ab3g" id="59m6hGjgp_D" role="3cqZAp">
-                      <property role="35gtTG" value="debug" />
-                      <node concept="3cpWs3" id="59m6hGjgpLj" role="34bqiv">
+                    <node concept="RRSsy" id="6lttmbXO8mL" role="3cqZAp">
+                      <property role="RRSoG" value="debug" />
+                      <node concept="3cpWs3" id="59m6hGjgpLj" role="RRSoy">
                         <node concept="2OqwBi" id="59m6hGjgpNM" role="3uHU7w">
                           <node concept="37vLTw" id="59m6hGjgpMg" role="2Oq$k0">
                             <ref role="3cqZAo" node="5XdrQ8WzPPs" resolve="listener" />
@@ -743,9 +748,9 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="34ab3g" id="59m6hGjgq2E" role="3cqZAp">
-                      <property role="35gtTG" value="debug" />
-                      <node concept="3cpWs3" id="59m6hGjgqep" role="34bqiv">
+                    <node concept="RRSsy" id="6lttmbXO8ux" role="3cqZAp">
+                      <property role="RRSoG" value="debug" />
+                      <node concept="3cpWs3" id="59m6hGjgqep" role="RRSoy">
                         <node concept="2OqwBi" id="59m6hGjgqkz" role="3uHU7w">
                           <node concept="37vLTw" id="59m6hGjgqfv" role="2Oq$k0">
                             <ref role="3cqZAo" node="5XdrQ8W$7pQ" resolve="activeListeners" />
@@ -837,9 +842,9 @@
       <node concept="3clFbS" id="1QuiO55_qc" role="3clF47">
         <node concept="3clFbJ" id="32a0OmeqHmu" role="3cqZAp">
           <node concept="3clFbS" id="32a0OmeqHmw" role="3clFbx">
-            <node concept="34ab3g" id="32a0OmeqIuO" role="3cqZAp">
-              <property role="35gtTG" value="warn" />
-              <node concept="Xl_RD" id="32a0OmeqIuQ" role="34bqiv">
+            <node concept="RRSsy" id="6lttmbXO8_m" role="3cqZAp">
+              <property role="RRSoG" value="warn" />
+              <node concept="Xl_RD" id="32a0OmeqIuQ" role="RRSoy">
                 <property role="Xl_RC" value="Project is null, cannot remove any listener" />
               </node>
             </node>
@@ -913,9 +918,9 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="34ab3g" id="1QuiO55_LO" role="3cqZAp">
-                          <property role="35gtTG" value="debug" />
-                          <node concept="3cpWs3" id="1QuiO55_LP" role="34bqiv">
+                        <node concept="RRSsy" id="6lttmbXO8Mq" role="3cqZAp">
+                          <property role="RRSoG" value="debug" />
+                          <node concept="3cpWs3" id="1QuiO55_LP" role="RRSoy">
                             <node concept="2OqwBi" id="1QuiO55_LQ" role="3uHU7w">
                               <node concept="37vLTw" id="1QuiO55_LR" role="2Oq$k0">
                                 <ref role="3cqZAo" node="1QuiO55_Ec" resolve="listener" />
@@ -977,9 +982,9 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="34ab3g" id="1QuiO55_M2" role="3cqZAp">
-                          <property role="35gtTG" value="debug" />
-                          <node concept="3cpWs3" id="1QuiO55_M3" role="34bqiv">
+                        <node concept="RRSsy" id="6lttmbXO8WP" role="3cqZAp">
+                          <property role="RRSoG" value="debug" />
+                          <node concept="3cpWs3" id="1QuiO55_M3" role="RRSoy">
                             <node concept="2OqwBi" id="1QuiO55_M4" role="3uHU7w">
                               <node concept="37vLTw" id="1QuiO55_M5" role="2Oq$k0">
                                 <ref role="3cqZAo" node="1QuiO55_Lv" resolve="activeListeners" />
