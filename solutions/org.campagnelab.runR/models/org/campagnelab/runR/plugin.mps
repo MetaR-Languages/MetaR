@@ -6705,23 +6705,38 @@
             <property role="3SKdUp" value="save all before launching make" />
           </node>
         </node>
-        <node concept="3clFbF" id="236SrjKnNdH" role="3cqZAp">
-          <node concept="2OqwBi" id="236SrjKoyEL" role="3clFbG">
-            <node concept="2ShNRf" id="236SrjKnNdD" role="2Oq$k0">
-              <node concept="1pGfFk" id="236SrjKoxbK" role="2ShVmc">
-                <ref role="37wK5l" to="hlw7:~SaveRepositoryCommand.&lt;init&gt;(org.jetbrains.mps.openapi.module.SRepository)" resolve="SaveRepositoryCommand" />
-                <node concept="2OqwBi" id="236SrjKoxDd" role="37wK5m">
-                  <node concept="37vLTw" id="4RLI3yABZJ6" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5AuUFuz_KcC" resolve="mpsProject" />
-                  </node>
-                  <node concept="liA8E" id="236SrjKoyCt" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+        <node concept="3clFbF" id="$DED_puikN" role="3cqZAp">
+          <node concept="2OqwBi" id="$DED_pulSp" role="3clFbG">
+            <node concept="2YIFZM" id="$DED_pukEa" role="2Oq$k0">
+              <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication():com.intellij.openapi.application.Application" resolve="getApplication" />
+              <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+            </node>
+            <node concept="liA8E" id="$DED_pungW" role="2OqNvi">
+              <ref role="37wK5l" to="bd8o:~Application.invokeAndWait(java.lang.Runnable):void" resolve="invokeAndWait" />
+              <node concept="1bVj0M" id="$DED_puogd" role="37wK5m">
+                <node concept="3clFbS" id="$DED_puoge" role="1bW5cS">
+                  <node concept="3clFbF" id="236SrjKnNdH" role="3cqZAp">
+                    <node concept="2OqwBi" id="236SrjKoyEL" role="3clFbG">
+                      <node concept="2ShNRf" id="236SrjKnNdD" role="2Oq$k0">
+                        <node concept="1pGfFk" id="236SrjKoxbK" role="2ShVmc">
+                          <ref role="37wK5l" to="hlw7:~SaveRepositoryCommand.&lt;init&gt;(org.jetbrains.mps.openapi.module.SRepository)" resolve="SaveRepositoryCommand" />
+                          <node concept="2OqwBi" id="236SrjKoxDd" role="37wK5m">
+                            <node concept="37vLTw" id="4RLI3yABZJ6" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5AuUFuz_KcC" resolve="mpsProject" />
+                            </node>
+                            <node concept="liA8E" id="236SrjKoyCt" role="2OqNvi">
+                              <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="236SrjKozuU" role="2OqNvi">
+                        <ref role="37wK5l" to="hlw7:~SaveRepositoryCommand.execute():void" resolve="execute" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="liA8E" id="236SrjKozuU" role="2OqNvi">
-              <ref role="37wK5l" to="hlw7:~SaveRepositoryCommand.execute():void" resolve="execute" />
             </node>
           </node>
         </node>
