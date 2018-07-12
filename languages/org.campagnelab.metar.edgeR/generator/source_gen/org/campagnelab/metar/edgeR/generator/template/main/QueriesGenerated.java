@@ -116,9 +116,7 @@ public class QueriesGenerated extends QueryProviderBase {
             return usage != null && Sequence.fromIterable(usages).contains(usage);
           }
         });
-        if (LOG.isInfoEnabled()) {
-          LoggingRuntime.legacyLog(Level.INFO, "column:" + SPropertyOperations.getString(col, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + " expression: " + result, QueriesGenerated.class, null);
-        }
+        LoggingRuntime.logMsgView(Level.INFO, "column:" + SPropertyOperations.getString(col, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + " expression: " + result, QueriesGenerated.class, null, null);
         return result;
       }
     }).select(new ISelector<SNode, String>() {

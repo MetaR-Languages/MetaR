@@ -141,7 +141,6 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -202,12 +201,6 @@
     </language>
     <language id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes">
       <concept id="8077936094962911282" name="jetbrains.mps.lang.scopes.structure.ParentScope" flags="nn" index="iy90A" />
-    </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
-      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -2288,24 +2281,6 @@
               <node concept="10Nm6u" id="2OXSMi_qcBq" role="3uHU7w" />
               <node concept="37vLTw" id="2OXSMi_qc_i" role="3uHU7B">
                 <ref role="3cqZAo" node="2OXSMi_qcqq" resolve="s" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="5dwG9BZrv7Q" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="34ab3g" id="5dwG9BZcmSm" role="8Wnug">
-            <property role="35gtTG" value="info" />
-            <node concept="3cpWs3" id="5dwG9BZeSld" role="34bqiv">
-              <node concept="2OqwBi" id="3amEmmQlqcR" role="3uHU7w">
-                <node concept="37vLTw" id="3amEmmQlqcS" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4682YupMkDk" resolve="kind" />
-                </node>
-                <node concept="FGMqu" id="3amEmmQlqcT" role="2OqNvi" />
-              </node>
-              <node concept="Xl_RD" id="5dwG9BZcmSo" role="3uHU7B">
-                <property role="Xl_RC" value="Returning parent scope for kind=" />
               </node>
             </node>
           </node>

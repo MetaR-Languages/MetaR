@@ -224,11 +224,10 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167228628751" name="hasException" index="34fQS0" />
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
-        <child id="1167227561449" name="exception" index="34bMjA" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
+        <child id="5721587534047265375" name="throwable" index="9lYJj" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -491,9 +490,9 @@
       <ref role="13i0hy" to="v8sa:7S2MvlQNicH" resolve="getFutureColumns" />
       <node concept="3Tm1VV" id="2734ievAyU8" role="1B3o_S" />
       <node concept="3clFbS" id="2734ievAyUc" role="3clF47">
-        <node concept="34ab3g" id="oeXtRXjv$H" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="Xl_RD" id="oeXtRXjv$J" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliK9w3g" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="Xl_RD" id="oeXtRXjv$J" role="9lYJi">
             <property role="Xl_RC" value="GetFutureColumns for SimulateDataset invoked" />
           </node>
         </node>
@@ -587,9 +586,9 @@
             </node>
           </node>
         </node>
-        <node concept="34ab3g" id="oeXtRXzrjf" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="Xl_RD" id="oeXtRXzrjh" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliK9wTJ" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="Xl_RD" id="oeXtRXzrjh" role="9lYJi">
             <property role="Xl_RC" value="Add covariate to container" />
           </node>
         </node>
@@ -642,9 +641,9 @@
           </node>
         </node>
         <node concept="3clFbH" id="6za0MtXeVyr" role="3cqZAp" />
-        <node concept="34ab3g" id="oeXtRXAQ1l" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="oeXtRXAQHq" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliK9xHl" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="3cpWs3" id="oeXtRXAQHq" role="9lYJi">
             <node concept="2YIFZM" id="oeXtRXAQQK" role="3uHU7w">
               <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
               <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
@@ -1723,9 +1722,9 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="34ab3g" id="4CUtYZOpXE" role="3cqZAp">
-                        <property role="35gtTG" value="info" />
-                        <node concept="3cpWs3" id="4CUtYZOrvw" role="34bqiv">
+                      <node concept="2xdQw9" id="3hxBliK9yA9" role="3cqZAp">
+                        <property role="2xdLsb" value="info" />
+                        <node concept="3cpWs3" id="4CUtYZOrvw" role="9lYJi">
                           <node concept="2OqwBi" id="4CUtYZOrYc" role="3uHU7w">
                             <node concept="37vLTw" id="4CUtYZOrGM" role="2Oq$k0">
                               <ref role="3cqZAo" node="4CUtYZNboJ" resolve="group" />
@@ -2346,9 +2345,9 @@
         <node concept="10Oyi0" id="L8UVRxJwsh" role="10Q1$1" />
       </node>
       <node concept="3clFbS" id="L8UVRxJvDA" role="3clF47">
-        <node concept="34ab3g" id="4lfKH_J2dMt" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="4lfKH_J2e5W" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliK9qxl" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="3cpWs3" id="4lfKH_J2e5W" role="9lYJi">
             <node concept="2OqwBi" id="4lfKH_J2ebr" role="3uHU7w">
               <node concept="13iPFW" id="4lfKH_J2e6Q" role="2Oq$k0" />
               <node concept="3TrcHB" id="4lfKH_J2en$" role="2OqNvi">
@@ -2959,9 +2958,9 @@
       <node concept="3Tm1VV" id="4lfKH_J9rCw" role="1B3o_S" />
       <node concept="3cqZAl" id="4lfKH_J9rCx" role="3clF45" />
       <node concept="3clFbS" id="4lfKH_J9rCy" role="3clF47">
-        <node concept="34ab3g" id="oeXtRXrXUq" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="oeXtRXs23s" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliK9oXs" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="3cpWs3" id="oeXtRXs23s" role="9lYJi">
             <node concept="2OqwBi" id="oeXtRXs2dM" role="3uHU7w">
               <node concept="13iPFW" id="oeXtRXs29q" role="2Oq$k0" />
               <node concept="3TrcHB" id="oeXtRXs2zq" role="2OqNvi">
@@ -3232,13 +3231,12 @@
           </node>
           <node concept="TDmWw" id="oeXtRXBK30" role="TEbGg">
             <node concept="3clFbS" id="oeXtRXBK32" role="TDEfX">
-              <node concept="34ab3g" id="oeXtRXIat9" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="oeXtRXIatb" role="34bqiv">
+              <node concept="2xdQw9" id="3hxBliK9pA2" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="oeXtRXIatb" role="9lYJi">
                   <property role="Xl_RC" value="Exception in populateAndAddToContainer" />
                 </node>
-                <node concept="37vLTw" id="oeXtRXIatd" role="34bMjA">
+                <node concept="37vLTw" id="oeXtRXIatd" role="9lYJj">
                   <ref role="3cqZAo" node="oeXtRXBK34" resolve="e" />
                 </node>
               </node>
@@ -3499,9 +3497,9 @@
       <node concept="3Tm1VV" id="6za0MtWFHyT" role="1B3o_S" />
       <node concept="3cqZAl" id="6za0MtWFI6U" role="3clF45" />
       <node concept="3clFbS" id="6za0MtWFHyV" role="3clF47">
-        <node concept="34ab3g" id="6za0MtWLT4R" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="Xl_RD" id="6za0MtWLT4T" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliK9pD8" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="Xl_RD" id="6za0MtWLT4T" role="9lYJi">
             <property role="Xl_RC" value="Refreshing covariate table..." />
           </node>
         </node>

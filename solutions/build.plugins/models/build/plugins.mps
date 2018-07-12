@@ -1854,6 +1854,12 @@
               <ref role="3bR37D" node="7lol28iFlnr" resolve="org.campagnelab.instantrefresh" />
             </node>
           </node>
+          <node concept="1SiIV0" id="3hxBliJQC$5" role="3bR37C">
+            <node concept="3bR9La" id="3hxBliJQC$6" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="nr1s:2mFg1uCEgGH" resolve="org.campagnelab.textoutput" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="7OkpSXK79E5" role="3bR37C">
           <node concept="3bR9La" id="7OkpSXK79E6" role="1SiIV1">

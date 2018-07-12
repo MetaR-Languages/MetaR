@@ -99,9 +99,9 @@
       <concept id="5584396657084920413" name="jetbrains.mps.lang.actions.structure.NodeSetupFunction_SampleNode" flags="nn" index="1r4N5L" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -484,9 +484,9 @@
               <property role="3SKdUp" value="associate Group to Column" />
             </node>
           </node>
-          <node concept="34ab3g" id="3MLv1IlXpbR" role="3cqZAp">
-            <property role="35gtTG" value="info" />
-            <node concept="Xl_RD" id="3MLv1IlXpbT" role="34bqiv">
+          <node concept="2xdQw9" id="3hxBliK9G77" role="3cqZAp">
+            <property role="2xdLsb" value="info" />
+            <node concept="Xl_RD" id="3MLv1IlXpbT" role="9lYJi">
               <property role="Xl_RC" value="Create Group" />
             </node>
           </node>
@@ -518,9 +518,9 @@
       <ref role="37XkoT" to="jrxw:3MLv1ItYIYn" resolve="OrderByColumn" />
       <node concept="37Y9Zx" id="3MLv1ItZBLJ" role="37ZfLb">
         <node concept="3clFbS" id="3MLv1ItZBLK" role="2VODD2">
-          <node concept="34ab3g" id="3MLv1ItZBQr" role="3cqZAp">
-            <property role="35gtTG" value="info" />
-            <node concept="Xl_RD" id="3MLv1ItZBQs" role="34bqiv">
+          <node concept="2xdQw9" id="3hxBliK9GrP" role="3cqZAp">
+            <property role="2xdLsb" value="info" />
+            <node concept="Xl_RD" id="3MLv1ItZBQs" role="9lYJi">
               <property role="Xl_RC" value="Create Column" />
             </node>
           </node>
@@ -553,9 +553,9 @@
       <ref role="37XkoT" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
       <node concept="37Y9Zx" id="1ul2Me81Wko" role="37ZfLb">
         <node concept="3clFbS" id="1ul2Me81Wkp" role="2VODD2">
-          <node concept="34ab3g" id="1ul2Me81W_5" role="3cqZAp">
-            <property role="35gtTG" value="info" />
-            <node concept="Xl_RD" id="1ul2Me81W_7" role="34bqiv">
+          <node concept="2xdQw9" id="3hxBliK9IMG" role="3cqZAp">
+            <property role="2xdLsb" value="info" />
+            <node concept="Xl_RD" id="1ul2Me81W_7" role="9lYJi">
               <property role="Xl_RC" value="check enclosing node to set input change" />
             </node>
           </node>
@@ -563,9 +563,9 @@
           <node concept="3clFbJ" id="1ul2Me81WBH" role="3cqZAp">
             <node concept="3clFbS" id="1ul2Me81WBJ" role="3clFbx">
               <node concept="3clFbH" id="1ul2Me81Xwp" role="3cqZAp" />
-              <node concept="34ab3g" id="1ul2Me81Xww" role="3cqZAp">
-                <property role="35gtTG" value="info" />
-                <node concept="Xl_RD" id="1ul2Me81Xwy" role="34bqiv">
+              <node concept="2xdQw9" id="3hxBliK9ITa" role="3cqZAp">
+                <property role="2xdLsb" value="info" />
+                <node concept="Xl_RD" id="1ul2Me81Xwy" role="9lYJi">
                   <property role="Xl_RC" value="Find the right ancestor and set input change" />
                 </node>
               </node>

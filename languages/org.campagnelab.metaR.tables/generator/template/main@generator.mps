@@ -319,9 +319,9 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect">
@@ -4045,9 +4045,9 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="34ab3g" id="4WAdMLea6oP" role="3cqZAp">
-                              <property role="35gtTG" value="info" />
-                              <node concept="3cpWs3" id="4WAdMLeaads" role="34bqiv">
+                            <node concept="2xdQw9" id="3hxBliKaF08" role="3cqZAp">
+                              <property role="2xdLsb" value="info" />
+                              <node concept="3cpWs3" id="4WAdMLeaads" role="9lYJi">
                                 <node concept="37vLTw" id="4WAdMLeabiV" role="3uHU7w">
                                   <ref role="3cqZAo" node="4WAdMLdZe1f" resolve="heatmap" />
                                 </node>
@@ -12940,9 +12940,9 @@
               <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
               <node concept="3zFVjK" id="5HtHr3DOo8y" role="3zH0cK">
                 <node concept="3clFbS" id="5HtHr3DOo8z" role="2VODD2">
-                  <node concept="34ab3g" id="5HtHr3DWPR9" role="3cqZAp">
-                    <property role="35gtTG" value="info" />
-                    <node concept="3cpWs3" id="5HtHr3DWQz$" role="34bqiv">
+                  <node concept="2xdQw9" id="3hxBliKaGk$" role="3cqZAp">
+                    <property role="2xdLsb" value="info" />
+                    <node concept="3cpWs3" id="5HtHr3DWQz$" role="9lYJi">
                       <node concept="2OqwBi" id="5HtHr3DWQZN" role="3uHU7w">
                         <node concept="30H73N" id="5HtHr3DWQSu" role="2Oq$k0" />
                         <node concept="3TrEf2" id="5HtHr3DWRwv" role="2OqNvi">

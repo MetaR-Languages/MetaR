@@ -297,9 +297,7 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Object propertyMacro_GetPropertyValue_5703306641529451500(final PropertyMacroContext _context) {
     // calculate the column group names for a set of usages, in the same order as sample names: 
     final SNode heatmap = ((SNode) _context.getVariable("var:heatmap"));
-    if (LOG.isInfoEnabled()) {
-      LoggingRuntime.legacyLog(Level.INFO, "heatmap:" + heatmap, QueriesGenerated.class, null);
-    }
+    LoggingRuntime.logMsgView(Level.INFO, "heatmap:" + heatmap, QueriesGenerated.class, null, null);
     Iterable<SNode> columns = Sequence.fromIterable(Heatmap__BehaviorDescriptor.selectedColumnNames_id4WAdMLdRMz3.invoke(heatmap)).select(new ISelector<String, SNode>() {
       public SNode select(final String name) {
         return ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(heatmap, MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x3dc59a0f37f9ef74L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a74L, "columns"))).findFirst(new IWhereFilter<SNode>() {
@@ -957,9 +955,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x5b5db5b0e9cb3609L, 0x5b5db5b0e9f6e3b2L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
   }
   public static Object propertyMacro_GetPropertyValue_6583618001727226402(final PropertyMacroContext _context) {
-    if (LOG.isInfoEnabled()) {
-      LoggingRuntime.legacyLog(Level.INFO, "column=" + SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x5b5db5b0e9cb3609L, 0x5b5db5b0e9cb3672L, "column")), QueriesGenerated.class, null);
-    }
+    LoggingRuntime.logMsgView(Level.INFO, "column=" + SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x5b5db5b0e9cb3609L, 0x5b5db5b0e9cb3672L, "column")), QueriesGenerated.class, null, null);
     return (String) ColumnRef__BehaviorDescriptor.getCleanColumnName_id2rPl_HNk7G7.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x5b5db5b0e9cb3609L, 0x5b5db5b0e9cb3672L, "column")));
   }
   public static Object propertyMacro_GetPropertyValue_3007013211742646280(final PropertyMacroContext _context) {

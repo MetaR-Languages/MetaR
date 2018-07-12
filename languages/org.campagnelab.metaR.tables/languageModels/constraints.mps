@@ -181,9 +181,9 @@
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -453,9 +453,9 @@
             </node>
             <node concept="9aQIb" id="4DOwJpK8QjN" role="9aQIa">
               <node concept="3clFbS" id="4DOwJpK8QjO" role="9aQI4">
-                <node concept="34ab3g" id="4DOwJpK8Qte" role="3cqZAp">
-                  <property role="35gtTG" value="debug" />
-                  <node concept="Xl_RD" id="4DOwJpK8Qtg" role="34bqiv">
+                <node concept="2xdQw9" id="3hxBliKahNN" role="3cqZAp">
+                  <property role="2xdLsb" value="debug" />
+                  <node concept="Xl_RD" id="4DOwJpK8Qtg" role="9lYJi">
                     <property role="Xl_RC" value="FutureTableRef is not part of a FutureTableCreator statement" />
                   </node>
                 </node>
@@ -472,9 +472,9 @@
       <ref role="1N5Vy1" to="jrxw:2WRhvFtuQGF" resolve="table" />
       <node concept="3k9gUc" id="2WRhvFtuQHI" role="3kmjI7">
         <node concept="3clFbS" id="2WRhvFtuQHJ" role="2VODD2">
-          <node concept="34ab3g" id="6h184lUNmOu" role="3cqZAp">
-            <property role="35gtTG" value="info" />
-            <node concept="Xl_RD" id="6h184lUNmOw" role="34bqiv">
+          <node concept="2xdQw9" id="3hxBliKai7n" role="3cqZAp">
+            <property role="2xdLsb" value="info" />
+            <node concept="Xl_RD" id="6h184lUNmOw" role="9lYJi">
               <property role="Xl_RC" value="Setting new table child" />
             </node>
           </node>
@@ -967,9 +967,9 @@
             </node>
             <node concept="9aQIb" id="_4GlRlFIuL" role="9aQIa">
               <node concept="3clFbS" id="_4GlRlFIuM" role="9aQI4">
-                <node concept="34ab3g" id="_4GlRlFIuN" role="3cqZAp">
-                  <property role="35gtTG" value="debug" />
-                  <node concept="Xl_RD" id="_4GlRlFIuO" role="34bqiv">
+                <node concept="2xdQw9" id="3hxBliKai_K" role="3cqZAp">
+                  <property role="2xdLsb" value="debug" />
+                  <node concept="Xl_RD" id="_4GlRlFIuO" role="9lYJi">
                     <property role="Xl_RC" value="TableRef is not part of a FutureTableCreator statement" />
                   </node>
                 </node>
@@ -1200,9 +1200,9 @@
             <node concept="2jxLKc" id="4tSF6VCKJ1L" role="1tU5fm" />
           </node>
           <node concept="3clFbS" id="4tSF6VCKJ1M" role="Jncv$">
-            <node concept="34ab3g" id="4tSF6VCKJ1N" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="4tSF6VCKJ1O" role="34bqiv">
+            <node concept="2xdQw9" id="3hxBliKahaR" role="3cqZAp">
+              <property role="2xdLsb" value="info" />
+              <node concept="3cpWs3" id="4tSF6VCKJ1O" role="9lYJi">
                 <node concept="Xl_RD" id="4tSF6VCKJ1P" role="3uHU7B">
                   <property role="Xl_RC" value="table name:" />
                 </node>
@@ -1406,9 +1406,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="34ab3g" id="6KeyvEh7Uvr" role="3cqZAp">
-                <property role="35gtTG" value="info" />
-                <node concept="Xl_RD" id="6KeyvEh7Uvt" role="34bqiv">
+              <node concept="2xdQw9" id="3hxBliKaiUm" role="3cqZAp">
+                <property role="2xdLsb" value="info" />
+                <node concept="Xl_RD" id="6KeyvEh7Uvt" role="9lYJi">
                   <property role="Xl_RC" value="Validating the new path" />
                 </node>
               </node>
@@ -1539,9 +1539,9 @@
               </node>
             </node>
           </node>
-          <node concept="34ab3g" id="6KeyvEh7WeP" role="3cqZAp">
-            <property role="35gtTG" value="info" />
-            <node concept="Xl_RD" id="6KeyvEh7WeR" role="34bqiv">
+          <node concept="2xdQw9" id="3hxBliKaj7O" role="3cqZAp">
+            <property role="2xdLsb" value="info" />
+            <node concept="Xl_RD" id="6KeyvEh7WeR" role="9lYJi">
               <property role="Xl_RC" value="Set the new path" />
             </node>
           </node>

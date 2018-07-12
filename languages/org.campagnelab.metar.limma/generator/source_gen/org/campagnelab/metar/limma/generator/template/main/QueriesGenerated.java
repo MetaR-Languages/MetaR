@@ -83,9 +83,7 @@ public class QueriesGenerated extends QueryProviderBase {
             return usage != null && Sequence.fromIterable(usages).contains(usage);
           }
         });
-        if (LOG.isInfoEnabled()) {
-          LoggingRuntime.legacyLog(Level.INFO, "column:" + SPropertyOperations.getString(col, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + " expression: " + result, QueriesGenerated.class, null);
-        }
+        LoggingRuntime.logMsgView(Level.INFO, "column:" + SPropertyOperations.getString(col, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + " expression: " + result, QueriesGenerated.class, null, null);
         return result;
       }
     }).select(new ISelector<SNode, String>() {
@@ -110,13 +108,11 @@ public class QueriesGenerated extends QueryProviderBase {
       }
     });
 
-    if (LOG.isInfoEnabled()) {
-      LoggingRuntime.legacyLog(Level.INFO, "found column for usage: " + IterableUtils.join(Sequence.fromIterable(columns).select(new ISelector<SNode, String>() {
-        public String select(SNode it) {
-          return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
-        }
-      }), ","), QueriesGenerated.class, null);
-    }
+    LoggingRuntime.logMsgView(Level.INFO, "found column for usage: " + IterableUtils.join(Sequence.fromIterable(columns).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+      }
+    }), ","), QueriesGenerated.class, null, null);
     List<String> groupValues = ListSequence.fromList(new ArrayList<String>());
     for (SNode column : Sequence.fromIterable(columns)) {
       SNode columnGroup = SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(AttributeOperations.getAttribute(column, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8bacL, "org.campagnelab.metar.tables.structure.ColumnAnnotation"))), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8bacL, 0x2f3745faddba9108L, "groups"))).findFirst(new IWhereFilter<SNode>() {
@@ -127,9 +123,7 @@ public class QueriesGenerated extends QueryProviderBase {
       if ((AttributeOperations.getAttribute(columnGroup, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2cbad60695b64fb1L, "org.campagnelab.metar.tables.structure.GroupAnnotation"))) == null)) {
         ListSequence.fromList(groupValues).addElement("\"" + NameHelper.RName(SPropertyOperations.getString(columnGroup, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "\"");
       } else {
-        if (LOG.isInfoEnabled()) {
-          LoggingRuntime.legacyLog(Level.INFO, "Loading value for " + SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), QueriesGenerated.class, null);
-        }
+        LoggingRuntime.logMsgView(Level.INFO, "Loading value for " + SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), QueriesGenerated.class, null, null);
         ListSequence.fromList(groupValues).addElement("" + GroupAnnotation__BehaviorDescriptor.valueForColumn_id2MUPwqpuu6x.invoke(AttributeOperations.getAttribute(columnGroup, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2cbad60695b64fb1L, "org.campagnelab.metar.tables.structure.GroupAnnotation"))), SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "");
       }
     }

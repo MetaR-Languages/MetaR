@@ -240,9 +240,9 @@
       <concept id="1174663118805" name="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" flags="nn" index="1ZobV4" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1127,9 +1127,9 @@
     </node>
     <node concept="Q5ZZ6" id="7S2MvlQN_Lt" role="Q6x$H">
       <node concept="3clFbS" id="7S2MvlQN_Lu" role="2VODD2">
-        <node concept="34ab3g" id="4DOwJpKdXd1" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="Xl_RD" id="4DOwJpKdXd3" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliKaqzh" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="Xl_RD" id="4DOwJpKdXd3" role="9lYJi">
             <property role="Xl_RC" value="Applying fix PropagateColumsToFutureTable" />
           </node>
         </node>
@@ -1172,9 +1172,9 @@
             </node>
             <node concept="3clFbJ" id="4ssfE$aXBAj" role="3cqZAp">
               <node concept="3clFbS" id="4ssfE$aXBAk" role="3clFbx">
-                <node concept="34ab3g" id="4ssfE$aXBAl" role="3cqZAp">
-                  <property role="35gtTG" value="info" />
-                  <node concept="Xl_RD" id="4ssfE$aXBAm" role="34bqiv">
+                <node concept="2xdQw9" id="3hxBliKauJR" role="3cqZAp">
+                  <property role="2xdLsb" value="info" />
+                  <node concept="Xl_RD" id="4ssfE$aXBAm" role="9lYJi">
                     <property role="Xl_RC" value="Do nothing: table not owned by statement." />
                   </node>
                 </node>
@@ -1192,9 +1192,9 @@
                 <node concept="3w_OXm" id="4ssfE$aXBAs" role="2OqNvi" />
               </node>
             </node>
-            <node concept="34ab3g" id="4ssfE$aXBAt" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="4ssfE$aXBAu" role="34bqiv">
+            <node concept="2xdQw9" id="3hxBliKauKA" role="3cqZAp">
+              <property role="2xdLsb" value="info" />
+              <node concept="3cpWs3" id="4ssfE$aXBAu" role="9lYJi">
                 <node concept="2OqwBi" id="4ssfE$aXBAv" role="3uHU7w">
                   <node concept="3M$PaV" id="4ssfE$aXBB$" role="2Oq$k0">
                     <ref role="3M$S_o" node="4ssfE$aXBAb" resolve="futureTable" />
@@ -1208,9 +1208,9 @@
                 </node>
               </node>
             </node>
-            <node concept="34ab3g" id="4ssfE$aXBAz" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="4ssfE$aXBA$" role="34bqiv">
+            <node concept="2xdQw9" id="3hxBliKaykr" role="3cqZAp">
+              <property role="2xdLsb" value="info" />
+              <node concept="3cpWs3" id="4ssfE$aXBA$" role="9lYJi">
                 <node concept="2OqwBi" id="4ssfE$aXBA_" role="3uHU7w">
                   <node concept="2OqwBi" id="4ssfE$aXBAA" role="2Oq$k0">
                     <node concept="3M$PaV" id="4ssfE$aXBB_" role="2Oq$k0">
@@ -2442,9 +2442,9 @@
     </node>
     <node concept="Q5ZZ6" id="3l0yXcURexH" role="Q6x$H">
       <node concept="3clFbS" id="3l0yXcURexI" role="2VODD2">
-        <node concept="34ab3g" id="3l0yXcURKmp" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="Xl_RD" id="3l0yXcURKmr" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliKam7q" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="Xl_RD" id="3l0yXcURKmr" role="9lYJi">
             <property role="Xl_RC" value="Assign a new Id to the plot" />
           </node>
         </node>

@@ -217,9 +217,9 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1622,9 +1622,9 @@
             </node>
             <node concept="3clFbJ" id="6m3kBey81In" role="3cqZAp">
               <node concept="3clFbS" id="6m3kBey81Ip" role="3clFbx">
-                <node concept="34ab3g" id="6m3kBey8b3H" role="3cqZAp">
-                  <property role="35gtTG" value="warn" />
-                  <node concept="3cpWs3" id="6m3kBey8cba" role="34bqiv">
+                <node concept="2xdQw9" id="3hxBliK8Ofu" role="3cqZAp">
+                  <property role="2xdLsb" value="warn" />
+                  <node concept="3cpWs3" id="6m3kBey8cba" role="9lYJi">
                     <node concept="2OqwBi" id="6m3kBey8cox" role="3uHU7w">
                       <node concept="37vLTw" id="6m3kBey8cgn" role="2Oq$k0">
                         <ref role="3cqZAo" node="6m3kBey80a$" resolve="tableFile" />
@@ -1651,9 +1651,9 @@
                 </node>
               </node>
             </node>
-            <node concept="34ab3g" id="2734ievhXez" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="2734ievhYDb" role="34bqiv">
+            <node concept="2xdQw9" id="3hxBliK8PkS" role="3cqZAp">
+              <property role="2xdLsb" value="info" />
+              <node concept="3cpWs3" id="2734ievhYDb" role="9lYJi">
                 <node concept="Xl_RD" id="2734ievhXe_" role="3uHU7B">
                   <property role="Xl_RC" value="Group Annotation Table from: " />
                 </node>
@@ -1791,9 +1791,9 @@
             </node>
             <node concept="3clFbJ" id="2MUPwqpYsmT" role="3cqZAp">
               <node concept="3clFbS" id="2MUPwqpYsmV" role="3clFbx">
-                <node concept="34ab3g" id="2MUPwqpYuaR" role="3cqZAp">
-                  <property role="35gtTG" value="error" />
-                  <node concept="Xl_RD" id="2MUPwqpYuaT" role="34bqiv">
+                <node concept="2xdQw9" id="3hxBliK8Q2D" role="3cqZAp">
+                  <property role="2xdLsb" value="error" />
+                  <node concept="Xl_RD" id="2MUPwqpYuaT" role="9lYJi">
                     <property role="Xl_RC" value="Covariate index not found in the group table" />
                   </node>
                 </node>
@@ -1808,9 +1808,9 @@
                 </node>
               </node>
             </node>
-            <node concept="34ab3g" id="2MUPwqpYHQX" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="2MUPwqpYHQY" role="34bqiv">
+            <node concept="2xdQw9" id="3hxBliK8Q3a" role="3cqZAp">
+              <property role="2xdLsb" value="info" />
+              <node concept="3cpWs3" id="2MUPwqpYHQY" role="9lYJi">
                 <node concept="2OqwBi" id="2MUPwqpYHQZ" role="3uHU7w">
                   <node concept="Xjq3P" id="2MUPwqpYHR0" role="2Oq$k0" />
                   <node concept="2OwXpG" id="2MUPwqpYIjg" role="2OqNvi">
@@ -1846,9 +1846,9 @@
             </node>
             <node concept="3clFbJ" id="2MUPwqpYwzf" role="3cqZAp">
               <node concept="3clFbS" id="2MUPwqpYwzg" role="3clFbx">
-                <node concept="34ab3g" id="2MUPwqpYwzh" role="3cqZAp">
-                  <property role="35gtTG" value="error" />
-                  <node concept="Xl_RD" id="2MUPwqpYwzi" role="34bqiv">
+                <node concept="2xdQw9" id="3hxBliK8QIg" role="3cqZAp">
+                  <property role="2xdLsb" value="error" />
+                  <node concept="Xl_RD" id="2MUPwqpYwzi" role="9lYJi">
                     <property role="Xl_RC" value="Key Column index not found in the group table" />
                   </node>
                 </node>
@@ -2269,9 +2269,9 @@
               </node>
               <node concept="9aQIb" id="2MUPwqpun$J" role="9aQIa">
                 <node concept="3clFbS" id="2MUPwqpun$K" role="9aQI4">
-                  <node concept="34ab3g" id="2MUPwqpJb3S" role="3cqZAp">
-                    <property role="35gtTG" value="info" />
-                    <node concept="3cpWs3" id="2MUPwqpJhMQ" role="34bqiv">
+                  <node concept="2xdQw9" id="3hxBliK8Rt_" role="3cqZAp">
+                    <property role="2xdLsb" value="info" />
+                    <node concept="3cpWs3" id="2MUPwqpJhMQ" role="9lYJi">
                       <node concept="2OqwBi" id="2MUPwqpJiTi" role="3uHU7w">
                         <node concept="2GrUjf" id="2MUPwqpJilo" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="2MUPwqppjah" resolve="column" />

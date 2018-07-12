@@ -144,9 +144,9 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -365,9 +365,9 @@
             </node>
           </node>
         </node>
-        <node concept="34ab3g" id="7SyL5U3vhyu" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="7SyL5U3vhGM" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliK9CzN" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="3cpWs3" id="7SyL5U3vhGM" role="9lYJi">
             <node concept="37vLTw" id="4okwiyDnFWk" role="3uHU7w">
               <ref role="3cqZAo" node="1WgtElVPrsl" resolve="path" />
             </node>
@@ -496,9 +496,9 @@
         </node>
         <node concept="3clFbJ" id="38k4CcpRXsS" role="3cqZAp">
           <node concept="3clFbS" id="38k4CcpRXsU" role="3clFbx">
-            <node concept="34ab3g" id="38k4CcpRYDT" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="3in85J_rKGc" role="34bqiv">
+            <node concept="2xdQw9" id="3hxBliK9CMV" role="3cqZAp">
+              <property role="2xdLsb" value="info" />
+              <node concept="3cpWs3" id="3in85J_rKGc" role="9lYJi">
                 <node concept="37vLTw" id="7SyL5U3dGhB" role="3uHU7w">
                   <ref role="3cqZAo" node="1WgtElVPrs6" resolve="projectName" />
                 </node>
@@ -533,9 +533,9 @@
           </node>
           <node concept="9aQIb" id="38k4CcpRYEX" role="9aQIa">
             <node concept="3clFbS" id="38k4CcpRYEY" role="9aQI4">
-              <node concept="34ab3g" id="3in85J_rINd" role="3cqZAp">
-                <property role="35gtTG" value="warn" />
-                <node concept="3cpWs3" id="3in85J_rINe" role="34bqiv">
+              <node concept="2xdQw9" id="3hxBliK9Dbm" role="3cqZAp">
+                <property role="2xdLsb" value="warn" />
+                <node concept="3cpWs3" id="3in85J_rINe" role="9lYJi">
                   <node concept="2OqwBi" id="3in85J_rINf" role="3uHU7w">
                     <node concept="Xjq3P" id="3in85J_rINg" role="2Oq$k0" />
                     <node concept="2OwXpG" id="7SyL5U3dGzh" role="2OqNvi">
@@ -574,9 +574,9 @@
             <ref role="37wK5l" to="g51k:~EditorCell_Component.onRemove():void" resolve="onRemove" />
           </node>
         </node>
-        <node concept="34ab3g" id="1WgtElVPr$C" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="1WgtElVPr$D" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliK9DtY" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="3cpWs3" id="1WgtElVPr$D" role="9lYJi">
             <node concept="2OqwBi" id="1WgtElVPr$E" role="3uHU7w">
               <node concept="Xjq3P" id="1WgtElVPr$F" role="2Oq$k0" />
               <node concept="2OwXpG" id="1WgtElVPr$G" role="2OqNvi">
@@ -603,9 +603,9 @@
         </node>
         <node concept="3clFbJ" id="1WgtElVPr$O" role="3cqZAp">
           <node concept="3clFbS" id="1WgtElVPr$P" role="3clFbx">
-            <node concept="34ab3g" id="1WgtElVPr$Q" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="1WgtElVPr$R" role="34bqiv">
+            <node concept="2xdQw9" id="3hxBliK9DT7" role="3cqZAp">
+              <property role="2xdLsb" value="info" />
+              <node concept="3cpWs3" id="1WgtElVPr$R" role="9lYJi">
                 <node concept="2OqwBi" id="1WgtElVPr$S" role="3uHU7w">
                   <node concept="Xjq3P" id="1WgtElVPr$T" role="2Oq$k0" />
                   <node concept="2OwXpG" id="1WgtElVPr$U" role="2OqNvi">
@@ -649,9 +649,9 @@
           </node>
           <node concept="9aQIb" id="1WgtElVPr_9" role="9aQIa">
             <node concept="3clFbS" id="1WgtElVPr_a" role="9aQI4">
-              <node concept="34ab3g" id="1WgtElVPr_b" role="3cqZAp">
-                <property role="35gtTG" value="warn" />
-                <node concept="Xl_RD" id="1WgtElVPr_c" role="34bqiv">
+              <node concept="2xdQw9" id="3hxBliK9EdG" role="3cqZAp">
+                <property role="2xdLsb" value="warn" />
+                <node concept="Xl_RD" id="1WgtElVPr_c" role="9lYJi">
                   <property role="Xl_RC" value="Failed to remove the listener" />
                 </node>
               </node>

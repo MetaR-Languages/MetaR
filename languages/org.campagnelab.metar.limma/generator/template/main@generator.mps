@@ -189,9 +189,9 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect">
@@ -799,9 +799,9 @@
                                           </node>
                                         </node>
                                       </node>
-                                      <node concept="34ab3g" id="74E64ijZh8M" role="3cqZAp">
-                                        <property role="35gtTG" value="info" />
-                                        <node concept="3cpWs3" id="74E64ijZpmw" role="34bqiv">
+                                      <node concept="2xdQw9" id="3hxBliK98xn" role="3cqZAp">
+                                        <property role="2xdLsb" value="info" />
+                                        <node concept="3cpWs3" id="74E64ijZpmw" role="9lYJi">
                                           <node concept="37vLTw" id="74E64ijZpT_" role="3uHU7w">
                                             <ref role="3cqZAo" node="74E64ijZcRj" resolve="result" />
                                           </node>
@@ -1258,9 +1258,9 @@
                       </node>
                     </node>
                     <node concept="3clFbH" id="2MUPwqpkSAc" role="3cqZAp" />
-                    <node concept="34ab3g" id="2MUPwqpisuF" role="3cqZAp">
-                      <property role="35gtTG" value="info" />
-                      <node concept="3cpWs3" id="2MUPwqpivG3" role="34bqiv">
+                    <node concept="2xdQw9" id="3hxBliK9bgA" role="3cqZAp">
+                      <property role="2xdLsb" value="info" />
+                      <node concept="3cpWs3" id="2MUPwqpivG3" role="9lYJi">
                         <node concept="2OqwBi" id="2MUPwqpjDZM" role="3uHU7w">
                           <node concept="2OqwBi" id="2MUPwqpiwwy" role="2Oq$k0">
                             <node concept="37vLTw" id="2MUPwqpiw69" role="2Oq$k0">
@@ -1430,9 +1430,9 @@
                           </node>
                           <node concept="9aQIb" id="2MUPwqpun$J" role="9aQIa">
                             <node concept="3clFbS" id="2MUPwqpun$K" role="9aQI4">
-                              <node concept="34ab3g" id="2MUPwqpJb3S" role="3cqZAp">
-                                <property role="35gtTG" value="info" />
-                                <node concept="3cpWs3" id="2MUPwqpJhMQ" role="34bqiv">
+                              <node concept="2xdQw9" id="3hxBliK9c7P" role="3cqZAp">
+                                <property role="2xdLsb" value="info" />
+                                <node concept="3cpWs3" id="2MUPwqpJhMQ" role="9lYJi">
                                   <node concept="2OqwBi" id="2MUPwqpJiTi" role="3uHU7w">
                                     <node concept="2GrUjf" id="2MUPwqpJilo" role="2Oq$k0">
                                       <ref role="2Gs0qQ" node="2MUPwqppjah" resolve="column" />

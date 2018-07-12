@@ -222,11 +222,10 @@
       <concept id="8077936094962911282" name="jetbrains.mps.lang.scopes.structure.ParentScope" flags="nn" index="iy90A" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167228628751" name="hasException" index="34fQS0" />
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
-        <child id="1167227561449" name="exception" index="34bMjA" />
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
+        <child id="5721587534047265375" name="throwable" index="9lYJj" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1589,16 +1588,6 @@
         </node>
         <node concept="3clFbJ" id="Uo9xLniqQz" role="3cqZAp">
           <node concept="3clFbS" id="Uo9xLniqQ_" role="3clFbx">
-            <node concept="1X3_iC" id="5yuMiu9RDv6" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="34ab3g" id="6mn2T7SVnyT" role="8Wnug">
-                <property role="35gtTG" value="info" />
-                <node concept="Xl_RD" id="6mn2T7SVnyU" role="34bqiv">
-                  <property role="Xl_RC" value="mart on analysis" />
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs6" id="Uo9xLnirfA" role="3cqZAp">
               <node concept="2OqwBi" id="Uo9xLniriv" role="3cqZAk">
                 <node concept="37vLTw" id="Uo9xLnirfT" role="2Oq$k0">
@@ -1685,16 +1674,6 @@
               </node>
               <node concept="3clFbJ" id="6mn2T7RUvnn" role="3cqZAp">
                 <node concept="3clFbS" id="6mn2T7RUvno" role="3clFbx">
-                  <node concept="1X3_iC" id="5yuMiu9RDv8" role="lGtFl">
-                    <property role="3V$3am" value="statement" />
-                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                    <node concept="34ab3g" id="6mn2T7RUvnp" role="8Wnug">
-                      <property role="35gtTG" value="info" />
-                      <node concept="Xl_RD" id="6mn2T7RUvnq" role="34bqiv">
-                        <property role="Xl_RC" value="mart on Statement" />
-                      </node>
-                    </node>
-                  </node>
                   <node concept="3cpWs6" id="6mn2T7RUwPu" role="3cqZAp">
                     <node concept="2OqwBi" id="6mn2T7RUwPv" role="3cqZAk">
                       <node concept="37vLTw" id="1e1bwEAjlmW" role="2Oq$k0">
@@ -1720,16 +1699,6 @@
                     </node>
                   </node>
                   <node concept="3x8VRR" id="6mn2T7S075E" role="2OqNvi" />
-                </node>
-              </node>
-              <node concept="1X3_iC" id="5yuMiu9RDv9" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="34ab3g" id="pr6WGEHlmL" role="8Wnug">
-                  <property role="35gtTG" value="info" />
-                  <node concept="Xl_RD" id="pr6WGEHlmM" role="34bqiv">
-                    <property role="Xl_RC" value="no mart found" />
-                  </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="55b$yEtnukL" role="3cqZAp">
@@ -1776,16 +1745,6 @@
         </node>
         <node concept="3clFbJ" id="Uo9xLniBVJ" role="3cqZAp">
           <node concept="3clFbS" id="Uo9xLniBVK" role="3clFbx">
-            <node concept="1X3_iC" id="5yuMiu9RDva" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="34ab3g" id="Uo9xLnsbJC" role="8Wnug">
-                <property role="35gtTG" value="info" />
-                <node concept="Xl_RD" id="Uo9xLnsbJE" role="34bqiv">
-                  <property role="Xl_RC" value="Installing mart on Analysis" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="Uo9xLniFXz" role="3cqZAp">
               <node concept="37vLTI" id="Uo9xLniGg$" role="3clFbG">
                 <node concept="2ShNRf" id="Uo9xLniGi$" role="37vLTx">
@@ -1856,16 +1815,6 @@
               </node>
               <node concept="3clFbJ" id="Uo9xLniBWa" role="3cqZAp">
                 <node concept="3clFbS" id="Uo9xLniBWb" role="3clFbx">
-                  <node concept="1X3_iC" id="5yuMiu9RDvb" role="lGtFl">
-                    <property role="3V$3am" value="statement" />
-                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                    <node concept="34ab3g" id="Uo9xLnsbTv" role="8Wnug">
-                      <property role="35gtTG" value="info" />
-                      <node concept="Xl_RD" id="Uo9xLnsbTx" role="34bqiv">
-                        <property role="Xl_RC" value="installing mart on Statement" />
-                      </node>
-                    </node>
-                  </node>
                   <node concept="3clFbF" id="Uo9xLniGnl" role="3cqZAp">
                     <node concept="37vLTI" id="Uo9xLniGDq" role="3clFbG">
                       <node concept="2ShNRf" id="Uo9xLniGFt" role="37vLTx">
@@ -1947,21 +1896,6 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="5yuMiu9RDvc" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="34ab3g" id="6mn2T7SVpjO" role="8Wnug">
-            <property role="35gtTG" value="info" />
-            <node concept="3cpWs3" id="6mn2T7SVqeB" role="34bqiv">
-              <node concept="37vLTw" id="6mn2T7SVqiE" role="3uHU7w">
-                <ref role="3cqZAo" node="Uo9xLnjGEo" resolve="registry" />
-              </node>
-              <node concept="Xl_RD" id="6mn2T7SVpjP" role="3uHU7B">
-                <property role="Xl_RC" value="Find the node on registry?" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="SfApY" id="1M6hTyZapdr" role="3cqZAp">
           <node concept="3clFbS" id="1M6hTyZapds" role="SfCbr">
             <node concept="3clFbF" id="1M6hTyZapdt" role="3cqZAp">
@@ -1983,16 +1917,6 @@
                 </node>
                 <node concept="37vLTw" id="1M6hTyZapdw" role="37vLTJ">
                   <ref role="3cqZAo" node="1M6hTyZapdi" resolve="data" />
-                </node>
-              </node>
-            </node>
-            <node concept="1X3_iC" id="5yuMiu9RDvd" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="34ab3g" id="6mn2T7SVuO0" role="8Wnug">
-                <property role="35gtTG" value="info" />
-                <node concept="Xl_RD" id="6mn2T7SVuO2" role="34bqiv">
-                  <property role="Xl_RC" value="Get The databaseList" />
                 </node>
               </node>
             </node>
@@ -2174,13 +2098,12 @@
           </node>
           <node concept="TDmWw" id="1M6hTyZapem" role="TEbGg">
             <node concept="3clFbS" id="1M6hTyZapen" role="TDEfX">
-              <node concept="34ab3g" id="1M6hTyZapeo" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="1M6hTyZapep" role="34bqiv">
+              <node concept="2xdQw9" id="3hxBliK8v7A" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="1M6hTyZapep" role="9lYJi">
                   <property role="Xl_RC" value="Cannot Connect BioMart" />
                 </node>
-                <node concept="37vLTw" id="1M6hTyZapeq" role="34bMjA">
+                <node concept="37vLTw" id="1M6hTyZapeq" role="9lYJj">
                   <ref role="3cqZAo" node="1M6hTyZaper" resolve="ex" />
                 </node>
               </node>
@@ -2248,9 +2171,9 @@
       </node>
       <node concept="3Tm1VV" id="2o$O_6Sqc7G" role="1B3o_S" />
       <node concept="3clFbS" id="2o$O_6Sqc7H" role="3clF47">
-        <node concept="34ab3g" id="2o$O_6StdcU" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="2o$O_6StgKU" role="34bqiv">
+        <node concept="2xdQw9" id="3hxBliK8vdh" role="3cqZAp">
+          <property role="2xdLsb" value="info" />
+          <node concept="3cpWs3" id="2o$O_6StgKU" role="9lYJi">
             <node concept="2OqwBi" id="2o$O_6Sth3V" role="3uHU7w">
               <node concept="37vLTw" id="2o$O_6StgSM" role="2Oq$k0">
                 <ref role="3cqZAo" node="2o$O_6Sq$cQ" resolve="filterMaartNames" />
@@ -3226,13 +3149,12 @@
           </node>
           <node concept="TDmWw" id="KwXu1W7S0K" role="TEbGg">
             <node concept="3clFbS" id="KwXu1W7S0L" role="TDEfX">
-              <node concept="34ab3g" id="KwXu1W7S0M" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="KwXu1W7S0N" role="34bqiv">
+              <node concept="2xdQw9" id="3hxBliK8C0F" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="KwXu1W7S0N" role="9lYJi">
                   <property role="Xl_RC" value="Cannot Connect BioMart" />
                 </node>
-                <node concept="37vLTw" id="KwXu1W7S0O" role="34bMjA">
+                <node concept="37vLTw" id="KwXu1W7S0O" role="9lYJj">
                   <ref role="3cqZAo" node="KwXu1W7S0P" resolve="ex" />
                 </node>
               </node>
@@ -3697,13 +3619,12 @@
           </node>
           <node concept="TDmWw" id="KwXu1W$l2F" role="TEbGg">
             <node concept="3clFbS" id="KwXu1W$l2H" role="TDEfX">
-              <node concept="34ab3g" id="KwXu1W$lmA" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="KwXu1W$lmB" role="34bqiv">
+              <node concept="2xdQw9" id="3hxBliK8Lat" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="KwXu1W$lmB" role="9lYJi">
                   <property role="Xl_RC" value="Cannot Connect BioMart" />
                 </node>
-                <node concept="37vLTw" id="KwXu1W$lmC" role="34bMjA">
+                <node concept="37vLTw" id="KwXu1W$lmC" role="9lYJj">
                   <ref role="3cqZAo" node="KwXu1W$l2J" resolve="ex" />
                 </node>
               </node>
@@ -4080,13 +4001,12 @@
           </node>
           <node concept="TDmWw" id="5FcpIQry7iX" role="TEbGg">
             <node concept="3clFbS" id="5FcpIQry7iY" role="TDEfX">
-              <node concept="34ab3g" id="5FcpIQry7iZ" role="3cqZAp">
-                <property role="35gtTG" value="error" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="5FcpIQry7j0" role="34bqiv">
+              <node concept="2xdQw9" id="3hxBliK8Lhe" role="3cqZAp">
+                <property role="2xdLsb" value="error" />
+                <node concept="Xl_RD" id="5FcpIQry7j0" role="9lYJi">
                   <property role="Xl_RC" value="Cannot Connect BioMart" />
                 </node>
-                <node concept="37vLTw" id="5FcpIQry7j1" role="34bMjA">
+                <node concept="37vLTw" id="5FcpIQry7j1" role="9lYJj">
                   <ref role="3cqZAo" node="5FcpIQry7j2" resolve="ex" />
                 </node>
               </node>
