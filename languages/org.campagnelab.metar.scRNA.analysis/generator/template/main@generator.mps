@@ -16238,24 +16238,10 @@
                         <node concept="2ShNRf" id="6Sje3Q$g6e9" role="2Oq$k0">
                           <node concept="1pGfFk" id="6Sje3Q$g7TM" role="2ShVmc">
                             <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
-                            <node concept="3cpWs3" id="5TOLd3SE7y6" role="37wK5m">
-                              <node concept="2OqwBi" id="5TOLd3SE863" role="3uHU7w">
-                                <node concept="30H73N" id="5TOLd3SE7Ol" role="2Oq$k0" />
-                                <node concept="2qgKlT" id="5TOLd3SE8Mq" role="2OqNvi">
-                                  <ref role="37wK5l" to="9kby:7tHgX0wOTkT" resolve="glimmaDirName" />
-                                </node>
-                              </node>
-                              <node concept="3cpWs3" id="5TOLd3SE5rt" role="3uHU7B">
-                                <node concept="2OqwBi" id="6Sje3Q$g4Ey" role="3uHU7B">
-                                  <node concept="30H73N" id="6Sje3Q$g44J" role="2Oq$k0" />
-                                  <node concept="2qgKlT" id="5TOLd3SE2Pe" role="2OqNvi">
-                                    <ref role="37wK5l" to="9kby:6Sje3Q$exEc" resolve="getCleanModelName" />
-                                  </node>
-                                </node>
-                                <node concept="10M0yZ" id="3RDLr5ONXrv" role="3uHU7w">
-                                  <ref role="1PxDUh" to="guwi:~File" resolve="File" />
-                                  <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
-                                </node>
+                            <node concept="2OqwBi" id="6Sje3Q$g4Ey" role="37wK5m">
+                              <node concept="30H73N" id="6Sje3Q$g44J" role="2Oq$k0" />
+                              <node concept="2qgKlT" id="3hxBliKk8wr" role="2OqNvi">
+                                <ref role="37wK5l" to="9kby:6Sje3Q$e7wb" resolve="glimmaPath" />
                               </node>
                             </node>
                           </node>
