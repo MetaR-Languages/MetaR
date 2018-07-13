@@ -265,6 +265,7 @@
       <concept id="6176023809880707746" name="org.campagnelab.metar.R.structure.MultiplicationExpr" flags="ng" index="2PZJpc" />
       <concept id="6176023809880707747" name="org.campagnelab.metar.R.structure.AdditionExpr" flags="ng" index="2PZJpd" />
       <concept id="6176023809880707745" name="org.campagnelab.metar.R.structure.USER_OPExpr" flags="ng" index="2PZJpf" />
+      <concept id="6176023809880707773" name="org.campagnelab.metar.R.structure.NullExpr" flags="ng" index="2PZJpj" />
       <concept id="6176023809880707770" name="org.campagnelab.metar.R.structure.IntLiteralExpr" flags="ng" index="2PZJpk">
         <property id="1229604057012663654" name="value" index="pzxG6" />
       </concept>
@@ -15145,6 +15146,88 @@
       <property role="1MXi1$" value="XSPYPFUEXM" />
       <node concept="13u1kU" id="3M31SPQlwU5" role="13u1kV">
         <property role="1MXi1$" value="IWGEKLOTER" />
+        <node concept="2PZJp4" id="1qLg5ebpxjO" role="13u1kV">
+          <property role="1MXi1$" value="GGVIGGXWCN" />
+          <node concept="2PZJpp" id="1qLg5ebpxjT" role="2v3mow">
+            <property role="1MXi1$" value="TWRFKWQGGL" />
+            <property role="TrG5h" value="countsNoGeneName" />
+          </node>
+          <node concept="2PZJpp" id="1qLg5ebpxjU" role="2v3moI">
+            <property role="1MXi1$" value="MPTGUIWUGN" />
+            <property role="TrG5h" value="aggregateCountsMatrix" />
+            <node concept="17Uvod" id="1qLg5ebpyiQ" role="lGtFl">
+              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+              <property role="2qtEX9" value="name" />
+              <node concept="3zFVjK" id="1qLg5ebpyiR" role="3zH0cK">
+                <node concept="3clFbS" id="1qLg5ebpyiS" role="2VODD2">
+                  <node concept="3clFbF" id="1qLg5ebp$U4" role="3cqZAp">
+                    <node concept="2OqwBi" id="1qLg5ebp$U5" role="3clFbG">
+                      <node concept="2OqwBi" id="1qLg5ebp$U6" role="2Oq$k0">
+                        <node concept="30H73N" id="1qLg5ebp$U7" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="1qLg5ebp$U8" role="2OqNvi">
+                          <ref role="3Tt5mk" to="lznn:3Vn8EN0Tnrc" resolve="counts" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="1qLg5ebp$U9" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:7tPuoi15D0G" resolve="getVariableName" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="22gccq" id="1qLg5ebpxjV" role="22hImy" />
+        </node>
+        <node concept="2PZJp4" id="1qLg5ebpxjW" role="13u1kV">
+          <property role="1MXi1$" value="ADSYMANWVC" />
+          <node concept="2PZJpN" id="1qLg5ebpxk1" role="2v3mow">
+            <property role="1MXi1$" value="PISNPKDOQW" />
+            <node concept="1LhYbg" id="1qLg5ebpyiO" role="2v3mow">
+              <property role="1MXi1$" value="WCFDPUHFJD" />
+              <ref role="1Li74V" node="1qLg5ebpxjT" resolve="countsNoGeneName" />
+            </node>
+            <node concept="2PZJpp" id="1qLg5ebpxk7" role="2v3moI">
+              <property role="1MXi1$" value="TMWSBVLKNO" />
+              <property role="TrG5h" value="GeneName" />
+              <property role="3WjR0X" value="true" />
+              <node concept="17Uvod" id="1qLg5ebpZWj" role="lGtFl">
+                <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                <property role="2qtEX9" value="name" />
+                <node concept="3zFVjK" id="1qLg5ebpZWk" role="3zH0cK">
+                  <node concept="3clFbS" id="1qLg5ebpZWl" role="2VODD2">
+                    <node concept="3clFbF" id="1qLg5ebq1nh" role="3cqZAp">
+                      <node concept="2OqwBi" id="1qLg5ebq1ni" role="3clFbG">
+                        <node concept="2OqwBi" id="1qLg5ebq1nj" role="2Oq$k0">
+                          <node concept="2OqwBi" id="1qLg5ebq1nk" role="2Oq$k0">
+                            <node concept="30H73N" id="1qLg5ebq1nl" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="1qLg5ebq1nm" role="2OqNvi">
+                              <ref role="3Tt5mk" to="lznn:3Vn8EN0Tnrc" resolve="counts" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="1qLg5ebq1nn" role="2OqNvi">
+                            <ref role="37wK5l" to="v8sa:6XP3gVdMCs$" resolve="firstColumnWithGroup" />
+                            <node concept="Xl_RD" id="1qLg5ebq1no" role="37wK5m">
+                              <property role="Xl_RC" value="ID" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="1qLg5ebq1np" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="22gcdF" id="1qLg5ebpxk8" role="22hImy" />
+          </node>
+          <node concept="2PZJpj" id="1qLg5ebpxk9" role="2v3moI">
+            <property role="1MXi1$" value="BCTQUNWIYL" />
+          </node>
+          <node concept="22gccq" id="1qLg5ebpxka" role="22hImy" />
+        </node>
         <node concept="2PZJp4" id="3M31SPQlwS1" role="13u1kV">
           <property role="1MXi1$" value="UCKYFBWKJY" />
           <node concept="2PZJpp" id="3M31SPQlwS6" role="2v3mow">
@@ -15162,30 +15245,9 @@
               <node concept="V6WaX" id="3M31SPQlwSa" role="gNbrm">
                 <property role="1MXi1$" value="UUOYAEDMMO" />
                 <property role="gNbhX" value="counts" />
-                <node concept="2PZJpp" id="3M31SPQlwSd" role="gNbhV">
-                  <property role="1MXi1$" value="XOIBJJRSQH" />
-                  <property role="TrG5h" value="aggregateCountsMatrix" />
-                  <node concept="17Uvod" id="3M31SPQlFro" role="lGtFl">
-                    <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                    <property role="2qtEX9" value="name" />
-                    <node concept="3zFVjK" id="3M31SPQlFrp" role="3zH0cK">
-                      <node concept="3clFbS" id="3M31SPQlFrq" role="2VODD2">
-                        <node concept="3clFbF" id="3M31SPQlF$0" role="3cqZAp">
-                          <node concept="2OqwBi" id="3M31SPQlGIl" role="3clFbG">
-                            <node concept="2OqwBi" id="3M31SPQlFPv" role="2Oq$k0">
-                              <node concept="30H73N" id="3M31SPQlFzZ" role="2Oq$k0" />
-                              <node concept="3TrEf2" id="3M31SPQlGc9" role="2OqNvi">
-                                <ref role="3Tt5mk" to="lznn:3Vn8EN0Tnrc" resolve="counts" />
-                              </node>
-                            </node>
-                            <node concept="2qgKlT" id="3M31SPQlHbG" role="2OqNvi">
-                              <ref role="37wK5l" to="v8sa:7tPuoi15D0G" resolve="getVariableName" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
+                <node concept="1LhYbg" id="1qLg5ebpCJW" role="gNbhV">
+                  <property role="1MXi1$" value="IAFLBCMKEQ" />
+                  <ref role="1Li74V" node="1qLg5ebpxjT" resolve="countsNoGeneName" />
                 </node>
               </node>
             </node>
@@ -15328,30 +15390,9 @@
                     <property role="1MXi1$" value="YXHTRRNGEY" />
                     <node concept="V6WaU" id="3M31SPQlwT$" role="gNbrm">
                       <property role="1MXi1$" value="EWUCHPCHJN" />
-                      <node concept="2PZJpp" id="3M31SPQlwTB" role="gNbhV">
-                        <property role="1MXi1$" value="VSOBJYEOXA" />
-                        <property role="TrG5h" value="aggregateCountsMatrix" />
-                        <node concept="17Uvod" id="3M31SPQlHPy" role="lGtFl">
-                          <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                          <property role="2qtEX9" value="name" />
-                          <node concept="3zFVjK" id="3M31SPQlHPz" role="3zH0cK">
-                            <node concept="3clFbS" id="3M31SPQlHP$" role="2VODD2">
-                              <node concept="3clFbF" id="3M31SPQlIe3" role="3cqZAp">
-                                <node concept="2OqwBi" id="3M31SPQlIe5" role="3clFbG">
-                                  <node concept="2OqwBi" id="3M31SPQlIe6" role="2Oq$k0">
-                                    <node concept="30H73N" id="3M31SPQlIe7" role="2Oq$k0" />
-                                    <node concept="3TrEf2" id="3M31SPQlIe8" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="lznn:3Vn8EN0Tnrc" resolve="counts" />
-                                    </node>
-                                  </node>
-                                  <node concept="2qgKlT" id="3M31SPQlIe9" role="2OqNvi">
-                                    <ref role="37wK5l" to="v8sa:7tPuoi15D0G" resolve="getVariableName" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
+                      <node concept="1LhYbg" id="1qLg5ebpBy5" role="gNbhV">
+                        <property role="1MXi1$" value="HLLLLLUCGS" />
+                        <ref role="1Li74V" node="1qLg5ebpxjU" resolve="aggregateCountsMatrix" />
                       </node>
                     </node>
                   </node>
@@ -15386,30 +15427,9 @@
           <node concept="22gccq" id="1qLg5ebefIv" role="22hImy" />
           <node concept="2PZJpN" id="1qLg5ebemuv" role="2v3moI">
             <property role="1MXi1$" value="QGWLDIBLBV" />
-            <node concept="2PZJpp" id="1qLg5ebemu$" role="2v3mow">
-              <property role="1MXi1$" value="KXOPNSURUV" />
-              <property role="TrG5h" value="aggregateCountsMatrix" />
-              <node concept="17Uvod" id="1qLg5ebexBF" role="lGtFl">
-                <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                <property role="2qtEX9" value="name" />
-                <node concept="3zFVjK" id="1qLg5ebexBG" role="3zH0cK">
-                  <node concept="3clFbS" id="1qLg5ebexBH" role="2VODD2">
-                    <node concept="3clFbF" id="1qLg5ebexKi" role="3cqZAp">
-                      <node concept="2OqwBi" id="1qLg5ebexKj" role="3clFbG">
-                        <node concept="2OqwBi" id="1qLg5ebexKk" role="2Oq$k0">
-                          <node concept="30H73N" id="1qLg5ebexKl" role="2Oq$k0" />
-                          <node concept="3TrEf2" id="1qLg5ebexKm" role="2OqNvi">
-                            <ref role="3Tt5mk" to="lznn:3Vn8EN0Tnrc" resolve="counts" />
-                          </node>
-                        </node>
-                        <node concept="2qgKlT" id="1qLg5ebexKn" role="2OqNvi">
-                          <ref role="37wK5l" to="v8sa:7tPuoi15D0G" resolve="getVariableName" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="1LhYbg" id="1qLg5ebpBy7" role="2v3mow">
+              <property role="1MXi1$" value="PLIELABGRP" />
+              <ref role="1Li74V" node="1qLg5ebpxjU" resolve="aggregateCountsMatrix" />
             </node>
             <node concept="2PZJpp" id="1qLg5ebemu_" role="2v3moI">
               <property role="1MXi1$" value="QUIITMWKGG" />
@@ -15447,9 +15467,6 @@
             </node>
             <node concept="22gcdF" id="1qLg5ebemuA" role="22hImy" />
           </node>
-        </node>
-        <node concept="3cU4HJ" id="1qLg5ebeeN2" role="13u1kV">
-          <property role="1MXi1$" value="WWDRQQUSKK" />
         </node>
         <node concept="13u1kU" id="3M31SPQlK27" role="13u1kV">
           <property role="1MXi1$" value="EAJCRXCMVL" />
@@ -15936,38 +15953,9 @@
                         <property role="1MXi1$" value="PMNOKSBGCQ" />
                         <node concept="V6WaU" id="C8BOZO5LFG" role="gNbrm">
                           <property role="1MXi1$" value="LKKILCQETT" />
-                          <node concept="2PZJpp" id="C8BOZO5LFJ" role="gNbhV">
-                            <property role="1MXi1$" value="BJSHWSFYRE" />
-                            <property role="TrG5h" value="aggregateCountsMatrix" />
-                            <node concept="17Uvod" id="C8BOZO61rg" role="lGtFl">
-                              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                              <property role="2qtEX9" value="name" />
-                              <node concept="3zFVjK" id="C8BOZO61rh" role="3zH0cK">
-                                <node concept="3clFbS" id="C8BOZO61ri" role="2VODD2">
-                                  <node concept="3clFbF" id="C8BOZO61zS" role="3cqZAp">
-                                    <node concept="2OqwBi" id="C8BOZO65Lb" role="3clFbG">
-                                      <node concept="2OqwBi" id="C8BOZO650j" role="2Oq$k0">
-                                        <node concept="1PxgMI" id="C8BOZO64$Y" role="2Oq$k0">
-                                          <node concept="chp4Y" id="C8BOZO64EE" role="3oSUPX">
-                                            <ref role="cht4Q" to="lznn:3Vn8EN0TmRg" resolve="Limma" />
-                                          </node>
-                                          <node concept="2OqwBi" id="C8BOZO61M2" role="1m5AlR">
-                                            <node concept="30H73N" id="C8BOZO61zR" role="2Oq$k0" />
-                                            <node concept="1mfA1w" id="C8BOZO628K" role="2OqNvi" />
-                                          </node>
-                                        </node>
-                                        <node concept="3TrEf2" id="C8BOZO65mI" role="2OqNvi">
-                                          <ref role="3Tt5mk" to="lznn:3Vn8EN0Tnrc" resolve="counts" />
-                                        </node>
-                                      </node>
-                                      <node concept="2qgKlT" id="C8BOZO66gb" role="2OqNvi">
-                                        <ref role="37wK5l" to="v8sa:7tPuoi15D0G" resolve="getVariableName" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
+                          <node concept="1LhYbg" id="1qLg5ebp_yt" role="gNbhV">
+                            <property role="1MXi1$" value="HWQCTJEITW" />
+                            <ref role="1Li74V" node="1qLg5ebpxjU" resolve="aggregateCountsMatrix" />
                           </node>
                         </node>
                       </node>
