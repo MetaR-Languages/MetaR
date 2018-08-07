@@ -4288,6 +4288,12 @@
               <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
             </node>
           </node>
+          <node concept="1SiIV0" id="1MOoiNlB4tk" role="3bR37C">
+            <node concept="3bR9La" id="1MOoiNlB4tl" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="3eUkWazMaTa" role="3bR37C">
           <node concept="3bR9La" id="3eUkWazMaTb" role="1SiIV1">
