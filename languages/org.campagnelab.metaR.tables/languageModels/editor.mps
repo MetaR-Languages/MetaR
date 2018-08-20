@@ -676,26 +676,6 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3EZMnI" id="4fDB6jptbdT" role="3EZMnx">
-        <ref role="1ERwB7" node="4fDB6joHeUW" resolve="TableContextAssistantActions" />
-        <ref role="1k5W1q" node="7gaqNttNRGc" resolve="Heading" />
-        <node concept="2iRfu4" id="4fDB6jptbdU" role="2iSdaV" />
-        <node concept="3F0ifn" id="4fDB6jptbdV" role="3EZMnx">
-          <ref role="1ERwB7" node="4fDB6joHeUW" resolve="TableContextAssistantActions" />
-          <node concept="A1WHr" id="4fDB6jptbdW" role="3vIgyS">
-            <ref role="2ZyFGn" to="jrxw:2WRhvFtkykN" resolve="Table" />
-          </node>
-          <node concept="VPxyj" id="4fDB6jptbdX" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="18a60v" id="4fDB6jptbdY" role="3EZMnx">
-          <ref role="1ERwB7" node="4fDB6joHeUW" resolve="TableContextAssistantActions" />
-          <node concept="VPM3Z" id="4fDB6jptbdZ" role="3F10Kt">
-            <property role="VOm3f" value="false" />
-          </node>
-        </node>
-      </node>
       <node concept="3F2HdR" id="2WRhvFtnx7L" role="3EZMnx">
         <ref role="1NtTu8" to="ztlb:1UijAvvb9DO" resolve="columns" />
         <ref role="APP_o" node="3l0yXcVu1UC" resolve="DisableColumnEditing" />
@@ -712,6 +692,34 @@
         </node>
         <node concept="VPxyj" id="3l0yXcVXUHW" role="3F10Kt">
           <property role="VOm3f" value="false" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4fDB6jpwh$C" role="3EZMnx">
+        <node concept="pVoyu" id="4fDB6jpwhBi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="4fDB6jptbdT" role="3EZMnx">
+        <ref role="1k5W1q" node="7gaqNttNRGc" resolve="Heading" />
+        <ref role="1ERwB7" node="4fDB6joHeUW" resolve="TableContextAssistantActions" />
+        <node concept="2iRfu4" id="4fDB6jptbdU" role="2iSdaV" />
+        <node concept="3F0ifn" id="4fDB6jptbdV" role="3EZMnx">
+          <ref role="1ERwB7" node="4fDB6joHeUW" resolve="TableContextAssistantActions" />
+          <node concept="A1WHr" id="4fDB6jptbdW" role="3vIgyS">
+            <ref role="2ZyFGn" to="jrxw:2WRhvFtkykN" resolve="Table" />
+          </node>
+          <node concept="VPxyj" id="4fDB6jptbdX" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="18a60v" id="4fDB6jptbdY" role="3EZMnx">
+          <ref role="1ERwB7" node="4fDB6joHeUW" resolve="TableContextAssistantActions" />
+          <node concept="VPM3Z" id="4fDB6jptbdZ" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+        </node>
+        <node concept="pVoyu" id="4fDB6jpwhBp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="l2Vlx" id="2WRhvFtn5da" role="2iSdaV" />
@@ -7534,7 +7542,7 @@
             <node concept="3clFbS" id="4fDB6joH48i" role="2VODD2">
               <node concept="3clFbF" id="4fDB6joH4BA" role="3cqZAp">
                 <node concept="Xl_RD" id="4fDB6joH4B_" role="3clFbG">
-                  <property role="Xl_RC" value="CreateColumnGroupContainer" />
+                  <property role="Xl_RC" value="Create ColumnGroupContainer" />
                 </node>
               </node>
             </node>
