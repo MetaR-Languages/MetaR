@@ -7537,7 +7537,7 @@
             <node concept="3clFbS" id="4fDB6joH48i" role="2VODD2">
               <node concept="3clFbF" id="4fDB6joH4BA" role="3cqZAp">
                 <node concept="Xl_RD" id="4fDB6joH4B_" role="3clFbG">
-                  <property role="Xl_RC" value="NewGroupContainer" />
+                  <property role="Xl_RC" value="CreateColumnGroupContainer" />
                 </node>
               </node>
             </node>
