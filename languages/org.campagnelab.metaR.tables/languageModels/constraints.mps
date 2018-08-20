@@ -1408,8 +1408,13 @@
               </node>
               <node concept="2xdQw9" id="3hxBliKaiUm" role="3cqZAp">
                 <property role="2xdLsb" value="info" />
-                <node concept="Xl_RD" id="6KeyvEh7Uvt" role="9lYJi">
-                  <property role="Xl_RC" value="Validating the new path" />
+                <node concept="3cpWs3" id="6_nzoBhR0LC" role="9lYJi">
+                  <node concept="37vLTw" id="6_nzoBhR0VD" role="3uHU7w">
+                    <ref role="3cqZAo" node="3Pa_fMtu_Tm" resolve="newPath" />
+                  </node>
+                  <node concept="Xl_RD" id="6KeyvEh7Uvt" role="3uHU7B">
+                    <property role="Xl_RC" value="Validating the new path " />
+                  </node>
                 </node>
               </node>
               <node concept="3cpWs8" id="3Pa_fMtu$5d" role="3cqZAp">
@@ -1541,8 +1546,13 @@
           </node>
           <node concept="2xdQw9" id="3hxBliKaj7O" role="3cqZAp">
             <property role="2xdLsb" value="info" />
-            <node concept="Xl_RD" id="6KeyvEh7WeR" role="9lYJi">
-              <property role="Xl_RC" value="Set the new path" />
+            <node concept="3cpWs3" id="76b1nSUd8gR" role="9lYJi">
+              <node concept="37vLTw" id="76b1nSUd8jZ" role="3uHU7w">
+                <ref role="3cqZAo" node="w5znaeRQ7K" resolve="newPath" />
+              </node>
+              <node concept="Xl_RD" id="6KeyvEh7WeR" role="3uHU7B">
+                <property role="Xl_RC" value="Set the new path" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="6KeyvEh7VxE" role="3cqZAp">
