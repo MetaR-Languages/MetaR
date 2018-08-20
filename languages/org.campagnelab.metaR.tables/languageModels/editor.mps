@@ -676,27 +676,24 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3EZMnI" id="4fDB6joPlGT" role="3EZMnx">
+      <node concept="3EZMnI" id="4fDB6jptbdT" role="3EZMnx">
         <ref role="1ERwB7" node="4fDB6joHeUW" resolve="TableContextAssistantActions" />
         <ref role="1k5W1q" node="7gaqNttNRGc" resolve="Heading" />
-        <node concept="2iRfu4" id="4fDB6joPlGU" role="2iSdaV" />
-        <node concept="3F0ifn" id="4fDB6joPlGV" role="3EZMnx">
+        <node concept="2iRfu4" id="4fDB6jptbdU" role="2iSdaV" />
+        <node concept="3F0ifn" id="4fDB6jptbdV" role="3EZMnx">
           <ref role="1ERwB7" node="4fDB6joHeUW" resolve="TableContextAssistantActions" />
-          <node concept="A1WHr" id="4fDB6joPlGW" role="3vIgyS">
+          <node concept="A1WHr" id="4fDB6jptbdW" role="3vIgyS">
             <ref role="2ZyFGn" to="jrxw:2WRhvFtkykN" resolve="Table" />
           </node>
-          <node concept="VPxyj" id="4fDB6joPlGX" role="3F10Kt">
+          <node concept="VPxyj" id="4fDB6jptbdX" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="18a60v" id="4fDB6joPlGY" role="3EZMnx">
+        <node concept="18a60v" id="4fDB6jptbdY" role="3EZMnx">
           <ref role="1ERwB7" node="4fDB6joHeUW" resolve="TableContextAssistantActions" />
-          <node concept="VPM3Z" id="4fDB6joPlGZ" role="3F10Kt">
+          <node concept="VPM3Z" id="4fDB6jptbdZ" role="3F10Kt">
             <property role="VOm3f" value="false" />
           </node>
-        </node>
-        <node concept="pVoyu" id="4fDB6joPlJQ" role="3F10Kt">
-          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F2HdR" id="2WRhvFtnx7L" role="3EZMnx">
