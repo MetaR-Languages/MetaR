@@ -258,12 +258,33 @@
     </node>
     <node concept="2kB4xC" id="4RSqyaA4c2V" role="1l3spd">
       <property role="TrG5h" value="build_number" />
+      <node concept="aVJcg" id="R8XU2M_DMW" role="aVJcv">
+        <node concept="NbPM2" id="R8XU2M_DMV" role="aVJcq">
+          <node concept="3Mxwew" id="R8XU2M_DMU" role="3MwsjC">
+            <property role="3MwjfP" value="1532" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2kB4xC" id="4RSqyaA6FWL" role="1l3spd">
       <property role="TrG5h" value="reference_commit" />
+      <node concept="aVJcg" id="R8XU2M_DWY" role="aVJcv">
+        <node concept="NbPM2" id="R8XU2M_DWX" role="aVJcq">
+          <node concept="3Mxwew" id="R8XU2M_DWW" role="3MwsjC">
+            <property role="3MwjfP" value="de8cf88d7f9b8770e98b82c052e4303f178298e3" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2kB4xC" id="4RSqyaA6G6g" role="1l3spd">
       <property role="TrG5h" value="reference_branch" />
+      <node concept="aVJcg" id="R8XU2M_DRX" role="aVJcv">
+        <node concept="NbPM2" id="R8XU2M_DRW" role="aVJcq">
+          <node concept="3Mxwew" id="R8XU2M_DRV" role="3MwsjC">
+            <property role="3MwjfP" value="master" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2sgV4H" id="3gMg70bRmeT" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
