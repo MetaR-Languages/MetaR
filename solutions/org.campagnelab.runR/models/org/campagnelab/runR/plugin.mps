@@ -4371,14 +4371,14 @@
             <node concept="3clFbS" id="7jqSt7$Yuj$" role="3clFbx">
               <node concept="3clFbJ" id="2KDWUtYHP76" role="3cqZAp">
                 <node concept="3clFbS" id="2KDWUtYHP78" role="3clFbx">
-                  <node concept="3clFbF" id="2KDWUtYHPQx" role="3cqZAp">
-                    <node concept="37vLTI" id="2KDWUtYHPQy" role="3clFbG">
-                      <node concept="Xl_RD" id="2KDWUtYHPQz" role="37vLTx">
-                        <property role="Xl_RC" value="C:\\Program Files\\Docker Toolbox\\docker.exe" />
+                  <node concept="3clFbF" id="1t506cUiXSq" role="3cqZAp">
+                    <node concept="37vLTI" id="1t506cUj1NM" role="3clFbG">
+                      <node concept="Xl_RD" id="1t506cUj2rg" role="37vLTx">
+                        <property role="Xl_RC" value="C:\\Progra~1\\Docker\\Docker\\resources\\bin\\docker.exe" />
                       </node>
-                      <node concept="2OqwBi" id="2KDWUtYHPQ$" role="37vLTJ">
-                        <node concept="2WthIp" id="2KDWUtYHPQ_" role="2Oq$k0" />
-                        <node concept="34pFcN" id="2KDWUtYHPQA" role="2OqNvi">
+                      <node concept="2OqwBi" id="1t506cUiYlc" role="37vLTJ">
+                        <node concept="2WthIp" id="1t506cUiXSo" role="2Oq$k0" />
+                        <node concept="34pFcN" id="1t506cUiYGY" role="2OqNvi">
                           <ref role="2WH_rO" node="7jqSt7ya6yC" resolve="dockerCommandPath" />
                         </node>
                       </node>
