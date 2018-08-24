@@ -8,11 +8,11 @@
   <property name="org.campagnelab.hta.results_dir" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}/../NYoSh.core" />
   <property name="mps.extensions.home" location="${basedir}/../de.itemis.mps.extensions" />
-  <property name="metaR_version" value="2.4.3" />
+  <property name="metaR_version" value="2.4.3.1" />
   <property name="textoutput_version" value="3.2" />
   <property name="ANTLR_version" value="1.2" />
   <property name="build_number" value="1532" />
-  <property name="reference_commit" value="de8cf88d7f9b8770e98b82c052e4303f178298e3" />
+  <property name="reference_commit" value="7ecbe756514c80503e5f76b3f177d3102349e231" />
   <property name="reference_branch" value="master" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.TextOutput" location="${org.campagnelab.goby.workbench.home}/build/artifacts/org.campagnelab.TextOutput" />
