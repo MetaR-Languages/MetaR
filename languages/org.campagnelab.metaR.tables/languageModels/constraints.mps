@@ -1805,44 +1805,29 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="1N5Pfh" id="2MUPwqo_9wE" role="1Mr941">
-      <ref role="1N5Vy1" to="jrxw:2MUPwqo_950" resolve="useCovariate" />
-      <node concept="Bn3R3" id="2MUPwqo_9GC" role="Bn3R6">
-        <node concept="3clFbS" id="2MUPwqo_9GD" role="2VODD2">
-          <node concept="3clFbF" id="2MUPwqo_9Qt" role="3cqZAp">
-            <node concept="3cpWs3" id="2MUPwqo_9Qu" role="3clFbG">
-              <node concept="2OqwBi" id="2MUPwqo_9Qv" role="3uHU7w">
-                <node concept="2OqwBi" id="2MUPwqo_9Qw" role="2Oq$k0">
-                  <node concept="Bn53e" id="2MUPwqo_9Qx" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="2MUPwqo_9Qy" role="2OqNvi">
-                    <node concept="1xMEDy" id="2MUPwqo_9Qz" role="1xVPHs">
-                      <node concept="chp4Y" id="2MUPwqo_9Q$" role="ri$Ld">
-                        <ref role="cht4Q" to="ztlb:1UijAvvb8In" resolve="DataFile" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3TrcHB" id="2MUPwqo_9Q_" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-              <node concept="3cpWs3" id="2MUPwqo_9QA" role="3uHU7B">
-                <node concept="2OqwBi" id="2MUPwqo_9QB" role="3uHU7B">
-                  <node concept="Bn53e" id="2MUPwqo_9QC" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="2MUPwqo_9QD" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="2MUPwqo_9QE" role="3uHU7w">
-                  <property role="Xl_RC" value=" in:" />
+      <node concept="3k9gUc" id="4UigyYpnD0E" role="3kmjI7">
+        <node concept="3clFbS" id="4UigyYpnD0F" role="2VODD2">
+          <node concept="3SKdUt" id="4UigyYpACnr" role="3cqZAp">
+            <node concept="3SKdUq" id="4UigyYpACnt" role="3SKWNk">
+              <property role="3SKdUp" value="from MPS2018.1.1, we have to explicitely set this on the handler, otherwise the table is not linked in the annotation (bug?)." />
+            </node>
+          </node>
+          <node concept="3clFbF" id="4UigyYpnDaX" role="3cqZAp">
+            <node concept="37vLTI" id="4UigyYpnEiX" role="3clFbG">
+              <node concept="3khVwk" id="4UigyYpnEoQ" role="37vLTx" />
+              <node concept="2OqwBi" id="4UigyYpnDl_" role="37vLTJ">
+                <node concept="3kakTB" id="4UigyYpnDaW" role="2Oq$k0" />
+                <node concept="3TrEf2" id="4UigyYpnDw3" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:2MUPwqmWSI9" resolve="table" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="2dbRIv" id="1xVV58hQwHR" role="lGtFl" />
       </node>
+    </node>
+    <node concept="1N5Pfh" id="2MUPwqo_9wE" role="1Mr941">
+      <ref role="1N5Vy1" to="jrxw:2MUPwqo_950" resolve="useCovariate" />
       <node concept="3k9gUc" id="2MUPwqpvGxD" role="3kmjI7">
         <node concept="3clFbS" id="2MUPwqpvGxE" role="2VODD2">
           <node concept="3clFbF" id="2MUPwqpvIc$" role="3cqZAp">

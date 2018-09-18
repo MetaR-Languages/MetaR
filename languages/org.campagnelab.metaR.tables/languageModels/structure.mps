@@ -2218,7 +2218,7 @@
     <node concept="1TJgyj" id="2MUPwqmWSI9" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="table" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="3223123807127702409" />
       <ref role="20lvS9" node="2WRhvFtkykN" resolve="Table" />
     </node>

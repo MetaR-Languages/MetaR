@@ -2224,6 +2224,12 @@
     <node concept="3clFbS" id="2MUPwqpa1BO" role="18ibNy">
       <node concept="3clFbJ" id="2MUPwqpa1Ot" role="3cqZAp">
         <node concept="3clFbS" id="2MUPwqpa1Ou" role="3clFbx">
+          <node concept="2xdQw9" id="3OwSMscqd$i" role="3cqZAp">
+            <property role="2xdLsb" value="error" />
+            <node concept="Xl_RD" id="3OwSMscqdFo" role="9lYJi">
+              <property role="Xl_RC" value="Source table must have a column labeled with group sample-key" />
+            </node>
+          </node>
           <node concept="2MkqsV" id="2MUPwqpacwd" role="3cqZAp">
             <node concept="1YBJjd" id="2MUPwqpacwp" role="2OEOjV">
               <ref role="1YBMHb" node="2MUPwqpa1BQ" resolve="groupAnnotation" />
