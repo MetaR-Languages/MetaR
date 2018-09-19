@@ -124,7 +124,15 @@ public class QueriesGenerated extends QueryProviderBase {
         ListSequence.fromList(groupValues).addElement("\"" + NameHelper.RName(SPropertyOperations.getString(columnGroup, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "\"");
       } else {
         LoggingRuntime.logMsgView(Level.INFO, "Loading value for " + SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), QueriesGenerated.class, null, null);
-        ListSequence.fromList(groupValues).addElement("" + GroupAnnotation__BehaviorDescriptor.valueForColumn_id2MUPwqpuu6x.invoke(AttributeOperations.getAttribute(columnGroup, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2cbad60695b64fb1L, "org.campagnelab.metar.tables.structure.GroupAnnotation"))), SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "");
+        String value = GroupAnnotation__BehaviorDescriptor.valueForColumn_id2MUPwqpuu6x.invoke(AttributeOperations.getAttribute(columnGroup, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2cbad60695b64fb1L, "org.campagnelab.metar.tables.structure.GroupAnnotation"))), SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+        // if not numeric we need quotes around  
+        try {
+          Double.parseDouble(value);
+          // nothing to do 
+        } catch (NumberFormatException nfe) {
+          value = "\"" + value + "\"";
+        }
+        ListSequence.fromList(groupValues).addElement(value);
       }
     }
     return IterableUtils.join(ListSequence.fromList(groupValues), ", ");
