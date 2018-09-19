@@ -231,7 +231,7 @@
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
         <node concept="NbPM2" id="3gMg70bX6HM" role="aVJcq">
           <node concept="3Mxwew" id="3gMg70bX6HL" role="3MwsjC">
-            <property role="3MwjfP" value="2.4.4" />
+            <property role="3MwjfP" value="2.4.5" />
           </node>
         </node>
       </node>
@@ -264,8 +264,12 @@
     </node>
     <node concept="2kB4xC" id="4RSqyaA6FWL" role="1l3spd">
       <property role="TrG5h" value="reference_commit" />
-      <node concept="aVJcg" id="R8XU2M_DWY" role="aVJcv">
-        <node concept="NbPM2" id="R8XU2M_DWX" role="aVJcq" />
+      <node concept="aVJcg" id="1t506cUr8Sv" role="aVJcv">
+        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq">
+          <node concept="3Mxwew" id="1t506cUr8St" role="3MwsjC">
+            <property role="3MwjfP" value="b77fb3fea395f128eebe9ad9f8ef8f6ac5722300" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2kB4xC" id="4RSqyaA6G6g" role="1l3spd">
