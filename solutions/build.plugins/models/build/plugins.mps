@@ -265,21 +265,13 @@
     <node concept="2kB4xC" id="4RSqyaA6FWL" role="1l3spd">
       <property role="TrG5h" value="reference_commit" />
       <node concept="aVJcg" id="1t506cUr8Sv" role="aVJcv">
-        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq">
-          <node concept="3Mxwew" id="1t506cUr8St" role="3MwsjC">
-            <property role="3MwjfP" value="b77fb3fea395f128eebe9ad9f8ef8f6ac5722300" />
-          </node>
-        </node>
+        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq" />
       </node>
     </node>
     <node concept="2kB4xC" id="4RSqyaA6G6g" role="1l3spd">
       <property role="TrG5h" value="reference_branch" />
       <node concept="aVJcg" id="R8XU2M_DRX" role="aVJcv">
-        <node concept="NbPM2" id="R8XU2M_DRW" role="aVJcq">
-          <node concept="3Mxwew" id="R8XU2M_DRV" role="3MwsjC">
-            <property role="3MwjfP" value="master" />
-          </node>
-        </node>
+        <node concept="NbPM2" id="R8XU2M_DRW" role="aVJcq" />
       </node>
     </node>
     <node concept="2sgV4H" id="3gMg70bRmeT" role="1l3spa">
@@ -296,7 +288,7 @@
           <property role="2Ry0Am" value="build" />
           <node concept="2Ry0Ak" id="7OkpSXK7hPQ" role="2Ry0An">
             <property role="2Ry0Am" value="artifacts" />
-            <node concept="2Ry0Ak" id="7OkpSXKgF0h" role="2Ry0An">
+            <node concept="2Ry0Ak" id="1mmSOgKLtkd" role="2Ry0An">
               <property role="2Ry0Am" value="org.campagnelab.TextOutput" />
             </node>
           </node>
@@ -366,7 +358,7 @@
           <property role="2Ry0Am" value="build" />
           <node concept="2Ry0Ak" id="1woj2V3fCRI" role="2Ry0An">
             <property role="2Ry0Am" value="artifacts" />
-            <node concept="2Ry0Ak" id="1woj2V3fCRV" role="2Ry0An">
+            <node concept="2Ry0Ak" id="1mmSOgKLtAN" role="2Ry0An">
               <property role="2Ry0Am" value="org.campagnelab.NYoSh" />
             </node>
           </node>
@@ -381,7 +373,7 @@
           <property role="2Ry0Am" value="build" />
           <node concept="2Ry0Ak" id="4zZ0iHXekSe" role="2Ry0An">
             <property role="2Ry0Am" value="artifacts" />
-            <node concept="2Ry0Ak" id="4zZ0iHXekSr" role="2Ry0An">
+            <node concept="2Ry0Ak" id="1mmSOgKLtp0" role="2Ry0An">
               <property role="2Ry0Am" value="org.campagnelab.Logger" />
             </node>
           </node>
