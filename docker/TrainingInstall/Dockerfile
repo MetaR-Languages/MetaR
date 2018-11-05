@@ -1,7 +1,6 @@
-# Version: 1.0.0 
-FROM rocker/verse:3.5.1
+FROM rocker/verse:3.4.3
 #FROM r-base:latest
-MAINTAINER Fabien Campagne "fac2003@campagnelab.org"
+MAINTAINER Manuele Simi "mas2182@med.cornell.edu"
 ## Refresh package list and upgrade
 ## Remain current
 RUN echo "deb http://ftp.us.debian.org/debian jessie main" >> /etc/apt/sources.list
