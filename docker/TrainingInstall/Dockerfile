@@ -36,8 +36,8 @@ RUN mkdir -p /etc/R \
 RUN mkdir -p /home/docker \
 && chown docker:docker /home/docker \
 && addgroup docker staff
-RUN wget https://cran.r-project.org/src/contrib/hdf5r_1.0.0.tar.gz \
-&& R CMD INSTALL hdf5r_1.0.0.tar.gz
+RUN wget https://cran.r-project.org/src/contrib/hdf5r_1.0.1.tar.gz \
+&& R CMD INSTALL hdf5r_1.0.1.tar.gz
 ADD install-Seurat.R /tmp/install-Seurat.R
 RUN Rscript --verbose /tmp/install-Seurat.R && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 ADD test.R test.R
