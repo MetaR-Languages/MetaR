@@ -4429,7 +4429,7 @@
                     </node>
                   </node>
                   <node concept="Xl_RD" id="7jqSt7yXD_f" role="37vLTx">
-                    <property role="Xl_RC" value="fac2003/rocker-metar:latest" />
+                    <property role="Xl_RC" value="artifacts/metar:latest" />
                   </node>
                 </node>
               </node>
