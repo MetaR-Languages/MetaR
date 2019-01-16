@@ -215,17 +215,6 @@
         </node>
       </node>
     </node>
-    <node concept="398rNT" id="1UrpUrLUcXs" role="1l3spd">
-      <property role="TrG5h" value="mps.extensions.home" />
-      <node concept="55IIr" id="1UrpUrLUcXt" role="398pKh">
-        <node concept="2Ry0Ak" id="1UrpUrLUcXu" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="6T2IikInnQx" role="2Ry0An">
-            <property role="2Ry0Am" value="de.itemis.mps.extensions" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2kB4xC" id="3gMg70bX6Gp" role="1l3spd">
       <property role="TrG5h" value="metaR_version" />
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
@@ -406,11 +395,8 @@
     </node>
     <node concept="2sgV4H" id="fjQrsdNobh" role="1l3spa">
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
-      <node concept="398BVA" id="fjQrsdNoqn" role="2JcizS">
-        <ref role="398BVh" node="1UrpUrLUcXs" resolve="mps.extensions.home" />
-        <node concept="2Ry0Ak" id="6T2IikInnVk" role="iGT6I">
-          <property role="2Ry0Am" value="mps-richtext" />
-        </node>
+      <node concept="398BVA" id="2i6qROa4tVv" role="2JcizS">
+        <ref role="398BVh" node="3gMg70bRmeS" resolve="mps_home" />
       </node>
     </node>
     <node concept="1l3spV" id="3gMg70bRmfC" role="1l3spN">
@@ -2938,6 +2924,18 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2i6qROad9ZX" role="3bR37C">
+          <node concept="3bR9La" id="2i6qROad9ZY" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2i6qROad9ZZ" role="3bR37C">
+          <node concept="3bR9La" id="2i6qROada00" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ael0:5KK2jWpWo0e" resolve="org.campagnelab.ui" />
           </node>
         </node>
       </node>
