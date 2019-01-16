@@ -223,7 +223,7 @@
   <node concept="1M2fIO" id="oeXtRX8yXC">
     <ref role="1M2myG" to="hgbr:WAEVbt3F3q" resolve="CovariateTable" />
     <node concept="EnEH3" id="oeXtRX8yYd" role="1MhHOB">
-      <ref role="EomxK" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+      <ref role="EomxK" to="hgbr:2i6qROa1$Mx" resolve="covariate_path" />
       <node concept="1LLf8_" id="oeXtRX8z6L" role="1LXaQT">
         <node concept="3clFbS" id="oeXtRX8z6M" role="2VODD2">
           <node concept="3SKdUt" id="oeXtRX8$9b" role="3cqZAp">
@@ -238,6 +238,17 @@
                 <node concept="EsrRn" id="6m3kBey2irG" role="2Oq$k0" />
                 <node concept="3TrcHB" id="6m3kBey2j7t" role="2OqNvi">
                   <ref role="3TsBF5" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="2i6qROa1_06" role="3cqZAp">
+            <node concept="37vLTI" id="2i6qROa1Ay4" role="3clFbG">
+              <node concept="1Wqviy" id="2i6qROa1AEE" role="37vLTx" />
+              <node concept="2OqwBi" id="2i6qROa1_cR" role="37vLTJ">
+                <node concept="EsrRn" id="2i6qROa1_04" role="2Oq$k0" />
+                <node concept="3TrcHB" id="2i6qROa1__f" role="2OqNvi">
+                  <ref role="3TsBF5" to="hgbr:2i6qROa1$Mx" resolve="covariate_path" />
                 </node>
               </node>
             </node>

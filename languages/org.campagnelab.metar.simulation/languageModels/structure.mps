@@ -199,6 +199,11 @@
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="1091748744385179866" />
     <ref role="1TJDcQ" to="jrxw:2WRhvFtkykN" resolve="Table" />
+    <node concept="1TJgyi" id="2i6qROa1$Mx" role="1TKVEl">
+      <property role="IQ2nx" value="2631909217027902625" />
+      <property role="TrG5h" value="covariate_path" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="oeXtRXmVOQ">
     <property role="TrG5h" value="CovariateTableRef" />

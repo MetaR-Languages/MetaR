@@ -20,7 +20,9 @@
       </concept>
     </language>
     <language id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation">
-      <concept id="1091748744385179866" name="org.campagnelab.metar.simulation.structure.CovariateTable" flags="ng" index="3ia1HC" />
+      <concept id="1091748744385179866" name="org.campagnelab.metar.simulation.structure.CovariateTable" flags="ng" index="3ia1HC">
+        <property id="2631909217027902625" name="covariate_path" index="Iw2vs" />
+      </concept>
       <concept id="723002905941135242" name="org.campagnelab.metar.simulation.structure.SimulateSCRNASeqData" flags="ng" index="3YeH35">
         <child id="5283819589434539478" name="outProb" index="2WbhwX" />
         <child id="723002905941153808" name="deSDPerGroup" index="3Yewtv" />
@@ -109,7 +111,7 @@
       <concept id="4176390670567627721" name="org.campagnelab.metar.seurat.structure.PreLimma" flags="ng" index="33xtVA">
         <property id="9131439089702168301" name="clustersFrom" index="33qgml" />
         <property id="9131439089702168303" name="clustersTo" index="33qgmn" />
-        <child id="4176390670567638639" name="futureTableWrappers" index="33xgd0" />
+        <child id="4176390670567638639" name="futureTableWrapper" index="33xgd0" />
         <child id="4176390670567638644" name="seurat" index="33xgdr" />
       </concept>
       <concept id="4315879884707928685" name="org.campagnelab.metar.seurat.structure.FutureTableWrapper" flags="ng" index="16C0Ye">
@@ -45169,6 +45171,9 @@
         <ref role="2y_IjI" node="4_jTuJPxfl$" resolve="cluster" />
       </node>
     </node>
+    <node concept="3MzsS1" id="2i6qROa3iOK" role="3MzsBV">
+      <property role="TrG5h" value="sample-key" />
+    </node>
   </node>
   <node concept="3Mpm39" id="FbmQdcQ_QV">
     <property role="31Cu5t" value="&#9;" />
@@ -84592,15 +84597,16 @@
   </node>
   <node concept="3ia1HC" id="FbmQdcVld6">
     <property role="31Cu5t" value="&#9;" />
-    <property role="31JHgl" value="unused" />
+    <property role="31JHgl" value="/Users/mas2182/WORK/CTSC/Projects/MetaR/data/table_CovariateForSimulateDataset_TVQMWVVDJS_TVQMWVVDJS.tsv" />
     <property role="TrG5h" value="CovariateForSimulateDataset_MRWESHNLFP" />
-    <property role="26T8KA" value="${org.campagnelab.metaR.results_dir}/table_CovariateForSimulateDataset_MRWESHNLFP_MRWESHNLFP.tsv" />
+    <property role="26T8KA" value="${METAR_PROJECT}/data/table_CovariateForSimulateDataset_TVQMWVVDJS_TVQMWVVDJS.tsv" />
+    <property role="Iw2vs" value="${METAR_PROJECT}/data/table_CovariateForSimulateDataset_TVQMWVVDJS_TVQMWVVDJS.tsv" />
     <node concept="31JHg8" id="FbmQdcVld8" role="31JHgj">
       <property role="TrG5h" value="SampleName" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
       <node concept="3MzsTm" id="FbmQdcVldb" role="lGtFl">
         <node concept="3MzsBX" id="FbmQdcVlda" role="3MztjM">
-          <ref role="3MzsBM" node="FbmQdcVld9" resolve="sample-key" />
+          <ref role="3MzsBM" node="2i6qROa3iOK" resolve="sample-key" />
         </node>
       </node>
     </node>

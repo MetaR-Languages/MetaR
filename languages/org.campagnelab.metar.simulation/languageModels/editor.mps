@@ -3,12 +3,14 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+    <import index="hut6" ref="r:2b3ce235-653e-4507-849e-e62b0f7e1023(org.campagnelab.ui.structure)" />
     <import index="hgbr" ref="r:35e57e46-a34e-4190-bb18-c2596691e768(org.campagnelab.metar.simulation.structure)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
-    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
@@ -155,6 +157,20 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+    </language>
+    <language id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui">
+      <concept id="2020659516093694820" name="org.campagnelab.ui.structure.ProcessPathHandler" flags="ig" index="2wNt1V" />
+      <concept id="2954990197977599794" name="org.campagnelab.ui.structure.FileSelectionButton" flags="ng" index="3wdnjv">
+        <property id="5693159665557586134" name="acceptMultipleSelections" index="k9ADr" />
+        <property id="5693159665555023471" name="acceptFiles" index="lZKNy" />
+        <child id="2020659516091712533" name="defaultPath" index="2wCxsa" />
+        <child id="2020659516093754639" name="handler" index="2wNjSg" />
+      </concept>
+      <concept id="5704832314575181087" name="org.campagnelab.ui.structure.SingleFileSelection" flags="ng" index="3MhZvs">
+        <property id="9057833467352772432" name="acceptFiles" index="HxKNs" />
+        <reference id="5704832314577455573" name="property" index="3MDaGm" />
+        <child id="5704832314575223446" name="button" index="3MhPxl" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
@@ -359,6 +375,20 @@
       <node concept="3F0A7n" id="2WRhvFtn5f3" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
+      <node concept="3MhZvs" id="Hh86h6hvx5" role="3EZMnx">
+        <property role="HxKNs" value="true" />
+        <ref role="3MDaGm" to="hgbr:2i6qROa1$Mx" resolve="covariate_path" />
+        <node concept="3wdnjv" id="Hh86h6hvx6" role="3MhPxl">
+          <property role="lZKNy" value="true" />
+          <property role="k9ADr" value="false" />
+          <node concept="Xl_RD" id="Hh86h6hvx7" role="2wCxsa">
+            <property role="Xl_RC" value="./" />
+          </node>
+          <node concept="2wNt1V" id="Hh86h6hvxa" role="2wNjSg">
+            <node concept="3clFbS" id="Hh86h6hvxb" role="2VODD2" />
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="7gaqNttY$Db" role="3EZMnx">
         <property role="3F0ifm" value="File Path" />
         <ref role="1k5W1q" to="8gqa:7gaqNttNRGc" resolve="Heading" />
@@ -367,7 +397,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="2WRhvFtn5dh" role="3EZMnx">
-        <ref role="1NtTu8" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+        <ref role="1NtTu8" to="hgbr:2i6qROa1$Mx" resolve="covariate_path" />
         <node concept="pVoyu" id="7gaqNttV$AM" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
