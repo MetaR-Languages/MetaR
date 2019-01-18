@@ -11,4 +11,6 @@ The following snapshot illustrates how metaR simplifies data analysis: we call d
 
 ![MetaR snapshot](http://campagnelab.org/files/MetaR_Better_Snapshot.png)
 
+[Installation instructions](doc/installation_instructions.md)
+
 Binary packages of MetaR are available  at the [JetBrains MPS Plugins Repository](https://plugins.jetbrains.com/plugin/7621-org-campagnelab-metar)
