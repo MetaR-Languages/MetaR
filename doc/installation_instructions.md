@@ -15,7 +15,7 @@ You will also need about 4GB of disk space available.
 
 2. Install Docker Community Edition from https://store.docker.com/search?type=edition&offering=community (you need to register for the download). Depending on your machine’s system, follow the simple steps described on the download page to activate Docker on your system. Then, from the Terminal application (or command prompt in Windows), type the following command:
 
-        docker pull fac2003/rocker-metar:latest
+        docker pull artifacts/metar:latest
 
     then press enter/return. This will download a docker image we will use to execute MetaR analyses.
 
