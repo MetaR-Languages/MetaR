@@ -6167,6 +6167,9 @@
                   </node>
                 </node>
               </node>
+              <node concept="Xl_RD" id="4GnzvW3rzTF" role="3CLvVg">
+                <property role="Xl_RC" value="--rm" />
+              </node>
               <node concept="Xl_RD" id="7jqSt7$$Tyl" role="3CLvVg">
                 <property role="Xl_RC" value="--net=bridge" />
               </node>
