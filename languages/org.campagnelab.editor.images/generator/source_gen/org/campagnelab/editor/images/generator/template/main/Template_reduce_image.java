@@ -4,13 +4,15 @@ package org.campagnelab.editor.images.generator.template.main;
 
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.runtime.TemplateDeclarationBase;
+import jetbrains.mps.generator.runtime.TemplateDeclaration2;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
-import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.generator.runtime.FragmentResult;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.generator.runtime.TemplateContext;
 import jetbrains.mps.generator.runtime.GenerationException;
 import jetbrains.mps.generator.runtime.TemplateExecutionEnvironment;
+import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 import jetbrains.mps.generator.runtime.TemplateUtil;
 import jetbrains.mps.generator.template.PropertyMacroContext;
@@ -19,15 +21,16 @@ import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import java.util.Collection;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.Collections;
+import java.util.ArrayList;
 import jetbrains.mps.generator.runtime.NodeWeaveFacility;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 @Generated
-public class Template_reduce_image extends TemplateDeclarationBase {
+public class Template_reduce_image extends TemplateDeclarationBase implements TemplateDeclaration2 {
 
   public Template_reduce_image() {
   }
@@ -35,12 +38,14 @@ public class Template_reduce_image extends TemplateDeclarationBase {
   public SNodeReference getTemplateNode() {
     return new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688842254");
   }
-  protected SNode applyPart0(@NotNull final TemplateContext contextNoLabel) throws GenerationException {
+
+
+  protected FragmentResult applyPart0(@NotNull final TemplateContext contextNoLabel) throws GenerationException {
     final TemplateExecutionEnvironment environment = contextNoLabel.getEnvironment();
     final TemplateContext context = contextNoLabel.subContext("cellFactory.factoryMethod");
     final SNode tnode1 = environment.createOutputNode(myConcepts[0]);
     try {
-      SNodeAccessUtil.setProperty(tnode1, myProperties[0], TemplateUtil.asString(QueriesGenerated.propertyMacro_GetPropertyValue_3219955940688849735(new PropertyMacroContext(context, "_cell_factory_method_", propertyMacro_yujq03_c0a0c0a0d0e))));
+      SNodeAccessUtil.setProperty(tnode1, myProperties[0], TemplateUtil.asString(QueriesGenerated.propertyMacro_GetValue_1_0(new PropertyMacroContext(context, "_cell_factory_method_", propertyMacro_yujq03_c0a0c0a0d0g))));
       TemplateContext context1 = context.subContext();
       {
         final SNode tnode2 = environment.createOutputNode(myConcepts[1]);
@@ -107,6 +112,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
               {
                 final SNode tnode10 = environment.createOutputNode(myConcepts[5]);
                 try {
+                  environment.nodeCopied(context5, tnode10, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/5841812207174735173");
                   SNodeAccessUtil.setProperty(tnode10, myProperties[0], "imageModule");
                   TemplateContext context6 = context5.subContext();
                   {
@@ -147,13 +153,13 @@ public class Template_reduce_image extends TemplateDeclarationBase {
           {
             Collection<SNode> tlist14 = null;
             {
-              final SNode switchInput14 = QueriesGenerated.sourceNodeQuery_5841812207174785409(new SourceSubstituteMacroNodeContext(context2, switchMacroRef_yujq03_b0a0a0a1a4a1a4a3a4));
+              final SNode switchInput14 = QueriesGenerated.sourceNodeQuery_1_0(new SourceSubstituteMacroNodeContext(context2, switchMacroRef_yujq03_b0a0a0a1a4a1a4a3a6));
               if (switchInput14 == null) {
                 tlist14 = Collections.emptyList();
               } else {
                 TemplateContext switchContext14;
                 switchContext14 = context2.subContext(null, switchInput14);
-                tlist14 = environment.trySwitch(templateSwitchNode_yujq03_a0a0c0a1a1a4a1a4a3a4, switchContext14);
+                tlist14 = environment.trySwitch(templateSwitchNode_yujq03_a0a0c0a1a1a4a1a4a3a6, switchContext14);
                 if (tlist14 == null) {
                   final SNode tnode15 = environment.createOutputNode(myConcepts[10]);
                   try {
@@ -194,7 +200,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                             {
                               final SNode tnode21 = environment.createOutputNode(myConcepts[13]);
                               try {
-                                tnode21.setReference(myAssociationLinks[1], SReference.create(myAssociationLinks[1], tnode21, PersistenceFacade.getInstance().createModelReference("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)"), PersistenceFacade.getInstance().createNodeId("1672594678668584490")));
+                                environment.resolveInTemplateLater(tnode21, myAssociationLinks[1], templateNode_yujq03_c0a0a1a1a1a2a1a1a1a3a0b0b0e0b0e0d0g, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/5841812207174735173", "imageModule", context10);
                               } finally {
                               }
                               tnode20.addChild(myAggregationLinks[6], tnode21);
@@ -203,7 +209,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                             {
                               final SNode tnode22 = environment.createOutputNode(myConcepts[13]);
                               try {
-                                tnode22.setReference(myAssociationLinks[1], SReference.create(myAssociationLinks[1], tnode22, PersistenceFacade.getInstance().createModelReference("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)"), PersistenceFacade.getInstance().createNodeId("6250046037307796326")));
+                                environment.resolveInTemplateLater(tnode22, myAssociationLinks[1], templateNode_yujq03_c0a0a1a2a1a2a1a1a1a3a0b0b0e0b0e0d0g, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851684", "imagePath", context10);
                               } finally {
                               }
                               tnode20.addChild(myAggregationLinks[6], tnode22);
@@ -298,7 +304,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                                   {
                                     final SNode tnode34 = environment.createOutputNode(myConcepts[13]);
                                     try {
-                                      environment.resolveInTemplateLater(tnode34, myAssociationLinks[1], templateNode_yujq03_c0a0a1a2a1a1a1a1a1a1a1a1a1a1a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851684", "imagePath", context18);
+                                      environment.resolveInTemplateLater(tnode34, myAssociationLinks[1], templateNode_yujq03_c0a0a1a2a1a1a1a1a1a1a1a1a1a1a1a7a1a4a3a6, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851684", "imagePath", context18);
                                     } finally {
                                     }
                                     tnode33.addChild(myAggregationLinks[10], tnode34);
@@ -317,7 +323,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                           {
                             final SNode tnode35 = environment.createOutputNode(myConcepts[13]);
                             try {
-                              environment.resolveInTemplateLater(tnode35, myAssociationLinks[1], templateNode_yujq03_c0a0a1a2a1a1a1a1a1a1a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851700", "image", context16);
+                              environment.resolveInTemplateLater(tnode35, myAssociationLinks[1], templateNode_yujq03_c0a0a1a2a1a1a1a1a1a1a1a7a1a4a3a6, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851700", "image", context16);
                             } finally {
                             }
                             tnode31.addChild(myAggregationLinks[8], tnode35);
@@ -379,7 +385,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                               {
                                 final SNode tnode42 = environment.createOutputNode(myConcepts[13]);
                                 try {
-                                  environment.resolveInTemplateLater(tnode42, myAssociationLinks[1], templateNode_yujq03_c0a0a1a5a1a4a1a1a1a2a1a1a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851700", "image", context21);
+                                  environment.resolveInTemplateLater(tnode42, myAssociationLinks[1], templateNode_yujq03_c0a0a1a5a1a4a1a1a1a2a1a1a1a7a1a4a3a6, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851700", "image", context21);
                                 } finally {
                                 }
                                 tnode39.addChild(myAggregationLinks[10], tnode42);
@@ -388,7 +394,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                               {
                                 final SNode tnode43 = environment.createOutputNode(myConcepts[13]);
                                 try {
-                                  environment.resolveInTemplateLater(tnode43, myAssociationLinks[1], templateNode_yujq03_c0a0a1a6a1a4a1a1a1a2a1a1a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851684", "imagePath", context21);
+                                  environment.resolveInTemplateLater(tnode43, myAssociationLinks[1], templateNode_yujq03_c0a0a1a6a1a4a1a1a1a2a1a1a1a7a1a4a3a6, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851684", "imagePath", context21);
                                 } finally {
                                 }
                                 tnode39.addChild(myAggregationLinks[10], tnode43);
@@ -420,7 +426,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                           {
                             final SNode tnode46 = environment.createOutputNode(myConcepts[13]);
                             try {
-                              environment.resolveInTemplateLater(tnode46, myAssociationLinks[1], templateNode_yujq03_c0a0a1a1a1a1a1a3a1a1a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851700", "image", context23);
+                              environment.resolveInTemplateLater(tnode46, myAssociationLinks[1], templateNode_yujq03_c0a0a1a1a1a1a1a3a1a1a1a7a1a4a3a6, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851700", "image", context23);
                             } finally {
                             }
                             tnode45.addChild(myAggregationLinks[12], tnode46);
@@ -434,7 +440,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                               {
                                 final SNode tnode48 = environment.createOutputNode(myConcepts[13]);
                                 try {
-                                  environment.resolveInTemplateLater(tnode48, myAssociationLinks[1], templateNode_yujq03_c0a0a1a2a1a2a1a1a1a3a1a1a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851738", "editorCell", context24);
+                                  environment.resolveInTemplateLater(tnode48, myAssociationLinks[1], templateNode_yujq03_c0a0a1a2a1a2a1a1a1a3a1a1a1a7a1a4a3a6, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851738", "editorCell", context24);
                                 } finally {
                                 }
                                 tnode47.addChild(myAggregationLinks[10], tnode48);
@@ -482,7 +488,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                                   {
                                     final SNode tnode54 = environment.createOutputNode(myConcepts[20]);
                                     try {
-                                      tnode54.setReference(myAssociationLinks[2], SReference.create(myAssociationLinks[2], tnode54, PersistenceFacade.getInstance().createModelReference("8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)"), PersistenceFacade.getInstance().createNodeId("~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository")));
+                                      tnode54.setReference(myAssociationLinks[2], SReference.create(myAssociationLinks[2], tnode54, PersistenceFacade.getInstance().createModelReference("8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)"), PersistenceFacade.getInstance().createNodeId("~SModel.getRepository()")));
                                     } finally {
                                     }
                                     tnode49.addChild(myAggregationLinks[13], tnode54);
@@ -535,7 +541,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                                   {
                                     final SNode tnode60 = environment.createOutputNode(myConcepts[20]);
                                     try {
-                                      tnode60.setReference(myAssociationLinks[2], SReference.create(myAssociationLinks[2], tnode60, PersistenceFacade.getInstance().createModelReference("8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)"), PersistenceFacade.getInstance().createNodeId("~SModel.getModule():org.jetbrains.mps.openapi.module.SModule")));
+                                      tnode60.setReference(myAssociationLinks[2], SReference.create(myAssociationLinks[2], tnode60, PersistenceFacade.getInstance().createModelReference("8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)"), PersistenceFacade.getInstance().createNodeId("~SModel.getModule()")));
                                     } finally {
                                     }
                                     tnode55.addChild(myAggregationLinks[13], tnode60);
@@ -563,14 +569,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                   }
                   {
                     Collection<SNode> tlist61 = null;
-                    try {
-                      try {
-                        tlist61 = environment.applyTemplate(new SNodePointer("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)", "5170495790389304146"), new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688851745"), context14);
-                      } finally {
-                      }
-
-                    } finally {
-                    }
+                    tlist61 = environment.findTemplate(environment.createTemplateKey("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)", "5170495790389304146", "template_cellSetupBlock"), new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688851745")).apply(environment, context14);
                     for (SNode child62 : TemplateUtil.asNotNull(tlist61)) {
                       tnode29.addChild(myAggregationLinks[5], child62);
                     }
@@ -578,7 +577,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                   }
                   {
                     Collection<SNode> tlist63 = null;
-                    tlist63 = environment.applyTemplate(new SNodePointer("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)", "6287772348368334582"), new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688851749"), context14);
+                    tlist63 = environment.findTemplate(environment.createTemplateKey("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)", "6287772348368334582", "template_cellSetSubstituteInfo"), new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688851749")).apply(environment, context14);
                     for (SNode child64 : TemplateUtil.asNotNull(tlist63)) {
                       tnode29.addChild(myAggregationLinks[5], child64);
                     }
@@ -591,7 +590,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                       {
                         final SNode tnode66 = environment.createOutputNode(myConcepts[13]);
                         try {
-                          environment.resolveInTemplateLater(tnode66, myAssociationLinks[1], templateNode_yujq03_c0a0a1a1a1a6a1a1a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851738", "editorCell", context31);
+                          environment.resolveInTemplateLater(tnode66, myAssociationLinks[1], templateNode_yujq03_c0a0a1a1a1a6a1a1a1a7a1a4a3a6, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3219955940688851738", "editorCell", context31);
                         } finally {
                         }
                         tnode65.addChild(myAggregationLinks[15], tnode66);
@@ -652,7 +651,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
                           {
                             final SNode tnode73 = environment.createOutputNode(myConcepts[13]);
                             try {
-                              environment.resolveInTemplateLater(tnode73, myAssociationLinks[1], templateNode_yujq03_c0a0a1a3a1a1a1a2a1a2a1a7a1a4a3a4, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3873701307954136979", "npe", context35);
+                              environment.resolveInTemplateLater(tnode73, myAssociationLinks[1], templateNode_yujq03_c0a0a1a3a1a1a1a2a1a2a1a7a1a4a3a6, "tpl/r:4d30284c-d4f6-4b68-8efd-29ee046f3381/3873701307954136979", "npe", context35);
                             } finally {
                             }
                             tnode71.addChild(myAggregationLinks[19], tnode73);
@@ -702,20 +701,22 @@ public class Template_reduce_image extends TemplateDeclarationBase {
       }
     } finally {
     }
-    environment.registerLabel(contextNoLabel.getInput(), tnode1, "cellFactory.factoryMethod");
-    return tnode1;
+    FragmentResult rv = nodeFragment(23, tnode1);
+    rv.label(contextNoLabel, "cellFactory.factoryMethod");
+    return rv;
   }
   @Override
   public Collection<SNode> apply(@NotNull TemplateExecutionEnvironment environment, @NotNull TemplateContext context) throws GenerationException {
-    return TemplateUtil.singletonList(applyPart0(context));
+    ArrayList<SNode> rv = new ArrayList<SNode>();
+    applyPart0(context).reportTo(rv);
+    return rv;
   }
 
   @Override
   public Collection<SNode> weave(@NotNull NodeWeaveFacility.WeaveContext weaveContext, @NotNull NodeWeaveFacility weaveSupport) throws GenerationException {
-    final TemplateContext templateContext = weaveSupport.getTemplateContext();
-    SNode tnodepart0 = applyPart0(templateContext);
-    weaveSupport.weaveNode(MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x101d9d3ca30L, 0x4a9a46de59132803L, "member"), tnodepart0);
-    return TemplateUtil.singletonList(tnodepart0);
+    ArrayList<SNode> rv = new ArrayList<SNode>();
+    applyPart0(weaveSupport.getTemplateContext()).weaveWith(weaveSupport).reportTo(rv);
+    return rv;
   }
   @Override
   protected SConcept[] initConcepts() {
@@ -768,7 +769,7 @@ public class Template_reduce_image extends TemplateDeclarationBase {
   }
   @Override
   protected SContainmentLink[] initAggregationLinks() {
-    SContainmentLink[] rv = new SContainmentLink[23];
+    SContainmentLink[] rv = new SContainmentLink[24];
     rv[0] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1fdL, "returnType");
     rv[1] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x112670d273fL, 0x112670d886aL, "visibility");
     rv[2] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x450368d90ce15bc3L, 0x4ed4d318133c80ceL, "type");
@@ -792,17 +793,20 @@ public class Template_reduce_image extends TemplateDeclarationBase {
     rv[20] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f39a56e2fL, 0x10f39a6a2f2L, "catchBody");
     rv[21] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f383e6771L, 0x10f39a8ba1fL, "catchClause");
     rv[22] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1ffL, "body");
+    rv[23] = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x101d9d3ca30L, 0x4a9a46de59132803L, "member");
     return rv;
   }
-  private static SNodePointer propertyMacro_yujq03_c0a0c0a0d0e = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688849734");
-  private static SNodePointer switchMacroRef_yujq03_b0a0a0a1a4a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5841812207174784809");
-  private static SNodePointer templateSwitchNode_yujq03_a0a0c0a1a1a4a1a4a3a4 = new SNodePointer("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)", "5841812207174733785");
-  private static SNodePointer templateNode_yujq03_c0a0a1a2a1a1a1a1a1a1a1a1a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3873701307954155196");
-  private static SNodePointer templateNode_yujq03_c0a0a1a2a1a1a1a1a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3873701307954141223");
-  private static SNodePointer templateNode_yujq03_c0a0a1a5a1a4a1a1a1a2a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688851743");
-  private static SNodePointer templateNode_yujq03_c0a0a1a6a1a4a1a1a1a2a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3288318341320836426");
-  private static SNodePointer templateNode_yujq03_c0a0a1a1a1a1a1a3a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5534405333775252450");
-  private static SNodePointer templateNode_yujq03_c0a0a1a2a1a2a1a1a1a3a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5150055766264606259");
-  private static SNodePointer templateNode_yujq03_c0a0a1a1a1a6a1a1a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3873701307954160380");
-  private static SNodePointer templateNode_yujq03_c0a0a1a3a1a1a1a2a1a2a1a7a1a4a3a4 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5875920312051451017");
+  private static SNodePointer propertyMacro_yujq03_c0a0c0a0d0g = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688849734");
+  private static SNodePointer switchMacroRef_yujq03_b0a0a0a1a4a1a4a3a6 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5841812207174784809");
+  private static SNodePointer templateSwitchNode_yujq03_a0a0c0a1a1a4a1a4a3a6 = new SNodePointer("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)", "5841812207174733785");
+  private static SNodePointer templateNode_yujq03_c0a0a1a1a1a2a1a1a1a3a0b0b0e0b0e0d0g = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5841812207174782986");
+  private static SNodePointer templateNode_yujq03_c0a0a1a2a1a2a1a1a1a3a0b0b0e0b0e0d0g = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5841812207174783022");
+  private static SNodePointer templateNode_yujq03_c0a0a1a2a1a1a1a1a1a1a1a1a1a1a1a7a1a4a3a6 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3873701307954155196");
+  private static SNodePointer templateNode_yujq03_c0a0a1a2a1a1a1a1a1a1a1a7a1a4a3a6 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3873701307954141223");
+  private static SNodePointer templateNode_yujq03_c0a0a1a5a1a4a1a1a1a2a1a1a1a7a1a4a3a6 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688851743");
+  private static SNodePointer templateNode_yujq03_c0a0a1a6a1a4a1a1a1a2a1a1a1a7a1a4a3a6 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3288318341320836426");
+  private static SNodePointer templateNode_yujq03_c0a0a1a1a1a1a1a3a1a1a1a7a1a4a3a6 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5534405333775252450");
+  private static SNodePointer templateNode_yujq03_c0a0a1a2a1a2a1a1a1a3a1a1a1a7a1a4a3a6 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5150055766264606259");
+  private static SNodePointer templateNode_yujq03_c0a0a1a1a1a6a1a1a1a7a1a4a3a6 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3873701307954160380");
+  private static SNodePointer templateNode_yujq03_c0a0a1a3a1a1a1a2a1a2a1a7a1a4a3a6 = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5875920312051451017");
 }

@@ -33,6 +33,7 @@
     <import index="trp3" ref="r:daca92ca-e9ce-48ae-833b-4f2157fecb32(org.campagnelab.editor.images.EditorCode)" />
     <import index="ewej" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.font(JDK/)" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
+    <import index="7nyy" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs.refresh(MPS.Core/)" />
     <import index="uvcm" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs.newvfs(MPS.IDEA/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
   </imports>
@@ -4718,14 +4719,14 @@
                   <ref role="1Pybhc" to="3ju5:~FileSystem" resolve="FileSystem" />
                 </node>
                 <node concept="liA8E" id="2Qyt1JMOKbd" role="2OqNvi">
-                  <ref role="37wK5l" to="3ju5:~FileSystem.getFileByPath(java.lang.String):jetbrains.mps.vfs.IFile" resolve="getFileByPath" />
+                  <ref role="37wK5l" to="3ju5:~FileSystem.getFile(java.lang.String)" resolve="getFile" />
                   <node concept="37vLTw" id="2Qyt1JMOKbe" role="37wK5m">
                     <ref role="3cqZAo" node="2Qyt1JMNWQ1" resolve="fileName" />
                   </node>
                 </node>
               </node>
               <node concept="liA8E" id="2Qyt1JMOKbf" role="2OqNvi">
-                <ref role="37wK5l" to="3ju5:~IFile.exists():boolean" resolve="exists" />
+                <ref role="37wK5l" to="3ju5:~IFile.exists()" resolve="exists" />
               </node>
             </node>
           </node>
@@ -5144,6 +5145,16 @@
       <property role="3TUv4t" value="false" />
       <node concept="17QB3L" id="2YRQibU3JNy" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="meC1M4mme" role="jymVt">
+      <property role="TrG5h" value="fs" />
+      <node concept="3uibUv" id="meC1M4plV" role="1tU5fm">
+        <ref role="3uigEE" to="3ju5:~FileSystem" resolve="FileSystem" />
+      </node>
+      <node concept="2YIFZM" id="meC1M4nOu" role="33vP2m">
+        <ref role="37wK5l" to="3ju5:~FileSystem.getInstance()" resolve="getInstance" />
+        <ref role="1Pybhc" to="3ju5:~FileSystem" resolve="FileSystem" />
+      </node>
+    </node>
     <node concept="3clFbW" id="2YRQibU3ef7" role="jymVt">
       <node concept="3cqZAl" id="2YRQibU3ef8" role="3clF45" />
       <node concept="3Tm1VV" id="2YRQibU3ef9" role="1B3o_S" />
@@ -5206,7 +5217,7 @@
       </node>
     </node>
     <node concept="3uibUv" id="2YRQibU3feN" role="EKbjA">
-      <ref role="3uigEE" to="3ju5:~FileSystemListener" resolve="FileSystemListener" />
+      <ref role="3uigEE" to="7nyy:~FileSystemListener" resolve="FileSystemListener" />
     </node>
     <node concept="3uibUv" id="2YRQibUhtKo" role="EKbjA">
       <ref role="3uigEE" to="zgc3:k4VCj6b5FM" resolve="Listener" />
@@ -5231,48 +5242,11 @@
               <ref role="1Pybhc" to="3ju5:~FileSystem" resolve="FileSystem" />
             </node>
             <node concept="liA8E" id="2YRQibU3MOn" role="2OqNvi">
-              <ref role="37wK5l" to="3ju5:~FileSystem.getFileByPath(java.lang.String):jetbrains.mps.vfs.IFile" resolve="getFileByPath" />
+              <ref role="37wK5l" to="3ju5:~FileSystem.getFile(java.lang.String)" resolve="getFile" />
               <node concept="37vLTw" id="2YRQibU3N5T" role="37wK5m">
                 <ref role="3cqZAo" node="2YRQibU3K4o" resolve="imagePath" />
               </node>
             </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="2YRQibU3ffG" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getListenerDependencies" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tm1VV" id="2YRQibU3ffH" role="1B3o_S" />
-      <node concept="3uibUv" id="2YRQibU3ffJ" role="3clF45">
-        <ref role="3uigEE" to="wyt6:~Iterable" resolve="Iterable" />
-        <node concept="3uibUv" id="2YRQibU3ffK" role="11_B2D">
-          <ref role="3uigEE" to="3ju5:~FileSystemListener" resolve="FileSystemListener" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="2YRQibU3ffL" role="3clF47">
-        <node concept="2xdQw9" id="6lttmbXNS31" role="3cqZAp">
-          <property role="2xdLsb" value="info" />
-          <node concept="3cpWs3" id="5ggefQ257yG" role="9lYJi">
-            <node concept="2OqwBi" id="5ggefQ258o1" role="3uHU7w">
-              <node concept="37vLTw" id="5ggefQ2589i" role="2Oq$k0">
-                <ref role="3cqZAo" node="2YRQibU3h60" resolve="module" />
-              </node>
-              <node concept="liA8E" id="5ggefQ258At" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleName():java.lang.String" resolve="getModuleName" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="5ggefQ257ju" role="3uHU7B">
-              <property role="Xl_RC" value="getListenerDependencies, returning " />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="56btAhgl9ZV" role="3cqZAp">
-          <node concept="2YIFZM" id="56btAhglcSk" role="3cqZAk">
-            <ref role="37wK5l" to="33ny:~Collections.emptyList():java.util.List" resolve="emptyList" />
-            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
           </node>
         </node>
       </node>
@@ -5316,15 +5290,33 @@
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
       <node concept="3clFbS" id="2YRQibUhtQ9" role="3clF47">
-        <node concept="3clFbF" id="2YRQibUwcR2" role="3cqZAp">
-          <node concept="2OqwBi" id="2YRQibUwcSI" role="3clFbG">
-            <node concept="2YIFZM" id="2YRQibUwcS6" role="2Oq$k0">
-              <ref role="1Pybhc" to="3ju5:~FileSystem" resolve="FileSystem" />
-              <ref role="37wK5l" to="3ju5:~FileSystem.getInstance():jetbrains.mps.vfs.FileSystem" resolve="getInstance" />
+        <node concept="3clFbJ" id="meC1M4rFu" role="3cqZAp">
+          <node concept="3clFbS" id="meC1M4rFw" role="3clFbx">
+            <node concept="3clFbF" id="meC1M4v6O" role="3cqZAp">
+              <node concept="2OqwBi" id="meC1M4xOk" role="3clFbG">
+                <node concept="1eOMI4" id="meC1M4xmv" role="2Oq$k0">
+                  <node concept="10QFUN" id="meC1M4v6P" role="1eOMHV">
+                    <node concept="3uibUv" id="meC1M4vof" role="10QFUM">
+                      <ref role="3uigEE" to="7nyy:~CachingFileSystem" resolve="CachingFileSystem" />
+                    </node>
+                    <node concept="37vLTw" id="meC1M4vLd" role="10QFUP">
+                      <ref role="3cqZAo" node="meC1M4mme" resolve="fs" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="meC1M4_Bg" role="2OqNvi">
+                  <ref role="37wK5l" to="7nyy:~CachingFileSystem.addListener(jetbrains.mps.vfs.refresh.FileSystemListener)" resolve="addListener" />
+                  <node concept="Xjq3P" id="meC1M4_ZB" role="37wK5m" />
+                </node>
+              </node>
             </node>
-            <node concept="liA8E" id="2YRQibUwcUn" role="2OqNvi">
-              <ref role="37wK5l" to="3ju5:~FileSystem.addListener(jetbrains.mps.vfs.FileSystemListener):void" resolve="addListener" />
-              <node concept="Xjq3P" id="2YRQibUwd6L" role="37wK5m" />
+          </node>
+          <node concept="2ZW3vV" id="meC1M4u$H" role="3clFbw">
+            <node concept="3uibUv" id="meC1M4uYc" role="2ZW6by">
+              <ref role="3uigEE" to="7nyy:~CachingFileSystem" resolve="CachingFileSystem" />
+            </node>
+            <node concept="37vLTw" id="meC1M4s2U" role="2ZW6bz">
+              <ref role="3cqZAo" node="meC1M4mme" resolve="fs" />
             </node>
           </node>
         </node>
@@ -5340,18 +5332,37 @@
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
       <node concept="3clFbS" id="2YRQibUhtQf" role="3clF47">
-        <node concept="3clFbF" id="2YRQibUwd8d" role="3cqZAp">
-          <node concept="2OqwBi" id="2YRQibUwd8e" role="3clFbG">
-            <node concept="2YIFZM" id="2YRQibUwd8f" role="2Oq$k0">
-              <ref role="1Pybhc" to="3ju5:~FileSystem" resolve="FileSystem" />
-              <ref role="37wK5l" to="3ju5:~FileSystem.getInstance():jetbrains.mps.vfs.FileSystem" resolve="getInstance" />
+        <node concept="3clFbJ" id="meC1M4Am1" role="3cqZAp">
+          <node concept="3clFbS" id="meC1M4Am2" role="3clFbx">
+            <node concept="3clFbF" id="meC1M4Am3" role="3cqZAp">
+              <node concept="2OqwBi" id="meC1M4Am4" role="3clFbG">
+                <node concept="1eOMI4" id="meC1M4Am5" role="2Oq$k0">
+                  <node concept="10QFUN" id="meC1M4Am6" role="1eOMHV">
+                    <node concept="3uibUv" id="meC1M4Am7" role="10QFUM">
+                      <ref role="3uigEE" to="7nyy:~CachingFileSystem" resolve="CachingFileSystem" />
+                    </node>
+                    <node concept="37vLTw" id="meC1M4Am8" role="10QFUP">
+                      <ref role="3cqZAo" node="meC1M4mme" resolve="fs" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="meC1M4Am9" role="2OqNvi">
+                  <ref role="37wK5l" to="7nyy:~CachingFileSystem.removeListener(jetbrains.mps.vfs.refresh.FileSystemListener)" resolve="removeListener" />
+                  <node concept="Xjq3P" id="meC1M4Ama" role="37wK5m" />
+                </node>
+              </node>
             </node>
-            <node concept="liA8E" id="2YRQibUwd8g" role="2OqNvi">
-              <ref role="37wK5l" to="3ju5:~FileSystem.removeListener(jetbrains.mps.vfs.FileSystemListener):void" resolve="removeListener" />
-              <node concept="Xjq3P" id="2YRQibUwd8h" role="37wK5m" />
+          </node>
+          <node concept="2ZW3vV" id="meC1M4Amb" role="3clFbw">
+            <node concept="3uibUv" id="meC1M4Amc" role="2ZW6by">
+              <ref role="3uigEE" to="7nyy:~CachingFileSystem" resolve="CachingFileSystem" />
+            </node>
+            <node concept="37vLTw" id="meC1M4Amd" role="2ZW6bz">
+              <ref role="3cqZAo" node="meC1M4mme" resolve="fs" />
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="meC1M4AjX" role="3cqZAp" />
       </node>
     </node>
     <node concept="3clFb_" id="8hghQrbXXg" role="jymVt">
@@ -5370,7 +5381,7 @@
       <node concept="37vLTG" id="8hghQrbXXm" role="3clF46">
         <property role="TrG5h" value="event" />
         <node concept="3uibUv" id="8hghQrbXXn" role="1tU5fm">
-          <ref role="3uigEE" to="3ju5:~FileSystemEvent" resolve="FileSystemEvent" />
+          <ref role="3uigEE" to="7nyy:~FileSystemEvent" resolve="FileSystemEvent" />
         </node>
         <node concept="2AHcQZ" id="8hghQrbXXo" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -5404,8 +5415,8 @@
                 <node concept="37vLTw" id="8hghQrc2AQ" role="2Oq$k0">
                   <ref role="3cqZAo" node="8hghQrbXXm" resolve="event" />
                 </node>
-                <node concept="liA8E" id="8hghQrc2AR" role="2OqNvi">
-                  <ref role="37wK5l" to="3ju5:~FileSystemEvent.getChanged():java.util.Set" resolve="getChanged" />
+                <node concept="liA8E" id="meC1M4jKk" role="2OqNvi">
+                  <ref role="37wK5l" to="7nyy:~FileSystemEvent.getChanged()" resolve="getChanged" />
                 </node>
               </node>
             </node>
@@ -5422,7 +5433,7 @@
                   <ref role="3cqZAo" node="8hghQrbXXm" resolve="event" />
                 </node>
                 <node concept="liA8E" id="8hghQrc2AY" role="2OqNvi">
-                  <ref role="37wK5l" to="3ju5:~FileSystemEvent.getCreated():java.util.Set" resolve="getCreated" />
+                  <ref role="37wK5l" to="7nyy:~FileSystemEvent.getCreated()" resolve="getCreated" />
                 </node>
               </node>
             </node>
@@ -5459,7 +5470,7 @@
                       <ref role="1Pybhc" to="w1kc:~ModelAccess" resolve="ModelAccess" />
                     </node>
                     <node concept="liA8E" id="8hghQrc2Be" role="2OqNvi">
-                      <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runReadInEDT(java.lang.Runnable):void" resolve="runReadInEDT" />
+                      <ref role="37wK5l" to="lui2:~ModelAccess.runReadInEDT(java.lang.Runnable)" resolve="runReadInEDT" />
                       <node concept="2ShNRf" id="8hghQrc2Bf" role="37wK5m">
                         <node concept="YeOm9" id="8hghQrc2Bg" role="2ShVmc">
                           <node concept="1Y3b0j" id="8hghQrc2Bh" role="YeSDq">

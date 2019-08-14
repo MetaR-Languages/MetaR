@@ -187,7 +187,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -262,10 +262,10 @@
               </node>
               <node concept="1Ls8ON" id="54iik1dcoMz" role="37vLTJ">
                 <node concept="37vLTw" id="54iik1dcp0a" role="1Lso8e">
-                  <ref role="3cqZAo" to="tpc3:1sQfZYrfYoE" resolve="imageModule" />
+                  <ref role="3cqZAo" node="54iik1dcdl5" resolve="imageModule" />
                 </node>
                 <node concept="37vLTw" id="54iik1dcp0I" role="1Lso8e">
-                  <ref role="3cqZAo" to="tpc3:5qWBW6V$qHA" resolve="imagePath" />
+                  <ref role="3cqZAo" node="2MJ_dSPaJb$" resolve="imagePath" />
                 </node>
               </node>
             </node>

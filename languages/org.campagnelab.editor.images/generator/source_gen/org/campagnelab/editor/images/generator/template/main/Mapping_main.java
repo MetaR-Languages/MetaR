@@ -29,7 +29,7 @@ public class Mapping_main extends MapConfigBase implements TemplateMappingConfig
   public Collection<TemplateReductionRule> getReductionRules() {
     return rules;
   }
-  public final class ReductionRule0 extends ReductionRuleBase {
+  /*package*/ static final class ReductionRule0 extends ReductionRuleBase {
     public ReductionRule0() {
       super(new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "4772059062238773466"), MetaAdapterFactory.getConcept(0xa60f536b19c348f3L, 0xa6620aa30b245913L, 0x31ea47d7dda67ab7L, "org.campagnelab.editor.images.structure.Image"), false);
     }
