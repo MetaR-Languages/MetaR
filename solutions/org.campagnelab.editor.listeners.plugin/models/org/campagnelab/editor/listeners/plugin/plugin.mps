@@ -14,11 +14,11 @@
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
-    <import index="qv9x" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.plugins.custom(MPS.Workbench/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="jlff" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs(MPS.IDEA/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -65,6 +65,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -75,9 +76,6 @@
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -159,6 +157,7 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -179,6 +178,9 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
+      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
+        <reference id="1116615189566" name="classifier" index="3VsUkX" />
+      </concept>
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
@@ -324,7 +326,29 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="5XdrQ8WzPh7" role="jymVt" />
+    <node concept="Wx3nA" id="meC1M3t48" role="jymVt">
+      <property role="TrG5h" value="COMPONENT_STATE" />
+      <node concept="3Tmbuc" id="meC1M3rSB" role="1B3o_S" />
+      <node concept="3uibUv" id="meC1M3sRo" role="1tU5fm">
+        <ref role="3uigEE" to="zn9m:~Key" resolve="Key" />
+        <node concept="3uibUv" id="meC1M3t20" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="2YIFZM" id="meC1M3tX5" role="33vP2m">
+        <ref role="37wK5l" to="zn9m:~Key.create(java.lang.String)" resolve="create" />
+        <ref role="1Pybhc" to="zn9m:~Key" resolve="Key" />
+        <node concept="2OqwBi" id="meC1M3uik" role="37wK5m">
+          <node concept="3VsKOn" id="meC1M3u8$" role="2Oq$k0">
+            <ref role="3VsUkX" node="5XdrQ8WzDvX" resolve="RegisteredListeners" />
+          </node>
+          <node concept="liA8E" id="meC1M3uW_" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="meC1M3v1a" role="jymVt" />
     <node concept="3clFbW" id="5XdrQ8WzH8K" role="jymVt">
       <node concept="3cqZAl" id="5XdrQ8WzH8M" role="3clF45" />
       <node concept="3Tmbuc" id="5XdrQ8WzIHO" role="1B3o_S" />
@@ -342,18 +366,17 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="68001hXk$si" role="3cqZAp">
-          <node concept="2OqwBi" id="68001hXk_4S" role="3clFbG">
-            <node concept="10M0yZ" id="3HqnK2DI7JY" role="2Oq$k0">
-              <ref role="3cqZAo" to="qv9x:~BaseCustomProjectPlugin.HACK_PROJECT_COMPONENT_STATE" resolve="HACK_PROJECT_COMPONENT_STATE" />
-              <ref role="1PxDUh" to="qv9x:~BaseCustomProjectPlugin" resolve="BaseCustomProjectPlugin" />
+        <node concept="3clFbF" id="meC1M3w4q" role="3cqZAp">
+          <node concept="2OqwBi" id="meC1M3wfI" role="3clFbG">
+            <node concept="37vLTw" id="meC1M3w4o" role="2Oq$k0">
+              <ref role="3cqZAo" node="meC1M3t48" resolve="COMPONENT_STATE" />
             </node>
-            <node concept="liA8E" id="68001hXk_aU" role="2OqNvi">
-              <ref role="37wK5l" to="zn9m:~Key.set(com.intellij.openapi.util.UserDataHolder,java.lang.Object):void" resolve="set" />
-              <node concept="37vLTw" id="68001hXk_jk" role="37wK5m">
+            <node concept="liA8E" id="meC1M3xID" role="2OqNvi">
+              <ref role="37wK5l" to="zn9m:~Key.set(com.intellij.openapi.util.UserDataHolder,java.lang.Object)" resolve="set" />
+              <node concept="37vLTw" id="meC1M3xKU" role="37wK5m">
                 <ref role="3cqZAo" node="5do60t9uS2E" resolve="myProject" />
               </node>
-              <node concept="Xjq3P" id="68001hXk_qb" role="37wK5m" />
+              <node concept="Xjq3P" id="meC1M3y4c" role="37wK5m" />
             </node>
           </node>
         </node>
@@ -407,14 +430,13 @@
                           </node>
                           <node concept="2OqwBi" id="1tBRwPIKok2" role="10QFUP">
                             <node concept="liA8E" id="1tBRwPIKok3" role="2OqNvi">
-                              <ref role="37wK5l" to="zn9m:~Key.get(com.intellij.openapi.util.UserDataHolder):java.lang.Object" resolve="get" />
+                              <ref role="37wK5l" to="zn9m:~Key.get(com.intellij.openapi.util.UserDataHolder)" resolve="get" />
                               <node concept="2GrUjf" id="1tBRwPIKok4" role="37wK5m">
                                 <ref role="2Gs0qQ" node="1tBRwPIKojO" resolve="openProject" />
                               </node>
                             </node>
-                            <node concept="10M0yZ" id="1tBRwPIKok5" role="2Oq$k0">
-                              <ref role="1PxDUh" to="qv9x:~BaseCustomProjectPlugin" resolve="BaseCustomProjectPlugin" />
-                              <ref role="3cqZAo" to="qv9x:~BaseCustomProjectPlugin.HACK_PROJECT_COMPONENT_STATE" resolve="HACK_PROJECT_COMPONENT_STATE" />
+                            <node concept="37vLTw" id="meC1M3yUw" role="2Oq$k0">
+                              <ref role="3cqZAo" node="meC1M3t48" resolve="COMPONENT_STATE" />
                             </node>
                           </node>
                         </node>
@@ -517,15 +539,14 @@
         <node concept="3clFbF" id="68001hXk_Eb" role="3cqZAp">
           <node concept="2OqwBi" id="68001hXkAd$" role="3clFbG">
             <node concept="liA8E" id="68001hXkAiz" role="2OqNvi">
-              <ref role="37wK5l" to="zn9m:~Key.set(com.intellij.openapi.util.UserDataHolder,java.lang.Object):void" resolve="set" />
+              <ref role="37wK5l" to="zn9m:~Key.set(com.intellij.openapi.util.UserDataHolder,java.lang.Object)" resolve="set" />
               <node concept="37vLTw" id="68001hXkAqZ" role="37wK5m">
                 <ref role="3cqZAo" node="5do60t9uS2E" resolve="myProject" />
               </node>
               <node concept="10Nm6u" id="68001hXkAze" role="37wK5m" />
             </node>
-            <node concept="10M0yZ" id="3HqnK2DI7ML" role="2Oq$k0">
-              <ref role="1PxDUh" to="qv9x:~BaseCustomProjectPlugin" resolve="BaseCustomProjectPlugin" />
-              <ref role="3cqZAo" to="qv9x:~BaseCustomProjectPlugin.HACK_PROJECT_COMPONENT_STATE" resolve="HACK_PROJECT_COMPONENT_STATE" />
+            <node concept="37vLTw" id="meC1M3$0t" role="2Oq$k0">
+              <ref role="3cqZAo" node="meC1M3t48" resolve="COMPONENT_STATE" />
             </node>
           </node>
         </node>
@@ -568,14 +589,13 @@
                           </node>
                           <node concept="2OqwBi" id="5XdrQ8W$75V" role="10QFUP">
                             <node concept="liA8E" id="5XdrQ8W$75W" role="2OqNvi">
-                              <ref role="37wK5l" to="zn9m:~Key.get(com.intellij.openapi.util.UserDataHolder):java.lang.Object" resolve="get" />
+                              <ref role="37wK5l" to="zn9m:~Key.get(com.intellij.openapi.util.UserDataHolder)" resolve="get" />
                               <node concept="2GrUjf" id="5XdrQ8W$7cq" role="37wK5m">
                                 <ref role="2Gs0qQ" node="5XdrQ8W$53G" resolve="openProject" />
                               </node>
                             </node>
-                            <node concept="10M0yZ" id="5XdrQ8W$75Y" role="2Oq$k0">
-                              <ref role="1PxDUh" to="qv9x:~BaseCustomProjectPlugin" resolve="BaseCustomProjectPlugin" />
-                              <ref role="3cqZAo" to="qv9x:~BaseCustomProjectPlugin.HACK_PROJECT_COMPONENT_STATE" resolve="HACK_PROJECT_COMPONENT_STATE" />
+                            <node concept="37vLTw" id="meC1M3$Cm" role="2Oq$k0">
+                              <ref role="3cqZAo" node="meC1M3t48" resolve="COMPONENT_STATE" />
                             </node>
                           </node>
                         </node>
@@ -772,14 +792,13 @@
                           </node>
                           <node concept="2OqwBi" id="1QuiO55_LC" role="10QFUP">
                             <node concept="liA8E" id="1QuiO55_LD" role="2OqNvi">
-                              <ref role="37wK5l" to="zn9m:~Key.get(com.intellij.openapi.util.UserDataHolder):java.lang.Object" resolve="get" />
+                              <ref role="37wK5l" to="zn9m:~Key.get(com.intellij.openapi.util.UserDataHolder)" resolve="get" />
                               <node concept="2GrUjf" id="1QuiO55_LE" role="37wK5m">
                                 <ref role="2Gs0qQ" node="1QuiO55_Lq" resolve="openProject" />
                               </node>
                             </node>
-                            <node concept="10M0yZ" id="1QuiO55_LF" role="2Oq$k0">
-                              <ref role="1PxDUh" to="qv9x:~BaseCustomProjectPlugin" resolve="BaseCustomProjectPlugin" />
-                              <ref role="3cqZAo" to="qv9x:~BaseCustomProjectPlugin.HACK_PROJECT_COMPONENT_STATE" resolve="HACK_PROJECT_COMPONENT_STATE" />
+                            <node concept="37vLTw" id="meC1M3_KL" role="2Oq$k0">
+                              <ref role="3cqZAo" node="meC1M3t48" resolve="COMPONENT_STATE" />
                             </node>
                           </node>
                         </node>
@@ -824,7 +843,7 @@
                               <ref role="1Pybhc" to="w1kc:~ModelAccess" resolve="ModelAccess" />
                             </node>
                             <node concept="liA8E" id="4DiT5VJde_n" role="2OqNvi">
-                              <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runReadInEDT(java.lang.Runnable):void" resolve="runReadInEDT" />
+                              <ref role="37wK5l" to="lui2:~ModelAccess.runReadInEDT(java.lang.Runnable)" resolve="runReadInEDT" />
                               <node concept="2ShNRf" id="4DiT5VJdeAJ" role="37wK5m">
                                 <node concept="YeOm9" id="4DiT5VJdt7_" role="2ShVmc">
                                   <node concept="1Y3b0j" id="4DiT5VJdt7C" role="YeSDq">
