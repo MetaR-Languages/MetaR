@@ -2,9 +2,9 @@
 <model ref="r:8c8e7c7a-f1cb-4808-9480-84094238b5cc(org.campagnelab.instantrefresh.plugin.plugin@tests)">
   <persistence version="9" />
   <languages>
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
@@ -271,7 +271,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -1992,18 +1992,18 @@
                     <ref role="3cqZAo" node="1eLpaFpu$Q6" resolve="sessionPath" />
                   </node>
                   <node concept="liA8E" id="1eLpaFpuP88" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~File.getParentFile():java.io.File" resolve="getParentFile" />
+                    <ref role="37wK5l" to="guwi:~File.getParentFile()" resolve="getParentFile" />
                   </node>
                 </node>
                 <node concept="liA8E" id="1eLpaFpuPrw" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.mkdirs():boolean" resolve="mkdirs" />
+                  <ref role="37wK5l" to="guwi:~File.mkdirs()" resolve="mkdirs" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="1eLpaFpuv11" role="3cqZAp">
               <node concept="2OqwBi" id="1eLpaFpuwC2" role="3clFbG">
                 <node concept="liA8E" id="1eLpaFpuwUG" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.createNewFile():boolean" resolve="createNewFile" />
+                  <ref role="37wK5l" to="guwi:~File.createNewFile()" resolve="createNewFile" />
                 </node>
                 <node concept="37vLTw" id="1eLpaFpuOAd" role="2Oq$k0">
                   <ref role="3cqZAo" node="1eLpaFpu$Q6" resolve="sessionPath" />
@@ -2084,7 +2084,7 @@
                 <ref role="3cqZAo" node="1eLpaFqfOwO" resolve="sessionPath" />
               </node>
               <node concept="liA8E" id="1eLpaFqfP9V" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~File.getParentFile():java.io.File" resolve="getParentFile" />
+                <ref role="37wK5l" to="guwi:~File.getParentFile()" resolve="getParentFile" />
               </node>
             </node>
           </node>
@@ -2112,7 +2112,7 @@
               <ref role="3cqZAo" node="1eLpaFqfMAT" resolve="element" />
             </node>
             <node concept="liA8E" id="1eLpaFqfMBr" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~File.isDirectory():boolean" resolve="isDirectory" />
+              <ref role="37wK5l" to="guwi:~File.isDirectory()" resolve="isDirectory" />
             </node>
           </node>
           <node concept="3clFbS" id="1eLpaFqfMAZ" role="3clFbx">
@@ -2122,7 +2122,7 @@
                   <ref role="3cqZAo" node="1eLpaFqfMAT" resolve="element" />
                 </node>
                 <node concept="liA8E" id="1eLpaFqfMBD" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.listFiles():java.io.File[]" resolve="listFiles" />
+                  <ref role="37wK5l" to="guwi:~File.listFiles()" resolve="listFiles" />
                 </node>
               </node>
               <node concept="3cpWsn" id="1eLpaFqfMB6" role="1Duv9x">
@@ -2151,7 +2151,7 @@
               <ref role="3cqZAo" node="1eLpaFqfMAT" resolve="element" />
             </node>
             <node concept="liA8E" id="1eLpaFqfMBR" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~File.delete():boolean" resolve="delete" />
+              <ref role="37wK5l" to="guwi:~File.delete()" resolve="delete" />
             </node>
           </node>
         </node>

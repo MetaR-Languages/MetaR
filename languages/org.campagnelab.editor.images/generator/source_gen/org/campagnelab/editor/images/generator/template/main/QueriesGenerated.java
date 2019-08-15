@@ -16,6 +16,6 @@ public class QueriesGenerated {
     return (String) Image__BehaviorDescriptor.getFactoryMethodName_idhHfE2BD.invoke(_context.getNode(), _context);
   }
   public static SNode sourceNodeQuery_1_0(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xa60f536b19c348f3L, 0xa6620aa30b245913L, 0x31ea47d7dda67ab7L, 0x11204b37791L, "imagePathProvider"));
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xa60f536b19c348f3L, 0xa6620aa30b245913L, 0x31ea47d7dda67ab7L, 0x11204b37791L, "imagePathProvider")), MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L, 0x108bbd29b4aL, "body"));
   }
 }

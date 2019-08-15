@@ -3,13 +3,13 @@
   <persistence version="9" />
   <languages>
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="d6782141-eafa-4cf7-a85d-1229abdb1152" name="org.campagnelab.ANTLR" version="3" />
     <use id="932d719c-e931-44d5-990c-e115f79b5942" name="org.campagnelab.antlr.tomps" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -43,9 +43,6 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -411,7 +408,7 @@
       <property role="TrG5h" value="LOG" />
       <node concept="2YIFZM" id="Hn0$MvbYou" role="33vP2m">
         <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-        <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class):org.apache.log4j.Logger" resolve="getLogger" />
+        <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
         <node concept="3VsKOn" id="Hn0$MvbYov" role="37wK5m">
           <ref role="3VsUkX" node="4TtYrYGuX3e" resolve="RCodePaster" />
         </node>
@@ -473,7 +470,7 @@
             </node>
             <node concept="2OqwBi" id="4TtYrYGuXn0" role="37wK5m">
               <node concept="liA8E" id="4TtYrYGuXn2" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SNode.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
               </node>
               <node concept="37vLTw" id="2BHiRxgm$PP" role="2Oq$k0">
                 <ref role="3cqZAo" node="4TtYrYGuXmG" resolve="anchor" />
@@ -524,10 +521,10 @@
           <node concept="2OqwBi" id="4TtYrYGuXnC" role="1DdaDG">
             <node concept="2YIFZM" id="4TtYrYGuXnD" role="2Oq$k0">
               <ref role="1Pybhc" to="ddhc:~CopyPasteManagerEx" resolve="CopyPasteManagerEx" />
-              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx():com.intellij.ide.CopyPasteManagerEx" resolve="getInstanceEx" />
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx()" resolve="getInstanceEx" />
             </node>
             <node concept="liA8E" id="4TtYrYGuXnE" role="2OqNvi">
-              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getAllContents():java.awt.datatransfer.Transferable[]" resolve="getAllContents" />
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getAllContents()" resolve="getAllContents" />
             </node>
           </node>
           <node concept="3cpWsn" id="4TtYrYGuXnF" role="1Duv9x">
@@ -550,7 +547,7 @@
                     <ref role="3cqZAo" node="4TtYrYGuXnF" resolve="trf" />
                   </node>
                   <node concept="liA8E" id="4TtYrYGuXnP" role="2OqNvi">
-                    <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor):boolean" resolve="isDataFlavorSupported" />
+                    <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)" resolve="isDataFlavorSupported" />
                     <node concept="10M0yZ" id="4TtYrYGuXnQ" role="37wK5m">
                       <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
                       <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
@@ -599,7 +596,7 @@
                     </node>
                     <node concept="2OqwBi" id="4TtYrYGuXou" role="33vP2m">
                       <node concept="liA8E" id="4TtYrYGuXow" role="2OqNvi">
-                        <ref role="37wK5l" to="kt01:~Transferable.getTransferData(java.awt.datatransfer.DataFlavor):java.lang.Object" resolve="getTransferData" />
+                        <ref role="37wK5l" to="kt01:~Transferable.getTransferData(java.awt.datatransfer.DataFlavor)" resolve="getTransferData" />
                         <node concept="10M0yZ" id="4TtYrYGuXox" role="37wK5m">
                           <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
                           <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
@@ -662,7 +659,7 @@
                         <ref role="1PxDUh" node="4TtYrYGuX3e" resolve="RCodePaster" />
                       </node>
                       <node concept="liA8E" id="4TtYrYGuXom" role="2OqNvi">
-                        <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable):void" resolve="error" />
+                        <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable)" resolve="error" />
                         <node concept="10Nm6u" id="4t57iE9W2BO" role="37wK5m" />
                         <node concept="37vLTw" id="3GM_nagTvJU" role="37wK5m">
                           <ref role="3cqZAo" node="4TtYrYGuXoo" resolve="ex" />
@@ -679,7 +676,7 @@
               <ref role="3cqZAo" node="4TtYrYGuXn$" resolve="contents" />
             </node>
             <node concept="liA8E" id="4TtYrYGuXo7" role="2OqNvi">
-              <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor):boolean" resolve="isDataFlavorSupported" />
+              <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)" resolve="isDataFlavorSupported" />
               <node concept="10M0yZ" id="4TtYrYGuXo8" role="37wK5m">
                 <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
                 <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
@@ -705,7 +702,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="v1yTSnr0yf" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
               </node>
             </node>
             <node concept="3uibUv" id="v1yTSnr0yg" role="1tU5fm">
@@ -795,7 +792,7 @@
                   <ref role="3cqZAo" node="14grA090UBv" resolve="filter" />
                 </node>
                 <node concept="liA8E" id="14grA090UCK" role="2OqNvi">
-                  <ref role="37wK5l" to="52tb:~R2Filter.stream():org.campagnelab.antlr.r.complete.R2Filter$StreamContext" resolve="stream" />
+                  <ref role="37wK5l" to="52tb:~R2Filter.stream()" resolve="stream" />
                 </node>
               </node>
             </node>
@@ -810,7 +807,7 @@
                   <ref role="3cqZAo" node="14grA090UBq" resolve="tokens" />
                 </node>
                 <node concept="liA8E" id="14grA090UCT" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset():void" resolve="reset" />
+                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset()" resolve="reset" />
                 </node>
               </node>
             </node>
@@ -837,7 +834,7 @@
                   <ref role="3cqZAo" node="14grA090UBC" resolve="parser" />
                 </node>
                 <node concept="liA8E" id="14grA090UD2" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean):void" resolve="setBuildParseTree" />
+                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean)" resolve="setBuildParseTree" />
                   <node concept="3clFbT" id="14grA090UBJ" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -860,7 +857,7 @@
                       <ref role="3cqZAo" node="14grA090UBC" resolve="parser" />
                     </node>
                     <node concept="liA8E" id="14grA090UDb" role="2OqNvi">
-                      <ref role="37wK5l" to="52tb:~R2Parser.prog():org.campagnelab.antlr.r.complete.R2Parser$ProgContext" resolve="prog" />
+                      <ref role="37wK5l" to="52tb:~R2Parser.prog()" resolve="prog" />
                     </node>
                   </node>
                 </node>
@@ -936,7 +933,7 @@
                           <ref role="3cqZAo" node="v1yTSnr0z6" resolve="visitor" />
                         </node>
                         <node concept="liA8E" id="v1yTSnr0zg" role="2OqNvi">
-                          <ref role="37wK5l" to="52tb:~R2BaseVisitor.visitProgram(org.campagnelab.antlr.r.complete.R2Parser$ProgramContext):java.lang.Object" resolve="visitProgram" />
+                          <ref role="37wK5l" to="52tb:~R2BaseVisitor.visitProgram(org.campagnelab.antlr.r.complete.R2Parser$ProgramContext)" resolve="visitProgram" />
                           <node concept="37vLTw" id="v1yTSnr0zh" role="37wK5m">
                             <ref role="3cqZAo" node="14grA090UBK" resolve="tree" />
                           </node>
@@ -1143,7 +1140,6 @@
     </node>
     <node concept="2YIFZL" id="1eB_Fuh_a8V" role="jymVt">
       <property role="TrG5h" value="pasteProgramAtAnchor" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1eB_Fuh_8iP" role="3clF47">
@@ -1157,7 +1153,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="1eB_Fuh_8iV" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
               </node>
             </node>
             <node concept="3uibUv" id="1eB_Fuh_8iW" role="1tU5fm">
@@ -1247,7 +1243,7 @@
                   <ref role="3cqZAo" node="1eB_Fuh_8jl" resolve="filter" />
                 </node>
                 <node concept="liA8E" id="1eB_Fuh_8jt" role="2OqNvi">
-                  <ref role="37wK5l" to="52tb:~R2Filter.stream():org.campagnelab.antlr.r.complete.R2Filter$StreamContext" resolve="stream" />
+                  <ref role="37wK5l" to="52tb:~R2Filter.stream()" resolve="stream" />
                 </node>
               </node>
             </node>
@@ -1262,7 +1258,7 @@
                   <ref role="3cqZAo" node="1eB_Fuh_8jf" resolve="tokens" />
                 </node>
                 <node concept="liA8E" id="1eB_Fuh_8jz" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset():void" resolve="reset" />
+                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset()" resolve="reset" />
                 </node>
               </node>
             </node>
@@ -1289,7 +1285,7 @@
                   <ref role="3cqZAo" node="1eB_Fuh_8j_" resolve="parser" />
                 </node>
                 <node concept="liA8E" id="1eB_Fuh_8jH" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean):void" resolve="setBuildParseTree" />
+                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean)" resolve="setBuildParseTree" />
                   <node concept="3clFbT" id="1eB_Fuh_8jI" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -1312,7 +1308,7 @@
                       <ref role="3cqZAo" node="1eB_Fuh_8j_" resolve="parser" />
                     </node>
                     <node concept="liA8E" id="1eB_Fuh_8jQ" role="2OqNvi">
-                      <ref role="37wK5l" to="52tb:~R2Parser.prog():org.campagnelab.antlr.r.complete.R2Parser$ProgContext" resolve="prog" />
+                      <ref role="37wK5l" to="52tb:~R2Parser.prog()" resolve="prog" />
                     </node>
                   </node>
                 </node>
@@ -1372,7 +1368,7 @@
                           <ref role="3cqZAo" node="1eB_Fuh_8kd" resolve="visitor" />
                         </node>
                         <node concept="liA8E" id="1eB_Fuh_8km" role="2OqNvi">
-                          <ref role="37wK5l" to="52tb:~R2BaseVisitor.visitProgram(org.campagnelab.antlr.r.complete.R2Parser$ProgramContext):java.lang.Object" resolve="visitProgram" />
+                          <ref role="37wK5l" to="52tb:~R2BaseVisitor.visitProgram(org.campagnelab.antlr.r.complete.R2Parser$ProgramContext)" resolve="visitProgram" />
                           <node concept="37vLTw" id="1eB_Fuh_8kn" role="37wK5m">
                             <ref role="3cqZAo" node="1eB_Fuh_8jK" resolve="tree" />
                           </node>
@@ -1582,7 +1578,6 @@
     <node concept="2tJIrI" id="v1yTSnqZXW" role="jymVt" />
     <node concept="2YIFZL" id="1eB_FuhzK$Z" role="jymVt">
       <property role="TrG5h" value="canParse" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1eB_FuhzH$_" role="3clF47">
@@ -1680,7 +1675,7 @@
                   <ref role="3cqZAo" node="1eB_FuhzIfp" resolve="filter" />
                 </node>
                 <node concept="liA8E" id="1eB_FuhzIfx" role="2OqNvi">
-                  <ref role="37wK5l" to="52tb:~R2Filter.stream():org.campagnelab.antlr.r.complete.R2Filter$StreamContext" resolve="stream" />
+                  <ref role="37wK5l" to="52tb:~R2Filter.stream()" resolve="stream" />
                 </node>
               </node>
             </node>
@@ -1695,7 +1690,7 @@
                   <ref role="3cqZAo" node="1eB_FuhzIfj" resolve="tokens" />
                 </node>
                 <node concept="liA8E" id="1eB_FuhzIfB" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset():void" resolve="reset" />
+                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset()" resolve="reset" />
                 </node>
               </node>
             </node>
@@ -1722,7 +1717,7 @@
                   <ref role="3cqZAo" node="1eB_FuhzIfD" resolve="parser" />
                 </node>
                 <node concept="liA8E" id="1eB_FuhzIfL" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean):void" resolve="setBuildParseTree" />
+                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean)" resolve="setBuildParseTree" />
                   <node concept="3clFbT" id="1eB_FuhzIfM" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -1745,7 +1740,7 @@
                       <ref role="3cqZAo" node="1eB_FuhzIfD" resolve="parser" />
                     </node>
                     <node concept="liA8E" id="1eB_FuhzIfU" role="2OqNvi">
-                      <ref role="37wK5l" to="52tb:~R2Parser.prog():org.campagnelab.antlr.r.complete.R2Parser$ProgContext" resolve="prog" />
+                      <ref role="37wK5l" to="52tb:~R2Parser.prog()" resolve="prog" />
                     </node>
                   </node>
                 </node>
@@ -1783,7 +1778,6 @@
     </node>
     <node concept="2YIFZL" id="17lRZg6H0vo" role="jymVt">
       <property role="TrG5h" value="canParseStrictly" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="17lRZg6H0vp" role="3clF47">
@@ -1881,7 +1875,7 @@
                   <ref role="3cqZAo" node="17lRZg6H0vQ" resolve="filter" />
                 </node>
                 <node concept="liA8E" id="17lRZg6H0vY" role="2OqNvi">
-                  <ref role="37wK5l" to="52tb:~R2Filter.stream():org.campagnelab.antlr.r.complete.R2Filter$StreamContext" resolve="stream" />
+                  <ref role="37wK5l" to="52tb:~R2Filter.stream()" resolve="stream" />
                 </node>
               </node>
             </node>
@@ -1896,7 +1890,7 @@
                   <ref role="3cqZAo" node="17lRZg6H0vK" resolve="tokens" />
                 </node>
                 <node concept="liA8E" id="17lRZg6H0w4" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset():void" resolve="reset" />
+                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset()" resolve="reset" />
                 </node>
               </node>
             </node>
@@ -1923,7 +1917,7 @@
                   <ref role="3cqZAo" node="17lRZg6H0w6" resolve="parser" />
                 </node>
                 <node concept="liA8E" id="17lRZg6H0we" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean):void" resolve="setBuildParseTree" />
+                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean)" resolve="setBuildParseTree" />
                   <node concept="3clFbT" id="17lRZg6H0wf" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -1946,7 +1940,7 @@
                       <ref role="3cqZAo" node="17lRZg6H0w6" resolve="parser" />
                     </node>
                     <node concept="liA8E" id="17lRZg6H0wn" role="2OqNvi">
-                      <ref role="37wK5l" to="52tb:~R2Parser.prog():org.campagnelab.antlr.r.complete.R2Parser$ProgContext" resolve="prog" />
+                      <ref role="37wK5l" to="52tb:~R2Parser.prog()" resolve="prog" />
                     </node>
                   </node>
                 </node>
@@ -1966,7 +1960,7 @@
                         <ref role="3cqZAo" node="17lRZg6H0wh" resolve="tree" />
                       </node>
                       <node concept="liA8E" id="17lRZg6HPmN" role="2OqNvi">
-                        <ref role="37wK5l" to="52tb:~R2Parser$ProgramContext.expr(int):org.campagnelab.antlr.r.complete.R2Parser$ExprContext" resolve="expr" />
+                        <ref role="37wK5l" to="52tb:~R2Parser$ProgramContext.expr(int)" resolve="expr" />
                         <node concept="3cmrfG" id="17lRZg6HPmO" role="37wK5m">
                           <property role="3cmrfH" value="0" />
                         </node>
@@ -2179,11 +2173,11 @@
                       <ref role="3cqZAo" node="17lRZg6H0wh" resolve="tree" />
                     </node>
                     <node concept="liA8E" id="17lRZg6H4Gt" role="2OqNvi">
-                      <ref role="37wK5l" to="52tb:~R2Parser$ProgramContext.expr():java.util.List" resolve="expr" />
+                      <ref role="37wK5l" to="52tb:~R2Parser$ProgramContext.expr()" resolve="expr" />
                     </node>
                   </node>
                   <node concept="liA8E" id="17lRZg6H7da" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                    <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                   </node>
                 </node>
                 <node concept="3cmrfG" id="17lRZg6H7F9" role="3uHU7w">
@@ -2224,7 +2218,6 @@
     <node concept="2tJIrI" id="17lRZg6H088" role="jymVt" />
     <node concept="2YIFZL" id="1eB_Fuh_jCq" role="jymVt">
       <property role="TrG5h" value="parse" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1eB_Fuh_jCr" role="3clF47">
@@ -2323,7 +2316,7 @@
                   <ref role="3cqZAo" node="1eB_Fuh_jCO" resolve="filter" />
                 </node>
                 <node concept="liA8E" id="1eB_Fuh_jCW" role="2OqNvi">
-                  <ref role="37wK5l" to="52tb:~R2Filter.stream():org.campagnelab.antlr.r.complete.R2Filter$StreamContext" resolve="stream" />
+                  <ref role="37wK5l" to="52tb:~R2Filter.stream()" resolve="stream" />
                 </node>
               </node>
             </node>
@@ -2338,7 +2331,7 @@
                   <ref role="3cqZAo" node="1eB_Fuh_jCI" resolve="tokens" />
                 </node>
                 <node concept="liA8E" id="1eB_Fuh_jD2" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset():void" resolve="reset" />
+                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset()" resolve="reset" />
                 </node>
               </node>
             </node>
@@ -2365,7 +2358,7 @@
                   <ref role="3cqZAo" node="1eB_Fuh_jD4" resolve="parser" />
                 </node>
                 <node concept="liA8E" id="1eB_Fuh_jDc" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean):void" resolve="setBuildParseTree" />
+                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean)" resolve="setBuildParseTree" />
                   <node concept="3clFbT" id="1eB_Fuh_jDd" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -2388,7 +2381,7 @@
                       <ref role="3cqZAo" node="1eB_Fuh_jD4" resolve="parser" />
                     </node>
                     <node concept="liA8E" id="1eB_Fuh_jDl" role="2OqNvi">
-                      <ref role="37wK5l" to="52tb:~R2Parser.prog():org.campagnelab.antlr.r.complete.R2Parser$ProgContext" resolve="prog" />
+                      <ref role="37wK5l" to="52tb:~R2Parser.prog()" resolve="prog" />
                     </node>
                   </node>
                 </node>
@@ -2425,7 +2418,7 @@
                           <ref role="3cqZAo" node="1eB_Fuh_kUT" resolve="visitor" />
                         </node>
                         <node concept="liA8E" id="1eB_Fuh_kV2" role="2OqNvi">
-                          <ref role="37wK5l" to="52tb:~R2BaseVisitor.visitProgram(org.campagnelab.antlr.r.complete.R2Parser$ProgramContext):java.lang.Object" resolve="visitProgram" />
+                          <ref role="37wK5l" to="52tb:~R2BaseVisitor.visitProgram(org.campagnelab.antlr.r.complete.R2Parser$ProgramContext)" resolve="visitProgram" />
                           <node concept="37vLTw" id="1eB_Fuh_kV3" role="37wK5m">
                             <ref role="3cqZAo" node="1eB_Fuh_jDf" resolve="tree" />
                           </node>
@@ -2507,7 +2500,7 @@
                 <ref role="3cqZAo" node="1eB_FuhPriQ" resolve="programAsText" />
               </node>
               <node concept="liA8E" id="1eB_FuhPriK" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
                 <node concept="Xl_RD" id="1eB_FuhQbre" role="37wK5m">
                   <property role="Xl_RC" value="\\\\n" />
                 </node>
@@ -2554,17 +2547,17 @@
                   <ref role="3cqZAo" node="v1yTSnqXxy" resolve="tree" />
                 </node>
                 <node concept="liA8E" id="v1yTSns1yt" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~RuleContext.save(org.antlr.v4.runtime.Parser,java.lang.String):void" resolve="save" />
+                  <ref role="37wK5l" to="p3ir:~RuleContext.save(org.antlr.v4.runtime.Parser,java.lang.String)" resolve="save" />
                   <node concept="37vLTw" id="v1yTSns1yu" role="37wK5m">
                     <ref role="3cqZAo" node="v1yTSnqXx$" resolve="parser" />
                   </node>
                   <node concept="2OqwBi" id="v1yTSns1yv" role="37wK5m">
                     <node concept="2YIFZM" id="v1yTSns1yw" role="2Oq$k0">
-                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                       <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
                     </node>
                     <node concept="liA8E" id="v1yTSns1yx" role="2OqNvi">
-                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                       <node concept="Xl_RD" id="v1yTSns1yy" role="37wK5m">
                         <property role="Xl_RC" value="${ANTLR_HOME}/tree.ps" />
                       </node>
@@ -2609,11 +2602,11 @@
             <property role="TrG5h" value="trf" />
             <node concept="2OqwBi" id="4UmDqAIXa7o" role="33vP2m">
               <node concept="liA8E" id="4UmDqAIXa7s" role="2OqNvi">
-                <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getContents():java.awt.datatransfer.Transferable" resolve="getContents" />
+                <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getContents()" resolve="getContents" />
               </node>
               <node concept="2YIFZM" id="4UmDqAIXa7n" role="2Oq$k0">
                 <ref role="1Pybhc" to="ddhc:~CopyPasteManagerEx" resolve="CopyPasteManagerEx" />
-                <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx():com.intellij.ide.CopyPasteManagerEx" resolve="getInstanceEx" />
+                <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx()" resolve="getInstanceEx" />
               </node>
             </node>
             <node concept="3uibUv" id="4UmDqAIXa7j" role="1tU5fm">
@@ -2638,7 +2631,7 @@
             </node>
             <node concept="2OqwBi" id="4UmDqAIX8uV" role="3uHU7w">
               <node concept="liA8E" id="4UmDqAIX8uX" role="2OqNvi">
-                <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor):boolean" resolve="isDataFlavorSupported" />
+                <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)" resolve="isDataFlavorSupported" />
                 <node concept="10M0yZ" id="4UmDqAIX8uY" role="37wK5m">
                   <ref role="3cqZAo" to="dp1x:5tGs5KqKj8z" resolve="sNode" />
                   <ref role="1PxDUh" to="dp1x:5tGs5KqKiwp" resolve="SModelDataFlavor" />
@@ -2660,7 +2653,7 @@
           </node>
           <node concept="2OqwBi" id="4UmDqAIX8v4" role="3clFbw">
             <node concept="liA8E" id="4UmDqAIX8v6" role="2OqNvi">
-              <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor):boolean" resolve="isDataFlavorSupported" />
+              <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)" resolve="isDataFlavorSupported" />
               <node concept="10M0yZ" id="4UmDqAIX8v7" role="37wK5m">
                 <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
                 <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
@@ -7517,7 +7510,6 @@
   <node concept="312cEu" id="AYlbCANgiw">
     <property role="TrG5h" value="RPackageInspector" />
     <node concept="Wx3nA" id="AYlbCANhBm" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="baseMessage" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="AYlbCANhxX" role="1tU5fm" />
@@ -7566,7 +7558,7 @@
                           <ref role="3cqZAo" node="AYlbCANgOG" resolve="source" />
                         </node>
                         <node concept="liA8E" id="AYlbCANiUe" role="2OqNvi">
-                          <ref role="37wK5l" to="guwi:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                          <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
                         </node>
                       </node>
                     </node>
@@ -7581,7 +7573,7 @@
                 <ref role="3cqZAo" node="AYlbCANgOG" resolve="source" />
               </node>
               <node concept="liA8E" id="AYlbCANh7y" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+                <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
               </node>
             </node>
           </node>
@@ -7726,7 +7718,7 @@
                   <ref role="3cqZAo" node="4OlXQqAlvEp" resolve="filter" />
                 </node>
                 <node concept="liA8E" id="4OlXQqAlvES" role="2OqNvi">
-                  <ref role="37wK5l" to="52tb:~R2Filter.stream():org.campagnelab.antlr.r.complete.R2Filter$StreamContext" resolve="stream" />
+                  <ref role="37wK5l" to="52tb:~R2Filter.stream()" resolve="stream" />
                 </node>
               </node>
             </node>
@@ -7736,7 +7728,7 @@
                   <ref role="3cqZAo" node="4OlXQqAlvEk" resolve="tokens" />
                 </node>
                 <node concept="liA8E" id="4OlXQqAlvEX" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset():void" resolve="reset" />
+                  <ref role="37wK5l" to="p3ir:~BufferedTokenStream.reset()" resolve="reset" />
                 </node>
               </node>
             </node>
@@ -7763,7 +7755,7 @@
                   <ref role="3cqZAo" node="4OlXQqAlvEy" resolve="parser" />
                 </node>
                 <node concept="liA8E" id="4OlXQqAlvF4" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean):void" resolve="setBuildParseTree" />
+                  <ref role="37wK5l" to="p3ir:~Parser.setBuildParseTree(boolean)" resolve="setBuildParseTree" />
                   <node concept="3clFbT" id="4OlXQqAlvED" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -7786,7 +7778,7 @@
                       <ref role="3cqZAo" node="4OlXQqAlvEy" resolve="parser" />
                     </node>
                     <node concept="liA8E" id="4OlXQqApVN6" role="2OqNvi">
-                      <ref role="37wK5l" to="52tb:~R2Parser.prog():org.campagnelab.antlr.r.complete.R2Parser$ProgContext" resolve="prog" />
+                      <ref role="37wK5l" to="52tb:~R2Parser.prog()" resolve="prog" />
                     </node>
                   </node>
                 </node>
@@ -7817,7 +7809,7 @@
                       <ref role="3cqZAo" node="4OlXQqAl$0c" resolve="visitor" />
                     </node>
                     <node concept="liA8E" id="4OlXQqApqTd" role="2OqNvi">
-                      <ref role="37wK5l" to="52tb:~R2BaseVisitor.visitProgram(org.campagnelab.antlr.r.complete.R2Parser$ProgramContext):java.lang.Object" resolve="visitProgram" />
+                      <ref role="37wK5l" to="52tb:~R2BaseVisitor.visitProgram(org.campagnelab.antlr.r.complete.R2Parser$ProgramContext)" resolve="visitProgram" />
                       <node concept="37vLTw" id="4OlXQqAplza" role="37wK5m">
                         <ref role="3cqZAo" node="4OlXQqApVN0" resolve="tree" />
                       </node>

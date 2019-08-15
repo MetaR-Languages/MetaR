@@ -2,13 +2,13 @@
 <model ref="r:76cc9c6f-13c8-4c11-acaa-bbeee090d3e3(org.campagnelab.editor.listeners.plugin.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="2" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
   </languages>
   <imports>
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
@@ -255,7 +255,7 @@
                 <node concept="2OqwBi" id="68001hXkr3A" role="37wK5m">
                   <node concept="1KvdUw" id="68001hXkqWx" role="2Oq$k0" />
                   <node concept="liA8E" id="68001hXkrid" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~MPSProject.getProject():com.intellij.openapi.project.Project" resolve="getProject" />
+                    <ref role="37wK5l" to="z1c3:~MPSProject.getProject()" resolve="getProject" />
                   </node>
                 </node>
               </node>
@@ -285,7 +285,7 @@
               <node concept="2OqwBi" id="1tBRwPIKIKs" role="37wK5m">
                 <node concept="1KvdUw" id="1tBRwPIKI1C" role="2Oq$k0" />
                 <node concept="liA8E" id="1tBRwPIKJ7Z" role="2OqNvi">
-                  <ref role="37wK5l" to="z1c3:~MPSProject.getProject():com.intellij.openapi.project.Project" resolve="getProject" />
+                  <ref role="37wK5l" to="z1c3:~MPSProject.getProject()" resolve="getProject" />
                 </node>
               </node>
             </node>
@@ -498,17 +498,17 @@
                     <ref role="2Gs0qQ" node="1tBRwPIKojO" resolve="openProject" />
                   </node>
                   <node concept="liA8E" id="1tBRwPIKokO" role="2OqNvi">
-                    <ref role="37wK5l" to="4nm9:~Project.getName():java.lang.String" resolve="getName" />
+                    <ref role="37wK5l" to="4nm9:~Project.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="liA8E" id="1tBRwPIKokP" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                  <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String)" resolve="equalsIgnoreCase" />
                   <node concept="2OqwBi" id="1tBRwPIKokQ" role="37wK5m">
                     <node concept="37vLTw" id="1tBRwPIKokR" role="2Oq$k0">
                       <ref role="3cqZAo" node="1tBRwPIKnKg" resolve="project" />
                     </node>
                     <node concept="liA8E" id="1tBRwPIKokS" role="2OqNvi">
-                      <ref role="37wK5l" to="4nm9:~Project.getName():java.lang.String" resolve="getName" />
+                      <ref role="37wK5l" to="4nm9:~Project.getName()" resolve="getName" />
                     </node>
                   </node>
                 </node>
@@ -517,11 +517,11 @@
           </node>
           <node concept="2OqwBi" id="1tBRwPIKokT" role="2GsD0m">
             <node concept="2YIFZM" id="1tBRwPIKokU" role="2Oq$k0">
-              <ref role="37wK5l" to="4nm9:~ProjectManager.getInstance():com.intellij.openapi.project.ProjectManager" resolve="getInstance" />
+              <ref role="37wK5l" to="4nm9:~ProjectManager.getInstance()" resolve="getInstance" />
               <ref role="1Pybhc" to="4nm9:~ProjectManager" resolve="ProjectManager" />
             </node>
             <node concept="liA8E" id="1tBRwPIKokV" role="2OqNvi">
-              <ref role="37wK5l" to="4nm9:~ProjectManager.getOpenProjects():com.intellij.openapi.project.Project[]" resolve="getOpenProjects" />
+              <ref role="37wK5l" to="4nm9:~ProjectManager.getOpenProjects()" resolve="getOpenProjects" />
             </node>
           </node>
         </node>
@@ -695,11 +695,11 @@
                     <ref role="2Gs0qQ" node="5XdrQ8W$53G" resolve="openProject" />
                   </node>
                   <node concept="liA8E" id="5XdrQ8W$6i8" role="2OqNvi">
-                    <ref role="37wK5l" to="4nm9:~Project.getName():java.lang.String" resolve="getName" />
+                    <ref role="37wK5l" to="4nm9:~Project.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5XdrQ8W$6CX" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                  <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String)" resolve="equalsIgnoreCase" />
                   <node concept="37vLTw" id="7SyL5U3d_n2" role="37wK5m">
                     <ref role="3cqZAo" node="5XdrQ8W$4HU" resolve="projectName" />
                   </node>
@@ -709,11 +709,11 @@
           </node>
           <node concept="2OqwBi" id="5XdrQ8W$5Tw" role="2GsD0m">
             <node concept="2YIFZM" id="5XdrQ8W$5Tx" role="2Oq$k0">
-              <ref role="37wK5l" to="4nm9:~ProjectManager.getInstance():com.intellij.openapi.project.ProjectManager" resolve="getInstance" />
+              <ref role="37wK5l" to="4nm9:~ProjectManager.getInstance()" resolve="getInstance" />
               <ref role="1Pybhc" to="4nm9:~ProjectManager" resolve="ProjectManager" />
             </node>
             <node concept="liA8E" id="5XdrQ8W$5Ty" role="2OqNvi">
-              <ref role="37wK5l" to="4nm9:~ProjectManager.getOpenProjects():com.intellij.openapi.project.Project[]" resolve="getOpenProjects" />
+              <ref role="37wK5l" to="4nm9:~ProjectManager.getOpenProjects()" resolve="getOpenProjects" />
             </node>
           </node>
         </node>
@@ -839,7 +839,7 @@
                         <node concept="3clFbF" id="4DiT5VJdegQ" role="3cqZAp">
                           <node concept="2OqwBi" id="4DiT5VJdevX" role="3clFbG">
                             <node concept="2YIFZM" id="4DiT5VJdeum" role="2Oq$k0">
-                              <ref role="37wK5l" to="w1kc:~ModelAccess.instance():jetbrains.mps.smodel.ModelAccess" resolve="instance" />
+                              <ref role="37wK5l" to="w1kc:~ModelAccess.instance()" resolve="instance" />
                               <ref role="1Pybhc" to="w1kc:~ModelAccess" resolve="ModelAccess" />
                             </node>
                             <node concept="liA8E" id="4DiT5VJde_n" role="2OqNvi">
@@ -944,11 +944,11 @@
                     <ref role="2Gs0qQ" node="1QuiO55_Lq" resolve="openProject" />
                   </node>
                   <node concept="liA8E" id="1QuiO55_Mq" role="2OqNvi">
-                    <ref role="37wK5l" to="4nm9:~Project.getName():java.lang.String" resolve="getName" />
+                    <ref role="37wK5l" to="4nm9:~Project.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="liA8E" id="1QuiO55_Mr" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                  <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String)" resolve="equalsIgnoreCase" />
                   <node concept="37vLTw" id="1QuiO55_Mt" role="37wK5m">
                     <ref role="3cqZAo" node="1QuiO55_DA" resolve="projectName" />
                   </node>
@@ -959,10 +959,10 @@
           <node concept="2OqwBi" id="1QuiO55_Mv" role="2GsD0m">
             <node concept="2YIFZM" id="1QuiO55_Mw" role="2Oq$k0">
               <ref role="1Pybhc" to="4nm9:~ProjectManager" resolve="ProjectManager" />
-              <ref role="37wK5l" to="4nm9:~ProjectManager.getInstance():com.intellij.openapi.project.ProjectManager" resolve="getInstance" />
+              <ref role="37wK5l" to="4nm9:~ProjectManager.getInstance()" resolve="getInstance" />
             </node>
             <node concept="liA8E" id="1QuiO55_Mx" role="2OqNvi">
-              <ref role="37wK5l" to="4nm9:~ProjectManager.getOpenProjects():com.intellij.openapi.project.Project[]" resolve="getOpenProjects" />
+              <ref role="37wK5l" to="4nm9:~ProjectManager.getOpenProjects()" resolve="getOpenProjects" />
             </node>
           </node>
         </node>
@@ -992,7 +992,6 @@
   <node concept="3HP615" id="k4VCj6b5FM">
     <property role="TrG5h" value="Listener" />
     <node concept="3clFb_" id="k4VCj6b5QS" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getUniqueKey" />
       <node concept="3clFbS" id="k4VCj6b5QV" role="3clF47" />
@@ -1000,7 +999,6 @@
       <node concept="17QB3L" id="k4VCj6b5QO" role="3clF45" />
     </node>
     <node concept="3clFb_" id="5XdrQ8WzPUB" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="activate" />
       <node concept="3clFbS" id="5XdrQ8WzPUE" role="3clF47" />
@@ -1011,7 +1009,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="7YNwX5Hj677" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="deactivate" />
       <node concept="3clFbS" id="7YNwX5Hj67a" role="3clF47" />
