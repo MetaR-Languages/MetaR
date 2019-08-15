@@ -5,7 +5,6 @@
     <use id="93b7ee14-f42b-424a-9d29-0e275a24208d" name="org.campagnelab.metar.sleuth" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
-    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
@@ -21,12 +20,6 @@
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
-    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
-      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
-        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
-        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
-      </concept>
-    </language>
     <language id="93b7ee14-f42b-424a-9d29-0e275a24208d" name="org.campagnelab.metar.sleuth">
       <concept id="1840523585687757601" name="org.campagnelab.metar.sleuth.structure.KallistoPathAnnotation" flags="ng" index="4bR_i">
         <property id="1840523585687757610" name="path" index="4bR_p" />
@@ -191,11 +184,6 @@
           </node>
         </node>
         <node concept="3prxdc" id="1c1rOX4QHw_" role="3prxd1" />
-        <node concept="3ZW7eb" id="1c1rOX4QHxv" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="NewSleuthStatement-1" />
-          <ref role="KZaLW" to="jbzb:4bcN0BgiONI" resolve="FIGURES" />
-        </node>
       </node>
       <node concept="ZXjPh" id="1c1rOX4QHAu" role="ZXjPg">
         <property role="S1EQ6" value="WFJXWKVCEM" />
@@ -279,11 +267,6 @@
             <ref role="afgo8" node="1c1rOX4QHDk" resolve="cuffdiff2_data_kallisto_results" />
           </node>
         </node>
-        <node concept="3ZW7eb" id="1c1rOX4QHEe" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="SleuthBoundToTable-1" />
-          <ref role="KZaLW" to="jbzb:4bcN0BgiONI" resolve="FIGURES" />
-        </node>
       </node>
       <node concept="2WfBV1" id="1c1rOX4QHMf" role="ZXjPg">
         <property role="8NYsT" value="false" />
@@ -349,11 +332,6 @@
           <node concept="10WucB" id="1c1rOX4QHOr" role="3PiHUO">
             <node concept="10WucT" id="1c1rOX4QHOt" role="10WucA" />
           </node>
-          <node concept="3ZW7eb" id="1c1rOX4QHOV" role="lGtFl">
-            <property role="2ripvU" value="1" />
-            <property role="TrG5h" value="SleuthLRT-1" />
-            <ref role="KZaLW" to="jbzb:4bcN0BgiONI" resolve="FIGURES" />
-          </node>
         </node>
       </node>
       <node concept="2WfBV1" id="1c1rOX4QHQX" role="ZXjPg">
@@ -416,13 +394,7 @@
             </node>
           </node>
         </node>
-        <node concept="3prxde" id="1c1rOX4QHTJ" role="3prxd1">
-          <node concept="3ZW7eb" id="1c1rOX4QHU9" role="lGtFl">
-            <property role="2ripvU" value="1" />
-            <property role="TrG5h" value="SleutWaldTest-1" />
-            <ref role="KZaLW" to="jbzb:4bcN0BgiONI" resolve="FIGURES" />
-          </node>
-        </node>
+        <node concept="3prxde" id="1c1rOX4QHTJ" role="3prxd1" />
       </node>
     </node>
   </node>
@@ -444,11 +416,6 @@
     </node>
     <node concept="3MzsS1" id="1c1rOX4QH$J" role="3MzsBV">
       <property role="TrG5h" value="ID" />
-    </node>
-    <node concept="3ZW7eb" id="1c1rOX4QHKp" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="AnnotatedColumnGroupSleuth-1" />
-      <ref role="KZaLW" to="jbzb:4bcN0BgiONI" resolve="FIGURES" />
     </node>
   </node>
   <node concept="3Mpm39" id="1c1rOX4QHDk">
@@ -536,11 +503,6 @@
           <ref role="3MzsBM" node="1c1rOX4QHF3" resolve="HOXA1KD" />
         </node>
       </node>
-    </node>
-    <node concept="3ZW7eb" id="1c1rOX4QHK7" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="AnnotatedTableSleuth-1" />
-      <ref role="KZaLW" to="jbzb:4bcN0BgiONI" resolve="FIGURES" />
     </node>
   </node>
 </model>

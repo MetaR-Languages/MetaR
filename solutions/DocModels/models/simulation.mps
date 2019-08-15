@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="0" />
-    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
@@ -11,15 +10,6 @@
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
-    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
-      <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
-        <property id="893392931327129956" name="path" index="KZc57" />
-      </concept>
-      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
-        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
-        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
-      </concept>
-    </language>
     <language id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation">
       <concept id="8388819603423221474" name="org.campagnelab.metar.simulation.structure.SampleNames" flags="ng" index="2QHcgp">
         <child id="8388819603423222439" name="sampleNames" index="2QHcxs" />
@@ -371,11 +361,6 @@
             <property role="TrG5h" value="sample_10" />
           </node>
         </node>
-        <node concept="3ZW7eb" id="6xCgpj7fxUy" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="SimulateStatementWithParameters" />
-          <ref role="KZaLW" node="3j3L3d7c8YU" resolve="ToDoc" />
-        </node>
       </node>
     </node>
   </node>
@@ -393,20 +378,10 @@
         </node>
       </node>
     </node>
-    <node concept="3ZW7eb" id="6xCgpj7fkhK" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="SimulateCovariateTable" />
-      <ref role="KZaLW" node="3j3L3d7c8YU" resolve="ToDoc" />
-    </node>
   </node>
   <node concept="3MzsBU" id="3j3L3d7c8Oq">
     <node concept="3MzsS1" id="3j3L3d7c8Or" role="3MzsBV">
       <property role="TrG5h" value="sample-key" />
-    </node>
-    <node concept="3ZW7eb" id="6xCgpj7feG8" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="SimulateGroups" />
-      <ref role="KZaLW" node="3j3L3d7c8YU" resolve="ToDoc" />
     </node>
     <node concept="3MzsS1" id="6xCgpj7fxv3" role="3MzsBV">
       <property role="TrG5h" value="ID" />
@@ -454,10 +429,6 @@
     <node concept="3MzsS1" id="6xCgpj7fxxJ" role="3MzsBV">
       <property role="TrG5h" value="counts" />
     </node>
-  </node>
-  <node concept="KZc4b" id="3j3L3d7c8YU">
-    <property role="TrG5h" value="ToDoc" />
-    <property role="KZc57" value="/Users/mas2182/Lab/Projects/metar_doc_3/figures" />
   </node>
   <node concept="3ia1HC" id="6xCgpj7fxup">
     <property role="31Cu5t" value="&#9;" />

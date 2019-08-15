@@ -49,7 +49,6 @@
     <language slang="l:af754813-06c7-4cd1-8f24-cc91ec8e5d34:org.campagnelab.metar.with.r" version="0" />
     <language slang="l:5ec1cd3d-0a50-4049-a8fa-ae768d7baa25:org.campagnelab.mps.XChart" version="0" />
     <language slang="l:ecf91126-e504-4aae-8ee7-3192d64e77f6:org.campagnelab.mps.XChart.types" version="0" />
-    <language slang="l:93bc01ac-08ca-4f11-9c7d-614d04055dfb:org.campagnelab.mps.editor2pdf" version="0" />
     <language slang="l:43f31864-fc67-43f5-873e-ab79cc279a2d:org.campagnelab.styles" version="0" />
     <language slang="l:901f5cf3-dc77-4c1e-bc5a-6382baee28b4:org.campagnelab.textoutput" version="0" />
     <language slang="l:c1ba4037-e4db-47d8-8b61-b3c805b648f2:org.campagnelab.ui" version="0" />
