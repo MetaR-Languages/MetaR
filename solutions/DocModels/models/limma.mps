@@ -4,7 +4,6 @@
   <languages>
     <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
@@ -26,15 +25,6 @@
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
-    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
-      <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
-        <property id="893392931327129956" name="path" index="KZc57" />
-      </concept>
-      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
-        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
-        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -207,11 +197,6 @@
         </node>
         <node concept="10Y$WH" id="4bcN0BgiOML" role="1f2fR1" />
         <node concept="afgQW" id="4bcN0BgiOMM" role="3cupLz" />
-        <node concept="3ZW7eb" id="4bcN0BgiOMU" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="NewLimmaVoom" />
-          <ref role="KZaLW" node="4bcN0BgiONI" resolve="FIGURES" />
-        </node>
         <node concept="3MlLWZ" id="1hAe0O97fZl" role="1Izna5">
           <ref role="3MlLW5" node="1hAe0O97fZm" />
           <node concept="3Mpm39" id="1hAe0O97fZm" role="3WeD9t">
@@ -761,11 +746,6 @@
             </node>
           </node>
         </node>
-        <node concept="3ZW7eb" id="4bcN0BgjgE6" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="LimmaVoomExample" />
-          <ref role="KZaLW" node="4bcN0BgiONI" resolve="FIGURES" />
-        </node>
         <node concept="3MlLWZ" id="1hAe0O97fZh" role="1Izna5">
           <property role="TrG5h" value="normalized" />
           <ref role="3MlLW5" node="1hAe0O97fZi" resolve="normalized" />
@@ -786,20 +766,11 @@
           <property role="ZHjG8" value="200" />
           <property role="3ZMXzF" value="1" />
         </node>
-        <node concept="3ZW7eb" id="1c1rOX4P9JU" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="NewMAPlot-1" />
-          <ref role="KZaLW" node="4bcN0BgiONI" resolve="FIGURES" />
-        </node>
         <node concept="3MHf5z" id="1c1rOX4QHwf" role="3p3p29" />
         <node concept="3MHf5z" id="1c1rOX4QHwg" role="3p3p2S" />
         <node concept="3MHf5z" id="1c1rOX4QHwh" role="3p3p2J" />
       </node>
     </node>
-  </node>
-  <node concept="KZc4b" id="4bcN0BgiONI">
-    <property role="TrG5h" value="FIGURES" />
-    <property role="KZc57" value="/Users/fac2003/Documents/MetaR_Doc/figures" />
   </node>
   <node concept="3MzsBU" id="4DOwJpJx_yU">
     <node concept="3MzsS1" id="4DOwJpJxBt0" role="3MzsBV">

@@ -7,7 +7,6 @@
     <use id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles" version="0" />
     <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
     <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="1" />
-    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
@@ -39,19 +38,6 @@
     <import index="u4rn" ref="r:ca64f736-0e06-4f2d-801d-bbd0d9861c68(functions)" implicit="true" />
   </imports>
   <registry>
-    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
-      <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
-        <property id="893392931327129956" name="path" index="KZc57" />
-        <child id="3114472293001556518" name="font" index="2O7UoE" />
-      </concept>
-      <concept id="3114472293001556514" name="org.campagnelab.mps.editor2pdf.structure.Font" flags="ng" index="2O7UoI">
-        <property id="3114472293001556515" name="filename" index="2O7UoJ" />
-      </concept>
-      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
-        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
-        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1224500764161" name="jetbrains.mps.baseLanguage.structure.BitwiseAndExpression" flags="nn" index="pVHWs" />
       <concept id="1224500790866" name="jetbrains.mps.baseLanguage.structure.BitwiseOrExpression" flags="nn" index="pVOtf" />
@@ -45178,18 +45164,6 @@
         <property role="1KcK35" value="ENSEMBL_MART_PLANT_SNP" />
       </node>
     </node>
-    <node concept="3ZW7eb" id="1cI4GX2wfBw" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="Figure3_MicroLanguage" />
-      <ref role="KZaLW" node="1cI4GX2wkRQ" resolve="FIGURES" />
-    </node>
-  </node>
-  <node concept="KZc4b" id="1cI4GX2wkRQ">
-    <property role="TrG5h" value="FIGURES" />
-    <property role="KZc57" value="/Users/fac2003/Dropbox/slides/BOSC-2016" />
-    <node concept="2O7UoI" id="1cI4GX2wqgp" role="2O7UoE">
-      <property role="2O7UoJ" value="/Users/fac2003/Library/Application Support/MPS32/Editor2PDF/fonts/DejaVuSansMono.ttf" />
-    </node>
   </node>
   <node concept="2PZPSw" id="1cI4GX2B3LT">
     <property role="TrG5h" value="R Example" />
@@ -45954,9 +45928,9 @@
                 </node>
                 <node concept="2PZJpP" id="1cI4GX2B3T0" role="2v3moI">
                   <property role="1MXi1$" value="RFWTWENOEH" />
-                  <node concept="2PZJpp" id="1cI4GX2B3T5" role="3fnAI_">
-                    <property role="TrG5h" value="results.tsv" />
-                    <property role="1MXi1$" value="LOBKXBTSMY" />
+                  <node concept="1LhYbg" id="meC1Mdg5V" role="3fnAI_">
+                    <property role="1MXi1$" value="NPVWEEFMEW" />
+                    <ref role="1Li74V" node="1cI4GX2B3Qe" resolve="results.tsv" />
                   </node>
                   <node concept="gNbv0" id="1cI4GX2B3T6" role="3fnAIB">
                     <property role="1MXi1$" value="AFXISVLOJS" />
@@ -45968,9 +45942,9 @@
                           <property role="1MXi1$" value="LTKICJIGKM" />
                           <node concept="2PZJpN" id="1cI4GX2B3Td" role="2v3mow">
                             <property role="1MXi1$" value="RNUXVBUOWM" />
-                            <node concept="2PZJpp" id="1cI4GX2B3Tf" role="2v3mow">
-                              <property role="TrG5h" value="results.tsv" />
-                              <property role="1MXi1$" value="REQOHALESC" />
+                            <node concept="1LhYbg" id="meC1Mdg5Y" role="2v3mow">
+                              <property role="1MXi1$" value="OEDOMUIBJB" />
+                              <ref role="1Li74V" node="1cI4GX2B3Qe" resolve="results.tsv" />
                             </node>
                             <node concept="2PZJpm" id="1cI4GX2B3Tg" role="2v3moI">
                               <property role="pzxGI" value="adj.P.Val" />
@@ -46751,11 +46725,6 @@
     </node>
     <node concept="3cU4HJ" id="1cI4GX2Eqt5" role="pZjJ2">
       <property role="1MXi1$" value="RYQOSOBGKY" />
-    </node>
-    <node concept="3ZW7eb" id="1cI4GX2B5Bs" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="RExample" />
-      <ref role="KZaLW" node="1cI4GX2wkRQ" resolve="FIGURES" />
     </node>
   </node>
   <node concept="2PZPSw" id="1cI4GX2UxVu">
@@ -52459,10 +52428,6 @@
     </node>
     <node concept="2PZJp2" id="1cI4GX2WvUA" role="pZjJ2">
       <property role="1MXi1$" value="UMCORFBKXF" />
-      <node concept="2PZJpp" id="1cI4GX2WvUF" role="134Gdo">
-        <property role="TrG5h" value="pdf" />
-        <property role="1MXi1$" value="CKIMLQCSVO" />
-      </node>
       <node concept="gNbv0" id="1cI4GX2WvUG" role="134Gdu">
         <property role="1MXi1$" value="KGGKIOXHHA" />
         <node concept="V6WaU" id="1cI4GX2WvUH" role="gNbrm">
@@ -52472,6 +52437,11 @@
             <property role="1MXi1$" value="ERRCPODFYY" />
           </node>
         </node>
+      </node>
+      <node concept="3a69Ir" id="meC1Mdg37" role="134Gdo">
+        <property role="1MXi1$" value="MVNWKFLLVT" />
+        <ref role="3a69Pm" to="4tsn:7EwhY3NNKG" />
+        <ref role="1Li74V" to="4tsn:7EwhY3NNKF" resolve="pdf" />
       </node>
     </node>
     <node concept="2PZJp2" id="1cI4GX2UEwv" role="pZjJ2">
@@ -52496,10 +52466,6 @@
     </node>
     <node concept="2PZJp2" id="1cI4GX2Wwxm" role="pZjJ2">
       <property role="1MXi1$" value="QYYHQHKIYE" />
-      <node concept="2PZJpp" id="1cI4GX2Wwxr" role="134Gdo">
-        <property role="TrG5h" value="dev.off" />
-        <property role="1MXi1$" value="ITJKIVMTUF" />
-      </node>
       <node concept="gNbv0" id="1cI4GX2Wwxs" role="134Gdu">
         <property role="1MXi1$" value="LQJHYGUAFW" />
         <node concept="V6WaL" id="1cI4GX2Wwxt" role="gNbrm">
@@ -52509,17 +52475,17 @@
           </node>
         </node>
       </node>
+      <node concept="3a69Ir" id="meC1Mdg3a" role="134Gdo">
+        <property role="1MXi1$" value="HULHXDHONL" />
+        <ref role="3a69Pm" to="4tsn:7EwhY3NNEZ" />
+        <ref role="1Li74V" to="4tsn:7EwhY3NNEY" resolve="dev.off" />
+      </node>
     </node>
     <node concept="3cU4HJ" id="1cI4GX2UA4C" role="pZjJ2">
       <property role="1MXi1$" value="ESPEDSHYMY" />
     </node>
     <node concept="3cU4HJ" id="1cI4GX2UAmu" role="pZjJ2">
       <property role="1MXi1$" value="DYOJRPNQTR" />
-    </node>
-    <node concept="3ZW7eb" id="1cI4GX2UACl" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="QueryBiomartAdapter" />
-      <ref role="KZaLW" node="1cI4GX2wkRQ" resolve="FIGURES" />
     </node>
   </node>
   <node concept="S1EQb" id="1cI4GX31cBD">
@@ -57693,11 +57659,6 @@
         </node>
       </node>
     </node>
-    <node concept="3ZW7eb" id="63Ijj437gJa" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="RCodeInMetaR" />
-      <ref role="KZaLW" node="1cI4GX2wkRQ" resolve="FIGURES" />
-    </node>
   </node>
   <node concept="3ia1HC" id="1cI4GX323sX">
     <property role="31Cu5t" value="&#9;" />
@@ -57758,18 +57719,6 @@
           <property role="1MXi1$" value="REJGPLEBVU" />
         </node>
       </node>
-    </node>
-    <node concept="3ZW7eb" id="A$944B9LQP" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="DemoScriptEditor" />
-      <ref role="KZaLW" node="A$944B9LR0" resolve="ManueleFIGURES" />
-    </node>
-  </node>
-  <node concept="KZc4b" id="A$944B9LR0">
-    <property role="TrG5h" value="ManueleFIGURES" />
-    <property role="KZc57" value="/Users/mas2182/Lab/Papers/metar_manuscript_1/figures" />
-    <node concept="2O7UoI" id="A$944B9LR1" role="2O7UoE">
-      <property role="2O7UoJ" value="/Users/mas2182/Library/Application Support/MPS32/Editor2PDF/fonts/DejaVuSansMono.ttf" />
     </node>
   </node>
   <node concept="2PZPSw" id="2abCfNSBlHy">
@@ -60710,11 +60659,6 @@
     </node>
     <node concept="3cU4HJ" id="2abCfNSBW7V" role="pZjJ2">
       <property role="1MXi1$" value="OKKEPATBKI" />
-    </node>
-    <node concept="3ZW7eb" id="63Ijj437fLt" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="MicroLanguageExampleInR2" />
-      <ref role="KZaLW" node="1cI4GX2wkRQ" resolve="FIGURES" />
     </node>
   </node>
 </model>

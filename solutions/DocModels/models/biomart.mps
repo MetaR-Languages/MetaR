@@ -4,7 +4,6 @@
   <languages>
     <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
     <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="0" />
-    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
@@ -13,12 +12,6 @@
     <import index="73vi" ref="r:9fc22d35-972c-474c-9f27-696ba629424c(biomarttest)" />
   </imports>
   <registry>
-    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
-      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
-        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
-        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
@@ -41507,11 +41500,6 @@
             <property role="TrG5h" value="resultFromBioMart" />
           </node>
         </node>
-        <node concept="3ZW7eb" id="1yhT8VTYyBr" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="NewBiomart" />
-          <ref role="KZaLW" to="73vi:6ULs$iIQpul" resolve="BiomartFigure" />
-        </node>
       </node>
       <node concept="1JfIxH" id="1yhT8VTYyBs" role="ZXjPg">
         <property role="S1EQ6" value="DGMCWFEEAW" />
@@ -41531,11 +41519,6 @@
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="resultFromBioMart" />
           </node>
-        </node>
-        <node concept="3ZW7eb" id="1yhT8VTYyBx" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="BiomartAttribute" />
-          <ref role="KZaLW" to="73vi:6ULs$iIQpul" resolve="BiomartFigure" />
         </node>
       </node>
       <node concept="S1EQe" id="1yhT8VTYyBy" role="ZXjPg">
@@ -41582,11 +41565,6 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3ZW7eb" id="1yhT8VTYyBJ" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="BiomartFilter" />
-          <ref role="KZaLW" to="73vi:6ULs$iIQpul" resolve="BiomartFigure" />
         </node>
       </node>
       <node concept="S1EQe" id="1yhT8VTYyBK" role="ZXjPg">
@@ -41652,11 +41630,6 @@
             </node>
           </node>
         </node>
-        <node concept="3ZW7eb" id="1yhT8VTYyC2" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="BiomartExample1" />
-          <ref role="KZaLW" to="73vi:6ULs$iIQpul" resolve="BiomartFigure" />
-        </node>
       </node>
       <node concept="S1EQe" id="1yhT8VTYyC3" role="ZXjPg">
         <property role="S1EQ6" value="RKUBQOTTNF" />
@@ -41709,11 +41682,6 @@
           <node concept="2q4RLF" id="1yhT8VTYyCh" role="2qZv53">
             <property role="2qiqCQ" value="string" />
           </node>
-        </node>
-        <node concept="3ZW7eb" id="1yhT8VTYyCi" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="BiomartExample2" />
-          <ref role="KZaLW" to="73vi:6ULs$iIQpul" resolve="BiomartFigure" />
         </node>
       </node>
       <node concept="S1EQe" id="1yhT8VTYyCj" role="ZXjPg">
