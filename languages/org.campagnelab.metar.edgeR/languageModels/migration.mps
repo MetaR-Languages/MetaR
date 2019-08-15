@@ -2,14 +2,14 @@
 <model ref="r:9b7b2439-7f4f-48c0-a335-d011772cbfb0(org.campagnelab.metar.edgeR.migration)">
   <persistence version="9" />
   <languages>
-    <use id="90746344-04fd-4286-97d5-b46ae6a81709" name="jetbrains.mps.lang.migration" version="0" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="2" />
+    <use id="90746344-04fd-4286-97d5-b46ae6a81709" name="jetbrains.mps.lang.migration" version="1" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
     <use id="d4615e3b-d671-4ba9-af01-2b78369b0ba7" name="jetbrains.mps.lang.pattern" version="1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -221,7 +221,7 @@
                   <ref role="3cqZAo" node="4ssfE$85c9u" resolve="m" />
                 </node>
                 <node concept="liA8E" id="4ssfE$85c8x" role="2OqNvi">
-                  <ref role="37wK5l" to="lui2:~SModule.getModels():java.lang.Iterable" resolve="getModels" />
+                  <ref role="37wK5l" to="lui2:~SModule.getModels()" resolve="getModels" />
                 </node>
               </node>
             </node>
@@ -349,7 +349,7 @@
                                 <ref role="1Px2BO" to="w1kc:~LanguageAspect" resolve="LanguageAspect" />
                               </node>
                               <node concept="liA8E" id="360q$FitGTl" role="2OqNvi">
-                                <ref role="37wK5l" to="w1kc:~LanguageAspect.is(org.jetbrains.mps.openapi.model.SModel):boolean" resolve="is" />
+                                <ref role="37wK5l" to="w1kc:~LanguageAspect.is(org.jetbrains.mps.openapi.model.SModel)" resolve="is" />
                                 <node concept="37vLTw" id="360q$FitGTm" role="37wK5m">
                                   <ref role="3cqZAo" node="360q$FisN46" resolve="model" />
                                 </node>
@@ -527,7 +527,7 @@
                                 <ref role="1Px2BO" to="w1kc:~LanguageAspect" resolve="LanguageAspect" />
                               </node>
                               <node concept="liA8E" id="360q$FitJfN" role="2OqNvi">
-                                <ref role="37wK5l" to="w1kc:~LanguageAspect.is(org.jetbrains.mps.openapi.model.SModel):boolean" resolve="is" />
+                                <ref role="37wK5l" to="w1kc:~LanguageAspect.is(org.jetbrains.mps.openapi.model.SModel)" resolve="is" />
                                 <node concept="37vLTw" id="360q$FitJfO" role="37wK5m">
                                   <ref role="3cqZAo" node="360q$FitJfP" resolve="model" />
                                 </node>

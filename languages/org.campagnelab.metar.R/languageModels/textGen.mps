@@ -176,7 +176,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="3V2IUSrXa0r" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~Date.toString():java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="33ny:~Date.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -1169,11 +1169,11 @@
                 </node>
                 <node concept="2OqwBi" id="Rvx4zTkqWr" role="37vLTx">
                   <node concept="2YIFZM" id="Rvx4zTkqWs" role="2Oq$k0">
-                    <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                    <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                     <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
                   </node>
                   <node concept="liA8E" id="Rvx4zTkqWt" role="2OqNvi">
-                    <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                    <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                     <node concept="2OqwBi" id="Rvx4zTkqWu" role="37wK5m">
                       <node concept="117lpO" id="Rvx4zTkqWv" role="2Oq$k0" />
                       <node concept="3TrcHB" id="Rvx4zTkqWw" role="2OqNvi">

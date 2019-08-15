@@ -2,15 +2,15 @@
 <model ref="r:6db3962b-877b-409e-aab3-7fa57d4ef937(org.campagnelab.metar.r.metar.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="e4bb94f9-1202-448e-98f6-d108577add14" name="org.campagnelab.metar.r.metar" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
     <use id="544eb3a5-f68f-41ed-98e0-db6291e897fb" name="org.campagnelab.metar.R.inspect" version="0" />
     <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
@@ -155,7 +155,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -313,7 +313,7 @@
                           <node concept="3clFbF" id="1c1rOX4C53U" role="3cqZAp">
                             <node concept="2YIFZM" id="1c1rOX4C599" role="3clFbG">
                               <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                              <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                              <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                               <node concept="2OqwBi" id="bPLB42PN$b" role="37wK5m">
                                 <node concept="2OqwBi" id="1c1rOX4C4MR" role="2Oq$k0">
                                   <node concept="30H73N" id="1c1rOX4C4Kj" role="2Oq$k0" />
@@ -352,7 +352,7 @@
                           <node concept="3clFbF" id="1c1rOX4C5mh" role="3cqZAp">
                             <node concept="2YIFZM" id="1c1rOX4C5mi" role="3clFbG">
                               <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                              <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                              <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                               <node concept="2OqwBi" id="bPLB42PO6U" role="37wK5m">
                                 <node concept="2OqwBi" id="1c1rOX4C5mj" role="2Oq$k0">
                                   <node concept="30H73N" id="1c1rOX4C5mk" role="2Oq$k0" />

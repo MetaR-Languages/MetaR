@@ -205,7 +205,7 @@
         <node concept="3clFbS" id="4tSF6VCKJPL" role="2VODD2">
           <node concept="3cpWs6" id="4tSF6VCKJPM" role="3cqZAp">
             <node concept="2YIFZM" id="4tSF6VCKJPN" role="3cqZAk">
-              <ref role="37wK5l" to="35tq:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
+              <ref role="37wK5l" to="35tq:~ListScope.forNamedElements(java.lang.Iterable)" resolve="forNamedElements" />
               <ref role="1Pybhc" to="35tq:~ListScope" resolve="ListScope" />
               <node concept="2OqwBi" id="4tSF6VCKJPO" role="37wK5m">
                 <node concept="2OqwBi" id="4tSF6VCKJPP" role="2Oq$k0">
@@ -262,7 +262,7 @@
           <node concept="3cpWs6" id="4tSF6VCKJQ1" role="3cqZAp">
             <node concept="2YIFZM" id="4tSF6VCKJQ2" role="3cqZAk">
               <ref role="1Pybhc" to="35tq:~ListScope" resolve="ListScope" />
-              <ref role="37wK5l" to="35tq:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
+              <ref role="37wK5l" to="35tq:~ListScope.forNamedElements(java.lang.Iterable)" resolve="forNamedElements" />
               <node concept="2OqwBi" id="4tSF6VCKJQ3" role="37wK5m">
                 <node concept="2OqwBi" id="4tSF6VCKJQ4" role="2Oq$k0">
                   <node concept="3kakTB" id="4tSF6VCKJQ5" role="2Oq$k0" />
@@ -294,7 +294,7 @@
           <node concept="3cpWs6" id="4tSF6VCKJQe" role="3cqZAp">
             <node concept="2YIFZM" id="4tSF6VCKJQf" role="3cqZAk">
               <ref role="1Pybhc" to="35tq:~ListScope" resolve="ListScope" />
-              <ref role="37wK5l" to="35tq:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
+              <ref role="37wK5l" to="35tq:~ListScope.forNamedElements(java.lang.Iterable)" resolve="forNamedElements" />
               <node concept="2OqwBi" id="4tSF6VCKJQg" role="37wK5m">
                 <node concept="2OqwBi" id="4tSF6VCKJQh" role="2Oq$k0">
                   <node concept="2OqwBi" id="4tSF6VCKJQi" role="2Oq$k0">

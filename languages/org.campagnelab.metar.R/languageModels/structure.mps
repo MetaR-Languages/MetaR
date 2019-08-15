@@ -2,7 +2,7 @@
 <model ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
     <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -569,9 +569,6 @@
       <property role="IQ2nx" value="1229604057012663941" />
       <ref role="AX2Wp" node="48xyd$fpdmX" resolve="FloatingPointValue" />
     </node>
-    <node concept="PrWs8" id="48xyd$fo$ck" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaW">
     <property role="TrG5h" value="ComplexLiteralExpr" />
@@ -717,9 +714,6 @@
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
     <node concept="PrWs8" id="7B51G8WfBzO" role="PzmwI">
       <ref role="PrY4T" to="sg20:3lASLmo9rqd" resolve="IIgnoreChanges" />
-    </node>
-    <node concept="PrWs8" id="1vbUObSa7kX" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
   </node>
   <node concept="1TIwiD" id="1jge5x__XE8">
@@ -931,18 +925,12 @@
     <property role="34LRSv" value="=" />
     <property role="EcuMT" value="4933197140516011540" />
     <ref role="1TJDcQ" node="50lwYX0Qjq3" resolve="ParameterValue" />
-    <node concept="PrWs8" id="14BZZ_hOUbN" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="1TIwiD" id="4hQfa_ZrvSl">
     <property role="TrG5h" value="StringValueValue" />
     <property role="OYydz" value="StringValue" />
     <property role="EcuMT" value="4933197140516011541" />
     <ref role="1TJDcQ" node="50lwYX0Qjq3" resolve="ParameterValue" />
-    <node concept="PrWs8" id="14BZZ_hY_OM" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="1TIwiD" id="4hQfa_ZrvSm">
     <property role="TrG5h" value="NullValueValue" />
@@ -963,9 +951,6 @@
     <property role="OYydz" value="EmptySub" />
     <property role="EcuMT" value="4933197140516011544" />
     <ref role="1TJDcQ" node="50lwYX0Qjq3" resolve="ParameterValue" />
-    <node concept="PrWs8" id="14BZZ_hSeDJ" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6szcLqHeUyd">
     <property role="3GE5qa" value="functions" />
@@ -1015,9 +1000,6 @@
     <property role="R5$K2" value="false" />
     <property role="EcuMT" value="1826877622991296127" />
     <ref role="1TJDcQ" node="r9xlU4_XKo" resolve="Operator" />
-    <node concept="PrWs8" id="7XZJcTGqOjF" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="1TIwiD" id="r9xlU4ykoL">
     <property role="TrG5h" value="DoubleColon" />
@@ -1209,9 +1191,6 @@
     <property role="R5$K2" value="false" />
     <property role="EcuMT" value="489068675543818812" />
     <ref role="1TJDcQ" node="r9xlU4_XKo" resolve="Operator" />
-    <node concept="PrWs8" id="7XZJcTGiFZV" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="1TIwiD" id="r9xlU4_XKo">
     <property role="3GE5qa" value="operators" />
@@ -1330,9 +1309,6 @@
       <property role="20kJfa" value="concept" />
       <property role="IQ2ns" value="2748552921020781344" />
       <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-    </node>
-    <node concept="PrWs8" id="KFBOh5ukqP" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
   </node>
   <node concept="1TIwiD" id="P5JL27bo7k">
@@ -1537,9 +1513,6 @@
     <property role="TrG5h" value="InstallOrLoadFunction" />
     <property role="EcuMT" value="1747883545594277590" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
-    <node concept="PrWs8" id="1x1IHbNTqVn" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
 </model>
 

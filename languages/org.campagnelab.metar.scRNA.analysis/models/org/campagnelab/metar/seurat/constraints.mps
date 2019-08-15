@@ -289,11 +289,11 @@
                   <node concept="17QB3L" id="3Pa_fMtu_Tn" role="1tU5fm" />
                   <node concept="2OqwBi" id="3Pa_fMtu_To" role="33vP2m">
                     <node concept="2YIFZM" id="3Pa_fMtu_Tp" role="2Oq$k0">
-                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                       <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
                     </node>
                     <node concept="liA8E" id="3Pa_fMtu_Tq" role="2OqNvi">
-                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                       <node concept="1Wqviy" id="3Pa_fMtu_Tr" role="37wK5m" />
                     </node>
                   </node>
@@ -330,7 +330,7 @@
                       <ref role="3cqZAo" node="3Pa_fMtu$5e" resolve="file" />
                     </node>
                     <node concept="liA8E" id="6p4IBf41J9D" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+                      <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
                     </node>
                   </node>
                 </node>
@@ -350,7 +350,7 @@
                         <ref role="3cqZAo" node="3Pa_fMtu$5e" resolve="file" />
                       </node>
                       <node concept="liA8E" id="6p4IBf41NKk" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~File.listFiles():java.io.File[]" resolve="listFiles" />
+                        <ref role="37wK5l" to="guwi:~File.listFiles()" resolve="listFiles" />
                       </node>
                     </node>
                     <node concept="39bAoz" id="6p4IBf42hu6" role="2OqNvi" />
@@ -378,11 +378,11 @@
                                         <ref role="3cqZAo" node="6p4IBf41UK0" resolve="it" />
                                       </node>
                                       <node concept="liA8E" id="6p4IBf41XA3" role="2OqNvi">
-                                        <ref role="37wK5l" to="guwi:~File.getName():java.lang.String" resolve="getName" />
+                                        <ref role="37wK5l" to="guwi:~File.getName()" resolve="getName" />
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="6p4IBf4211f" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                       <node concept="Xl_RD" id="6p4IBf421R_" role="37wK5m">
                                         <property role="Xl_RC" value="barcodes.tsv" />
                                       </node>
@@ -416,11 +416,11 @@
                                         <ref role="3cqZAo" node="6p4IBf42xGZ" resolve="it" />
                                       </node>
                                       <node concept="liA8E" id="6p4IBf42xGW" role="2OqNvi">
-                                        <ref role="37wK5l" to="guwi:~File.getName():java.lang.String" resolve="getName" />
+                                        <ref role="37wK5l" to="guwi:~File.getName()" resolve="getName" />
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="6p4IBf42xGX" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                       <node concept="Xl_RD" id="6p4IBf42xGY" role="37wK5m">
                                         <property role="Xl_RC" value="genes.tsv" />
                                       </node>
@@ -455,11 +455,11 @@
                                       <ref role="3cqZAo" node="6p4IBf42AfR" resolve="it" />
                                     </node>
                                     <node concept="liA8E" id="6p4IBf42AfO" role="2OqNvi">
-                                      <ref role="37wK5l" to="guwi:~File.getName():java.lang.String" resolve="getName" />
+                                      <ref role="37wK5l" to="guwi:~File.getName()" resolve="getName" />
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="6p4IBf42AfP" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                     <node concept="Xl_RD" id="6p4IBf42AfQ" role="37wK5m">
                                       <property role="Xl_RC" value="matrix.mtx" />
                                     </node>
@@ -1128,10 +1128,10 @@
                   <node concept="2OqwBi" id="B4DH$Ilblo" role="33vP2m">
                     <node concept="2YIFZM" id="B4DH$Ilblp" role="2Oq$k0">
                       <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                     </node>
                     <node concept="liA8E" id="B4DH$Ilblq" role="2OqNvi">
-                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                       <node concept="1Wqviy" id="B4DH$Ilblr" role="37wK5m" />
                     </node>
                   </node>
@@ -1160,7 +1160,7 @@
                     <ref role="3cqZAo" node="B4DH$Ilblt" resolve="file" />
                   </node>
                   <node concept="liA8E" id="B4DH$IlgDt" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+                    <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
                   </node>
                 </node>
               </node>

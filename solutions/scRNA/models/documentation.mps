@@ -3,13 +3,12 @@
   <persistence version="9" />
   <languages>
     <use id="6562d9c6-fb82-4150-9d7f-5e4f50d7bba1" name="org.campagnelab.metar.seurat" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
-    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
@@ -17,11 +16,6 @@
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
-    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
-      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
-        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
@@ -408,10 +402,6 @@
           </node>
         </node>
         <node concept="1LcaPl" id="3rFtNue4G4Y" role="1LcbbV" />
-        <node concept="3ZW7eb" id="3rFtNue4H$4" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="AddPCA" />
-        </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQt" role="ZXjPg">
         <property role="1MXi1$" value="VEBPTDUVEJ" />
@@ -536,10 +526,6 @@
         </node>
         <node concept="16L4YA" id="3rFtNue4nu9" role="16L4Y_" />
         <node concept="1LcaPl" id="3rFtNue4nua" role="1LcbbV" />
-        <node concept="3ZW7eb" id="3rFtNue4nyD" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="CleanupSeurat" />
-        </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQw" role="ZXjPg">
         <property role="1MXi1$" value="RCHJUHOHGS" />
@@ -560,10 +546,6 @@
             <property role="1kOCDM" value="false" />
           </node>
         </node>
-        <node concept="3ZW7eb" id="3rFtNue4oC8" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="NormalizeSeurat" />
-        </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQx" role="ZXjPg">
         <property role="1MXi1$" value="BDXHHGWQVB" />
@@ -583,10 +565,6 @@
             <property role="1kOCFb" value="false" />
             <property role="1kOCDM" value="false" />
           </node>
-        </node>
-        <node concept="3ZW7eb" id="3rFtNue4oCd" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="ScaleSeurat" />
         </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQy" role="ZXjPg">
@@ -653,10 +631,6 @@
           </node>
         </node>
         <node concept="1LcaPl" id="3rFtNue4pNN" role="1Lc1gn" />
-        <node concept="3ZW7eb" id="3rFtNue4pTU" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="DiagnosicPlots" />
-        </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQz" role="ZXjPg">
         <property role="1MXi1$" value="DVHRXOSCDV" />
@@ -701,10 +675,6 @@
           </node>
         </node>
         <node concept="1LcaPl" id="3rFtNue54AY" role="1Lc1gn" />
-        <node concept="3ZW7eb" id="3rFtNue55aJ" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="PrealignSeurat" />
-        </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQ$" role="ZXjPg">
         <property role="1MXi1$" value="YCXQFKVFXF" />
@@ -748,10 +718,6 @@
           </node>
         </node>
         <node concept="1LcaPl" id="3rFtNue551s" role="1Lc1gn" />
-        <node concept="3ZW7eb" id="3rFtNue55aP" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="AlignSeurat" />
-        </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQ_" role="ZXjPg">
         <property role="1MXi1$" value="SMKHGXJTGT" />
@@ -770,10 +736,6 @@
           </node>
         </node>
         <node concept="1LcaPl" id="3rFtNue5hF3" role="33xgdr" />
-        <node concept="3ZW7eb" id="3rFtNue5hPl" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="PreLimmaSeurat" />
-        </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQA" role="ZXjPg">
         <property role="1MXi1$" value="TBQYECQBYT" />
@@ -785,10 +747,6 @@
         </node>
         <node concept="afgQW" id="3rFtNue5h3h" role="3Yc_hw" />
         <node concept="10Y$WH" id="3rFtNue5h3i" role="1f2fR1" />
-        <node concept="3ZW7eb" id="3rFtNue5hPq" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="LimmaSeurat" />
-        </node>
         <node concept="1aRjn2" id="3gW$W3ftyb1" role="3Yc_hX">
           <node concept="3MlLWZ" id="3gW$W3ftyb2" role="16C0Yd">
             <property role="TrG5h" value="deGenesForContrast" />
@@ -837,10 +795,6 @@
       <node concept="rerJS" id="3rFtNue5i15" role="ZXjPg">
         <property role="1MXi1$" value="YTIBLWDUVI" />
         <node concept="1LcaPl" id="3rFtNue5i16" role="rerJT" />
-        <node concept="3ZW7eb" id="3rFtNue5ixa" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="DeleteSeurat" />
-        </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQC" role="ZXjPg">
         <property role="1MXi1$" value="FHGKWPWRPQ" />
@@ -864,10 +818,6 @@
         </node>
         <node concept="1LcaPl" id="3rFtNue5imh" role="6bF7A" />
         <node concept="1LcaPl" id="3rFtNue5imj" role="6bF7$" />
-        <node concept="3ZW7eb" id="3rFtNue5ixh" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="MergeSeurat" />
-        </node>
       </node>
       <node concept="1l_J7x" id="3rFtNue5hQD" role="ZXjPg">
         <property role="1MXi1$" value="QWXBIJRELM" />

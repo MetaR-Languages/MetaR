@@ -7,25 +7,24 @@
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles" version="0" />
     <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
     <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="0" />
     <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
     <use id="af754813-06c7-4cd1-8f24-cc91ec8e5d34" name="org.campagnelab.metar.with.r" version="0" />
     <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="0" />
     <use id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
-    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="7eba6a28-4cc2-47b9-a392-284573f2054a" name="org.campagnelab.metar.R.access" version="0" />
   </languages>
@@ -35,12 +34,6 @@
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
-    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
-      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
-        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
-        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
@@ -275,8 +268,8 @@
             <node concept="1x8lzE" id="1c1rOX4HL$4" role="2v3mow">
               <property role="TrG5h" value="GSE59364_DC_all.csv" />
               <property role="1MXi1$" value="TLUINXGRCE" />
-              <ref role="1x8kiA" node="4$IC3Kj1JTD" resolve="A_DC_LPS" />
               <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
+              <ref role="1x8kiA" node="5t30k5$Xxg$" resolve="A_DC_LPS" />
             </node>
             <node concept="22gcdy" id="1c1rOX4HL$q" role="22hImy" />
           </node>
@@ -299,8 +292,8 @@
             <node concept="1x8lzE" id="1c1rOX4HLzj" role="2v3mow">
               <property role="TrG5h" value="GSE59364_DC_all.csv" />
               <property role="1MXi1$" value="FNUWVVGPCI" />
-              <ref role="1x8kiA" node="4$IC3Kj1JT_" resolve="A_DC" />
               <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
+              <ref role="1x8kiA" node="5t30k5$Xxgz" resolve="A_DC" />
             </node>
           </node>
         </node>
@@ -325,8 +318,8 @@
                 <node concept="1x8lzE" id="1c1rOX4JhfI" role="2v3mow">
                   <property role="TrG5h" value="GSE59364_DC_all.csv" />
                   <property role="1MXi1$" value="VOCEWAUUSU" />
-                  <ref role="1x8kiA" node="4$IC3Kj1JTX" resolve="C2DC" />
                   <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
+                  <ref role="1x8kiA" node="5t30k5$XxgD" resolve="C2DC" />
                 </node>
               </node>
             </node>
@@ -334,8 +327,8 @@
             <node concept="1x8lzE" id="1c1rOX4Jhf6" role="2v3mow">
               <property role="TrG5h" value="GSE59364_DC_all.csv" />
               <property role="1MXi1$" value="VPTGCPYMPR" />
-              <ref role="1x8kiA" node="4$IC3Kj1JT_" resolve="A_DC" />
               <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
+              <ref role="1x8kiA" node="5t30k5$Xxgz" resolve="A_DC" />
             </node>
           </node>
         </node>
@@ -351,11 +344,6 @@
         </node>
         <node concept="Ss6Tf" id="1c1rOX4JhAR" role="Ss6Td" />
       </node>
-    </node>
-    <node concept="3ZW7eb" id="1c1rOX4Jh9z" role="lGtFl">
-      <property role="2ripvU" value="1" />
-      <property role="TrG5h" value="UpSetIllustration-1" />
-      <ref role="KZaLW" to="jbzb:4bcN0BgiONI" resolve="FIGURES" />
     </node>
   </node>
   <node concept="3Mpm39" id="4DOwJpJxBw5">

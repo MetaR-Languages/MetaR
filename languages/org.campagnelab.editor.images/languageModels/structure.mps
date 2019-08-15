@@ -54,9 +54,6 @@
     <property role="TrG5h" value="StubImage" />
     <property role="EcuMT" value="5334124047828201524" />
     <ref role="1TJDcQ" node="37EhXvtDBER" resolve="Image" />
-    <node concept="PrWs8" id="4C6BoXyEN0P" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
     <node concept="PrWs8" id="4C6BoXyEN0Q" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>

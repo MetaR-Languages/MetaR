@@ -2,7 +2,7 @@
 <model ref="r:62e0ac49-55aa-4189-acde-563e9f4044d0(org.campagnelab.metar.seurat.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
@@ -331,7 +331,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -788,10 +788,10 @@
                 <node concept="2OqwBi" id="274AKIgZJY2" role="3cqZAk">
                   <node concept="2YIFZM" id="274AKIgZJqr" role="2Oq$k0">
                     <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                    <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                    <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                   </node>
                   <node concept="liA8E" id="274AKIgZKKP" role="2OqNvi">
-                    <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                    <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                     <node concept="2OqwBi" id="w5znaeJ$mG" role="37wK5m">
                       <node concept="13iPFW" id="w5znaeJ$hj" role="2Oq$k0" />
                       <node concept="3TrcHB" id="7lSaFvHEvQY" role="2OqNvi">
@@ -3941,7 +3941,7 @@
                   <node concept="ANE8D" id="3eUkWazLpPm" role="2OqNvi" />
                 </node>
                 <node concept="liA8E" id="7lSaFvHV2rq" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.indexOf(java.lang.Object):int" resolve="indexOf" />
+                  <ref role="37wK5l" to="33ny:~List.indexOf(java.lang.Object)" resolve="indexOf" />
                   <node concept="2OqwBi" id="7lSaFvHUmY3" role="37wK5m">
                     <node concept="37vLTw" id="7lSaFvHVNWz" role="2Oq$k0">
                       <ref role="3cqZAo" node="7lSaFvHVKI5" resolve="node" />
@@ -4074,7 +4074,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="7lSaFvHWdRU" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.indexOf(java.lang.Object):int" resolve="indexOf" />
+                <ref role="37wK5l" to="33ny:~List.indexOf(java.lang.Object)" resolve="indexOf" />
                 <node concept="2OqwBi" id="7lSaFvHWdRV" role="37wK5m">
                   <node concept="37vLTw" id="7lSaFvHWdRW" role="2Oq$k0">
                     <ref role="3cqZAo" node="7lSaFvHWdSc" resolve="node" />
@@ -4531,7 +4531,7 @@
                   <ref role="3cqZAo" node="15COMTn5xKZ" resolve="children" />
                 </node>
                 <node concept="liA8E" id="2jGfOiyRpc_" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                   <node concept="2OqwBi" id="2jGfOiyRpjT" role="37wK5m">
                     <node concept="2OqwBi" id="2jGfOiyRpjU" role="2Oq$k0">
                       <node concept="2OqwBi" id="2jGfOiyRpjV" role="2Oq$k0">
@@ -5078,7 +5078,7 @@
               </node>
             </node>
             <node concept="liA8E" id="3BPxiZUxzPp" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.addAll(java.util.Collection):boolean" resolve="addAll" />
+              <ref role="37wK5l" to="33ny:~List.addAll(java.util.Collection)" resolve="addAll" />
               <node concept="2OqwBi" id="3BPxiZUxAe6" role="37wK5m">
                 <node concept="2OqwBi" id="3BPxiZUxoL8" role="2Oq$k0">
                   <node concept="2OqwBi" id="3BPxiZU$V3B" role="2Oq$k0">
@@ -5858,7 +5858,7 @@
               </node>
             </node>
             <node concept="liA8E" id="7UToRyXLqkG" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.addAll(java.util.Collection):boolean" resolve="addAll" />
+              <ref role="37wK5l" to="33ny:~List.addAll(java.util.Collection)" resolve="addAll" />
               <node concept="2OqwBi" id="7UToRyXLqkH" role="37wK5m">
                 <node concept="2OqwBi" id="7UToRyXLqkI" role="2Oq$k0">
                   <node concept="2OqwBi" id="7UToRyXLqkJ" role="2Oq$k0">
@@ -7119,7 +7119,7 @@
                   </node>
                   <node concept="3cpWs3" id="5t30k5$ZDVM" role="37wK5m">
                     <node concept="2YIFZM" id="5t30k5$ZEDG" role="3uHU7w">
-                      <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                       <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                       <node concept="37vLTw" id="5t30k5$ZF1A" role="37wK5m">
                         <ref role="3cqZAo" node="3Vn8EN1p$eS" resolve="i" />
@@ -7221,7 +7221,7 @@
                       <node concept="3cpWs3" id="7UToRyXONQR" role="37wK5m">
                         <node concept="2YIFZM" id="7UToRyXOOsG" role="3uHU7w">
                           <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                          <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                          <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                           <node concept="37vLTw" id="7UToRyXOOHj" role="37wK5m">
                             <ref role="3cqZAo" node="7UToRyXO_8O" resolve="i" />
                           </node>
@@ -7364,7 +7364,7 @@
                                       <property role="Xl_RC" value="Cluster" />
                                     </node>
                                     <node concept="2YIFZM" id="3Vn8EN1l__r" role="3uHU7w">
-                                      <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                      <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                                       <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                       <node concept="37vLTw" id="3Vn8EN1l_LQ" role="37wK5m">
                                         <ref role="3cqZAo" node="7UToRyXO_8O" resolve="i" />
@@ -8616,11 +8616,11 @@
                     </node>
                     <node concept="2OqwBi" id="3RDLr5OHuEW" role="3uHU7B">
                       <node concept="2YIFZM" id="3RDLr5OHuEX" role="2Oq$k0">
-                        <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                        <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                         <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
                       </node>
                       <node concept="liA8E" id="3RDLr5OHuEY" role="2OqNvi">
-                        <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                        <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                         <node concept="Xl_RD" id="3RDLr5OHuEZ" role="37wK5m">
                           <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                         </node>
@@ -8643,7 +8643,7 @@
                   <ref role="3cqZAo" node="asFbg5j153" resolve="localModelResultsDir" />
                 </node>
                 <node concept="liA8E" id="asFbg5j2X0" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.mkdir():boolean" resolve="mkdir" />
+                  <ref role="37wK5l" to="guwi:~File.mkdir()" resolve="mkdir" />
                 </node>
               </node>
             </node>
@@ -8651,7 +8651,7 @@
           <node concept="3fqX7Q" id="asFbg5j2e0" role="3clFbw">
             <node concept="2OqwBi" id="asFbg5j2e2" role="3fr31v">
               <node concept="liA8E" id="asFbg5j2e6" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+                <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
               </node>
               <node concept="37vLTw" id="asFbg5j2Qq" role="2Oq$k0">
                 <ref role="3cqZAo" node="asFbg5j153" resolve="localModelResultsDir" />
@@ -8671,7 +8671,7 @@
                   <ref role="3cqZAo" node="asFbg5j153" resolve="localModelResultsDir" />
                 </node>
                 <node concept="liA8E" id="asFbg5j3cP" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                  <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
                 </node>
               </node>
             </node>

@@ -232,7 +232,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -240,7 +240,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -1039,7 +1039,7 @@
                               <node concept="3clFbS" id="5X5p3g3kEqI" role="Jncv$">
                                 <node concept="3cpWs6" id="5X5p3g3kSZy" role="3cqZAp">
                                   <node concept="2YIFZM" id="5X5p3g3kT$t" role="3cqZAk">
-                                    <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                    <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                                     <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                     <node concept="2OqwBi" id="5X5p3g3kGIg" role="37wK5m">
                                       <node concept="Jnkvi" id="5X5p3g3kGtR" role="2Oq$k0">

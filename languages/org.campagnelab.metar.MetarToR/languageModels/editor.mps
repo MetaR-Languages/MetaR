@@ -2,7 +2,7 @@
 <model ref="r:32131801-0a0f-4c10-8a1d-f2a07676d1d7(org.campagnelab.metar.biomartToR.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -558,7 +558,7 @@
                 <node concept="2OqwBi" id="m2dhZuGNmM" role="33vP2m">
                   <node concept="ub8z3" id="m2dhZuGNoy" role="2Oq$k0" />
                   <node concept="liA8E" id="m2dhZuGNmO" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                    <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
                     <node concept="Xl_RD" id="m2dhZuGNmP" role="37wK5m">
                       <property role="Xl_RC" value="\\$" />
                     </node>
@@ -651,7 +651,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="m2dhZuGNnw" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                                     <node concept="AH0OO" id="m2dhZuGNnx" role="37wK5m">
                                       <node concept="3cmrfG" id="m2dhZuGNny" role="AHEQo">
                                         <property role="3cmrfH" value="1" />
@@ -725,7 +725,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="m2dhZuGNo0" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                               <node concept="AH0OO" id="m2dhZuGNo1" role="37wK5m">
                                 <node concept="3cmrfG" id="m2dhZuGNo2" role="AHEQo">
                                   <property role="3cmrfH" value="1" />

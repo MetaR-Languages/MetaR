@@ -2,9 +2,9 @@
 <model ref="r:2150c429-b155-46ee-94d1-914b79625175(org.campagnelab.metar.biomartToR.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR" version="1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
@@ -101,7 +101,7 @@
               <node concept="2OqwBi" id="1e1bwEAo1rX" role="3clFbG">
                 <node concept="30H73N" id="1e1bwEAo1px" role="2Oq$k0" />
                 <node concept="3TrEf2" id="1e1bwEAo1B1" role="2OqNvi">
-                  <ref role="3Tt5mk" to="rlu9:55b$yEt0CzD" />
+                  <ref role="3Tt5mk" to="rlu9:55b$yEt0CzD" resolve="biomartref" />
                 </node>
               </node>
             </node>

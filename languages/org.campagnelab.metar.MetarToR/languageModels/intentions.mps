@@ -409,7 +409,7 @@
                 </node>
               </node>
               <node concept="3Tsc0h" id="4eN5NwyxL8_" role="2OqNvi">
-                <ref role="3TtcxE" to="6q58:14grA08Vlmy" />
+                <ref role="3TtcxE" to="6q58:14grA08Vlmy" resolve="expressions" />
               </node>
             </node>
             <node concept="2Ke4WJ" id="4eN5NwyyoKH" role="2OqNvi">

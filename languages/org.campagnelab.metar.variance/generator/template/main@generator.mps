@@ -181,7 +181,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -623,14 +623,14 @@
                         <node concept="3clFbS" id="4mOaJR2T1CV" role="2VODD2">
                           <node concept="3clFbF" id="4mOaJR2T1Lu" role="3cqZAp">
                             <node concept="2YIFZM" id="KFBOh5oSQj" role="3clFbG">
-                              <ref role="37wK5l" to="wyt6:~Float.toString(float):java.lang.String" resolve="toString" />
+                              <ref role="37wK5l" to="wyt6:~Float.toString(float)" resolve="toString" />
                               <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
                               <node concept="3cpWsd" id="KFBOh5oQON" role="37wK5m">
                                 <node concept="3cmrfG" id="KFBOh5oQTK" role="3uHU7B">
                                   <property role="3cmrfH" value="100" />
                                 </node>
                                 <node concept="2YIFZM" id="KFBOh5oPfx" role="3uHU7w">
-                                  <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+                                  <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String)" resolve="parseFloat" />
                                   <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
                                   <node concept="2OqwBi" id="4mOaJR2T25r" role="37wK5m">
                                     <node concept="30H73N" id="4mOaJR2T1Lt" role="2Oq$k0" />

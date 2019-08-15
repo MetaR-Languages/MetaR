@@ -2,7 +2,7 @@
 <model ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -275,7 +275,7 @@
                           <ref role="3cqZAo" node="7LvyiX4mikZ" resolve="r" />
                         </node>
                         <node concept="liA8E" id="7LvyiX4milv" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~Random.nextInt(int):int" resolve="nextInt" />
+                          <ref role="37wK5l" to="33ny:~Random.nextInt(int)" resolve="nextInt" />
                           <node concept="3cpWsd" id="7LvyiX4milw" role="37wK5m">
                             <node concept="37vLTw" id="7LvyiX4milx" role="3uHU7w">
                               <ref role="3cqZAo" node="7LvyiX4milf" resolve="A" />

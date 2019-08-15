@@ -2,7 +2,7 @@
 <model ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -141,7 +141,7 @@
                   </node>
                   <node concept="3cpWs3" id="7d3kpy2qvA1" role="3uHU7B">
                     <node concept="2YIFZM" id="7d3kpy2qvA2" role="3uHU7B">
-                      <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
+                      <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String)" resolve="getProperty" />
                       <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                       <node concept="Xl_RD" id="7d3kpy2qvA3" role="37wK5m">
                         <property role="Xl_RC" value="user.home" />
@@ -176,11 +176,11 @@
                 <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
                 <node concept="2OqwBi" id="7d3kpy2qwWp" role="37wK5m">
                   <node concept="2YIFZM" id="7d3kpy2qwWq" role="2Oq$k0">
-                    <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                    <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                     <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
                   </node>
                   <node concept="liA8E" id="7d3kpy2qwWr" role="2OqNvi">
-                    <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                    <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                     <node concept="Xl_RD" id="7d3kpy2qwWs" role="37wK5m">
                       <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                     </node>

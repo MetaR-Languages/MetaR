@@ -2,7 +2,7 @@
 <model ref="r:9f5ad1b0-f18b-4386-b4a1-4971f369ec72(org.campagnelab.metar.biomart.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -213,7 +213,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -665,13 +665,13 @@
                         <node concept="30H73N" id="6ELQoHSJTSP" role="2Oq$k0" />
                       </node>
                       <node concept="liA8E" id="16dayhknib3" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.substring(int):java.lang.String" resolve="substring" />
+                        <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
                         <node concept="2OqwBi" id="16dayhknjdi" role="37wK5m">
                           <node concept="Xl_RD" id="16dayhkniiK" role="2Oq$k0">
                             <property role="Xl_RC" value="http://" />
                           </node>
                           <node concept="liA8E" id="16dayhknk0r" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                            <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                           </node>
                         </node>
                       </node>
@@ -1008,10 +1008,10 @@
                                       <node concept="2OqwBi" id="KwXu1WSuet" role="3uHU7B">
                                         <node concept="2YIFZM" id="KwXu1WSueu" role="2Oq$k0">
                                           <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                                          <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                                          <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                                         </node>
                                         <node concept="liA8E" id="KwXu1WSuev" role="2OqNvi">
-                                          <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                                          <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                                           <node concept="Xl_RD" id="KwXu1WSuew" role="37wK5m">
                                             <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                                           </node>
@@ -1044,7 +1044,7 @@
                                 </node>
                               </node>
                               <node concept="2YIFZM" id="KwXu1WSueD" role="3uHU7w">
-                                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                 <node concept="2OqwBi" id="KwXu1WSueE" role="37wK5m">
                                   <node concept="2OqwBi" id="KwXu1WSueF" role="2Oq$k0">

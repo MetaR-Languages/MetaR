@@ -96,7 +96,7 @@
               <node concept="3clFbF" id="5hNeoO9$HU" role="3cqZAp">
                 <node concept="2YIFZM" id="5hNeoO9$Im" role="3clFbG">
                   <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
-                  <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+                  <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String)" resolve="parseFloat" />
                   <node concept="1Wqviy" id="5hNeoO9$IK" role="37wK5m" />
                 </node>
               </node>

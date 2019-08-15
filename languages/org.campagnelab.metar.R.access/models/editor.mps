@@ -2,10 +2,10 @@
 <model ref="r:e8edbb45-2d43-4f07-959e-df48352b4f02(org.campagnelab.metar.R.access.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -553,7 +553,7 @@
                 <node concept="2OqwBi" id="m2dhZuGN7d" role="33vP2m">
                   <node concept="ub8z3" id="m2dhZuGN8X" role="2Oq$k0" />
                   <node concept="liA8E" id="m2dhZuGN7f" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                    <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
                     <node concept="Xl_RD" id="m2dhZuGN7g" role="37wK5m">
                       <property role="Xl_RC" value="\\$" />
                     </node>
@@ -646,7 +646,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="m2dhZuGN7V" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                                     <node concept="AH0OO" id="m2dhZuGN7W" role="37wK5m">
                                       <node concept="3cmrfG" id="m2dhZuGN7X" role="AHEQo">
                                         <property role="3cmrfH" value="1" />
@@ -720,7 +720,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="m2dhZuGN8r" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                               <node concept="AH0OO" id="m2dhZuGN8s" role="37wK5m">
                                 <node concept="3cmrfG" id="m2dhZuGN8t" role="AHEQo">
                                   <property role="3cmrfH" value="1" />

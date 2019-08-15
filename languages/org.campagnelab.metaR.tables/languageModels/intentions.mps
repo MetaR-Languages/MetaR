@@ -420,7 +420,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="7lAbM$uNPu6" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                               <node concept="2GrUjf" id="7lAbM$uNU48" role="37wK5m">
                                 <ref role="2Gs0qQ" node="7lAbM$uNT5m" resolve="groupName" />
                               </node>
@@ -715,11 +715,11 @@
             <node concept="2OqwBi" id="5d7YQINCWCr" role="2Oq$k0">
               <node concept="1XNTG" id="5d7YQINCWBI" role="2Oq$k0" />
               <node concept="liA8E" id="5d7YQINCWRT" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
               </node>
             </node>
             <node concept="liA8E" id="5d7YQINCXlr" role="2OqNvi">
-              <ref role="37wK5l" to="cj4x:~EditorComponent.rebuildEditorContent():void" resolve="rebuildEditorContent" />
+              <ref role="37wK5l" to="cj4x:~EditorComponent.rebuildEditorContent()" resolve="rebuildEditorContent" />
             </node>
           </node>
         </node>
@@ -2481,11 +2481,11 @@
             </node>
             <node concept="2OqwBi" id="56wP_0Z195q" role="3uHU7w">
               <node concept="2YIFZM" id="56wP_0Z195r" role="2Oq$k0">
-                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                 <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
               </node>
               <node concept="liA8E" id="56wP_0Z195s" role="2OqNvi">
-                <ref role="37wK5l" to="18ew:~MacroHelper.shrinkPath(java.lang.String):java.lang.String" resolve="shrinkPath" />
+                <ref role="37wK5l" to="18ew:~MacroHelper.shrinkPath(java.lang.String)" resolve="shrinkPath" />
                 <node concept="2OqwBi" id="56wP_0Z195t" role="37wK5m">
                   <node concept="2Sf5sV" id="56wP_0Z195u" role="2Oq$k0" />
                   <node concept="3TrcHB" id="56wP_0Z195v" role="2OqNvi">
@@ -2511,10 +2511,10 @@
             <node concept="2OqwBi" id="56wP_0Z16s4" role="37vLTx">
               <node concept="2YIFZM" id="56wP_0Z16qr" role="2Oq$k0">
                 <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
               </node>
               <node concept="liA8E" id="56wP_0Z16_8" role="2OqNvi">
-                <ref role="37wK5l" to="18ew:~MacroHelper.shrinkPath(java.lang.String):java.lang.String" resolve="shrinkPath" />
+                <ref role="37wK5l" to="18ew:~MacroHelper.shrinkPath(java.lang.String)" resolve="shrinkPath" />
                 <node concept="2OqwBi" id="56wP_0Z16Fj" role="37wK5m">
                   <node concept="2Sf5sV" id="56wP_0Z16Aa" role="2Oq$k0" />
                   <node concept="3TrcHB" id="56wP_0Z16ZX" role="2OqNvi">
@@ -2539,11 +2539,11 @@
             </node>
             <node concept="2OqwBi" id="56wP_0Z18ei" role="3uHU7B">
               <node concept="2YIFZM" id="56wP_0Z18ej" role="2Oq$k0">
-                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                 <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
               </node>
               <node concept="liA8E" id="56wP_0Z18ek" role="2OqNvi">
-                <ref role="37wK5l" to="18ew:~MacroHelper.shrinkPath(java.lang.String):java.lang.String" resolve="shrinkPath" />
+                <ref role="37wK5l" to="18ew:~MacroHelper.shrinkPath(java.lang.String)" resolve="shrinkPath" />
                 <node concept="2OqwBi" id="56wP_0Z18el" role="37wK5m">
                   <node concept="2Sf5sV" id="56wP_0Z18em" role="2Oq$k0" />
                   <node concept="3TrcHB" id="56wP_0Z18en" role="2OqNvi">
@@ -2597,7 +2597,7 @@
                         <ref role="3cqZAo" node="52J4nYvLgF7" resolve="it" />
                       </node>
                       <node concept="liA8E" id="52J4nYvLgVn" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~File.delete():boolean" resolve="delete" />
+                        <ref role="37wK5l" to="guwi:~File.delete()" resolve="delete" />
                       </node>
                     </node>
                   </node>
@@ -3317,7 +3317,7 @@
               </node>
             </node>
             <node concept="liA8E" id="6iK329S29jh" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+              <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
               <node concept="Xl_RD" id="6iK329S29kx" role="37wK5m">
                 <property role="Xl_RC" value="[ ]" />
               </node>
@@ -3348,7 +3348,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="6iK329S28zE" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                  <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
                   <node concept="Xl_RD" id="6iK329S28$R" role="37wK5m">
                     <property role="Xl_RC" value="[ ]" />
                   </node>

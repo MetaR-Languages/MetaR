@@ -857,7 +857,7 @@
               </node>
             </node>
             <node concept="liA8E" id="6bALrFu0owy" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
               <node concept="Xl_RD" id="6bALrFu0oyp" role="37wK5m">
                 <property role="Xl_RC" value="-" />
               </node>
@@ -940,7 +940,7 @@
               </node>
             </node>
             <node concept="liA8E" id="6bALrFu0u_X" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
               <node concept="Xl_RD" id="6bALrFu0uZN" role="37wK5m">
                 <property role="Xl_RC" value="-" />
               </node>
@@ -983,7 +983,7 @@
                   <property role="3cmrfH" value="100" />
                 </node>
                 <node concept="2YIFZM" id="6bALrFu0HdK" role="3uHU7B">
-                  <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+                  <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String)" resolve="parseFloat" />
                   <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
                   <node concept="2OqwBi" id="6bALrFu0HdL" role="37wK5m">
                     <node concept="1YBJjd" id="6bALrFu0HdM" role="2Oq$k0">
@@ -1000,7 +1000,7 @@
                   <property role="3cmrfH" value="0" />
                 </node>
                 <node concept="2YIFZM" id="6bALrFu0G9n" role="3uHU7B">
-                  <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+                  <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String)" resolve="parseFloat" />
                   <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
                   <node concept="2OqwBi" id="6bALrFu0G9o" role="37wK5m">
                     <node concept="1YBJjd" id="6bALrFu0G9p" role="2Oq$k0">
@@ -1039,7 +1039,7 @@
               <property role="3cmrfH" value="0" />
             </node>
             <node concept="2YIFZM" id="6bALrFu1gNX" role="3uHU7B">
-              <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+              <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String)" resolve="parseFloat" />
               <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
               <node concept="2OqwBi" id="6bALrFu1hvL" role="37wK5m">
                 <node concept="1YBJjd" id="6bALrFu1h4S" role="2Oq$k0">
@@ -1793,7 +1793,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="3M31SPQoHnt" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.remove(java.lang.Object):boolean" resolve="remove" />
+                      <ref role="37wK5l" to="33ny:~List.remove(java.lang.Object)" resolve="remove" />
                       <node concept="2OqwBi" id="3M31SPQoxOW" role="37wK5m">
                         <node concept="2OqwBi" id="3M31SPQoxOX" role="2Oq$k0">
                           <node concept="QwW4i" id="3M31SPQoxOY" role="2Oq$k0">

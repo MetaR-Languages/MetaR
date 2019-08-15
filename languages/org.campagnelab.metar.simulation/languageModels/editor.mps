@@ -2,7 +2,7 @@
 <model ref="r:24158356-adae-4ddf-b4af-bca9f278ca70(org.campagnelab.metar.simulation.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -901,15 +901,15 @@
                     <node concept="2OqwBi" id="5t30k5$UyeV" role="2Oq$k0">
                       <node concept="1Q80Hx" id="5t30k5$Uy0N" role="2Oq$k0" />
                       <node concept="liA8E" id="5t30k5$UyTZ" role="2OqNvi">
-                        <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getSelectedCell" />
+                        <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedCell()" resolve="getSelectedCell" />
                       </node>
                     </node>
                     <node concept="liA8E" id="5t30k5$Uzpf" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell.getRole():java.lang.String" resolve="getRole" />
+                      <ref role="37wK5l" to="f4zo:~EditorCell.getRole()" resolve="getRole" />
                     </node>
                   </node>
                   <node concept="liA8E" id="5t30k5$U$Kz" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="Xl_RD" id="5t30k5$U$Ws" role="37wK5m">
                       <property role="Xl_RC" value="noOfCells" />
                     </node>

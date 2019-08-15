@@ -401,7 +401,7 @@
           <node concept="3clFbJ" id="4HR3rVNxlac" role="3cqZAp">
             <node concept="3eOVzh" id="4HR3rVNxndB" role="3clFbw">
               <node concept="2YIFZM" id="64Erk42q1q3" role="3uHU7B">
-                <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+                <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String)" resolve="parseFloat" />
                 <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
                 <node concept="1Wqviy" id="64Erk42q1q4" role="37wK5m" />
               </node>

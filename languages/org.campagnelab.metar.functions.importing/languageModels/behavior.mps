@@ -2,7 +2,7 @@
 <model ref="r:1634ef7f-18ee-43e5-8286-5fcfc24745c4(org.campagnelab.metar.functions.importing.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -311,11 +311,11 @@
                   <node concept="3cpWs3" id="AYlbCAGf25" role="3uHU7B">
                     <node concept="2OqwBi" id="AYlbCAGeh2" role="3uHU7B">
                       <node concept="2YIFZM" id="AYlbCAGeh3" role="2Oq$k0">
-                        <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                        <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                         <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
                       </node>
                       <node concept="liA8E" id="AYlbCAGeh4" role="2OqNvi">
-                        <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                        <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                         <node concept="3cpWs3" id="AYlbCAGeh5" role="37wK5m">
                           <node concept="2OqwBi" id="AYlbCAGeh6" role="3uHU7w">
                             <node concept="13iPFW" id="AYlbCAGeh7" role="2Oq$k0" />
@@ -1093,7 +1093,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1FMUNU7a01q" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.clear():void" resolve="clear" />
+              <ref role="37wK5l" to="33ny:~List.clear()" resolve="clear" />
             </node>
           </node>
         </node>

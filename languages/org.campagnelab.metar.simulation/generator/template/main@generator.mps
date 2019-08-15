@@ -2,15 +2,15 @@
 <model ref="r:dffa96bb-5b54-4a7d-bcbd-073f3346b4a3(org.campagnelab.metar.simulation.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="0" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -131,10 +131,6 @@
       <concept id="1177093525992" name="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" flags="lg" index="gft3U">
         <child id="1177093586806" name="templateNode" index="gfFT$" />
       </concept>
-      <concept id="5015072279636464462" name="jetbrains.mps.lang.generator.structure.VarMacro" flags="lg" index="2jeGV$">
-        <child id="5015072279636624635" name="type" index="2jfP_h" />
-        <child id="5015072279636624596" name="value" index="2jfP_Y" />
-      </concept>
       <concept id="5015072279636592410" name="jetbrains.mps.lang.generator.structure.VarMacro_ValueQuery" flags="in" index="2jfdEK" />
       <concept id="1168559333462" name="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" flags="ln" index="j$656" />
       <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj" />
@@ -158,6 +154,13 @@
       </concept>
       <concept id="1167327847730" name="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" flags="lg" index="3aamgX">
         <child id="1169672767469" name="ruleConsequence" index="1lVwrX" />
+      </concept>
+      <concept id="1048903277984099206" name="jetbrains.mps.lang.generator.structure.VarDeclaration" flags="ng" index="1ps_xZ">
+        <child id="1048903277984099209" name="type" index="1ps_xK" />
+        <child id="1048903277984099210" name="value" index="1ps_xN" />
+      </concept>
+      <concept id="1048903277984099198" name="jetbrains.mps.lang.generator.structure.VarMacro2" flags="lg" index="1ps_y7">
+        <child id="1048903277984099213" name="variables" index="1ps_xO" />
       </concept>
       <concept id="982871510064032177" name="jetbrains.mps.lang.generator.structure.IParameterizedTemplate" flags="ng" index="1s_3nv">
         <child id="982871510064032342" name="parameter" index="1s_3oS" />
@@ -193,13 +196,13 @@
       </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
-      <concept id="2721957369897614808" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_VarRef" flags="nn" index="1bhEwm">
-        <reference id="2721957369897614810" name="varmacro" index="1bhEwk" />
-      </concept>
       <concept id="5190093307972723402" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ParameterRef" flags="nn" index="3cR$yn">
         <reference id="5190093307972736266" name="parameter" index="3cRzXn" />
       </concept>
       <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
+      <concept id="1048903277984174662" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_VarRef2" flags="nn" index="1psM6Z">
+        <reference id="1048903277984174663" name="vardecl" index="1psM6Y" />
+      </concept>
     </language>
     <language id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput">
       <concept id="5039633819242576787" name="org.campagnelab.textoutput.structure.Lines" flags="ng" index="2G3XJi">
@@ -256,7 +259,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -374,7 +377,7 @@
                   <node concept="3clFbS" id="6kVgbi6iICh" role="2VODD2">
                     <node concept="3clFbF" id="6kVgbi6iJhX" role="3cqZAp">
                       <node concept="2YIFZM" id="6kVgbi6iJna" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="6kVgbi6iJy0" role="37wK5m">
                           <node concept="30H73N" id="6kVgbi6iJsx" role="2Oq$k0" />
@@ -404,7 +407,7 @@
                   <node concept="3clFbS" id="6kVgbi6iKlj" role="2VODD2">
                     <node concept="3clFbF" id="6kVgbi6iKNp" role="3cqZAp">
                       <node concept="2YIFZM" id="6kVgbi6iKSA" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="6kVgbi6iL3w" role="37wK5m">
                           <node concept="30H73N" id="6kVgbi6iKY1" role="2Oq$k0" />
@@ -434,7 +437,7 @@
                   <node concept="3clFbS" id="4lfKH_JelP1" role="2VODD2">
                     <node concept="3clFbF" id="4lfKH_JelU2" role="3cqZAp">
                       <node concept="2YIFZM" id="4lfKH_JelZi" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="4lfKH_Jemb4" role="37wK5m">
                           <node concept="30H73N" id="4lfKH_Jem5j" role="2Oq$k0" />
@@ -463,7 +466,7 @@
                   <node concept="3clFbS" id="6kVgbi6iLxc" role="2VODD2">
                     <node concept="3clFbF" id="6kVgbi6iMfK" role="3cqZAp">
                       <node concept="2YIFZM" id="6kVgbi6iMkU" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="6kVgbi6iN4e" role="37wK5m">
                           <node concept="2OqwBi" id="6kVgbi6iMtj" role="2Oq$k0">
@@ -498,7 +501,7 @@
                   <node concept="3clFbS" id="6kVgbi6iNHE" role="2VODD2">
                     <node concept="3clFbF" id="6kVgbi6iNHF" role="3cqZAp">
                       <node concept="2YIFZM" id="6kVgbi6iNHG" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="6kVgbi6iNHH" role="37wK5m">
                           <node concept="2OqwBi" id="6kVgbi6iNHI" role="2Oq$k0">
@@ -536,7 +539,7 @@
                   <node concept="3clFbS" id="4lfKH_IOjME" role="2VODD2">
                     <node concept="3clFbF" id="4lfKH_IOngO" role="3cqZAp">
                       <node concept="2YIFZM" id="4lfKH_IOnm1" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="4lfKH_IOkJo" role="37wK5m">
                           <node concept="2OqwBi" id="4lfKH_IOjWU" role="2Oq$k0">
@@ -611,7 +614,7 @@
                   <node concept="3clFbS" id="6kVgbi6iURw" role="2VODD2">
                     <node concept="3clFbF" id="6kVgbi6iUWx" role="3cqZAp">
                       <node concept="2YIFZM" id="6kVgbi6iV1I" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="6kVgbi6iVcO" role="37wK5m">
                           <node concept="30H73N" id="6kVgbi6iV7l" role="2Oq$k0" />
@@ -1799,7 +1802,7 @@
                           <node concept="3clFbS" id="L8UVRxJ_J1" role="1bW5cS">
                             <node concept="3clFbF" id="L8UVRxJ_Ux" role="3cqZAp">
                               <node concept="2YIFZM" id="L8UVRxJA3t" role="3clFbG">
-                                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                 <node concept="37vLTw" id="L8UVRxJAeY" role="37wK5m">
                                   <ref role="3cqZAo" node="L8UVRxJ_J2" resolve="it" />
@@ -2812,8 +2815,8 @@
                         <node concept="2OqwBi" id="FbmQdca6ST" role="2Oq$k0">
                           <node concept="2OqwBi" id="FbmQdca6SU" role="2Oq$k0">
                             <node concept="1iwH7S" id="FbmQdca6SV" role="2Oq$k0" />
-                            <node concept="1bhEwm" id="FbmQdca6SW" role="2OqNvi">
-                              <ref role="1bhEwk" node="FbmQdca6TS" resolve="simObj" />
+                            <node concept="1psM6Z" id="meC1McvTO" role="2OqNvi">
+                              <ref role="1psM6Y" node="meC1McvTM" resolve="simObj" />
                             </node>
                           </node>
                           <node concept="3Tsc0h" id="FbmQdca6SX" role="2OqNvi">
@@ -2826,7 +2829,7 @@
                               <property role="3cmrfH" value="1" />
                             </node>
                             <node concept="2YIFZM" id="FbmQdca6T1" role="3uHU7B">
-                              <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
+                              <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
                               <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                               <node concept="2OqwBi" id="FbmQdca6T2" role="37wK5m">
                                 <node concept="30H73N" id="FbmQdca6T3" role="2Oq$k0" />
@@ -2896,7 +2899,7 @@
                         <property role="3cmrfH" value="1" />
                       </node>
                       <node concept="2YIFZM" id="FbmQdca6Tu" role="3uHU7B">
-                        <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
+                        <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
                         <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="FbmQdca6Tv" role="37wK5m">
                           <node concept="2OqwBi" id="FbmQdca6Tw" role="2Oq$k0">
@@ -2963,17 +2966,19 @@
               </node>
             </node>
           </node>
-          <node concept="2jeGV$" id="FbmQdca6TS" role="lGtFl">
-            <property role="TrG5h" value="simObj" />
-            <node concept="2jfdEK" id="FbmQdca6TT" role="2jfP_Y">
-              <node concept="3clFbS" id="FbmQdca6TU" role="2VODD2">
-                <node concept="3cpWs6" id="FbmQdca6TV" role="3cqZAp">
-                  <node concept="30H73N" id="FbmQdca6TW" role="3cqZAk" />
+          <node concept="1ps_y7" id="meC1McvTN" role="lGtFl">
+            <node concept="1ps_xZ" id="meC1McvTM" role="1ps_xO">
+              <property role="TrG5h" value="simObj" />
+              <node concept="3Tqbb2" id="FbmQdca6TX" role="1ps_xK">
+                <ref role="ehGHo" to="hgbr:C8BOZOc$Ya" resolve="SimulateSCRNASeqData" />
+              </node>
+              <node concept="2jfdEK" id="FbmQdca6TT" role="1ps_xN">
+                <node concept="3clFbS" id="FbmQdca6TU" role="2VODD2">
+                  <node concept="3cpWs6" id="FbmQdca6TV" role="3cqZAp">
+                    <node concept="30H73N" id="FbmQdca6TW" role="3cqZAk" />
+                  </node>
                 </node>
               </node>
-            </node>
-            <node concept="3Tqbb2" id="FbmQdca6TX" role="2jfP_h">
-              <ref role="ehGHo" to="hgbr:C8BOZOc$Ya" resolve="SimulateSCRNASeqData" />
             </node>
           </node>
           <node concept="1WS0z7" id="FbmQdca6TY" role="lGtFl">
@@ -3010,7 +3015,7 @@
                             <node concept="3clFbF" id="FbmQdca6Ug" role="3cqZAp">
                               <node concept="37vLTI" id="FbmQdca6Uh" role="3clFbG">
                                 <node concept="2YIFZM" id="FbmQdca6Ui" role="37vLTx">
-                                  <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                  <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                                   <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                   <node concept="37vLTw" id="FbmQdca6Uj" role="37wK5m">
                                     <ref role="3cqZAo" node="FbmQdca6U6" resolve="i" />
@@ -3035,7 +3040,7 @@
                           <node concept="2dkUwp" id="FbmQdca6Up" role="1Dwp0S">
                             <node concept="2YIFZM" id="FbmQdca6Uq" role="3uHU7w">
                               <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                              <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
+                              <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
                               <node concept="2OqwBi" id="FbmQdca6Ur" role="37wK5m">
                                 <node concept="2OqwBi" id="FbmQdca6Us" role="2Oq$k0">
                                   <node concept="30H73N" id="FbmQdca6Ut" role="2Oq$k0" />

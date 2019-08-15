@@ -2,7 +2,7 @@
 <model ref="r:0a5b7473-d87a-4991-982c-209c5bc064e7(org.campagnelab.metar.models.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -226,7 +226,7 @@
             <node concept="3clFbS" id="4ssfE$7TB7_" role="2VODD2">
               <node concept="3clFbF" id="4ssfE$7TB7A" role="3cqZAp">
                 <node concept="2YIFZM" id="4ssfE$7TB7B" role="3clFbG">
-                  <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                   <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                   <node concept="2OqwBi" id="4ssfE$7TB7C" role="37wK5m">
                     <node concept="2OqwBi" id="4ssfE$7TB7D" role="2Oq$k0">

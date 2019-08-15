@@ -6,10 +6,9 @@
     <use id="65e78f51-5ed0-4cd0-994e-550ec4f053ed" name="org.campagnelab.metar.accessories" version="0" />
     <use id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles" version="0" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />
-    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
     <use id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing" version="0" />
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
@@ -17,15 +16,6 @@
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
   </imports>
   <registry>
-    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
-      <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
-        <property id="893392931327129956" name="path" index="KZc57" />
-      </concept>
-      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
-        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
-        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
         <property id="1113006610751" name="value" index="$nhwW" />
@@ -379,11 +369,6 @@
           <node concept="3Wv0rE" id="t0TZVfUWg8" role="3Wv3z6">
             <property role="3Wv0rF" value="d7" />
           </node>
-        </node>
-        <node concept="3ZW7eb" id="4U2hhjzgPPK" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="ExampleSetOfIds" />
-          <ref role="KZaLW" node="4U2hhjyHlEP" resolve="figures" />
         </node>
       </node>
       <node concept="3WoeC_" id="t0TZVfUW6B" role="ZXjPg">
@@ -843,11 +828,6 @@
         <property role="S1EQ6" value="RLGPGXVAIK" />
         <property role="1MXi1$" value="GFKOCTLLUL" />
         <node concept="3Wv0rH" id="DQS$2nlnoG" role="3WoeCz" />
-        <node concept="3ZW7eb" id="DQS$2nlnoJ" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="NewSetsOfIds" />
-          <ref role="KZaLW" node="4U2hhjyHlEP" resolve="figures" />
-        </node>
       </node>
       <node concept="nccVD" id="3FhMZyEKzkY" role="ZXjPg">
         <property role="S1EQ6" value="HRLTEMDUTJ" />
@@ -1508,14 +1488,6 @@
     <node concept="1VdfCG" id="3FhMZyIP_fs" role="24tCWN">
       <property role="TrG5h" value="Color" />
     </node>
-  </node>
-  <node concept="KZc4b" id="4U2hhjyHlEP">
-    <property role="TrG5h" value="figures" />
-    <property role="KZc57" value="/Users/fac2003/Documents/MetaR_Doc/figures" />
-  </node>
-  <node concept="KZc4b" id="6lyZREC$gsZ">
-    <property role="TrG5h" value="outputPDF" />
-    <property role="KZc57" value="/Users/williamdigan/Desktop/" />
   </node>
   <node concept="S1EQb" id="7B_tLL$hWmY">
     <property role="2BDq$p" value="true" />
@@ -6222,11 +6194,6 @@
         </node>
         <node concept="afgQW" id="3MLv1Iwwh5d" role="BmrDW" />
         <node concept="BmrWC" id="3MLv1Iwwh5f" role="Bm75R" />
-        <node concept="3ZW7eb" id="3MLv1Iwwhin" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="emptyOrder" />
-          <ref role="KZaLW" node="6lyZREC$gsZ" resolve="outputPDF" />
-        </node>
       </node>
       <node concept="BmouE" id="3MLv1Iw3JZX" role="ZXjPg">
         <property role="S1EQ6" value="QMPKPMWGYE" />
@@ -6496,11 +6463,6 @@
               <ref role="3MHf5w" node="4$IC3Kj1JT8" resolve="gene" />
             </node>
           </node>
-        </node>
-        <node concept="3ZW7eb" id="3MLv1IwwgYB" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="orderByColumn" />
-          <ref role="KZaLW" node="6lyZREC$gsZ" resolve="outputPDF" />
         </node>
       </node>
       <node concept="S1EQe" id="3MLv1IwwgzQ" role="ZXjPg">
@@ -6894,11 +6856,6 @@
         </node>
         <node concept="afgQW" id="3MLv1Iw3IEb" role="BmrDW">
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
-        </node>
-        <node concept="3ZW7eb" id="3MLv1IwwhA8" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="orderByGroup" />
-          <ref role="KZaLW" node="6lyZREC$gsZ" resolve="outputPDF" />
         </node>
         <node concept="BmrWC" id="1e1bwEB4GfN" role="Bm75R" />
       </node>

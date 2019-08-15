@@ -26,9 +26,6 @@
         <child id="1173175590490" name="array" index="AHHXb" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -207,7 +204,6 @@
       <property role="2dlcS1" value="false" />
       <property role="3TUv4t" value="false" />
       <property role="2dld4O" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3uibUv" id="4lfKH_J2ZH6" role="1tU5fm">
         <ref role="3uigEE" to="33ny:~Random" resolve="Random" />
       </node>
@@ -277,7 +273,7 @@
                     <ref role="3cqZAo" node="4lfKH_J2ZH3" resolve="random" />
                   </node>
                   <node concept="liA8E" id="4lfKH_J1yz_" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~Random.nextDouble():double" resolve="nextDouble" />
+                    <ref role="37wK5l" to="33ny:~Random.nextDouble()" resolve="nextDouble" />
                   </node>
                 </node>
               </node>
@@ -290,7 +286,7 @@
                       <ref role="3cqZAo" node="4lfKH_ITmb0" resolve="set" />
                     </node>
                     <node concept="liA8E" id="4lfKH_ITvp4" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+                      <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
                       <node concept="37vLTw" id="4lfKH_ITvsH" role="37wK5m">
                         <ref role="3cqZAo" node="4lfKH_ITmga" resolve="i" />
                       </node>
@@ -343,7 +339,7 @@
                       <ref role="3cqZAo" node="4lfKH_ITmb0" resolve="set" />
                     </node>
                     <node concept="liA8E" id="4lfKH_IUO8W" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Set.size():int" resolve="size" />
+                      <ref role="37wK5l" to="33ny:~Set.size()" resolve="size" />
                     </node>
                   </node>
                 </node>
@@ -439,7 +435,6 @@
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="true" />
       <property role="eg7rD" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3uibUv" id="oeXtRXKtqL" role="1tU5fm">
         <ref role="3uigEE" to="33ny:~Random" resolve="Random" />
       </node>
@@ -533,7 +528,6 @@
     <node concept="2tJIrI" id="oeXtRXKryu" role="jymVt" />
     <node concept="3clFb_" id="oeXtRXKsTq" role="jymVt">
       <property role="TrG5h" value="next" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="oeXtRXKrxG" role="3clF47">
@@ -544,7 +538,7 @@
                 <ref role="3cqZAo" node="oeXtRXKtqI" resolve="random" />
               </node>
               <node concept="liA8E" id="oeXtRXKrFE" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~Random.nextInt(int):int" resolve="nextInt" />
+                <ref role="37wK5l" to="33ny:~Random.nextInt(int)" resolve="nextInt" />
                 <node concept="3cpWs3" id="oeXtRXKrFv" role="37wK5m">
                   <node concept="1eOMI4" id="oeXtRXKrFz" role="3uHU7B">
                     <node concept="3cpWsd" id="oeXtRXKrFw" role="1eOMHV">

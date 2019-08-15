@@ -7,13 +7,13 @@
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -138,7 +138,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -292,7 +292,7 @@
                 <node concept="3clFbF" id="2sULC8gwhXB" role="3cqZAp">
                   <node concept="2YIFZM" id="2sULC8gwhXC" role="3clFbG">
                     <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                    <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                    <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                     <node concept="2OqwBi" id="2sULC8gwhXD" role="37wK5m">
                       <node concept="30H73N" id="2sULC8gwhXE" role="2Oq$k0" />
                       <node concept="3TrcHB" id="2sULC8gwhXF" role="2OqNvi">
@@ -340,7 +340,7 @@
                   <node concept="2OqwBi" id="2sULC8gwjXB" role="3clFbG">
                     <node concept="2YIFZM" id="2sULC8gwiTo" role="2Oq$k0">
                       <ref role="1Pybhc" to="wyt6:~Boolean" resolve="Boolean" />
-                      <ref role="37wK5l" to="wyt6:~Boolean.toString(boolean):java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Boolean.toString(boolean)" resolve="toString" />
                       <node concept="2OqwBi" id="2sULC8gwjaR" role="37wK5m">
                         <node concept="30H73N" id="2sULC8gwj5e" role="2Oq$k0" />
                         <node concept="3TrcHB" id="2sULC8gwjFO" role="2OqNvi">
@@ -349,7 +349,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="2sULC8gwlcw" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.toUpperCase():java.lang.String" resolve="toUpperCase" />
+                      <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
                     </node>
                   </node>
                 </node>

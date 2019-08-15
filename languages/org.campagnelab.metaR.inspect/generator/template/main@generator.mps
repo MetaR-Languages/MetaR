@@ -2,9 +2,9 @@
 <model ref="r:22516e59-f7cc-411f-80b8-f782ec2acb3b(org.campagnelab.metar.inspect.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="c901f7a1-ed4f-4b52-8d35-10d1a33974f0" name="org.campagnelab.metar.code" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
@@ -132,7 +132,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -216,11 +216,11 @@
                                         <node concept="3cpWs3" id="4RSqyaA7lPy" role="3uHU7B">
                                           <node concept="2OqwBi" id="4RSqyaA7lPz" role="3uHU7B">
                                             <node concept="2YIFZM" id="4RSqyaA7lP$" role="2Oq$k0">
-                                              <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                                              <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
                                               <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
                                             </node>
                                             <node concept="liA8E" id="4RSqyaA7lP_" role="2OqNvi">
-                                              <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                                              <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                                               <node concept="Xl_RD" id="4RSqyaA7lPA" role="37wK5m">
                                                 <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                                               </node>
@@ -251,7 +251,7 @@
                               </node>
                               <node concept="2YIFZM" id="4RSqyaA7lPG" role="3uHU7w">
                                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                                 <node concept="2OqwBi" id="4RSqyaA7lPH" role="37wK5m">
                                   <node concept="3TrcHB" id="4RSqyaA7lPI" role="2OqNvi">
                                     <ref role="3TsBF5" to="8vtd:1lZbowiXXSl" resolve="tableId" />

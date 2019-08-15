@@ -282,7 +282,7 @@
           </node>
           <node concept="a7r0C" id="4do6Q53Clp" role="3cqZAp">
             <node concept="2YIFZM" id="4do6Q53Fk8" role="a7wSD">
-              <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+              <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
               <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
               <node concept="Xl_RD" id="4do6Q53Cm9" role="37wK5m">
                 <property role="Xl_RC" value="Make sure group %s contains a continuous factor" />

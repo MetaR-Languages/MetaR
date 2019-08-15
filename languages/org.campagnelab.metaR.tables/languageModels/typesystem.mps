@@ -4,7 +4,7 @@
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="-1" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -306,7 +306,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -402,7 +402,7 @@
                   <ref role="3cqZAo" node="3BiNpr5RAsY" resolve="ftableFile" />
                 </node>
                 <node concept="liA8E" id="3BiNpr5RJos" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+                  <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
                 </node>
               </node>
             </node>
@@ -528,7 +528,7 @@
                 <ref role="QwW4h" node="3BiNpr5RS$E" resolve="ftableFile" />
               </node>
               <node concept="liA8E" id="3BiNpr5RLCQ" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
               </node>
             </node>
             <node concept="2OqwBi" id="3BiNpr5RJSk" role="37vLTJ">
@@ -629,7 +629,7 @@
                                 <ref role="3cqZAo" node="3qa402_ChI$" resolve="colName" />
                               </node>
                               <node concept="liA8E" id="3BiNpr5UhrZ" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                                <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
                                 <node concept="Xl_RD" id="3BiNpr5Uh$f" role="37wK5m">
                                   <property role="Xl_RC" value="\&quot;" />
                                 </node>
@@ -644,7 +644,7 @@
                         <ref role="3cqZAo" node="3qa402_ChI$" resolve="colName" />
                       </node>
                       <node concept="liA8E" id="3qa402_CjId" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                        <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                         <node concept="Xl_RD" id="3qa402_CjOO" role="37wK5m">
                           <property role="Xl_RC" value="\&quot;" />
                         </node>
@@ -1692,7 +1692,7 @@
         <node concept="3clFbS" id="7O$514qHf9$" role="3clFbx">
           <node concept="2MkqsV" id="7O$514qHg2J" role="3cqZAp">
             <node concept="2YIFZM" id="4cPavnZ6hto" role="2MkJ7o">
-              <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+              <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
               <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
               <node concept="Xl_RD" id="7O$514qHg31" role="37wK5m">
                 <property role="Xl_RC" value="The table must have a column marked with group %s. This column is used to obtain gene names." />
@@ -2001,7 +2001,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="2od$re11cBD" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
                 <node concept="2OqwBi" id="2od$re11cBE" role="37wK5m">
                   <node concept="2OqwBi" id="2od$re11cBF" role="2Oq$k0">
                     <node concept="1YBJjd" id="2od$re11cBG" role="2Oq$k0">
@@ -2204,7 +2204,7 @@
               </node>
             </node>
             <node concept="liA8E" id="2od$re1ettt" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String):boolean" resolve="matches" />
+              <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
               <node concept="Xl_RD" id="2od$re1ettu" role="37wK5m">
                 <property role="Xl_RC" value="^[0-9].*" />
               </node>
@@ -2866,7 +2866,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="72lC2TuNDMA" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
                 <node concept="Xl_RD" id="72lC2TuNDMB" role="37wK5m">
                   <property role="Xl_RC" value="/" />
                 </node>
@@ -2907,11 +2907,11 @@
           <node concept="17QB3L" id="w5znaeP2iL" role="1tU5fm" />
           <node concept="2OqwBi" id="274AKIgZJY2" role="33vP2m">
             <node concept="2YIFZM" id="274AKIgZJqr" role="2Oq$k0">
-              <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+              <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
               <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
             </node>
             <node concept="liA8E" id="274AKIgZKKP" role="2OqNvi">
-              <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+              <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
               <node concept="2OqwBi" id="w5znaeJ$mG" role="37wK5m">
                 <node concept="1YBJjd" id="w5znaeP4mQ" role="2Oq$k0">
                   <ref role="1YBMHb" node="5Kw8UUF8UNZ" resolve="table" />
@@ -2976,7 +2976,7 @@
         <node concept="3fqX7Q" id="5Kw8UUF8Xx6" role="3clFbw">
           <node concept="2OqwBi" id="5Kw8UUF8Xx8" role="3fr31v">
             <node concept="liA8E" id="5Kw8UUF8Xxe" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+              <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
             </node>
             <node concept="37vLTw" id="7S2MvlRmJs_" role="2Oq$k0">
               <ref role="3cqZAo" node="7S2MvlRmF1Q" resolve="file" />
@@ -3000,7 +3000,7 @@
             <ref role="3cqZAo" node="w5znaeP2iQ" resolve="path" />
           </node>
           <node concept="liA8E" id="4AA5fFKUFVi" role="2OqNvi">
-            <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String):boolean" resolve="matches" />
+            <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
             <node concept="Xl_RD" id="4AA5fFKUFVR" role="37wK5m">
               <property role="Xl_RC" value=".*\\s+.*" />
             </node>
@@ -3240,7 +3240,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1dL8OevLYbL" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
               <node concept="Xl_RD" id="1dL8OevLYce" role="37wK5m">
                 <property role="Xl_RC" value=" " />
               </node>
@@ -3418,7 +3418,7 @@
                         <ref role="3cqZAo" node="52J4nYvLgF7" resolve="it" />
                       </node>
                       <node concept="liA8E" id="52J4nYvLgVn" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~File.delete():boolean" resolve="delete" />
+                        <ref role="37wK5l" to="guwi:~File.delete()" resolve="delete" />
                       </node>
                     </node>
                   </node>

@@ -2,7 +2,7 @@
 <model ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh" version="1" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
@@ -6628,9 +6628,6 @@
       <property role="IQ2ns" value="5813884883800990269" />
       <ref role="20lvS9" node="52J4nYvYa8U" resolve="SessionVariable" />
     </node>
-    <node concept="PrWs8" id="26cpLhhThz3" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
     <node concept="PrWs8" id="26cpLhkwzrw" role="PzmwI">
       <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
     </node>
@@ -6645,9 +6642,6 @@
     <property role="34LRSv" value="save session" />
     <property role="EcuMT" value="2417420436961839041" />
     <ref role="1TJDcQ" node="26cpLhhSUhW" resolve="SessionStatement" />
-    <node concept="PrWs8" id="26cpLhhThz5" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="PlHQZ" id="2xF4TVcGGmU">
     <property role="TrG5h" value="ISessionStatement" />

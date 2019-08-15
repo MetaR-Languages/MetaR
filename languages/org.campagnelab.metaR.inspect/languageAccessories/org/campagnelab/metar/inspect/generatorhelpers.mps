@@ -5,8 +5,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -15,9 +15,6 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -125,7 +122,6 @@
     <node concept="2tJIrI" id="1S_LPePJZYx" role="jymVt" />
     <node concept="2YIFZL" id="1S_LPePK179" role="jymVt">
       <property role="TrG5h" value="escape" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1S_LPePJWlt" role="3clF47">
@@ -137,7 +133,7 @@
                   <ref role="3cqZAo" node="1S_LPePJWon" resolve="path" />
                 </node>
                 <node concept="liA8E" id="1S_LPePJZcP" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                  <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
                   <node concept="10M0yZ" id="7pa1wWv$Jrz" role="37wK5m">
                     <ref role="3cqZAo" node="1S_LPePJWdt" resolve="windowsSeparator" />
                     <ref role="1PxDUh" node="1S_LPePJWcn" resolve="RPath" />
@@ -151,11 +147,11 @@
           </node>
           <node concept="2OqwBi" id="1S_LPePJXkp" role="3clFbw">
             <node concept="10M0yZ" id="1S_LPePJXaH" role="2Oq$k0">
-              <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
-              <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
+              <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
+              <ref role="1PxDUh" to="guwi:~File" resolve="File" />
             </node>
             <node concept="liA8E" id="1S_LPePJY7_" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+              <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String)" resolve="equalsIgnoreCase" />
               <node concept="Xl_RD" id="6IMC2GxeNHs" role="37wK5m">
                 <property role="Xl_RC" value="\\" />
               </node>
