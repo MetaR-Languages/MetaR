@@ -296,10 +296,6 @@
       <concept id="5624877018228267058" name="jetbrains.mps.lang.editor.structure.ITransformationMenu" flags="ng" index="3INCJE">
         <child id="1638911550608572412" name="sections" index="IW6Ez" />
       </concept>
-      <concept id="8233876857994246075" name="jetbrains.mps.lang.editor.structure.CellMenuPart_ApplySideTransforms" flags="ng" index="3JiINr">
-        <property id="870577895075788418" name="tag" index="2_m5XT" />
-        <property id="8233876857994286197" name="side" index="3JiSWl" />
-      </concept>
       <concept id="6918029743850363447" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_targetNode" flags="ng" index="1NM5Ph" />
       <concept id="6918029743850308467" name="jetbrains.mps.lang.editor.structure.QueryFunction_RefPresentation" flags="ig" index="1NMggl" />
       <concept id="3647146066980922272" name="jetbrains.mps.lang.editor.structure.SelectInEditorOperation" flags="nn" index="1OKiuA">
@@ -1711,15 +1707,7 @@
   <node concept="1Xs25n" id="r9xlU6hHKH">
     <property role="TrG5h" value="ExprMenuComponent" />
     <ref role="1XX52x" to="6q58:5mPDeVwiPap" resolve="Expr" />
-    <node concept="OXEIz" id="r9xlU6hHKI" role="1XvlXI">
-      <node concept="3JiINr" id="48xyd$fqX78" role="OY2wv">
-        <property role="2_m5XT" value="default_RTransform" />
-      </node>
-      <node concept="3JiINr" id="48xyd$fqX7o" role="OY2wv">
-        <property role="2_m5XT" value="default_RTransform" />
-        <property role="3JiSWl" value="left" />
-      </node>
-    </node>
+    <node concept="OXEIz" id="r9xlU6hHKI" role="1XvlXI" />
   </node>
   <node concept="24kQdi" id="r9xlU6nux6">
     <property role="3GE5qa" value="" />

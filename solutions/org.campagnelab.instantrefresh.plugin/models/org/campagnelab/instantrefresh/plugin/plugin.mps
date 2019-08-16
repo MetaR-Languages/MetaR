@@ -4041,6 +4041,10 @@
                                 </node>
                               </node>
                             </node>
+                            <node concept="2YIFZM" id="1x2AL8RSjpL" role="ukAjM">
+                              <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
+                              <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -4913,6 +4917,10 @@
                                   </node>
                                 </node>
                               </node>
+                            </node>
+                            <node concept="2YIFZM" id="1x2AL8RSikK" role="ukAjM">
+                              <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
+                              <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
                             </node>
                           </node>
                         </node>
@@ -9773,6 +9781,10 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="2YIFZM" id="1x2AL8RSIg9" role="ukAjM">
+                      <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -11223,7 +11235,7 @@
                                         <ref role="37wK5l" to="3ju5:~FileSystem.getInstance()" resolve="getInstance" />
                                       </node>
                                       <node concept="liA8E" id="3zqZiqBLTeb" role="2OqNvi">
-                                        <ref role="37wK5l" to="3ju5:~FileSystem.getFileByPath(java.lang.String):jetbrains.mps.vfs.IFile" resolve="getFileByPath" />
+                                        <ref role="37wK5l" to="3ju5:~FileSystem.getFile(java.lang.String)" resolve="getFile" />
                                         <node concept="3cpWs3" id="3zqZiqBLTec" role="37wK5m">
                                           <node concept="3cpWs3" id="3zqZiqBLTed" role="3uHU7B">
                                             <node concept="Xl_RD" id="3zqZiqBLTef" role="3uHU7w">
@@ -15057,6 +15069,10 @@
                                 </node>
                               </node>
                             </node>
+                          </node>
+                          <node concept="2YIFZM" id="5OLC7TiMc_6" role="ukAjM">
+                            <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
+                            <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
                           </node>
                         </node>
                       </node>

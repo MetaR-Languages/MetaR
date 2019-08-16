@@ -473,6 +473,7 @@
     <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
       <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
       <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
+        <child id="1423104411234567454" name="repo" index="ukAjM" />
         <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
       </concept>
       <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
@@ -3936,7 +3937,7 @@
                 <ref role="37wK5l" to="w1kc:~ModelAccess.instance()" resolve="instance" />
               </node>
               <node concept="liA8E" id="7LV$PmMghdE" role="2OqNvi">
-                <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runReadAction(jetbrains.mps.util.Computable)" resolve="runReadAction" />
+                <ref role="37wK5l" to="w1kc:~ModelAccess.runReadAction(jetbrains.mps.util.Computable)" resolve="runReadAction" />
                 <node concept="2ShNRf" id="7LV$PmMghdF" role="37wK5m">
                   <node concept="YeOm9" id="7LV$PmMghdG" role="2ShVmc">
                     <node concept="1Y3b0j" id="7LV$PmMghdH" role="YeSDq">
@@ -6498,7 +6499,7 @@
                                             <ref role="37wK5l" to="3ju5:~FileSystem.getInstance()" resolve="getInstance" />
                                           </node>
                                           <node concept="liA8E" id="1$_tCCdbJLK" role="2OqNvi">
-                                            <ref role="37wK5l" to="3ju5:~FileSystem.getFileByPath(java.lang.String):jetbrains.mps.vfs.IFile" resolve="getFileByPath" />
+                                            <ref role="37wK5l" to="3ju5:~FileSystem.getFile(java.lang.String)" resolve="getFile" />
                                             <node concept="3cpWs3" id="1$_tCCdbJLL" role="37wK5m">
                                               <node concept="3cpWs3" id="1$_tCCdbJLM" role="3uHU7B">
                                                 <node concept="37vLTw" id="1$_tCCdbJLN" role="3uHU7B">
@@ -7903,7 +7904,7 @@
               <ref role="37wK5l" to="w1kc:~ModelAccess.instance()" resolve="instance" />
             </node>
             <node concept="liA8E" id="3zqZiqBLTdo" role="2OqNvi">
-              <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runReadAction(java.lang.Runnable)" resolve="runReadAction" />
+              <ref role="37wK5l" to="w1kc:~ModelAccess.runReadAction(jetbrains.mps.util.Computable)" resolve="runReadAction" />
               <node concept="1bVj0M" id="3zqZiqBLTdp" role="37wK5m">
                 <node concept="3clFbS" id="3zqZiqBLTdq" role="1bW5cS">
                   <node concept="3cpWs8" id="3zqZiqBLTdr" role="3cqZAp">
@@ -7998,7 +7999,7 @@
                               <ref role="1Pybhc" to="3ju5:~FileSystem" resolve="FileSystem" />
                             </node>
                             <node concept="liA8E" id="3zqZiqBLTeb" role="2OqNvi">
-                              <ref role="37wK5l" to="3ju5:~FileSystem.getFileByPath(java.lang.String):jetbrains.mps.vfs.IFile" resolve="getFileByPath" />
+                              <ref role="37wK5l" to="3ju5:~FileSystem.getFile(java.lang.String)" resolve="getFile" />
                               <node concept="3cpWs3" id="3zqZiqBLTec" role="37wK5m">
                                 <node concept="3cpWs3" id="3zqZiqBLTed" role="3uHU7B">
                                   <node concept="37vLTw" id="3zqZiqBLTee" role="3uHU7B">
@@ -9325,6 +9326,10 @@
               </node>
             </node>
           </node>
+          <node concept="2YIFZM" id="5OLC7TiMc_6" role="ukAjM">
+            <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
+            <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+          </node>
         </node>
         <node concept="SfApY" id="oAUhOuNjdL" role="3cqZAp">
           <node concept="3clFbS" id="oAUhOuNjdM" role="SfCbr">
@@ -9656,7 +9661,7 @@
                                   <ref role="1Pybhc" to="3ju5:~FileSystem" resolve="FileSystem" />
                                 </node>
                                 <node concept="liA8E" id="oAUhOuNjg7" role="2OqNvi">
-                                  <ref role="37wK5l" to="3ju5:~FileSystem.getFileByPath(java.lang.String):jetbrains.mps.vfs.IFile" resolve="getFileByPath" />
+                                  <ref role="37wK5l" to="3ju5:~FileSystem.getFile(java.lang.String)" resolve="getFile" />
                                   <node concept="3cpWs3" id="oAUhOuNjg8" role="37wK5m">
                                     <node concept="3cpWs3" id="oAUhOuNjg9" role="3uHU7B">
                                       <node concept="37vLTw" id="oAUhOuNjga" role="3uHU7B">
