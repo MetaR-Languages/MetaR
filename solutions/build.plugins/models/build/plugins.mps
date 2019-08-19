@@ -226,26 +226,6 @@
         </node>
       </node>
     </node>
-    <node concept="2kB4xC" id="7OkpSXK7xSV" role="1l3spd">
-      <property role="TrG5h" value="textoutput_version" />
-      <node concept="aVJcg" id="7OkpSXK7xVu" role="aVJcv">
-        <node concept="NbPM2" id="7OkpSXK7xVt" role="aVJcq">
-          <node concept="3Mxwew" id="7OkpSXK7xVs" role="3MwsjC">
-            <property role="3MwjfP" value="3.3" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2kB4xC" id="HL4WxLmXHn" role="1l3spd">
-      <property role="TrG5h" value="ANTLR_version" />
-      <node concept="aVJcg" id="HL4WxLmXWy" role="aVJcv">
-        <node concept="NbPM2" id="HL4WxLmXWx" role="aVJcq">
-          <node concept="3Mxwew" id="HL4WxLmXWw" role="3MwsjC">
-            <property role="3MwjfP" value="1.2.1" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2kB4xC" id="4RSqyaA4c2V" role="1l3spd">
       <property role="TrG5h" value="build_number" />
       <node concept="aVJcg" id="R8XU2M_DMW" role="aVJcv">
@@ -363,7 +343,7 @@
           <property role="2Ry0Am" value="build" />
           <node concept="2Ry0Ak" id="4zZ0iHXekSe" role="2Ry0An">
             <property role="2Ry0Am" value="artifacts" />
-            <node concept="2Ry0Ak" id="KZrpArYYih" role="2Ry0An">
+            <node concept="2Ry0Ak" id="59KhwZ68Ug$" role="2Ry0An">
               <property role="2Ry0Am" value="org.campagnelab.Logger" />
             </node>
           </node>
@@ -2109,6 +2089,16 @@
           <node concept="1SiIV0" id="4tSF6VDBEAt" role="3bR37C">
             <node concept="3bR9La" id="4tSF6VDBEAs" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:7YI57w6K0iE" resolve="jetbrains.mps.lang.editor#1129914002149" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="59KhwZ64lG1" role="3bR37C">
+            <node concept="3bR9La" id="59KhwZ64lG2" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="59KhwZ64lG3" role="3bR37C">
+            <node concept="3bR9La" id="59KhwZ64lG4" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:2Qa9MYMHrcB" resolve="jetbrains.mps.editorlang.runtime" />
             </node>
           </node>
         </node>
