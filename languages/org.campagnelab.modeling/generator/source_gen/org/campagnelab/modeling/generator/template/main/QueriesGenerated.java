@@ -34,103 +34,103 @@ public class QueriesGenerated extends QueryProviderBase {
   public QueriesGenerated() {
     super(1);
   }
-  public static Object propertyMacro_GetPropertyValue_5128164036542412338(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
     return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x472ae605640b2744L, 0x5347fb6bb3853ab4L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_3208973838627305928(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_1(final PropertyMacroContext _context) {
     return (String) TableRef__BehaviorDescriptor.getVariableName_id7tPuoi15D0G.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x472ae605640b2744L, 0x3dc59a0f37ff74c7L, "table")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819406507(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_2(final PropertyMacroContext _context) {
     return (String) ColumnRef__BehaviorDescriptor.getCleanColumnName_id2rPl_HNk7G7.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x472ae605640b2744L, 0x472ae605640b2784L, "progressColumn")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819406738(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_3(final PropertyMacroContext _context) {
     return (String) ColumnRef__BehaviorDescriptor.getCleanColumnName_id2rPl_HNk7G7.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x472ae605640b2744L, 0x472ae605640b2789L, "performanceColumn")));
   }
-  public static Object propertyMacro_GetPropertyValue_5128164036542431290(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_4(final PropertyMacroContext _context) {
     return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x472ae605640b2744L, 0x5347fb6bb3853ab4L, "plot")))).toString();
   }
-  public static Object propertyMacro_GetPropertyValue_5128164036542431301(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_5(final PropertyMacroContext _context) {
     return (String) Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x472ae605640b2744L, 0x5347fb6bb3853ab4L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_5128164036542431307(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_6(final PropertyMacroContext _context) {
     return (int) Plot__BehaviorDescriptor.getWidth_id32mm940cTd2.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x472ae605640b2744L, 0x5347fb6bb3853ab4L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_5128164036542431316(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_7(final PropertyMacroContext _context) {
     return (int) Plot__BehaviorDescriptor.getHeight_id32mm940d1rP.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x472ae605640b2744L, 0x5347fb6bb3853ab4L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_5128164036542431325(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_8(final PropertyMacroContext _context) {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, "org.campagnelab.metar.tables.structure.Statement")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819441562(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_0(final PropertyMacroContext _context) {
     return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a5670086L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819426073(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_1(final PropertyMacroContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a5670085L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819434964(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_2(final PropertyMacroContext _context) {
     return (String) ColumnRef__BehaviorDescriptor.getCleanColumnName_id2rPl_HNk7G7.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a5670087L, "predictedProbability")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819439249(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_3(final PropertyMacroContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a5670085L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819438206(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_4(final PropertyMacroContext _context) {
     return (String) ColumnRef__BehaviorDescriptor.getCleanColumnName_id2rPl_HNk7G7.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a5670088L, "trueLabel")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819486428(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_5(final PropertyMacroContext _context) {
     return (SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a567e68eL, "showGuides")) ? "TRUE" : "FALSE");
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819489751(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_6(final PropertyMacroContext _context) {
     return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a567e68cL, "numberOfBootstrapSamples")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819457371(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_7(final PropertyMacroContext _context) {
     return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a5670086L, "plot")))).toString();
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819457384(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_8(final PropertyMacroContext _context) {
     return (String) Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a5670086L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819457393(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_9(final PropertyMacroContext _context) {
     return (int) Plot__BehaviorDescriptor.getWidth_id32mm940cTd2.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a5670086L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819457402(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_10(final PropertyMacroContext _context) {
     return (int) Plot__BehaviorDescriptor.getHeight_id32mm940d1rP.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x2d3de324a567003eL, 0x2d3de324a5670086L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_3260011451819457411(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_11(final PropertyMacroContext _context) {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, "org.campagnelab.metar.tables.structure.Statement")));
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796896423(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_0(final PropertyMacroContext _context) {
     return "plot_" + Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(PlotBuilderStatement__BehaviorDescriptor.getPlot_idL2v$scW7kG.invoke(_context.getNode()));
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796898111(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_1(final PropertyMacroContext _context) {
     return ((String) _context.getVariable("var:tableName"));
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796913898(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_2(final PropertyMacroContext _context) {
     return (String) ColumnRef__BehaviorDescriptor.getCleanColumnName_id2rPl_HNk7G7.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x7775798481158907L, 0x777579848115890aL, "predictedProbability")));
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796917595(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_3(final PropertyMacroContext _context) {
     return ((String) _context.getVariable("var:tableName"));
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796916396(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_4(final PropertyMacroContext _context) {
     return (String) ColumnRef__BehaviorDescriptor.getCleanColumnName_id2rPl_HNk7G7.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x7775798481158907L, 0x777579848115890bL, "trueLabel")));
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796890663(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_5(final PropertyMacroContext _context) {
     return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(PlotBuilderStatement__BehaviorDescriptor.getPlot_idL2v$scW7kG.invoke(_context.getNode()))).toString();
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796890676(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_6(final PropertyMacroContext _context) {
     return (String) Plot__BehaviorDescriptor.getStatementId_id6WPhx9njIUt.invoke(PlotBuilderStatement__BehaviorDescriptor.getPlot_idL2v$scW7kG.invoke(_context.getNode()));
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796890685(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_7(final PropertyMacroContext _context) {
     return (int) Plot__BehaviorDescriptor.getWidth_id32mm940cTd2.invoke(PlotBuilderStatement__BehaviorDescriptor.getPlot_idL2v$scW7kG.invoke(_context.getNode()));
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796890694(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_8(final PropertyMacroContext _context) {
     return (int) Plot__BehaviorDescriptor.getHeight_id32mm940d1rP.invoke(PlotBuilderStatement__BehaviorDescriptor.getPlot_idL2v$scW7kG.invoke(_context.getNode()));
   }
-  public static Object propertyMacro_GetPropertyValue_8607919872796890703(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_9(final PropertyMacroContext _context) {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(SNodeOperations.cast(_context.getNode(), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, "org.campagnelab.metar.tables.structure.Statement")));
   }
-  public static boolean ifMacro_Condition_3260011451819406978(final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_1_0(final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x472ae605640b2744L, 0x472ae605640b2780L, "by")) != null);
   }
-  public static Object insertMacro_varValue_8607919872796911435(final TemplateVarContext _context) {
+  public static Object varMacro_Value_3_0(final TemplateVarContext _context) {
     return (String) TableRef__BehaviorDescriptor.getVariableName_id7tPuoi15D0G.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe3c980773ecd4a0dL, 0xa28fc2f3e3cec764L, 0x7775798481158907L, 0x7775798481158908L, "table")));
   }
   private final Map<String, PropertyValueQuery> pvqMethods = new HashMap<String, PropertyValueQuery>();
@@ -187,67 +187,67 @@ public class QueriesGenerated extends QueryProviderBase {
     public Object evaluate(@NotNull PropertyMacroContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_5128164036542412338(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_0(ctx);
         case 1:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3208973838627305928(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_1(ctx);
         case 2:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819406507(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_2(ctx);
         case 3:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819406738(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_3(ctx);
         case 4:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_5128164036542431290(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_4(ctx);
         case 5:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_5128164036542431301(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_5(ctx);
         case 6:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_5128164036542431307(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_6(ctx);
         case 7:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_5128164036542431316(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_7(ctx);
         case 8:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_5128164036542431325(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_8(ctx);
         case 9:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819441562(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_0(ctx);
         case 10:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819426073(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_1(ctx);
         case 11:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819434964(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_2(ctx);
         case 12:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819439249(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_3(ctx);
         case 13:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819438206(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_4(ctx);
         case 14:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819486428(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_5(ctx);
         case 15:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819489751(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_6(ctx);
         case 16:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819457371(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_7(ctx);
         case 17:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819457384(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_8(ctx);
         case 18:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819457393(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_9(ctx);
         case 19:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819457402(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_10(ctx);
         case 20:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_3260011451819457411(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_11(ctx);
         case 21:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796896423(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_0(ctx);
         case 22:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796898111(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_1(ctx);
         case 23:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796913898(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_2(ctx);
         case 24:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796917595(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_3(ctx);
         case 25:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796916396(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_4(ctx);
         case 26:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796890663(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_5(ctx);
         case 27:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796890676(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_6(ctx);
         case 28:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796890685(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_7(ctx);
         case 29:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796890694(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_8(ctx);
         case 30:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_8607919872796890703(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_9(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -276,7 +276,7 @@ public class QueriesGenerated extends QueryProviderBase {
     public boolean check(@NotNull IfMacroContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return QueriesGenerated.ifMacro_Condition_3260011451819406978(ctx);
+          return QueriesGenerated.ifMacro_Condition_1_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no condition method for if macro %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -284,7 +284,7 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   private final Map<String, VariableValueQuery> vvqMethods = new HashMap<String, VariableValueQuery>();
   {
-    vvqMethods.put("8607919872796911433", new QueriesGenerated.VVQ(0));
+    vvqMethods.put("6256772833738959", new QueriesGenerated.VVQ(0));
   }
   @NotNull
   @Override
@@ -304,7 +304,7 @@ public class QueriesGenerated extends QueryProviderBase {
     public Object evaluate(@NotNull TemplateVarContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return QueriesGenerated.insertMacro_varValue_8607919872796911435(ctx);
+          return QueriesGenerated.varMacro_Value_3_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }

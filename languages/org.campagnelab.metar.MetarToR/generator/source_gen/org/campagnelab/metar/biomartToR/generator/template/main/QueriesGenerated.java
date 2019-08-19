@@ -22,7 +22,7 @@ public class QueriesGenerated extends QueryProviderBase {
   public QueriesGenerated() {
     super(1);
   }
-  public static SNode sourceNodeQuery_5857936452053285155(final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_1_0(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x514b922a9d01d7a5L, 0x514b922a9d0288e9L, "biomartref"));
   }
   private final Map<String, SourceNodeQuery> snqMethods = new HashMap<String, SourceNodeQuery>();
@@ -48,7 +48,7 @@ public class QueriesGenerated extends QueryProviderBase {
     public SNode evaluate(@NotNull SourceSubstituteMacroNodeContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return QueriesGenerated.sourceNodeQuery_5857936452053285155(ctx);
+          return QueriesGenerated.sourceNodeQuery_1_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }

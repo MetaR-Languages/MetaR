@@ -27,22 +27,22 @@ public class QueriesGenerated extends QueryProviderBase {
   public QueriesGenerated() {
     super(1);
   }
-  public static Object propertyMacro_GetPropertyValue_213294746055999216(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
     return "plot_" + IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
-  public static Object propertyMacro_GetPropertyValue_1369498147941731525(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_1(final PropertyMacroContext _context) {
     return (String) Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe4bb94f91202448eL, 0x98f6d108577add14L, 0x2f5c67102d33820L, 0x2f5c67102d33821L, "plot")));
   }
-  public static Object propertyMacro_GetPropertyValue_1369498147941795250(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_2(final PropertyMacroContext _context) {
     return Integer.toString((int) Plot__BehaviorDescriptor.getWidth_id32mm940cTd2.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe4bb94f91202448eL, 0x98f6d108577add14L, 0x2f5c67102d33820L, 0x2f5c67102d33821L, "plot"))));
   }
-  public static Object propertyMacro_GetPropertyValue_1369498147941799268(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_3(final PropertyMacroContext _context) {
     return Integer.toString((int) Plot__BehaviorDescriptor.getHeight_id32mm940d1rP.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe4bb94f91202448eL, 0x98f6d108577add14L, 0x2f5c67102d33820L, 0x2f5c67102d33821L, "plot"))));
   }
-  public static Object propertyMacro_GetPropertyValue_1369498147941730058(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_4(final PropertyMacroContext _context) {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
-  public static SNode sourceNodeQuery_213294746052014905(final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_1_0(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe4bb94f91202448eL, 0x98f6d108577add14L, 0x2f5c67102d33820L, 0x2f5c67102d33828L, "expression"));
   }
   private final Map<String, SourceNodeQuery> snqMethods = new HashMap<String, SourceNodeQuery>();
@@ -68,7 +68,7 @@ public class QueriesGenerated extends QueryProviderBase {
     public SNode evaluate(@NotNull SourceSubstituteMacroNodeContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return QueriesGenerated.sourceNodeQuery_213294746052014905(ctx);
+          return QueriesGenerated.sourceNodeQuery_1_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -102,15 +102,15 @@ public class QueriesGenerated extends QueryProviderBase {
     public Object evaluate(@NotNull PropertyMacroContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_213294746055999216(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_0(ctx);
         case 1:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_1369498147941731525(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_1(ctx);
         case 2:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_1369498147941795250(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_2(ctx);
         case 3:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_1369498147941799268(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_3(ctx);
         case 4:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_1369498147941730058(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_4(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }

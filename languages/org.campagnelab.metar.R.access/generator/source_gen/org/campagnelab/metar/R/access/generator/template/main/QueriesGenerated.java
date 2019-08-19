@@ -23,13 +23,13 @@ public class QueriesGenerated extends QueryProviderBase {
   public QueriesGenerated() {
     super(1);
   }
-  public static Object propertyMacro_GetPropertyValue_7843652051478876548(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
     return ISaveRVariableInSession__BehaviorDescriptor.getVariableName_id52J4nYvd$7N.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x7eba6a284cc247b9L, 0xa392284573f2054aL, 0x43b3173822924fd2L, 0x77ebff5909168461L, "futureTable"))) + "$\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x7eba6a284cc247b9L, 0xa392284573f2054aL, 0x43b3173822924fd2L, 0x43b317382292539eL, "column")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + "\"";
   }
-  public static Object propertyMacro_GetPropertyValue_7843652051479031789(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_2_0(final PropertyMacroContext _context) {
     return (String) ISaveRVariableInSession__BehaviorDescriptor.getVariableName_id52J4nYvd$7N.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x7eba6a284cc247b9L, 0xa392284573f2054aL, 0x13812e0aa6c4dc44L, 0x13812e0aa7f860aeL, "table")));
   }
-  public static Object propertyMacro_GetPropertyValue_5857936452075413218(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_3_0(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x7eba6a284cc247b9L, 0xa392284573f2054aL, 0x13812e0aa662cb01L, 0x14d0385865984963L, "id")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   private final Map<String, PropertyValueQuery> pvqMethods = new HashMap<String, PropertyValueQuery>();
@@ -58,11 +58,11 @@ public class QueriesGenerated extends QueryProviderBase {
     public Object evaluate(@NotNull PropertyMacroContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_7843652051478876548(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_0(ctx);
         case 1:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_7843652051479031789(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_0(ctx);
         case 2:
-          return QueriesGenerated.propertyMacro_GetPropertyValue_5857936452075413218(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_0(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
