@@ -7,7 +7,7 @@
   <property name="org.campagnelab.metaR" value="./" />
   <property name="org.campagnelab.hta.results_dir" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}/../NYoSh.core" />
-  <property name="metaR_version" value="2.4.7" />
+  <property name="metaR_version" value="2.5.0" />
   <property name="build_number" value="" />
   <property name="reference_commit" value="" />
   <property name="reference_branch" value="" />
