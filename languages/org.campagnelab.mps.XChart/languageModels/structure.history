@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="-1" />
+    </dependencies>
+    <rename id="ztlb.2202909375770430359" type="CONCEPT" from="DAataFile" to="DataFile" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="0" />
+    </dependencies>
+    <rename id="ztlb.2202909375770430354" type="CONCEPT" from="File" to="DelimitedFile" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="1" />
+    </dependencies>
+    <rename id="ztlb.5270176140464602978" type="CHILD" from="SelectedColumns" to="selectedColumns" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="2" />
+    </dependencies>
+    <rename id="ztlb.5270176140465128127" type="CHILD" from="files" to="columns" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="3" />
+    </dependencies>
+    <rename id="ztlb.7263499363580132743" type="PROPERTY" from="style" to="theme" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="4" />
+    </dependencies>
+    <rename id="ztlb.6638345083846256950" type="REFERENCE" from="y" to="heights" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="5" />
+    </dependencies>
+    <rename id="ztlb.1229772424348862885" type="REFERENCE" from="col" to="column" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="6" />
+    </dependencies>
+    <rename id="ztlb.1229772424349224909" type="CONCEPT" from="ColumnCategoryType" to="ColumnStringCategoryType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="7" />
+    </dependencies>
+    <rename id="ztlb.1229772424349224909" type="CONCEPT" from="ColumnStringCategoryType" to="ColumnCategoryType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="8" />
+    </dependencies>
+    <rename id="ztlb.1229772424350239209" type="CHILD" from="enum" to="value" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="9" />
+    </dependencies>
+    <rename id="ztlb.1229772424348862809" type="CONCEPT" from="ColumnValue" to="TypedColumnValue" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="10" />
+    </dependencies>
+    <rename id="ztlb.8908363177680448679" type="CHILD" from="C" to="members" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="11" />
+    </dependencies>
+    <rename id="ztlb.2172361557619118055" type="CONCEPT" from="WantTobeNotified" to="HasDataToPreserve" />
+  </StructureModification>
+</history>
+

@@ -10,7 +10,6 @@
     <dependency reexport="false">db7b3503-2b94-491e-9afb-40ef2d987a04(NYoSh.build-plugins)</dependency>
     <dependency reexport="false">422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)</dependency>
     <dependency reexport="false">65937b04-08a6-43a0-9d81-780c84461a59(ANTLR.persistence.build)</dependency>
-    <dependency reexport="false">458e7a44-300a-4712-95cd-255c2e0c289d(XChart.newBuild)</dependency>
     <dependency reexport="false">f1fb7b1c-ce0d-423c-9369-4a661d600029(de.itemis.mps.extensions.build)</dependency>
   </dependencies>
   <languageVersions>

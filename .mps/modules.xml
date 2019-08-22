@@ -31,6 +31,8 @@
       <modulePath path="${METAR_PROJECT}/languages/org.campagnelab.metar.variance/org.campagnelab.metar.variance.mpl" folder="" />
       <modulePath path="${METAR_PROJECT}/languages/org.campagnelab.metar.with.r/org.campagnelab.metar.with.r.mpl" folder="" />
       <modulePath path="${METAR_PROJECT}/languages/org.campagnelab.modeling/org.campagnelab.modeling.mpl" folder="" />
+      <modulePath path="${METAR_PROJECT}/languages/org.campagnelab.mps.XChart.types/org.campagnelab.mps.XChart.types.mpl" folder="" />
+      <modulePath path="${METAR_PROJECT}/languages/org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.mpl" folder="" />
       <modulePath path="${METAR_PROJECT}/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" folder="" />
       <modulePath path="${METAR_PROJECT}/solutions/DocModels/DocModels.msd" folder="" />
       <modulePath path="${METAR_PROJECT}/solutions/FullR/FullR.msd" folder="" />
