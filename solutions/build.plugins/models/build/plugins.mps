@@ -111,7 +111,6 @@
       <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
         <property id="7832771629084799702" name="name" index="2iUeEt" />
         <property id="7832771629084799701" name="url" index="2iUeEu" />
-        <child id="7832771629084799700" name="icon16" index="2iUeEv" />
       </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
@@ -504,6 +503,12 @@
       <node concept="m$_yC" id="6jI3565Rjzz" role="m$_yJ">
         <ref role="m$_y1" to="90a9:1sO539bGQvt" resolve="de.slisson.mps.richtext" />
       </node>
+      <node concept="m$_yC" id="1WKQzrNDV$3" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:6WtY9M1bDO_" resolve="jetbrains.mps.ide.java" />
+      </node>
+      <node concept="m$_yC" id="1WKQzrNDV$R" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:6EN03E8oSte" resolve="jetbrains.mps.ide.make" />
+      </node>
       <node concept="3_J27D" id="3gMg70bRmfA" role="m_cZH">
         <node concept="3Mxwew" id="3gMg70bRmfB" role="3MwsjC">
           <property role="3MwjfP" value="metaR" />
@@ -512,15 +517,6 @@
       <node concept="2iUeEo" id="7OkpSXK0mMu" role="2iVFfd">
         <property role="2iUeEt" value="Campagne Laboratory" />
         <property role="2iUeEu" value="http://metar.campagnelab.org" />
-        <node concept="398BVA" id="7OkpSXK0npr" role="2iUeEv">
-          <ref role="398BVh" node="3gMg70bRmeX" resolve="org.campagnelab.goby.workbench.home" />
-          <node concept="2Ry0Ak" id="7OkpSXK0npw" role="iGT6I">
-            <property role="2Ry0Am" value="icons" />
-            <node concept="2Ry0Ak" id="4hXJ$8I9RQy" role="2Ry0An">
-              <property role="2Ry0Am" value="MPS16.png" />
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="3_J27D" id="H0TQXNF8HK" role="3s6cr7">
         <node concept="3Mxwew" id="H0TQXNF9To" role="3MwsjC">
