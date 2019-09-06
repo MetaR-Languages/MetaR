@@ -74,7 +74,7 @@
         <name>org.campagnelab.metaR</name>
         <description>MetaR is a set of languages for interactive data analysis. Programs written with metaR generate to the R language, but are composable. MetaR includes simple languages that beginner data analysts can use, as well as a composable R language. Reference build: ${build_number}, commit: ${reference_commit}, branch: ${reference_branch}</description>
         <version>${metaR_version}</version>
-        <vendor url="http://metar.campagnelab.org">Campagne Laboratory</vendor>
+        <vendor url="https://manuelesimi.github.io/MetaR/">CTSC - Weill Cornell Medicine</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.testing</depends>
         <depends>org.campagnelab.TextOutput</depends>
