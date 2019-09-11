@@ -234,13 +234,21 @@
     <node concept="2kB4xC" id="4RSqyaA6FWL" role="1l3spd">
       <property role="TrG5h" value="reference_commit" />
       <node concept="aVJcg" id="1t506cUr8Sv" role="aVJcv">
-        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq" />
+        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq">
+          <node concept="3Mxwew" id="1WKQzrO95vJ" role="3MwsjC">
+            <property role="3MwjfP" value="fbd70b3848b7e60aa66e6d41eeb19187169823fa" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2kB4xC" id="4RSqyaA6G6g" role="1l3spd">
       <property role="TrG5h" value="reference_branch" />
       <node concept="aVJcg" id="R8XU2M_DRX" role="aVJcv">
-        <node concept="NbPM2" id="R8XU2M_DRW" role="aVJcq" />
+        <node concept="NbPM2" id="R8XU2M_DRW" role="aVJcq">
+          <node concept="3Mxwew" id="1WKQzrO95vL" role="3MwsjC">
+            <property role="3MwjfP" value="master" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2sgV4H" id="3gMg70bRmeT" role="1l3spa">

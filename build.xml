@@ -9,8 +9,8 @@
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}/../NYoSh.core" />
   <property name="metaR_version" value="2.5.0" />
   <property name="build_number" value="" />
-  <property name="reference_commit" value="" />
-  <property name="reference_branch" value="" />
+  <property name="reference_commit" value="fbd70b3848b7e60aa66e6d41eeb19187169823fa" />
+  <property name="reference_branch" value="master" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.Util" location="${org.campagnelab.goby.workbench.home}/build/artifacts/org.campagnelab.Util" />
   <property name="artifacts.org.campagnelab.Logger" location="${org.campagnelab.goby.workbench.home}/build/artifacts/org.campagnelab.Logger" />
