@@ -4509,6 +4509,41 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5egc2Qim6FI" role="3cqZAp">
+          <node concept="37vLTI" id="5egc2Qim8_Z" role="3clFbG">
+            <node concept="2ShNRf" id="5egc2Qim8Gg" role="37vLTx">
+              <node concept="3zrR0B" id="5egc2Qimm5W" role="2ShVmc">
+                <node concept="3Tqbb2" id="5egc2Qimm5Y" role="3zrR0E">
+                  <ref role="ehGHo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5egc2Qim6VT" role="37vLTJ">
+              <node concept="13iPFW" id="5egc2Qim6FG" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5egc2Qim7WG" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:7lAbM$uOMoN" resolve="plot" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5_ScChBWbGV" role="3cqZAp">
+          <node concept="37vLTI" id="5_ScChBWf1$" role="3clFbG">
+            <node concept="Xl_RD" id="5_ScChBWfjb" role="37vLTx">
+              <property role="Xl_RC" value="heatmap" />
+            </node>
+            <node concept="2OqwBi" id="5_ScChBWdf1" role="37vLTJ">
+              <node concept="2OqwBi" id="5_ScChBWbWj" role="2Oq$k0">
+                <node concept="13iPFW" id="5_ScChBWbGT" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5_ScChBWcVg" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:7lAbM$uOMoN" resolve="plot" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="5_ScChBWdy2" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="13i0hz" id="7k$Lj9FZets" role="13h7CS">
@@ -5512,6 +5547,24 @@
             </node>
             <node concept="2qgKlT" id="5HtHr3DLfFR" role="2OqNvi">
               <ref role="37wK5l" node="5HtHr3DyaFI" resolve="ownYourTable" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5_ScChBQ2YT" role="3cqZAp">
+          <node concept="37vLTI" id="5_ScChBQ7he" role="3clFbG">
+            <node concept="Xl_RD" id="5_ScChBQ7vC" role="37vLTx">
+              <property role="Xl_RC" value="joinedTable" />
+            </node>
+            <node concept="2OqwBi" id="5_ScChBQ4Et" role="37vLTJ">
+              <node concept="2OqwBi" id="5_ScChBQ3e5" role="2Oq$k0">
+                <node concept="13iPFW" id="5_ScChBQ2YR" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5_ScChBQ4lf" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:2WRhvFtnPGY" resolve="outputTable" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="5_ScChBQ5CQ" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
             </node>
           </node>
         </node>
@@ -13313,7 +13366,21 @@
     <property role="3GE5qa" value="heatmap" />
     <ref role="13h7C2" to="jrxw:4WAdMLdkO8M" resolve="HeatmapAnnotations" />
     <node concept="13hLZK" id="4WAdMLdx7qB" role="13h7CW">
-      <node concept="3clFbS" id="4WAdMLdx7qC" role="2VODD2" />
+      <node concept="3clFbS" id="4WAdMLdx7qC" role="2VODD2">
+        <node concept="3clFbF" id="5egc2QiGGAP" role="3cqZAp">
+          <node concept="2OqwBi" id="5egc2QiGJ3X" role="3clFbG">
+            <node concept="2OqwBi" id="5egc2QiGGJr" role="2Oq$k0">
+              <node concept="13iPFW" id="5egc2QiGGAN" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="5egc2QiGHbZ" role="2OqNvi">
+                <ref role="3TtcxE" to="jrxw:4WAdMLdkOg5" resolve="usages" />
+              </node>
+            </node>
+            <node concept="WFELt" id="5egc2QiGK_R" role="2OqNvi">
+              <ref role="1A0vxQ" to="jrxw:4WAdMLdkOhV" resolve="SelectGroupUsage" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="4WAdMLdx7qD" role="13h7CS">
       <property role="13i0iv" value="false" />

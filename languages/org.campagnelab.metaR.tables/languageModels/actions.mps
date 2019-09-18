@@ -407,7 +407,7 @@
   <node concept="37WguZ" id="7B_tLL$tK2J">
     <property role="TrG5h" value="RefreshTableFromOperation" />
     <node concept="37WvkG" id="7B_tLL$tK2K" role="37WGs$">
-      <property role="3mWdv0" value="When a new operation is created, it will update the futur table" />
+      <property role="3mWdv0" value="When a new operation is created, it will update the future table" />
       <ref role="37XkoT" to="jrxw:2WRhvFtldw5" resolve="TableTransformation" />
       <node concept="37Y9Zx" id="7B_tLL$tKmV" role="37ZfLb">
         <node concept="3clFbS" id="7B_tLL$tKmW" role="2VODD2">
@@ -706,6 +706,19 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="5egc2Qiu1ZG" role="3cqZAp">
+            <node concept="2OqwBi" id="5egc2QiuauR" role="3clFbG">
+              <node concept="2OqwBi" id="5egc2Qiu2p0" role="2Oq$k0">
+                <node concept="1r4Lsj" id="5egc2Qiu1ZE" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="5egc2Qiu2MM" role="2OqNvi">
+                  <ref role="3TtcxE" to="jrxw:4WAdMLdkOg5" resolve="usages" />
+                </node>
+              </node>
+              <node concept="WFELt" id="5egc2Qiucdc" role="2OqNvi">
+                <ref role="1A0vxQ" to="jrxw:4WAdMLdkOhV" resolve="SelectGroupUsage" />
               </node>
             </node>
           </node>
