@@ -68,7 +68,6 @@
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
-      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -1386,81 +1385,6 @@
     <ref role="1M2myG" to="jrxw:2WRhvFtkykN" resolve="Table" />
     <node concept="EnEH3" id="w5znaeRIGR" role="1MhHOB">
       <ref role="EomxK" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
-      <node concept="QB0g5" id="3Pa_fMtuzWP" role="QCWH9">
-        <node concept="3clFbS" id="3Pa_fMtuzWQ" role="2VODD2">
-          <node concept="3clFbJ" id="3Pa_fMtv1HN" role="3cqZAp">
-            <node concept="3clFbS" id="3Pa_fMtv1HP" role="3clFbx">
-              <node concept="3cpWs8" id="3Pa_fMtu_Tl" role="3cqZAp">
-                <node concept="3cpWsn" id="3Pa_fMtu_Tm" role="3cpWs9">
-                  <property role="TrG5h" value="newPath" />
-                  <node concept="17QB3L" id="3Pa_fMtu_Tn" role="1tU5fm" />
-                  <node concept="2OqwBi" id="3Pa_fMtu_To" role="33vP2m">
-                    <node concept="2YIFZM" id="3Pa_fMtu_Tp" role="2Oq$k0">
-                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
-                      <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                    </node>
-                    <node concept="liA8E" id="3Pa_fMtu_Tq" role="2OqNvi">
-                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
-                      <node concept="1Wqviy" id="3Pa_fMtu_Tr" role="37wK5m" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2xdQw9" id="3hxBliKaiUm" role="3cqZAp">
-                <property role="2xdLsb" value="info" />
-                <node concept="3cpWs3" id="6_nzoBhR0LC" role="9lYJi">
-                  <node concept="37vLTw" id="6_nzoBhR0VD" role="3uHU7w">
-                    <ref role="3cqZAo" node="3Pa_fMtu_Tm" resolve="newPath" />
-                  </node>
-                  <node concept="Xl_RD" id="6KeyvEh7Uvt" role="3uHU7B">
-                    <property role="Xl_RC" value="Validating the new path " />
-                  </node>
-                </node>
-              </node>
-              <node concept="3cpWs8" id="3Pa_fMtu$5d" role="3cqZAp">
-                <node concept="3cpWsn" id="3Pa_fMtu$5e" role="3cpWs9">
-                  <property role="TrG5h" value="file" />
-                  <node concept="3uibUv" id="3Pa_fMtu$5f" role="1tU5fm">
-                    <ref role="3uigEE" to="guwi:~File" resolve="File" />
-                  </node>
-                  <node concept="2ShNRf" id="3Pa_fMtu$5g" role="33vP2m">
-                    <node concept="1pGfFk" id="3Pa_fMtu$5h" role="2ShVmc">
-                      <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                      <node concept="37vLTw" id="3Pa_fMtu$5i" role="37wK5m">
-                        <ref role="3cqZAo" node="3Pa_fMtu_Tm" resolve="newPath" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3cpWs6" id="3Pa_fMtv4vT" role="3cqZAp">
-                <node concept="2OqwBi" id="3Pa_fMtu$5t" role="3cqZAk">
-                  <node concept="liA8E" id="3Pa_fMtu$5u" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
-                  </node>
-                  <node concept="37vLTw" id="3Pa_fMtu$5v" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3Pa_fMtu$5e" resolve="file" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3Pa_fMtv22x" role="3clFbw">
-              <node concept="1Wqviy" id="3Pa_fMtv1Oz" role="2Oq$k0" />
-              <node concept="17RvpY" id="3Pa_fMtv3rk" role="2OqNvi" />
-            </node>
-            <node concept="9aQIb" id="3Pa_fMtv3WT" role="9aQIa">
-              <node concept="3clFbS" id="3Pa_fMtv3WU" role="9aQI4">
-                <node concept="3cpWs6" id="3Pa_fMtv40S" role="3cqZAp">
-                  <node concept="3clFbT" id="3Pa_fMtv44O" role="3cqZAk">
-                    <property role="3clFbU" value="true" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="3Pa_fMtv3PV" role="3cqZAp" />
-        </node>
-      </node>
       <node concept="1LLf8_" id="w5znaeRIGT" role="1LXaQT">
         <node concept="3clFbS" id="w5znaeRIGU" role="2VODD2">
           <node concept="3cpWs8" id="w5znaeRQ7H" role="3cqZAp">
@@ -1490,55 +1414,6 @@
                   <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                   <node concept="37vLTw" id="w5znaeRVg7" role="37wK5m">
                     <ref role="3cqZAo" node="w5znaeRQ7K" resolve="newPath" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbJ" id="37GCX3DbkWm" role="3cqZAp">
-            <node concept="9aQIb" id="3Pa_fMtw1Cl" role="9aQIa">
-              <node concept="3clFbS" id="3Pa_fMtw1Cm" role="9aQI4">
-                <node concept="1X3_iC" id="4$9P9qxzIPT" role="lGtFl">
-                  <property role="3V$3am" value="statement" />
-                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                  <node concept="3clFbF" id="3Pa_fMtw1F0" role="8Wnug">
-                    <node concept="37vLTI" id="3Pa_fMtw2db" role="3clFbG">
-                      <node concept="10Nm6u" id="3Pa_fMtw2dT" role="37vLTx" />
-                      <node concept="2OqwBi" id="3Pa_fMtw1Ik" role="37vLTJ">
-                        <node concept="EsrRn" id="3Pa_fMtw1EZ" role="2Oq$k0" />
-                        <node concept="3TrcHB" id="3Pa_fMtw20E" role="2OqNvi">
-                          <ref role="3TsBF5" to="ztlb:1UijAvvb9DM" resolve="path" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="37GCX3DbnWa" role="3clFbw">
-              <node concept="liA8E" id="37GCX3DbnWe" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
-              </node>
-              <node concept="37vLTw" id="5Kw8UUF8KHW" role="2Oq$k0">
-                <ref role="3cqZAo" node="5Kw8UUF8J2B" resolve="file" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="37GCX3DbkWp" role="3clFbx">
-              <node concept="3SKdUt" id="w5znaeSiIe" role="3cqZAp">
-                <node concept="3SKdUq" id="w5znaeSiKI" role="3SKWNk">
-                  <property role="3SKdUp" value="set path on the DataFile, delegating to XChart:" />
-                </node>
-              </node>
-              <node concept="3clFbF" id="w5znaeShSF" role="3cqZAp">
-                <node concept="37vLTI" id="w5znaeSitK" role="3clFbG">
-                  <node concept="37vLTw" id="w5znaeSiw3" role="37vLTx">
-                    <ref role="3cqZAo" node="w5znaeRQ7K" resolve="newPath" />
-                  </node>
-                  <node concept="2OqwBi" id="w5znaeShWk" role="37vLTJ">
-                    <node concept="EsrRn" id="w5znaeShSD" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="w5znaeSicJ" role="2OqNvi">
-                      <ref role="3TsBF5" to="ztlb:1UijAvvb9DM" resolve="path" />
-                    </node>
                   </node>
                 </node>
               </node>
