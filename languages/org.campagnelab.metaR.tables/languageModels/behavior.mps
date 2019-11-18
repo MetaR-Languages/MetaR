@@ -45,6 +45,7 @@
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
     <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="ujkv" ref="r:c4ccd0c8-ae0a-4ce1-b1b2-29dd8a943a6b(org.campagnelab.util.persistence)" />
     <import index="fly8" ref="r:0dcf4c62-2291-4316-969f-47e1828e2475(org.campagnelab.metar.code.scopes)" implicit="true" />
   </imports>
   <registry>
@@ -3713,33 +3714,29 @@
       <node concept="3Tm1VV" id="bPLB42PU35" role="1B3o_S" />
       <node concept="17QB3L" id="bPLB42PU36" role="3clF45" />
       <node concept="3clFbS" id="bPLB42PU37" role="3clF47">
-        <node concept="3cpWs8" id="bPLB42PU38" role="3cqZAp">
-          <node concept="3cpWsn" id="bPLB42PU39" role="3cpWs9">
+        <node concept="3cpWs8" id="5ASHdINnApL" role="3cqZAp">
+          <node concept="3cpWsn" id="5ASHdINnApO" role="3cpWs9">
             <property role="TrG5h" value="path" />
-            <node concept="17QB3L" id="bPLB42PU3a" role="1tU5fm" />
-            <node concept="2OqwBi" id="bPLB42PU3b" role="33vP2m">
-              <node concept="2YIFZM" id="bPLB42PU3c" role="2Oq$k0">
-                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
-                <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+            <node concept="17QB3L" id="5ASHdINnApJ" role="1tU5fm" />
+            <node concept="3cpWs3" id="5ASHdINnJhB" role="33vP2m">
+              <node concept="2OqwBi" id="5ASHdINnJEm" role="3uHU7w">
+                <node concept="13iPFW" id="5ASHdINnJpl" role="2Oq$k0" />
+                <node concept="2qgKlT" id="5ASHdINnKgE" role="2OqNvi">
+                  <ref role="37wK5l" node="3l0yXcUswGP" resolve="getCleanModelName" />
+                </node>
               </node>
-              <node concept="liA8E" id="bPLB42PU3d" role="2OqNvi">
-                <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
-                <node concept="3cpWs3" id="bPLB42PU3e" role="37wK5m">
-                  <node concept="2OqwBi" id="bPLB42PU3f" role="3uHU7w">
-                    <node concept="13iPFW" id="bPLB42PU3g" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="bPLB42PU3h" role="2OqNvi">
-                      <ref role="37wK5l" node="3l0yXcUswGP" resolve="getCleanModelName" />
-                    </node>
+              <node concept="3cpWs3" id="5ASHdINnImV" role="3uHU7B">
+                <node concept="2YIFZM" id="5ASHdINnH7b" role="3uHU7B">
+                  <ref role="37wK5l" to="ujkv:5ASHdINnGZy" resolve="expand" />
+                  <ref role="1Pybhc" to="ujkv:5ASHdINnuNr" resolve="MPSPathVariables" />
+                  <node concept="13iPFW" id="5ASHdINnH9m" role="37wK5m" />
+                  <node concept="Xl_RD" id="5ASHdINnHbe" role="37wK5m">
+                    <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                   </node>
-                  <node concept="3cpWs3" id="bPLB42PU3i" role="3uHU7B">
-                    <node concept="Xl_RD" id="bPLB42PU3j" role="3uHU7B">
-                      <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
-                    </node>
-                    <node concept="10M0yZ" id="bPLB42PU3k" role="3uHU7w">
-                      <ref role="1PxDUh" to="guwi:~File" resolve="File" />
-                      <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
-                    </node>
-                  </node>
+                </node>
+                <node concept="10M0yZ" id="5ASHdINnIwE" role="3uHU7w">
+                  <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
+                  <ref role="1PxDUh" to="guwi:~File" resolve="File" />
                 </node>
               </node>
             </node>
@@ -3755,7 +3752,7 @@
               <node concept="1pGfFk" id="bPLB42PU3p" role="2ShVmc">
                 <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                 <node concept="37vLTw" id="bPLB42PU3q" role="37wK5m">
-                  <ref role="3cqZAo" node="bPLB42PU39" resolve="path" />
+                  <ref role="3cqZAo" node="5ASHdINnApO" resolve="path" />
                 </node>
               </node>
             </node>
