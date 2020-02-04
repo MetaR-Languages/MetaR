@@ -7,9 +7,9 @@
   <property name="org.campagnelab.metaR" value="./" />
   <property name="org.campagnelab.hta.results_dir" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}/../NYoSh.core" />
-  <property name="metaR_version" value="2.5.2-SNAPSHOT" />
+  <property name="metaR_version" value="2.5.2" />
   <property name="build_number" value="" />
-  <property name="reference_commit" value="a1a5024bca9ec9efd033253e8c6c8acc4af01f65" />
+  <property name="reference_commit" value="923b00c682d3db9fde9893f3c28c51efc4dbd08c" />
   <property name="reference_branch" value="master" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.Util" location="${org.campagnelab.goby.workbench.home}/build/artifacts/org.campagnelab.Util" />

@@ -220,7 +220,7 @@
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
         <node concept="NbPM2" id="3gMg70bX6HM" role="aVJcq">
           <node concept="3Mxwew" id="3gMg70bX6HL" role="3MwsjC">
-            <property role="3MwjfP" value="2.5.2-SNAPSHOT" />
+            <property role="3MwjfP" value="2.5.2" />
           </node>
         </node>
       </node>
@@ -236,7 +236,7 @@
       <node concept="aVJcg" id="1t506cUr8Sv" role="aVJcv">
         <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq">
           <node concept="3Mxwew" id="1WKQzrO95vJ" role="3MwsjC">
-            <property role="3MwjfP" value="a1a5024bca9ec9efd033253e8c6c8acc4af01f65" />
+            <property role="3MwjfP" value="923b00c682d3db9fde9893f3c28c51efc4dbd08c" />
           </node>
         </node>
       </node>
