@@ -7,5 +7,5 @@ MetaR takes advantage of Language Workbench Technology to facilitate data analys
 
 MetaR is designed to work well with other languages of the platform. Importantly, users who learn how to use one component will acquire skills useful with other languages offered on the platform.
 
-Documentation of MetaR is available on [github.io](https://manuelesimi.github.io/MetaR/).
+Documentation of MetaR is available on [github.io](https://metar-projects.github.io/).
 
