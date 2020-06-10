@@ -5505,7 +5505,7 @@
     <ref role="1XX52x" to="jrxw:7B_tLL$D6MN" resolve="DropColumnWithGroupOperation" />
     <node concept="3EZMnI" id="7B_tLL$OBU1" role="2wV5jI">
       <node concept="3F0ifn" id="7B_tLL$OBU3" role="3EZMnx">
-        <property role="3F0ifm" value="drop column which have group" />
+        <property role="3F0ifm" value="drop columns which have group" />
         <node concept="Vb9p2" id="7B_tLL$OC24" role="3F10Kt" />
       </node>
       <node concept="3F1sOY" id="7B_tLL_02$Q" role="3EZMnx">
