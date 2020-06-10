@@ -423,7 +423,7 @@
               </node>
             </node>
           </node>
-          <node concept="pUk6x" id="meC1Mcw44" role="pUk7w" />
+          <node concept="pUk6x" id="7Uijo9GgTJf" role="pUk7w" />
         </node>
       </node>
     </node>
@@ -1346,6 +1346,21 @@
           <property role="TrG5h" value="org.campagnelab.mps.XChart.types#9080041854839272070" />
           <property role="3LESm3" value="348a2fa5-a1e1-4a5c-9edb-816eff4cdfd9" />
         </node>
+        <node concept="3rtmxn" id="7Uijo9GgTJ1" role="3bR31x">
+          <node concept="3LXTmp" id="7Uijo9GgTJ2" role="3rtmxm">
+            <node concept="3qWCbU" id="7Uijo9GgTJ3" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="7Uijo9GgTJ4" role="3LXTmr">
+              <node concept="2Ry0Ak" id="7Uijo9GgTJ5" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7Uijo9GgTJ6" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.mps.XChart.types" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="3mi1Sqi66qJ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1445,6 +1460,21 @@
         <node concept="1SiIV0" id="3mi1Sqi67qg" role="3bR37C">
           <node concept="3bR9La" id="3mi1Sqi67qh" role="1SiIV1">
             <ref role="3bR37D" node="3mi1Sqi64z$" resolve="org.campagnelab.mps.XChart.types" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7Uijo9GgTJ8" role="3bR31x">
+          <node concept="3LXTmp" id="7Uijo9GgTJ9" role="3rtmxm">
+            <node concept="3qWCbU" id="7Uijo9GgTJa" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="7Uijo9GgTJb" role="3LXTmr">
+              <node concept="2Ry0Ak" id="7Uijo9GgTJc" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7Uijo9GgTJd" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.mps.XChart" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

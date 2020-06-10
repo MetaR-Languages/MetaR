@@ -215,7 +215,6 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
-      <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
@@ -260,7 +259,6 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
-      <concept id="334628810661441841" name="jetbrains.mps.lang.smodel.structure.AsSConcept" flags="nn" index="1rGIog" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
@@ -1556,14 +1554,8 @@
                 </node>
               </node>
               <node concept="3clFbC" id="3jxRpTz3kkP" role="3clFbw">
-                <node concept="2OqwBi" id="3jxRpTz3knO" role="3uHU7B">
-                  <node concept="2OqwBi" id="3amEmmQlqbM" role="2Oq$k0">
-                    <node concept="37vLTw" id="3amEmmQlqbN" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3jxRpTyO$SI" resolve="kind" />
-                    </node>
-                    <node concept="FGMqu" id="3amEmmQlqbO" role="2OqNvi" />
-                  </node>
-                  <node concept="1rGIog" id="3jxRpTz3kya" role="2OqNvi" />
+                <node concept="37vLTw" id="3amEmmQlqbN" role="3uHU7B">
+                  <ref role="3cqZAo" node="3jxRpTyO$SI" resolve="kind" />
                 </node>
                 <node concept="35c_gC" id="3jxRpTz3kze" role="3uHU7w">
                   <ref role="35c_gD" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
@@ -2475,14 +2467,8 @@
             </node>
           </node>
           <node concept="3clFbC" id="52J4nYwoddE" role="3clFbw">
-            <node concept="2OqwBi" id="52J4nYwoddC" role="3uHU7B">
-              <node concept="2OqwBi" id="3amEmmQlqbx" role="2Oq$k0">
-                <node concept="37vLTw" id="3amEmmQlqby" role="2Oq$k0">
-                  <ref role="3cqZAo" node="52J4nYwoddA" resolve="kind" />
-                </node>
-                <node concept="FGMqu" id="3amEmmQlqbz" role="2OqNvi" />
-              </node>
-              <node concept="1rGIog" id="52J4nYwodec" role="2OqNvi" />
+            <node concept="37vLTw" id="3amEmmQlqby" role="3uHU7B">
+              <ref role="3cqZAo" node="52J4nYwoddA" resolve="kind" />
             </node>
             <node concept="35c_gC" id="52J4nYwodee" role="3uHU7w">
               <ref role="35c_gD" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
@@ -2585,11 +2571,8 @@
       <node concept="3clFbS" id="5DjLoGcC2gf" role="3clF47">
         <node concept="3clFbJ" id="5DjLoGcC2gg" role="3cqZAp">
           <node concept="2OqwBi" id="5DjLoGcC2gh" role="3clFbw">
-            <node concept="2OqwBi" id="3amEmmQlqbQ" role="2Oq$k0">
-              <node concept="37vLTw" id="3amEmmQlqbR" role="2Oq$k0">
-                <ref role="3cqZAo" node="5DjLoGcC2h$" resolve="kind" />
-              </node>
-              <node concept="FGMqu" id="3amEmmQlqbS" role="2OqNvi" />
+            <node concept="37vLTw" id="3amEmmQlqbR" role="2Oq$k0">
+              <ref role="3cqZAo" node="5DjLoGcC2h$" resolve="kind" />
             </node>
             <node concept="2Zo12i" id="5DjLoGcC2gj" role="2OqNvi">
               <node concept="chp4Y" id="5DjLoGcC2gk" role="2Zo12j">
