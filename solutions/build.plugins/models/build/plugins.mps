@@ -220,7 +220,7 @@
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
         <node concept="NbPM2" id="3gMg70bX6HM" role="aVJcq">
           <node concept="3Mxwew" id="3gMg70bX6HL" role="3MwsjC">
-            <property role="3MwjfP" value="2.5.2" />
+            <property role="3MwjfP" value="2.5.3-develop" />
           </node>
         </node>
       </node>
@@ -234,11 +234,7 @@
     <node concept="2kB4xC" id="4RSqyaA6FWL" role="1l3spd">
       <property role="TrG5h" value="reference_commit" />
       <node concept="aVJcg" id="1t506cUr8Sv" role="aVJcv">
-        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq">
-          <node concept="3Mxwew" id="1WKQzrO95vJ" role="3MwsjC">
-            <property role="3MwjfP" value="923b00c682d3db9fde9893f3c28c51efc4dbd08c" />
-          </node>
-        </node>
+        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq" />
       </node>
     </node>
     <node concept="2kB4xC" id="4RSqyaA6G6g" role="1l3spd">
@@ -328,7 +324,7 @@
               <property role="2Ry0Am" value="build" />
               <node concept="2Ry0Ak" id="5FSS0OjZlX$" role="2Ry0An">
                 <property role="2Ry0Am" value="artifacts" />
-                <node concept="2Ry0Ak" id="7hkRrPzK2v8" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6KjL$EIRoGO" role="2Ry0An">
                   <property role="2Ry0Am" value="ANTLR" />
                 </node>
               </node>
@@ -849,9 +845,9 @@
         </node>
       </node>
       <node concept="1E1JtA" id="3rWIEp7J0jZ" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.metar.r.parsers" />
         <property role="3LESm3" value="6f7a993a-c389-4f3d-a9c6-9dda8979ca77" />
+        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="3rWIEp7J0k2" role="3LF7KH">
           <node concept="2Ry0Ak" id="3rWIEp7J0C1" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
@@ -883,12 +879,6 @@
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3rWIEp7J0EE" role="3bR37C">
-          <node concept="3bR9La" id="3rWIEp7J0EF" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" to="hc0n:5U7ZKlHMwce" resolve="org.campagnelab.ANTLR" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3rWIEp7J0EG" role="3bR37C">
           <node concept="3bR9La" id="3rWIEp7J0EH" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
@@ -918,6 +908,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6KjL$EIRp7J" role="3bR37C">
+          <node concept="3bR9La" id="6KjL$EIRp7K" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="hc0n:5U7ZKlHMwce" resolve="org.campagnelab.ANTLR" />
           </node>
         </node>
       </node>

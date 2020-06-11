@@ -3,7 +3,6 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/MetaR2/MetaR2.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.csvviewer/org.campagnelab.editor.csvviewer.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.images/org.campagnelab.editor.images.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.instantrefresh/org.campagnelab.instantrefresh.mpl" folder="" />

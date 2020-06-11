@@ -323,7 +323,7 @@
     <property role="31Cu5t" value="&#9;" />
     <property role="31JHgl" value="/Users/farcasia/MetaRProjects/metar/data/GSE59364_DC_all.csv" />
     <property role="TrG5h" value="GSE59364_DC_all.csv" />
-    <property role="26T8KA" value="/Users/farcasia/MetaRProjects/metar/data/GSE59364_DC_all.csv" />
+    <property role="26T8KA" value="/Users/manuelesimi/CTSC/MetaR2/data/GSE59364_DC_all.csv" />
     <node concept="31JHg8" id="7W4fOVpKRFj" role="31JHgj">
       <property role="TrG5h" value="gene" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
