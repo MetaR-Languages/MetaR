@@ -220,7 +220,7 @@
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
         <node concept="NbPM2" id="3gMg70bX6HM" role="aVJcq">
           <node concept="3Mxwew" id="3gMg70bX6HL" role="3MwsjC">
-            <property role="3MwjfP" value="2.5.2" />
+            <property role="3MwjfP" value="2.5.3-develop" />
           </node>
         </node>
       </node>
@@ -234,11 +234,7 @@
     <node concept="2kB4xC" id="4RSqyaA6FWL" role="1l3spd">
       <property role="TrG5h" value="reference_commit" />
       <node concept="aVJcg" id="1t506cUr8Sv" role="aVJcv">
-        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq">
-          <node concept="3Mxwew" id="1WKQzrO95vJ" role="3MwsjC">
-            <property role="3MwjfP" value="923b00c682d3db9fde9893f3c28c51efc4dbd08c" />
-          </node>
-        </node>
+        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq" />
       </node>
     </node>
     <node concept="2kB4xC" id="4RSqyaA6G6g" role="1l3spd">
@@ -328,7 +324,7 @@
               <property role="2Ry0Am" value="build" />
               <node concept="2Ry0Ak" id="5FSS0OjZlX$" role="2Ry0An">
                 <property role="2Ry0Am" value="artifacts" />
-                <node concept="2Ry0Ak" id="7hkRrPzK2v8" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6KjL$EIRoGO" role="2Ry0An">
                   <property role="2Ry0Am" value="ANTLR" />
                 </node>
               </node>
@@ -423,7 +419,7 @@
               </node>
             </node>
           </node>
-          <node concept="pUk6x" id="meC1Mcw44" role="pUk7w" />
+          <node concept="pUk6x" id="7Uijo9GgTJf" role="pUk7w" />
         </node>
       </node>
     </node>
@@ -849,9 +845,9 @@
         </node>
       </node>
       <node concept="1E1JtA" id="3rWIEp7J0jZ" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.metar.r.parsers" />
         <property role="3LESm3" value="6f7a993a-c389-4f3d-a9c6-9dda8979ca77" />
+        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="3rWIEp7J0k2" role="3LF7KH">
           <node concept="2Ry0Ak" id="3rWIEp7J0C1" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
@@ -883,12 +879,6 @@
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3rWIEp7J0EE" role="3bR37C">
-          <node concept="3bR9La" id="3rWIEp7J0EF" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" to="hc0n:5U7ZKlHMwce" resolve="org.campagnelab.ANTLR" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3rWIEp7J0EG" role="3bR37C">
           <node concept="3bR9La" id="3rWIEp7J0EH" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
@@ -918,6 +908,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6KjL$EIRp7J" role="3bR37C">
+          <node concept="3bR9La" id="6KjL$EIRp7K" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="hc0n:5U7ZKlHMwce" resolve="org.campagnelab.ANTLR" />
           </node>
         </node>
       </node>
@@ -1346,6 +1342,21 @@
           <property role="TrG5h" value="org.campagnelab.mps.XChart.types#9080041854839272070" />
           <property role="3LESm3" value="348a2fa5-a1e1-4a5c-9edb-816eff4cdfd9" />
         </node>
+        <node concept="3rtmxn" id="7Uijo9GgTJ1" role="3bR31x">
+          <node concept="3LXTmp" id="7Uijo9GgTJ2" role="3rtmxm">
+            <node concept="3qWCbU" id="7Uijo9GgTJ3" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="7Uijo9GgTJ4" role="3LXTmr">
+              <node concept="2Ry0Ak" id="7Uijo9GgTJ5" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7Uijo9GgTJ6" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.mps.XChart.types" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="3mi1Sqi66qJ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1445,6 +1456,21 @@
         <node concept="1SiIV0" id="3mi1Sqi67qg" role="3bR37C">
           <node concept="3bR9La" id="3mi1Sqi67qh" role="1SiIV1">
             <ref role="3bR37D" node="3mi1Sqi64z$" resolve="org.campagnelab.mps.XChart.types" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7Uijo9GgTJ8" role="3bR31x">
+          <node concept="3LXTmp" id="7Uijo9GgTJ9" role="3rtmxm">
+            <node concept="3qWCbU" id="7Uijo9GgTJa" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="7Uijo9GgTJb" role="3LXTmr">
+              <node concept="2Ry0Ak" id="7Uijo9GgTJc" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7Uijo9GgTJd" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.mps.XChart" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

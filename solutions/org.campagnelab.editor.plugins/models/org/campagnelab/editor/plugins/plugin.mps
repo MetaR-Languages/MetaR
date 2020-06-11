@@ -448,7 +448,7 @@
   </node>
   <node concept="sE7Ow" id="7iuWixLMztm">
     <property role="TrG5h" value="ShowTableInTableViewer" />
-    <property role="2uzpH1" value="View Content" />
+    <property role="2uzpH1" value="View Table Content" />
     <property role="3GE5qa" value="Actions" />
     <node concept="2S4$dB" id="2sgkdoKdfWD" role="1NuT2Z">
       <property role="TrG5h" value="table" />
