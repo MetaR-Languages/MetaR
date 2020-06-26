@@ -8474,56 +8474,10 @@
             </node>
           </node>
           <node concept="3_3kQU" id="7LvyiX3WIrG" role="3_3kQL">
-            <property role="3_3kQV" value="&quot;, width=" />
-          </node>
-          <node concept="3_3kQU" id="2bKzaDQNs6N" role="3_3kQL">
-            <property role="3_3kQV" value="w" />
-            <node concept="17Uvod" id="2bKzaDQNssA" role="lGtFl">
-              <property role="2qtEX9" value="text" />
-              <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
-              <node concept="3zFVjK" id="2bKzaDQNssB" role="3zH0cK">
-                <node concept="3clFbS" id="2bKzaDQNssC" role="2VODD2">
-                  <node concept="3clFbF" id="7LvyiX3WINI" role="3cqZAp">
-                    <node concept="2YIFZM" id="7LvyiX3WIYm" role="3clFbG">
-                      <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
-                      <ref role="37wK5l" to="wyt6:~Double.toString(double)" resolve="toString" />
-                      <node concept="2OqwBi" id="4cOBe2Ec0b0" role="37wK5m">
-                        <node concept="30H73N" id="4cOBe2Ec04w" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="4cOBe2Ec0Mq" role="2OqNvi">
-                          <ref role="37wK5l" to="v8sa:4cOBe2EbW3q" resolve="estimateWidth" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+            <property role="3_3kQV" value="&quot;, width=700" />
           </node>
           <node concept="3_3kQU" id="7LvyiX3WIrI" role="3_3kQL">
-            <property role="3_3kQV" value=", height=" />
-          </node>
-          <node concept="3_3kQU" id="7LvyiX42lm$" role="3_3kQL">
-            <property role="3_3kQV" value="h" />
-            <node concept="17Uvod" id="7LvyiX42lm_" role="lGtFl">
-              <property role="2qtEX9" value="text" />
-              <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
-              <node concept="3zFVjK" id="7LvyiX42lmA" role="3zH0cK">
-                <node concept="3clFbS" id="7LvyiX42lmB" role="2VODD2">
-                  <node concept="3clFbF" id="7LvyiX42ln4" role="3cqZAp">
-                    <node concept="2YIFZM" id="7LvyiX42ln5" role="3clFbG">
-                      <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
-                      <ref role="37wK5l" to="wyt6:~Double.toString(double)" resolve="toString" />
-                      <node concept="2OqwBi" id="4cOBe2Ec76L" role="37wK5m">
-                        <node concept="30H73N" id="4cOBe2Ec70h" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="4cOBe2Ec7Ib" role="2OqNvi">
-                          <ref role="37wK5l" to="v8sa:4cOBe2EbX_V" resolve="estimateHeight" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+            <property role="3_3kQV" value=", height=1300" />
           </node>
           <node concept="3_3kQU" id="7LvyiX3WIrK" role="3_3kQL">
             <property role="3_3kQV" value=")" />

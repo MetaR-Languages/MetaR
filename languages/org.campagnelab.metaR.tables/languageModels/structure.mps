@@ -2426,7 +2426,7 @@
   <node concept="1TIwiD" id="7B_tLL$D6MN">
     <property role="3GE5qa" value="operations" />
     <property role="TrG5h" value="DropColumnWithGroupOperation" />
-    <property role="34LRSv" value=" drop column which have group" />
+    <property role="34LRSv" value=" drop columns which have group" />
     <property role="EcuMT" value="8783557612087307443" />
     <ref role="1TJDcQ" node="3qa402_4D5K" resolve="TableOperation" />
     <node concept="1TJgyj" id="7B_tLL$D7tG" role="1TKVEi">
