@@ -7,9 +7,9 @@
   <imports>
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -517,7 +517,6 @@
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaS">
     <property role="TrG5h" value="StringLiteralExpr" />
-    <property role="OYydz" value="stringLiteral" />
     <property role="34LRSv" value="&quot;&quot;" />
     <property role="R4oN_" value="String literal" />
     <property role="EcuMT" value="6176023809880707768" />
@@ -546,8 +545,9 @@
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaU">
     <property role="TrG5h" value="IntLiteralExpr" />
-    <property role="OYydz" value="intLiteral" />
     <property role="EcuMT" value="6176023809880707770" />
+    <property role="34LRSv" value="intlit" />
+    <property role="R4oN_" value="int literal expression" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyi" id="14grA08BBlA" role="1TKVEl">
       <property role="TrG5h" value="value" />
