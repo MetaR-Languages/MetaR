@@ -5,10 +5,10 @@ package org.campagnelab.metar.R.access.generator.template.main;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.impl.query.QueryProviderBase;
 import jetbrains.mps.generator.template.PropertyMacroContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.campagnelab.metar.tables.behavior.ISaveRVariableInSession__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.Map;
 import jetbrains.mps.generator.impl.query.PropertyValueQuery;
 import java.util.HashMap;
@@ -24,7 +24,7 @@ public class QueriesGenerated extends QueryProviderBase {
     super(1);
   }
   public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
-    return ISaveRVariableInSession__BehaviorDescriptor.getVariableName_id52J4nYvd$7N.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x7eba6a284cc247b9L, 0xa392284573f2054aL, 0x43b3173822924fd2L, 0x77ebff5909168461L, "futureTable"))) + "$\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x7eba6a284cc247b9L, 0xa392284573f2054aL, 0x43b3173822924fd2L, 0x43b317382292539eL, "column")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + "\"";
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x7eba6a284cc247b9L, 0xa392284573f2054aL, 0x43b3173822924fd2L, 0x22adea8877032f25L, "tableName")) + "$\"" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x7eba6a284cc247b9L, 0xa392284573f2054aL, 0x43b3173822924fd2L, 0x22adea8877032f20L, "columnName")) + "\"";
   }
   public static Object propertyMacro_GetValue_2_0(final PropertyMacroContext _context) {
     return (String) ISaveRVariableInSession__BehaviorDescriptor.getVariableName_id52J4nYvd$7N.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x7eba6a284cc247b9L, 0xa392284573f2054aL, 0x13812e0aa6c4dc44L, 0x13812e0aa7f860aeL, "table")));
