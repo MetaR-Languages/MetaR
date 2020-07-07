@@ -22803,5 +22803,24 @@
       <node concept="17QB3L" id="3443J8R5kTG" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="2aHUCxRF0W2">
+    <property role="3GE5qa" value="ids" />
+    <ref role="13h7C2" to="jrxw:2aHUCxRk_S3" resolve="SetOfIDsFromColumn" />
+    <node concept="13hLZK" id="2aHUCxRF0W3" role="13h7CW">
+      <node concept="3clFbS" id="2aHUCxRF0W4" role="2VODD2">
+        <node concept="3clFbF" id="2aHUCxRF0We" role="3cqZAp">
+          <node concept="37vLTI" id="2aHUCxRF2uF" role="3clFbG">
+            <node concept="3clFbT" id="2aHUCxRF2xQ" role="37vLTx" />
+            <node concept="2OqwBi" id="2aHUCxRF14Q" role="37vLTJ">
+              <node concept="13iPFW" id="2aHUCxRF0Wd" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2aHUCxRF1vG" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:2aHUCxRF0Vf" resolve="toUpperCase" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

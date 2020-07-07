@@ -7814,5 +7814,34 @@
       <ref role="PMmxG" node="4UigyYoTktk" resolve="GroupAnnotation" />
     </node>
   </node>
+  <node concept="24kQdi" id="2aHUCxRkA7Z">
+    <property role="3GE5qa" value="ids" />
+    <ref role="1XX52x" to="jrxw:2aHUCxRk_S3" resolve="SetOfIDsFromColumn" />
+    <node concept="3EZMnI" id="2aHUCxRkA8s" role="2wV5jI">
+      <node concept="3F0ifn" id="2aHUCxRkA8G" role="3EZMnx">
+        <property role="3F0ifm" value="Set of IDs from column" />
+      </node>
+      <node concept="3F1sOY" id="2aHUCxRkA8V" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2aHUCxRkA7M" resolve="column" />
+      </node>
+      <node concept="2iRfu4" id="2aHUCxRkA8v" role="2iSdaV" />
+      <node concept="3F0ifn" id="2aHUCxRtlDM" role="3EZMnx">
+        <property role="3F0ifm" value="name" />
+      </node>
+      <node concept="3F0A7n" id="2aHUCxRtlEz" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="7Hltlm8C$po" resolve="GeneListName" />
+      </node>
+    </node>
+    <node concept="3EZMnI" id="2aHUCxRF0Vp" role="6VMZX">
+      <node concept="3F0ifn" id="2aHUCxRF0VD" role="3EZMnx">
+        <property role="3F0ifm" value="make values uppercase? " />
+      </node>
+      <node concept="l2Vlx" id="2aHUCxRF0Vs" role="2iSdaV" />
+      <node concept="3F0A7n" id="2aHUCxRF0VS" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2aHUCxRF0Vf" resolve="toUpperCase" />
+      </node>
+    </node>
+  </node>
 </model>
 
