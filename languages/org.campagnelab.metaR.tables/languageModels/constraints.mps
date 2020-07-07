@@ -2263,5 +2263,18 @@
   <node concept="1M2fIO" id="5_ScChBVKWl">
     <ref role="1M2myG" to="jrxw:2WRhvFtldw5" resolve="TableTransformation" />
   </node>
+  <node concept="1M2fIO" id="2aHUCxRNL1q">
+    <ref role="1M2myG" to="jrxw:3qa402_1R8Z" resolve="Transform" />
+  </node>
+  <node concept="1M2fIO" id="2aHUCxRNL1w">
+    <property role="3GE5qa" value="operations" />
+    <ref role="1M2myG" to="jrxw:2aHUCxRNL0n" resolve="MakeUppercase" />
+    <node concept="1N5Pfh" id="2aHUCxRNL1x" role="1Mr941">
+      <ref role="1N5Vy1" to="jrxw:2aHUCxRNL0o" resolve="valuesFrom" />
+      <node concept="1dDu$B" id="2aHUCxRNL1A" role="1N6uqs">
+        <ref role="1dDu$A" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+      </node>
+    </node>
+  </node>
 </model>
 
