@@ -15,6 +15,7 @@
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" />
+    <import index="ifby" ref="r:d082ca80-ff27-41fa-ae5f-f852d65c1a36(org.campagnelab.metar.R.access.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -2426,7 +2427,7 @@
   <node concept="1TIwiD" id="7B_tLL$D6MN">
     <property role="3GE5qa" value="operations" />
     <property role="TrG5h" value="DropColumnWithGroupOperation" />
-    <property role="34LRSv" value=" drop column which have group" />
+    <property role="34LRSv" value=" drop columns which have group" />
     <property role="EcuMT" value="8783557612087307443" />
     <ref role="1TJDcQ" node="3qa402_4D5K" resolve="TableOperation" />
     <node concept="1TJgyj" id="7B_tLL$D7tG" role="1TKVEi">
@@ -6657,6 +6658,44 @@
   <node concept="PlHQZ" id="1RYr706_uYr">
     <property role="EcuMT" value="2161284099587043227" />
     <property role="TrG5h" value="IHaveDockerPath" />
+  </node>
+  <node concept="1TIwiD" id="2aHUCxRk_S3">
+    <property role="EcuMT" value="2498911240098831875" />
+    <property role="3GE5qa" value="ids" />
+    <property role="TrG5h" value="SetOfIDsFromColumn" />
+    <property role="R4oN_" value="select IDs from column" />
+    <property role="34LRSv" value="set of IDs from column" />
+    <ref role="1TJDcQ" node="3BiNpr5GyuO" resolve="DefinableObject" />
+    <node concept="1TJgyi" id="2aHUCxRF0Vf" role="1TKVEl">
+      <property role="IQ2nx" value="2498911240104709839" />
+      <property role="TrG5h" value="toUpperCase" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="2aHUCxRkA7M" role="1TKVEi">
+      <property role="IQ2ns" value="2498911240098832882" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="column" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="ifby:4eN5Nwy$$Zi" resolve="ExposedColumn" />
+    </node>
+    <node concept="PrWs8" id="2aHUCxRk_S4" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2aHUCxRNL0n">
+    <property role="EcuMT" value="2498911240107003927" />
+    <property role="3GE5qa" value="operations" />
+    <property role="TrG5h" value="MakeUppercase" />
+    <property role="34LRSv" value="make uppercase" />
+    <property role="R4oN_" value="Make all values uppercase" />
+    <ref role="1TJDcQ" node="3qa402_4D5K" resolve="TableOperation" />
+    <node concept="1TJgyj" id="2aHUCxRNL0o" role="1TKVEi">
+      <property role="IQ2ns" value="2498911240107003928" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="valuesFrom" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+    </node>
   </node>
 </model>
 

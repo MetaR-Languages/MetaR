@@ -42,11 +42,11 @@ import org.campagnelab.metar.tables.behavior.Plot__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.campagnelab.metar.tables.behavior.FitXByY__BehaviorDescriptor;
 import org.campagnelab.metar.tables.behavior.Multiplot__BehaviorDescriptor;
-import org.campagnelab.metar.tables.behavior.PlotBuilderStatement__BehaviorDescriptor;
 import org.campagnelab.metar.tables.behavior.PlotBuilderStatementI__BehaviorDescriptor;
 import org.campagnelab.metar.R.gen.behavior.IGenerateToRScript__BehaviorDescriptor;
 import org.campagnelab.metar.tables.behavior.Analysis__BehaviorDescriptor;
 import org.campagnelab.metar.tables.behavior.Render__BehaviorDescriptor;
+import org.campagnelab.metar.tables.behavior.PlotBuilderStatement__BehaviorDescriptor;
 import org.campagnelab.metar.tables.behavior.ColumnRef__BehaviorDescriptor;
 import org.campagnelab.metar.tables.behavior.Model__BehaviorDescriptor;
 import org.campagnelab.metar.tables.behavior.Histogram__BehaviorDescriptor;
@@ -355,22 +355,25 @@ public class QueriesGenerated extends QueryProviderBase {
     }), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static Object propertyMacro_GetValue_4_9(final PropertyMacroContext _context) {
-    return Boolean.toString(((SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")) != null) ? SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x4f26372c4d534232L, 0x5b5db5b0ea18d50eL, "clusterRows")) : false)).toUpperCase();
+    return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x75662f291ed32633L, "plot")))).toString() + ".source.tsv";
   }
   public static Object propertyMacro_GetValue_4_10(final PropertyMacroContext _context) {
-    return Boolean.toString(((SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")) != null) ? SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x4f26372c4d534232L, 0x5b5db5b0ea18d5c6L, "clusterColumns")) : false)).toUpperCase();
+    return Boolean.toString(((SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")) != null) ? SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x4f26372c4d534232L, 0x5b5db5b0ea18d50eL, "clusterRows")) : false)).toUpperCase();
   }
   public static Object propertyMacro_GetValue_4_11(final PropertyMacroContext _context) {
+    return Boolean.toString(((SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")) != null) ? SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x4f26372c4d534232L, 0x5b5db5b0ea18d5c6L, "clusterColumns")) : false)).toUpperCase();
+  }
+  public static Object propertyMacro_GetValue_4_12(final PropertyMacroContext _context) {
     if ((boolean) Heatmap__BehaviorDescriptor.drawBorder_id2od$re07nuC.invoke(_context.getNode())) {
       return "\"" + Heatmap__BehaviorDescriptor.getBorderColor_id2od$re0qsXL.invoke(_context.getNode()) + "\"";
     } else {
       return "\"NA\"";
     }
   }
-  public static Object propertyMacro_GetValue_4_12(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_4_13(final PropertyMacroContext _context) {
     return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x75662f291ed32633L, "plot")))).toString();
   }
-  public static Object propertyMacro_GetValue_4_13(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_4_14(final PropertyMacroContext _context) {
     String[] colors = Heatmap__BehaviorDescriptor.listColors_id2od$rdZBAEg.invoke(_context.getNode());
     if (colors.length > 0) {
       StringBuilder builder = new StringBuilder();
@@ -386,7 +389,7 @@ public class QueriesGenerated extends QueryProviderBase {
 
 
   }
-  public static Object propertyMacro_GetValue_4_14(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_4_15(final PropertyMacroContext _context) {
     if ((SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")) != null) && SConceptOperations.isExactly(SNodeOperations.asSConcept(SNodeOperations.getConcept(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x4f26372c4d532c50L, "annotations")), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x4f26372c4d534232L, 0x5b5db5b0e933e3aaL, "scaling")))), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x5b5db5b0e933ec5eL, "org.campagnelab.metar.tables.structure.ScaleByRow"))) {
       return "row";
     }
@@ -395,28 +398,28 @@ public class QueriesGenerated extends QueryProviderBase {
     }
     return "none";
   }
-  public static Object propertyMacro_GetValue_4_15(final PropertyMacroContext _context) {
-    return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
-  }
   public static Object propertyMacro_GetValue_4_16(final PropertyMacroContext _context) {
-    return (boolean) Statement__BehaviorDescriptor.errorCatchingEnabled_id2od$re20jdz.invoke(_context.getNode());
+    return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetValue_4_17(final PropertyMacroContext _context) {
-    return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x75662f291ed32633L, "plot")))).toString();
+    return (boolean) Statement__BehaviorDescriptor.errorCatchingEnabled_id2od$re20jdz.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetValue_4_18(final PropertyMacroContext _context) {
-    return Integer.toString((int) Plot__BehaviorDescriptor.getWidth_id32mm940cTd2.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x75662f291ed32633L, "plot"))));
+    return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x75662f291ed32633L, "plot")))).toString();
   }
   public static Object propertyMacro_GetValue_4_19(final PropertyMacroContext _context) {
-    return Integer.toString((int) Plot__BehaviorDescriptor.getHeight_id32mm940d1rP.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x75662f291ed32633L, "plot"))));
+    return Integer.toString((int) Plot__BehaviorDescriptor.getWidth_id32mm940cTd2.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x75662f291ed32633L, "plot"))));
   }
   public static Object propertyMacro_GetValue_4_20(final PropertyMacroContext _context) {
-    return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
+    return Integer.toString((int) Plot__BehaviorDescriptor.getHeight_id32mm940d1rP.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x75662f291ed32633L, "plot"))));
   }
   public static Object propertyMacro_GetValue_4_21(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x3dc59a0f37f9ef74L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+    return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetValue_4_22(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x3dc59a0f37f9ef74L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_4_23(final PropertyMacroContext _context) {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetValue_5_0(final PropertyMacroContext _context) {
@@ -610,18 +613,12 @@ public class QueriesGenerated extends QueryProviderBase {
     return new RPath(Plot__BehaviorDescriptor.getPath_id6X05ubabEHv.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2b177f9aea1ab49bL, 0x2b177f9aea321668L, "destination")))).toString();
   }
   public static Object propertyMacro_GetValue_9_11(final PropertyMacroContext _context) {
-    return Double.toString((double) PlotBuilderStatement__BehaviorDescriptor.estimateWidth_id4cOBe2EbW3q.invoke(_context.getNode()));
-  }
-  public static Object propertyMacro_GetValue_9_12(final PropertyMacroContext _context) {
-    return Double.toString((double) PlotBuilderStatement__BehaviorDescriptor.estimateHeight_id4cOBe2EbX_V.invoke(_context.getNode()));
-  }
-  public static Object propertyMacro_GetValue_9_13(final PropertyMacroContext _context) {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
-  public static Object propertyMacro_GetValue_9_14(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_9_12(final PropertyMacroContext _context) {
     return (String) PlotBuilderStatementI__BehaviorDescriptor.getTableName_id7tPuoi0J8Kg.invoke(_context.getNode());
   }
-  public static Object propertyMacro_GetValue_9_15(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_9_13(final PropertyMacroContext _context) {
     return (String) IAtomic__BehaviorDescriptor.id_idhlbLQwkRFj.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetValue_10_0(final PropertyMacroContext _context) {
@@ -1062,7 +1059,7 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Object propertyMacro_GetValue_27_3(final PropertyMacroContext _context) {
     return "c(" + IterableUtils.join(ListSequence.fromList(OrderBy__BehaviorDescriptor.getColumns_id3MLv1It$RbR.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x65b1bcb21029c61L, 0x65b1bcb21036abcL, "orderBy")))).select(new ISelector<SNode, String>() {
       public String select(SNode col) {
-        return "\"" + trim_x583g4_a0a0a0a0a0a0a0a0a912(SPropertyOperations.getString(col, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "\"";
+        return "\"" + trim_x583g4_a0a0a0a0a0a0a0a0a812(SPropertyOperations.getString(col, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "\"";
       }
     }), ",") + ");\n";
   }
@@ -1330,6 +1327,18 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   public static Object propertyMacro_GetValue_40_0(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x32ab79088382d91eL, 0x32ab79088382d921L, "regexp"));
+  }
+  public static Object propertyMacro_GetValue_41_0(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x368a1000a507723fL, "org.campagnelab.metar.tables.structure.Transform")), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x368a1000a507723fL, 0x368a1000a51aba69L, "outputTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_41_1(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x22adea8877cf1017L, 0x22adea8877cf1018L, "valuesFrom")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  }
+  public static Object propertyMacro_GetValue_41_2(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x368a1000a507723fL, "org.campagnelab.metar.tables.structure.Transform")), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x368a1000a507723fL, 0x368a1000a51aba69L, "outputTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_41_3(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x22adea8877cf1017L, 0x22adea8877cf1018L, "valuesFrom")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static boolean ifMacro_Condition_2_0(final IfMacroContext _context) {
     return !(SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd7acacdL, 0x2f3745fadd7b6b2bL, "table")), MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b92L, 0x9c4a6d92e5671eaL, "hasRowNames")));
@@ -1881,6 +1890,7 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("5703306641531276226", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "\"sampleId1\",\"sampleId2\""));
     pvqMethods.put("8016431400519661973", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "samples_for_heatmap_Blood_tsv"));
     pvqMethods.put("8709280678589046942", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "ID"));
+    pvqMethods.put("3605574225794383965", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "writefile"));
     pvqMethods.put("6583618001731952993", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "FALSE"));
     pvqMethods.put("6583618001731925656", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "FALSE"));
     pvqMethods.put("2742007948273156911", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "border_color"));
@@ -1951,8 +1961,6 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("3989982343278185427", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "plot_id"));
     pvqMethods.put("3687343996978017154", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "table"));
     pvqMethods.put("8962032619585609532", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "/Users/fac2003/plot_allo_by_creat_0.png"));
-    pvqMethods.put("2517666855465633574", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "w"));
-    pvqMethods.put("8962032619588507045", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "h"));
     pvqMethods.put("8013388156564134448", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "id"));
     pvqMethods.put("8013388156564208056", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "table"));
     pvqMethods.put("3007013211742741563", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x32f503e8061b451eL, 0xbcb0fef56aa05eb9L, 0x7c7b9355b28afe81L, 0x7c7b9355b28afec0L, "nodeId"), "nodeId"));
@@ -2122,6 +2130,10 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("5813884883786624892", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "checkIfEachVariableExist"));
     pvqMethods.put("2417420436993247072", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x32f503e8061b451eL, 0xbcb0fef56aa05eb9L, 0x7c7b9355b28afe81L, 0x7c7b9355b28afec0L, "nodeId"), "nodeId"));
     pvqMethods.put("7007567420130492437", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "pattern"));
+    pvqMethods.put("2498911240108877292", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "table"));
+    pvqMethods.put("2498911240108883182", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "column"));
+    pvqMethods.put("2498911240107012307", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "table"));
+    pvqMethods.put("2498911240107012325", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "column"));
   }
   @NotNull
   @Override
@@ -2246,459 +2258,465 @@ public class QueriesGenerated extends QueryProviderBase {
         case 51:
           return QueriesGenerated.propertyMacro_GetValue_4_22(ctx);
         case 52:
-          return QueriesGenerated.propertyMacro_GetValue_5_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_4_23(ctx);
         case 53:
-          return QueriesGenerated.propertyMacro_GetValue_5_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_5_0(ctx);
         case 54:
-          return QueriesGenerated.propertyMacro_GetValue_5_2(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_5_1(ctx);
         case 55:
-          return QueriesGenerated.propertyMacro_GetValue_5_3(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_5_2(ctx);
         case 56:
-          return QueriesGenerated.propertyMacro_GetValue_5_4(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_5_3(ctx);
         case 57:
-          return QueriesGenerated.propertyMacro_GetValue_5_5(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_5_4(ctx);
         case 58:
-          return QueriesGenerated.propertyMacro_GetValue_5_6(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_5_5(ctx);
         case 59:
-          return QueriesGenerated.propertyMacro_GetValue_7_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_5_6(ctx);
         case 60:
-          return QueriesGenerated.propertyMacro_GetValue_7_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_7_0(ctx);
         case 61:
-          return QueriesGenerated.propertyMacro_GetValue_7_2(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_7_1(ctx);
         case 62:
-          return QueriesGenerated.propertyMacro_GetValue_7_3(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_7_2(ctx);
         case 63:
-          return QueriesGenerated.propertyMacro_GetValue_7_4(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_7_3(ctx);
         case 64:
-          return QueriesGenerated.propertyMacro_GetValue_7_5(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_7_4(ctx);
         case 65:
-          return QueriesGenerated.propertyMacro_GetValue_7_6(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_7_5(ctx);
         case 66:
-          return QueriesGenerated.propertyMacro_GetValue_7_7(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_7_6(ctx);
         case 67:
-          return QueriesGenerated.propertyMacro_GetValue_8_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_7_7(ctx);
         case 68:
-          return QueriesGenerated.propertyMacro_GetValue_8_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_0(ctx);
         case 69:
-          return QueriesGenerated.propertyMacro_GetValue_8_2(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_1(ctx);
         case 70:
-          return QueriesGenerated.propertyMacro_GetValue_8_3(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_2(ctx);
         case 71:
-          return QueriesGenerated.propertyMacro_GetValue_8_4(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_3(ctx);
         case 72:
-          return QueriesGenerated.propertyMacro_GetValue_8_5(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_4(ctx);
         case 73:
-          return QueriesGenerated.propertyMacro_GetValue_8_6(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_5(ctx);
         case 74:
-          return QueriesGenerated.propertyMacro_GetValue_8_7(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_6(ctx);
         case 75:
-          return QueriesGenerated.propertyMacro_GetValue_8_8(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_7(ctx);
         case 76:
-          return QueriesGenerated.propertyMacro_GetValue_8_9(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_8(ctx);
         case 77:
-          return QueriesGenerated.propertyMacro_GetValue_8_10(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_9(ctx);
         case 78:
-          return QueriesGenerated.propertyMacro_GetValue_8_11(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_10(ctx);
         case 79:
-          return QueriesGenerated.propertyMacro_GetValue_8_12(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_11(ctx);
         case 80:
-          return QueriesGenerated.propertyMacro_GetValue_8_13(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_12(ctx);
         case 81:
-          return QueriesGenerated.propertyMacro_GetValue_8_14(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_13(ctx);
         case 82:
-          return QueriesGenerated.propertyMacro_GetValue_8_15(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_14(ctx);
         case 83:
-          return QueriesGenerated.propertyMacro_GetValue_8_16(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_15(ctx);
         case 84:
-          return QueriesGenerated.propertyMacro_GetValue_8_17(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_16(ctx);
         case 85:
-          return QueriesGenerated.propertyMacro_GetValue_8_18(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_17(ctx);
         case 86:
-          return QueriesGenerated.propertyMacro_GetValue_8_19(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_18(ctx);
         case 87:
-          return QueriesGenerated.propertyMacro_GetValue_8_20(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_19(ctx);
         case 88:
-          return QueriesGenerated.propertyMacro_GetValue_8_21(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_20(ctx);
         case 89:
-          return QueriesGenerated.propertyMacro_GetValue_8_22(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_21(ctx);
         case 90:
-          return QueriesGenerated.propertyMacro_GetValue_8_23(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_22(ctx);
         case 91:
-          return QueriesGenerated.propertyMacro_GetValue_8_24(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_23(ctx);
         case 92:
-          return QueriesGenerated.propertyMacro_GetValue_8_25(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_24(ctx);
         case 93:
-          return QueriesGenerated.propertyMacro_GetValue_8_26(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_25(ctx);
         case 94:
-          return QueriesGenerated.propertyMacro_GetValue_8_27(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_26(ctx);
         case 95:
-          return QueriesGenerated.propertyMacro_GetValue_8_28(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_27(ctx);
         case 96:
-          return QueriesGenerated.propertyMacro_GetValue_8_29(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_28(ctx);
         case 97:
-          return QueriesGenerated.propertyMacro_GetValue_9_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_8_29(ctx);
         case 98:
-          return QueriesGenerated.propertyMacro_GetValue_9_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_0(ctx);
         case 99:
-          return QueriesGenerated.propertyMacro_GetValue_9_2(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_1(ctx);
         case 100:
-          return QueriesGenerated.propertyMacro_GetValue_9_3(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_2(ctx);
         case 101:
-          return QueriesGenerated.propertyMacro_GetValue_9_4(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_3(ctx);
         case 102:
-          return QueriesGenerated.propertyMacro_GetValue_9_5(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_4(ctx);
         case 103:
-          return QueriesGenerated.propertyMacro_GetValue_9_6(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_5(ctx);
         case 104:
-          return QueriesGenerated.propertyMacro_GetValue_9_7(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_6(ctx);
         case 105:
-          return QueriesGenerated.propertyMacro_GetValue_9_8(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_7(ctx);
         case 106:
-          return QueriesGenerated.propertyMacro_GetValue_9_9(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_8(ctx);
         case 107:
-          return QueriesGenerated.propertyMacro_GetValue_9_10(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_9(ctx);
         case 108:
-          return QueriesGenerated.propertyMacro_GetValue_9_11(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_10(ctx);
         case 109:
-          return QueriesGenerated.propertyMacro_GetValue_9_12(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_11(ctx);
         case 110:
-          return QueriesGenerated.propertyMacro_GetValue_9_13(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_12(ctx);
         case 111:
-          return QueriesGenerated.propertyMacro_GetValue_9_14(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_9_13(ctx);
         case 112:
-          return QueriesGenerated.propertyMacro_GetValue_9_15(ctx);
-        case 113:
           return QueriesGenerated.propertyMacro_GetValue_10_0(ctx);
-        case 114:
+        case 113:
           return QueriesGenerated.propertyMacro_GetValue_10_1(ctx);
-        case 115:
+        case 114:
           return QueriesGenerated.propertyMacro_GetValue_10_2(ctx);
-        case 116:
+        case 115:
           return QueriesGenerated.propertyMacro_GetValue_10_3(ctx);
-        case 117:
+        case 116:
           return QueriesGenerated.propertyMacro_GetValue_10_4(ctx);
-        case 118:
+        case 117:
           return QueriesGenerated.propertyMacro_GetValue_10_5(ctx);
-        case 119:
+        case 118:
           return QueriesGenerated.propertyMacro_GetValue_10_6(ctx);
-        case 120:
+        case 119:
           return QueriesGenerated.propertyMacro_GetValue_10_7(ctx);
-        case 121:
+        case 120:
           return QueriesGenerated.propertyMacro_GetValue_10_8(ctx);
-        case 122:
+        case 121:
           return QueriesGenerated.propertyMacro_GetValue_10_9(ctx);
-        case 123:
+        case 122:
           return QueriesGenerated.propertyMacro_GetValue_10_10(ctx);
-        case 124:
+        case 123:
           return QueriesGenerated.propertyMacro_GetValue_11_0(ctx);
-        case 125:
+        case 124:
           return QueriesGenerated.propertyMacro_GetValue_11_1(ctx);
-        case 126:
+        case 125:
           return QueriesGenerated.propertyMacro_GetValue_11_2(ctx);
-        case 127:
+        case 126:
           return QueriesGenerated.propertyMacro_GetValue_11_3(ctx);
-        case 128:
+        case 127:
           return QueriesGenerated.propertyMacro_GetValue_12_0(ctx);
-        case 129:
+        case 128:
           return QueriesGenerated.propertyMacro_GetValue_12_1(ctx);
-        case 130:
+        case 129:
           return QueriesGenerated.propertyMacro_GetValue_12_2(ctx);
-        case 131:
+        case 130:
           return QueriesGenerated.propertyMacro_GetValue_13_0(ctx);
-        case 132:
+        case 131:
           return QueriesGenerated.propertyMacro_GetValue_13_1(ctx);
-        case 133:
+        case 132:
           return QueriesGenerated.propertyMacro_GetValue_13_2(ctx);
-        case 134:
+        case 133:
           return QueriesGenerated.propertyMacro_GetValue_13_3(ctx);
-        case 135:
+        case 134:
           return QueriesGenerated.propertyMacro_GetValue_13_4(ctx);
-        case 136:
+        case 135:
           return QueriesGenerated.propertyMacro_GetValue_13_5(ctx);
-        case 137:
+        case 136:
           return QueriesGenerated.propertyMacro_GetValue_13_6(ctx);
-        case 138:
+        case 137:
           return QueriesGenerated.propertyMacro_GetValue_13_7(ctx);
-        case 139:
+        case 138:
           return QueriesGenerated.propertyMacro_GetValue_13_8(ctx);
-        case 140:
+        case 139:
           return QueriesGenerated.propertyMacro_GetValue_13_9(ctx);
-        case 141:
+        case 140:
           return QueriesGenerated.propertyMacro_GetValue_14_0(ctx);
-        case 142:
+        case 141:
           return QueriesGenerated.propertyMacro_GetValue_14_1(ctx);
-        case 143:
+        case 142:
           return QueriesGenerated.propertyMacro_GetValue_15_0(ctx);
-        case 144:
+        case 143:
           return QueriesGenerated.propertyMacro_GetValue_15_1(ctx);
-        case 145:
+        case 144:
           return QueriesGenerated.propertyMacro_GetValue_15_2(ctx);
-        case 146:
+        case 145:
           return QueriesGenerated.propertyMacro_GetValue_15_3(ctx);
-        case 147:
+        case 146:
           return QueriesGenerated.propertyMacro_GetValue_15_4(ctx);
-        case 148:
+        case 147:
           return QueriesGenerated.propertyMacro_GetValue_15_5(ctx);
-        case 149:
+        case 148:
           return QueriesGenerated.propertyMacro_GetValue_15_6(ctx);
-        case 150:
+        case 149:
           return QueriesGenerated.propertyMacro_GetValue_15_7(ctx);
-        case 151:
+        case 150:
           return QueriesGenerated.propertyMacro_GetValue_15_8(ctx);
-        case 152:
+        case 151:
           return QueriesGenerated.propertyMacro_GetValue_15_9(ctx);
-        case 153:
+        case 152:
           return QueriesGenerated.propertyMacro_GetValue_15_10(ctx);
-        case 154:
+        case 153:
           return QueriesGenerated.propertyMacro_GetValue_15_11(ctx);
-        case 155:
+        case 154:
           return QueriesGenerated.propertyMacro_GetValue_15_12(ctx);
-        case 156:
+        case 155:
           return QueriesGenerated.propertyMacro_GetValue_15_13(ctx);
-        case 157:
+        case 156:
           return QueriesGenerated.propertyMacro_GetValue_15_14(ctx);
-        case 158:
+        case 157:
           return QueriesGenerated.propertyMacro_GetValue_15_15(ctx);
-        case 159:
+        case 158:
           return QueriesGenerated.propertyMacro_GetValue_16_0(ctx);
-        case 160:
+        case 159:
           return QueriesGenerated.propertyMacro_GetValue_16_1(ctx);
-        case 161:
+        case 160:
           return QueriesGenerated.propertyMacro_GetValue_16_2(ctx);
-        case 162:
+        case 161:
           return QueriesGenerated.propertyMacro_GetValue_16_3(ctx);
-        case 163:
+        case 162:
           return QueriesGenerated.propertyMacro_GetValue_16_4(ctx);
-        case 164:
+        case 163:
           return QueriesGenerated.propertyMacro_GetValue_16_5(ctx);
-        case 165:
+        case 164:
           return QueriesGenerated.propertyMacro_GetValue_16_6(ctx);
-        case 166:
+        case 165:
           return QueriesGenerated.propertyMacro_GetValue_16_7(ctx);
-        case 167:
+        case 166:
           return QueriesGenerated.propertyMacro_GetValue_16_8(ctx);
-        case 168:
+        case 167:
           return QueriesGenerated.propertyMacro_GetValue_17_0(ctx);
-        case 169:
+        case 168:
           return QueriesGenerated.propertyMacro_GetValue_17_1(ctx);
-        case 170:
+        case 169:
           return QueriesGenerated.propertyMacro_GetValue_17_2(ctx);
-        case 171:
+        case 170:
           return QueriesGenerated.propertyMacro_GetValue_17_3(ctx);
-        case 172:
+        case 171:
           return QueriesGenerated.propertyMacro_GetValue_17_4(ctx);
-        case 173:
+        case 172:
           return QueriesGenerated.propertyMacro_GetValue_17_5(ctx);
-        case 174:
+        case 173:
           return QueriesGenerated.propertyMacro_GetValue_17_6(ctx);
-        case 175:
+        case 174:
           return QueriesGenerated.propertyMacro_GetValue_18_0(ctx);
-        case 176:
+        case 175:
           return QueriesGenerated.propertyMacro_GetValue_18_1(ctx);
-        case 177:
+        case 176:
           return QueriesGenerated.propertyMacro_GetValue_18_2(ctx);
-        case 178:
+        case 177:
           return QueriesGenerated.propertyMacro_GetValue_18_3(ctx);
-        case 179:
+        case 178:
           return QueriesGenerated.propertyMacro_GetValue_18_4(ctx);
-        case 180:
+        case 179:
           return QueriesGenerated.propertyMacro_GetValue_18_5(ctx);
-        case 181:
+        case 180:
           return QueriesGenerated.propertyMacro_GetValue_18_6(ctx);
-        case 182:
+        case 181:
           return QueriesGenerated.propertyMacro_GetValue_19_0(ctx);
-        case 183:
+        case 182:
           return QueriesGenerated.propertyMacro_GetValue_19_1(ctx);
-        case 184:
+        case 183:
           return QueriesGenerated.propertyMacro_GetValue_19_2(ctx);
-        case 185:
+        case 184:
           return QueriesGenerated.propertyMacro_GetValue_19_3(ctx);
-        case 186:
+        case 185:
           return QueriesGenerated.propertyMacro_GetValue_20_0(ctx);
-        case 187:
+        case 186:
           return QueriesGenerated.propertyMacro_GetValue_21_0(ctx);
-        case 188:
+        case 187:
           return QueriesGenerated.propertyMacro_GetValue_21_1(ctx);
-        case 189:
+        case 188:
           return QueriesGenerated.propertyMacro_GetValue_22_0(ctx);
-        case 190:
+        case 189:
           return QueriesGenerated.propertyMacro_GetValue_22_1(ctx);
-        case 191:
+        case 190:
           return QueriesGenerated.propertyMacro_GetValue_22_2(ctx);
-        case 192:
+        case 191:
           return QueriesGenerated.propertyMacro_GetValue_23_0(ctx);
-        case 193:
+        case 192:
           return QueriesGenerated.propertyMacro_GetValue_23_1(ctx);
-        case 194:
+        case 193:
           return QueriesGenerated.propertyMacro_GetValue_24_0(ctx);
-        case 195:
+        case 194:
           return QueriesGenerated.propertyMacro_GetValue_25_0(ctx);
-        case 196:
+        case 195:
           return QueriesGenerated.propertyMacro_GetValue_25_1(ctx);
-        case 197:
+        case 196:
           return QueriesGenerated.propertyMacro_GetValue_25_2(ctx);
-        case 198:
+        case 197:
           return QueriesGenerated.propertyMacro_GetValue_26_0(ctx);
-        case 199:
+        case 198:
           return QueriesGenerated.propertyMacro_GetValue_26_1(ctx);
-        case 200:
+        case 199:
           return QueriesGenerated.propertyMacro_GetValue_26_2(ctx);
-        case 201:
+        case 200:
           return QueriesGenerated.propertyMacro_GetValue_26_3(ctx);
-        case 202:
+        case 201:
           return QueriesGenerated.propertyMacro_GetValue_26_4(ctx);
-        case 203:
+        case 202:
           return QueriesGenerated.propertyMacro_GetValue_26_5(ctx);
-        case 204:
+        case 203:
           return QueriesGenerated.propertyMacro_GetValue_26_6(ctx);
-        case 205:
+        case 204:
           return QueriesGenerated.propertyMacro_GetValue_26_7(ctx);
-        case 206:
+        case 205:
           return QueriesGenerated.propertyMacro_GetValue_26_8(ctx);
-        case 207:
+        case 206:
           return QueriesGenerated.propertyMacro_GetValue_27_0(ctx);
-        case 208:
+        case 207:
           return QueriesGenerated.propertyMacro_GetValue_27_1(ctx);
-        case 209:
+        case 208:
           return QueriesGenerated.propertyMacro_GetValue_27_2(ctx);
-        case 210:
+        case 209:
           return QueriesGenerated.propertyMacro_GetValue_27_3(ctx);
-        case 211:
+        case 210:
           return QueriesGenerated.propertyMacro_GetValue_27_4(ctx);
-        case 212:
+        case 211:
           return QueriesGenerated.propertyMacro_GetValue_27_5(ctx);
-        case 213:
+        case 212:
           return QueriesGenerated.propertyMacro_GetValue_27_6(ctx);
-        case 214:
+        case 213:
           return QueriesGenerated.propertyMacro_GetValue_27_7(ctx);
-        case 215:
+        case 214:
           return QueriesGenerated.propertyMacro_GetValue_28_0(ctx);
-        case 216:
+        case 215:
           return QueriesGenerated.propertyMacro_GetValue_28_1(ctx);
-        case 217:
+        case 216:
           return QueriesGenerated.propertyMacro_GetValue_28_2(ctx);
-        case 218:
+        case 217:
           return QueriesGenerated.propertyMacro_GetValue_28_3(ctx);
-        case 219:
+        case 218:
           return QueriesGenerated.propertyMacro_GetValue_28_4(ctx);
-        case 220:
+        case 219:
           return QueriesGenerated.propertyMacro_GetValue_28_5(ctx);
-        case 221:
+        case 220:
           return QueriesGenerated.propertyMacro_GetValue_28_6(ctx);
-        case 222:
+        case 221:
           return QueriesGenerated.propertyMacro_GetValue_28_7(ctx);
-        case 223:
+        case 222:
           return QueriesGenerated.propertyMacro_GetValue_28_8(ctx);
-        case 224:
+        case 223:
           return QueriesGenerated.propertyMacro_GetValue_28_9(ctx);
-        case 225:
+        case 224:
           return QueriesGenerated.propertyMacro_GetValue_28_10(ctx);
-        case 226:
+        case 225:
           return QueriesGenerated.propertyMacro_GetValue_28_11(ctx);
-        case 227:
+        case 226:
           return QueriesGenerated.propertyMacro_GetValue_29_0(ctx);
-        case 228:
+        case 227:
           return QueriesGenerated.propertyMacro_GetValue_30_0(ctx);
-        case 229:
+        case 228:
           return QueriesGenerated.propertyMacro_GetValue_31_0(ctx);
-        case 230:
+        case 229:
           return QueriesGenerated.propertyMacro_GetValue_31_1(ctx);
-        case 231:
+        case 230:
           return QueriesGenerated.propertyMacro_GetValue_31_2(ctx);
-        case 232:
+        case 231:
           return QueriesGenerated.propertyMacro_GetValue_32_0(ctx);
-        case 233:
+        case 232:
           return QueriesGenerated.propertyMacro_GetValue_32_1(ctx);
-        case 234:
+        case 233:
           return QueriesGenerated.propertyMacro_GetValue_32_2(ctx);
-        case 235:
+        case 234:
           return QueriesGenerated.propertyMacro_GetValue_32_3(ctx);
-        case 236:
+        case 235:
           return QueriesGenerated.propertyMacro_GetValue_32_4(ctx);
-        case 237:
+        case 236:
           return QueriesGenerated.propertyMacro_GetValue_32_5(ctx);
-        case 238:
+        case 237:
           return QueriesGenerated.propertyMacro_GetValue_32_6(ctx);
-        case 239:
+        case 238:
           return QueriesGenerated.propertyMacro_GetValue_32_7(ctx);
-        case 240:
+        case 239:
           return QueriesGenerated.propertyMacro_GetValue_32_8(ctx);
-        case 241:
+        case 240:
           return QueriesGenerated.propertyMacro_GetValue_32_9(ctx);
-        case 242:
+        case 241:
           return QueriesGenerated.propertyMacro_GetValue_32_10(ctx);
-        case 243:
+        case 242:
           return QueriesGenerated.propertyMacro_GetValue_33_0(ctx);
-        case 244:
+        case 243:
           return QueriesGenerated.propertyMacro_GetValue_33_1(ctx);
-        case 245:
+        case 244:
           return QueriesGenerated.propertyMacro_GetValue_33_2(ctx);
-        case 246:
+        case 245:
           return QueriesGenerated.propertyMacro_GetValue_35_0(ctx);
-        case 247:
+        case 246:
           return QueriesGenerated.propertyMacro_GetValue_35_1(ctx);
-        case 248:
+        case 247:
           return QueriesGenerated.propertyMacro_GetValue_36_0(ctx);
-        case 249:
+        case 248:
           return QueriesGenerated.propertyMacro_GetValue_36_1(ctx);
-        case 250:
+        case 249:
           return QueriesGenerated.propertyMacro_GetValue_36_2(ctx);
-        case 251:
+        case 250:
           return QueriesGenerated.propertyMacro_GetValue_36_3(ctx);
-        case 252:
+        case 251:
           return QueriesGenerated.propertyMacro_GetValue_36_4(ctx);
-        case 253:
+        case 252:
           return QueriesGenerated.propertyMacro_GetValue_36_5(ctx);
-        case 254:
+        case 253:
           return QueriesGenerated.propertyMacro_GetValue_36_6(ctx);
-        case 255:
+        case 254:
           return QueriesGenerated.propertyMacro_GetValue_36_7(ctx);
-        case 256:
+        case 255:
           return QueriesGenerated.propertyMacro_GetValue_36_8(ctx);
-        case 257:
+        case 256:
           return QueriesGenerated.propertyMacro_GetValue_36_9(ctx);
-        case 258:
+        case 257:
           return QueriesGenerated.propertyMacro_GetValue_36_10(ctx);
-        case 259:
+        case 258:
           return QueriesGenerated.propertyMacro_GetValue_36_11(ctx);
-        case 260:
+        case 259:
           return QueriesGenerated.propertyMacro_GetValue_36_12(ctx);
-        case 261:
+        case 260:
           return QueriesGenerated.propertyMacro_GetValue_36_13(ctx);
-        case 262:
+        case 261:
           return QueriesGenerated.propertyMacro_GetValue_36_14(ctx);
-        case 263:
+        case 262:
           return QueriesGenerated.propertyMacro_GetValue_36_15(ctx);
-        case 264:
+        case 263:
           return QueriesGenerated.propertyMacro_GetValue_36_16(ctx);
-        case 265:
+        case 264:
           return QueriesGenerated.propertyMacro_GetValue_36_17(ctx);
-        case 266:
+        case 265:
           return QueriesGenerated.propertyMacro_GetValue_36_18(ctx);
-        case 267:
+        case 266:
           return QueriesGenerated.propertyMacro_GetValue_36_19(ctx);
-        case 268:
+        case 267:
           return QueriesGenerated.propertyMacro_GetValue_36_20(ctx);
-        case 269:
+        case 268:
           return QueriesGenerated.propertyMacro_GetValue_36_21(ctx);
-        case 270:
+        case 269:
           return QueriesGenerated.propertyMacro_GetValue_36_22(ctx);
-        case 271:
+        case 270:
           return QueriesGenerated.propertyMacro_GetValue_36_23(ctx);
-        case 272:
+        case 271:
           return QueriesGenerated.propertyMacro_GetValue_36_24(ctx);
-        case 273:
+        case 272:
           return QueriesGenerated.propertyMacro_GetValue_36_25(ctx);
-        case 274:
+        case 273:
           return QueriesGenerated.propertyMacro_GetValue_37_0(ctx);
-        case 275:
+        case 274:
           return QueriesGenerated.propertyMacro_GetValue_38_0(ctx);
-        case 276:
+        case 275:
           return QueriesGenerated.propertyMacro_GetValue_38_1(ctx);
-        case 277:
+        case 276:
           return QueriesGenerated.propertyMacro_GetValue_38_2(ctx);
-        case 278:
+        case 277:
           return QueriesGenerated.propertyMacro_GetValue_40_0(ctx);
+        case 278:
+          return QueriesGenerated.propertyMacro_GetValue_41_0(ctx);
+        case 279:
+          return QueriesGenerated.propertyMacro_GetValue_41_1(ctx);
+        case 280:
+          return QueriesGenerated.propertyMacro_GetValue_41_2(ctx);
+        case 281:
+          return QueriesGenerated.propertyMacro_GetValue_41_3(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -2894,7 +2912,7 @@ public class QueriesGenerated extends QueryProviderBase {
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }
-  public static String trim_x583g4_a0a0a0a0a0a0a0a0a912(String str) {
+  public static String trim_x583g4_a0a0a0a0a0a0a0a0a812(String str) {
     return (str == null ? null : str.trim());
   }
 }

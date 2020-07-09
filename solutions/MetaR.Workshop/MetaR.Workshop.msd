@@ -12,6 +12,7 @@
     <dependency reexport="false">8e2c4123-1984-45f0-81f5-0fd1ae49bd40(DocModels)</dependency>
     <dependency reexport="false">9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)</dependency>
     <dependency reexport="false">fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.instantrefresh.plugin)</dependency>
+    <dependency reexport="false">8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
@@ -78,6 +79,7 @@
     <module reference="d99339ed-76f8-45c0-bf5f-697b98ae6a17(org.campagnelab.editor.listeners.plugin)" version="0" />
     <module reference="95951e17-c0d6-47b9-b1b5-42a4ca186fc6(org.campagnelab.instantrefresh)" version="0" />
     <module reference="fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.instantrefresh.plugin)" version="0" />
+    <module reference="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" version="0" />
     <module reference="3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)" version="1" />
     <module reference="7eba6a28-4cc2-47b9-a392-284573f2054a(org.campagnelab.metar.R.access)" version="0" />
     <module reference="837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)" version="0" />

@@ -17,13 +17,8 @@ Extending MetaR
 
 
 In order to extend MetaR with new functionality you can follow these steps:
-<<<<<<< HEAD
-1. Create an empty MPS project (see the first few chapters of the MPS Language Workbench book, available here http://books.campagnelab.org).
-2. Create a new language in this project. Call it anything you like, but make sure to use an inverted domain name prefix (e.g., we use org.campagnelab because our lab owns the campagnelab.org domain). We'll assume you called the new language edu.mydomain.metar.extension.
-3. Add the org.campagnelab.metar.tables language to the new language you created. You should add it in the Dependencies tab of edu.mydomain.metar.extension. Again, see the book preview to learn how to do this. Set the type of dependency as extend (because you want to extend MetaR).
-=======
 
-1. Create an empty MPS project (see the first few chapters of the MPS Language Workbench book, available here http://books.campagnelab.org).
+1. Create an empty MPS project (see the first few chapters of the MPS Language Workbench book, available here https://metar-languages.github.io/MetaR/booklet/MetaR_booklet.pdf).
 
 2. Create a new language in this project. Call it anything you like, but make sure to use an inverted domain name prefix (e.g., we use org.campagnelab because our lab owns the campagnelab.org domain). We'll assume you called the new language edu.mydomain.metar.extension.
 
@@ -38,7 +33,7 @@ If you want to fix a bug in the existing code:
 
 1. you need to clone the MetaR repository. You can do this as usual from GitHub:
 
-    git clone git@github.com:CampagneLaboratory/MetaR.git
+    git clone git@github.com:MetaR-Languages/MetaR.git
 
 
 2. Proceed to open the project in MPS (we provide the .mps folder that describes the project for MPS).

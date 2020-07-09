@@ -137,32 +137,22 @@
                   <node concept="Xl_RD" id="6NqfZIYayfN" role="3uHU7w">
                     <property role="Xl_RC" value="\&quot;" />
                   </node>
-                  <node concept="3cpWs3" id="6NqfZIYavTB" role="3uHU7B">
+                  <node concept="3cpWs3" id="3a8D6Umc9kl" role="3uHU7B">
                     <node concept="3cpWs3" id="6NqfZIYav6h" role="3uHU7B">
-                      <node concept="2OqwBi" id="6NqfZIYapGw" role="3uHU7B">
-                        <node concept="2OqwBi" id="6NqfZIYap66" role="2Oq$k0">
-                          <node concept="3TrEf2" id="6NqfZIYapoo" role="2OqNvi">
-                            <ref role="3Tt5mk" to="ifby:7vFZP$95Chx" resolve="futureTable" />
-                          </node>
-                          <node concept="30H73N" id="6NqfZIYap6a" role="2Oq$k0" />
-                        </node>
-                        <node concept="2qgKlT" id="52J4nYvA7gF" role="2OqNvi">
-                          <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
+                      <node concept="2OqwBi" id="2aHUCxR0V61" role="3uHU7B">
+                        <node concept="30H73N" id="3a8D6Umbqsb" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="2aHUCxR0VVU" role="2OqNvi">
+                          <ref role="3TsBF5" to="ifby:2aHUCxR0MW_" resolve="tableName" />
                         </node>
                       </node>
                       <node concept="Xl_RD" id="6NqfZIYavdA" role="3uHU7w">
                         <property role="Xl_RC" value="$\&quot;" />
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="6NqfZIYax3h" role="3uHU7w">
-                      <node concept="2OqwBi" id="6NqfZIYawaS" role="2Oq$k0">
-                        <node concept="30H73N" id="6NqfZIYaw3t" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="6NqfZIYawG9" role="2OqNvi">
-                          <ref role="3Tt5mk" to="ifby:4eN5Nwy$_eu" resolve="column" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="6NqfZIYaxB8" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    <node concept="2OqwBi" id="2aHUCxR0SyS" role="3uHU7w">
+                      <node concept="30H73N" id="2aHUCxR0SaR" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="2aHUCxR0Txm" role="2OqNvi">
+                        <ref role="3TsBF5" to="ifby:2aHUCxR0MWw" resolve="columnName" />
                       </node>
                     </node>
                   </node>
