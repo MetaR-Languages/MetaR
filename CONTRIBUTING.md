@@ -1,7 +1,7 @@
 Interested in contributing to MetaR?
 ====================================
 
-Let us know so that we can provide advice about getting started. This page provides some pointers so that you can get oriented, but we will be able to tell you more about the current directions of the project and may be able to suggest how you can save time. Please post to the user forum since the development team is monitoring it: https://groups.google.com/forum/#!forum/metar-users
+Let us know so that we can provide advice about getting started. This page provides some pointers so that you can get oriented, but we will be able to tell you more about the current directions of the project and may be able to suggest how you can save time.
 
 First Steps
 ===========
@@ -14,7 +14,6 @@ You will only need to clone the project from GitHub if you have discovered an is
 
 Extending MetaR
 ===============
-
 
 In order to extend MetaR with new functionality you can follow these steps:
 
@@ -43,7 +42,3 @@ If you want to fix a bug in the existing code:
 4. Select the first solution below 'build.plugins' including everything but the blue devkit at the bottom (in the Project Tab, if you don't know about the project tab, you should really read the first chapters of my MPS book).
 
 5. Right click and select Rebuild. This should start the compilation. Note that MetaR may include some bootstrap dependencies. We are trying to remove them, but depending when you clone the project we might still have some. If you see that only a subset of languages compile successfully the first time to you rebuild, select the remaining languages (or the whole block again), and invoke build to compile the rest of the languages. This should finish the build. If you have trouble with the first build, do not hesitate to contact us for help. 
-
-
-
-
