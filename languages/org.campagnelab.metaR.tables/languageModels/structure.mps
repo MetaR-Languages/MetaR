@@ -6686,8 +6686,8 @@
     <property role="EcuMT" value="2498911240107003927" />
     <property role="3GE5qa" value="operations" />
     <property role="TrG5h" value="MakeUppercase" />
-    <property role="34LRSv" value="uppercase" />
-    <property role="R4oN_" value="Make all Values uppercase" />
+    <property role="34LRSv" value="make uppercase" />
+    <property role="R4oN_" value="Make all values uppercase" />
     <ref role="1TJDcQ" node="3qa402_4D5K" resolve="TableOperation" />
     <node concept="1TJgyj" id="2aHUCxRNL0o" role="1TKVEi">
       <property role="IQ2ns" value="2498911240107003928" />
