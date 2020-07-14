@@ -1973,6 +1973,11 @@
             <ref role="3bR37D" to="65bo:3OwSMscq8aw" resolve="org.campagnelab.util" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2qXnsDNqrvg" role="3bR37C">
+          <node concept="3bR9La" id="2qXnsDNqrvh" role="1SiIV1">
+            <ref role="3bR37D" node="2FRBm0AyRm" resolve="org.campagnelab.metar.R.access" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7kcXEwbGvIl" role="2G$12L">
         <property role="BnDLt" value="true" />
