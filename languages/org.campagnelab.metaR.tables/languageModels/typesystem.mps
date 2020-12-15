@@ -1517,7 +1517,7 @@
                     <node concept="2Rf3mk" id="2AV3DmhaPpU" role="2OqNvi">
                       <node concept="1xMEDy" id="2AV3DmhaPpW" role="1xVPHs">
                         <node concept="chp4Y" id="2AV3Dmhb7vw" role="ri$Ld">
-                          <ref role="cht4Q" to="jrxw:2WRhvFtLNDM" resolve="SelectByGroup" />
+                          <ref role="cht4Q" to="jrxw:2WRhvFtLNDM" resolve="SelectByLabel" />
                         </node>
                       </node>
                     </node>
@@ -1752,7 +1752,7 @@
             <node concept="2Rf3mk" id="7O$514qHxMH" role="2OqNvi">
               <node concept="1xMEDy" id="7O$514qHxMJ" role="1xVPHs">
                 <node concept="chp4Y" id="7O$514qHy2a" role="ri$Ld">
-                  <ref role="cht4Q" to="jrxw:2WRhvFtLNDM" resolve="SelectByGroup" />
+                  <ref role="cht4Q" to="jrxw:2WRhvFtLNDM" resolve="SelectByLabel" />
                 </node>
               </node>
               <node concept="1xIGOp" id="7O$514qKwwq" role="1xVPHs" />
@@ -1760,7 +1760,7 @@
           </node>
           <node concept="A3Dl8" id="7O$514qHC8u" role="1tU5fm">
             <node concept="3Tqbb2" id="7O$514qHCaz" role="A3Ik2">
-              <ref role="ehGHo" to="jrxw:2WRhvFtLNDM" resolve="SelectByGroup" />
+              <ref role="ehGHo" to="jrxw:2WRhvFtLNDM" resolve="SelectByLabel" />
             </node>
           </node>
         </node>
@@ -2269,7 +2269,7 @@
     </node>
     <node concept="1YaCAy" id="2MUPwqpa1BQ" role="1YuTPh">
       <property role="TrG5h" value="groupAnnotation" />
-      <ref role="1YaFvo" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
+      <ref role="1YaFvo" to="jrxw:2MUPwqlH$YL" resolve="LabelAnnotation" />
     </node>
   </node>
   <node concept="18kY7G" id="3FhMZyFGpHG">

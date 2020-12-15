@@ -3187,7 +3187,7 @@
                   <ref role="1Pybhc" to="w1kc:~ModelAccess" resolve="ModelAccess" />
                 </node>
                 <node concept="liA8E" id="6g0lTWDvtxw" role="2OqNvi">
-                  <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runReadInEDT(java.lang.Runnable)" resolve="runReadInEDT" />
+                  <ref role="37wK5l" to="lui2:~ModelAccess.runReadInEDT(java.lang.Runnable)" resolve="runReadInEDT" />
                   <node concept="2ShNRf" id="6g0lTWDvtLx" role="37wK5m">
                     <node concept="YeOm9" id="6g0lTWDvTUA" role="2ShVmc">
                       <node concept="1Y3b0j" id="6g0lTWDvTUD" role="YeSDq">

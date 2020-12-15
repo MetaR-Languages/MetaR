@@ -549,7 +549,7 @@
       </node>
     </node>
     <node concept="37WvkG" id="1ul2Me81Wkn" role="37WGs$">
-      <ref role="37XkoT" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+      <ref role="37XkoT" to="jrxw:2WRhvFtICK7" resolve="ColumnLabelReference" />
       <node concept="37Y9Zx" id="1ul2Me81Wko" role="37ZfLb">
         <node concept="3clFbS" id="1ul2Me81Wkp" role="2VODD2">
           <node concept="2xdQw9" id="3hxBliK9IMG" role="3cqZAp">
@@ -673,11 +673,11 @@
                       </node>
                     </node>
                     <node concept="3Tsc0h" id="3BG_Bmp6GCS" role="2OqNvi">
-                      <ref role="3TtcxE" to="jrxw:2WRhvFtID48" resolve="groups" />
+                      <ref role="3TtcxE" to="jrxw:2WRhvFtID48" resolve="labels" />
                     </node>
                   </node>
                   <node concept="13MTOL" id="3BG_Bmp6HQ1" role="2OqNvi">
-                    <ref role="13MTZf" to="jrxw:2WRhvFtICK8" resolve="columnGroup" />
+                    <ref role="13MTZf" to="jrxw:2WRhvFtICK8" resolve="columnLabel" />
                   </node>
                 </node>
                 <node concept="1z4cxt" id="3BG_Bmp6IKO" role="2OqNvi">
@@ -736,7 +736,7 @@
               <node concept="2OqwBi" id="6QtBXc9ke1m" role="2Oq$k0">
                 <node concept="1r4Lsj" id="6QtBXc9kdYe" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="6QtBXc9ke97" role="2OqNvi">
-                  <ref role="3TtcxE" to="jrxw:7LvyiX3EFhZ" resolve="transformations" />
+                  <ref role="3TtcxE" to="jrxw:7LvyiX3EFhZ" resolve="statements" />
                 </node>
               </node>
               <node concept="2DeJg1" id="6QtBXc9kjWJ" role="2OqNvi">

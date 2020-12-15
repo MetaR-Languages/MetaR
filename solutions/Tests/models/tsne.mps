@@ -130,12 +130,12 @@
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
       <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
-      <concept id="3223123807106912177" name="org.campagnelab.metar.tables.structure.GroupAnnotation" flags="ng" index="2T39AR">
+      <concept id="3223123807106912177" name="org.campagnelab.metar.tables.structure.LabelAnnotation" flags="ng" index="2T39AR">
         <reference id="3223123807155032384" name="useCovariate" index="2Ob$t6" />
         <reference id="3223123807127702409" name="table" index="2UilQf" />
       </concept>
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
-        <child id="8962032619582305407" name="transformations" index="ZXjPg" />
+        <child id="8962032619582305407" name="statements" index="ZXjPg" />
       </concept>
       <concept id="3105090771424833148" name="org.campagnelab.metar.tables.structure.PlotRef" flags="ng" index="312p7A">
         <reference id="3105090771424833149" name="plot" index="312p7B" />
@@ -171,14 +171,14 @@
       <concept id="3402264987259789239" name="org.campagnelab.metar.tables.structure.FutureTableRef" flags="ng" index="3MqhDd">
         <reference id="3402264987259798245" name="table" index="3Mqssv" />
       </concept>
-      <concept id="3402264987265829888" name="org.campagnelab.metar.tables.structure.ColumnGroupContainer" flags="ng" index="3MzsBU">
+      <concept id="3402264987265829888" name="org.campagnelab.metar.tables.structure.ColumnLabelContainer" flags="ng" index="3MzsBU">
         <child id="8031339867719794365" name="usages" index="2yEZeN" />
         <child id="3402264987265829889" name="groups" index="3MzsBV" />
       </concept>
       <concept id="3402264987265829895" name="org.campagnelab.metar.tables.structure.ColumnGroupReference" flags="ng" index="3MzsBX">
         <reference id="3402264987265829896" name="columnGroup" index="3MzsBM" />
       </concept>
-      <concept id="3402264987265829883" name="org.campagnelab.metar.tables.structure.ColumnGroup" flags="ng" index="3MzsS1">
+      <concept id="3402264987265829883" name="org.campagnelab.metar.tables.structure.ColumnLabel" flags="ng" index="3MzsS1">
         <child id="8031339867720116700" name="usesRefs" index="2y_Iji" />
       </concept>
       <concept id="3402264987265829804" name="org.campagnelab.metar.tables.structure.ColumnAnnotation" flags="ng" index="3MzsTm">
