@@ -1092,7 +1092,7 @@
     </node>
   </node>
   <node concept="312cEu" id="2MUPwqpuFZM">
-    <property role="TrG5h" value="GroupAnnotationTable" />
+    <property role="TrG5h" value="LabelAnnotationTable" />
     <node concept="2tJIrI" id="2MUPwqpuFZN" role="jymVt" />
     <node concept="2tJIrI" id="2MUPwqpuG00" role="jymVt" />
     <node concept="312cEg" id="2MUPwqpuG01" role="jymVt">
@@ -2161,7 +2161,7 @@
               <node concept="3cpWsn" id="2MUPwqppnzV" role="3cpWs9">
                 <property role="TrG5h" value="columnGroup" />
                 <node concept="3Tqbb2" id="2MUPwqppnzW" role="1tU5fm">
-                  <ref role="ehGHo" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
+                  <ref role="ehGHo" to="jrxw:2WRhvFtICJV" resolve="ColumnLabel" />
                 </node>
                 <node concept="2OqwBi" id="2MUPwqpsR3c" role="33vP2m">
                   <node concept="2OqwBi" id="2MUPwqpq6wf" role="2Oq$k0">
@@ -2255,7 +2255,7 @@
                   </node>
                   <node concept="3CFZ6_" id="2MUPwqpsVzL" role="2OqNvi">
                     <node concept="3CFYIy" id="2MUPwqpsWaJ" role="3CFYIz">
-                      <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
+                      <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="LabelAnnotation" />
                     </node>
                   </node>
                 </node>
@@ -2292,7 +2292,7 @@
                             </node>
                             <node concept="3CFZ6_" id="2MUPwqpJ0sZ" role="2OqNvi">
                               <node concept="3CFYIy" id="2MUPwqpJ12C" role="3CFYIz">
-                                <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
+                                <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="LabelAnnotation" />
                               </node>
                             </node>
                           </node>
@@ -2355,7 +2355,7 @@
           <node concept="3cpWsn" id="2734ievCLg6" role="3cpWs9">
             <property role="TrG5h" value="columnGroup" />
             <node concept="3Tqbb2" id="2734ievCLg7" role="1tU5fm">
-              <ref role="ehGHo" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
+              <ref role="ehGHo" to="jrxw:2WRhvFtICJV" resolve="ColumnLabel" />
             </node>
             <node concept="2OqwBi" id="2734ievCLg8" role="33vP2m">
               <node concept="2OqwBi" id="2734ievCLg9" role="2Oq$k0">
@@ -2434,7 +2434,7 @@
               </node>
               <node concept="3CFZ6_" id="2734ievIl2M" role="2OqNvi">
                 <node concept="3CFYIy" id="2734ievIl4l" role="3CFYIz">
-                  <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
+                  <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="LabelAnnotation" />
                 </node>
               </node>
             </node>
@@ -2451,7 +2451,7 @@
                       </node>
                       <node concept="3CFZ6_" id="2734ievDObF" role="2OqNvi">
                         <node concept="3CFYIy" id="2734ievDObG" role="3CFYIz">
-                          <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
+                          <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="LabelAnnotation" />
                         </node>
                       </node>
                     </node>

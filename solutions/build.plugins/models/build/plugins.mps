@@ -498,7 +498,7 @@
       <node concept="m$_yC" id="3xLH8OVIJuk" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4O0hKJpjIV3" resolve="jetbrains.mps.ide.devkit" />
       </node>
-      <node concept="m$_yC" id="2NA8L6KzDZx" role="m$_yJ">
+      <node concept="m$_yC" id="4AeC7WglfdO" role="m$_yJ">
         <ref role="m$_y1" to="hc0n:7twz7e84BNG" resolve="org.campagnelab.ANTLR" />
       </node>
       <node concept="m$_yC" id="2NA8L6KzDZD" role="m$_yJ">

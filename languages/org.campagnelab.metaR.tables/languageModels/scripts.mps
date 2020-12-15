@@ -197,14 +197,14 @@
     <node concept="_XfAh" id="6XP3gVdSYHR" role="_YvDr">
       <property role="_XH9r" value="Migrate Usages to References" />
       <property role="1iWc8x" value="true" />
-      <ref role="_XDHR" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
+      <ref role="_XDHR" to="jrxw:2WRhvFtICJV" resolve="ColumnLabel" />
       <node concept="_ZGcI" id="6XP3gVdSYHT" role="_XPhp">
         <node concept="3clFbS" id="6XP3gVdSYHV" role="2VODD2">
           <node concept="3cpWs8" id="6XP3gVdT4Bk" role="3cqZAp">
             <node concept="3cpWsn" id="6XP3gVdT4Bn" role="3cpWs9">
               <property role="TrG5h" value="container" />
               <node concept="3Tqbb2" id="6XP3gVdT4Bi" role="1tU5fm">
-                <ref role="ehGHo" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
+                <ref role="ehGHo" to="jrxw:2WRhvFtICK0" resolve="ColumnLabelContainer" />
               </node>
               <node concept="2OqwBi" id="6XP3gVdT65A" role="33vP2m">
                 <node concept="2OqwBi" id="6XP3gVdT4YK" role="2Oq$k0">
@@ -213,7 +213,7 @@
                     <node concept="I4A8Y" id="6XP3gVdT4OV" role="2OqNvi" />
                   </node>
                   <node concept="2RRcyG" id="6XP3gVdT58U" role="2OqNvi">
-                    <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
+                    <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnLabelContainer" />
                   </node>
                 </node>
                 <node concept="1uHKPH" id="6XP3gVdTaB1" role="2OqNvi" />
