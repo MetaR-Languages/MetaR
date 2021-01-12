@@ -15,7 +15,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.campagnelab.metar.simulation.behavior.CovariateFactor__BehaviorDescriptor;
-import org.campagnelab.metar.tables.behavior.GroupAnnotation__BehaviorDescriptor;
+import org.campagnelab.metar.tables.behavior.LabelAnnotation__BehaviorDescriptor;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.Objects;
 import org.campagnelab.metar.code.generator.helpers.NameHelper;
@@ -92,7 +92,7 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   public static Object propertyMacro_GetValue_1_9(final PropertyMacroContext _context) {
     final SNode annotation = CovariateFactor__BehaviorDescriptor.getGroupAnnotationWithCovariateFactor_id6m3kBexR9$u.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d6L, "continuousCovariate")));
-    if (!((boolean) GroupAnnotation__BehaviorDescriptor.isLoaded_id6m3kBey8_He.invoke(annotation))) {
+    if (!((boolean) LabelAnnotation__BehaviorDescriptor.isLoaded_id6m3kBey8_He.invoke(annotation))) {
       // populate the covariate table before reading the values. We do this  
       // in the generator because it may happen that the table in the continuosCovariate 
       // has been removed as userObject (e.g. cache was cleaned) 
@@ -104,7 +104,7 @@ public class QueriesGenerated extends QueryProviderBase {
       }
     }).select(new ISelector<SNode, String>() {
       public String select(SNode sample) {
-        return (String) GroupAnnotation__BehaviorDescriptor.valueForColumn_id2MUPwqpuu6x.invoke(annotation, SPropertyOperations.getString(sample, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+        return (String) LabelAnnotation__BehaviorDescriptor.valueForColumn_id2MUPwqpuu6x.invoke(annotation, SPropertyOperations.getString(sample, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
       }
     }), ",");
   }

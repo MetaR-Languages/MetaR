@@ -18799,7 +18799,7 @@
   </node>
   <node concept="13h7C7" id="3MLv1Ilcxv5">
     <property role="3GE5qa" value="reorderTable" />
-    <ref role="13h7C2" to="jrxw:3MLv1Ikst5K" resolve="OrderByGroups" />
+    <ref role="13h7C2" to="jrxw:3MLv1Ikst5K" resolve="OrderByLabel" />
     <node concept="13i0hz" id="3MLv1Is$Ao7" role="13h7CS">
       <property role="TrG5h" value="getScope" />
       <property role="2Ki8OM" value="false" />
@@ -18830,7 +18830,7 @@
         <node concept="2xdQw9" id="3hxBliKa6P8" role="3cqZAp">
           <property role="2xdLsb" value="info" />
           <node concept="Xl_RD" id="3MLv1IlXpbT" role="9lYJi">
-            <property role="Xl_RC" value="Call function ColumnGroup" />
+            <property role="Xl_RC" value="Call function ColumnLabel" />
           </node>
         </node>
         <node concept="3clFbH" id="1ul2Me96xxJ" role="3cqZAp" />
@@ -18859,12 +18859,12 @@
           <node concept="3cpWsn" id="7kUqYZCORp1" role="3cpWs9">
             <property role="TrG5h" value="tableColumnGroupsList" />
             <node concept="2I9FWS" id="7kUqYZCORp2" role="1tU5fm">
-              <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+              <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableLabel" />
             </node>
             <node concept="2ShNRf" id="7kUqYZCORp3" role="33vP2m">
               <node concept="2T8Vx0" id="7kUqYZCORp4" role="2ShVmc">
                 <node concept="2I9FWS" id="7kUqYZCORp5" role="2T96Bj">
-                  <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+                  <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableLabel" />
                 </node>
               </node>
             </node>
@@ -18895,7 +18895,7 @@
             <node concept="3clFbF" id="7kUqYZDnw9b" role="3cqZAp">
               <node concept="37vLTI" id="7kUqYZDnw9c" role="3clFbG">
                 <node concept="Xl_RD" id="7kUqYZDnw9d" role="37vLTx">
-                  <property role="Xl_RC" value="NoGroup" />
+                  <property role="Xl_RC" value="NoLabel" />
                 </node>
                 <node concept="2OqwBi" id="7kUqYZDnw9e" role="37vLTJ">
                   <node concept="37vLTw" id="7kUqYZDnw9f" role="2Oq$k0">
@@ -18944,12 +18944,12 @@
               <node concept="3cpWsn" id="1ul2Me96yZw" role="3cpWs9">
                 <property role="TrG5h" value="thisTableColumnGroup" />
                 <node concept="3Tqbb2" id="1ul2Me96yZx" role="1tU5fm">
-                  <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+                  <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableLabel" />
                 </node>
                 <node concept="2ShNRf" id="1ul2Me96yZy" role="33vP2m">
                   <node concept="3zrR0B" id="1ul2Me96yZz" role="2ShVmc">
                     <node concept="3Tqbb2" id="1ul2Me96yZ$" role="3zrR0E">
-                      <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+                      <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableLabel" />
                     </node>
                   </node>
                 </node>
@@ -19016,7 +19016,7 @@
                               </node>
                               <node concept="3y1jeu" id="1ul2Me96z03" role="2OqNvi">
                                 <node concept="Xl_RD" id="1ul2Me96z04" role="3y1jev">
-                                  <property role="Xl_RC" value="NoGroup" />
+                                  <property role="Xl_RC" value="NoLabel" />
                                 </node>
                               </node>
                             </node>
@@ -19040,7 +19040,7 @@
                     <ref role="3cqZAo" node="1ul2Me96yZw" resolve="thisTableColumnGroup" />
                   </node>
                   <node concept="3Tsc0h" id="1ul2Me96z0c" role="2OqNvi">
-                    <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnGroupsList" />
+                    <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnLabelsList" />
                   </node>
                 </node>
                 <node concept="TSZUe" id="1ul2Me96z0d" role="2OqNvi">
@@ -19174,7 +19174,7 @@
         </node>
         <node concept="3SKdUt" id="7kUqYZCVUW2" role="3cqZAp">
           <node concept="3SKdUq" id="7kUqYZCVW7h" role="3SKWNk">
-            <property role="3SKdUp" value="loop arround columns which have columnGroup" />
+            <property role="3SKdUp" value="loop arround columns which have columnLabel" />
           </node>
         </node>
         <node concept="2Gpval" id="7kUqYZCOSpA" role="3cqZAp">
@@ -19184,7 +19184,7 @@
           <node concept="3clFbS" id="7kUqYZCOSpE" role="2LFqv$">
             <node concept="3cpWs8" id="7kUqYZDp1Xb" role="3cqZAp">
               <node concept="3cpWsn" id="7kUqYZDp1Xc" role="3cpWs9">
-                <property role="TrG5h" value="groupName" />
+                <property role="TrG5h" value="labelName" />
                 <node concept="2hMVRd" id="7kUqYZDp1Xd" role="1tU5fm">
                   <node concept="17QB3L" id="7kUqYZDp1Xe" role="2hN53Y" />
                 </node>
@@ -19198,7 +19198,7 @@
             <node concept="3clFbF" id="7kUqYZDp1Xi" role="3cqZAp">
               <node concept="2OqwBi" id="7kUqYZDp1Xj" role="3clFbG">
                 <node concept="37vLTw" id="7kUqYZDp1Xk" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7kUqYZDp1Xc" resolve="groupName" />
+                  <ref role="3cqZAo" node="7kUqYZDp1Xc" resolve="labelName" />
                 </node>
                 <node concept="X8dFx" id="7kUqYZDp1Xl" role="2OqNvi">
                   <node concept="2OqwBi" id="7kUqYZDp1Xm" role="25WWJ7">
@@ -19290,9 +19290,9 @@
                               <ref role="3cqZAo" node="1ul2Me8Tgwu" resolve="it" />
                             </node>
                             <node concept="2qgKlT" id="1ul2Me8Tgws" role="2OqNvi">
-                              <ref role="37wK5l" node="7kUqYZCPBOi" resolve="CheckGroupName" />
+                              <ref role="37wK5l" node="7kUqYZCPBOi" resolve="CheckLabelName" />
                               <node concept="37vLTw" id="1ul2Me8Tgwt" role="37wK5m">
-                                <ref role="3cqZAo" node="7kUqYZDp1Xc" resolve="groupName" />
+                                <ref role="3cqZAo" node="7kUqYZDp1Xc" resolve="labelName" />
                               </node>
                             </node>
                           </node>
@@ -19372,7 +19372,7 @@
         </node>
       </node>
       <node concept="2I9FWS" id="3MLv1Ilcx_j" role="3clF45">
-        <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+        <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableLabel" />
       </node>
       <node concept="37vLTG" id="3MLv1ImxA0w" role="3clF46">
         <property role="TrG5h" value="enclosingNode" />
@@ -19491,12 +19491,12 @@
           <node concept="3cpWsn" id="7kUqYZCQS2L" role="3cpWs9">
             <property role="TrG5h" value="thisTableColumnGroup" />
             <node concept="3Tqbb2" id="7kUqYZCQS2M" role="1tU5fm">
-              <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+              <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableLabel" />
             </node>
             <node concept="2ShNRf" id="7kUqYZCQS2N" role="33vP2m">
               <node concept="3zrR0B" id="7kUqYZCQS2O" role="2ShVmc">
                 <node concept="3Tqbb2" id="7kUqYZCQS2P" role="3zrR0E">
-                  <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+                  <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableLabel" />
                 </node>
               </node>
             </node>
@@ -19509,7 +19509,7 @@
                 <ref role="3cqZAo" node="7kUqYZCQS2L" resolve="thisTableColumnGroup" />
               </node>
               <node concept="3Tsc0h" id="7kUqYZCQSU3" role="2OqNvi">
-                <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnGroupsList" />
+                <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnLabelsList" />
               </node>
             </node>
             <node concept="X8dFx" id="7kUqYZD4wzA" role="2OqNvi">
@@ -19527,7 +19527,7 @@
         <node concept="3clFbH" id="7kUqYZDmOxc" role="3cqZAp" />
       </node>
       <node concept="3Tqbb2" id="7kUqYZDmMGj" role="3clF45">
-        <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+        <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableLabel" />
       </node>
       <node concept="37vLTG" id="7kUqYZDmMGn" role="3clF46">
         <property role="TrG5h" value="column" />
@@ -19554,7 +19554,7 @@
                 <node concept="2OqwBi" id="1ul2Me7O9BN" role="2Oq$k0">
                   <node concept="13iPFW" id="1ul2Me7O9y7" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="1ul2Me7Oa2F" role="2OqNvi">
-                    <ref role="3TtcxE" to="jrxw:3MLv1IkOEK_" resolve="tableGroup" />
+                    <ref role="3TtcxE" to="jrxw:3MLv1IkOEK_" resolve="tableLabel" />
                   </node>
                 </node>
                 <node concept="3goQfb" id="1ul2Me7OD9z" role="2OqNvi">
@@ -19913,16 +19913,16 @@
   </node>
   <node concept="13h7C7" id="7kUqYZCPBOf">
     <property role="3GE5qa" value="reorderTable" />
-    <ref role="13h7C2" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+    <ref role="13h7C2" to="jrxw:3MLv1IkOE3z" resolve="TableLabel" />
     <node concept="13i0hz" id="7kUqYZCPBOi" role="13h7CS">
-      <property role="TrG5h" value="CheckGroupName" />
+      <property role="TrG5h" value="CheckLabelName" />
       <node concept="3Tm1VV" id="7kUqYZCPBOj" role="1B3o_S" />
       <node concept="3clFbS" id="7kUqYZCPBOk" role="3clF47">
         <node concept="3clFbH" id="7kUqYZCPM_W" role="3cqZAp" />
         <node concept="3clFbF" id="7kUqYZCPMKi" role="3cqZAp">
           <node concept="2OqwBi" id="7kUqYZCPN1V" role="3clFbG">
             <node concept="37vLTw" id="7kUqYZCPMKg" role="2Oq$k0">
-              <ref role="3cqZAo" node="7kUqYZCPBOv" resolve="groupName" />
+              <ref role="3cqZAo" node="7kUqYZCPBOv" resolve="labelName" />
             </node>
             <node concept="BjQpj" id="7kUqYZCPNGb" role="2OqNvi">
               <node concept="2OqwBi" id="7kUqYZCPSfn" role="25WWJ7">
@@ -19930,7 +19930,7 @@
                   <node concept="2OqwBi" id="7kUqYZCPNLP" role="2Oq$k0">
                     <node concept="13iPFW" id="7kUqYZCPNJ_" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="7kUqYZCPO3J" role="2OqNvi">
-                      <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnGroupsList" />
+                      <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnLabelsList" />
                     </node>
                   </node>
                   <node concept="13MTOL" id="7kUqYZCPQWd" role="2OqNvi">
@@ -19964,7 +19964,7 @@
       </node>
       <node concept="10P_77" id="7kUqYZCPBOq" role="3clF45" />
       <node concept="37vLTG" id="7kUqYZCPBOv" role="3clF46">
-        <property role="TrG5h" value="groupName" />
+        <property role="TrG5h" value="labelName" />
         <node concept="2hMVRd" id="7kUqYZCPBOt" role="1tU5fm">
           <node concept="17QB3L" id="7kUqYZCPBOD" role="2hN53Y" />
         </node>
@@ -20133,7 +20133,7 @@
                   <node concept="2OqwBi" id="1ul2Me8fjYL" role="2Oq$k0">
                     <node concept="13iPFW" id="1ul2Me8fjXh" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="1ul2Me8fk6l" role="2OqNvi">
-                      <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnGroupsList" />
+                      <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnLabelsList" />
                     </node>
                   </node>
                   <node concept="13MTOL" id="1ul2Me8flWT" role="2OqNvi">
@@ -20155,7 +20155,7 @@
                           </node>
                           <node concept="3y1jeu" id="1ul2Me8fpd6" role="2OqNvi">
                             <node concept="Xl_RD" id="1ul2Me8fpfT" role="3y1jev">
-                              <property role="Xl_RC" value="NoGroup" />
+                              <property role="Xl_RC" value="NoLabel" />
                             </node>
                           </node>
                         </node>
@@ -20237,7 +20237,7 @@
                                         <node concept="2OqwBi" id="5G_Qq66HHI2" role="2Oq$k0">
                                           <node concept="13iPFW" id="5G_Qq66HHwd" role="2Oq$k0" />
                                           <node concept="3Tsc0h" id="5G_Qq66HWP4" role="2OqNvi">
-                                            <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnGroupsList" />
+                                            <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnLabelsList" />
                                           </node>
                                         </node>
                                         <node concept="13MTOL" id="1ul2Me7wHIZ" role="2OqNvi">
@@ -20354,7 +20354,7 @@
                                         <node concept="2OqwBi" id="1ul2Me7vUip" role="25WWJ7">
                                           <node concept="13iPFW" id="1ul2Me7vUiq" role="2Oq$k0" />
                                           <node concept="3Tsc0h" id="1ul2Me7vUir" role="2OqNvi">
-                                            <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnGroupsList" />
+                                            <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnLabelsList" />
                                           </node>
                                         </node>
                                       </node>
@@ -20420,7 +20420,7 @@
               <node concept="2OqwBi" id="5G_Qq66GXeM" role="2Oq$k0">
                 <node concept="13iPFW" id="5G_Qq66GXaT" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="5G_Qq66GXmi" role="2OqNvi">
-                  <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnGroupsList" />
+                  <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" resolve="columnLabelsList" />
                 </node>
               </node>
               <node concept="13MTOL" id="5G_Qq679lDS" role="2OqNvi">
