@@ -470,7 +470,7 @@
       <ref role="20lvS9" node="2WRhvFtICK7" resolve="ColumnLabelReference" />
     </node>
     <node concept="M6xJ_" id="2WRhvFtJ4GL" role="lGtFl">
-      <property role="Hh88m" value="groups" />
+      <property role="Hh88m" value="labels" />
       <node concept="tn0Fv" id="2WRhvFtJ4GO" role="HhnKV">
         <property role="tnX3d" value="false" />
       </node>
@@ -2474,7 +2474,7 @@
   </node>
   <node concept="1TIwiD" id="3MLv1IkOE3z">
     <property role="3GE5qa" value="reorderTable" />
-    <property role="TrG5h" value="TableGroup" />
+    <property role="TrG5h" value="TableLabel" />
     <property role="EcuMT" value="4373413171056255203" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3MLv1IrLBWm" role="1TKVEi">
@@ -2487,7 +2487,7 @@
     </node>
     <node concept="1TJgyj" id="7kUqYZCOCMl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="columnGroupsList" />
+      <property role="20kJfa" value="columnLabelsList" />
       <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="8447182729234254997" />
       <ref role="20lvS9" node="2WRhvFtICK7" resolve="ColumnLabelReference" />
@@ -2495,16 +2495,16 @@
   </node>
   <node concept="1TIwiD" id="3MLv1Ikst5K">
     <property role="3GE5qa" value="reorderTable" />
-    <property role="TrG5h" value="OrderByGroups" />
+    <property role="TrG5h" value="OrderByLabel" />
     <property role="34LRSv" value="groups" />
     <property role="EcuMT" value="4373413171049910640" />
     <ref role="1TJDcQ" node="pr6WGx0Ejz" resolve="OrderBy" />
     <node concept="1TJgyj" id="3MLv1IkOEK_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="tableGroup" />
+      <property role="20kJfa" value="tableLabel" />
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="4373413171056258085" />
-      <ref role="20lvS9" node="3MLv1IkOE3z" resolve="TableGroup" />
+      <ref role="20lvS9" node="3MLv1IkOE3z" resolve="TableLabel" />
     </node>
     <node concept="PrWs8" id="3MLv1Is$z$E" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
