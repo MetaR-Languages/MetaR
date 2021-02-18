@@ -234,7 +234,11 @@
     <node concept="2kB4xC" id="4RSqyaA6FWL" role="1l3spd">
       <property role="TrG5h" value="reference_commit" />
       <node concept="aVJcg" id="1t506cUr8Sv" role="aVJcv">
-        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq" />
+        <node concept="NbPM2" id="1t506cUr8Su" role="aVJcq">
+          <node concept="3Mxwew" id="6uJ7j5lZdW7" role="3MwsjC">
+            <property role="3MwjfP" value="d15ba041a322818e40cdab9ea54b8d4ea13b6fdd" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2kB4xC" id="4RSqyaA6G6g" role="1l3spd">
