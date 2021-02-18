@@ -27,7 +27,7 @@ import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.generator.template.TemplateVarContext;
-import org.campagnelab.metar.tables.behavior.ColumnGroup__BehaviorDescriptor;
+import org.campagnelab.metar.tables.behavior.ColumnLabel__BehaviorDescriptor;
 import java.util.Map;
 import jetbrains.mps.generator.impl.query.SourceNodeQuery;
 import java.util.HashMap;
@@ -331,7 +331,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return (String) ISaveRVariableInSession__BehaviorDescriptor.getVariableName_id52J4nYvd$7N.invoke(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe6c108c300094034L, 0xb684c506814ba197L, 0x34ed91dae4a675b5L, 0x34ed91dae4a675bcL, "statsTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd5e5fb7L, 0x2f3745fadd5e82e5L, "table")));
   }
   public static Object varMacro_Value_1_1(final TemplateVarContext _context) {
-    return "\"" + SPropertyOperations.getString(Sequence.fromIterable(ColumnGroup__BehaviorDescriptor.getColumnsWithGroup_id4WAdMLdBOXH.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0xe6c108c300094034L, 0xb684c506814ba197L, 0x34ed91dae4a675b5L, 0x39af1051e0a6b9c6L, "geneName")), SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe6c108c300094034L, 0xb684c506814ba197L, 0x34ed91dae4a675b5L, 0x34ed91dae4a675bcL, "statsTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd5e5fb7L, 0x2f3745fadd5e82e5L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")))).first(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + "\"";
+    return "\"" + SPropertyOperations.getString(Sequence.fromIterable(ColumnLabel__BehaviorDescriptor.getColumnsWithGroup_id4WAdMLdBOXH.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0xe6c108c300094034L, 0xb684c506814ba197L, 0x34ed91dae4a675b5L, 0x39af1051e0a6b9c6L, "geneName")), SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe6c108c300094034L, 0xb684c506814ba197L, 0x34ed91dae4a675b5L, 0x34ed91dae4a675bcL, "statsTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd5e5fb7L, 0x2f3745fadd5e82e5L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")))).first(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + "\"";
   }
   public static Object varMacro_Value_6_0(final TemplateVarContext _context) {
     return (String) ISaveRVariableInSession__BehaviorDescriptor.getVariableName_id52J4nYvd$7N.invoke(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe6c108c300094034L, 0xb684c506814ba197L, 0x4b25f265ae347d9cL, 0x4b25f265ae347d9fL, "statsTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd5e5fb7L, 0x2f3745fadd5e82e5L, "table")));
